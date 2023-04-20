@@ -1,0 +1,121 @@
+@import "variables.less";
+@import "normalize-3.0.2.less";
+@import "functions.less";
+@import "fontawesome/font-awesome.less";
+
+* {
+	box-sizing: border-box
+}
+
+body {
+	color: @text-color;
+	font: 0.875em / 1.5em @font;
+}
+a {
+	text-decoration: none;
+	color: darken(@theme-color, 20%);
+}
+
+@font-face {
+	font-family: 'Press Start 2P';
+	font-weight: 400;
+	font-style: normal;
+	src: local('Press Start 2P'), local('Press-Start-2P-regular'), url('../../font/Press-Start-2P-regular.eot'), url('../../font/Press-Start-2P-regular.woff2') format('woff2'), url('../../font/Press-Start-2P-regular.woff') format('woff'), url('../../font/Press-Start-2P-regular.ttf') format('truetype'), url('../../font/Press-Start-2P-regular.svg') format('svg');
+}
+
+@import "structure.less";
+@import "banner.less";
+@import "menu.less";
+@import "code.less";
+@import "article.less";
+@import "form.less";
+@import "gallery.less";
+
+.side {
+	& > div {
+		margin-top: 3em;
+	}
+
+	h1 {
+		text-align: center;
+		background-color: @theme-grey;
+		border-bottom: @theme-border-color solid @theme-border-width;
+		padding: 1em 0;
+		font-family: @font-alternate;
+		font-size: 1em;
+	}
+
+	.lastcomment {
+		ul {
+			list-style: none;
+			padding: 0;
+			li {
+				padding: 0 0 .5em;
+			}
+		}
+	}
+}
+
+footer.footer {
+	.container {
+		margin-top: 4em;
+		min-height: 8em;
+		background-color: @theme-dark;
+		border-top: @theme-border-width solid @theme-grey;
+		color: @theme-grey;
+		span {
+			text-align: center;
+			display: block;
+			a[title="PureIoCss"] sub {
+				bottom: -0.5em;
+				font-size: xx-small;
+			}
+			a[title="Less"] small {
+				font-size: x-small;
+			}
+			a[title="CommonMark"] {
+				border : 1px solid;
+				border-radius: 2px;
+				padding: 0 1px;
+				font-size: small;
+				font-weight: bold;
+				i {
+					font-size: x-small;
+				}
+			}
+		}
+	}
+}
+
+.hidden {
+	display: none;
+}
+
+.e404, .e405 {
+	margin-top: 7em;
+	text-align: center;
+	H1 {
+		font-family: @font-alternate;
+		color: @theme-color;
+		font-size: 8em;
+	}
+}
+
+.fa.fa-star-5:before {
+	content: "\f005\f005\f005\f005\f005";
+}
+.fa.fa-star-4:before {
+	content: "\f005\f005\f005\f005\f006";
+}
+.fa.fa-star-3:before {
+	content: "\f005\f005\f005\f006\f006";
+}
+.fa.fa-star-2:before {
+	content: "\f005\f005\f006\f006\f006";
+}
+.fa.fa-star-1:before {
+	content: "\f005\f006\f006\f006\f006";
+}
+.fa.fa-star-0:before {
+	content: "\f006\f006\f006\f006\f006";
+}

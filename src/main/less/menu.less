@@ -1,0 +1,161 @@
+
+@menu-color : @theme-border-color;
+@menu-background-color : @theme-grey;
+@menu-aletrnate-color : @theme-color;
+@menu-underline-width : @theme-border-width;
+
+nav.main-menu {
+	margin: 0;
+	padding: 0;
+	border-bottom: @menu-underline-width solid @menu-color;
+	background-color: @menu-background-color;
+	float: left;
+	position: relative;
+	width: 100%;
+	ul, li, li a  {
+		-moz-transition: all 450ms ease-in-out 0s;
+		-ms-transition: all 450ms ease-in-out 0s;
+		-o-transition: all 450ms ease-in-out 0s;
+		-webkit-transition: all 450ms ease-in-out 0s;
+		transition: all 450ms ease-in-out 0s;
+	}
+
+	& > a {
+		display: none;
+		span {
+			float: right;
+			line-height: 49px;
+		}
+	}
+
+	ul {
+		list-style: none outside none;
+		margin: 0;
+		padding: 0;
+		li {
+			float: left;
+			text-align: left;
+			&.open ul {
+				display: block;
+				opacity:1;
+				visibility: visible;
+			}
+
+			&.active > a {
+				background-color: @menu-color;
+				color: #FFFFFF;
+			}
+
+			a {
+				display: block;
+				text-decoration: none;
+				white-space: normal;
+				color: @menu-color;
+				font-size: 1.3em;
+				line-height: 49px;
+				padding: 0 15px;
+				text-transform: uppercase;
+				&:hover {
+					background-color: @menu-aletrnate-color;
+					color: #FFFFFF;
+				}
+			}
+		}
+
+		ul {
+			background-color: #FFFFFF;
+			box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+			color: @menu-color;
+			visibility: hidden;
+			position: absolute;
+			margin: @menu-underline-width 0 0 0;
+			padding: 10px 0;
+			left: 0;
+			right: 0;
+			opacity:0;
+			.auto-width (li , 5);
+			z-index: 1;
+			li {
+				display: inline-block;
+				vertical-align: top;
+				padding: 10px 1px;
+				a {
+					color: #777777;
+					font-size: 1.3em;
+					@media all and (min-width: @min-sm) {
+						line-height: 20px;
+					}
+
+					&:hover {
+						color: @menu-aletrnate-color;
+						background: none;
+					}
+				}
+			}
+
+			ul {
+				box-shadow: none;
+				position: relative;
+				padding: 0;
+				li {
+					display: block;
+					width: 100% ! important;
+					padding: 0 0 0 8px;
+					float: none;
+					&:hover {
+						padding-left: 15px;
+					}
+
+					a {
+						@media all and (min-width: @min-sm) {
+							font-size: 1em;
+							text-transform: none;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media all and (max-width: @max-xs) {
+		& > a {
+			display: block;
+			text-decoration: none;
+			white-space: normal;
+			color: @menu-color;
+			font-size: 1.3em;
+			line-height: 49px;
+			padding: 0 15px;
+			text-transform: uppercase;
+			&:hover {
+				background-color: @menu-aletrnate-color;
+				color: #FFFFFF;
+			}
+		}
+		
+		& > ul {
+			display : none;
+		}
+		
+		&.open > ul {
+			display : block;
+		}
+
+		ul li {
+			float: none
+		}
+
+		ul ul {
+			display : none;
+			position: relative;
+			margin: 0;
+			padding: 0;
+			li {
+				width: 100% ! important;
+				display: block;
+				padding: 0;
+			}
+		}
+	}
+}
+

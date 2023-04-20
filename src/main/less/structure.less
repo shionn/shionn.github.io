@@ -1,0 +1,60 @@
+@import "variables.less";
+
+.container {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	@media (min-width: @min-sm) {
+		max-width: 750px;
+	}
+
+	@media (min-width: @min-md) {
+		max-width: 970px;
+	}
+
+	@media (min-width: @min-lg) {
+		max-width: 1170px;
+	}
+
+	.main {
+		padding: 0 1.5em;
+		@media (min-width: @min-sm) {
+			padding-left : 0;
+			width: 70%;
+			float: left;
+		}
+
+		@media (min-width: @min-md) {
+			width: 75%;
+		}
+
+		@media (min-width: @min-lg) {
+			width: 80%;
+		}
+	}
+
+	.side {
+		padding: 0 1.5em;
+		@media (min-width: @min-sm) {
+			padding: 0;
+			width: 30%;
+			float: left;
+		}
+
+		@media (min-width: @min-md) {
+			width: 25%;
+		}
+
+		@media (min-width: @min-lg) {
+			width: 20%;
+		}
+	}
+
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+	
+}
