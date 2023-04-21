@@ -1,6 +1,9 @@
 package blog.generator;
 
-import java.util.Arrays;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Menu {
@@ -8,48 +11,69 @@ public class Menu {
 	private String name;
 	private String path;
 	private List<Menu> childrens;
+	private Menu parent;
 
-	public Menu(String name, String path, Menu... childrens) {
+	public Menu(String name, String path, Menu parent) {
 		this.name = name;
 		this.path = path;
-		this.childrens = Arrays.asList(childrens);
+		this.parent = parent;
+		this.childrens = new ArrayList<Menu>();
 	}
 
-	public static Menu build() {
-		return new Menu("root", "index", //
-				new Menu("Accueil", "index"), //
-				new Menu("Radiomodélisme", "category/radiomodelisme", //
-						new Menu("Mes Bolides", "page/mes-bolides", //
-								new Menu("3Racing F109", "category/3racing-f109"),
-								new Menu("3Racing Sakura D3", "category/3racing-sakura-d3"),
-								new Menu("Axial SCX F-150", "category/axial-scx-f-150"),
-								new Menu("Camion RC Rally Man", "category/camion-rc-rally-man"),
-								new Menu("Durango DESC210", "category/durango-desc210"),
-								new Menu("Tamiya F104 VerII Pro", "category/tamiya-f104-verii-pro"),
-								new Menu("Tamiya Scania R470", "category/tamiya-scania-r470"),
-								new Menu("Tamiya TA02T", "category/tamiya-ta02t"),
-								new Menu("Tamiya TB03VDS", "category/tamiya-tb-03-vds"),
-								new Menu("TeamC TC02", "category/teamc-tc02"),
-								new Menu("3Racing F109", "category/3racing-f109"),
-								new Menu("3Racing F109", "category/3racing-f109"),
-								new Menu("3Racing F109", "category/3racing-f109"),
-								new Menu("3Racing F109", "category/3racing-f109"),
-								new Menu("3Racing F109", "category/3racing-f109")),
-						new Menu("Test Matos RC", "category/test-materiel-rc",
-								new Menu("Servo PowerHD 1207TG", "pages/servo-powerhd-1207tg"),
-								new Menu("Team Magic Touring Car Bag & Transmitter",
-										"pages/team-magic-touring-car-bag-transmitter-review")),
-						new Menu("Tutoriels", "pages/radiomodelisme-tutoriel",
-								new Menu("Entretiens d’un différentiel à bille",
-										"pages/entretien-differentiel-a-bille"),
-								new Menu("Fabrication d’insert", "pages/tutorial-fabrication-d-insert"),
-								new Menu("Intégrer le bec sur un TEU104Bk",
-										"pages/tutoriel-integrer-le-bec-sur-un-teu104bk")),
-						new Me
+	public static Menu build() throws IOException {
+		Menu root = new Menu("root", "index", null);
+		Menu parent = root;
+		try (BufferedReader reader = new BufferedReader(new InputStreamReader(
+				Thread.currentThread().getContextClassLoader().getResourceAsStream("menu.txt")))) {
+			String line = reader.readLine();
+			while (line != null) {
+				if (deep(line) > parent.deep()) {
+					parent = parent.childrens.get(parent.childrens.size() - 1);
+				}
+				while (deep(line) < parent.deep()) {
+					parent = parent.parent;
+				}
+				line = line.strip();
+				parent.add(new Menu(line.split("\\t")[1], line.split("\\t")[0], parent));
+				line = reader.readLine();
+			}
+		}
+		return root;
+	}
 
+	private int deep() {
+		if (parent == null) {
+			return 0;
+		}
+		return parent.deep() + 1;
+	}
 
+	private void add(Menu child) {
+		this.childrens.add(child);
+	}
 
-						));
+	private static int deep(String line) {
+		if (line.charAt(0) == '\t') {
+			return deep(line.substring(1)) + 1;
+		}
+		return 0;
+	}
+
+	@Override
+	public String toString() {
+		return "Menu [name=" + name + ", path=" + path + "]";
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getPath() {
+		return path;
+	}
+
+	public List<Menu> getChildrens() {
+		return childrens;
 	}
 
 }

@@ -23,15 +23,16 @@ public class Generator {
 		engine.process("template", buildContext(), new FileWriter("site/index.html"));
 	}
 
-	private Context buildContext() {
+	private Context buildContext() throws IOException {
 		Context context = new Context(Locale.FRANCE, buildParam());
 		context.setVariable("test", "ceci est une variable");
 		return context;
 	}
 
-	private Map<String, Object> buildParam() {
+	private Map<String, Object> buildParam() throws IOException {
 		Map<String, Object> param = new HashMap<String, Object>();
 		param.put("test", "ceci est un test");
+		param.put("menu", Menu.build());
 		return param;
 	}
 
