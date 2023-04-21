@@ -7,6 +7,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 </head>
 <body>
-<span th:text="${test}">truc essai</span>
+	<header class="container">
+		<div class="banner">
+			<h1>
+				<a href="/index.html">Shionn::Blog()</a>
+			</h1>
+			<h2>Pourquoi ? Pourquoi pas ?</h2>
+		</div>
+		<nav class="main-menu" role="navigation" >
+			<a href="#">Shionn::Blog()<span class="fa fa-2 fa-bars"></span></a>
+			<ul th:replace="~{menu :: menu}"></ul>
+		</nav>
+	</header>
 </body>
 </html>
