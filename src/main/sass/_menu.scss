@@ -1,14 +1,14 @@
 
-@menu-color : @theme-border-color;
-@menu-background-color : @theme-grey;
-@menu-aletrnate-color : @theme-color;
-@menu-underline-width : @theme-border-width;
+$menu-color : $theme-border-color;
+$menu-background-color : $theme-grey;
+$menu-aletrnate-color : $theme-color;
+$menu-underline-width : $theme-border-width;
 
 nav.main-menu {
 	margin: 0;
 	padding: 0;
-	border-bottom: @menu-underline-width solid @menu-color;
-	background-color: @menu-background-color;
+	border-bottom: $menu-underline-width solid $menu-color;
+	background-color: $menu-background-color;
 	float: left;
 	position: relative;
 	width: 100%;
@@ -42,7 +42,7 @@ nav.main-menu {
 			}
 
 			&.active > a {
-				background-color: @menu-color;
+				background-color: $menu-color;
 				color: #FFFFFF;
 			}
 
@@ -50,13 +50,13 @@ nav.main-menu {
 				display: block;
 				text-decoration: none;
 				white-space: normal;
-				color: @menu-color;
+				color: $menu-color;
 				font-size: 1.3em;
 				line-height: 49px;
 				padding: 0 15px;
 				text-transform: uppercase;
 				&:hover {
-					background-color: @menu-aletrnate-color;
+					background-color: $menu-aletrnate-color;
 					color: #FFFFFF;
 				}
 			}
@@ -65,15 +65,15 @@ nav.main-menu {
 		ul {
 			background-color: #FFFFFF;
 			box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-			color: @menu-color;
+			color: $menu-color;
 			visibility: hidden;
 			position: absolute;
-			margin: @menu-underline-width 0 0 0;
+			margin: $menu-underline-width 0 0 0;
 			padding: 10px 0;
 			left: 0;
 			right: 0;
 			opacity:0;
-			.auto-width (li , 5);
+			//.auto-width (li , 5);
 			z-index: 1;
 			li {
 				display: inline-block;
@@ -82,12 +82,12 @@ nav.main-menu {
 				a {
 					color: #777777;
 					font-size: 1.3em;
-					@media all and (min-width: @min-sm) {
+					@media all and (min-width: $min-sm) {
 						line-height: 20px;
 					}
 
 					&:hover {
-						color: @menu-aletrnate-color;
+						color: $menu-aletrnate-color;
 						background: none;
 					}
 				}
@@ -107,7 +107,7 @@ nav.main-menu {
 					}
 
 					a {
-						@media all and (min-width: @min-sm) {
+						@media all and (min-width: $min-sm) {
 							font-size: 1em;
 							text-transform: none;
 						}
@@ -117,26 +117,26 @@ nav.main-menu {
 		}
 	}
 
-	@media all and (max-width: @max-xs) {
+	@media all and (max-width: $max-xs) {
 		& > a {
 			display: block;
 			text-decoration: none;
 			white-space: normal;
-			color: @menu-color;
+			color: $menu-color;
 			font-size: 1.3em;
 			line-height: 49px;
 			padding: 0 15px;
 			text-transform: uppercase;
 			&:hover {
-				background-color: @menu-aletrnate-color;
+				background-color: $menu-aletrnate-color;
 				color: #FFFFFF;
 			}
 		}
-		
+
 		& > ul {
 			display : none;
 		}
-		
+
 		&.open > ul {
 			display : block;
 		}

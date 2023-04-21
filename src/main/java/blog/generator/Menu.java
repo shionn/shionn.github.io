@@ -69,7 +69,7 @@ public class Menu {
 	}
 
 	public String getPath() {
-		return path;
+		return path + ".html";
 	}
 
 	public List<Menu> getChildrens() {

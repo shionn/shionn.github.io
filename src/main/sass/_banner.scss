@@ -1,33 +1,33 @@
 header .banner {
 	display: none;
 	text-align: center;
-	@media (min-width: @min-sm) {
+	@media (min-width: $min-sm) {
 		display: inherit;
 	}
 	h1 {
-		font-family: @font-alternate;
+		font-family: $font-alternate;
 		font-size: 2em;
 		padding:15px 0 8px;
 		a {
-			color : @text-color;
+			color : $text-color;
 		}
 		&:before {
 			content : '{';
 			font-size: 2em;
 			vertical-align:middle;
-			color: @theme-color;
+			color: $theme-color;
 			margin-right : -15px;
 		}
 		&:after {
 			content : '}';
 			font-size: 2em;
 			vertical-align:middle;
-			color: @theme-color;
+			color: $theme-color;
 			margin-left : -15px;
 		}
 	}
 	h2 {
 		font-size : 0.8em;
-		color: darken(@theme-color,20%);
+		color: darken($theme-color,20%);
 	}
 }

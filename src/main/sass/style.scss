@@ -1,35 +1,35 @@
-@import "variables.less";
-@import "normalize-3.0.2.less";
-@import "functions.less";
-@import "fontawesome/font-awesome.less";
+@import "_normalize-3.0.2.scss";
+@import "_variables.scss";
+//@import "functions.less";
+//@import "fontawesome/font-awesome.less";
 
 * {
 	box-sizing: border-box
 }
 
 body {
-	color: @text-color;
-	font: 0.875em / 1.5em @font;
+	color: $text-color;
+	font: 0.875em / 1.5em $font;
 }
 a {
 	text-decoration: none;
-	color: darken(@theme-color, 20%);
+	color: darken($theme-color, 20%);
 }
 
 @font-face {
 	font-family: 'Press Start 2P';
 	font-weight: 400;
 	font-style: normal;
-	src: local('Press Start 2P'), local('Press-Start-2P-regular'), url('../../font/Press-Start-2P-regular.eot'), url('../../font/Press-Start-2P-regular.woff2') format('woff2'), url('../../font/Press-Start-2P-regular.woff') format('woff'), url('../../font/Press-Start-2P-regular.ttf') format('truetype'), url('../../font/Press-Start-2P-regular.svg') format('svg');
+	src: local('Press Start 2P'), local('Press-Start-2P-regular'), url('../font/Press-Start-2P-regular.eot'), url('../font/Press-Start-2P-regular.woff2') format('woff2'), url('../font/Press-Start-2P-regular.woff') format('woff'), url('../font/Press-Start-2P-regular.ttf') format('truetype'), url('../font/Press-Start-2P-regular.svg') format('svg');
 }
 
-@import "structure.less";
-@import "banner.less";
-@import "menu.less";
-@import "code.less";
-@import "article.less";
-@import "form.less";
-@import "gallery.less";
+@import "_structure.scss";
+@import "_banner.scss";
+@import "_menu.scss";
+//@import "code.less";
+//@import "article.less";
+//@import "form.less";
+//@import "gallery.less";
 
 .side {
 	& > div {
@@ -38,10 +38,10 @@ a {
 
 	h1 {
 		text-align: center;
-		background-color: @theme-grey;
-		border-bottom: @theme-border-color solid @theme-border-width;
+		background-color: $theme-grey;
+		border-bottom: $theme-border-color solid $theme-border-width;
 		padding: 1em 0;
-		font-family: @font-alternate;
+		font-family: $font-alternate;
 		font-size: 1em;
 	}
 
@@ -60,9 +60,9 @@ footer.footer {
 	.container {
 		margin-top: 4em;
 		min-height: 8em;
-		background-color: @theme-dark;
-		border-top: @theme-border-width solid @theme-grey;
-		color: @theme-grey;
+		background-color: $theme-dark;
+		border-top: $theme-border-width solid $theme-grey;
+		color: $theme-grey;
 		span {
 			text-align: center;
 			display: block;
@@ -95,8 +95,8 @@ footer.footer {
 	margin-top: 7em;
 	text-align: center;
 	H1 {
-		font-family: @font-alternate;
-		color: @theme-color;
+		font-family: $font-alternate;
+		color: $theme-color;
 		font-size: 8em;
 	}
 }
