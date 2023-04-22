@@ -11,7 +11,9 @@ import org.apache.commons.io.FileUtils;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 
+import blog.model.Site;
 import blog.model.builder.MenuBuilder;
+import blog.model.builder.SiteBuilder;
 import blog.template.TemplateEngineBuilder;
 
 public class Generator {
@@ -21,11 +23,16 @@ public class Generator {
 	}
 
 	private void generate() throws IOException {
+		prepareDestFolder();
+		Site site = new SiteBuilder().build();
+		TemplateEngine engine = new TemplateEngineBuilder().build();
+		engine.process("template", buildContext(), new FileWriter("site/index.html"));
+	}
+
+	private void prepareDestFolder() throws IOException {
 		new File("site").mkdir();
 		FileUtils.copyDirectoryToDirectory(new File("src/main/font"), new File("site"));
 		FileUtils.copyDirectoryToDirectory(new File("src/main/js"), new File("site"));
-		TemplateEngine engine = new TemplateEngineBuilder().build();
-		engine.process("template", buildContext(), new FileWriter("site/index.html"));
 	}
 
 	private Context buildContext() throws IOException {
