@@ -12,7 +12,6 @@ import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 
 import blog.model.Site;
-import blog.model.builder.MenuBuilder;
 import blog.model.builder.SiteBuilder;
 import blog.template.TemplateEngineBuilder;
 
@@ -26,7 +25,7 @@ public class Generator {
 		prepareDestFolder();
 		Site site = new SiteBuilder().build();
 		TemplateEngine engine = new TemplateEngineBuilder().build();
-		engine.process("template", buildContext(), new FileWriter("site/index.html"));
+		engine.process("template", buildContext(site, "index"), new FileWriter("site/index.html"));
 	}
 
 	private void prepareDestFolder() throws IOException {
@@ -35,15 +34,14 @@ public class Generator {
 		FileUtils.copyDirectoryToDirectory(new File("src/main/js"), new File("site"));
 	}
 
-	private Context buildContext() throws IOException {
-		Context context = new Context(Locale.FRANCE, buildParam());
-		context.setVariable("test", "ceci est une variable");
-		return context;
+	private Context buildContext(Site site, String content) throws IOException {
+		return new Context(Locale.FRANCE, buildParam(site, content));
 	}
 
-	private Map<String, Object> buildParam() throws IOException {
+	private Map<String, Object> buildParam(Site site, String content) throws IOException {
 		Map<String, Object> param = new HashMap<String, Object>();
-		param.put("menu", new MenuBuilder().build());
+		param.put("site", site);
+		param.put("content", content);
 		return param;
 	}
 

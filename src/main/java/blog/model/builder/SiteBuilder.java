@@ -27,6 +27,6 @@ public class SiteBuilder {
 					StandardCharsets.UTF_8);
 			articles.add(new Article(metadata, content));
 		}
-		return new Site(articles);
+		return new Site(articles, new MenuBuilder().build());
 	}
 }

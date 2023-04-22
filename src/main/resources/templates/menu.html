@@ -2,7 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <body>
 	<ul th:fragment="menu">
-		<li th:each="child : ${menu.childrens}">
+		<li th:each="child : ${site.menu.childrens}">
 			<a th:href="${child.path}" th:text="${child.name}"></a>
 			<ul th:if="${not #lists.isEmpty(child.childrens)}">
 				<li th:each="child : ${child.childrens}">

@@ -22,8 +22,8 @@
 		</nav>
 	</header>
 	<div class="container">
-		<div class="main">
-			<jsp:invoke fragment="content" />
+		<div class="main" th:replace="~{ ${content} :: main}">
+
 		</div>
 		<div class="side">
 			<div class="tagclood">
