@@ -8,8 +8,9 @@ import java.util.Map;
 
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
-import org.thymeleaf.templatemode.TemplateMode;
-import org.thymeleaf.templateresolver.FileTemplateResolver;
+
+import blog.model.builder.MenuBuilder;
+import blog.template.TemplateEngineBuilder;
 
 public class Generator {
 
@@ -18,8 +19,7 @@ public class Generator {
 	}
 
 	private void generate() throws IOException {
-		TemplateEngine engine = new TemplateEngine();
-		engine.setTemplateResolver(initResolver());
+		TemplateEngine engine = new TemplateEngineBuilder().build();
 		engine.process("template", buildContext(), new FileWriter("site/index.html"));
 	}
 
@@ -31,17 +31,9 @@ public class Generator {
 
 	private Map<String, Object> buildParam() throws IOException {
 		Map<String, Object> param = new HashMap<String, Object>();
-		param.put("test", "ceci est un test");
-		param.put("menu", Menu.build());
+		param.put("menu", new MenuBuilder().build());
 		return param;
 	}
 
-	private FileTemplateResolver initResolver() {
-		FileTemplateResolver resolver = new FileTemplateResolver();
-		resolver.setTemplateMode(TemplateMode.HTML);
-		resolver.setPrefix("src/main/resources/templates/");
-		resolver.setSuffix(".html");
-		return resolver;
-	}
 
 }

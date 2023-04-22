@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/fa-4.7/font-awesome.css" />
 </head>
 <body>
 	<header class="container">
@@ -20,5 +21,30 @@
 			<ul th:replace="~{menu :: menu}"></ul>
 		</nav>
 	</header>
+	<div class="container">
+		<div class="main">
+			<jsp:invoke fragment="content" />
+		</div>
+		<div class="side">
+			<div class="tagclood">
+				<h1><span class="fa fa-flag"></span> Tags</h1>
+				<c:forEach items="${cloodtags}" var="tag">
+					<a href="<spring:url value="/tag/${tag.url}"/>">${tag.title}(${tag.postCount})</a>
+				</c:forEach>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<span>Blog propulsé par un moteur maison en java.</span>
+			<span>
+				<a href="mailto:shionn@gmail.com" title="Contact"><i class="fa fa-envelope" aria-hidden="true"></i></a> |
+				<a href="https://github.com/shionn" target="_blank" title="Github"><i class="fa fa-github"></i></a> |
+				<a href="https://www.thymeleaf.org/" target="_blank" title="Thymeleaf"><i class="fa fa-leaf"></i></a> |
+				<a href="http://fontawesome.io/" target="_blank" title="FontAwesome"><i class="fa fa-font-awesome"></i></a> |
+				<a href="http://commonmark.org/" target="_blank" title="CommonMark">M<i class="fa fa-long-arrow-down"></i></a>
+			</span>
+		</div>
+	</footer>
 </body>
 </html>

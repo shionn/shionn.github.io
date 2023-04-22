@@ -37,6 +37,7 @@
 				<configuration>
 					<sassSourceDirectory>src/main/sass/</sassSourceDirectory>
 					<destination>site/css/</destination>
+					
 				</configuration>
 			</plugin>
 		</plugins>
