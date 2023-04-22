@@ -1,11 +1,13 @@
 package blog.generator;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
+import org.apache.commons.io.FileUtils;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 
@@ -19,6 +21,9 @@ public class Generator {
 	}
 
 	private void generate() throws IOException {
+		new File("site").mkdir();
+		FileUtils.copyDirectoryToDirectory(new File("src/main/font"), new File("site"));
+		FileUtils.copyDirectoryToDirectory(new File("src/main/js"), new File("site"));
 		TemplateEngine engine = new TemplateEngineBuilder().build();
 		engine.process("template", buildContext(), new FileWriter("site/index.html"));
 	}

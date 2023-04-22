@@ -37,7 +37,7 @@
 				<configuration>
 					<sassSourceDirectory>src/main/sass/</sassSourceDirectory>
 					<destination>site/css/</destination>
-					
+
 				</configuration>
 			</plugin>
 		</plugins>
@@ -50,6 +50,11 @@
 	</build>
 
 	<dependencies>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.11.0</version>
+		</dependency>
 		<dependency>
 			<groupId>org.thymeleaf</groupId>
 			<artifactId>thymeleaf</artifactId>
