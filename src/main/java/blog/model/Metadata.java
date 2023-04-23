@@ -20,4 +20,8 @@ public class Metadata {
 	private String title;
 	private String category;
 	private List<String> tags;
+
+	public String getTitle() {
+		return title;
+	}
 }

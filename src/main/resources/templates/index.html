@@ -2,15 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <body>
 	<div class="main" th:fragment="main">
-		<span th:each="article : ${site.lastArticles}"></span>
+		<article th:each="article : ${site.lastArticles}" th:replace="~{article :: articleshort (${article})}"></article>
 	</div>
 </body>
 </html>
-<t:template>
-	<jsp:attribute name="title">Shionn::blog() - Be a geeK</jsp:attribute>
-	<jsp:attribute name="content">
-		<c:forEach items="${posts}" var="post">
-			<f:articleshort post="${post}"/>
-		</c:forEach>
-	</jsp:attribute>
-</t:template>

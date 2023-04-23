@@ -10,4 +10,12 @@ public class Article {
 		this.content = content;
 	}
 
+	public String getLogo() {
+		return null;
+	}
+
+	public String getTitle() {
+		return metadata.getTitle();
+	}
+
 }
