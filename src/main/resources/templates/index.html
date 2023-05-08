@@ -2,7 +2,9 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <body>
 	<div class="main" th:fragment="main">
-		<article th:each="article : ${site.lastArticles}" th:replace="~{article :: articleshort (${article})}"></article>
+		<th:block th:each="article : ${site.lastArticles}">
+			<article th:replace="~{article :: articleshort (${article})}"></article>
+		</th:block>
 	</div>
 </body>
 </html>

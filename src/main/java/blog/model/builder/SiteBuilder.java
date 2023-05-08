@@ -2,7 +2,6 @@ package blog.model.builder;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,9 +22,7 @@ public class SiteBuilder {
 		for (File file : FileUtils.listFiles(new File("src/main/content"), new SuffixFileFilter("json"),
 				TrueFileFilter.INSTANCE)) {
 			Metadata metadata = new ObjectMapper().readValue(file, Metadata.class);
-			String content = FileUtils.readFileToString(new File(file.getPath().replaceAll("json", "md")),
-					StandardCharsets.UTF_8);
-			articles.add(new Article(metadata, content));
+			articles.add(new Article(metadata, file));
 		}
 		return new Site(articles, new MenuBuilder().build());
 	}

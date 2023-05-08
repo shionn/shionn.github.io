@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <body>
-	<article class="short" th:fragment="articleshort (article)">
-		<header>
-			<span th:text="${article.title}"></span>
-			<img th:if="${!#strings.isEmpty(article.logo)}"
-					th:attr="src=${article.logo},title=${article.title},alt=${article.title}" />
-
-			<h1><a href="<spring:url value="/${post.url}"/>" >${post.title}</a></h1>
+<article class="short" th:fragment="articleshort (article)">
+	<header>
+		<img th:if="${!#strings.isEmpty(article.logo)}"
+				th:attr="src=${article.logo},title=${article.title},alt=${article.title}" />
+		<h1><a th:text="${article.title}" th:href="${article.url}"></a></h1>
 			<span class="date"><fmt:formatDate pattern="dd MMMM yyyy HH:mm" value="${post.published}" /></span>
 			<a class="category" href="<spring:url value="/category/${post.category.url}"/>"><span class="fa fa-folder-open"></span> ${post.category.title}</a>
 			<span class="tags">
