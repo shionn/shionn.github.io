@@ -6,8 +6,8 @@
 		<img th:if="${!#strings.isEmpty(article.logo)}"
 				th:attr="src=${article.logo},title=${article.title},alt=${article.title}" />
 		<h1><a th:text="${article.title}" th:href="${article.url}"></a></h1>
-			<span class="date"><fmt:formatDate pattern="dd MMMM yyyy HH:mm" value="${post.published}" /></span>
-			<a class="category" href="<spring:url value="/category/${post.category.url}"/>"><span class="fa fa-folder-open"></span> ${post.category.title}</a>
+		<span class="date"><fmt:formatDate pattern="dd MMMM yyyy HH:mm" value="${post.published}" /></span>
+		<a class="category" th:href="${article.category.url}"><span class="fa fa-folder-open"></span> <th:block th:text="${article.category.name}"></th:block></a>
 			<span class="tags">
 				<span class="fa fa-flag"></span>
 				<c:forEach items="${post.tags}" var="tag" varStatus="status">

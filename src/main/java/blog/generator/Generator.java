@@ -11,6 +11,7 @@ import org.apache.commons.io.FileUtils;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 
+import blog.model.Article;
 import blog.model.Site;
 import blog.model.builder.SiteBuilder;
 import blog.template.TemplateEngineBuilder;
@@ -25,7 +26,20 @@ public class Generator {
 		prepareDestFolder();
 		Site site = new SiteBuilder().build();
 		TemplateEngine engine = new TemplateEngineBuilder().build();
-		engine.process("template", buildContext(site, "index"), new FileWriter("site/index.html"));
+		engine.process("template", buildIndexContext(site), new FileWriter("site/index.html"));
+//		for (Article article : site.getArticles()) {
+//			engine.process("template", buildArticleContext(site, article), new FileWriter("site/" + article.getUrl()));
+//		}
+	}
+
+	private Context buildIndexContext(Site site) {
+		return new Context(Locale.FRANCE, buildParam(site, "index"));
+	}
+
+	private Context buildArticleContext(Site site, Article article) {
+		Map<String, Object> params = buildParam(site, "article");
+		params.put("article", article);
+		return new Context(Locale.FRANCE, params);
 	}
 
 	private void prepareDestFolder() throws IOException {
@@ -34,16 +48,11 @@ public class Generator {
 		FileUtils.copyDirectoryToDirectory(new File("src/main/js"), new File("site"));
 	}
 
-	private Context buildContext(Site site, String content) throws IOException {
-		return new Context(Locale.FRANCE, buildParam(site, content));
-	}
-
-	private Map<String, Object> buildParam(Site site, String content) throws IOException {
+	private Map<String, Object> buildParam(Site site, String content) {
 		Map<String, Object> param = new HashMap<String, Object>();
 		param.put("site", site);
 		param.put("content", content);
 		return param;
 	}
-
 
 }

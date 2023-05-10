@@ -24,4 +24,17 @@ public class Metadata {
 	public String getTitle() {
 		return title;
 	}
+
+	public Type getType() {
+		return type;
+	}
+
+	public Date getDate() {
+		return date;
+	}
+
+	public String getCategory() {
+		return category;
+	}
+
 }
