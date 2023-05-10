@@ -12,7 +12,7 @@
 			<a th:each="tag:${article.tags}" th:text="${tag.name}" th:href="${tag.url}"></a>
 		</span>
 	</header>
-		<section>${post.content}</section>
+		<section th:utext="${article.shortContent}"></section>
 		<footer>
 			<a  th:href="${article.url}"><span class="fa fa-eye"></span> Lire la suite</a>
 		</footer>

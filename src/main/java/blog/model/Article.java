@@ -11,6 +11,7 @@ import java.util.Locale;
 import org.apache.commons.io.FileUtils;
 
 import blog.model.Metadata.Type;
+import blog.model.formater.ContentFormater;
 
 public class Article {
 
@@ -44,7 +45,10 @@ public class Article {
 
 	public String getContent() throws IOException {
 		return FileUtils.readFileToString(new File(file.getPath().replaceAll("json", "md")), StandardCharsets.UTF_8);
+	}
 
+	public String getShortContent() throws IOException {
+		return new ContentFormater().fullPost(getContent());
 	}
 
 	public Date getDate() {
