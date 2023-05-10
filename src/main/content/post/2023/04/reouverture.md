@@ -1,6 +1,6 @@
 Bonjour,
 
-Un jour j'ai choisi de redémmarer mon serveur sur OVH. Il n'as pas redémarrer. J4ai perdu ma BDD. Et bien sur mon serveur de backup personnel n'etait plus en ligne depuis longtemps. Du coup plus d'OVH, j'ai choisi de refaire le blog mais en statique sur github.io.
+Un jour j'ai choisi de redémmarer mon serveur sur OVH. Il n'as pas redémarrer. J'ai perdu ma BDD. Et bien sur mon serveur de backup personnel n'etait plus en ligne depuis longtemps. Du coup plus d'OVH, j'ai choisi de refaire le blog mais en statique sur github.io. Donc plus de commentaire, désoler.
 
 Bien évidement je pourrai prendre un milier de generateur de site statique existant, mais pourquoi pas le faire soit même.
 

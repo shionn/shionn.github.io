@@ -43,12 +43,16 @@ public class Article {
 		return file.getName().substring(0, file.getName().lastIndexOf('.')) + ".html";
 	}
 
-	public String getContent() throws IOException {
+	public String getRawContent() throws IOException {
 		return FileUtils.readFileToString(new File(file.getPath().replaceAll("json", "md")), StandardCharsets.UTF_8);
 	}
 
 	public String getShortContent() throws IOException {
-		return new ContentFormater().fullPost(getContent());
+		return new ContentFormater().shortPost(getRawContent());
+	}
+
+	public String getFullContent() throws IOException {
+		return new ContentFormater().fullPost(getRawContent());
 	}
 
 	public Date getDate() {
@@ -65,5 +69,9 @@ public class Article {
 
 	public String getFormatedDate() {
 		return new SimpleDateFormat("dd MMMM yyyy", Locale.FRANCE).format(getDate());
+	}
+
+	public String getAuthor() {
+		return "Shionn";
 	}
 }
