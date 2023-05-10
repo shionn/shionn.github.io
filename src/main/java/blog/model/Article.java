@@ -3,7 +3,10 @@ package blog.model;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
+import java.util.Locale;
 
 import org.apache.commons.io.FileUtils;
 
@@ -12,12 +15,14 @@ import blog.model.Metadata.Type;
 public class Article {
 
 	private Metadata metadata;
-	private Category category;
+	private Group category;
 	private File file;
+	private List<Group> tags;
 
-	public Article(Metadata metadata, Category category, File file) {
+	public Article(Metadata metadata, Group category, List<Group> tags, File file) {
 		this.metadata = metadata;
 		this.category = category;
+		this.tags = tags;
 		this.file = file;
 	}
 
@@ -46,7 +51,15 @@ public class Article {
 		return metadata.getDate();
 	}
 
-	public Category getCategory() {
+	public Group getCategory() {
 		return category;
+	}
+
+	public List<Group> getTags() {
+		return tags;
+	}
+
+	public String getFormatedDate() {
+		return new SimpleDateFormat("dd MMMM yyyy", Locale.FRANCE).format(getDate());
 	}
 }

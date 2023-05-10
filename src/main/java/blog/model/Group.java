@@ -3,11 +3,18 @@ package blog.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Category {
+public class Group {
+	public enum Type {
+		Category,
+		Tag
+	}
+
+	private Type type;
 	private String name;
 	private List<Article> articles = new ArrayList<Article>();
 
-	public Category(String name) {
+	public Group(Type type, String name) {
+		this.type = type;
 		this.name = name;
 	}
 
@@ -16,6 +23,6 @@ public class Category {
 	}
 
 	public String getUrl() {
-		return "category/" + name.toLowerCase().replaceAll("[^a-z]", "-") + ".html";
+		return type.name().toLowerCase() + "/" + name.toLowerCase().replaceAll("[^a-z]", "-") + ".html";
 	}
 }

@@ -7,10 +7,10 @@ import blog.model.Metadata.Type;
 
 public class Site {
 	private List<Article> articles;
-	private Collection<Category> categories;
+	private Collection<Group> categories;
 	private Menu menu;
 
-	public Site(List<Article> articles, Collection<Category> categories, Menu menu) {
+	public Site(List<Article> articles, Collection<Group> categories, Menu menu) {
 		this.articles = articles;
 		this.categories = categories;
 		this.menu = menu;

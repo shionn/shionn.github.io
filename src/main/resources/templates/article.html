@@ -3,32 +3,18 @@
 <body>
 <article class="short" th:fragment="articleshort (article)">
 	<header>
-		<img th:if="${!#strings.isEmpty(article.logo)}"
-				th:attr="src=${article.logo},title=${article.title},alt=${article.title}" />
+		<img th:if="${!#strings.isEmpty(article.logo)}" th:attr="src=${article.logo},title=${article.title},alt=${article.title}" />
 		<h1><a th:text="${article.title}" th:href="${article.url}"></a></h1>
-		<span class="date"><fmt:formatDate pattern="dd MMMM yyyy HH:mm" value="${post.published}" /></span>
+		<span class="date" th:text="${article.formatedDate}"></span>
 		<a class="category" th:href="${article.category.url}"><span class="fa fa-folder-open"></span> <th:block th:text="${article.category.name}"></th:block></a>
-			<span class="tags">
-				<span class="fa fa-flag"></span>
-				<c:forEach items="${post.tags}" var="tag" varStatus="status">
-					<a href="<spring:url value="/tag/${tag.url}"/>">${tag.title}</a><c:if test="${not status.last}">,</c:if>
-				</c:forEach>
-			</span>
-		</header>
+		<span class="tags">
+			<span class="fa fa-flag"></span>
+			<a th:each="tag:${article.tags}" th:text="${tag.name}" th:href="${tag.url}"></a>
+		</span>
+	</header>
 		<section>${post.content}</section>
 		<footer>
-			<a href="<spring:url value="/${post.url}"/>"><span class="fa fa-eye"></span> Lire la suite</a>
-			<c:choose>
-				<c:when test="${post.commentCount==0}">
-					<a href="<spring:url value="/${post.url}#comments"/>"><span class="fa fa-commenting"></span> Laisser un commentaire.</a>
-				</c:when>
-				<c:when test="${post.commentCount==1}">
-					<a href="<spring:url value="/${post.url}#comments"/>"><span class="fa fa-comment"></span> Afficher le commentaire.</a>
-				</c:when>
-				<c:otherwise>
-					<a href="<spring:url value="/${post.url}#comments"/>"><span class="fa fa-comments"></span> Afficher les ${post.commentCount} commentaires.</a>
-				</c:otherwise>
-			</c:choose>
+			<a  th:href="${article.url}"><span class="fa fa-eye"></span> Lire la suite</a>
 		</footer>
 	</article>
 </body>

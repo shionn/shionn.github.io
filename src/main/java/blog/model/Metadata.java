@@ -37,4 +37,8 @@ public class Metadata {
 		return category;
 	}
 
+	public List<String> getTags() {
+		return tags;
+	}
+
 }

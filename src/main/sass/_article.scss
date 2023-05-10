@@ -1,4 +1,5 @@
-@import "variables.less";
+@import "_variables.scss";
+
 article {
 	margin-top: 3em;
 	&.category , &.tag {
@@ -8,28 +9,28 @@ article {
 	}
 
 	h1 , h2 , h3 , h4 , h5 , h6 {
-		font-family: @font-alternate;
-		color: @theme-color;
+		font-family: $font-alternate;
+		color: $theme-color;
 	}
 
 	h1 {
 		line-height: 1.2em;
 		font-size: 1.4em;
-		@media (min-width: @min-sm) {
+		@media (min-width: $min-sm) {
 			font-size: 2em;
 		}
 	}
 
 	h2 {
 		font-size: 1.2em;
-		@media (min-width: @min-sm) {
+		@media (min-width: $min-sm) {
 			font-size: 1.5em;
 		}
 	}
 
 	h3 {
 		font-size: 1em;
-		@media (min-width: @min-sm) {
+		@media (min-width: $min-sm) {
 			font-size: 1.17em;
 		}
 	}
@@ -48,7 +49,7 @@ article {
 					content: "\f111";
 					font-family: FontAwesome;
 					font-size: 0.5em;
-					color: @theme-color;
+					color: $theme-color;
 					vertical-align: bottom;
 				}
 			}
@@ -61,7 +62,7 @@ article {
 		}
 
 		blockquote {
-			border-left: double 3px @theme-color;
+			border-left: double 3px $theme-color;
 			margin: 0 15px;
 			padding: 0 0 0 15px;
 			font-style: italic;
@@ -79,23 +80,27 @@ article {
 
 		.date , .category , .tags {
 			padding: 0 3em;
-			color: @theme-color;
-			@media (max-width: @max-xs) {
+			color: $theme-color;
+			@media (max-width: $max-xs) {
 				display: block;
 			}
+		}
+
+		.tags a:not(:last-child)::after {
+			content: ", ";
 		}
 	}
 
 	footer {
 		.author {
-			@media (min-width: @min-sm) {
+			@media (min-width: $min-sm) {
 				padding-left: 3em;
 			}
 		}
 
 		a {
 			padding: 0 3em;
-			@media (max-width: @max-xs) {
+			@media (max-width: $max-xs) {
 				display: block;
 			}
 		}
@@ -108,7 +113,7 @@ article {
 			position: relative;
 			bottom: -.8em;
 			left: 5%;
-			border-color: @theme-dark;
+			border-color: $theme-dark;
 			border-bottom-style: dashed;
 			border-bottom-width: 1px;
 			display: block;
@@ -122,7 +127,7 @@ section.comments {
 		& > li {
 			list-style-type: none;
 			display: block;
-			border-bottom: 1px dotted @theme-border-color;
+			border-bottom: 1px dotted $theme-border-color;
 			margin: .5em 0;
 			&:after {
 				content: "";
@@ -135,7 +140,7 @@ section.comments {
 				margin: .5em 0 0 0;
 			}
 			blockquote {
-				border-left: double 3px @theme-color;
+				border-left: double 3px $theme-color;
 				margin: 0 15px;
 				padding: 0 0 0 15px;
 				font-style: italic;
@@ -147,7 +152,7 @@ section.comments {
 				}
 			}
 
-			@media (min-width: @min-sm) {
+			@media (min-width: $min-sm) {
 				div {
 					float: left;
 					padding-left: 5px;
@@ -176,7 +181,7 @@ section.comments {
 				}
 			}
 
-			@media (min-width: @min-md) {
+			@media (min-width: $min-md) {
 				div.author {
 					width: 15%;
 				}
@@ -186,7 +191,7 @@ section.comments {
 				}
 			}
 
-			@media (min-width: @min-lg) {
+			@media (min-width: $min-lg) {
 				div.author {
 					width: 10%;
 				}
@@ -199,9 +204,9 @@ section.comments {
 	}
 
 	form {
-		background-color: @theme-grey;
+		background-color: $theme-grey;
 		p.title {
-			font-family: @font-alternate;
+			font-family: $font-alternate;
 		}
 		&>p.legend {
 			padding: 0;
@@ -215,7 +220,7 @@ section.comments {
 		}
 
 		div.preview > div {
-			border: @theme-dark 1px solid;
+			border: $theme-dark 1px solid;
 			border-radius: 3px;
 			margin: 8px 0;
 			padding: 5px;
@@ -234,14 +239,14 @@ section.comments {
 						content: "\f111";
 						font-family: FontAwesome;
 						font-size: 0.5em;
-						color: @theme-color;
+						color: $theme-color;
 						vertical-align: bottom;
 					}
 				}
 			}
 
 			blockquote {
-				border-left: double 3px @theme-color;
+				border-left: double 3px $theme-color;
 				margin: 0 15px;
 				padding: 0 0 0 15px;
 				font-style: italic;
