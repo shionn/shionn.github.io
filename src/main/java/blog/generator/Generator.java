@@ -60,6 +60,7 @@ public class Generator {
 	private void prepareDestFolder() throws IOException {
 		new File("site").mkdir();
 		new File("site/category").mkdir();
+		new File("site/tag").mkdir();
 		FileUtils.copyDirectoryToDirectory(new File("src/main/font"), new File("site"));
 		FileUtils.copyDirectoryToDirectory(new File("src/main/js"), new File("site"));
 	}
