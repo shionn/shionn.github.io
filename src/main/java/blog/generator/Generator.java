@@ -19,6 +19,11 @@ import blog.template.TemplateEngineBuilder;
 
 public class Generator {
 
+//	private static final String BASE = "file:///home/shionn/projects/BlogGenerator/site/";
+//	private static final String TARGET = "site";
+	private static final String BASE = "https://shionn.github.io/";
+	private static final String TARGET = "shionn.github.io";
+
 	public static void main(String[] args) throws IOException {
 		new Generator().generate();
 	}
@@ -27,13 +32,14 @@ public class Generator {
 		prepareDestFolder();
 		Site site = new SiteBuilder().build();
 		TemplateEngine engine = new TemplateEngineBuilder().build();
-		engine.process("template", buildIndexContext(site), new FileWriter("site/index.html"));
-		engine.process("template", build404Context(site), new FileWriter("site/404.html"));
+		engine.process("template", buildIndexContext(site), new FileWriter(TARGET + "/index.html"));
+		engine.process("template", build404Context(site), new FileWriter(TARGET + "/404.html"));
 		for (Article article : site.getArticles()) {
-			engine.process("template", buildArticleContext(site, article), new FileWriter("site/" + article.getUrl()));
+			engine.process("template", buildArticleContext(site, article),
+					new FileWriter(TARGET + "/" + article.getUrl()));
 		}
 		for (Group group : site.getCategories()) {
-			engine.process("template", buildGroupContext(site, group), new FileWriter("site/" + group.getUrl()));
+			engine.process("template", buildGroupContext(site, group), new FileWriter(TARGET + "/" + group.getUrl()));
 		}
 	}
 
@@ -58,19 +64,18 @@ public class Generator {
 	}
 
 	private void prepareDestFolder() throws IOException {
-		new File("site").mkdir();
-		new File("site/category").mkdir();
-		new File("site/tag").mkdir();
-		FileUtils.copyDirectoryToDirectory(new File("src/main/font"), new File("site"));
-		FileUtils.copyDirectoryToDirectory(new File("src/main/js"), new File("site"));
+		new File(TARGET).mkdir();
+		new File(TARGET + "/category").mkdir();
+		new File(TARGET + "/tag").mkdir();
+		FileUtils.copyDirectoryToDirectory(new File("src/main/font"), new File(TARGET));
+		FileUtils.copyDirectoryToDirectory(new File("src/main/js"), new File(TARGET));
 	}
 
 	private Map<String, Object> buildParam(Site site, String mode) {
 		Map<String, Object> param = new HashMap<String, Object>();
 		param.put("site", site);
 		param.put("mode", mode);
-//		param.put("base", "file:///home/shionn/projects/BlogGenerator/site/");
-		param.put("base", "https://shionn.github.io/");
+		param.put("base", BASE);
 		return param;
 	}
 
