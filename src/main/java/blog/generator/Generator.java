@@ -68,7 +68,8 @@ public class Generator {
 		Map<String, Object> param = new HashMap<String, Object>();
 		param.put("site", site);
 		param.put("mode", mode);
-		param.put("base", "file:///home/shionn/projects/BlogGenerator/site/");
+//		param.put("base", "file:///home/shionn/projects/BlogGenerator/site/");
+		param.put("base", "https://shionn.github.io/");
 		return param;
 	}
 
