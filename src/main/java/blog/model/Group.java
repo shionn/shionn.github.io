@@ -25,4 +25,20 @@ public class Group {
 	public String getUrl() {
 		return type.name().toLowerCase() + "/" + name.toLowerCase().replaceAll("[^a-z]", "-") + ".html";
 	}
+
+	public Type getType() {
+		return type;
+	}
+
+	public void add(Article article) {
+		this.articles.add(article);
+	}
+
+	public int getSize() {
+		return articles.size();
+	}
+
+	public List<Article> getArticles() {
+		return articles.stream().sorted((a, b) -> -a.getDate().compareTo(b.getDate())).toList();
+	}
 }

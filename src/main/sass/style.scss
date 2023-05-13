@@ -44,6 +44,10 @@ a {
 		font-family: $font-alternate;
 		font-size: 1em;
 	}
+
+	.tagclood a::after {
+		content: ' ';
+	}
 }
 
 footer.footer {

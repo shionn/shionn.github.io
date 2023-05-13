@@ -32,5 +32,15 @@ public class Site {
 		return articles;
 	}
 
+	public List<Group> getTags() {
+		return categories.stream()
+				.filter(c -> c.getType() == Group.Type.Tag)
+				.sorted((a, b) -> a.getName().compareTo(b.getName()))
+				.toList();
+	}
+
+	public Collection<Group> getCategories() {
+		return categories;
+	}
 }
 

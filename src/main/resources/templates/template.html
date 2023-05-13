@@ -5,6 +5,7 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<base th:href="${base}">
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/fa-4.7/font-awesome.css" />
 </head>
@@ -21,23 +22,30 @@
 			<ul th:replace="~{menu :: menu}"></ul>
 		</nav>
 	</header>
-	<div class="container">
-		<div class="main" th:if="${article == null}">
+	<div class="container" th:switch="${mode}">
+		<div class="main" th:case="'index'">
 			<th:block th:each="article : ${site.lastArticles}">
 				<article th:replace="~{article :: articleshort (${article})}"></article>
 			</th:block>
 		</div>
-		<div class="main" th:if="${article != null}">
+		<div class="main" th:case="'group'">
+			<th:block th:each="article : ${group.articles}">
+				<article th:replace="~{article :: articleshort (${article})}"></article>
+			</th:block>
+		</div>
+		<div class="main" th:case="'article'">
 			<article th:replace="~{article :: articlefull (${article})}"></article>
+		</div>
+		<div class="main" th:case="'404'">
+			<article th:replace="~{article :: 404}"></article>
 		</div>
 
 		<div class="side">
 			<div class="tagclood">
 				<h1><span class="fa fa-flag"></span> Tags</h1>
-				<a th:each="tag:${site.tags}" th:text="${tag.name}" th:href="${tag.url}"></a>
-				<c:forEach items="${cloodtags}" var="tag">
-					<a href="<spring:url value="/tag/${tag.url}"/>">${tag.title}(${tag.postCount})</a>
-				</c:forEach>
+				<a th:each="tag:${site.tags}" th:href="${tag.url}">
+					<th:block th:text="${tag.name}"/> (<th:block th:text="${tag.size}"/>)
+				</a>
 			</div>
 		</div>
 	</div>

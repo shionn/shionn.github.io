@@ -17,7 +17,7 @@
 		<a  th:href="${article.url}"><span class="fa fa-eye"></span> Lire la suite</a>
 	</footer>
 </article>
-<article  th:fragment="articlefull (article)">
+<article th:fragment="articlefull (article)">
 	<header>
 		<img th:if="${!#strings.isEmpty(article.logo)}" th:attr="src=${article.logo},title=${article.title},alt=${article.title}" />
 		<h1><a th:text="${article.title}" th:href="${article.url}"></a></h1>
@@ -34,5 +34,12 @@
 		<hr>
 	</footer>
 </article>
+<div class="e404" th:fragment="404">
+	<div class="e404">
+		<p><em>Mince alors !</em> Cette page n'existe pas (ou plus).</p>
+		<p>essayer de revenir à la page d'<a href="index.html">Accueil</a></p>
+		<h1>404</h1>
+	</div>
+</div>
 </body>
 </html>

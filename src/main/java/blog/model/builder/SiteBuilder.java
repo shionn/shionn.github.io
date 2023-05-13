@@ -28,14 +28,22 @@ public class SiteBuilder {
 		for (File file : FileUtils.listFiles(new File("src/main/content"), new SuffixFileFilter("json"),
 				TrueFileFilter.INSTANCE)) {
 			Metadata metadata = new ObjectMapper().readValue(file, Metadata.class);
-			Group category = groups.getOrDefault(metadata.getCategory(),
-					new Group(Type.Category, metadata.getCategory()));
+			Group category = retreiveGroup(groups, metadata.getCategory(), Type.Category);
 			List<Group> tags = metadata.getTags()
 					.stream()
-					.map(tag -> groups.getOrDefault("tag", new Group(Type.Tag, tag)))
+					.map(tag -> retreiveGroup(groups, tag, Type.Tag))
 					.collect(Collectors.toList());
-			articles.add(new Article(metadata, category, tags, file));
+			Article article = new Article(metadata, category, tags, file);
+			category.add(article);
+			tags.stream().forEach(t -> t.add(article));
+			articles.add(article);
 		}
 		return new Site(articles, groups.values(), new MenuBuilder().build());
+	}
+
+	private Group retreiveGroup(Map<String, Group> groups, String key, Type type) {
+		Group group = groups.getOrDefault(key, new Group(type, key));
+		groups.put(key, group);
+		return group;
 	}
 }

@@ -68,6 +68,7 @@ category/informatique	Informatique
 		hebergement	Hebergement
 		http://web.archive.org/web/20210420064444/https://shionn.github.io/Blog/	Ce Blog
 http://web.archive.org/web/20210420064444/mailto:shionn@gmail.com	Contact
-	http://web.archive.org/web/20210420064444/mailto:shionn@gmail.com	shionn@gmail.com
-	http://web.archive.org/web/20210420064444/https://www.facebook.com/shionn	Facebook
-	http://web.archive.org/web/20210420064444/https://twitter.com/shionn	Twitter @shionn
+	mailto:shionn@gmail.com	shionn@gmail.com
+	https://github.com/shionn	Github
+	https://www.facebook.com/shionn	Facebook
+	https://twitter.com/shionn	Twitter @shionn
