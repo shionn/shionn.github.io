@@ -31,5 +31,6 @@ public class Site {
 	public List<Article> getArticles() {
 		return articles;
 	}
+
 }
 

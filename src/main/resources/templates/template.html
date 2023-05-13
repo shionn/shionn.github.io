@@ -22,12 +22,19 @@
 		</nav>
 	</header>
 	<div class="container">
-		<div class="main" th:replace="~{ ${content} :: main}">
-
+		<div class="main" th:if="${article == null}">
+			<th:block th:each="article : ${site.lastArticles}">
+				<article th:replace="~{article :: articleshort (${article})}"></article>
+			</th:block>
 		</div>
+		<div class="main" th:if="${article != null}">
+			<article th:replace="~{article :: articlefull (${article})}"></article>
+		</div>
+
 		<div class="side">
 			<div class="tagclood">
 				<h1><span class="fa fa-flag"></span> Tags</h1>
+				<a th:each="tag:${site.tags}" th:text="${tag.name}" th:href="${tag.url}"></a>
 				<c:forEach items="${cloodtags}" var="tag">
 					<a href="<spring:url value="/tag/${tag.url}"/>">${tag.title}(${tag.postCount})</a>
 				</c:forEach>

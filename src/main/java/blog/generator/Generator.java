@@ -27,17 +27,18 @@ public class Generator {
 		Site site = new SiteBuilder().build();
 		TemplateEngine engine = new TemplateEngineBuilder().build();
 		engine.process("template", buildIndexContext(site), new FileWriter("site/index.html"));
-//		for (Article article : site.getArticles()) {
-//			engine.process("template", buildArticleContext(site, article), new FileWriter("site/" + article.getUrl()));
-//		}
+		for (Article article : site.getArticles()) {
+			engine.process("template", buildArticleContext(site, article), new FileWriter("site/" + article.getUrl()));
+		}
 	}
 
 	private Context buildIndexContext(Site site) {
-		return new Context(Locale.FRANCE, buildParam(site, "index"));
+		Map<String, Object> params = buildParam(site);
+		return new Context(Locale.FRANCE, params);
 	}
 
 	private Context buildArticleContext(Site site, Article article) {
-		Map<String, Object> params = buildParam(site, "article");
+		Map<String, Object> params = buildParam(site);
 		params.put("article", article);
 		return new Context(Locale.FRANCE, params);
 	}
@@ -48,10 +49,9 @@ public class Generator {
 		FileUtils.copyDirectoryToDirectory(new File("src/main/js"), new File("site"));
 	}
 
-	private Map<String, Object> buildParam(Site site, String content) {
+	private Map<String, Object> buildParam(Site site) {
 		Map<String, Object> param = new HashMap<String, Object>();
 		param.put("site", site);
-		param.put("content", content);
 		return param;
 	}
 
