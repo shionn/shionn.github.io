@@ -37,7 +37,7 @@
 				<configuration>
 					<sassSourceDirectory>src/main/sass/</sassSourceDirectory>
 					<!-- <destination>site/css/</destination> -->
-					<destination>shionn.github.io/css/</destination>
+					<destination>docs/css/</destination>
 				</configuration>
 			</plugin>
 		</plugins>
