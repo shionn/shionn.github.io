@@ -13,7 +13,7 @@ public class MenuBuilder {
 		Menu parent = root;
 		try (BufferedReader reader = new BufferedReader(new InputStreamReader(
 				Thread.currentThread().getContextClassLoader().getResourceAsStream("menu.txt")))) {
-			String line = reader.readLine();
+			String line = nextLine(reader);
 			while (line != null) {
 				if (deep(line) > deep(parent)) {
 					parent = parent.getChildrens().get(parent.getChildrens().size() - 1);
@@ -23,10 +23,18 @@ public class MenuBuilder {
 				}
 				line = line.strip();
 				parent.add(new Menu(line.split("\\t")[1], line.split("\\t")[0], parent));
-				line = reader.readLine();
+				line = nextLine(reader);
 			}
 		}
 		return root;
+	}
+
+	private String nextLine(BufferedReader reader) throws IOException {
+		String line = reader.readLine();
+		while (line != null && line.startsWith("//")) {
+			line = reader.readLine();
+		}
+		return line;
 	}
 
 	private int deep(Menu menu) {
