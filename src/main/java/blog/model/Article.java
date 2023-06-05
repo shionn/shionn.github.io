@@ -28,6 +28,9 @@ public class Article {
 	}
 
 	public String getLogo() {
+		if (metadata.isLogo()) {
+			return getFolder() + getName() + "/title.jpg";
+		}
 		return null;
 	}
 
@@ -44,8 +47,11 @@ public class Article {
 	}
 
 	public String getUrl() {
-		String name = file.getName().substring(0, file.getName().lastIndexOf('.'));
-		return getFolder() + name + ".html";
+		return getFolder() + getName() + ".html";
+	}
+
+	private String getName() {
+		return file.getName().substring(0, file.getName().lastIndexOf('.'));
 	}
 
 	public String getRawContent() throws IOException {

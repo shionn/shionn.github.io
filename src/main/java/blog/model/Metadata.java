@@ -22,6 +22,7 @@ public class Metadata {
 	private String category;
 	private List<String> tags;
 	private boolean published = true;
+	private boolean logo = false;
 
 	public String getTitle() {
 		return title;
@@ -51,6 +52,10 @@ public class Metadata {
 
 	public boolean isPublished() {
 		return published;
+	}
+
+	public boolean isLogo() {
+		return logo;
 	}
 
 }

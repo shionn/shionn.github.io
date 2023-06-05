@@ -1,14 +1,17 @@
 Un ami, sur un discord, il se reconnaitra si il passe par la, m'a demander comment je traitais la peau de mes skavens. Tanqu'à faire un tuto autant le mettre sur le net. Je vais ici montrer comment faire une peau rose de rat, mais je vais et être un plus généraliste dans les éxplications et prendre mon skaven comme exemple.
 
--- incserer ici la photo de mon skaven --
-
+[gallery w=300]
+2023/peindre-de-la-peau-skaven/verminlord.jpg
+[/gallery]
 ## Théorie
 Peindre de la peau c'est comme peindre n'import quel autre surface il faut traiter les ombres, les lumieres, les textures.
 
 ## Choix des couleurs
 Il vous faut avant tous choisir votre nuancier de couleur, voici ici le mien pour mon skaven
 
--- incerer ici la photo du nuancier --
+[gallery w=300]
+2023/peindre-de-la-peau-skaven/verminlord.jpg
+[/gallery]
 
 Ma methode est de choisir en premier ma couleur centrale, 72107 Anthea Skin. Je la choisie en fonction de la teinte globale que je souhaite donnée à ma peau. Ici je veux une peau rose. Ensuite je choisi 2 couleur d'ombrage et 2 couleur de rehaut.
 
