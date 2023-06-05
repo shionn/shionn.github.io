@@ -19,8 +19,7 @@ import blog.template.TemplateEngineBuilder;
 
 public class Generator {
 
-//	private static final String BASE = "file:///home/shionn/projects/BlogGenerator/site/";
-//	private static final String TARGET = "site";
+//	private static final String BASE = "file:///home/shionn/projects/BlogGenerator/docs/";
 	private static final String BASE = "https://shionn.github.io/";
 	private static final String TARGET = "docs";
 
@@ -35,6 +34,7 @@ public class Generator {
 		engine.process("template", buildIndexContext(site), new FileWriter(TARGET + "/index.html"));
 		engine.process("template", build404Context(site), new FileWriter(TARGET + "/404.html"));
 		for (Article article : site.getArticles()) {
+			new File(TARGET + "/" + article.getFolder()).mkdirs();
 			engine.process("template", buildArticleContext(site, article),
 					new FileWriter(TARGET + "/" + article.getUrl()));
 		}

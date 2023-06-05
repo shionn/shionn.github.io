@@ -1,5 +1,6 @@
 package blog.model;
 
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -20,6 +21,7 @@ public class Metadata {
 	private String title;
 	private String category;
 	private List<String> tags;
+	private boolean published = true;
 
 	public String getTitle() {
 		return title;
@@ -39,6 +41,16 @@ public class Metadata {
 
 	public List<String> getTags() {
 		return tags;
+	}
+
+	public int getYear() {
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(date);
+		return calendar.get(Calendar.YEAR);
+	}
+
+	public boolean isPublished() {
+		return published;
 	}
 
 }

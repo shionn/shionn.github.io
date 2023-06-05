@@ -39,8 +39,13 @@ public class Article {
 		return metadata.getTitle();
 	}
 
+	public String getFolder() {
+		return metadata.getYear() + "/";
+	}
+
 	public String getUrl() {
-		return file.getName().substring(0, file.getName().lastIndexOf('.')) + ".html";
+		String name = file.getName().substring(0, file.getName().lastIndexOf('.'));
+		return getFolder() + name + ".html";
 	}
 
 	public String getRawContent() throws IOException {

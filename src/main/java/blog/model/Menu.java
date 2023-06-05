@@ -27,7 +27,7 @@ public class Menu {
 	}
 
 	public String getPath() {
-		return '/' + path + ".html";
+		return path + ".html";
 	}
 
 	public void add(Menu child) {
