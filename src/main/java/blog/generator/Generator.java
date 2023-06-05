@@ -22,7 +22,7 @@ public class Generator {
 //	private static final String BASE = "file:///home/shionn/projects/BlogGenerator/site/";
 //	private static final String TARGET = "site";
 	private static final String BASE = "https://shionn.github.io/";
-	private static final String TARGET = "shionn.github.io";
+	private static final String TARGET = "docs";
 
 	public static void main(String[] args) throws IOException {
 		new Generator().generate();
