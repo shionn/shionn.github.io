@@ -29,7 +29,7 @@ a {
 //@import "code.less";
 @import "_article.scss";
 //@import "form.less";
-//@import "gallery.less";
+@import "_gallery.scss";
 
 .side {
 	& > div {

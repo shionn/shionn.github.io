@@ -61,7 +61,7 @@ public class ContentFormater {
 		return HtmlRenderer.builder().nodeRendererFactory(new HtmlNodeRendererFactory() {
 			@Override
 			public NodeRenderer create(HtmlNodeRendererContext context) {
-				return new GalleryNodeRenderer(context, 150, 120);
+				return new GalleryNodeRenderer(context);
 			}
 		}).attributeProviderFactory(new AttributeProviderFactory() {
 			@Override

@@ -9,8 +9,10 @@ public class Site {
 	private List<Article> articles;
 	private Collection<Group> categories;
 	private Menu menu;
+	private String base;
 
-	public Site(List<Article> articles, Collection<Group> categories, Menu menu) {
+	public Site(String base, List<Article> articles, Collection<Group> categories, Menu menu) {
+		this.base = base;
 		this.articles = articles;
 		this.categories = categories;
 		this.menu = menu;
@@ -41,6 +43,10 @@ public class Site {
 
 	public Collection<Group> getCategories() {
 		return categories;
+	}
+
+	public String getBase() {
+		return base;
 	}
 }
 

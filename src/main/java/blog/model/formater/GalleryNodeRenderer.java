@@ -15,14 +15,10 @@ public class GalleryNodeRenderer implements NodeRenderer {
 
 	private HtmlNodeRendererContext context;
 	private HtmlWriter writer;
-	private int w;
-	private int h;
 
-	public GalleryNodeRenderer(HtmlNodeRendererContext context, int w, int h) {
+	public GalleryNodeRenderer(HtmlNodeRendererContext context) {
 		this.context = context;
 		this.writer = context.getWriter();
-		this.w = w;
-		this.h = h;
 	}
 
 	@Override

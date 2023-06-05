@@ -7,7 +7,6 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
-import org.apache.commons.io.FileUtils;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 
@@ -20,16 +19,16 @@ import blog.template.TemplateEngineBuilder;
 public class Generator {
 
 //	private static final String BASE = "file:///home/shionn/projects/BlogGenerator/docs/";
-	private static final String BASE = "https://shionn.github.io/";
+//	private static final String BASE = "https://shionn.github.io/";
 	private static final String TARGET = "docs";
 
 	public static void main(String[] args) throws IOException {
-		new Generator().generate();
+		new Generator().generate(args[0]);
 	}
 
-	private void generate() throws IOException {
+	private void generate(String base) throws IOException {
 		prepareDestFolder();
-		Site site = new SiteBuilder().build();
+		Site site = new SiteBuilder().build(base);
 		TemplateEngine engine = new TemplateEngineBuilder().build();
 		engine.process("template", buildIndexContext(site), new FileWriter(TARGET + "/index.html"));
 		engine.process("template", build404Context(site), new FileWriter(TARGET + "/404.html"));
@@ -67,15 +66,12 @@ public class Generator {
 		new File(TARGET).mkdir();
 		new File(TARGET + "/category").mkdir();
 		new File(TARGET + "/tag").mkdir();
-		FileUtils.copyDirectoryToDirectory(new File("src/main/font"), new File(TARGET));
-		FileUtils.copyDirectoryToDirectory(new File("src/main/js"), new File(TARGET));
 	}
 
 	private Map<String, Object> buildParam(Site site, String mode) {
 		Map<String, Object> param = new HashMap<String, Object>();
 		param.put("site", site);
 		param.put("mode", mode);
-		param.put("base", BASE);
 		return param;
 	}
 

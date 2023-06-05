@@ -5,7 +5,7 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-<base th:href="${base}">
+<base th:href="${site.base}">
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/fa-4.7/font-awesome.css" />
 </head>
@@ -61,7 +61,11 @@
 			</span>
 		</div>
 	</footer>
+	<div class="gallery-view" tabindex="-1" role="dialog">
+		<img class="content">
+	</div>
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/gallery.js"></script>
 </body>
 </html>

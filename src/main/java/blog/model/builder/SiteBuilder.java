@@ -22,10 +22,10 @@ import blog.model.Site;
 
 public class SiteBuilder {
 
-	public Site build() throws IOException {
+	public Site build(String base) throws IOException {
 		Map<String, Group> groups = new HashMap<String, Group>();
 		List<Article> articles = new ArrayList<Article>();
-		for (File file : FileUtils.listFiles(new File("src/main/content"), new SuffixFileFilter("json"),
+		for (File file : FileUtils.listFiles(new File("docs/content"), new SuffixFileFilter("json"),
 				TrueFileFilter.INSTANCE)) {
 			Metadata metadata = new ObjectMapper().readValue(file, Metadata.class);
 			if (metadata.isPublished()) {
@@ -40,7 +40,7 @@ public class SiteBuilder {
 				articles.add(article);
 			}
 		}
-		return new Site(articles, groups.values(), new MenuBuilder().build());
+		return new Site(base, articles, groups.values(), new MenuBuilder().build());
 	}
 
 	private Group retreiveGroup(Map<String, Group> groups, String key, Type type) {

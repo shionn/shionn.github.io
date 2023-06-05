@@ -876,6 +876,49 @@ section.comments form div.preview > div blockquote {
   font-style: italic;
 }
 
+div.gallery {
+  text-align: center;
+}
+div.gallery a {
+  padding: 5px;
+}
+div.gallery img {
+  max-width: 25%;
+  display: inline-block;
+}
+
+.gallery-view {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+.gallery-view.fade .content {
+  animation-name: fadeAnmimation;
+  animation-duration: 0.4s;
+}
+.gallery-view img {
+  margin-top: 5%;
+  max-height: 90%;
+  max-width: 90%;
+}
+
+@keyframes fadeAnmimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .side > div {
   margin-top: 3em;
 }
