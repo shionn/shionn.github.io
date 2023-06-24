@@ -1,6 +1,7 @@
 package blog.model.builder;
 
 import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -11,8 +12,8 @@ public class MenuBuilder {
 	public Menu build() throws IOException {
 		Menu root = new Menu("root", "index", null);
 		Menu parent = root;
-		try (BufferedReader reader = new BufferedReader(new InputStreamReader(
-				Thread.currentThread().getContextClassLoader().getResourceAsStream("menu.txt")))) {
+		try (BufferedReader reader = new BufferedReader(
+				new InputStreamReader(new FileInputStream("content/menu.txt")))) {
 			String line = nextLine(reader);
 			while (line != null) {
 				if (deep(line) > deep(parent)) {

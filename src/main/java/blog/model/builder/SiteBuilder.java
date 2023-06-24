@@ -25,7 +25,7 @@ public class SiteBuilder {
 	public Site build(String base) throws IOException {
 		Map<String, Group> groups = new HashMap<String, Group>();
 		List<Article> articles = new ArrayList<Article>();
-		for (File file : FileUtils.listFiles(new File("docs/content"), new SuffixFileFilter("json"),
+		for (File file : FileUtils.listFiles(new File("content"), new SuffixFileFilter("json"),
 				TrueFileFilter.INSTANCE)) {
 			Metadata metadata = new ObjectMapper().readValue(file, Metadata.class);
 			if (metadata.isPublished()) {

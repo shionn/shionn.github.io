@@ -27,7 +27,22 @@ public class Menu {
 	}
 
 	public String getPath() {
-		return path + ".html";
+		return path + getExtenssion();
+	}
+
+
+	public String getTarget() {
+		if (path.startsWith("https://")) {
+			return "_blank";
+		}
+		return "";
+	}
+
+	private String getExtenssion() {
+		if (path.startsWith("https://") || path.startsWith("mailto:")) {
+			return "";
+		}
+		return ".html";
 	}
 
 	public void add(Menu child) {

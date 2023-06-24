@@ -67,6 +67,13 @@ article {
 			padding: 0 0 0 15px;
 			font-style: italic;
 		}
+
+		div.pub {
+			text-align: center;
+			iframe {
+				display: inline-block;
+			}
+		}
 	}
 
 	header {

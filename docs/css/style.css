@@ -719,6 +719,12 @@ article section blockquote {
   padding: 0 0 0 15px;
   font-style: italic;
 }
+article section div.pub {
+  text-align: center;
+}
+article section div.pub iframe {
+  display: inline-block;
+}
 article header img {
   margin: 0 auto;
   border: 1px solid #d8ae47;
