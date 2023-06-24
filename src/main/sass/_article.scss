@@ -72,7 +72,7 @@ article {
 	header {
 		img {
 			margin: 0 auto;
-			border: 1px solid black;
+			border: 1px solid $theme-color;
 			border-radius: 3px;
 			display: block;
 			max-width: 90%;
@@ -117,140 +117,6 @@ article {
 			border-bottom-style: dashed;
 			border-bottom-width: 1px;
 			display: block;
-		}
-	}
-}
-
-section.comments {
-	& > ul {
-		padding: 0;
-		& > li {
-			list-style-type: none;
-			display: block;
-			border-bottom: 1px dotted $theme-border-color;
-			margin: .5em 0;
-			&:after {
-				content: "";
-				display: block;
-				clear: both;
-			}
-
-			p {
-				text-align: justify;
-				margin: .5em 0 0 0;
-			}
-			blockquote {
-				border-left: double 3px $theme-color;
-				margin: 0 15px;
-				padding: 0 0 0 15px;
-				font-style: italic;
-			}
-
-			div.author {
-				img , span {
-					display: block;
-				}
-			}
-
-			@media (min-width: $min-sm) {
-				div {
-					float: left;
-					padding-left: 5px;
-				}
-
-				div.author {
-					width: 20%;
-					padding: .5em;
-					img {
-						margin: 0 auto;
-						border: 1px solid black;
-						border-radius: 3px;
-					}
-
-					span {
-						text-align: center;
-					}
-
-					span.date {
-						font-size: .8em;
-					}
-				}
-
-				div.content {
-					width: 80%;
-				}
-			}
-
-			@media (min-width: $min-md) {
-				div.author {
-					width: 15%;
-				}
-
-				div.content {
-					width: 85%;
-				}
-			}
-
-			@media (min-width: $min-lg) {
-				div.author {
-					width: 10%;
-				}
-
-				div.content {
-					width: 90%;
-				}
-			}
-		}
-	}
-
-	form {
-		background-color: $theme-grey;
-		p.title {
-			font-family: $font-alternate;
-		}
-		&>p.legend {
-			padding: 0;
-			margin: 0;
-			text-align: center;
-			font-size: 0.8em;
-		}
-
-		fieldset  p {
-			font-size: 0.8em;
-		}
-
-		div.preview > div {
-			border: $theme-dark 1px solid;
-			border-radius: 3px;
-			margin: 8px 0;
-			padding: 5px;
-			background: white;
-
-			p {
-				text-align: justify;
-			}
-
-			ul {
-				padding: 0;
-				li {
-					list-style: none;
-					&:before {
-						padding: 0 1em .2em 2.5em;
-						content: "\f111";
-						font-family: FontAwesome;
-						font-size: 0.5em;
-						color: $theme-color;
-						vertical-align: bottom;
-					}
-				}
-			}
-
-			blockquote {
-				border-left: double 3px $theme-color;
-				margin: 0 15px;
-				padding: 0 0 0 15px;
-				font-style: italic;
-			}
 		}
 	}
 }

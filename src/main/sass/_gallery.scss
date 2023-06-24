@@ -1,11 +1,14 @@
+@import "_variables.scss";
+
 div.gallery {
 	text-align : center;
 	a {
 		padding : 5px;
 	}
 	img {
-		max-width: 25%;
 		display : inline-block;
+		border: 1px solid $theme-color;
+		border-radius: 3px;
 	}
 }
 
@@ -29,7 +32,6 @@ div.gallery {
 		}
 	}
 	img {
-		margin-top : 5%;
 		max-height: 90%;
 		max-width: 90%;
 	}
