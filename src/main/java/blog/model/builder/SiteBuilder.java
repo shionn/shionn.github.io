@@ -44,8 +44,8 @@ public class SiteBuilder {
 	}
 
 	private Group retreiveGroup(Map<String, Group> groups, String key, Type type) {
-		Group group = groups.getOrDefault(key, new Group(type, key));
-		groups.put(key, group);
+		Group group = groups.getOrDefault(type + "-" + key, new Group(type, key));
+		groups.put(type + "-" + key, group);
 		return group;
 	}
 }
