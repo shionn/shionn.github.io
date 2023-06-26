@@ -36,7 +36,7 @@ En commençant par la couleur la plus sombre je peint toutes les surfaces de pea
 
 Pour le brossage j'utilise des pinceaux de maquillage qu'on trouve à bas prix sur amazon, c'est ce que j'ai trouver de mieux pour le brossage, bien mieux que les pinceaux spécial brossage de marque spécialisé (lien en fin d'article).
 
-## couche de base
+## Couche de base
 
 Cette couche est la plus dure à faire. Il faut qu'elle soit transparente, mais pas trop et surtout uniforme. Il faut que le travail précédent remonte à travers cette couche. Si cette couche est trop opaque, le travail précédent sera inutile. Si elle est trop transparente, au contraire on peut en faire 2.
 
@@ -55,7 +55,7 @@ En prenant ma couleur de médiane que j'ai choisi, *72107 Anthea Skin*, dilué �
 
 Même si je n'ai pas fait de grisaille, même si je n'ai pas fait de zénithal, je dilue toujours cette couche de base avec du *glaze medium*.
 
-## ombrage
+## Ombrage
 
 Je fais souvent deux étapes d'ombrage. Ici je fais mon premier ombrage avec du *72108 Succubs Skin*. A partir de cette étape je dilue à l'eau.
 
@@ -74,7 +74,6 @@ Puis avec une couleur de peau encore plus sombre, ici *72044 Dark Fleshtone*, je
 [/gallery]
 
 ## éclaircissement et rehaut
-
 Avec une couleur plus claire que ma couleur de base, ici le *72100 Rosy Flesh*, je vais faire un premier éclaircissement en dessinant les muscles. Ici pour ajouter de la texture aux muscles, je fais plein de petits traits, dans le sens des fibres musculaires. Cela peut paraître complexe, mais ce n'est pas le cas, c'est très simple.
 
 [gallery h=300]
@@ -87,8 +86,7 @@ Enfin avec une couleur encore plus claire, ici le *72003 Pale Flesh*, je vais re
 2023/peindre-de-la-peau-skaven/rehaut-1.jpg
 [/gallery]
 
-## dernier détail
-
+## Dernier détail
 La peau, c'est complexe, car elle n'est pas opaque, à travers la peau on voit les muscles, les veines, etc. De fait, il est souvent intéressant d'ajouter du violet par endroit. Pour mes skaven, les pustules, le museau et la queue sont parfaites pour cet exercice. On peu en mettre dans pratiquement toute les ombres, ça ajoutera de la profondeur à votre peau.
 
 Je prend un joli violet *chaud* bien profond, je le dilue très fortement. je cherche à avoir quelque chose de deux fois voir trois fois moins couvrant qu'une shade de GW. Par exemple, un druchi violet dilué à 1 pour 1 ou 1 pour 2 serait correct, mais je le déconseille, les shades de GW ont tendance à être légèrement brillantes. Avec cela je fais des glacis sur les endroits qui m'intéressent. Je fais attention à tirer pigment vers l'endroit où je veux le plus de détails.
@@ -101,7 +99,7 @@ Je prend un joli violet *chaud* bien profond, je le dilue très fortement. je ch
 [/gallery]
 
 
-## produit que j'utilise
+## Produit que j'utilise
 Voici quelques produits que j'utilise dont je parle dans ce tuto, il s'agit de lien affilié sur amazon, cependant je vous encourage à acheter chez votre revendeur local.
 
 <div class="pub">

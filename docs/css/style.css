@@ -453,6 +453,8 @@ a {
 }
 .container .side {
   padding: 0 1.5em;
+  position: sticky;
+  top: 0px;
 }
 @media (min-width: 768px) {
   .container .side {

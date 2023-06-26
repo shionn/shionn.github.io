@@ -36,6 +36,8 @@
 
 	.side {
 		padding: 0 1.5em;
+		position: sticky;
+		top: 0px;
 		@media (min-width: $min-sm) {
 			padding: 0;
 			width: 30%;
