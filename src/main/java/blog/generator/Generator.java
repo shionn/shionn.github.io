@@ -37,7 +37,7 @@ public class Generator {
 			engine.process("template", buildArticleContext(site, article),
 					new FileWriter(TARGET + "/" + article.getUrl()));
 		}
-		for (Group group : site.getCategories()) {
+		for (Group group : site.getGroups()) {
 			engine.process("template", buildGroupContext(site, group), new FileWriter(TARGET + "/" + group.getUrl()));
 		}
 	}

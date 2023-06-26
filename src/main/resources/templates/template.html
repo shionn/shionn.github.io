@@ -47,6 +47,12 @@
 					<th:block th:text="${tag.name}"/> (<th:block th:text="${tag.size}"/>)
 				</a>
 			</div>
+			<div class="tagclood">
+				<h1><span class="fa fa-flag"></span> Catégories</h1>
+				<a th:each="cat:${site.categories}" th:href="${cat.url}">
+					<th:block th:text="${cat.name}"/> (<th:block th:text="${cat.size}"/>)
+				</a>
+			</div>
 		</div>
 	</div>
 	<footer class="footer">
