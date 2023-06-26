@@ -53,7 +53,8 @@ Cette figurine proviens de ma boite **Ile de Sang**.
 [/gallery]
 
 ### Vermines de Choc
-Ces figurines proviennent de ma boite **Echos de la ruine**. Ce qui est surprenant, car ces figurines sont vendu par 20 mais il n'y en as que 10 dans cette boite.
+Ces figurines proviennent de ma boite **Echos de la ruine**. Il n'y en as que 10 dans cette boite,
+ce qui est surprenant car ces figurines sont vendu par 20, mais ce joue bien par 10.
 * Peinte en avril 2023
 * ~ 19 heures de peinture
 [gallery h=300 w=250]
@@ -62,8 +63,9 @@ Ces figurines proviennent de ma boite **Echos de la ruine**. Ce qui est surprena
 [/gallery]
 
 ### Rats des Clans
-Ces figurines proviennent de diverse boites. 40 de **Ile de Sang**, 20 de **Echos de la ruine** et 20 de la **Vanguard**.
-Cette figurine proviens de ma boite **Ile de Sang**.
+Ces figurines proviennent de diverse boites.
+40 de **Ile de Sang**, 20 de **Echos de la ruine** et 20 de la **Vanguard**.
+40 sont montés avec des armes de corp à corp et 40 avec des lances.
 * Peinte en janvie, février, mars et juin 2023.
 * ~ 85 heures de peinture
 [gallery h=300 w=250]
