@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+import java.util.regex.Pattern;
 
 import org.commonmark.node.Node;
 import org.commonmark.renderer.NodeRenderer;
@@ -31,7 +32,9 @@ public class GalleryNodeRenderer implements NodeRenderer {
 	@Override
 	public void render(Node node) {
 		writer.tag("div", context.extendAttributes(node, Collections.singletonMap("class", "gallery")));
-		for (String img : gallery(node).getImgs()) {
+		for (String imgStr : gallery(node).getImgs()) {
+			String[] img = Pattern.compile("\t").split(imgStr);
+
 			writer.tag("a", Collections.singletonMap("href", url(img)));
 			writer.tag("img", buildImgAttrs(img, gallery(node)));
 			writer.tag("/a");
@@ -39,7 +42,7 @@ public class GalleryNodeRenderer implements NodeRenderer {
 		writer.tag("/div");
 	}
 
-	private Map<String, String> buildImgAttrs(String img, GalleryBlock gallery) {
+	private Map<String, String> buildImgAttrs(String[] img, GalleryBlock gallery) {
 		Map<String, String> attrs = new HashMap<String, String>();
 		attrs.put("src", url(img));
 		if (gallery.getW() > 0) {
@@ -48,6 +51,9 @@ public class GalleryNodeRenderer implements NodeRenderer {
 		if (gallery.getH() > 0) {
 			attrs.put("height", Integer.toString(gallery.getH()));
 		}
+		if (img.length > 1) {
+			attrs.put("style", "object-position: " + img[1]);
+		}
 		return attrs;
 	}
 
@@ -55,8 +61,8 @@ public class GalleryNodeRenderer implements NodeRenderer {
 		return (GalleryBlock) node;
 	}
 
-	private String url(String img) {
-		return img;
+	private String url(String[] img) {
+		return img[0];
 	}
 
 }

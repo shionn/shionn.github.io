@@ -48,8 +48,8 @@ Cette figurine proviens de ma boite **Ile de Sang**.
 2023/armee-skaven/griffarque/1.jpg
 2023/armee-skaven/griffarque/2.jpg
 2023/armee-skaven/griffarque/3.jpg
-2023/armee-skaven/griffarque/4.jpg
-2023/armee-skaven/griffarque/5.jpg
+2023/armee-skaven/griffarque/4.jpg	right
+2023/armee-skaven/griffarque/5.jpg	left
 [/gallery]
 
 ### Vermines de Choc
@@ -57,7 +57,7 @@ Ces figurines proviennent de ma boite **Echos de la ruine**. Il n'y en as que 10
 ce qui est surprenant car ces figurines sont vendu par 20, mais ce joue bien par 10.
 * Peinte en avril 2023
 * ~ 19 heures de peinture
-[gallery h=300 w=250]
+[gallery h=250 w=400]
 2023/armee-skaven/vermines-de-choc/1.jpg
 2023/armee-skaven/vermines-de-choc/2.jpg
 [/gallery]
@@ -110,6 +110,9 @@ Cette figurine proviens de ma boite **Vanguard**.
 2023/armee-skaven/canon/5.jpg
 [/gallery]
 
+### Roue infernale
+Pas encore peinte
+
 ### Lance-feu
 Cette figurine proviens de ma boite **Ile de Sang**.
 * Peinte en avril 2023
@@ -144,8 +147,8 @@ Cette figurine proviens de ma boite **Ile de Sang**.
 * Peinte en mai 2023
 * ~ 2h30 de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/maitre-moulder/1.jpg
-2023/armee-skaven/maitre-moulder/2.jpg
+2023/armee-skaven/maitre-moulder/1.jpg	left
+2023/armee-skaven/maitre-moulder/2.jpg	right
 [/gallery]
 
 ### Rats ogre
@@ -197,7 +200,7 @@ Pas encore peinte
 J'ai choisi de ne pas assembler les poutres de bois et de corde au dessus des trou de vermines, ceci à fin de gagner de la place pour le transport.
 * Peinte en mars 2023
 * ~ 1h30 de peinture
-[gallery h=300 w=250]
+[gallery h=300 w=400]
 2023/armee-skaven/trou/1.jpg
 [/gallery]
 

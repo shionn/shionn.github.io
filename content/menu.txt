@@ -72,7 +72,6 @@ https://web.archive.org/web/20210420064444/http://shionn.org/	Web Archive
 //		warhammer-40k-web-army-editor	W40k Web Army Editor
 //		dotmodeler	DotModeler
 //		hebergement	Hebergement
-//		http://web.archive.org/web/20210420064444/https://shionn.github.io/Blog/	Ce Blog
 mailto:shionn@gmail.com	Contact
 	mailto:shionn@gmail.com	shionn@gmail.com
 	https://github.com/shionn	Github
