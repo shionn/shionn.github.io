@@ -783,6 +783,10 @@ table td, table th {
   padding: 1px 3px;
 }
 
+#paints td a {
+  padding-right: 2px;
+}
+
 div.gallery {
   text-align: center;
 }

@@ -4,21 +4,22 @@ const VJ = "Vallejo";
 const GW = "Cidatel";
 const OLD_GW = "Old Citadel";
 const AP = "Army Painter";
+const GSW = "Green Stuff World";
 
 const VJ_GC_SRC = {
-	name : "Vallejo Game Color PDF",
+	name : "Vallejo",
 	url : "https://www.vallejoacrylics.com/wp-content/uploads/2023/04/CC266-Game_Color-NewIC-Rev00_.pdf"
 };
 
 const DAKKA = {
-	name : "Dakka Dakka",
+	name : "Dakka",
 	url : "https://www.dakkadakka.com/wiki/en/Paint_Range_Compatibility_Chart"
 };
 
 const GSW_SRC = {
-	name = "GSW",
-	url = "https://www.greenstuffworld.cn/en/content/15-paint-equivalence-chart-gsw"
-}
+	name : "GSW",
+	url : "https://www.greenstuffworld.cn/en/content/15-paint-equivalence-chart-gsw"
+};
 
 let paints = new Map();
 
@@ -35,19 +36,36 @@ let createPaint = function(brand, id, name, legacy = false) {
 }
 
 let equivalence = function(src, ids) {
-	let result = [undefined, undefined, undefined, undefined];
+	let result = [undefined, undefined, undefined, undefined, undefined];
 	ids.forEach( i => {
 		let p = paint(i);
 		if (p) {
-			result[[VJ, GW, OLD_GW, AP].indexOf(p.brand)] = i;
+			result[[VJ, GW, OLD_GW, AP, GSW].indexOf(p.brand)] = i;
 		} else {
 			console.log("undefined color : " + i);
 		}
 	})
 
-	const equi = { ids : result, src : src };
-	equivalences = equivalences.concat(equi);
-	return equi;
+	let toAdd = { ids : result, src : [ src ] };
+//	equivalences.forEach(exist => {
+//		let match = !!toAdd;
+//		for (let i=0;i<5;i++) {
+//			match = match
+//					&& ( 	exist.ids[i] === undefined
+//							|| toAdd.ids[i] === undefined
+//							|| exist.ids[i] === toAdd.ids[i]);
+//		}
+//		if (match) {
+//			for (let i=0;i<5;i++) {
+//				exist.ids[i] = exist.ids[i] || toAdd.ids[i] || undefined;
+//			}
+//			exist.src.push(toAdd.src[0]);
+//			toAdd = undefined;
+//		}
+//	});
+	if (!!toAdd) {
+		equivalences = equivalences.concat(toAdd);
+	}
 };
 
 q(function() {
@@ -69,7 +87,11 @@ q(function() {
 				line.append(q("<td>"));
 			}
 		});
-		line.append(q("<td>").append(q("<a>").attr("href", equi.src.url).attr("target", "_blank").text(equi.src.name)));
+		let src = q("<td>");
+		equi.src.forEach(s => {
+			src.append(q("<a>").attr("href", s.url).attr("target", "_blank").text(s.name));
+		})
+		line.append(src);
 		q("#paints tbody").append(line);
 	});
 });
@@ -235,6 +257,7 @@ createPaint(VJ, 72421, "Cpper Brown");
 createPaint(VJ, 72422, "Space Grey");
 createPaint(VJ, 72423, "Black Lotus");
 createPaint(VJ, 72448, "Xpress Medium");
+createPaint(VJ, 72750, "Cold Grey");
 createPaint(VJ, 73200, "Sepia Wash");
 createPaint(VJ, 73201, "Black Wash");
 createPaint(VJ, 73202, "Pale Grey Wash");
@@ -255,11 +278,12 @@ createPaint(GW, "21-07", "Kantor Blue");
 createPaint(GW, "21-08", "Macragge Blue");
 createPaint(GW, "21-09", "Caledor Sky");
 createPaint(GW, "21-10", "Stegadon Scale Green");
+createPaint(GW, "21-11", "Incubi Darkness");
 createPaint(GW, "21-12", "Caliban Green");
 createPaint(GW, "21-14", "Castellan Green");
 createPaint(GW, "21-15", "Death W. Forest");
 createPaint(GW, "21-16", "Zandri Dust");
-createPaint(GW, "21-17", "Steel Leg. Drab");
+createPaint(GW, "21-17", "Steel Legion Drab");
 createPaint(GW, "21-18", "Bugmans Glow");
 createPaint(GW, "21-19", "Ratskin Flesh");
 createPaint(GW, "21-20", "Mournfang Brown");
@@ -277,6 +301,7 @@ createPaint(GW, "21-31", "WarplockBronze");
 createPaint(GW, "21-32", "The Fang");
 createPaint(GW, "21-33", "Screamer Pink");
 createPaint(GW, "21-35", "Retributor Armour");
+createPaint(GW, "21-39", "Phoenician Purple");
 createPaint(GW, "21-41", "Gal Vorbak Red");
 createPaint(GW, "21-42", "Night Lord Blue");
 createPaint(GW, "21-44", "Corvus Black");
@@ -292,6 +317,8 @@ createPaint(GW, "22-05", "Evil Sunz Scarlet");
 createPaint(GW, "22-06", "Wild Rider Red");
 createPaint(GW, "22-07", "Wazdakka Red");
 createPaint(GW, "22-09", "Xereus Purple");
+createPaint(GW, "22-10", "Genestealer Purple");
+createPaint(GW, "22-12", "Slaanesh Grey");
 createPaint(GW, "22-15", "Altd. Guard Blue");
 createPaint(GW, "22-16", "Calgar Blue");
 createPaint(GW, "22-17", "Teclis Blue");
@@ -325,6 +352,8 @@ createPaint(GW, "22-47", "Gorthor Brown");
 createPaint(GW, "22-48", "Baneblad. Brown");
 createPaint(GW, "22-49", "Dawnstone");
 createPaint(GW, "22-50", "Administratum Grey");
+createPaint(GW, "22-51", "Eshin Grey");
+createPaint(GW, "22-52", "Dark Reaper");
 createPaint(GW, "22-55", "Stormvermin Fur");
 createPaint(GW, "22-56", "Ulthuan Grey");
 createPaint(GW, "22-57", "White Scar");
@@ -342,6 +371,9 @@ createPaint(GW, "22-80", "Dorn Yellow");
 createPaint(GW, "22-81", "Fulgrim Pink");
 createPaint(GW, "22-82", "Dechala Lilac");
 createPaint(GW, "22-84", "Blue Horror");
+createPaint(GW, "22-85", "Lugganath Orange");
+createPaint(GW, "22-91", "Word Bearers Red");
+createPaint(GW, "23-14", "Golden Griffon");
 createPaint(GW, "24-02", "Fuegan Orange");
 createPaint(GW, "24-03", "Carroburg Crimson");
 createPaint(GW, "24-04", "Druchii Violet");
@@ -391,7 +423,6 @@ createPaint(AP, "WP1436", "Mars Red");
 createPaint(AP, "WP1442", "Mythical Orange");
 createPaint(AP, "WP1460", "Vampire Red");
 createPaint(AP, "WP1142", "Chaotic Red");
-createPaint(AP, "WP1142", "Chaotic Red");
 createPaint(AP, "WP1412", "Crusted Sore");
 createPaint(AP, "WP1128", "Alien Purple");
 createPaint(AP, "WP1116", "Deep Blue");
@@ -440,47 +471,53 @@ createPaint(AP, "WP1428", "Gorgon Hide");
 createPaint(AP, "WP1408", "Centaur Skin");
 
 
+createPaint(OLD_GW, "old-gw-asurmen-blue-wash", "Asurmen Blue Wash");
+createPaint(OLD_GW, "old-gw-baal-red-wash", "Baal Red Wash");
+createPaint(OLD_GW, "old-gw-bad-moon-yellow", "Bad Moon Yellow");
+createPaint(OLD_GW, "old-gw-badab-black-wash", "Badab Black Wash");
+createPaint(OLD_GW, "old-gw-bilious-green", "Bilious Green");
+createPaint(OLD_GW, "old-gw-blazing-orange", "Blazing Orange");
+createPaint(OLD_GW, "old-gw-blood-red", "Blood Red");
+createPaint(OLD_GW, "old-gw-brunished-gold", "Brunished Gold");
+createPaint(OLD_GW, "old-gw-camo-green", "Camo Green");
+createPaint(OLD_GW, "old-gw-catachan-green", "Catachan Green");
+createPaint(OLD_GW, "old-gw-dark-angels-green", "Dark Angels Green");
+createPaint(OLD_GW, "old-gw-devlan-mud-wash", "Devlan Mud Wash");
+createPaint(OLD_GW, "old-gw-desert-yellow", "Desert Yellow");
+createPaint(OLD_GW, "old-gw-elf-flesh", "Elf Flesh");
+createPaint(OLD_GW, "old-gw-enchanted-blue", "Enchanted Blue");
+createPaint(OLD_GW, "old-gw-fiery-orange", "Fiery Orange");
+createPaint(OLD_GW, "old-gw-goblin-green", "Goblin Green");
+createPaint(OLD_GW, "old-gw-golden-yellow", "Golden Yellow");
+createPaint(OLD_GW, "old-gw-hawk-turquoise", "Hawk Turquoise");
+createPaint(OLD_GW, "old-gw-ice-blue", "Ice Blue");
+createPaint(OLD_GW, "old-gw-imperial-purple", "Imperial Purple");
+createPaint(OLD_GW, "old-gw-jade-green", "Jade Green");
+createPaint(OLD_GW, "old-gw-knarloc-green", "Knarloc Green");
+createPaint(OLD_GW, "old-gw-liche-purple", "Liche Purple");
+createPaint(OLD_GW, "old-gw-lightning-bolt-blue", "Lightning Bolt Blue");
+createPaint(OLD_GW, "old-gw-macharius-solar-orange", "Macharius Solar Orange");
+createPaint(OLD_GW, "old-gw-mechrite-red", "Mechrite Red");
+createPaint(OLD_GW, "old-gw-mordian-blue", "Mordian Blue");
+createPaint(OLD_GW, "old-gw-midnight-blue", "Midnight Blue");
+createPaint(OLD_GW, "old-gw-nauseating-blue", "Nauseating Blue");
+createPaint(OLD_GW, "old-gw-orkhide-shade", "Orkhide Shade");
+createPaint(OLD_GW, "old-gw-pallid-flesh", "Pallid Flesh");
+createPaint(OLD_GW, "old-gw-red-gore", "Red Gore");
+createPaint(OLD_GW, "old-gw-regal-blue", "Regal Blue");
+createPaint(OLD_GW, "old-gw-scab-red", "Scab Red");
+createPaint(OLD_GW, "old-gw-scaly-green", "Scaly Green");
+createPaint(OLD_GW, "old-gw-scorpion-green", "Scorpion Green");
 createPaint(OLD_GW, "old-gw-skull-white", "Skull White");
 createPaint(OLD_GW, "old-gw-smelly-primer", "Smelly Primer");
-createPaint(OLD_GW, "old-gw-pallid-flesh", "Pallid Flesh");
-createPaint(OLD_GW, "old-gw-elf-flesh", "Elf Flesh");
-createPaint(OLD_GW, "old-gw-bad-moon-yellow", "Bad Moon Yellow");
-createPaint(OLD_GW, "old-gw-sunburst-yellow", "Sunburst Yellow");
-createPaint(OLD_GW, "old-gw-golden-yellow", "Golden Yellow");
-createPaint(OLD_GW, "old-gw-desert-yellow", "Desert Yellow");
-createPaint(OLD_GW, "old-gw-macharius-solar-orange", "Macharius Solar Orange");
-createPaint(OLD_GW, "old-gw-fiery-orange", "Fiery Orange");
-createPaint(OLD_GW, "old-gw-blazing-orange", "Blazing Orange");
-createPaint(OLD_GW, "old-gw-mechrite-red", "Mechrite Red");
-createPaint(OLD_GW, "old-gw-blood-red", "Blood Red");
-createPaint(OLD_GW, "old-gw-red-gore", "Red Gore");
-createPaint(OLD_GW, "old-gw-scab-red", "Scab Red");
-createPaint(OLD_GW, "old-gw-tentacle-pink", "Tentacle Pink");
-createPaint(OLD_GW, "old-gw-warlock-purple", "Warlock Purple");
-createPaint(OLD_GW, "old-gw-liche-purple", "Liche Purple");
-createPaint(OLD_GW, "old-gw-imperial-purple", "Imperial Purple");
-createPaint(OLD_GW, "old-gw-nauseating-blue", "Nauseating Blue");
-createPaint(OLD_GW, "old-gw-storm-blue", "Storm Blue");
-createPaint(OLD_GW, "old-gw-midnight-blue", "Midnight Blue");
-createPaint(OLD_GW, "old-gw-regal-blue", "Regal Blue");
-createPaint(OLD_GW, "old-gw-ultramarine-blue", "Ultramarine Blue");
-createPaint(OLD_GW, "old-gw-mordian-blue", "Mordian Blue");
-createPaint(OLD_GW, "old-gw-enchanted-blue", "Enchanted Blue");
-createPaint(OLD_GW, "old-gw-ice-blue", "Ice Blue");
-createPaint(OLD_GW, "old-gw-lightning-bolt-blue", "Lightning Bolt Blue");
-createPaint(OLD_GW, "old-gw-hawk-turquoise", "Hawk Turquoise");
-createPaint(OLD_GW, "old-gw-vile-green", "Vile Green");
-createPaint(OLD_GW, "old-gw-jade-green", "Jade Green");
-createPaint(OLD_GW, "old-gw-scaly-green", "Scaly Green");
-createPaint(OLD_GW, "old-gw-dark-angels-green", "Dark Angels Green");
 createPaint(OLD_GW, "old-gw-snot-green", "Snot Green");
-createPaint(OLD_GW, "old-gw-goblin-green", "Goblin Green");
-createPaint(OLD_GW, "old-gw-camo-green", "Camo Green");
-createPaint(OLD_GW, "old-gw-scorpion-green", "Scorpion Green");
-createPaint(OLD_GW, "old-gw-bilious-green", "Bilious Green");
-createPaint(OLD_GW, "old-gw-catachan-green", "Catachan Green");
-createPaint(OLD_GW, "old-gw-orkhide-shade", "Orkhide Shade");
-createPaint(OLD_GW, "old-gw-knarloc-green", "Knarloc Green");
+createPaint(OLD_GW, "old-gw-sunburst-yellow", "Sunburst Yellow");
+createPaint(OLD_GW, "old-gw-storm-blue", "Storm Blue");
+createPaint(OLD_GW, "old-gw-tentacle-pink", "Tentacle Pink");
+createPaint(OLD_GW, "old-gw-ultramarine-blue", "Ultramarine Blue");
+createPaint(OLD_GW, "old-gw-vile-green", "Vile Green");
+createPaint(OLD_GW, "old-gw-warlock-purple", "Warlock Purple");
+
 createPaint(OLD_GW, "old-gw-gretchin-green", "Gretchin Green");
 createPaint(OLD_GW, "old-gw-rotting-flesh", "Rotting Flesh");
 createPaint(OLD_GW, "old-gw-bleached-bone", "Bleached Bone");
@@ -529,13 +566,131 @@ createPaint(OLD_GW, "old-gw-dheneb-stone", "Dheneb Stone");
 createPaint(OLD_GW, "old-gw-hormagaunt-purple", "Hormagaunt Purple");
 createPaint(OLD_GW, "old-gw-iyanden-darksun", "Iyanden Darksun");
 createPaint(OLD_GW, "old-gw-tallarn-flesh", "Tallarn Flesh");
-createPaint(OLD_GW, "old-gw-asurmen-blue-wash", "Asurmen Blue Wash");
-createPaint(OLD_GW, "old-gw-baal-red-wash", "Baal Red Wash");
-createPaint(OLD_GW, "old-gw-badab-black-wash", "Badab Black Wash");
-createPaint(OLD_GW, "old-gw-devlan-mud-wash", "Devlan Mud Wash");
 createPaint(OLD_GW, "old-gw-gryphonne-sepia-wash", "Gryphonne Sepia Wash");
 createPaint(OLD_GW, "old-gw-leviathan-purple-wash", "Leviathan Purple Wash");
 createPaint(OLD_GW, "old-gw-ogryn-flesh-wash", "Ogryn Flesh Wash");
+
+createPaint(GSW, 1778, "Nuclear White");
+createPaint(GSW, 1779, "Black Stallion");
+createPaint(GSW, 1780, "Banana Split");
+createPaint(GSW, 1780, "Cyber Yellow");
+createPaint(GSW, 1782, "Go Mango");
+createPaint(GSW, 1783, "Mustard Yellow");
+createPaint(GSW, 1784, "Flaming Orange");
+createPaint(GSW, 1785, "Ember Orange");
+createPaint(GSW, 1786, "Hellfire Red");
+createPaint(GSW, 1787, "Cutthroat Red");
+createPaint(GSW, 1788, "Majin Pink");
+createPaint(GSW, 1789, "Sangria Red");
+createPaint(GSW, 1790, "Liche Purple");
+createPaint(GSW, 1791, "Abyss Blue");
+createPaint(GSW, 1792, "Marine Blue");
+createPaint(GSW, 1793, "Summersea Blue");
+createPaint(GSW, 1794, "Zima Blue");
+createPaint(GSW, 1795, "Tropical Turquoise");
+createPaint(GSW, 1796, "Kraken Green");
+createPaint(GSW, 1797, "Forest Green");
+createPaint(GSW, 1798, "Hunter Green");
+createPaint(GSW, 1799, "Warcry Green");
+createPaint(GSW, 1800, "Camouflage Green");
+createPaint(GSW, 1820, "Flubber Green");
+createPaint(GSW, 1821, "Olivegrove Green");
+createPaint(GSW, 1822, "Zombie Flesh");
+createPaint(GSW, 1823, "Sun-bleached Bone");
+createPaint(GSW, 1824, "Komodo Khaki");
+createPaint(GSW, 1825, "Peach Flesh");
+createPaint(GSW, 1826, "Dwarven Flesh");
+createPaint(GSW, 1827, "Blushing Flesh");
+createPaint(GSW, 1828, "Ochre Desert");
+createPaint(GSW, 1829, "Leather Brown");
+createPaint(GSW, 1830, "Foxhide Brown");
+createPaint(GSW, 1831, "Choco Brown");
+createPaint(GSW, 1832, "Redwood Brown");
+createPaint(GSW, 1833, "Bestial Brown");
+createPaint(GSW, 1834, "Quicksand Brown");
+createPaint(GSW, 1835, "Wolven Grey");
+createPaint(GSW, 1836, "Bluegrey Dusk");
+createPaint(GSW, 1837, "Moonstone Grey");
+createPaint(GSW, 1838, "Slate Grey");
+createPaint(GSW, 1839, "Lollipop Magenta");
+createPaint(GSW, 1840, "Mirage Blue");
+createPaint(GSW, 1841, "Dark Umber");
+createPaint(GSW, 1842, "Steel Grey");
+createPaint(GSW, 1843, "Ivory Tusk");
+createPaint(GSW, 1844, "Pale Flesh");
+createPaint(GSW, 1845, "Elven Flesh");
+createPaint(GSW, 1846, "Imperium Blue");
+createPaint(GSW, 1847, "Malefic Purple");
+createPaint(GSW, 1848, "Military Green");
+createPaint(GSW, 1849, "Field Green-Grey");
+createPaint(GSW, 1850, "Rocket Green");
+createPaint(GSW, 1851, "Gangrene");
+createPaint(GSW, 1852, "Scorched Wood");
+createPaint(GSW, 1853, "Overlord Olive");
+createPaint(GSW, 1854, "Dark Beige");
+createPaint(GSW, 1855, "English Field Brown");
+createPaint(GSW, 1856, "Coyote Brown");
+createPaint(GSW, 1857, "Desert Camo");
+createPaint(GSW, 1858, "Yellow-Brown Ops");
+createPaint(GSW, 1859, "Valkyrie Yellow");
+createPaint(GSW, 1882, "Barrel Grey");
+createPaint(GSW, 1883, "Gengis Khaki");
+createPaint(GSW, 1884, "Sandstorm");
+createPaint(GSW, 1885, "Deck Grey");
+createPaint(GSW, 1886, "Prussian Green");
+createPaint(GSW, 1887, "Olive-Brown Ops");
+createPaint(GSW, 3207, "Fang White");
+createPaint(GSW, 3208, "Vanilla Drop");
+createPaint(GSW, 3209, "Parchment");
+createPaint(GSW, 3210, "Golden Cream");
+createPaint(GSW, 3211, "Temple Ochre");
+createPaint(GSW, 3212, "Tiger Brown");
+createPaint(GSW, 3213, "Arrakis Brown");
+createPaint(GSW, 3214, "Faded Orange");
+createPaint(GSW, 3215, "Dusty Rose");
+createPaint(GSW, 3216, "Flesh Rose");
+createPaint(GSW, 3217, "Red Truth");
+createPaint(GSW, 3219, "Brown Skin");
+createPaint(GSW, 3220, "Wonka Violet");
+createPaint(GSW, 3221, "Phantom Violet");
+createPaint(GSW, 3222, "Chancellor Blue");
+createPaint(GSW, 3223, "Prussian Blue");
+createPaint(GSW, 3224, "Ultramar Blue");
+createPaint(GSW, 3225, "Lapislazuli");
+createPaint(GSW, 3226, "Smoked Blue");
+createPaint(GSW, 3227, "Arctic Blue");
+createPaint(GSW, 3228, "Grey Teal");
+createPaint(GSW, 3229, "Viridian Green");
+createPaint(GSW, 3230, "Rotten Green");
+createPaint(GSW, 3231, "Canary Green");
+createPaint(GSW, 3232, "Yoda Green");
+createPaint(GSW, 3233, "Blackroot Grey");
+createPaint(GSW, 3234, "Ranger Green");
+createPaint(GSW, 3235, "Starship Grey");
+createPaint(GSW, 3236, "Lilac Purple");
+createPaint(GSW, 3237, "Mint Twister");
+createPaint(GSW, 3238, "Bluebird Grey");
+createPaint(GSW, 3239, "Arachnid Green");
+createPaint(GSW, 3240, "Moon Mist Grey");
+createPaint(GSW, 3259, "Whitecap Beige");
+createPaint(GSW, 1860, "Gunmetal Grey");
+createPaint(GSW, 1861, "Quicksilver");
+createPaint(GSW, 1862, "Anthrax Metal");
+createPaint(GSW, 1863, "Mystic White");
+createPaint(GSW, 1864, "Sharkfin Blue");
+createPaint(GSW, 1865, "Tinmetal Grey");
+createPaint(GSW, 1866, "Dark Elder Bronze");
+createPaint(GSW, 1867, "Gladius Bronze");
+createPaint(GSW, 1868, "Steampunk Copper");
+createPaint(GSW, 1869, "Shiny Gold");
+createPaint(GSW, 1870, "El Dorado");
+createPaint(GSW, 1871, "Antique Gold");
+createPaint(GSW, 1872, "Neptunus Blue");
+createPaint(GSW, 1873, "Sirenscale Green");
+createPaint(GSW, 1874, "Caesar Red");
+createPaint(GSW, 1875, "Persian Violet");
+createPaint(GSW, 1876, "Aqua Turquoise");
+createPaint(GSW, 1877, "Orchid Purple");
 
 equivalence(VJ_GC_SRC, [ 72001, "22-57"]);
 equivalence(VJ_GC_SRC, [ 72004, "22-37"]);
@@ -607,7 +762,7 @@ equivalence(DAKKA, [ 72010, "22-05", "old-gw-blood-red", "WP1104"]);
 equivalence(DAKKA, [ "22-06", "WP1436"]);
 equivalence(DAKKA, [ 72011, "22-07", "old-gw-red-gore", "WP1105"]);
 equivalence(DAKKA, [ 72012, "old-gw-scab-red"]);
-equivalence(DAKKA, [ "29-30", "WP1142"]);
+equivalence(DAKKA, [ "22-91", "WP1142"]);
 equivalence(DAKKA, [ 72013, "old-gw-tentacle-pink"]);
 equivalence(DAKKA, [ 72014, "old-gw-warlock-purple"]);
 equivalence(DAKKA, [ "21-49", "WP1412"]);
@@ -656,7 +811,7 @@ equivalence(DAKKA, [ 72153, "old-gw-khemri-brown"]);
 equivalence(DAKKA, [ 72043, "old-gw-bestial-brown"]);
 equivalence(DAKKA, [ 72154, "old-gw-calthan-brown"]);
 equivalence(DAKKA, [ 72065, "old-gw-terracotta"]);
-equivalence(DAKKA, [ 72062, "21-10", "old-gw-graveyard-earth", "WP1123"]);
+equivalence(DAKKA, [ 72062, "21-17", "old-gw-graveyard-earth", "WP1123"]);
 equivalence(DAKKA, [ 72061, "old-gw-kommando-khaki"]);
 equivalence(DAKKA, [ 72046, "old-gw-ghostly-grey"]);
 equivalence(DAKKA, [ 72047, "old-gw-space-wolves-grey"]);
@@ -696,3 +851,95 @@ equivalence(DAKKA, [ "22-43", "WP1437"]);
 equivalence(DAKKA, [ "22-82", "WP1445"]);
 equivalence(DAKKA, [ "29-55", "WP1108"]);
 equivalence(DAKKA, [ "22-84", "WP1428"]);
+
+equivalence(GSW_SRC, [ 72001, "22-57", "old-gw-skull-white", 1778]);
+equivalence(GSW_SRC, [ 72051, "21-25", "old-gw-chaos-black", 1779]);
+equivalence(GSW_SRC, [ 72005, "old-gw-bad-moon-yellow", 1780]);
+equivalence(GSW_SRC, [ 72006, "22-02", "old-gw-sunburst-yellow", 1780]);
+equivalence(GSW_SRC, [ 72007, "22-01", "old-gw-golden-yellow", 1782]);
+equivalence(GSW_SRC, [ 72063, "old-gw-desert-yellow", 1783]);
+equivalence(GSW_SRC, [ 72008, "22-02", "old-gw-fiery-orange", 1784]);
+equivalence(GSW_SRC, [ 72009, "22-03", "old-gw-blazing-orange", 1785]);
+equivalence(GSW_SRC, [ 72010, "22-05", "old-gw-blood-red", 1786]);
+equivalence(GSW_SRC, [ 72011, "22-07", "old-gw-red-gore", 1787]);
+equivalence(GSW_SRC, [ 72013, "old-gw-tentacle-pink", 1788]);
+equivalence(GSW_SRC, [ 72014, "21-33", "old-gw-warlock-purple", 1789]);
+equivalence(GSW_SRC, [ 72015, "22-09", "old-gw-liche-purple", 1790]);
+equivalence(GSW_SRC, [ 72019, "old-gw-midnight-blue", 1791]);
+equivalence(GSW_SRC, [ 72022, "22-15", "old-gw-ultramarine-blue", 1792]);
+equivalence(GSW_SRC, [ 72021, "22-17", "old-gw-enchanted-blue", 1793]);
+equivalence(GSW_SRC, [ 72023, "22-18", "old-gw-ice-blue", 1794]);
+equivalence(GSW_SRC, [ 72024, "22-19", "old-gw-hawk-turquoise", 1795]);
+equivalence(GSW_SRC, [ 72027, "22-21", "old-gw-scaly-green", 1796]);
+equivalence(GSW_SRC, [ 72028, "old-gw-dark-angels-green", 1797]);
+equivalence(GSW_SRC, [ 72029, "22-23", "old-gw-snot-green", 1798]);
+equivalence(GSW_SRC, [ 72030, "22-25", "old-gw-goblin-green", 1799]);
+equivalence(GSW_SRC, [ 72408, "22-30", "old-gw-camo-green", 1800]);
+equivalence(GSW_SRC, [ 72032, "22-24", "old-gw-scorpion-green", 1820]);
+equivalence(GSW_SRC, [ 72067, "old-gw-catachan-green", 1821]);
+equivalence(GSW_SRC, [ 72035, "22-29", "old-gw-rotting-flesh", 1822]);
+equivalence(GSW_SRC, [ 72034, "22-32", "old-gw-bleached-bone", 1823]);
+equivalence(GSW_SRC, [ 72061, "old-gw-kommando-khaki", 1824]);
+equivalence(GSW_SRC, [ 72036, "22-39", "old-gw-bronzed-flesh", 1825]);
+equivalence(GSW_SRC, [ 72041, "21-19", "old-gw-dwarf-flesh", 1826]);
+equivalence(GSW_SRC, [ 72066, "old-gw-tanned-flesh", 1827]);
+equivalence(GSW_SRC, [ 72039, "22-44", "old-gw-bubonic-brown", 1828]);
+equivalence(GSW_SRC, [ 72040, "21-21", "old-gw-snakebite-leather", 1829]);
+equivalence(GSW_SRC, [ 72042, "old-gw-vermin-brown", 1830]);
+equivalence(GSW_SRC, [ 72045, "21-23", "old-gw-scorched-brown", 1831]);
+equivalence(GSW_SRC, [ 72044, "22-45", "old-gw-dark-flesh", 1832]);
+equivalence(GSW_SRC, [ 72043, "21-20", "old-gw-bestial-brown", 1833]);
+equivalence(GSW_SRC, [ 72062, 1834]);
+equivalence(GSW_SRC, [ "22-68", "old-gw-space-wolves-grey", 1835]);
+equivalence(GSW_SRC, [ 72048, "21-32", "old-gw-shadow-grey", 1836]);
+equivalence(GSW_SRC, [ 72049, "22-50", "old-gw-fortress-grey", 1837]);
+equivalence(GSW_SRC, [ 72050, "22-49", "old-gw-codex-grey", 1838]);
+equivalence(GSW_SRC, [ 72014, "21-33", "old-gw-warlock-purple", 1839]);
+equivalence(GSW_SRC, [ "22-47", 1841]);
+equivalence(GSW_SRC, [ "22-52", 1842]);
+equivalence(GSW_SRC, [ 72101, 1843]);
+equivalence(GSW_SRC, [ 72003, "old-gw-pallid-flesh", 1844]);
+equivalence(GSW_SRC, [ 72004, "22-37", "old-gw-elf-flesh", 1845]);
+equivalence(GSW_SRC, [ 72020, "old-gw-regal-blue", 1846]);
+equivalence(GSW_SRC, [ 72016, 1847]);
+equivalence(GSW_SRC, [ "21-14", 1848]);
+equivalence(GSW_SRC, [ "21-12", 1849]);
+equivalence(GSW_SRC, [ "22-25", 1850]);
+equivalence(GSW_SRC, [ "28-09", 1851]);
+equivalence(GSW_SRC, [ "21-22", 1852]);
+equivalence(GSW_SRC, [ 72153, "21-10", 1855]);
+equivalence(GSW_SRC, [ "22-38", 1856]);
+equivalence(GSW_SRC, [ "22-34", 1857]);
+equivalence(GSW_SRC, [ "22-80", 1859]);
+equivalence(GSW_SRC, [ "22-51", 1882]);
+equivalence(GSW_SRC, [ 72148, "21-15", 1883]);
+equivalence(GSW_SRC, [ "22-35", 1884]);
+equivalence(GSW_SRC, [ "21-11", 1886]);
+equivalence(GSW_SRC, [ "21-01", 3210]);
+equivalence(GSW_SRC, [ 72098, "22-33", 3211]);
+equivalence(GSW_SRC, [ 72038, 3212]);
+equivalence(GSW_SRC, [ 72037, 3213]);
+equivalence(GSW_SRC, [ "22-85", 3214]);
+equivalence(GSW_SRC, [ "22-07", 3219]);
+equivalence(GSW_SRC, [ "21-39", 3220]);
+equivalence(GSW_SRC, [ "22-10", 3221]);
+equivalence(GSW_SRC, [ "21-07", 3225]);
+equivalence(GSW_SRC, [ "22-16", 3226]);
+equivalence(GSW_SRC, [ "22-84", 3228]);
+equivalence(GSW_SRC, [ "22-22", 3229]);
+equivalence(GSW_SRC, [ "22-24", 3230]);
+equivalence(GSW_SRC, [ "21-15", 3232]);
+equivalence(GSW_SRC, [ "22-82", 3236]);
+equivalence(GSW_SRC, [ "22-78", 3237]);
+equivalence(GSW_SRC, [ "22-12", 3238]);
+equivalence(GSW_SRC, [ "21-10", 3239]);
+equivalence(GSW_SRC, [ "22-58", 3259]);
+equivalence(GSW_SRC, [ 72155, "22-59", "old-gw-chainmail", 1860]);
+equivalence(GSW_SRC, [ 72052, "22-60", "old-gw-mithril-silver", 1861]);
+equivalence(GSW_SRC, [ 72054, "21-28", "old-gw-boltgun-metal", 1862]);
+equivalence(GSW_SRC, [ 72060, "21-31", "old-gw-tin-bitz", 1866]);
+equivalence(GSW_SRC, [ 72057, "22-63", "old-gw-dwarf-bronze", 1867]);
+equivalence(GSW_SRC, [ 72059, "22-63", "old-gw-beaten-copper", 1868]);
+equivalence(GSW_SRC, [ 72056, "21-01", "old-gw-brunished-gold", 1869]);
+equivalence(GSW_SRC, [ 72055, "21-35", "old-gw-shining-gold", 1870]);
+equivalence(GSW_SRC, [ "23-14", 1871]);
