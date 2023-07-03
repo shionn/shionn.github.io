@@ -59,6 +59,7 @@ public class Generator {
 	private Context buildArticleContext(Site site, Article article) {
 		Map<String, Object> params = buildParam(site, "article");
 		params.put("article", article);
+		params.put("scripts", article.getJs());
 		return new Context(Locale.FRANCE, params);
 	}
 

@@ -1,0 +1,10 @@
+@import "_variables.scss";
+
+table {
+	thead, tbody {
+		border: 1px solid $theme-color;
+	}
+	td, th {
+		padding: 1px 3px;
+	}
+}

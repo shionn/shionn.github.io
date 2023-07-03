@@ -73,5 +73,9 @@
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/gallery.js"></script>
+	<th:block th:each="script : ${scripts}">
+		<script type="text/javascript" th:src="${script}"></script>
+	</th:block>
+	<script type="text/javascript" src="js/table.js"></script>
 </body>
 </html>

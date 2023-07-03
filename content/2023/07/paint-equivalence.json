@@ -1,0 +1,10 @@
+{
+	"type": "page",
+	"date": "2023/07/15",
+	"title": "Equivalence peinture",
+	"tags": ["War Game", "Peinture", "Bdd"],
+	"category": "War Game",
+	"logo": true,
+	"published": false,
+	"js" : [ "js/paints-db.js" ]
+}

@@ -1,5 +1,5 @@
 'use strict';
-// version 1.1
+// version 1.2
 
 let _q = function(obj) {
 	this.obj = obj;
@@ -97,12 +97,25 @@ _q.prototype.replaceWith = function(elems) {
 	return this;
 }
 
+_q.prototype.append = function(elems) {
+	this._each(o => elems._each(e => o.appendChild(e)));
+	return this;
+}
+
+_q.prototype.text = function(txt) {
+	this._each(o => o.textContent = txt);
+	return this;
+}
+
 let q = function(selector) {
 	if (!selector) return this;
 	if (typeof selector === "function") {
 		document.addEventListener("DOMContentLoaded", selector);
 		return this;
 	} else if (typeof selector === "string") {
+		if (selector.charAt(0) === '<') {
+			return new _q([document.createElement(selector.substring(1, selector.length-1))]);
+		}
 		return new _q(document.querySelectorAll(selector));
 	} else if (Array.isArray(selector)) {
 		return new _q(selector);

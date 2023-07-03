@@ -776,6 +776,13 @@ article.short footer:after {
   display: block;
 }
 
+table thead, table tbody {
+  border: 1px solid #d8ae47;
+}
+table td, table th {
+  padding: 1px 3px;
+}
+
 div.gallery {
   text-align: center;
 }

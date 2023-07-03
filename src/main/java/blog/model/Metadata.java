@@ -1,5 +1,6 @@
 package blog.model;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
@@ -21,6 +22,7 @@ public class Metadata {
 	private String title;
 	private String category;
 	private List<String> tags;
+	private List<String> js = new ArrayList<String>();
 	private boolean published = true;
 	private boolean logo = false;
 
@@ -56,6 +58,10 @@ public class Metadata {
 
 	public boolean isLogo() {
 		return logo;
+	}
+
+	public List<String> getJs() {
+		return js;
 	}
 
 }
