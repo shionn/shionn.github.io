@@ -48,7 +48,10 @@ let equivalence = function(src, ids) {
 
 	let toAdd = { ids : result, src : [ src ] };
 //	equivalences.forEach(exist => {
-//		let match = !!toAdd;
+//		let match = false;
+//		for (let i=0;i<5;i++) {
+//			match = match || exist.ids[i] && !!toAdd && toAdd.ids[i];
+//		}
 //		for (let i=0;i<5;i++) {
 //			match = match
 //					&& ( 	exist.ids[i] === undefined
@@ -322,7 +325,7 @@ createPaint(GW, "22-12", "Slaanesh Grey");
 createPaint(GW, "22-15", "Altd. Guard Blue");
 createPaint(GW, "22-16", "Calgar Blue");
 createPaint(GW, "22-17", "Teclis Blue");
-createPaint(GW, "22-18", "Lotern Blue");
+createPaint(GW, "22-18", "Lothern Blue");
 createPaint(GW, "22-19", "Sotek Green");
 createPaint(GW, "22-21", "Kabalite Green");
 createPaint(GW, "22-22", "Sybarite Green");
