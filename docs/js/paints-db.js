@@ -6,6 +6,11 @@ const OLD_GW = "Old Citadel";
 const AP = "Army Painter";
 const GSW = "Green Stuff World";
 
+const SHIONN_SRC = {
+	name : "Shionn",
+	url : "https://www.vallejoacrylics.com/wp-content/uploads/2023/04/CC266-Game_Color-NewIC-Rev00_.pdf"
+}
+
 const VJ_GC_SRC = {
 	name : "Vallejo",
 	url : "https://www.vallejoacrylics.com/wp-content/uploads/2023/04/CC266-Game_Color-NewIC-Rev00_.pdf"
@@ -18,8 +23,14 @@ const DAKKA = {
 
 const GSW_SRC = {
 	name : "GSW",
-	url : "https://www.greenstuffworld.cn/en/content/15-paint-equivalence-chart-gsw"
+	url : "https://www.greenstuffworld.com/fr/content/11-tableau-d-equivalence-peintures-gsw"
 };
+
+const AP_SRC = {
+	name : "AP",
+	url : "https://www.thearmypainter.com/tutorials/pdf-tutorials/tutorials/colour-charts/"
+}
+
 
 let paints = new Map();
 
@@ -46,29 +57,7 @@ let equivalence = function(src, ids) {
 		}
 	})
 
-	let toAdd = { ids : result, src : [ src ] };
-//	equivalences.forEach(exist => {
-//		let match = false;
-//		for (let i=0;i<5;i++) {
-//			match = match || exist.ids[i] && !!toAdd && toAdd.ids[i];
-//		}
-//		for (let i=0;i<5;i++) {
-//			match = match
-//					&& ( 	exist.ids[i] === undefined
-//							|| toAdd.ids[i] === undefined
-//							|| exist.ids[i] === toAdd.ids[i]);
-//		}
-//		if (match) {
-//			for (let i=0;i<5;i++) {
-//				exist.ids[i] = exist.ids[i] || toAdd.ids[i] || undefined;
-//			}
-//			exist.src.push(toAdd.src[0]);
-//			toAdd = undefined;
-//		}
-//	});
-	if (!!toAdd) {
-		equivalences = equivalences.concat(toAdd);
-	}
+	equivalences = equivalences.concat({ ids : result, src : [ src ] });
 };
 
 q(function() {
@@ -414,6 +403,15 @@ createPaint(GW, "29-60", "Celestium Blue");
 createPaint(GW, "29-63", "Luxion Purple");
 createPaint(GW, "29-66", "Doomfire Magenta");
 createPaint(GW, "29-68", "Magmadroth Flame");
+createPaint(GW, "22-20", "Temple Guard Blue");
+createPaint(GW, "22-79", "Baharroth Blue");
+createPaint(GW, "21-36", "Thousand Sons Blue");
+createPaint(GW, "22-14", "Hoeth Blue");
+createPaint(GW, "22-67", "Russ Grey");
+createPaint(GW, "22-11", "Warpfiend Grey");
+createPaint(GW, "22-54", "Skavenblight Dinge");
+
+
 
 createPaint(AP, "WP1102", "Matt White");
 createPaint(AP, "WP1104", "Pure Red");
@@ -472,7 +470,18 @@ createPaint(AP, "WP1445", "Oozing Purple");
 createPaint(AP, "WP1108", "Necrotic Flesh");
 createPaint(AP, "WP1428", "Gorgon Hide");
 createPaint(AP, "WP1408", "Centaur Skin");
-
+createPaint(AP, "WP1466", "Wizards Orb");
+createPaint(AP, "WP1419", "Elemental Bolt");
+createPaint(AP, "WP1449", "Royal Cloak");
+createPaint(AP, "WP1429", "Griffon Blue");
+createPaint(AP, "WP1462", "Viking Blue");
+createPaint(AP, "WP1432", "Ice Storm");
+createPaint(AP, "WP1458", "Troglodyte Blue");
+createPaint(AP, "WP1427", "Fog Grey");
+createPaint(AP, "WP1418", "Dungeon Grey");
+createPaint(AP, "WP1481", "Field Grey");
+createPaint(AP, "WP1407", "Castle Grey");
+createPaint(AP, "WP1430", "Hardened Carapace");
 
 createPaint(OLD_GW, "old-gw-asurmen-blue-wash", "Asurmen Blue Wash");
 createPaint(OLD_GW, "old-gw-baal-red-wash", "Baal Red Wash");
@@ -946,3 +955,52 @@ equivalence(GSW_SRC, [ 72059, "22-63", "old-gw-beaten-copper", 1868]);
 equivalence(GSW_SRC, [ 72056, "21-01", "old-gw-brunished-gold", 1869]);
 equivalence(GSW_SRC, [ 72055, "21-35", "old-gw-shining-gold", 1870]);
 equivalence(GSW_SRC, [ "23-14", 1871]);
+
+equivalence(AP_SRC, "WP1466", "22-21", 72026);
+equivalence(AP_SRC, "WP1419", "22-22", 72025);
+equivalence(AP_SRC, "WP1437", "22-20");
+equivalence(AP_SRC, "WP1449", "22-79");
+equivalence(AP_SRC, "WP1141", "21-36", 72024);
+equivalence(AP_SRC, "WP1116", "21-07", 72020);
+equivalence(AP_SRC, "WP1429", "21-08");
+equivalence(AP_SRC, "WP1115", "22-15", 72022);
+equivalence(AP_SRC, "WP1462", "21-09", 72021);
+equivalence(AP_SRC, "WP1113", "22-16");
+equivalence(AP_SRC, "WP1432", "22-84", 72095);
+equivalence(AP_SRC, "WP1452", "22-14", 72023);
+equivalence(AP_SRC, "WP1458", "22-18");
+equivalence(AP_SRC, "WP1114", "22-17");
+equivalence(AP_SRC, "WP1415", "21-07", 72020);
+equivalence(AP_SRC, "WP1119", "22-67", 72048);
+equivalence(AP_SRC, "WP1427", "22-68");
+equivalence(AP_SRC, "WP1428", "22-56", 72046);
+equivalence(AP_SRC, "WP1101", "21-25", 72051);
+equivalence(AP_SRC, "WP1443", "22-51");
+equivalence(AP_SRC, "WP1418", "22-49");
+equivalence(AP_SRC, "WP1481", "22-11");
+equivalence(AP_SRC, "WP1118", "22-49");
+equivalence(AP_SRC, "WP1407", "22-55", 72155);
+equivalence(AP_SRC, "WP1430", "22-54");
+// une colonne de faite
+
+createPaint(GW, "CCC", "BBB");
+createPaint(GW, "CCC", "BBB");
+createPaint(GW, "CCC", "BBB");
+createPaint(GW, "CCC", "BBB");
+
+createPaint(AP, "WP", "AAA");
+createPaint(AP, "WP", "AAA");
+
+equivalence(AP_SRC, "AAA", "BBB", 72000);
+equivalence(AP_SRC, "AAA", "BBB", 72000);
+equivalence(AP_SRC, "AAA", "BBB", 72000);
+equivalence(AP_SRC, "AAA", "BBB", 72000);
+equivalence(AP_SRC, "AAA", "BBB", 72000);
+equivalence(AP_SRC, "AAA", "BBB", 72000);
+equivalence(AP_SRC, "AAA", "BBB", 72000);
+equivalence(AP_SRC, "AAA", "BBB", 72000);
+equivalence(AP_SRC, "AAA", "BBB", 72000);
+equivalence(AP_SRC, "AAA", "BBB", 72000);
+equivalence(AP_SRC, "AAA", "BBB", 72000);
+equivalence(AP_SRC, "AAA", "BBB", 72000);
+equivalence(AP_SRC, "AAA", "BBB", 72000);
