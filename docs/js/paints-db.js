@@ -102,8 +102,9 @@ q(function() {
 			}
 		});
 	});
-});
 
+
+});
 
 createPaint(VJ, 72001, "Dead White");
 createPaint(VJ, 72002, "White Primer", true);

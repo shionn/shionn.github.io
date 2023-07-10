@@ -1,5 +1,9 @@
 
-J'ai essayé de compiler plusieurs source dans ce tableau.
+Voici mon tableau de coprrespondance de peinture :
+* Vous avez un filtre pour rechrcher rapidement parmis les tableaux.
+* Le premier tableau est ma compilation des diverses sources.
+* Le second tableau contient les sources dont est tiré mon tableau.
+* Les colonnes des tableaux sont triables.
 
 <form style="text-align: center;">
 	<label>
@@ -24,6 +28,8 @@ J'ai essayé de compiler plusieurs source dans ce tableau.
 	</thead>
 	<tbody></tbody>
 </table>
+
+<textarea cols=80 rows=3></textarea>
 
 <table id="equivalence" class="sort">
 	<thead>
