@@ -834,8 +834,32 @@ equivalence(SHIONN_SRC, [72028, "21-12", "old-gw-dark-angels-green", "WP1112", 1
 equivalence(SHIONN_SRC, [72067, "21-14", "WP1413", 1848]);
 equivalence(SHIONN_SRC, [72155, "21-44", "WP1443"]);
 equivalence(SHIONN_SRC, ["22-52", 1842]);
-equivalence(SHIONN_SRC, [72050, "22-49", "old-gw-codex-grey", "WP1118", 1838]);
-equivalence(SHIONN_SRC, [72064, "21-37", "WP1461"]);
+equivalence(SHIONN_SRC, [72050, "22-49", "old-gw-codex-grey", "WP1118", 1838]); // Dawnstone
+equivalence(SHIONN_SRC, [72064, "21-37", "WP1461", 1883]); // Death Guard Green
+equivalence(SHIONN_SRC, [72149, "28-09", "old-gw-gretchin-green", "WP1461", 1851]); // Death W. Forest
+equivalence(SHIONN_SRC, [72114, "22-82", "WP1445", 3236]);
+equivalence(SHIONN_SRC, [72044, "22-45", "old-gw-dark-flesh", 1832]);
+// Dorn Yellow
+equivalence(SHIONN_SRC, [72045, "21-23", "old-gw-scorched-brown", "WP1124", 1831]); // Dryad Bark
+equivalence(SHIONN_SRC, [72031, "22-30", "old-gw-camo-green", "WP1410", 1800]); // Elysian Green
+equivalence(SHIONN_SRC, [72013, "22-70", "WP1447"]);
+equivalence(SHIONN_SRC, ["22-51", "WP1443", 1882]);
+equivalence(SHIONN_SRC, [72010, "22-05", "old-gw-blood-red", "WP1104", 1786]); // Evil Sunz Scarlet
+equivalence(SHIONN_SRC, ["22-68", "old-gw-space-wolves-grey", "WP1427", 1835]); // Fenrisian Grey
+equivalence(SHIONN_SRC, [72008, "22-04", "old-gw-fiery-orange", "WP1442", 1784]); // Fire Dragon Br
+equivalence(SHIONN_SRC, [72006, "22-02", "old-gw-sunburst-yellow", "WP1107", 1780]); // Flash Gitz Yellow
+equivalence(SHIONN_SRC, [72098, "22-72", "WP1411"]);
+equivalence(SHIONN_SRC, [72013, "22-81", "WP1408"]);
+equivalence(SHIONN_SRC, [72121, "22-78", "WP1435", 3237]);
+// Gehenna's Gold
+equivalence(SHIONN_SRC, ["22-10", 3221]);
+equivalence(SHIONN_SRC, ["22-47", "WP1464", 1841]);
+// Hashut
+
+
+
+
+
 
 
 equivalence(VJ_GC_SRC, [ 72001, "22-57"]);
@@ -989,7 +1013,7 @@ equivalence(DAKKA, [ 73206, "24-03", "old-gw-baal-red-wash", "WP1138"]);
 equivalence(DAKKA, [ 73201, "24-12", "old-gw-badab-black-wash", "WP1136"]);
 equivalence(DAKKA, [ 73203, "24-11", "old-gw-devlan-mud-wash", "WP1135"]);
 equivalence(DAKKA, [ 73200, "24-09", "old-gw-gryphonne-sepia-wash", "WP1134"]);
-equivalence(DAKKA, [ 73202, "24-04", "old-gw-leviathan-purple-wash", "WP1140"]);
+equivalence(DAKKA, [ "24-04", "old-gw-leviathan-purple-wash", "WP1140"]);
 equivalence(DAKKA, [ 73204, "24-10", "old-gw-ogryn-flesh-wash", "WP1143"]);
 equivalence(DAKKA, [ 73205, "24-07", "WP1137"]);
 equivalence(DAKKA, [ "24-08", "WP1471"]);
@@ -1003,7 +1027,7 @@ equivalence(GSW_SRC, [ 72005, "old-gw-bad-moon-yellow", 1780]);
 equivalence(GSW_SRC, [ 72006, "22-02", "old-gw-sunburst-yellow", 1780]);
 equivalence(GSW_SRC, [ 72007, "22-01", "old-gw-golden-yellow", 1782]);
 equivalence(GSW_SRC, [ 72063, "old-gw-desert-yellow", 1783]);
-equivalence(GSW_SRC, [ 72008, "22-02", "old-gw-fiery-orange", 1784]);
+equivalence(GSW_SRC, [ 72008, "22-04", "old-gw-fiery-orange", 1784]);
 equivalence(GSW_SRC, [ 72009, "22-03", "old-gw-blazing-orange", 1785]);
 equivalence(GSW_SRC, [ 72010, "22-05", "old-gw-blood-red", 1786]);
 equivalence(GSW_SRC, [ 72011, "22-07", "old-gw-red-gore", 1787]);
@@ -1019,7 +1043,7 @@ equivalence(GSW_SRC, [ 72027, "22-21", "old-gw-scaly-green", 1796]);
 equivalence(GSW_SRC, [ 72028, "old-gw-dark-angels-green", 1797]);
 equivalence(GSW_SRC, [ 72029, "22-23", "old-gw-snot-green", 1798]);
 equivalence(GSW_SRC, [ 72030, "22-25", "old-gw-goblin-green", 1799]);
-equivalence(GSW_SRC, [ 72408, "22-30", "old-gw-camo-green", 1800]);
+equivalence(GSW_SRC, [ 72031, "22-30", "old-gw-camo-green", 1800]);
 equivalence(GSW_SRC, [ 72032, "22-24", "old-gw-scorpion-green", 1820]);
 equivalence(GSW_SRC, [ 72067, "old-gw-catachan-green", 1821]);
 equivalence(GSW_SRC, [ 72035, "22-29", "old-gw-rotting-flesh", 1822]);
@@ -1050,14 +1074,14 @@ equivalence(GSW_SRC, [ 72016, 1847]);
 equivalence(GSW_SRC, [ "21-14", 1848]);
 equivalence(GSW_SRC, [ "21-12", 1849]);
 equivalence(GSW_SRC, [ "22-25", 1850]);
-equivalence(GSW_SRC, [ "28-09", 1851]);
+equivalence(GSW_SRC, [ "21-15", 1851]);
 equivalence(GSW_SRC, [ "21-22", 1852]);
 equivalence(GSW_SRC, [ 72153, "21-10", 1855]);
 equivalence(GSW_SRC, [ "22-38", 1856]);
 equivalence(GSW_SRC, [ "22-34", 1857]);
 equivalence(GSW_SRC, [ "22-80", 1859]);
 equivalence(GSW_SRC, [ "22-51", 1882]);
-equivalence(GSW_SRC, [ 72148, "21-15", 1883]);
+equivalence(GSW_SRC, [ 72148, "21-37", 1883]);
 equivalence(GSW_SRC, [ "22-35", 1884]);
 equivalence(GSW_SRC, [ "21-11", 1886]);
 equivalence(GSW_SRC, [ "21-01", 3210]);
@@ -1073,7 +1097,7 @@ equivalence(GSW_SRC, [ "22-16", 3226]);
 equivalence(GSW_SRC, [ "22-84", 3228]);
 equivalence(GSW_SRC, [ "22-22", 3229]);
 equivalence(GSW_SRC, [ "22-24", 3230]);
-equivalence(GSW_SRC, [ "21-15", 3232]);
+equivalence(GSW_SRC, [ "21-37", 3232]);
 equivalence(GSW_SRC, [ "22-82", 3236]);
 equivalence(GSW_SRC, [ "22-78", 3237]);
 equivalence(GSW_SRC, [ "22-12", 3238]);
