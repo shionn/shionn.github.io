@@ -1,6 +1,7 @@
 @import "_variables.scss";
 
 table {
+	margin: 8px auto 0;
 	thead, tbody {
 		border: 1px solid $theme-color;
 	}
@@ -8,9 +9,15 @@ table {
 		padding: 1px 3px;
 	}
 
+	&.sort thead {
+		cursor: pointer;
+	}
+	tr.hide {
+		display: none;
+	}
 }
 
-#paints {
+#equivalence {
 	td a {
 		padding-right: 2px;
 	}

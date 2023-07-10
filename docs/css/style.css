@@ -776,14 +776,23 @@ article.short footer:after {
   display: block;
 }
 
+table {
+  margin: 8px auto 0;
+}
 table thead, table tbody {
   border: 1px solid #d8ae47;
 }
 table td, table th {
   padding: 1px 3px;
 }
+table.sort thead {
+  cursor: pointer;
+}
+table tr.hide {
+  display: none;
+}
 
-#paints td a {
+#equivalence td a {
   padding-right: 2px;
 }
 

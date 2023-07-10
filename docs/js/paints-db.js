@@ -31,6 +31,11 @@ const AP_SRC = {
 	url : "https://www.thearmypainter.com/tutorials/pdf-tutorials/tutorials/colour-charts/"
 }
 
+const AK_SRC = {
+	name : "AK",
+	url : "https://www.ak-masters.com/app/pdf/RCEquivalenceDIG.pdf"
+}
+
 
 let paints = new Map();
 
@@ -84,7 +89,18 @@ q(function() {
 			src.append(q("<a>").attr("href", s.url).attr("target", "_blank").text(s.name));
 		})
 		line.append(src);
-		q("#paints tbody").append(line);
+		q("#equivalence tbody").append(line);
+	});
+
+	q("#filter").on("keyup",(e)=> {
+		let val = q(e.target).value().toLowerCase();
+		q("#equivalence").find("tbody tr").each(function() {
+			if (this.text().toLowerCase().indexOf(val) >0 ) {
+				this.rmClass("hide");
+			} else {
+				this.addClass("hide");
+			}
+		});
 	});
 });
 
@@ -704,6 +720,24 @@ createPaint(GSW, 1856, "Coyote Brown");
 createPaint(GSW, 1857, "Desert Camo");
 createPaint(GSW, 1858, "Yellow-Brown Ops");
 createPaint(GSW, 1859, "Valkyrie Yellow");
+createPaint(GSW, 1860, "Gunmetal Grey");
+createPaint(GSW, 1861, "Quicksilver");
+createPaint(GSW, 1862, "Anthrax Metal");
+createPaint(GSW, 1863, "Mystic White");
+createPaint(GSW, 1864, "Sharkfin Blue");
+createPaint(GSW, 1865, "Tinmetal Grey");
+createPaint(GSW, 1866, "Dark Elder Bronze");
+createPaint(GSW, 1867, "Gladius Bronze");
+createPaint(GSW, 1868, "Steampunk Copper");
+createPaint(GSW, 1869, "Shiny Gold");
+createPaint(GSW, 1870, "El Dorado");
+createPaint(GSW, 1871, "Antique Gold");
+createPaint(GSW, 1872, "Neptunus Blue");
+createPaint(GSW, 1873, "Sirenscale Green");
+createPaint(GSW, 1874, "Caesar Red");
+createPaint(GSW, 1875, "Persian Violet");
+createPaint(GSW, 1876, "Aqua Turquoise");
+createPaint(GSW, 1877, "Orchid Purple");
 createPaint(GSW, 1882, "Barrel Grey");
 createPaint(GSW, 1883, "Gengis Khaki");
 createPaint(GSW, 1884, "Sandstorm");
@@ -744,24 +778,6 @@ createPaint(GSW, 3238, "Bluebird Grey");
 createPaint(GSW, 3239, "Arachnid Green");
 createPaint(GSW, 3240, "Moon Mist Grey");
 createPaint(GSW, 3259, "Whitecap Beige");
-createPaint(GSW, 1860, "Gunmetal Grey");
-createPaint(GSW, 1861, "Quicksilver");
-createPaint(GSW, 1862, "Anthrax Metal");
-createPaint(GSW, 1863, "Mystic White");
-createPaint(GSW, 1864, "Sharkfin Blue");
-createPaint(GSW, 1865, "Tinmetal Grey");
-createPaint(GSW, 1866, "Dark Elder Bronze");
-createPaint(GSW, 1867, "Gladius Bronze");
-createPaint(GSW, 1868, "Steampunk Copper");
-createPaint(GSW, 1869, "Shiny Gold");
-createPaint(GSW, 1870, "El Dorado");
-createPaint(GSW, 1871, "Antique Gold");
-createPaint(GSW, 1872, "Neptunus Blue");
-createPaint(GSW, 1873, "Sirenscale Green");
-createPaint(GSW, 1874, "Caesar Red");
-createPaint(GSW, 1875, "Persian Violet");
-createPaint(GSW, 1876, "Aqua Turquoise");
-createPaint(GSW, 1877, "Orchid Purple");
 
 equivalence(VJ_GC_SRC, [ 72001, "22-57"]);
 equivalence(VJ_GC_SRC, [ 72004, "22-37"]);
@@ -1085,16 +1101,12 @@ equivalence(AP_SRC, ["WP1434", "22-36", 72140]);
 equivalence(AP_SRC, ["WP1421", "22-37", 72003]);
 equivalence(AP_SRC, ["WP1411", "22-72", 72098]);
 equivalence(AP_SRC, ["WP1457", "22-12"]);
-// fin 3 colonne
-
-
-
 equivalence(AP_SRC, ["WP1125", "22-32", 72034]);
 equivalence(AP_SRC, ["WP1440", "22-58"]);
 equivalence(AP_SRC, ["WP1417", "22-33", 72034]);
 equivalence(AP_SRC, ["WP1108", "22-29", 72035]);
 equivalence(AP_SRC, ["WP1461", "21-37", 72064]);
-equivalence(AP_SRC, ["WP1424", "22-55", 72000]);
+equivalence(AP_SRC, ["WP1424", "22-55"]);
 equivalence(AP_SRC, ["WP1413", "21-14", 72067]);
 equivalence(AP_SRC, ["WP1420", "21-15", 72031]);
 equivalence(AP_SRC, ["WP1410", "22-30", 72031]);

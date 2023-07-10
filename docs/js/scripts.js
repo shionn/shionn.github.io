@@ -1,5 +1,5 @@
 'use strict';
-// version 1.2
+// version 1.3
 
 let _q = function(obj) {
 	this.obj = obj;
@@ -7,6 +7,13 @@ let _q = function(obj) {
 
 _q.prototype._each = function(callback) {
 	this.obj.forEach(callback);
+	return this;
+}
+
+_q.prototype.each = function(callback) {
+	this._each( e=> {
+		callback.call(q(e));
+	});
 	return this;
 }
 
@@ -103,6 +110,11 @@ _q.prototype.append = function(elems) {
 }
 
 _q.prototype.text = function(txt) {
+	if (txt === undefined) {
+		let result = "";
+		this._each(o=> result += o.textContent);
+		return result;
+	}
 	this._each(o => o.textContent = txt);
 	return this;
 }
