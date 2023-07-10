@@ -6,7 +6,7 @@ const OLD_GW = "Old Citadel";
 const AP = "Army Painter";
 const GSW = "Green Stuff World";
 
-const _DEBUG = false;
+const _DEBUG = true;
 
 const SHIONN_SRC = {
 	name : "Shionn",
@@ -110,7 +110,7 @@ q(function() {
 	});
 
 	if (_DEBUG) {
-		let area = q("<textarea>").attr("rows",3).attr("cols",80).attr("style", "position: sticky;top: 0;margin: 0 auto;display: block;");
+		let area = q("<textarea>").attr("rows",3).attr("cols",80).attr("style", "position: sticky;top: 50px;margin: 0 auto;display: block;");
 		q("#equivalence").parent("article").find("section").prepend(area);
 
 		let _addToPersonnal = function(obj) {
@@ -821,10 +821,21 @@ equivalence(SHIONN_SRC, [72051, "21-25", "old-gw-chaos-black", "WP1101", 1779]);
 equivalence(SHIONN_SRC, [72049, "22-50", "old-gw-fortress-grey", "WP1117", 1837]);
 equivalence(SHIONN_SRC, [72022, "22-15", "old-gw-ultramarine-blue", "WP1115", 1792]);
 // TODO auric armor
-
-
-
-
+// TODO Balor Brown
+equivalence(SHIONN_SRC, [72059, "21-29", "WP1120"]);
+// Baneblade Brown
+equivalence(SHIONN_SRC, [72038, "22-38", "WP1126", 1856]);
+// Blue Horror
+equivalence(SHIONN_SRC, [72057, "22-65", "WP1133"]);
+// Bugmans Glow
+equivalence(SHIONN_SRC, [72021, "21-09", "old-gw-enchanted-blue", "WP1462"]);
+equivalence(SHIONN_SRC, [72117, "22-16", "WP1113", 3226]);
+equivalence(SHIONN_SRC, [72028, "21-12", "old-gw-dark-angels-green", "WP1112", 1849]);
+equivalence(SHIONN_SRC, [72067, "21-14", "WP1413", 1848]);
+equivalence(SHIONN_SRC, [72155, "21-44", "WP1443"]);
+equivalence(SHIONN_SRC, ["22-52", 1842]);
+equivalence(SHIONN_SRC, [72050, "22-49", "old-gw-codex-grey", "WP1118", 1838]);
+equivalence(SHIONN_SRC, [72064, "21-37", "WP1461"]);
 
 
 equivalence(VJ_GC_SRC, [ 72001, "22-57"]);
