@@ -19,6 +19,6 @@ q(function() {
 	q("table.sort").on("click", "thead tr", (e) => {
 		_tableSort(q(e.target).parent("table"), q(e.target).attr("data-sort"));
 	})
-	setTimeout(() => _tableSort(q("table.sort"), 0), 400);
+	setTimeout(() => q("table.sort").each(function() { _tableSort(this, 0)}), 400);
 
 });

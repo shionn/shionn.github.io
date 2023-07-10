@@ -1,5 +1,5 @@
 'use strict';
-// version 1.3
+// version 1.4
 
 let _q = function(obj) {
 	this.obj = obj;
@@ -48,7 +48,16 @@ _q.prototype.attr = function(attr, value) {
 	return this;
 }
 
-_q.prototype.value = function() {
+_q.prototype.value = function(val) {
+	if (val !== undefined) {
+		this._each(o => {
+			// j'ai pas tester les checkboxs
+			if (o.getAttribute('type') === 'checkbox')
+				o.setAttribute('checked', !!val);
+			else
+				o.value = val;
+		});
+	}
 	if ('checkbox' === this.attr('type')) {
 		return this.obj[0].checked;
 	}
@@ -106,6 +115,11 @@ _q.prototype.replaceWith = function(elems) {
 
 _q.prototype.append = function(elems) {
 	this._each(o => elems._each(e => o.appendChild(e)));
+	return this;
+}
+
+_q.prototype.prepend = function(elems) {
+	this._each(o => elems._each(e => o.prepend(e)));
 	return this;
 }
 

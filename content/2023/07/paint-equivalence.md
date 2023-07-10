@@ -29,8 +29,6 @@ Voici mon tableau de coprrespondance de peinture :
 	<tbody></tbody>
 </table>
 
-<textarea cols=80 rows=3></textarea>
-
 <table id="equivalence" class="sort">
 	<thead>
 		<tr>

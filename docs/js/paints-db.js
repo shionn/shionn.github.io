@@ -6,6 +6,8 @@ const OLD_GW = "Old Citadel";
 const AP = "Army Painter";
 const GSW = "Green Stuff World";
 
+const _DEBUG = false;
+
 const SHIONN_SRC = {
 	name : "Shionn",
 	url : "https://www.vallejoacrylics.com/wp-content/uploads/2023/04/CC266-Game_Color-NewIC-Rev00_.pdf"
@@ -84,12 +86,16 @@ q(function() {
 				line.append(q("<td>"));
 			}
 		});
-		let src = q("<td>");
-		equi.src.forEach(s => {
-			src.append(q("<a>").attr("href", s.url).attr("target", "_blank").text(s.name));
-		})
-		line.append(src);
-		q("#equivalence tbody").append(line);
+		if (_DEBUG || equi.src.indexOf(SHIONN_SRC) < 0) {
+			let src = q("<td>");
+			equi.src.forEach(s => {
+				src.append(q("<a>").attr("href", s.url).attr("target", "_blank").text(s.name));
+			})
+			line.append(src);
+			q("#equivalence tbody").append(line);
+		} else {
+			q("#merge tbody").append(line);
+		}
 	});
 
 	q("#filter").on("keyup",(e)=> {
@@ -103,7 +109,38 @@ q(function() {
 		});
 	});
 
+	if (_DEBUG) {
+		let area = q("<textarea>").attr("rows",3).attr("cols",80).attr("style", "position: sticky;top: 0;margin: 0 auto;display: block;");
+		q("#equivalence").parent("article").find("section").prepend(area);
 
+		let _addToPersonnal = function(obj) {
+			console.log(obj);
+			if (area.value()) {
+				area.value(area.value()+", "+obj);
+			} else {
+				area.value("equivalence(SHIONN_SRC, ["+obj);
+			}
+		}
+
+		q("#equivalence tbody").on("click", "td:nth-child(1), td:nth-child(8)", (e) => {
+			_addToPersonnal(q(e.target).text());
+		});
+
+		q("#equivalence tbody").on("click", "td:nth-child(3), td:nth-child(6)", (e) => {
+			_addToPersonnal("\"" + q(e.target).text()+"\"");
+		});
+
+		q("#equivalence tbody").on("click", "td:nth-child(5)", (e) => {
+			_addToPersonnal("\"old-gw-" + q(e.target).text().toLowerCase().replaceAll(" ", "-")+"\"");
+		});
+
+		area.on("focus", (e)=> {
+			area.value(area.value()+"]);\n");
+			e.target.select();
+			document.execCommand("copy");
+			area.value("");
+		});
+	}
 });
 
 createPaint(VJ, 72001, "Dead White");
@@ -780,6 +817,16 @@ createPaint(GSW, 3239, "Arachnid Green");
 createPaint(GSW, 3240, "Moon Mist Grey");
 createPaint(GSW, 3259, "Whitecap Beige");
 
+equivalence(SHIONN_SRC, [72051, "21-25", "old-gw-chaos-black", "WP1101", 1779]);
+equivalence(SHIONN_SRC, [72049, "22-50", "old-gw-fortress-grey", "WP1117", 1837]);
+equivalence(SHIONN_SRC, [72022, "22-15", "old-gw-ultramarine-blue", "WP1115", 1792]);
+// TODO auric armor
+
+
+
+
+
+
 equivalence(VJ_GC_SRC, [ 72001, "22-57"]);
 equivalence(VJ_GC_SRC, [ 72004, "22-37"]);
 equivalence(VJ_GC_SRC, [ 72005, "22-02"]);
@@ -912,7 +959,7 @@ equivalence(DAKKA, [ "21-44", "WP1443"]);
 equivalence(DAKKA, [ 72052, "22-60", "old-gw-mithril-silver", "WP1129"]);
 equivalence(DAKKA, [ 72053, "22-59", "old-gw-chainmail", "WP1130"]);
 equivalence(DAKKA, [ 72054, "21-28", "old-gw-boltgun-metal", "WP1221"]);
-equivalence(DAKKA, [ "21-01", "old-gw-burnished-gold", "WP1231"]);
+equivalence(DAKKA, [ "22-62", "old-gw-burnished-gold", "WP1231"]);
 equivalence(DAKKA, [ 72055, "22-61", "old-gw-shining-gold", "WP1132"]);
 equivalence(DAKKA, [ 72057, "22-63", "old-gw-dwarf-bronze", "WP1133"]);
 equivalence(DAKKA, [ 72058, "old-gw-brazen-brass"]);
@@ -1027,7 +1074,7 @@ equivalence(GSW_SRC, [ 72054, "21-28", "old-gw-boltgun-metal", 1862]);
 equivalence(GSW_SRC, [ 72060, "21-31", "old-gw-tin-bitz", 1866]);
 equivalence(GSW_SRC, [ 72057, "22-63", "old-gw-dwarf-bronze", 1867]);
 equivalence(GSW_SRC, [ 72059, "22-63", "old-gw-beaten-copper", 1868]);
-equivalence(GSW_SRC, [ 72056, "21-01", "old-gw-brunished-gold", 1869]);
+equivalence(GSW_SRC, [ 72056, "22-62", "old-gw-brunished-gold", 1869]);
 equivalence(GSW_SRC, [ 72055, "21-35", "old-gw-shining-gold", 1870]);
 equivalence(GSW_SRC, [ "23-14", 1871]);
 
