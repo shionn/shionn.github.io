@@ -15,7 +15,7 @@ Voici mon tableau de coprrespondance de peinture :
 <table id="merge" class="sort">
 	<thead>
 		<tr>
-			<th colspan="9">Mes équivalences condense</th>
+			<th colspan="9">Mes équivalences condensées</th>
 		</tr>
 		<tr>
 			<th data-sort="0">#</th>

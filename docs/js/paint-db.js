@@ -414,7 +414,7 @@ createPaint(AP, "WP1104", "Pure Red");
 createPaint(AP, "WP1105", "Dragon Red");
 createPaint(AP, "WP1106", "Lava Orange");
 createPaint(AP, "WP1107", "Demonic Yellow");
-createPaint(AP, "WP1108", "Necrotic Flesh");
+createPaint(AP, "WP1108", "Necrotic Flesh", "#b6c690");
 createPaint(AP, "WP1109", "Goblin Green");
 createPaint(AP, "WP1110", "Army Green");
 createPaint(AP, "WP1111", "Greenskin");
@@ -500,7 +500,7 @@ createPaint(AP, "WP1446", "Phoenix Flames");
 createPaint(AP, "WP1447", "Pixie Pink");
 createPaint(AP, "WP1448", "Poisonous Cloud");
 createPaint(AP, "WP1449", "Royal Cloak");
-createPaint(AP, "WP1450", "Scaly Hide");
+createPaint(AP, "WP1450", "Scaly Hide", "#7e973d");
 createPaint(AP, "WP1451", "Warlock Purple");
 createPaint(AP, "WP1452", "Voidshield Blue");
 createPaint(AP, "WP1454", "Spaceship Exterior");
@@ -514,7 +514,7 @@ createPaint(AP, "WP1461", "Venom Wyrm");
 createPaint(AP, "WP1462", "Viking Blue", "#0d589c");
 createPaint(AP, "WP1464", "Werewolf Fur");
 createPaint(AP, "WP1463", "Wasteland Soil");
-createPaint(AP, "WP1465", "Witch Brew");
+createPaint(AP, "WP1465", "Witch Brew", "#8f973d");
 createPaint(AP, "WP1466", "Wizards Orb");
 createPaint(AP, "WP1467", "True Copper");
 createPaint(AP, "WP1468", "Rough Iron");
@@ -745,13 +745,13 @@ createPaint(GSW, 3240, "Moon Mist Grey");
 createPaint(GSW, 3259, "Whitecap Beige");
 // retraviller
 equivalence(SHIONN_SRC, [72021, "22-17", "old-gw-enchanted-blue", "WP1114", 1793]);
-//
 equivalence(SHIONN_SRC, ["21-09", "old-gw-enchanted-blue", "WP1462"]);
+equivalence(SHIONN_SRC, ["22-56", "WP1454"]);
 
 // import GW
 equivalence(SHIONN_SRC, [72022, "22-15", "old-gw-ultramarine-blue", "WP1115", 1792]);
-equivalence(SHIONN_SRC, [72051, "21-25", "old-gw-chaos-black", "WP1101", 1779]);
 equivalence(SHIONN_SRC, [72049, "22-50", "old-gw-fortress-grey", "WP1117", 1837]);
+equivalence(SHIONN_SRC, [72051, "21-25", "old-gw-chaos-black", "WP1101", 1779]);
 // TODO auric armor
 // TODO Balor Brown
 equivalence(SHIONN_SRC, [72059, "21-29", "WP1120"]);
@@ -835,7 +835,6 @@ equivalence(SHIONN_SRC, ["22-20", "WP1437"]);
 equivalence(SHIONN_SRC, [72048, "21-32", "old-gw-shadow-grey", "WP1119", 1836]);
 equivalence(SHIONN_SRC, [72024, "21-36", "WP1141"]);
 equivalence(SHIONN_SRC, [72009, "22-03", "old-gw-blazing-orange", "WP1106", 1785]);
-equivalence(SHIONN_SRC, [72050, "22-56", "WP1454"]);
 equivalence(SHIONN_SRC, [72034, "22-32", "old-gw-bleached-bone", "WP1125", 1823]);
 equivalence(SHIONN_SRC, [72030, "22-25", "old-gw-goblin-green", "WP1109", 1799]);
 equivalence(SHIONN_SRC, ["22-11", "WP1481"]);
@@ -850,6 +849,11 @@ equivalence(SHIONN_SRC, [72015, "22-09", "old-gw-liche-purple", "WP1128", 1790])
 equivalence(SHIONN_SRC, [72007, "22-01", "old-gw-golden-yellow", "WP1446", 1782]); // Yriel Yellow
 equivalence(SHIONN_SRC, [72039, "22-44", "old-gw-bubonic-brown", "WP1456", 1828]);
 equivalence(SHIONN_SRC, [72061, "21-16", "WP1121"]);
+
+// en prenant GSW comme reference
+equivalence(SHIONN_SRC, [72019, "old-gw-midnight-blue", 1791]);
+equivalence(SHIONN_SRC, ["23-14", 1871]);
+equivalence(SHIONN_SRC, [72037, 3213]);
 
 
 
@@ -1180,7 +1184,7 @@ equivalence(AP_SRC, ["WP1457", "22-12"]);
 equivalence(AP_SRC, ["WP1125", "22-32", 72034]);
 equivalence(AP_SRC, ["WP1440", "22-58"]);
 equivalence(AP_SRC, ["WP1417", "22-33", 72034]);
-equivalence(AP_SRC, ["WP1108", "22-29", 72035]);
+equivalence(AP_SRC, ["WP1108", "22-83", 72035]);
 equivalence(AP_SRC, ["WP1461", "21-37", 72064]);
 equivalence(AP_SRC, ["WP1424", "22-55"]);
 equivalence(AP_SRC, ["WP1413", "21-14", 72067]);
