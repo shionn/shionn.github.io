@@ -6,5 +6,5 @@
 	"category": "War Game",
 	"logo": true,
 	"published": false,
-	"js" : [ "js/paints-db.js" ]
+	"js" : [ "js/paint-db.js", "js/paint-equivalence.js" ]
 }

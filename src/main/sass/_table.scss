@@ -27,4 +27,11 @@ table {
 	tbody tr:nth-child(2n) {
 		background-color: lighten($theme-color, 40%);
 	}
+//	[data-color]:before {
+//		content: ' ';
+//		background-color: attr(data-color, color);
+//		width: 10px; height: 10px;
+//		display: inline-block;
+//		border: solid 1px black;
+//	}
 }
