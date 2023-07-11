@@ -9,6 +9,9 @@ import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
+import lombok.Getter;
+
+@Getter
 @JsonAutoDetect(fieldVisibility = Visibility.ANY)
 public class Metadata {
 	public enum Type {
@@ -26,42 +29,10 @@ public class Metadata {
 	private boolean published = true;
 	private boolean logo = false;
 
-	public String getTitle() {
-		return title;
-	}
-
-	public Type getType() {
-		return type;
-	}
-
-	public Date getDate() {
-		return date;
-	}
-
-	public String getCategory() {
-		return category;
-	}
-
-	public List<String> getTags() {
-		return tags;
-	}
-
 	public int getYear() {
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTime(date);
 		return calendar.get(Calendar.YEAR);
-	}
-
-	public boolean isPublished() {
-		return published;
-	}
-
-	public boolean isLogo() {
-		return logo;
-	}
-
-	public List<String> getJs() {
-		return js;
 	}
 
 }

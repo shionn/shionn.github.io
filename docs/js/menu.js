@@ -9,6 +9,7 @@ q(function() {
 	});
 	q("nav.main-menu > a").on("click", function(e) {
 		q("nav.main-menu").toggleClass("open");
+		e.preventDefault();
 	});
 	q("body").on("click", function(e) {
 		if (!q(e.target).parent("nav.main-menu").exists()) {

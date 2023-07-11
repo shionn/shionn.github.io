@@ -12,20 +12,18 @@ import org.apache.commons.io.FileUtils;
 
 import blog.model.Metadata.Type;
 import blog.model.formater.ContentFormater;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
+@RequiredArgsConstructor
 public class Article {
 
-	private Metadata metadata;
-	private Group category;
-	private File file;
-	private List<Group> tags;
-
-	public Article(Metadata metadata, Group category, List<Group> tags, File file) {
-		this.metadata = metadata;
-		this.category = category;
-		this.tags = tags;
-		this.file = file;
-	}
+	private final Metadata metadata;
+	@Getter
+	private final Group category;
+	@Getter
+	private final List<Group> tags;
+	private final File file;
 
 	public String getLogo() {
 		if (metadata.isLogo()) {
@@ -68,14 +66,6 @@ public class Article {
 
 	public Date getDate() {
 		return metadata.getDate();
-	}
-
-	public Group getCategory() {
-		return category;
-	}
-
-	public List<Group> getTags() {
-		return tags;
 	}
 
 	public String getFormatedDate() {

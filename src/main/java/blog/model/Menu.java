@@ -3,27 +3,21 @@ package blog.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+
+@RequiredArgsConstructor
+@Getter
 public class Menu {
 
-	private String name;
-	private String path;
-	private List<Menu> childrens;
-	private Menu parent;
-
-	public Menu(String name, String path, Menu parent) {
-		this.name = name;
-		this.path = path;
-		this.parent = parent;
-		this.childrens = new ArrayList<Menu>();
-	}
+	private final String name;
+	private final String path;
+	private final Menu parent;
+	private List<Menu> childrens = new ArrayList<Menu>();
 
 	@Override
 	public String toString() {
 		return "Menu [name=" + name + ", path=" + path + "]";
-	}
-
-	public String getName() {
-		return name;
 	}
 
 	public String getPath() {
@@ -47,14 +41,6 @@ public class Menu {
 
 	public void add(Menu child) {
 		this.childrens.add(child);
-	}
-
-	public List<Menu> getChildrens() {
-		return childrens;
-	}
-
-	public Menu getParent() {
-		return parent;
 	}
 
 }

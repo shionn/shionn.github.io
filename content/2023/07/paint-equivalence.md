@@ -1,7 +1,7 @@
 
 Voici mon tableau de coprrespondance de peinture :
 * Vous avez un filtre pour rechrcher rapidement parmis les tableaux.
-* Le premier tableau est ma compilation des diverses sources.
+* Le premier tableau est ma compilation des diverses sources que je corrige régulierement.
 * Le second tableau contient les sources dont est tiré mon tableau.
 * Les colonnes des tableaux sont triables.
 
@@ -14,6 +14,9 @@ Voici mon tableau de coprrespondance de peinture :
 
 <table id="merge" class="sort">
 	<thead>
+		<tr>
+			<th colspan="9">Mes équivalences condense</th>
+		</tr>
 		<tr>
 			<th data-sort="0">#</th>
 			<th data-sort="1">Vallejo</th>
@@ -31,6 +34,9 @@ Voici mon tableau de coprrespondance de peinture :
 
 <table id="equivalence" class="sort">
 	<thead>
+		<tr>
+			<th colspan="10">Mes sources</th>
+		</tr>
 		<tr>
 			<th data-sort="0">#</th>
 			<th data-sort="1">Vallejo</th>

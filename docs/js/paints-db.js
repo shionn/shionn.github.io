@@ -47,8 +47,8 @@ let paint = function(id) {
 	return paints.get(id);
 }
 
-let createPaint = function(brand, id, name, legacy = false) {
-	const p = { id : id, name : name, brand : brand, legacy: legacy};
+let createPaint = function(brand, id, name, hex = null, legacy = false) {
+	const p = { id : id, name : name, brand : brand, hex : hex, legacy : legacy};
 	paints.set(id, p);
 	return p;
 }
@@ -76,8 +76,14 @@ q(function() {
 				if (p.brand === OLD_GW) {
 					line.append(q("<td>").text(p.name));
 				} else {
-					line.append(q("<td>").text(id));
-					line.append(q("<td>").text(p.name));
+					line.append(q("<td>").text(id)
+						.attr("style", "font-style: "+ (p.legacy ? "italic" : "normal"))
+						//.attr("style", "background-color: " + (p.hex?p.hex:"none"))
+					);
+					line.append(q("<td>").text(p.name)
+						.attr("style", "font-style: "+ (p.legacy ? "italic" : "normal"))
+						//.attr("style", "background-color: "+ (p.hex?p.hex:"none"))
+					);
 				}
 			} else {
 				if (index != 2) {
@@ -100,8 +106,8 @@ q(function() {
 
 	q("#filter").on("keyup",(e)=> {
 		let val = q(e.target).value().toLowerCase();
-		q("#equivalence").find("tbody tr").each(function() {
-			if (this.text().toLowerCase().indexOf(val) >0 ) {
+		q("#equivalence,#merge").find("tbody tr").each(function() {
+			if (!val || this.text().toLowerCase().indexOf(val) >0 ) {
 				this.rmClass("hide");
 			} else {
 				this.addClass("hide");
@@ -143,143 +149,152 @@ q(function() {
 	}
 });
 
-createPaint(VJ, 72001, "Dead White");
-createPaint(VJ, 72002, "White Primer", true);
-createPaint(VJ, 72003, "Pale Flesh");
-createPaint(VJ, 72004, "Elf Skin Tone");
-createPaint(VJ, 72005, "Moon Yellow");
-createPaint(VJ, 72006, "Sun Yellow");
-createPaint(VJ, 72007, "Gold Yellow");
-createPaint(VJ, 72008, "Orange Fire");
-createPaint(VJ, 72009, "Hot Orange");
-createPaint(VJ, 72010, "Bloody Red");
-createPaint(VJ, 72011, "Gory Red");
-createPaint(VJ, 72012, "Scarlet Red");
-createPaint(VJ, 72013, "Squid Pink");
-createPaint(VJ, 72014, "Warlord Purple");
-createPaint(VJ, 72015, "Hexed Lichen");
-createPaint(VJ, 72016, "Royal Purple");
-createPaint(VJ, 72017, "Dark Blue", true);
-createPaint(VJ, 72018, "Stormy Blue", true);
-createPaint(VJ, 72019, "Night Blue");
-createPaint(VJ, 72020, "Imperial Blue");
-createPaint(VJ, 72021, "Magic Blue");
-createPaint(VJ, 72022, "Ultram. Blue");
-createPaint(VJ, 72023, "Electric Blue");
-createPaint(VJ, 72024, "Turquoise");
-createPaint(VJ, 72025, "Fool Green");
-createPaint(VJ, 72026, "Jade Green");
-createPaint(VJ, 72027, "Scurvy Green");
-createPaint(VJ, 72028, "Dark Green");
-createPaint(VJ, 72029, "Sick Green");
-createPaint(VJ, 72030, "Goblin Green");
-createPaint(VJ, 72031, "Cam. Green");
-createPaint(VJ, 72032, "Scorpy Green");
-createPaint(VJ, 72033, "Livery Green", true);
-createPaint(VJ, 72034, "Bone White");
-createPaint(VJ, 72035, "Dead Flesh");
-createPaint(VJ, 72036, "Bronze Brown");
-createPaint(VJ, 72037, "Filthy Brown", true);
-createPaint(VJ, 72038, "Scrofulous Brown");
-createPaint(VJ, 72039, "Plague Brown");
-createPaint(VJ, 72040, "Leather Brown");
-createPaint(VJ, 72041, "Dwarf Skin", true);
-createPaint(VJ, 72042, "Parasite Brown");
-createPaint(VJ, 72043, "Beasty Brown");
-createPaint(VJ, 72044, "Dark Fleshtone");
-createPaint(VJ, 72045, "Charred Brown");
-createPaint(VJ, 72046, "Ghost Grey", true);
-createPaint(VJ, 72047, "Wolf Grey");
-createPaint(VJ, 72048, "Sombre Grey");
-createPaint(VJ, 72049, "Stonewall Grey");
-createPaint(VJ, 72050, "Neutral Grey");
-createPaint(VJ, 72051, "Black");
-createPaint(VJ, 72052, "Silver");
-createPaint(VJ, 72053, "Chainmail");
-createPaint(VJ, 72054, "Dark Gunmetal");
-createPaint(VJ, 72055, "Polished Gold");
-createPaint(VJ, 72056, "Glorious Gold");
-createPaint(VJ, 72057, "Bright Bronze");
-createPaint(VJ, 72058, "Brassy Brass");
-createPaint(VJ, 72059, "Ham. Copper");
-createPaint(VJ, 72060, "Tinny Tin");
-createPaint(VJ, 72061, "Khaki");
-createPaint(VJ, 72062, "Earth");
-createPaint(VJ, 72063, "Desert Yellow");
-createPaint(VJ, 72064, "Yellow Olive", true);
-createPaint(VJ, 72065, "Terracotta", true);
-createPaint(VJ, 72066, "Tan");
-createPaint(VJ, 72067, "Cayman Green");
+createPaint(VJ, 72001, "Dead White", "#ffffff");
+createPaint(VJ, 72002, "White Primer", null,  true);
+createPaint(VJ, 72003, "Pale Flesh", "#c59f7d");
+createPaint(VJ, 72004, "Elf Skin Tone", "#cb8757");
+createPaint(VJ, 72005, "Moon Yellow", "#f9b335");
+createPaint(VJ, 72006, "Sun Yellow", "#ff9f30");
+createPaint(VJ, 72007, "Gold Yellow", "#e57429");
+createPaint(VJ, 72008, "Orange Fire", "#ff6027");
+createPaint(VJ, 72009, "Hot Orange", "#fe4626");
+createPaint(VJ, 72010, "Bloody Red", "#ed311d");
+createPaint(VJ, 72011, "Gory Red", "#7e1f22");
+createPaint(VJ, 72012, "Scarlet Red", "#751e21");
+createPaint(VJ, 72013, "Squid Pink", "#c476ac");
+createPaint(VJ, 72014, "Warlord Purple", "#802556");
+createPaint(VJ, 72015, "Hexed Lichen", "#3c245a");
+createPaint(VJ, 72016, "Royal Purple", "#241f39");
+createPaint(VJ, 72017, "Dark Blue", null, true);
+createPaint(VJ, 72018, "Stormy Blue", null, true);
+createPaint(VJ, 72019, "Night Blue", "#182232");
+createPaint(VJ, 72020, "Imperial Blue", "#19294b");
+createPaint(VJ, 72021, "Magic Blue", "#0072b1");
+createPaint(VJ, 72022, "Ultram. Blue", "#23396f");
+createPaint(VJ, 72023, "Electric Blue", "#3fa1b4");
+createPaint(VJ, 72024, "Turquoise", "#126766");
+createPaint(VJ, 72025, "Fool Green", "#25b388");
+createPaint(VJ, 72026, "Jade Green", "#107b5b");
+createPaint(VJ, 72027, "Scurvy Green", "#1d4e45");
+createPaint(VJ, 72028, "Dark Green", "#1a3325");
+createPaint(VJ, 72029, "Sick Green", "#39643a");
+createPaint(VJ, 72030, "Goblin Green", "#4c6136");
+createPaint(VJ, 72031, "Camouflage Green", "#847838");
+createPaint(VJ, 72032, "Scorpy Green", "#4b8a3d");
+createPaint(VJ, 72033, "Livery Green", null, true);
+createPaint(VJ, 72034, "Bone White", "#b6a174");
+createPaint(VJ, 72035, "Dead Flesh", "#bca858");
+createPaint(VJ, 72036, "Bronze Brown", "#b56829");
+createPaint(VJ, 72037, "Filthy Brown", null, true);
+createPaint(VJ, 72038, "Scrofulous Brown", "#a76626");
+createPaint(VJ, 72039, "Plague Brown", "#aa7137");
+createPaint(VJ, 72040, "Leather Brown", "#895d2e");
+createPaint(VJ, 72041, "Dwarf Skin", null, true);
+createPaint(VJ, 72042, "Parasite Brown", "#a35a24");
+createPaint(VJ, 72043, "Beasty Brown", "#754f27");
+createPaint(VJ, 72044, "Dark Fleshtone", "#563229");
+createPaint(VJ, 72045, "Charred Brown", "#382728");
+createPaint(VJ, 72046, "Ghost Grey", null, true);
+createPaint(VJ, 72047, "Wolf Grey", "#b4d1ce");
+createPaint(VJ, 72048, "Sombre Grey", "#435f6c");
+createPaint(VJ, 72049, "Stonewall Grey", "#8e9383");
+createPaint(VJ, 72050, "Neutral Grey", "#616e63");
+createPaint(VJ, 72051, "Black", "#030104");
+createPaint(VJ, 72052, "Silver", "#a3b8b7");
+createPaint(VJ, 72053, "Chainmail", "#85999e");
+createPaint(VJ, 72054, "Dark Gunmetal", "#5e6e73");
+createPaint(VJ, 72055, "Polished Gold", "#efb240");
+createPaint(VJ, 72056, "Glorious Gold", "#de8b37");
+createPaint(VJ, 72057, "Bright Bronze", "#ab571b");
+createPaint(VJ, 72058, "Brassy Brass", "#ae6640");
+createPaint(VJ, 72059, "Hammered Copper", "#744331");
+createPaint(VJ, 72060, "Tinny Tin", "#4f2827");
+createPaint(VJ, 72061, "Khaki", "#917c50");
+createPaint(VJ, 72062, "Earth", "#6e5432");
+createPaint(VJ, 72063, "Desert Yellow", "#956837");
+createPaint(VJ, 72064, "Yellow Olive", null, true);
+createPaint(VJ, 72065, "Terracotta", null, true);
+createPaint(VJ, 72066, "Tan", "#8e6151");
+createPaint(VJ, 72067, "Cayman Green", "#50512b");
 createPaint(VJ, 72068, "Smokey Ink");
-createPaint(VJ, 72071, "Barbarian Skin");
-createPaint(VJ, 72076, "Alien Purple");
-createPaint(VJ, 72082, "White");
-createPaint(VJ, 72084, "Dark Turquoise");
-createPaint(VJ, 72085, "Yellow");
-createPaint(VJ, 72086, "Red");
-createPaint(VJ, 72087, "Violet");
-createPaint(VJ, 72088, "Blue");
-createPaint(VJ, 72089, "Green");
-createPaint(VJ, 72090, "Black Green");
-createPaint(VJ, 72091, "Sepia");
-createPaint(VJ, 72092, "Brown");
-createPaint(VJ, 72093, "Skin");
-createPaint(VJ, 72094, "Black");
-createPaint(VJ, 72095, "Glacier blue");
-createPaint(VJ, 72096, "Verdigris");
-createPaint(VJ, 72097, "Pale Yellow", true);
-createPaint(VJ, 72098, "Elfic Flesh");
-createPaint(VJ, 72099, "Skin Tone");
-createPaint(VJ, 72100, "Rosy Flesh");
-createPaint(VJ, 72101, "Off White");
-createPaint(VJ, 72102, "Steel Grey");
-createPaint(VJ, 72103, "Yellow");
-createPaint(VJ, 72104, "Fluo Green");
-createPaint(VJ, 72105, "Mutation Green", true);
-createPaint(VJ, 72106, "Scarlet Blood");
-createPaint(VJ, 72107, "Anthea Skin");
-createPaint(VJ, 72108, "Succubs Skin");
-createPaint(VJ, 72109, "Toxic Yellow");
-createPaint(VJ, 72110, "Sunset Orange");
-createPaint(VJ, 72111, "Nocturnal Red");
-createPaint(VJ, 72112, "Evil Red");
-createPaint(VJ, 72113, "Deep Magenta");
-createPaint(VJ, 72114, "Lustful Purple");
-createPaint(VJ, 72115, "Grunge Brown");
-createPaint(VJ, 72116, "Midnight Purple");
-createPaint(VJ, 72117, "Elfic Blue");
-createPaint(VJ, 72118, "Sunrise Blue");
-createPaint(VJ, 72119, "Aquamarine");
-createPaint(VJ, 72120, "Abyssal Turquoise");
-createPaint(VJ, 72121, "Ghost Green");
-createPaint(VJ, 72122, "Bile Green");
-createPaint(VJ, 72123, "Angel Green");
-createPaint(VJ, 72124, "Gorgon Brown");
-createPaint(VJ, 72140, "Heavy Skint.", true);
-createPaint(VJ, 72141, "Heavy Red", true);
-createPaint(VJ, 72142, "Heavy Violet", true);
-createPaint(VJ, 72143, "Heavy Blue", true);
-createPaint(VJ, 72144, "Heavy Bluegr.", true);
-createPaint(VJ, 72145, "Dirty Grey");
-createPaint(VJ, 72146, "Heavy Green", true);
-createPaint(VJ, 72147, "H. Black Green", true);
-createPaint(VJ, 72148, "Warm Grey");
-createPaint(VJ, 72149, "Heavy Kakhi", true);
-createPaint(VJ, 72150, "Heavy Ocre", true);
-createPaint(VJ, 72151, "Heavy Gold Br.", true);
-createPaint(VJ, 72152, "Heavy Orange", true);
-createPaint(VJ, 72153, "Heavy Brown", true);
-createPaint(VJ, 72154, "Heavy Sienna", true);
-createPaint(VJ, 72155, "Charcoal");
-createPaint(VJ, 72156, "Orange");
-createPaint(VJ, 72157, "Red");
-createPaint(VJ, 72158, "Magenta");
-createPaint(VJ, 72159, "Violet");
-createPaint(VJ, 72160, "Blue");
-createPaint(VJ, 72161, "Cold Green");
+createPaint(VJ, 72071, "Barbarian Skin", "#8b6544");
+createPaint(VJ, 72076, "Alien Purple", "#5664b4");
+createPaint(VJ, 72082, "White Ink", "#ffffff");
+createPaint(VJ, 72083, "Magenta Ink", "#a72b5c");
+createPaint(VJ, 72084, "Dark Turquoise Ink", "#13778d");
+createPaint(VJ, 72085, "Yellow Ink", "#f8a535");
+createPaint(VJ, 72086, "Red Ink", "#e72b19");
+createPaint(VJ, 72087, "Violet Ink", "#5b3e7c");
+createPaint(VJ, 72088, "Blue Ink", "#0b5798");
+createPaint(VJ, 72089, "Green Ink", "#1e7638");
+createPaint(VJ, 72090, "Black Green Ink", "#34654c");
+createPaint(VJ, 72091, "Sepia Ink", "#4d3d29");
+createPaint(VJ, 72092, "Brown", null, true);
+createPaint(VJ, 72093, "Skin Ink", "#572a29");
+createPaint(VJ, 72094, "Black Ink", "#030104");
+createPaint(VJ, 72095, "Glacier blue", "#bedaf0");
 
-createPaint(VJ, 72208, "Yellow");
-createPaint(VJ, 72209, "Violet");
+//. TODO
+createPaint(VJ, 72096, "Verdigris", "#75d0ad");
+createPaint(VJ, 72097, "Pale Yellow", null, true);
+createPaint(VJ, 72098, "Elfic Flesh", "#e8d3b4");
+createPaint(VJ, 72099, "Skin Tone", "#e8a782");
+createPaint(VJ, 72100, "Rosy Flesh", "#f08769");
+createPaint(VJ, 72101, "Off White", "#fff0d7");
+createPaint(VJ, 72102, "Steel Grey", "#6795a2");
+createPaint(VJ, 72103, "Fluo Yellow", "#eee55e");
+createPaint(VJ, 72104, "Fluo Green", "#6ac248");
+createPaint(VJ, 72105, "Mutation Green", true);
+createPaint(VJ, 72106, "Scarlet Blood", "#d52f23");
+createPaint(VJ, 72107, "Anthea Skin", "#d05d55");
+createPaint(VJ, 72108, "Succubs Skin", "#8f3f4a");
+createPaint(VJ, 72109, "Toxic Yellow", "#e7d268");
+createPaint(VJ, 72110, "Sunset Orange", "#ff9345");
+createPaint(VJ, 72111, "Nocturnal Red", "#4d1926");
+createPaint(VJ, 72112, "Evil Red", "#3c1a27");
+createPaint(VJ, 72113, "Deep Magenta", "#5b2344");
+createPaint(VJ, 72114, "Lustful Purple", "#aa89c3");
+createPaint(VJ, 72115, "Grunge Brown", "#864327");
+createPaint(VJ, 72116, "Midnight Purple", "#241b36");
+createPaint(VJ, 72117, "Elfic Blue", "#3e6480");
+createPaint(VJ, 72118, "Sunrise Blue", "#62d3ee");
+createPaint(VJ, 72119, "Aquamarine", "#208579");
+createPaint(VJ, 72120, "Abyssal Turquoise", "#153f59");
+createPaint(VJ, 72121, "Ghost Green", "#72ca98");
+createPaint(VJ, 72122, "Bile Green", "#cdda49");
+createPaint(VJ, 72123, "Angel Green", "#2d4f2e");
+createPaint(VJ, 72124, "Gorgon Brown", "#522c27");
+createPaint(VJ, 72140, "Heavy Skint.", null, true);
+createPaint(VJ, 72141, "Heavy Red", null, true);
+createPaint(VJ, 72142, "Heavy Violet", null, true);
+createPaint(VJ, 72143, "Heavy Blue", null, true);
+createPaint(VJ, 72144, "Heavy Bluegr.", null, true);
+createPaint(VJ, 72145, "Dirty Grey", "#5e5f33");
+createPaint(VJ, 72146, "Heavy Green", null, true);
+createPaint(VJ, 72147, "H. Black Green", null, true);
+createPaint(VJ, 72148, "Warm Grey", "#a59c9b");
+createPaint(VJ, 72149, "Heavy Kakhi", null, true);
+createPaint(VJ, 72150, "Heavy Ocre", null, true);
+createPaint(VJ, 72151, "Heavy Gold Br.", null, true);
+createPaint(VJ, 72152, "Heavy Orange", null, true);
+createPaint(VJ, 72153, "Heavy Brown", null, true);
+createPaint(VJ, 72154, "Heavy Sienna", null, true);
+createPaint(VJ, 72155, "Charcoal", "#2c3339");
+createPaint(VJ, 72156, "Fluo Orange", "#ff561d");
+createPaint(VJ, 72157, "Fluo Red", "#f23e57");
+createPaint(VJ, 72158, "Fluo Magenta", "#fb49a3");
+createPaint(VJ, 72159, "Fluo Violet", "#582788");
+createPaint(VJ, 72160, "Fluo Blue", "#0093d5");
+createPaint(VJ, 72161, "Fluo Cold Green", "#6ac248");
+
+createPaint(VJ, 72200, "Sepia Wash", "#875f32");
+createPaint(VJ, 72201, "Black Wash", "#2a2d34");
+createPaint(VJ, 72203, "Umber Wash", "#675d53");
+createPaint(VJ, 72204, "Flesh Wash", "#b37c77");
+createPaint(VJ, 72206, "Red Wash", "#de638e");
+createPaint(VJ, 72207, "Blue Wash", "#1e77c1");
+createPaint(VJ, 72208, "Yellow Wash", "#d7dd44");
+createPaint(VJ, 72209, "Violet Wash", "#3e3393");
 
 createPaint(VJ, 72401, "Templar White");
 createPaint(VJ, 72402, "Dwarf Skin");
@@ -306,16 +321,6 @@ createPaint(VJ, 72422, "Space Grey");
 createPaint(VJ, 72423, "Black Lotus");
 createPaint(VJ, 72448, "Xpress Medium");
 createPaint(VJ, 72750, "Cold Grey");
-
-createPaint(VJ, 73200, "Sepia Wash");
-createPaint(VJ, 73201, "Black Wash");
-createPaint(VJ, 73202, "Pale Grey Wash");
-createPaint(VJ, 73203, "Umber Wash");
-createPaint(VJ, 73204, "Flesh Wash");
-createPaint(VJ, 73205, "Green Wash");
-createPaint(VJ, 73206, "Red Wash");
-createPaint(VJ, 73207, "Blue Wash");
-
 
 createPaint(GW, "21-01", "Averland Sunset");
 createPaint(GW, "21-02", "Jokaero Orange");
@@ -855,7 +860,49 @@ equivalence(SHIONN_SRC, [72121, "22-78", "WP1435", 3237]);
 equivalence(SHIONN_SRC, ["22-10", 3221]);
 equivalence(SHIONN_SRC, ["22-47", "WP1464", 1841]);
 // Hashut
-
+equivalence(SHIONN_SRC, [72023, "22-14", "WP1452"]);
+equivalence(SHIONN_SRC, ["21-11", 1886]);
+equivalence(SHIONN_SRC, [72053, "22-59", "old-gw-chainmail", "WP1130", 1860]); // Iron breaker
+equivalence(SHIONN_SRC, [72038, "21-02", "WP1426"]);
+equivalence(SHIONN_SRC, [72027, "22-21", "old-gw-scaly-green", "WP1466", 1796]);
+equivalence(SHIONN_SRC, [72020, "21-07", "old-gw-regal-blue", "WP1116", 3225]); // Kantor Blue
+equivalence(SHIONN_SRC, ["22-35", 1884]);
+equivalence(SHIONN_SRC, [72012, "21-04", "WP1412"]); // Khorne Red
+// Kislev Flesh
+equivalence(SHIONN_SRC, ["22-83", "WP1450"]);
+equivalence(SHIONN_SRC, [72054, "21-28", "old-gw-boltgun-metal", "WP1131", 1862]);
+equivalence(SHIONN_SRC, [72146, "22-27", "old-gw-knarloc-green", "WP1110"]);
+equivalence(SHIONN_SRC, [72023, "22-18", "old-gw-ice-blue", "WP1458", 1794]); // lothern
+equivalence(SHIONN_SRC, ["22-85", 3214]);
+equivalence(SHIONN_SRC, [72022, "21-08", "old-gw-mordian-blue", "WP1429"]);
+equivalence(SHIONN_SRC, ["21-24", "WP1425"]); // Mechanicus SG
+equivalence(SHIONN_SRC, [72141, "21-03", "old-gw-mechrite-red", "WP1460"]);
+equivalence(SHIONN_SRC, [72032, "22-24", "old-gw-scorpion-green", 1820]); // moot
+equivalence(SHIONN_SRC, [72124, "21-20", "old-gw-bestial-brown", "WP1416", 1833]);
+equivalence(SHIONN_SRC, [72076, "21-06", "WP1444"]); // Naggaroth Night
+equivalence(SHIONN_SRC, [72019, "21-42"]);
+equivalence(SHIONN_SRC, [72035, "22-29", "old-gw-rotting-flesh", "WP1108", 1822]);
+equivalence(SHIONN_SRC, [72035, "22-31", "WP1465"]);
+equivalence(SHIONN_SRC, ["22-58", "WP1440", 3259]); // Pallid Wych Flesh
+equivalence(SHIONN_SRC, ["21-39", 3220]);
+equivalence(SHIONN_SRC, ["22-69", "WP1451"]);
+equivalence(SHIONN_SRC, [72148, "21-27", "old-gw-dheneb-stone", "WP1404"]);
+equivalence(SHIONN_SRC, [72041, "21-19", "old-gw-dwarf-flesh", "WP1127", 1826]);
+equivalence(SHIONN_SRC, [72055, "21-35", "old-gw-shining-gold", 1870]);
+equivalence(SHIONN_SRC, [72045, "21-22", 1852]);
+equivalence(SHIONN_SRC, [72052, "22-60", "old-gw-mithril-silver", "WP1129", 1861]);
+equivalence(SHIONN_SRC, [72048, "22-67", "WP1119"]); // Rss Grey
+equivalence(SHIONN_SRC, [72014, "21-33", "old-gw-warlock-purple", "WP1463", 1839]);
+equivalence(SHIONN_SRC, [72101, "22-33", "WP1406", 3211]);
+equivalence(SHIONN_SRC, [72064, "22-26", "WP1439"]);
+equivalence(SHIONN_SRC, ["22-54", "WP1430"]);
+equivalence(SHIONN_SRC, [72042, "22-40", "WP1122"]);
+equivalence(SHIONN_SRC, ["22-12", "WP1457", 3238]);
+equivalence(SHIONN_SRC, [72024, "22-19", "old-gw-hawk-turquoise", "WP1141", 1795]); // Sotek Green
+equivalence(SHIONN_SRC, [72062, "21-17", "old-gw-graveyard-earth", "WP1123", 1855]);
+equivalence(SHIONN_SRC, [72120, "21-10", 3239]);
+// Stormvermin Fur
+equivalence(SHIONN_SRC, [72025, "22-22", "WP1419", 3229]);
 
 
 
@@ -1076,7 +1123,7 @@ equivalence(GSW_SRC, [ "21-12", 1849]);
 equivalence(GSW_SRC, [ "22-25", 1850]);
 equivalence(GSW_SRC, [ "21-15", 1851]);
 equivalence(GSW_SRC, [ "21-22", 1852]);
-equivalence(GSW_SRC, [ 72153, "21-10", 1855]);
+equivalence(GSW_SRC, [ 72153, "21-17", 1855]);
 equivalence(GSW_SRC, [ "22-38", 1856]);
 equivalence(GSW_SRC, [ "22-34", 1857]);
 equivalence(GSW_SRC, [ "22-80", 1859]);
