@@ -16,6 +16,11 @@ const VJ_GC_SRC = {
 	url : "https://www.vallejoacrylics.com/wp-content/uploads/2023/04/CC266-Game_Color-NewIC-Rev00_.pdf"
 };
 
+const VJ_GC_OLD_SRC = {
+	name : "Vj Old",
+	url : "https://acrylicosvallejo.com/wp-content/uploads/2021/09/CC072-Game_Color-Rev20-baja.pdf"
+};
+
 const DAKKA = {
 	name : "Dakka",
 	url : "https://www.dakkadakka.com/wiki/en/Paint_Range_Compatibility_Chart"
@@ -323,7 +328,7 @@ createPaint(GW, "22-33", "Screaming Skull", "#b9c099");
 createPaint(GW, "22-34", "Tallarn Sand", "#a07409");
 createPaint(GW, "22-35", "Karak Stone", "#b7945c");
 createPaint(GW, "22-36", "Cadian Fleshtone", "#c47652");
-createPaint(GW, "22-37", "Kislev Flesh");
+createPaint(GW, "22-37", "Kislev Flesh", "#d1a570");
 createPaint(GW, "22-38", "Bestigor Flesh", "#d1a570");
 createPaint(GW, "22-39", "Ungor Flesh", "#d1a560");
 createPaint(GW, "22-40", "Skrag Brown", "#8b4806");
@@ -408,33 +413,33 @@ createPaint(GW, "29-63", "Luxion Purple");
 createPaint(GW, "29-66", "Doomfire Magenta");
 createPaint(GW, "29-68", "Magmadroth Flame");
 
-createPaint(AP, "WP1101", "Matt Black");
-createPaint(AP, "WP1102", "Matt White");
-createPaint(AP, "WP1104", "Pure Red");
-createPaint(AP, "WP1105", "Dragon Red");
-createPaint(AP, "WP1106", "Lava Orange");
-createPaint(AP, "WP1107", "Demonic Yellow");
+createPaint(AP, "WP1101", "Matt Black", "#0c0c0c");
+createPaint(AP, "WP1102", "Matt White", "#ffffff");
+createPaint(AP, "WP1104", "Pure Red", "#df2b1a");
+createPaint(AP, "WP1105", "Dragon Red", "#a32118");
+createPaint(AP, "WP1106", "Lava Orange", "#f5471c");
+createPaint(AP, "WP1107", "Daemonic Yellow", "#fff8de");
 createPaint(AP, "WP1108", "Necrotic Flesh", "#b6c690");
-createPaint(AP, "WP1109", "Goblin Green");
-createPaint(AP, "WP1110", "Army Green");
-createPaint(AP, "WP1111", "Greenskin");
-createPaint(AP, "WP1112", "Angel Green");
-createPaint(AP, "WP1113", "Electric Blue");
+createPaint(AP, "WP1109", "Goblin Green", "#41963f");
+createPaint(AP, "WP1110", "Army Green", "#4f7434");
+createPaint(AP, "WP1111", "Greenskin", "#1f6831");
+createPaint(AP, "WP1112", "Angel Green", "#1b341d");
+createPaint(AP, "WP1113", "Electric Blue", "#428ec0");
 createPaint(AP, "WP1114", "Crystal Blue", "#1c7fc3");
-createPaint(AP, "WP1115", "Ultramarine Blue");
-createPaint(AP, "WP1116", "Deep Blue");
-createPaint(AP, "WP1117", "Ash Grey");
-createPaint(AP, "WP1118", "Uniform Grey");
-createPaint(AP, "WP1119", "Wolf Grey");
-createPaint(AP, "WP1120", "Monster Brown");
-createPaint(AP, "WP1121", "Desert Yellow");
-createPaint(AP, "WP1122", "Fur Brown");
-createPaint(AP, "WP1123", "Leather Brown");
-createPaint(AP, "WP1124", "Oak Brown");
-createPaint(AP, "WP1125", "Skeleton Bone");
-createPaint(AP, "WP1126", "Barbarian Flesh");
-createPaint(AP, "WP1127", "Tanned Flesh");
-createPaint(AP, "WP1128", "Alien Purple");
+createPaint(AP, "WP1115", "Ultramarine Blue", "#0f5286");
+createPaint(AP, "WP1116", "Deep Blue", "#0f3c5a");
+createPaint(AP, "WP1117", "Ash Grey", "#9fa9a3");
+createPaint(AP, "WP1118", "Uniform Grey", "#51686e");
+createPaint(AP, "WP1119", "Wolf Grey", "#497e91");
+createPaint(AP, "WP1120", "Monster Brown", "#8b5b22");
+createPaint(AP, "WP1121", "Desert Yellow", "#c99f32");
+createPaint(AP, "WP1122", "Fur Brown", "#ac381b");
+createPaint(AP, "WP1123", "Leather Brown", "#824d1e");
+createPaint(AP, "WP1124", "Oak Brown", "#877466");
+createPaint(AP, "WP1125", "Skeleton Bone", "#d6cc9e");
+createPaint(AP, "WP1126", "Barbarian Flesh", "#f59955");
+createPaint(AP, "WP1127", "Tanned Flesh", "#c66c4e");
+createPaint(AP, "WP1128", "Alien Purple", "#312371");
 createPaint(AP, "WP1129", "Shining Silver");
 createPaint(AP, "WP1130", "Plate Mail Metal");
 createPaint(AP, "WP1131", "Gun Metal");
@@ -447,80 +452,80 @@ createPaint(AP, "WP1137", "Green Tone Wash");
 createPaint(AP, "WP1138", "Red Tone Ink");
 createPaint(AP, "WP1139", "Blue Tone Ink");
 createPaint(AP, "WP1140", "Purple Tone Ink");
-createPaint(AP, "WP1141", "Hydra Turquoise");
-createPaint(AP, "WP1142", "Chaotic Red");
+createPaint(AP, "WP1141", "Hydra Turquoise", "#26999f");
+createPaint(AP, "WP1142", "Chaotic Red", "#6f2114");
 createPaint(AP, "WP1143", "Flesh Wash");
 
 createPaint(AP, "WP1211", "Prison Jumpsuit");
 createPaint(AP, "WP1221", "Machinegun Metal");
 createPaint(AP, "WP1231", "Bright Gold");
 
-createPaint(AP, "WP1401", "Abomination Gore");
-createPaint(AP, "WP1402", "Arid Earth");
-createPaint(AP, "WP1403", "Babe Blond");
-createPaint(AP, "WP1404", "Banshee Brown");
-createPaint(AP, "WP1405", "Basilisk Brown");
-createPaint(AP, "WP1406", "Brainmatter Beige");
-createPaint(AP, "WP1407", "Castle Grey");
-createPaint(AP, "WP1408", "Centaur Skin");
-createPaint(AP, "WP1410", "Commando Green");
-createPaint(AP, "WP1411", "Corpse Pale");
+createPaint(AP, "WP1401", "Abomination Gore", "#ae2f20");
+createPaint(AP, "WP1402", "Arid Earth", "#fff0c9");
+createPaint(AP, "WP1403", "Babe Blond", "#ffd83c");
+createPaint(AP, "WP1404", "Banshee Brown", "#c9bba0");
+createPaint(AP, "WP1405", "Basilisk Brown", "#db822a");
+createPaint(AP, "WP1406", "Brainmatter Beige", "#f6f6e7");
+createPaint(AP, "WP1407", "Castle Grey", "#858b80");
+createPaint(AP, "WP1408", "Centaur Skin", "#e8b3a6");
+createPaint(AP, "WP1410", "Commando Green", "#838034");
+createPaint(AP, "WP1411", "Corpse Pale", "#f5d2b2");
 createPaint(AP, "WP1412", "Crusted Sore");
-createPaint(AP, "WP1413", "Crypt Wraith");
-createPaint(AP, "WP1414", "Cultist Robe");
-createPaint(AP, "WP1415", "Dark Sky");
-createPaint(AP, "WP1416", "Dirt Spatter");
-createPaint(AP, "WP1417", "Drake Tooth");
-createPaint(AP, "WP1418", "Dungeon Grey");
-createPaint(AP, "WP1419", "Elemental Bolt");
-createPaint(AP, "WP1420", "Elf Green");
-createPaint(AP, "WP1421", "Elven Flesh");
-createPaint(AP, "WP1424", "Filthy Cape");
-createPaint(AP, "WP1425", "Dark Stone");
-createPaint(AP, "WP1426", "Fire Lizard");
-createPaint(AP, "WP1427", "Fog Grey");
-createPaint(AP, "WP1428", "Gorgon Hide");
-createPaint(AP, "WP1429", "Griffon Blue");
-createPaint(AP, "WP1430", "Hardened Carapace");
-createPaint(AP, "WP1431", "Hemp Rope");
-createPaint(AP, "WP1432", "Ice Storm");
-createPaint(AP, "WP1433", "Jungle Green");
-createPaint(AP, "WP1434", "Kobold Skin");
-createPaint(AP, "WP1435", "Kraken Skin");
-createPaint(AP, "WP1436", "Mars Red");
-createPaint(AP, "WP1437", "Toxic Mist");
-createPaint(AP, "WP1438", "Moon Dust");
+createPaint(AP, "WP1413", "Crypt Wraith", "#575f4a");
+createPaint(AP, "WP1414", "Cultist Robe", "#707362");
+createPaint(AP, "WP1415", "Dark Sky", "#2a4d5e");
+createPaint(AP, "WP1416", "Dirt Spatter", "#62361f");
+createPaint(AP, "WP1417", "Drake Tooth", "#d4d6be");
+createPaint(AP, "WP1418", "Dungeon Grey", "#5d6c72");
+createPaint(AP, "WP1419", "Elemental Bolt", "#269577");
+createPaint(AP, "WP1420", "Elf Green", "#495121");
+createPaint(AP, "WP1421", "Elven Flesh", "#ffbe94");
+createPaint(AP, "WP1424", "Filthy Cape", "#797959");
+createPaint(AP, "WP1425", "Dark Stone", "#575650");
+createPaint(AP, "WP1426", "Fire Lizard", "#e66b24");
+createPaint(AP, "WP1427", "Fog Grey", "#6e9db5");
+createPaint(AP, "WP1428", "Gorgon Hide", "#d1deec");
+createPaint(AP, "WP1429", "Griffon Blue", "#13427b");
+createPaint(AP, "WP1430", "Hardened Carapace", "#404238");
+createPaint(AP, "WP1431", "Hemp Rope", "#997d36");
+createPaint(AP, "WP1432", "Ice Storm", "#58a6d0");
+createPaint(AP, "WP1433", "Jungle Green", "#88af3f");
+createPaint(AP, "WP1434", "Kobold Skin", "#d3ad89");
+createPaint(AP, "WP1435", "Kraken Skin", "#6cc789");
+createPaint(AP, "WP1436", "Mars Red", "#c4392f");
+createPaint(AP, "WP1437", "Toxic Mist", "#47c5c4");
+createPaint(AP, "WP1438", "Moon Dust", "#eed46e");
 createPaint(AP, "WP1439", "Mouldy Clothes");
-createPaint(AP, "WP1440", "Mummy Robes");
-createPaint(AP, "WP1442", "Mythical Orange");
-createPaint(AP, "WP1443", "Necromancer Cloak");
-createPaint(AP, "WP1444", "Grimoire Purple");
-createPaint(AP, "WP1445", "Oozing Purple");
-createPaint(AP, "WP1446", "Phoenix Flames");
-createPaint(AP, "WP1447", "Pixie Pink");
+createPaint(AP, "WP1440", "Mummy Robes", "#ede1da");
+createPaint(AP, "WP1442", "Mythical Orange", "#f83619");
+createPaint(AP, "WP1443", "Necromancer Cloak", "#30392f");
+createPaint(AP, "WP1444", "Grimoire Purple", "#775453");
+createPaint(AP, "WP1445", "Oozing Purple", "#ada1be");
+createPaint(AP, "WP1446", "Phoenix Flames", "#ff9f2b");
+createPaint(AP, "WP1447", "Pixie Pink", "#df7984");
 createPaint(AP, "WP1448", "Poisonous Cloud");
-createPaint(AP, "WP1449", "Royal Cloak");
+createPaint(AP, "WP1449", "Royal Cloak", "#259799");
 createPaint(AP, "WP1450", "Scaly Hide", "#7e973d");
-createPaint(AP, "WP1451", "Warlock Purple");
-createPaint(AP, "WP1452", "Voidshield Blue");
-createPaint(AP, "WP1454", "Spaceship Exterior");
-createPaint(AP, "WP1455", "Stone Golem");
-createPaint(AP, "WP1456", "Sulfide Ochre");
-createPaint(AP, "WP1457", "Toxic Boils");
+createPaint(AP, "WP1451", "Warlock Purple", "#af396b");
+createPaint(AP, "WP1452", "Voidshield Blue", "#3da9db");
+createPaint(AP, "WP1454", "Spaceship Exterior", "#d7dddc");
+createPaint(AP, "WP1455", "Stone Golem", "#c1c9c1");
+createPaint(AP, "WP1456", "Sulfide Ochre", "#d2862b");
+createPaint(AP, "WP1457", "Toxic Boils", "#a76a81");
 createPaint(AP, "WP1459", "Troll Claws", "#d8863a");
-createPaint(AP, "WP1458", "Troglodyte Blue");
-createPaint(AP, "WP1460", "Vampire Red");
-createPaint(AP, "WP1461", "Venom Wyrm");
+createPaint(AP, "WP1458", "Troglodyte Blue", "#208dc0");
+createPaint(AP, "WP1460", "Vampire Red", "#a12024");
+createPaint(AP, "WP1461", "Venom Wyrm", "#63653c");
 createPaint(AP, "WP1462", "Viking Blue", "#0d589c");
-createPaint(AP, "WP1464", "Werewolf Fur");
-createPaint(AP, "WP1463", "Wasteland Soil");
+createPaint(AP, "WP1464", "Werewolf Fur", "#76624e");
+createPaint(AP, "WP1463", "Wasteland Soil", "#734656");
 createPaint(AP, "WP1465", "Witch Brew", "#8f973d");
-createPaint(AP, "WP1466", "Wizards Orb");
+createPaint(AP, "WP1466", "Wizards Orb", "#1e7560");
 createPaint(AP, "WP1467", "True Copper");
 createPaint(AP, "WP1468", "Rough Iron");
 createPaint(AP, "WP1471", "Military Shade");
-createPaint(AP, "WP1480", "Scar Tissue");
-createPaint(AP, "WP1481", "Field Grey");
+createPaint(AP, "WP1480", "Scar Tissue", "#d78b73");
+createPaint(AP, "WP1481", "Field Grey", "#75837c");
 
 
 createPaint(OLD_GW, "old-gw-asurmen-blue-wash", "Asurmen Blue Wash");
@@ -743,119 +748,132 @@ createPaint(GSW, 3238, "Bluebird Grey");
 createPaint(GSW, 3239, "Arachnid Green");
 createPaint(GSW, 3240, "Moon Mist Grey");
 createPaint(GSW, 3259, "Whitecap Beige");
-// retraviller
-equivalence(SHIONN_SRC, [72021, "22-17", "old-gw-enchanted-blue", "WP1114", 1793]);
-equivalence(SHIONN_SRC, ["21-09", "old-gw-enchanted-blue", "WP1462"]);
-equivalence(SHIONN_SRC, ["22-56", "WP1454"]);
 
-// import GW
-equivalence(SHIONN_SRC, [72022, "22-15", "old-gw-ultramarine-blue", "WP1115", 1792]);
-equivalence(SHIONN_SRC, [72049, "22-50", "old-gw-fortress-grey", "WP1117", 1837]);
-equivalence(SHIONN_SRC, [72051, "21-25", "old-gw-chaos-black", "WP1101", 1779]);
-// TODO auric armor
-// TODO Balor Brown
-equivalence(SHIONN_SRC, [72059, "21-29", "WP1120"]);
-// Baneblade Brown
-equivalence(SHIONN_SRC, [72038, "22-38", "WP1126", 1856]);
-// Blue Horror
-equivalence(SHIONN_SRC, [72057, "22-65", "WP1133"]);
-// Bugmans Glow
-equivalence(SHIONN_SRC, [72117, "22-16", "WP1113", 3226]);
-equivalence(SHIONN_SRC, [72028, "21-12", "old-gw-dark-angels-green", "WP1112", 1849]);
-equivalence(SHIONN_SRC, [72067, "21-14", "WP1413", 1848]);
-equivalence(SHIONN_SRC, [72155, "21-44", "WP1443"]);
-equivalence(SHIONN_SRC, ["22-52", 1842]);
-equivalence(SHIONN_SRC, [72050, "22-49", "old-gw-codex-grey", "WP1118", 1838]); // Dawnstone
-equivalence(SHIONN_SRC, [72064, "21-37", "WP1461", 1883]); // Death Guard Green
-equivalence(SHIONN_SRC, [72149, "28-09", "old-gw-gretchin-green", "WP1461", 1851]); // Death W. Forest
-equivalence(SHIONN_SRC, [72114, "22-82", "WP1445", 3236]);
-equivalence(SHIONN_SRC, [72044, "22-45", "old-gw-dark-flesh", 1832]);
-// Dorn Yellow
-equivalence(SHIONN_SRC, [72045, "21-23", "old-gw-scorched-brown", "WP1124", 1831]); // Dryad Bark
-equivalence(SHIONN_SRC, [72031, "22-30", "old-gw-camo-green", "WP1410", 1800]); // Elysian Green
-equivalence(SHIONN_SRC, [72013, "22-70", "WP1447"]);
-equivalence(SHIONN_SRC, ["22-51", "WP1443", 1882]);
-equivalence(SHIONN_SRC, [72010, "22-05", "old-gw-blood-red", "WP1104", 1786]); // Evil Sunz Scarlet
-equivalence(SHIONN_SRC, ["22-68", "old-gw-space-wolves-grey", "WP1427", 1835]); // Fenrisian Grey
-equivalence(SHIONN_SRC, [72008, "22-04", "old-gw-fiery-orange", "WP1442", 1784]); // Fire Dragon Br
-equivalence(SHIONN_SRC, [72006, "22-02", "old-gw-sunburst-yellow", "WP1107", 1780]); // Flash Gitz Yellow
-equivalence(SHIONN_SRC, [72098, "22-72", "WP1411"]);
-equivalence(SHIONN_SRC, [72013, "22-81", "WP1408"]);
-equivalence(SHIONN_SRC, [72121, "22-78", "WP1435", 3237]);
-// Gehenna's Gold
-equivalence(SHIONN_SRC, ["22-10", 3221]);
-equivalence(SHIONN_SRC, ["22-47", "WP1464", 1841]);
-// Hashut
-equivalence(SHIONN_SRC, [72023, "22-14", "WP1452"]);
-equivalence(SHIONN_SRC, ["21-11", 1886]);
-equivalence(SHIONN_SRC, [72053, "22-59", "old-gw-chainmail", "WP1130", 1860]); // Iron breaker
-equivalence(SHIONN_SRC, [72038, "21-02", "WP1426"]);
-equivalence(SHIONN_SRC, [72027, "22-21", "old-gw-scaly-green", "WP1466", 1796]);
-equivalence(SHIONN_SRC, [72020, "21-07", "old-gw-regal-blue", "WP1116", 3225]); // Kantor Blue
-equivalence(SHIONN_SRC, ["22-35", 1884]);
-equivalence(SHIONN_SRC, [72012, "21-04", "WP1412"]); // Khorne Red
-// Kislev Flesh
-equivalence(SHIONN_SRC, ["22-83", "WP1450"]);
-equivalence(SHIONN_SRC, [72054, "21-28", "old-gw-boltgun-metal", "WP1131", 1862]);
-equivalence(SHIONN_SRC, [72146, "22-27", "old-gw-knarloc-green", "WP1110"]);
-equivalence(SHIONN_SRC, [72023, "22-18", "old-gw-ice-blue", "WP1458", 1794]); // lothern
-equivalence(SHIONN_SRC, ["22-85", 3214]);
-equivalence(SHIONN_SRC, [72022, "21-08", "old-gw-mordian-blue", "WP1429"]);
-equivalence(SHIONN_SRC, ["21-24", "WP1425"]); // Mechanicus SG
-equivalence(SHIONN_SRC, [72141, "21-03", "old-gw-mechrite-red", "WP1460"]);
-equivalence(SHIONN_SRC, [72032, "22-24", "old-gw-scorpion-green", 1820]); // moot
-equivalence(SHIONN_SRC, [72124, "21-20", "old-gw-bestial-brown", "WP1416", 1833]);
-equivalence(SHIONN_SRC, [72076, "21-06", "WP1444"]); // Naggaroth Night
-equivalence(SHIONN_SRC, [72019, "21-42"]);
-equivalence(SHIONN_SRC, [72035, "22-29", "old-gw-rotting-flesh", "WP1108", 1822]);
-equivalence(SHIONN_SRC, [72035, "22-31", "WP1465"]);
-equivalence(SHIONN_SRC, ["22-58", "WP1440", 3259]); // Pallid Wych Flesh
-equivalence(SHIONN_SRC, ["21-39", 3220]);
-equivalence(SHIONN_SRC, ["22-69", "WP1451"]);
-equivalence(SHIONN_SRC, [72148, "21-27", "old-gw-dheneb-stone", "WP1404"]);
-equivalence(SHIONN_SRC, [72041, "21-19", "old-gw-dwarf-flesh", "WP1127", 1826]);
-equivalence(SHIONN_SRC, [72055, "21-35", "old-gw-shining-gold", 1870]);
-equivalence(SHIONN_SRC, [72045, "21-22", 1852]);
-equivalence(SHIONN_SRC, [72052, "22-60", "old-gw-mithril-silver", "WP1129", 1861]);
-equivalence(SHIONN_SRC, [72048, "22-67", "WP1119"]); // Rss Grey
-equivalence(SHIONN_SRC, [72014, "21-33", "old-gw-warlock-purple", "WP1463", 1839]);
-equivalence(SHIONN_SRC, [72101, "22-33", "WP1406", 3211]);
-equivalence(SHIONN_SRC, [72064, "22-26", "WP1439"]);
-equivalence(SHIONN_SRC, ["22-54", "WP1430"]);
-equivalence(SHIONN_SRC, [72042, "22-40", "WP1122"]);
-equivalence(SHIONN_SRC, ["22-12", "WP1457", 3238]);
-equivalence(SHIONN_SRC, [72024, "22-19", "old-gw-hawk-turquoise", "WP1141", 1795]); // Sotek Green
-equivalence(SHIONN_SRC, [72062, "21-17", "old-gw-graveyard-earth", "WP1123", 1855]);
-equivalence(SHIONN_SRC, [72120, "21-10", 3239]);
-// Stormvermin Fur
-equivalence(SHIONN_SRC, [72025, "22-22", "WP1419", 3229]);
-equivalence(SHIONN_SRC, [72063, "22-34", "old-gw-desert-yellow", "WP1121", 1857]);
-equivalence(SHIONN_SRC, [72036, "22-42", "old-gw-bronzed-flesh", "WP1459", 1825]);// Tau Light Ochre
-equivalence(SHIONN_SRC, ["22-20", "WP1437"]);
-equivalence(SHIONN_SRC, [72048, "21-32", "old-gw-shadow-grey", "WP1119", 1836]);
-equivalence(SHIONN_SRC, [72024, "21-36", "WP1141"]);
-equivalence(SHIONN_SRC, [72009, "22-03", "old-gw-blazing-orange", "WP1106", 1785]);
-equivalence(SHIONN_SRC, [72034, "22-32", "old-gw-bleached-bone", "WP1125", 1823]);
-equivalence(SHIONN_SRC, [72030, "22-25", "old-gw-goblin-green", "WP1109", 1799]);
-equivalence(SHIONN_SRC, ["22-11", "WP1481"]);
-equivalence(SHIONN_SRC, [72060, "21-31", "old-gw-tin-bitz", "WP1468", 1866]); // WarplockBronze
-equivalence(SHIONN_SRC, [72029, "22-23", "old-gw-snot-green", "WP1111", 1798]);
-equivalence(SHIONN_SRC, [72011, "22-07", "old-gw-red-gore", "WP1105", 1787]); // Wazdakka Red
 equivalence(SHIONN_SRC, [72001, "22-57", "old-gw-skull-white", "WP1102", 1778]);
-equivalence(SHIONN_SRC, ["22-06", "WP1436"]);
-equivalence(SHIONN_SRC, ["22-91", "WP1142"]);
-equivalence(SHIONN_SRC, [72040, "21-21", "old-gw-snakebite-leather", 1829]);
+equivalence(SHIONN_SRC, [72003, "22-37", "old-gw-pallid-flesh", "WP1434", 1844]);
+equivalence(SHIONN_SRC, [72004, "22-37", "old-gw-elf-flesh", 1845]);
+equivalence(SHIONN_SRC, [72005, "22-02", "old-gw-bad-moon-yellow", "WP1403", 1780]);
+equivalence(SHIONN_SRC, [72006, "22-02", "old-gw-sunburst-yellow", "WP1107", 1780]);
+equivalence(SHIONN_SRC, [72007, "22-01", "old-gw-golden-yellow", "WP1446", 1782]);
+equivalence(SHIONN_SRC, [72008, "22-04", "old-gw-fiery-orange", "WP1442", 1784]); // Fire Dragon Br
+equivalence(SHIONN_SRC, [72009, "22-03", "old-gw-blazing-orange", "WP1106", 1785]);
+
+equivalence(SHIONN_SRC, [72010, "22-05", "old-gw-blood-red", "WP1104", 1786]); // Evil Sunz Scarlet
+equivalence(SHIONN_SRC, [72011, "22-07", "old-gw-red-gore", "WP1105", 1787]); // Wazdakka Red
+equivalence(SHIONN_SRC, [72012, "21-04", "old-gw-scab-red", "WP1401"]);
+equivalence(SHIONN_SRC, [72013, "22-70", "old-gw-tentacle-pink", "WP1447", 1788]);
+equivalence(SHIONN_SRC, [72014, "21-33", "old-gw-warlock-purple", "WP1463", 1839]);
 equivalence(SHIONN_SRC, [72015, "22-09", "old-gw-liche-purple", "WP1128", 1790]);
-equivalence(SHIONN_SRC, [72007, "22-01", "old-gw-golden-yellow", "WP1446", 1782]); // Yriel Yellow
+equivalence(SHIONN_SRC, [72016, "22-09", "old-gw-imperial-purple", "WP1128", 1847]);
+equivalence(SHIONN_SRC, [72017, "old-gw-nauseating-blue"]);
+equivalence(SHIONN_SRC, [72018, "old-gw-storm-blue"]);
+equivalence(SHIONN_SRC, [72019, "21-42", "old-gw-midnight-blue", 1791]);
+
+equivalence(SHIONN_SRC, [72020, "21-07", "old-gw-regal-blue", "WP1116", 1846]);
+equivalence(SHIONN_SRC, [72021, "21-09", "old-gw-enchanted-blue", "WP1114", 1793]);
+equivalence(SHIONN_SRC, [72022, "21-08", "old-gw-mordian-blue", "WP1429", 1792]);
+equivalence(SHIONN_SRC, [72023, "22-18", "old-gw-ice-blue", "WP1452", 1794]);
+equivalence(SHIONN_SRC, [72024, "22-19", "old-gw-hawk-turquoise", "WP1141", 1795]); // Sotek Green
+equivalence(SHIONN_SRC, [72025, "22-22", "old-gw-vile-green", "WP1419", 3229]);
+equivalence(SHIONN_SRC, [72026, "22-21", "old-gw-jade-green", "WP1466"]);
+equivalence(SHIONN_SRC, [72027, "22-21", "old-gw-scaly-green", "WP1466", 1796]);
+equivalence(SHIONN_SRC, [72028, "21-12", "old-gw-dark-angels-green", "WP1112", 1849]);
+equivalence(SHIONN_SRC, [72029, "22-23", "old-gw-snot-green", "WP1111", 1798]);
+
+equivalence(SHIONN_SRC, [72030, "22-25", "old-gw-goblin-green", "WP1109", 1799]);
+equivalence(SHIONN_SRC, [72031, "22-30", "old-gw-camo-green", "WP1410", 1800]); // Elysian Green
+equivalence(SHIONN_SRC, [72032, "22-24", "old-gw-scorpion-green", "WP1110", 1820]);
+equivalence(SHIONN_SRC, [72033, "old-gw-bilious-green", "WP1433"]);
+equivalence(SHIONN_SRC, [72034, "22-32", "old-gw-bleached-bone", "WP1125", 1823]);
+equivalence(SHIONN_SRC, [72035, "22-31", "old-gw-rotting-flesh", "WP1108", 1822]);
+equivalence(SHIONN_SRC, [72036, "22-42", "old-gw-bronzed-flesh", "WP1459", 1825]);// Tau Light Ochre
+equivalence(SHIONN_SRC, [72037, "old-gw-vomit-brown", 3213]);
+equivalence(SHIONN_SRC, [72038, "22-38", "old-gw-leprous-brown", "WP1426", 3212]);
 equivalence(SHIONN_SRC, [72039, "22-44", "old-gw-bubonic-brown", "WP1456", 1828]);
-equivalence(SHIONN_SRC, [72061, "21-16", "WP1121"]);
 
-// en prenant GSW comme reference
-equivalence(SHIONN_SRC, [72019, "old-gw-midnight-blue", 1791]);
-equivalence(SHIONN_SRC, ["23-14", 1871]);
-equivalence(SHIONN_SRC, [72037, 3213]);
+equivalence(SHIONN_SRC, [72040, "21-21", "old-gw-snakebite-leather", "WP1431", 1829]);
+equivalence(SHIONN_SRC, [72041, "21-19", "old-gw-dwarf-flesh", "WP1127", 1826]);
+equivalence(SHIONN_SRC, [72042, "22-40", "old-gw-vermin-brown", "WP1122", 1830]);
+equivalence(SHIONN_SRC, [72043, "21-20", "old-gw-bestial-brown", "WP1416", 1833]);
+equivalence(SHIONN_SRC, [72044, "22-45", "old-gw-dark-flesh", 1832]);
+equivalence(SHIONN_SRC, [72045, "21-23", "old-gw-scorched-brown", "WP1124", 1831]);
+equivalence(SHIONN_SRC, [72046, "22-56", "old-gw-ghostly-grey", "WP1428"]);
+equivalence(SHIONN_SRC, [72047, "22-84", "old-gw-space-wolves-grey"]);
+equivalence(SHIONN_SRC, [72048, "21-32", "old-gw-shadow-grey", "WP1119", 1836]);
+equivalence(SHIONN_SRC, [72049, "22-50", "old-gw-fortress-grey", "WP1117", 1837]);
 
+equivalence(SHIONN_SRC, [72050, "22-49", "old-gw-codex-grey", "WP1118", 1838]); // Dawnstone
+equivalence(SHIONN_SRC, [72051, "21-25", "old-gw-chaos-black", "WP1101", 1779]);
+equivalence(SHIONN_SRC, [72052, "22-60", "old-gw-mithril-silver", "WP1129", 1861]);
+equivalence(SHIONN_SRC, [72053, "22-59", "old-gw-chainmail", "WP1130", 1860]); // Iron breaker
+equivalence(SHIONN_SRC, [72054, "21-28", "old-gw-boltgun-metal", "WP1131", 1862]);
+equivalence(SHIONN_SRC, [72055, "22-62", "old-gw-brunished-gold", "WP1231", 1870]);
+equivalence(SHIONN_SRC, [72056, "22-61", "old-gw-shining-gold", "WP1132", 1869]);
+equivalence(SHIONN_SRC, [72057, "22-65", "old-gw-dwarf-bronze", "WP1133", 1867]);
+equivalence(SHIONN_SRC, [72058, "old-gw-brazen-brass"]);
+equivalence(SHIONN_SRC, [72059, "22-63", "old-gw-beaten-copper", "WP1467", 1868]);
 
+equivalence(SHIONN_SRC, [72060, "21-31", "old-gw-tin-bitz", "WP1468", 1866]); // WarplockBronze
+equivalence(SHIONN_SRC, [72061, "21-16", "old-gw-kommando-khaki", "WP1121", 1824]);
+equivalence(SHIONN_SRC, [72062, "21-17", "old-gw-graveyard-earth", "WP1123", 1855]);
+equivalence(SHIONN_SRC, [72063, "22-34", "old-gw-desert-yellow", "WP1121", 1857]);
+equivalence(SHIONN_SRC, [72064, "21-37", "WP1461", 1883]);
+equivalence(SHIONN_SRC, [72065, "old-gw-terracotta"]);
+equivalence(SHIONN_SRC, [72066, "21-18", "old-gw-tanned-flesh", "WP1127", 1827]);
+equivalence(SHIONN_SRC, [72067, "21-14", "old-gw-catachan-green", "WP1413", 1821]);
+
+equivalence(SHIONN_SRC, [72076, "21-06", "WP1444"]); // Naggaroth Night
+equivalence(SHIONN_SRC, [72095, "22-84", "WP1428", 3228]);
+equivalence(SHIONN_SRC, [72098, "22-72", "WP1411", 3211]);
+
+equivalence(SHIONN_SRC, [72101, "22-33", "WP1406", 3211]);
+equivalence(SHIONN_SRC, [72107, "21-18"]);
+equivalence(SHIONN_SRC, [72109, "22-80", "WP1438", 1859]);
+
+equivalence(SHIONN_SRC, [72114, "22-82", "WP1445", 3236]);
+equivalence(SHIONN_SRC, [72117, "22-16", "WP1113", 3226]);
+equivalence(SHIONN_SRC, [72118, "21-07"]);
+
+equivalence(SHIONN_SRC, [72120, "21-10", 3239]);
+equivalence(SHIONN_SRC, [72121, "22-78", "WP1435", 3237]);
+equivalence(SHIONN_SRC, [72124, "21-20", "old-gw-bestial-brown", "WP1416", 1833]);
+
+equivalence(SHIONN_SRC, [72140, "22-36", "old-gw-tallarn-flesh", "WP1434"]);
+equivalence(SHIONN_SRC, [72141, "21-03", "old-gw-mechrite-red", "WP1460"]);
+equivalence(SHIONN_SRC, [72142, "old-gw-hormagaunt-purple"]);
+equivalence(SHIONN_SRC, [72143, "21-08", "old-gw-mordian-blue", "WP1415"]);
+equivalence(SHIONN_SRC, [72144, "old-gw-astronomicon-grey"]);
+equivalence(SHIONN_SRC, [72145, "21-15"]);
+equivalence(SHIONN_SRC, [72146, "22-27", "old-gw-knarloc-green", "WP1110"]);
+equivalence(SHIONN_SRC, [72147, "old-gw-orkhide-shade"]);
+equivalence(SHIONN_SRC, [72148, "21-27", "old-gw-dheneb-stone", "WP1404", 1883]);
+equivalence(SHIONN_SRC, [72149, "28-09", "old-gw-gretchin-green", "WP1461", 1851]); // Death W. Forest
+
+equivalence(SHIONN_SRC, [72153, "22-48", "WP1120"]);
+equivalence(SHIONN_SRC, [72155, "21-44", "old-gw-charadon-granite", "WP1443"]);
+
+equivalence(SHIONN_SRC, ["21-09", "old-gw-enchanted-blue", "WP1462"]);
+equivalence(SHIONN_SRC, ["21-11", 1886]);
+equivalence(SHIONN_SRC, ["21-24", "WP1425"]); // Mechanicus SG
+equivalence(SHIONN_SRC, ["21-39", 3220]);
+equivalence(SHIONN_SRC, ["22-06", "WP1436"]);
+equivalence(SHIONN_SRC, ["22-10", 3221]);
+equivalence(SHIONN_SRC, ["22-11", "WP1481"]);
+equivalence(SHIONN_SRC, ["22-12", "WP1457", 3238]);
+equivalence(SHIONN_SRC, ["22-20", "WP1437"]);
+equivalence(SHIONN_SRC, ["22-35", 1884]);
+equivalence(SHIONN_SRC, ["22-47", "WP1464", 1841]);
+equivalence(SHIONN_SRC, ["22-51", "WP1443", 1882]);
+equivalence(SHIONN_SRC, ["22-52", 1842]);
+equivalence(SHIONN_SRC, ["22-54", "WP1430"]);
+equivalence(SHIONN_SRC, ["22-56", "WP1454"]);
+equivalence(SHIONN_SRC, ["22-58", "WP1440", 3259]); // Pallid Wych Flesh
+equivalence(SHIONN_SRC, ["22-68", "old-gw-space-wolves-grey", "WP1427", 1835]); // Fenrisian Grey
+equivalence(SHIONN_SRC, ["22-69", "WP1451"]);
+equivalence(SHIONN_SRC, ["22-79", "WP1449"]);
+equivalence(SHIONN_SRC, ["22-83", "WP1450"]);
+equivalence(SHIONN_SRC, ["22-85", 3214]);
+equivalence(SHIONN_SRC, ["22-91", "WP1142"]);
 
 
 
