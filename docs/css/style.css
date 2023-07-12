@@ -795,7 +795,7 @@ table tr.hide {
 #equivalence td a, #merge td a {
   padding-right: 2px;
 }
-#equivalence tr td:nth-child(2), #equivalence tr td:nth-child(4), #equivalence tr td:nth-child(5), #equivalence tr td:nth-child(7), #equivalence tr td:nth-child(9), #merge tr td:nth-child(2), #merge tr td:nth-child(4), #merge tr td:nth-child(5), #merge tr td:nth-child(7), #merge tr td:nth-child(9) {
+#equivalence tr td:nth-child(2n), #merge tr td:nth-child(2n) {
   border-right: 1px solid #d8ae47;
 }
 #equivalence tbody tr:nth-child(2n), #merge tbody tr:nth-child(2n) {

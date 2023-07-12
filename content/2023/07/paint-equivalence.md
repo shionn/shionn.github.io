@@ -4,6 +4,7 @@ Voici mon tableau de coprrespondance de peinture :
 * Le premier tableau est ma compilation des diverses sources que je corrige régulierement.
 * Le second tableau contient les sources dont est tiré mon tableau.
 * Les colonnes des tableaux sont triables.
+* il y a probabelmemnt des erreurs qui se sont glissée !
 
 <form style="text-align: center;">
 	<label>
@@ -15,18 +16,19 @@ Voici mon tableau de coprrespondance de peinture :
 <table id="merge" class="sort">
 	<thead>
 		<tr>
-			<th colspan="9">Mes équivalences condensées</th>
+			<th colspan="10">Mes équivalences condensées</th>
 		</tr>
 		<tr>
 			<th data-sort="0">#</th>
 			<th data-sort="1">Vallejo</th>
 			<th data-sort="2">#</th>
 			<th data-sort="3">Citadel</th>
-			<th data-sort="4">Old Citadel</th>
-			<th data-sort="5">#</th>
-			<th data-sort="6">Army Painter</th>
-			<th data-sort="7">#</th>
-			<th data-sort="8">Green Stuff World</th>
+			<th data-sort="4">#</th>
+			<th data-sort="5">Old Citadel</th>
+			<th data-sort="6">#</th>
+			<th data-sort="7">Army Painter</th>
+			<th data-sort="8">#</th>
+			<th data-sort="9">Green Stuff World</th>
 		</tr>
 	</thead>
 	<tbody></tbody>
@@ -35,18 +37,19 @@ Voici mon tableau de coprrespondance de peinture :
 <table id="equivalence" class="sort">
 	<thead>
 		<tr>
-			<th colspan="10">Mes sources</th>
+			<th colspan="11">Mes sources</th>
 		</tr>
 		<tr>
 			<th data-sort="0">#</th>
 			<th data-sort="1">Vallejo</th>
 			<th data-sort="2">#</th>
 			<th data-sort="3">Citadel</th>
-			<th data-sort="4">Old Citadel</th>
-			<th data-sort="5">#</th>
-			<th data-sort="6">Army Painter</th>
-			<th data-sort="7">#</th>
-			<th data-sort="8">Green Stuff World</th>
+			<th data-sort="4">#</th>
+			<th data-sort="5">Old Citadel</th>
+			<th data-sort="6">#</th>
+			<th data-sort="7">Army Painter</th>
+			<th data-sort="8">#</th>
+			<th data-sort="9">Green Stuff World</th>
 			<th>Source</th>
 		</tr>
 	</thead>

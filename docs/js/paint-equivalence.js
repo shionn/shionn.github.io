@@ -6,38 +6,32 @@ const _DEBUG = false;
 q(function() {
 	equivalences.forEach( equi => {
 		let line = q("<tr>");
-		equi.ids.forEach( (id, index) => {
-			if (id) {
-				let p = paint(id);
-				if (p.brand === OLD_GW) {
-					line.append(q("<td>").text(p.name));
-				} else {
-					line.append(q("<td>").text(id)
-						.attr("style", "font-style: "+ (p.legacy ? "italic" : "normal"))
-//						.attr("style", "background-color: " + (p.hex?p.hex:"none"))
-					);
-					line.append(q("<td>").text(p.name)
-						.attr("style", "font-style: "+ (p.legacy ? "italic" : "normal"))
-//						.attr("data-color", p.hex?p.hex:"none")
-//						.attr("style", "background-color: "+ (p.hex?p.hex:"none"))
-					);
-				}
+		equi.paints().forEach( (p) => {
+			if (p) {
+				line.append(q("<td>").text(p.haveId() ? p.id : '??')
+					.attr("style", "font-style: "+ (p.legacy ? "italic" : "normal"))
+					.attr("data-id", p.id)
+//					.attr("style", "background-color: " + (p.hex?p.hex:"none"))
+				);
+				line.append(q("<td>").text(p.name)
+					.attr("style", "font-style: "+ (p.legacy ? "italic" : "normal"))
+//					.attr("data-color", p.hex?p.hex:"none")
+//					.attr("style", "background-color: "+ (p.hex?p.hex:"none"))
+				);
 			} else {
-				if (index != 2) {
-					line.append(q("<td>"));
-				}
-				line.append(q("<td>"));
+				line.append(q("<td>")).append(q("<td>"));
 			}
 		});
-		if (_DEBUG || equi.src.indexOf(SHIONN_SRC) < 0) {
-			let src = q("<td>");
-			equi.src.forEach(s => {
-				src.append(q("<a>").attr("href", s.url).attr("target", "_blank").text(s.name));
-			})
+		if (equi.isMine() && !_DEBUG) {
+			q("#merge tbody").append(line);
+		} else {
+			let src = q("<td>").append(
+				q("<a>").attr("href", equi.src.url).attr("target", "_blank").text(equi.src.name));
+			if (equi.isMine()) {
+				line.attr("style", "background-color: pink")
+			}
 			line.append(src);
 			q("#equivalence tbody").append(line);
-		} else {
-			q("#merge tbody").append(line);
 		}
 	});
 
@@ -57,7 +51,6 @@ q(function() {
 		q("#equivalence").parent("article").find("section").prepend(area);
 
 		let _addToPersonnal = function(obj) {
-			console.log(obj);
 			if (area.value()) {
 				area.value(area.value()+", "+obj);
 			} else {
@@ -65,16 +58,16 @@ q(function() {
 			}
 		}
 
-		q("#equivalence tbody,#merge tbody").on("click", "td:nth-child(1), td:nth-child(8)", (e) => {
+		q("#equivalence tbody,#merge tbody").on("click", "td:nth-child(1), td:nth-child(9)", (e) => {
 			_addToPersonnal(q(e.target).text());
 		});
 
-		q("#equivalence tbody,#merge tbody").on("click", "td:nth-child(3), td:nth-child(6)", (e) => {
+		q("#equivalence tbody,#merge tbody").on("click", "td:nth-child(3), td:nth-child(7)", (e) => {
 			_addToPersonnal("\"" + q(e.target).text()+"\"");
 		});
 
 		q("#equivalence tbody,#merge tbody").on("click", "td:nth-child(5)", (e) => {
-			_addToPersonnal("\"old-gw-" + q(e.target).text().toLowerCase().replaceAll(" ", "-")+"\"");
+			_addToPersonnal("\"" + q(e.target).attr("data-id")+"\"");
 		});
 
 		area.on("focus", (e)=> {
