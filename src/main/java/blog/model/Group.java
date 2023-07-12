@@ -35,4 +35,8 @@ public class Group {
 	public List<Article> getArticles() {
         return articles.stream().sorted((a, b) -> -a.getDate().compareTo(b.getDate())).collect(Collectors.toList());
 	}
+
+	public List<String> getJs() {
+		return articles.stream().flatMap(a -> a.getJs().stream()).distinct().collect(Collectors.toList());
+	}
 }

@@ -1,8 +1,7 @@
-
-Voici mon tableau de coprrespondance de peinture :
-* Vous avez un filtre pour rechrcher rapidement parmis les tableaux.
+A force d'en avoir marre de cherche partout les equivalences de couleur entre les différente marques, J'ai commencer a compiler ddiverse source dans mon propre tableau, que voici :
 * Le premier tableau est ma compilation des diverses sources que je corrige régulierement.
 * Le second tableau contient les sources dont est tiré mon tableau.
+* Vous avez un filtre pour rechercher rapidement parmis les tableaux.
 * Les colonnes des tableaux sont triables.
 * il y a probabelmemnt des erreurs qui se sont glissée !
 

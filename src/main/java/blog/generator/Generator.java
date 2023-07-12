@@ -43,7 +43,9 @@ public class Generator {
 	}
 
 	private Context buildIndexContext(Site site) {
-		return new Context(Locale.FRANCE, buildParam(site, "index"));
+		Map<String, Object> params = buildParam(site, "index");
+		params.put("scripts", site.getJs());
+		return new Context(Locale.FRANCE, params);
 	}
 
 	private Context build404Context(Site site) {
@@ -53,6 +55,7 @@ public class Generator {
 	private Context buildGroupContext(Site site, Group group) {
 		Map<String, Object> params = buildParam(site, "group");
 		params.put("group", group);
+		params.put("scripts", group.getJs());
 		return new Context(Locale.FRANCE, params);
 	}
 
