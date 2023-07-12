@@ -12,12 +12,12 @@ import org.commonmark.renderer.NodeRenderer;
 import org.commonmark.renderer.html.HtmlNodeRendererContext;
 import org.commonmark.renderer.html.HtmlWriter;
 
-public class GalleryNodeRenderer implements NodeRenderer {
+public class GalleryRenderer implements NodeRenderer {
 
 	private HtmlNodeRendererContext context;
 	private HtmlWriter writer;
 
-	public GalleryNodeRenderer(HtmlNodeRendererContext context) {
+	public GalleryRenderer(HtmlNodeRendererContext context) {
 		this.context = context;
 		this.writer = context.getWriter();
 	}

@@ -16,8 +16,33 @@ let _paint = function(brand, id, name, hex = null, legacy = false) {
 	this.equivalences = new Array();
 }
 
+_paint.prototype.addEquivalence = function(equivalence) {
+	this.equivalences = this.equivalences.concat(equivalence);
+}
+
 _paint.prototype.haveId = function() {
 	return (""+this.id).indexOf("old") < 0;
+}
+
+_paint.prototype.asGW = function() {
+	if (this.equivalences.length>0) {
+		return paint(this.equivalences[0]?.ids[1]);
+	}
+	return null;
+}
+
+_paint.prototype.asAP = function() {
+	if (this.equivalences.length>0) {
+		return paint(this.equivalences[0]?.ids[3]);
+	}
+	return null;
+}
+
+_paint.prototype.asGSW = function() {
+	if (this.equivalences.length>0) {
+		return paint(this.equivalences[0]?.ids[4]);
+	}
+	return null;
 }
 
 let paints = new Map();

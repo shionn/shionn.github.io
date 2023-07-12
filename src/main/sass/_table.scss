@@ -17,7 +17,7 @@ table {
 	}
 }
 
-.paint-db {
+.paint-db, .paint-guide {
 	td a {
 		padding-right: 2px;
 	}
@@ -26,6 +26,9 @@ table {
 	}
 	tbody tr:nth-child(2n) {
 		background-color: lighten($theme-color, 40%);
+	}
+	td.color {
+		width: 40px;
 	}
 //	[data-color]:before {
 //		content: ' ';

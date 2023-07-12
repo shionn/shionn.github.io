@@ -64,7 +64,7 @@ let _cEqui = function(src, ids) {
 	let equi = new _equivalence( result, src );
 	equi.ids.forEach(i => {
 		let p = paint(i);
-		if (p) p.equivalences.concat(p);
+		if (p) p.addEquivalence(equi);
 	});
 	equivalences = equivalences.concat(equi);
 };
@@ -120,7 +120,7 @@ _cEqui(SHIONN_SRC, [72043, "21-20", "61-13", "WP1416", 1833]);
 _cEqui(SHIONN_SRC, [72044, "22-45", "61-18", 1832]);
 _cEqui(SHIONN_SRC, [72045, "21-22", "61-12", "WP1124", 1831]);
 _cEqui(SHIONN_SRC, [72046, "22-56", "61-36", "WP1428"]);
-_cEqui(SHIONN_SRC, [72047, "22-84", "61-49"]);
+_cEqui(SHIONN_SRC, [72047, "22-68", "61-49", "WP1427", 1835]);
 _cEqui(SHIONN_SRC, [72048, "21-32", "61-48", "WP1119", 1836]);
 _cEqui(SHIONN_SRC, [72049, "22-50", "61-53", "WP1117", 1837]);
 
@@ -165,7 +165,7 @@ _cEqui(SHIONN_SRC, [72141, "21-03", "68-01", "WP1460"]);
 _cEqui(SHIONN_SRC, [72142, "21-05", "68-05"]);
 _cEqui(SHIONN_SRC, [72143, "21-08", "68-07", "WP1415"]);
 _cEqui(SHIONN_SRC, [72144, "21-26", "68-11"]);
-_cEqui(SHIONN_SRC, [72145, "21-15", "68-10"]);
+_cEqui(SHIONN_SRC, [72145, "21-15", "68-10", "WP1420", 1851]);
 _cEqui(SHIONN_SRC, [72146, "22-27", "68-13", "WP1110"]);
 _cEqui(SHIONN_SRC, [72147, "21-12", "68-12"]);
 _cEqui(SHIONN_SRC, [72148, "21-27", "68-18", "WP1404", 1883]);

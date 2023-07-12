@@ -14,6 +14,13 @@ Cette figurine provient de ma boite **Vanguard**.
 2023/armee-skaven/prophete/4.jpg
 [/gallery]
 
+[paints title="Toge Grise"]
+Aplat	72102
+Ombrage	72048
+Eclaircissement	72095
+Rehaut	72001
+[/paints]
+
 ### Prophète gris sur cloche hurlante
 Cette figurine provient de ma boite **Echos de la ruine**.
 * Peinte en avril 2023
@@ -23,6 +30,13 @@ Cette figurine provient de ma boite **Echos de la ruine**.
 2023/armee-skaven/cloche/2.jpg
 2023/armee-skaven/cloche/3.jpg
 [/gallery]
+
+[paints title="Toge Violette"]
+Aplat	72113
+Ombrage	72112
+Eclaircissement	72014
+Rehaut	72013
+[/paints]
 
 ### Verminarque Maleprophete
 J'ai détesté peindre cette figurine. Je ne voulais pas avoir de verminarque. Mais, en lisant les regles de la cloche, je me suis senti obligé d'en avoir un. Son bras droit est magnétisé pour le changer et en faire un Belliciste.
@@ -39,6 +53,15 @@ J'ai détesté peindre cette figurine. Je ne voulais pas avoir de verminarque. M
 2023/armee-skaven/verminarque/8.jpg
 [/gallery]
 
+[paints title="Peau rosé"]
+Aplat	72107
+Ombrage 1	72108
+Ombrage 2	72044
+Eclaircissement	72100
+Rehaut	72003
+Glacie detail	72112
+[/paints]
+
 ## Clans Verminus
 ### Griffarque
 Cette figurine proviens de ma boite **Ile de Sang**.
@@ -51,6 +74,14 @@ Cette figurine proviens de ma boite **Ile de Sang**.
 2023/armee-skaven/griffarque/4.jpg	right
 2023/armee-skaven/griffarque/5.jpg	left
 [/gallery]
+
+[paints title="Acier TMP"]
+Aplat	72053
+Ombrage 1	72054
+Ombrage 2	72051
+Eclaircissement	72053
+Rehaut	72052
+[/paints]
 
 ### Vermines de Choc
 Ces figurines proviennent de ma boite **Echos de la ruine**. Il n'y en as que 10 dans cette boite,
@@ -81,6 +112,14 @@ Ces figurines proviennent de diverse boites.
 2023/armee-skaven/rats-des-clans/10.jpg
 [/gallery]
 
+[paints title="Toge Rouge"]
+Aplat	72111
+Ombrage	72112
+Eclaircissement	72011
+Rehaut	72010
+Rehaut 2	72106
+[/paints]
+
 ## Clans Skryre
 ### Ingénieur Technomage
 Cette figurine proviens de ma boite **Ile de Sang**.
@@ -110,6 +149,12 @@ Cette figurine proviens de ma boite **Vanguard**.
 2023/armee-skaven/canon/5.jpg
 [/gallery]
 
+[paints title="Toge Violette"]
+Aplat	72045
+Eclaircissement	72115
+Rehaut	72042
+[/paints]
+
 ### Roue infernale
 Pas encore peinte
 
@@ -131,6 +176,12 @@ Cette figurine proviens de ma boite **Ile de Sang**. Normalement les 2 skavens s
 2023/armee-skaven/mortier/2.jpg
 [/gallery]
 
+[paints title="Toge Beige"]
+Aplat	72034
+Ombrage	72071
+Eclaircissement	72101
+[/paints]
+
 ## Clans Skryre & Moulder
 ### Colosses de choc
 Ces figurine provienne de ma boite **Vanguard**. J'ai détésté peindre ces figurines.
@@ -140,6 +191,15 @@ Ces figurine provienne de ma boite **Vanguard**. J'ai détésté peindre ces fig
 2023/armee-skaven/colosse/1.jpg
 2023/armee-skaven/colosse/2.jpg
 [/gallery]
+
+[paints title="Armure Noir"]
+Aplat	72155
+Glacie 50%	72051
+Glacie 50%	72019
+Eclairssissement	72019
+Rehaut	72117
+Rehaut	72095
+[/paints]
 
 ## Clans Moulder
 ### Maître moulder
@@ -161,6 +221,13 @@ Ces figurines proviennent de ma boite **Ile de Sang**.
 2023/armee-skaven/rat-ogre/3.jpg
 [/gallery]
 
+[paints title="Malepiere"]
+Applat	72028
+Brossage 1	72029
+Brossage 2	72032
+Behaut	72122
+[/paints]
+
 ## Clans Pestilien
 Originellement je ne prévoyais pas d'avoir de clan pestilliens. Et puis un certain *GuillaumeAlendil* m'as fait une proposition que je n'ai pas pu refuser.
 
@@ -172,6 +239,13 @@ Cette figurine proviens de ma boite **Start Collecting**. Normalemnt il se monte
 2023/armee-skaven/pretre/1.jpg
 2023/armee-skaven/pretre/2.jpg
 [/gallery]
+
+[paints title="Toge Verte"]
+Aplat	72031
+Ombrage 1	72145
+Ombrage 2	72067
+Eclaircissement	72035
+[/paints]
 
 ### Prêtre de la peste sur creurset de la peste
 Pas encore peinte
@@ -204,5 +278,10 @@ J'ai choisi de ne pas assembler les poutres de bois et de corde au dessus des tr
 2023/armee-skaven/trou/1.jpg
 [/gallery]
 
+[paints title="Pierre"]
+Aplat	72048
+Brossage	72050
+Brossage	72047
+[/paints]
 ### Sort Persistant
 Pas encore peinte

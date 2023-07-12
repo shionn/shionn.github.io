@@ -19,6 +19,8 @@ import org.commonmark.renderer.html.HtmlRenderer;
 
 public class ContentFormater {
 
+	private static final int MAX_PARAGRAPH = 5;
+
 	public String shortPost(String content) {
 		Node nodes = homeParser().parse(content);
 		return renderer().render(nodes);
@@ -32,9 +34,10 @@ public class ContentFormater {
 	private Parser homeParser() {
 		return Parser.builder()
 				.customBlockParserFactory(new GalleryBlockParser.Factory())
+				.customBlockParserFactory(new PaintGuideParser.Factory())
 				.postProcessor(new PostProcessor() {
 					/**
-					 * permet de limiter à 6 paragraph pour la page d'acceuil
+					 * permet de limiter à X paragraph pour la page d'acceuil
 					 */
 					@Override
 					public Node process(Node root) {
@@ -42,7 +45,7 @@ public class ContentFormater {
 						int count = 0;
 						while (current != null) {
 							Node next = current.getNext();
-							if (count++ > 6) {
+							if (++count > MAX_PARAGRAPH) {
 								current.unlink();
 							}
 							current = next;
@@ -54,14 +57,22 @@ public class ContentFormater {
 	}
 
 	public Parser fullParser() {
-		return Parser.builder().customBlockParserFactory(new GalleryBlockParser.Factory()).build();
+		return Parser.builder()
+				.customBlockParserFactory(new GalleryBlockParser.Factory())
+				.customBlockParserFactory(new PaintGuideParser.Factory())
+				.build();
 	}
 
 	private HtmlRenderer renderer() {
 		return HtmlRenderer.builder().nodeRendererFactory(new HtmlNodeRendererFactory() {
 			@Override
 			public NodeRenderer create(HtmlNodeRendererContext context) {
-				return new GalleryNodeRenderer(context);
+				return new GalleryRenderer(context);
+			}
+		}).nodeRendererFactory(new HtmlNodeRendererFactory() {
+			@Override
+			public NodeRenderer create(HtmlNodeRendererContext context) {
+				return new PaintGuideRenderer(context);
 			}
 		}).attributeProviderFactory(new AttributeProviderFactory() {
 			@Override

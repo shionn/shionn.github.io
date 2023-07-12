@@ -792,14 +792,17 @@ table tr.hide {
   display: none;
 }
 
-.paint-db td a {
+.paint-db td a, .paint-guide td a {
   padding-right: 2px;
 }
-.paint-db tr td:nth-child(2n) {
+.paint-db tr td:nth-child(2n), .paint-guide tr td:nth-child(2n) {
   border-right: 1px solid #d8ae47;
 }
-.paint-db tbody tr:nth-child(2n) {
+.paint-db tbody tr:nth-child(2n), .paint-guide tbody tr:nth-child(2n) {
   background-color: #fcf8ef;
+}
+.paint-db td.color, .paint-guide td.color {
+  width: 40px;
 }
 
 div.gallery {

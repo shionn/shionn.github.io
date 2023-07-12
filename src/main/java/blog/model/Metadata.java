@@ -22,6 +22,8 @@ public class Metadata {
 	private Type type;
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy/MM/dd")
 	private Date date;
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy/MM/dd")
+	private Date updated;
 	private String title;
 	private String category;
 	private List<String> tags;

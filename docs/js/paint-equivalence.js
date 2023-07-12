@@ -54,7 +54,7 @@ q(function() {
 			if (area.value()) {
 				area.value(area.value()+", "+obj);
 			} else {
-				area.value("equivalence(SHIONN_SRC, ["+obj);
+				area.value("_cEqui(SHIONN_SRC, ["+obj);
 			}
 		}
 
