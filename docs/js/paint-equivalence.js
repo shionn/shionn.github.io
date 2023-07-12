@@ -23,7 +23,7 @@ q(function() {
 			}
 		});
 		if (equi.isMine() && !_DEBUG) {
-			q("#merge tbody").append(line);
+			q(".my.paint-db tbody").append(line);
 		} else {
 			let src = q("<td>").append(
 				q("<a>").attr("href", equi.src.url).attr("target", "_blank").text(equi.src.name));
@@ -31,13 +31,13 @@ q(function() {
 				line.attr("style", "background-color: pink")
 			}
 			line.append(src);
-			q("#equivalence tbody").append(line);
+			q(".sources.paint-db tbody").append(line);
 		}
 	});
 
 	q("#filter").on("keyup",(e)=> {
 		let val = q(e.target).value().toLowerCase();
-		q("#equivalence,#merge").find("tbody tr").each(function() {
+		q(".paint-db").find("tbody tr").each(function() {
 			if (!val || this.text().toLowerCase().indexOf(val) >0 ) {
 				this.rmClass("hide");
 			} else {
@@ -48,7 +48,7 @@ q(function() {
 
 	if (_BUILD) {
 		let area = q("<textarea>").attr("rows",3).attr("cols",80).attr("style", "position: sticky;top: 50px;margin: 0 auto;display: block;");
-		q("#equivalence").parent("article").find("section").prepend(area);
+		q(".sources.paint-db").parent("article").find("section").prepend(area);
 
 		let _addToPersonnal = function(obj) {
 			if (area.value()) {
@@ -58,15 +58,15 @@ q(function() {
 			}
 		}
 
-		q("#equivalence tbody,#merge tbody").on("click", "td:nth-child(1), td:nth-child(9)", (e) => {
+		q(".paint-db tbody").on("click", "td:nth-child(1), td:nth-child(9)", (e) => {
 			_addToPersonnal(q(e.target).text());
 		});
 
-		q("#equivalence tbody,#merge tbody").on("click", "td:nth-child(3), td:nth-child(7)", (e) => {
+		q(".paint-db tbody").on("click", "td:nth-child(3), td:nth-child(7)", (e) => {
 			_addToPersonnal("\"" + q(e.target).text()+"\"");
 		});
 
-		q("#equivalence tbody,#merge tbody").on("click", "td:nth-child(5)", (e) => {
+		q(".paint-db tbody").on("click", "td:nth-child(5)", (e) => {
 			_addToPersonnal("\"" + q(e.target).attr("data-id")+"\"");
 		});
 

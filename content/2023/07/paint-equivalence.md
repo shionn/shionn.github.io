@@ -3,7 +3,7 @@ A force d'en avoir marre de cherche partout les equivalences de couleur entre le
 * Le second tableau contient les sources dont est tiré mon tableau.
 * Vous avez un filtre pour rechercher rapidement parmis les tableaux.
 * Les colonnes des tableaux sont triables.
-* il y a probabelmemnt des erreurs qui se sont glissée !
+* Il y a probablememnt des erreurs qui se sont glissée !
 
 <form style="text-align: center;">
 	<label>
@@ -12,7 +12,7 @@ A force d'en avoir marre de cherche partout les equivalences de couleur entre le
 	</label>
 </form>
 
-<table id="merge" class="sort">
+<table class="sort my paint-db">
 	<thead>
 		<tr>
 			<th colspan="10">Mes équivalences condensées</th>
@@ -33,7 +33,7 @@ A force d'en avoir marre de cherche partout les equivalences de couleur entre le
 	<tbody></tbody>
 </table>
 
-<table id="equivalence" class="sort">
+<table class="sort sources paint-db">
 	<thead>
 		<tr>
 			<th colspan="11">Mes sources</th>
@@ -49,7 +49,7 @@ A force d'en avoir marre de cherche partout les equivalences de couleur entre le
 			<th data-sort="7">Army Painter</th>
 			<th data-sort="8">#</th>
 			<th data-sort="9">Green Stuff World</th>
-			<th>Source</th>
+			<th data-sort="10">Source</th>
 		</tr>
 	</thead>
 	<tbody></tbody>

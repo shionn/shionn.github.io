@@ -792,13 +792,13 @@ table tr.hide {
   display: none;
 }
 
-#equivalence td a, #merge td a {
+.paint-db td a {
   padding-right: 2px;
 }
-#equivalence tr td:nth-child(2n), #merge tr td:nth-child(2n) {
+.paint-db tr td:nth-child(2n) {
   border-right: 1px solid #d8ae47;
 }
-#equivalence tbody tr:nth-child(2n), #merge tbody tr:nth-child(2n) {
+.paint-db tbody tr:nth-child(2n) {
   background-color: #fcf8ef;
 }
 
