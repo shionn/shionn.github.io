@@ -1,4 +1,4 @@
-A force d'en avoir marre de cherche partout les equivalences de couleur entre les différente marques, J'ai commencer a compiler ddiverse source dans mon propre tableau, que voici :
+Voici mon tableau d'équivalence de peinture :
 * Le premier tableau est ma compilation des diverses sources que je corrige régulierement.
 * Le second tableau contient les sources dont est tiré mon tableau.
 * Vous avez un filtre pour rechercher rapidement parmis les tableaux.

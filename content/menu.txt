@@ -3,6 +3,7 @@ category/wargame	War Game
 	tag/arm-e	Mes Armées
 		2023/armee-skaven	Skavens
 	tag/peinture	Guide
+		2023/equivalence-peinture	Tableau d'équivalence de peinture
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
 https://web.archive.org/web/20210420064444/http://shionn.org/	Web Archive
 //category/radiomodelisme	Radiomodélisme
