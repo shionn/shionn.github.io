@@ -751,6 +751,9 @@ article header .date, article header .category, article header .tags {
 article header .tags a:not(:last-child)::after {
   content: ", ";
 }
+article footer .author {
+  font-size: larger;
+}
 @media (min-width: 768px) {
   article footer .author {
     padding-left: 3em;

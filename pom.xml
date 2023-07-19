@@ -19,13 +19,13 @@
 				<configuration>
 					<source>17</source>
 					<target>17</target>
-					<annotationProcessors>
+					<annotationProcessorPaths>
 						<path>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
 							<version>1.18.28</version>
 						</path>
-					</annotationProcessors>
+					</annotationProcessorPaths>
 				</configuration>
 			</plugin>
 			<plugin>

@@ -71,8 +71,16 @@ public class Article {
 		return metadata.getDate();
 	}
 
+	public Date getUpdateDate() {
+		return metadata.getUpdated();
+	}
+
 	public String getFormatedDate() {
 		return new SimpleDateFormat("dd MMMM yyyy", Locale.FRANCE).format(getDate());
+	}
+
+	public String getFormatedUpdateDate() {
+		return new SimpleDateFormat("dd MMMM yyyy", Locale.FRANCE).format(getUpdateDate());
 	}
 
 	public String getAuthor() {

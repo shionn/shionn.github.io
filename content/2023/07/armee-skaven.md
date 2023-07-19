@@ -228,8 +228,8 @@ Brossage 2	72032
 Behaut	72122
 [/paints]
 
-## Clans Pestilien
-Originellement je ne prévoyais pas d'avoir de clan pestilliens. Et puis un certain *GuillaumeAlendil* m'as fait une proposition que je n'ai pas pu refuser.
+## Clans Pestilens
+Originellement je ne prévoyais pas d'avoir de clan pestillens. Et puis un certain *GuillaumeAlendil* m'as fait une proposition que je n'ai pas pu refuser.
 
 ### Prêtre de la peste
 Cette figurine proviens de ma boite **Start Collecting**. Normalemnt il se monte sur un creuset, mais je l'ai aimenté pour le mettre directement sur un socle ou sur un creuset aux choix.
@@ -248,10 +248,31 @@ Eclaircissement	72035
 [/paints]
 
 ### Prêtre de la peste sur creurset de la peste
-Pas encore peinte
+Cette figurine proviens d'un vieux **Start Collecting**. Je profite que le prêtre de la peste soit aimenté pour ne pas avoir à le repeindre.
+* Peinte en Juillet 2023
+* ~ 10 heures de peinture
+[gallery h=300 w=250]
+2023/armee-skaven/creuset/1.jpg
+2023/armee-skaven/creuset/2.jpg
+2023/armee-skaven/creuset/3.jpg
+[/gallery]
 
 ### Catapulte de la peste
-Pas encore peinte
+Cette figurine proviens d'un vieux **Start Collecting**.
+* Peinte en Juillet 2023
+* ~ 7h30 de peinture
+[gallery h=300 w=250]
+2023/armee-skaven/catapulte/1.jpg
+2023/armee-skaven/catapulte/2.jpg
+2023/armee-skaven/catapulte/3.jpg
+2023/armee-skaven/catapulte/4.jpg
+[/gallery]
+[paints title="Maladie"]
+Aplat	72028
+Eclaircissement	72067
+Eclaircissement	72031
+Rehaut	72035
+[/paints]
 
 ### Moine de la peste
 Ces figurines proviennent d'un **Start Collecting**.
