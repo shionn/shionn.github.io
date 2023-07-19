@@ -162,7 +162,7 @@ Pas encore peinte
 Cette figurine proviens de ma boite **Ile de Sang**.
 * Peinte en avril 2023
 * ~ 4 heures de peinture
-[gallery h=300 w=250]
+[gallery h=250 w=400]
 2023/armee-skaven/lance-feu/1.jpg
 2023/armee-skaven/lance-feu/2.jpg
 [/gallery]
@@ -171,7 +171,7 @@ Cette figurine proviens de ma boite **Ile de Sang**.
 Cette figurine proviens de ma boite **Ile de Sang**. Normalement les 2 skavens sont l'un derriere l'autre. Malheureusement cette figurine n'est pas jouable à AoS :[
 * Peinte en avril 2023
 * ~ 4 heures de peinture
-[gallery h=300 w=250]
+[gallery h=250 w=400]
 2023/armee-skaven/mortier/1.jpg
 2023/armee-skaven/mortier/2.jpg
 [/gallery]
@@ -187,7 +187,7 @@ Eclaircissement	72101
 Ces figurine provienne de ma boite **Vanguard**. J'ai détésté peindre ces figurines.
 * Peinte en mars 2023
 * ~ 24 heures de peinture
-[gallery h=300 w=250]
+[gallery h=250 w=400]
 2023/armee-skaven/colosse/1.jpg
 2023/armee-skaven/colosse/2.jpg
 [/gallery]
@@ -206,7 +206,7 @@ Rehaut	72095
 Cette figurine proviens de ma boite **Ile de Sang**.
 * Peinte en mai 2023
 * ~ 2h30 de peinture
-[gallery h=300 w=250]
+[gallery h=250 w=400]
 2023/armee-skaven/maitre-moulder/1.jpg	left
 2023/armee-skaven/maitre-moulder/2.jpg	right
 [/gallery]
