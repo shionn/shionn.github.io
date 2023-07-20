@@ -149,7 +149,7 @@ Cette figurine proviens de ma boite **Vanguard**.
 2023/armee-skaven/canon/5.jpg
 [/gallery]
 
-[paints title="Toge Violette"]
+[paints title="Bois"]
 Aplat	72045
 Eclaircissement	72115
 Rehaut	72042
