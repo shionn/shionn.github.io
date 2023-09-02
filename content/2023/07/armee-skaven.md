@@ -132,10 +132,25 @@ Cette figurine proviens de ma boite **Ile de Sang**.
 [/gallery]
 
 ### Ingénieur Technomage (Game Day)
-Pas encore peinte
+C'est une figurne en métal que j'ai acheté encore sous blister à un certain Karv (merci). C'est tres plaisant de peindre ces figurines. 
+* Peinte en aout 2023
+* ~ 4h30 de peinture
+[gallery h=300 w=250]
+2023/armee-skaven/ingenieur-2/1.jpg
+2023/armee-skaven/ingenieur-2/2.jpg
+2023/armee-skaven/ingenieur-2/3.jpg
+2023/armee-skaven/ingenieur-2/4.jpg
+[/gallery]
 
 ### Saboteur Techomage
-Pas encore peinte
+J'ai acheté cette figurine avant la précédente, si j'avais su je pense que je ne l'aurai pas prise, bien que la figurine fu agréable à peindre. 
+* Peinte en aout 2023
+* ~ 4h30 de peinture
+[gallery h=300 w=250]
+2023/armee-skaven/saboteur/1.jpg
+2023/armee-skaven/saboteur/2.jpg
+2023/armee-skaven/saboteur/3.jpg
+[/gallery]
 
 ### Canon à malefoudre
 Cette figurine proviens de ma boite **Vanguard**.
@@ -156,7 +171,16 @@ Rehaut	72042
 [/paints]
 
 ### Roue infernale
-Pas encore peinte
+Je ne comptais pas avoir de roue infranle, et puis il faut reconnaitre que c'est uen figurine iconique, je ne pouvais pas passer à coter.
+* Peinte en aout 2023
+* ~ 10 heures de peinture
+[gallery h=300 w=400]
+2023/armee-skaven/roue-infernale/1.jpg
+2023/armee-skaven/roue-infernale/2.jpg
+2023/armee-skaven/roue-infernale/3.jpg
+2023/armee-skaven/roue-infernale/4.jpg
+2023/armee-skaven/roue-infernale/5.jpg
+[/gallery]
 
 ### Lance-feu
 Cette figurine proviens de ma boite **Ile de Sang**.
@@ -288,7 +312,15 @@ Ces figurines proviennent d'un **Start Collecting**.
 
 ## Clans Eshin
 ### Maîtremort
-Pas encore peinte
+Cette figurine proviens de la boite **echos de la ruine**. 
+* Peinte en juillet 2023
+* ~ 5 heures de peinture
+[gallery h=300 w=250]
+2023/armee-skaven/maitre-mort/1.jpg
+2023/armee-skaven/maitre-mort/2.jpg
+2023/armee-skaven/maitre-mort/3.jpg
+2023/armee-skaven/maitre-mort/4.jpg
+[/gallery]
 
 ## Divers
 ### Trou de Vermines
@@ -304,5 +336,10 @@ Aplat	72048
 Brossage	72050
 Brossage	72047
 [/paints]
+
 ### Sort Persistant
-Pas encore peinte
+* Peinte en juillet 2023
+* ~ 5 heures de peinture
+[gallery h=300 w=500]
+2023/armee-skaven/sort/1.jpg
+[/gallery]

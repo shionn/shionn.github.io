@@ -19,6 +19,7 @@ import blog.template.TemplateEngineBuilder;
 public class Generator {
 
 //	private static final String BASE = "file:///home/shionn/projects/BlogGenerator/docs/";
+//	private static final String BASE = "file:///home/shionn/projects/shionn.github.io/docs/";
 //	private static final String BASE = "https://shionn.github.io/";
 	private static final String TARGET = "docs";
 
