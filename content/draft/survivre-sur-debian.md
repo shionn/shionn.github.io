@@ -19,3 +19,5 @@ sudo apt install libwebkit2gtk-4.0-37
 ## tomcat
 dossier contenant le deploement ROOT a changer le droit
 /var/lib/tomcat10/webapps#
+
+changer le port dans : /etc/tomcat10/server.xml
