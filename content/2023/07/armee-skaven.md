@@ -227,7 +227,7 @@ Rehaut	72095
 
 ## Clans Moulder
 ### Maître moulder
-Cette figurine proviens de ma boite **Ile de Sang**.
+Cette figurine proviens de ma boite **Ile de Sang**. 
 * Peinte en mai 2023
 * ~ 2h30 de peinture
 [gallery h=250 w=400]
@@ -236,7 +236,7 @@ Cette figurine proviens de ma boite **Ile de Sang**.
 [/gallery]
 
 ### Rats ogre
-Ces figurines proviennent de ma boite **Ile de Sang**.
+Ces figurines proviennent de ma boite **Ile de Sang**. Au début je ne pensais pas les joué, et finalement c'est une de mes unitées préférées. 
 * Peinte en mai 2023
 * ~ 7 heures de peinture
 [gallery h=300 w=250]
