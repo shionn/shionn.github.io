@@ -9,6 +9,10 @@ echo "set mouse-=a" >> ~/.vimrc
 ## vim pas de coloration stntaxique :
 ajouter "syntax on" au .vimrc
 
+## desactiver pasword apres sleep
+installer dconf-editor
+/org/gnome/desktop/screensaver lock-enable > false
+
 # Erreur
 ## eclipse erreur ouverture markdown
 Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.
