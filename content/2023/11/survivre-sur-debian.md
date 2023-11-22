@@ -6,12 +6,20 @@ Outil pour mieux controller les peripheriques audio
 ## vim desactiver le mode visual
 echo "set mouse-=a" >> ~/.vimrc
 
-## vim pas de coloration stntaxique :
+## vim pas de coloration syntaxique :
 ajouter "syntax on" au .vimrc
 
 ## desactiver pasword apres sleep
 installer dconf-editor
 /org/gnome/desktop/screensaver lock-enable > false
+
+# Jeux
+## jeux comme au ralenti sur horizon Zero Dawn
+ajouter l'optioin **tsc=reliable** aux noyeau
+
+## utilitaire
+- Mangohud
+- gamemoderun
 
 # Erreur
 ## eclipse erreur ouverture markdown

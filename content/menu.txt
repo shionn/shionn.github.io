@@ -6,6 +6,8 @@ category/wargame	War Game
 	tag/peinture	Guide
 		2023/equivalence-peinture	Tableau d'équivalence de peinture
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
+category/linux	Linux
+	2023/survivre-sur-debian	Kit de Survie sur Debian
 https://web.archive.org/web/20210420064444/http://shionn.org/	Web Archive
 //category/radiomodelisme	Radiomodélisme
 //	mes-bolides	Mes Bolides
