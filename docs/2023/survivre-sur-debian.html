@@ -100,33 +100,38 @@
 			<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/kit-survie.html">Kit Survie</a>
 		</span>
 	</header>
-	<section><p>## Outils
-### Pavucontrol
-Outil pour mieux controller les peripheriques audio</p>
-<p>## Configuration
-### Vim
-#### Desactiver le mode visual
-echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc</p>
-<p>#### Pas de coloration syntaxique
-Ajouter &quot;syntax on&quot; au ~/.vimrc</p>
-<p>### Desactiver pasword apres sleep
-installer dconf-editor
+	<section><h2>Outils</h2>
+<h3>Pavucontrol</h3>
+<p>Outil pour mieux controller les peripheriques audio</p>
+<h2>Configuration</h2>
+<h3>Vim</h3>
+<h4>Desactiver le mode visual</h4>
+<p>echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc</p>
+<h4>Pas de coloration syntaxique</h4>
+<p>Ajouter &quot;syntax on&quot; au ~/.vimrc</p>
+<h3>Desactiver pasword apres sleep</h3>
+<p>installer dconf-editor
 /org/gnome/desktop/screensaver lock-enable &gt; false</p>
-<p>## Jeux
-### Jeux comme au ralenti (Horizon Zero Dawn)
-Ajouter l'option <strong>tsc=reliable</strong> aux noyeau</p>
-<p>### Utilitaire</p>
+<h2>Jeux</h2>
+<h3>Jeux comme au ralenti (Horizon Zero Dawn)</h3>
+<p>Ajouter l'option <strong>tsc=reliable</strong> aux noyeau</p>
+<h3>Son qui sature (Horizon Zero Dawn)</h3>
+<p>ajouter <strong>PULSE_LATENCY_MSEC=60 DRI_PRIME=1</strong> à la commande de lancement</p>
+<h3>Utilitaire</h3>
 <ul>
 <li>Mangohud</li>
 <li>Gamemoderun</li>
 </ul>
-<p>## Erreur
-### Eclipse erreur ouverture markdown
-Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.</p>
+<h2>Steam Deck</h2>
+<h3>Calibrer les joystick</h3>
+<p>thumbstick_cal</p>
+<h2>Erreur</h2>
+<h3>Eclipse erreur ouverture markdown</h3>
+<p>Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.</p>
 <p>sudo apt install libwebkit2gtk-4.0-37</p>
-<p>## Seveur
-### Tomcat
-dossier contenant le deploement ROOT a changer le droit
+<h2>Seveur</h2>
+<h3>Tomcat</h3>
+<p>dossier contenant le deploement ROOT a changer le droit
 /var/lib/tomcat10/webapps#</p>
 <p>changer le port dans : /etc/tomcat10/server.xml</p>
 </section>
