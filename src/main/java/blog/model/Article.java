@@ -44,7 +44,10 @@ public class Article {
 	}
 
 	public String getFolder() {
-		return metadata.getYear() + "/";
+		if (metadata.isPublished()) {
+			return metadata.getYear() + "/";
+		}
+		return "draft/";
 	}
 
 	public String getUrl() {

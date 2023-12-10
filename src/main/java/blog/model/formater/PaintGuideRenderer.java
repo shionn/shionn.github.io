@@ -11,11 +11,9 @@ import org.commonmark.renderer.html.HtmlWriter;
 
 public class PaintGuideRenderer implements NodeRenderer {
 
-	private HtmlNodeRendererContext context;
 	private HtmlWriter writer;
 
 	public PaintGuideRenderer(HtmlNodeRendererContext context) {
-		this.context = context;
 		this.writer = context.getWriter();
 	}
 
@@ -46,7 +44,16 @@ public class PaintGuideRenderer implements NodeRenderer {
 		writer.tag("thead");
 		writer.tag("tr");
 		writer.tag("th", Collections.singletonMap("colspan", "10"));
-		writer.text(guide(node).getTitle());
+		if (guide(node).isLink()) {
+			writer.tag("a", new Attributes()
+					.href(guide(node).getLink())
+					.target("_blank")
+					.fa(guide(node).getIcon()).build());
+			writer.text(guide(node).getTitle());
+			writer.tag("/a");
+		} else {
+			writer.text(guide(node).getTitle());
+		}
 		writer.tag("/th");
 		writer.tag("/tr");
 		writer.tag("tr");

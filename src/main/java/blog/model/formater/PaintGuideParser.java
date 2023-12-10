@@ -20,14 +20,18 @@ public class PaintGuideParser implements BlockParser {
 		@Override
 		public BlockStart tryStart(ParserState state, MatchedBlockParser matchedBlockParser) {
 			if (state.getLine().toString().startsWith("[" + TAG)) {
-				return BlockStart.of(new PaintGuideParser(getTitle(state.getLine()))).atIndex(state.getIndent());
+				return BlockStart.of(new PaintGuideParser(
+						getAttr("title", state), getAttr("icon", state),
+						getAttr("link", state)
+						))
+						.atIndex(state.getIndent());
 
 			}
 			return null;
 		}
 
-		private String getTitle(CharSequence line) {
-			Matcher m = Pattern.compile("title=\"(.+)\"").matcher(line);
+		private String getAttr(String attr, ParserState state) {
+			Matcher m = Pattern.compile(attr + "=\"([^\"]+)\"").matcher(state.getLine());
 			if (m.find()) {
 				return m.group(1);
 			}
@@ -38,8 +42,8 @@ public class PaintGuideParser implements BlockParser {
 
 	private PaintGuideBlock block;
 
-	public PaintGuideParser(String title) {
-		this.block = new PaintGuideBlock(title);
+	public PaintGuideParser(String title, String icon, String link) {
+		this.block = new PaintGuideBlock(title, icon, link);
 	}
 
 	@Override
