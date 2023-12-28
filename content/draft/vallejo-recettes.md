@@ -13,9 +13,19 @@ Rehaut	72009
 
 ## Tuto Angel Giraldez
 
-[<i class="fa fa-youtube-play"></i> BSL Jaune par Angel GiraldeZ](https://youtu.be/XrRwOLuvWj0?si=p-W3jwfzmxzmP8ju)
+[paints title=" BSL Jaune par Angel GiraldeZ" icon="youtube-play" link="https://youtu.be/XrRwOLuvWj0?si=p-W3jwfzmxzmP8ju"]
+Aplat	72006
+Ombrage	72007
+Eclaircissement	72005
+Rehaut	72109
+[/paints]
 
-[<i class="fa fa-youtube-play"></i> BSL Orange par Angel GiraldeZ](https://youtu.be/UOSo0LA8bWw?si=M9NljtXJ_1tSryw4)
+[paints title=" BSL Orange par Angel GiraldeZ" icon="youtube-play" link="https://youtu.be/UOSo0LA8bWw?si=M9NljtXJ_1tSryw4"]
+Aplat	72106
+Ombrage	72009
+Eclaircissement	72008
+Rehaut	72110
+[/paints]
 
 [paints title=" BSL Rouge par Angel Giradez" icon="youtube-play" link="https://youtu.be/Sq_LXQl3gek?si=S2q9B9x6lm88DhsK"]
 Aplat	72011
@@ -31,7 +41,12 @@ Eclaircissement	72076
 Rehaut	72114
 [/paints]
 
-[<i class="fa fa-youtube-play"></i> BSL jade par Angel GiraldeZ](https://youtu.be/LJgCSrDssdw?si=x1qyaC5ntJXHH3NE)
+[paints title=" BSL jade par Angel GiraldeZ" icon="youtube-play" link="https://youtu.be/LJgCSrDssdw?si=x1qyaC5ntJXHH3NE"]
+Aplat	72026
+Ombrage	72027
+Eclaircissement	72026
+Rehaut	72121
+[/paints]
 
 [paints title=" BSL Orc Skin par Angel Giraldez" icon="youtube-play" link="https://youtu.be/aNdhaw-hwcQ?si=gAX5AKyChD9Ilv7M"]
 Aplat	72123
@@ -39,11 +54,6 @@ Ombrage	72028
 Eclaircissement	72032
 Rehaut	72122
 [/paints]
-
-[<i class="fa fa-youtube-play"></i> TMP Acier par Angel Giraldez](https://youtu.be/_1BTQZHHBbw?si=5aaiGmLrMYdXGCpR)
-
-[<i class="fa fa-youtube-play"></i> Arme energetique par Angel Giraldez](https://youtu.be/TyUMs-yLoUM?si=_Yn3VSv3XbS9pNnv)
-
 
 ## Kits Vallejo
 
