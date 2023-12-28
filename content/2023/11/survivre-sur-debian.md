@@ -1,3 +1,5 @@
+Voici ma petite liste de truc est astuce sur debian.
+
 ## Outils
 ### Pavucontrol
 Outil pour mieux controller les peripheriques audio

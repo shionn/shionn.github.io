@@ -1,3 +1,5 @@
+Bonjour, cela fait uin moment que j'utilise mes propre tableau de conversion de couleur. Je vous les propose aujourd'hui.
+
 Voici mon tableau d'équivalence de peinture :
 * Le premier tableau est ma compilation des diverses sources que je corrige régulierement.
 * Le second tableau contient les sources dont est tiré mon tableau.
