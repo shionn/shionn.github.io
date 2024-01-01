@@ -35,6 +35,7 @@ public class Generator {
 		engine.process("template", build404Context(site), new FileWriter(TARGET + "/404.html"));
 		for (Article article : site.getArticles()) {
 			new File(TARGET + "/" + article.getFolder()).mkdirs();
+			System.out.println("generate " + article.getTitle() + " into " + article.getUrl());
 			engine.process("template", buildArticleContext(site, article),
 					new FileWriter(TARGET + "/" + article.getUrl()));
 		}

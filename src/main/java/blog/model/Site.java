@@ -20,6 +20,7 @@ public class Site {
 		return articles.stream()
 				.filter(a -> a.is(Type.post))
 				.sorted((a, b) -> -a.getDate().compareTo(b.getDate()))
+				.filter(Article::isPublished)
 				.limit(5)
 				.collect(Collectors.toList());
 	}

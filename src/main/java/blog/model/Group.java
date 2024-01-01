@@ -33,7 +33,10 @@ public class Group {
 	}
 
 	public List<Article> getArticles() {
-        return articles.stream().sorted((a, b) -> -a.getDate().compareTo(b.getDate())).collect(Collectors.toList());
+		return articles.stream()
+				.sorted((a, b) -> -a.getDate().compareTo(b.getDate()))
+				.filter(Article::isPublished)
+				.collect(Collectors.toList());
 	}
 
 	public List<String> getJs() {

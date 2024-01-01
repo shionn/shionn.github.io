@@ -39,6 +39,10 @@ public class Article {
 		return metadata.getType() == type;
 	}
 
+	public boolean isPublished() {
+		return metadata.isPublished();
+	}
+
 	public String getTitle() {
 		return metadata.getTitle();
 	}
