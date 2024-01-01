@@ -25,6 +25,14 @@ public class Site {
 				.collect(Collectors.toList());
 	}
 
+	public List<Article> getDrafts() {
+		return articles.stream()
+				.sorted((a, b) -> -a.getDate().compareTo(b.getDate()))
+				.filter(a -> !a.isPublished())
+				.collect(Collectors.toList());
+
+	}
+
 	public List<Group> getTags() {
 		return groups.stream()
 				.filter(c -> c.getType() == Group.Type.Tag)

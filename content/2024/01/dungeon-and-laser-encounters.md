@@ -1,6 +1,4 @@
-Je n'avais pas une grande passion pour les skavens et je n'envisageais pas de faire cette armée. A la sortie d'AOS, j'ai acheté la boite **Ile de Sang**, plus pour l'avoir en tant que collection que pour autre chose.
-Et en 2022, j'ai eu une bonne affaire pour mettre la main sur la partie Skaven de la boîte **Echos de la Ruine**, acheter à deux avec un certain *Karv*.
-Et arriver à ce moment-là je me suis dis que cela faisait une belle base et c'est devenu mon nouveau projet d'armée.
+Voici les figurines peintent que j'ai recu avec le KS de Dungeon and Laser Encounters.
 
 ## Strech Goal
 ### Ogre

@@ -1,5 +1,5 @@
 
-Cette page est une simple factorisation des recette que j'ai trouvé ou pour m'en souvenir.
+Cette page est une simple factorisation des recettes que j'ai trouvé avec les peinture vallejo game color ou pour m'en souvenir.
 
 ## Mes recettes
 
@@ -78,7 +78,7 @@ Eclaircissement	72106
 Rehaut	72110
 [/paints]
 
-[paints title="Kit Violet (Froid)"]
+[paints title="Kit Violet froid"]
 Aplat	72015
 Ombrage	72116
 Eclaircissement	72076
@@ -92,9 +92,9 @@ Eclaircissement	72021
 Rehaut	72118
 [/paints]
 
-[paints title="Kit Vert"]
-Aplat	72028
-Ombrage	72123
+[paints title=" Kit Vert froid" icon="youtube-play" link="https://youtu.be/OnKfWSCh-Q0?si=grvMJwbDi2o_9mAq"]
+Aplat	72123
+Ombrage	72028
 Eclaircissement	72029
 Rehaut	72121
 [/paints]

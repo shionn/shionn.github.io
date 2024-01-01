@@ -28,6 +28,13 @@
 				<article th:replace="~{article :: articleshort (${article})}"></article>
 			</th:block>
 		</div>
+		<div class="main" th:case="'draft'">
+			<ul>
+				<li th:each="article : ${site.drafts}">
+					<a th:text="${article.title}" th:href="${article.url}"></a>
+				</li>
+			</ul>
+		</div>
 		<div class="main" th:case="'group'">
 			<th:block th:each="article : ${group.articles}">
 				<article th:replace="~{article :: articleshort (${article})}"></article>

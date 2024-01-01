@@ -795,6 +795,9 @@ table tr.hide {
   display: none;
 }
 
+.paint-db, .paint-guide {
+  min-width: 780px;
+}
 .paint-db td a, .paint-guide td a {
   padding-right: 2px;
 }

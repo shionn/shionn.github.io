@@ -32,6 +32,7 @@ public class Generator {
 		Site site = new SiteBuilder().build(base);
 		TemplateEngine engine = new TemplateEngineBuilder().build();
 		engine.process("template", buildIndexContext(site), new FileWriter(TARGET + "/index.html"));
+		engine.process("template", buildDraftContext(site), new FileWriter(TARGET + "/draft.html"));
 		engine.process("template", build404Context(site), new FileWriter(TARGET + "/404.html"));
 		for (Article article : site.getArticles()) {
 			new File(TARGET + "/" + article.getFolder()).mkdirs();
@@ -52,6 +53,12 @@ public class Generator {
 
 	private Context build404Context(Site site) {
 		return new Context(Locale.FRANCE, buildParam(site, "404"));
+	}
+
+	private Context buildDraftContext(Site site) {
+		Map<String, Object> params = buildParam(site, "draft");
+		params.put("scripts", site.getJs());
+		return new Context(Locale.FRANCE, params);
 	}
 
 	private Context buildGroupContext(Site site, Group group) {
