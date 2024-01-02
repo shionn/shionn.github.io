@@ -1,7 +1,17 @@
 Voici les figurines peintent que j'ai recu avec le KS de Dungeon and Laser Encounters.
 
 ## Strech Goal
+### Harpie
+Ces figurines ont été peintes pour le défi __Septembre 2023 - Vole petit oiseau de [OOM](https://onemoremini.fr/topic/563/d%C3%A9fi-septembre-2023-vole-petit-oiseau)__.
+[gallery h=300 w=250]
+2024/encounter/sg/harpies/1.jpg
+2024/encounter/sg/harpies/2.jpg
+2024/encounter/sg/harpies/3.jpg
+[/gallery]
+
+
 ### Ogre
+Cette figurine a été peinte pour le défi __Janvier 2024 - Retour des fêtes de Karv__.
 [gallery h=300 w=250]
 2024/encounter/sg/ogre/1.jpg
 2024/encounter/sg/ogre/2.jpg
@@ -35,7 +45,8 @@ Glacie Ombre	72415
 
 ## Super Strech Goal
 ### Tarrasque
-40cm de plaisir
+40cm de plaisir. Cette figurine a été peinte pour le défi __Octobre 2023 - Monster Inc de [OOM](https://onemoremini.fr/topic/572/d%C3%A9fi-octobre-2023-monster-inc)__.
+
 [gallery h=300 w=250]
 2024/encounter/ssg/tarrasque/1.jpg
 2024/encounter/ssg/tarrasque/2.jpg
@@ -44,6 +55,8 @@ Glacie Ombre	72415
 
 ## Preview Deuslair
 ### Redoe: Rashers Golem
+Cette figurine a été peinte pour le défi __Décembre 2023 - Chants de Noël et d'hiver de [OOM](https://onemoremini.fr/topic/596/d%C3%A9fi-d%C3%A9cembre-2023-chants-de-no%C3%ABl-et-d-hiver)__.
+
 [gallery h=300 w=250]
 2024/encounter/redoe/rashers-golem/1.jpg
 2024/encounter/redoe/rashers-golem/2.jpg
