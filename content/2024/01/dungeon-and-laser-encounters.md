@@ -18,6 +18,21 @@ Glacie Détail	72409
 Glacie Ombre	72415
 [/paints]
 
+### Décorts
+[gallery h=300 w=250]
+2024/encounter/sg/barque.jpg
+2024/encounter/sg/champignon.jpg
+2024/encounter/sg/panneau.jpg
+2024/encounter/sg/plante.jpg
+2024/encounter/sg/ruine-chaos.jpg
+2024/encounter/sg/ruine-colonne.jpg
+2024/encounter/sg/ruine-sphere.jpg
+2024/encounter/sg/ruine-trasparente.jpg
+2024/encounter/sg/site-de-fouille.jpg
+2024/encounter/sg/tante.jpg
+2024/encounter/sg/vautour.jpg
+[/gallery]
+
 ## Super Strech Goal
 ### Tarrasque
 40cm de plaisir
