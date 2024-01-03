@@ -1,6 +1,14 @@
 Voici les figurines peintent que j'ai recu avec le KS de Dungeon and Laser Encounters.
 
 ## Strech Goal
+### Cerbere
+Cette figurine a été peinte pour le défi __Janvier 2024 - Mythologie de [OOM](https://onemoremini.fr/topic/601/d%C3%A9fi-janvier-2024-mythologie)__.
+[gallery h=300 w=250]
+2024/encounter/sg/cerbere/1.jpg
+2024/encounter/sg/cerbere/2.jpg
+2024/encounter/sg/cerbere/3.jpg
+[/gallery]
+
 ### Harpie
 Ces figurines ont été peintes pour le défi __Septembre 2023 - Vole petit oiseau de [OOM](https://onemoremini.fr/topic/563/d%C3%A9fi-septembre-2023-vole-petit-oiseau)__.
 [gallery h=300 w=250]
