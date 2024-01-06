@@ -10,6 +10,23 @@ Eclaircissement	72106
 Rehaut	72009
 [/paints]
 
+### Or pratiqué avec Whisp57
+[gallery h=300 w=350]
+2024/recette/or-whisp57/1.jpg
+[/gallery]
+[paints title="Or avec Whisp57"]
+Aplat	72057
+Lavis (mélange)	72115
+Lavis (mélange)	72051
+Eclaircissement	72056
+Ombrage	72045
+Lining (mélange)	72045
+Lining (mélange)	72051
+Eclaircissement	72055
+Réhaut (mélange)	72055
+Réhaut (mélange)	72052
+Réhaut	72052
+[/paints]
 
 ## Tuto Angel Giraldez
 
