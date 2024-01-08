@@ -24,9 +24,9 @@ Les premiere fig peinte de cet armée. Elle m'ont servi de test de schémat. A m
 2024/cos-duardin/dracs-de-fer/3.jpg
 [/gallery]
 
-[paints title="Plaque d'acier"]
+[paints title="Plaque d'acier Bleu"]
 Aplat	72054
-Lavis	72413
+Glacie	72413
 Brossage	72053
 Rehaut	72052
 [/paints]
@@ -62,7 +62,20 @@ Rehaut	72034
 [/paints]
 
 ### Brise-Fer
-TODO
+
+[paints title="Plaque d'acier Turquoise"]
+Aplat	72054
+Glacie	72414
+Brossage	72053
+Rehaut	72052
+[/paints]
+
+[paints title="Plaque d'acier Jade"]
+Aplat	72054
+Glacie	72417
+Brossage	72053
+Rehaut	72052
+[/paints]
 
 ### Longues-Barbes
 TODO
