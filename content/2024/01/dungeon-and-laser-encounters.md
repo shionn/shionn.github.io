@@ -52,6 +52,10 @@ Glacie Ombre	72415
 [/gallery]
 
 ## Super Strech Goal
+### Arbre Enchanté
+Cette figurine a été peinte pour le défi __Janvier 2024 - Plante vs Monde de [CFM](https://taverne.colorfulminis.com/t/defi-janvier-2024-plantes-vs-le-monde/5284)__.
+
+Base tronc 72420, sol 72418, feille 72416
 ### Tarrasque
 40cm de plaisir. Cette figurine a été peinte pour le défi __Octobre 2023 - Monster Inc de [OOM](https://onemoremini.fr/topic/572/d%C3%A9fi-octobre-2023-monster-inc)__.
 
