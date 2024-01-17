@@ -15,21 +15,25 @@ TODO
 TODO
 
 ## Troupe
+
+[paints title="Plaque d'acier"]
+Aplat	72054
+Zenithal	72053
+Glacie (Bleu)	72413
+Glacie (Turquoise)	72414
+Glacie (Jade)	72417
+Brossage	72053
+Rehaut	72052
+[/paints]
+
 ### Dracs de Fer
-Les premiere fig peinte de cet armée. Elle m'ont servi de test de schémat. A moins d'une heure par fig je suis satisfait du résultat.
+Les premieres fig peinte de cet armée. Elle m'ont servies de test de schémat. A moins d'une heure par fig je suis satisfait du résultat.
 
 [gallery h=250 w=300]
 2024/cos-duardin/dracs-de-fer/1.jpg
 2024/cos-duardin/dracs-de-fer/2.jpg
 2024/cos-duardin/dracs-de-fer/3.jpg
 [/gallery]
-
-[paints title="Plaque d'acier Bleu"]
-Aplat	72054
-Glacie	72413
-Brossage	72053
-Rehaut	72052
-[/paints]
 
 [paints title="Cote de maille"]
 Aplat	72054
@@ -70,11 +74,12 @@ Brossage	72053
 Rehaut	72052
 [/paints]
 
-[paints title="Plaque d'acier Jade"]
-Aplat	72054
-Glacie	72417
-Brossage	72053
-Rehaut	72052
+
+[paints title="Barbe"]
+Aplat	72009
+Ombrage	72106
+Eclaircissement	72008
+Rehaut	72110
 [/paints]
 
 ### Longues-Barbes
