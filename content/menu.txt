@@ -3,6 +3,8 @@ category/wargame	War Game
 	tag/arm-e	Mes Armées
 		2023/armee-skaven	Skavens
 		2023/armee-nighthaunt	Nighthaunt
+	tag/dungeon-and-laser	Dungeon and Laser
+		2024/dungeon-and-laser-encounters	Encounters
 	tag/peinture	Guide
 		2023/equivalence-peinture	Tableau d'équivalence de peinture
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
