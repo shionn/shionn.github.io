@@ -28,7 +28,7 @@ public class Article {
 	public String getLogo() {
 		if (metadata.isLogo()) {
 			if (metadata.getLogoFolder() == null) {
-				return getFolder() + getName() + "/title.jpg";
+				return metadata.getYear() + "/" + getName() + "/title.jpg";
 			}
 			return metadata.getLogoFolder() + "/title.jpg";
 		}

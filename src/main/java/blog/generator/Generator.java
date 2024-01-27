@@ -3,6 +3,7 @@ package blog.generator;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -79,6 +80,7 @@ public class Generator {
 		new File(TARGET).mkdir();
 		new File(TARGET + "/category").mkdir();
 		new File(TARGET + "/tag").mkdir();
+		Arrays.stream(new File(TARGET + "/draft").listFiles()).forEach(f -> f.delete());
 	}
 
 	private Map<String, Object> buildParam(Site site, String mode) {

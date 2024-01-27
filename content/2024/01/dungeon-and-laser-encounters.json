@@ -1,10 +1,10 @@
 {
 	"type": "post",
-	"date": "2024/01/06",
+	"date": "2024/01/27",
 	"title": "Dungeon & Laser : Encounter",
 	"tags": ["War Game", "Dungeon and Laser", "Encounter"],
 	"category": "War Game",
-	"logo": false,
+	"logo": true,
 	"published": false,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ]
 }

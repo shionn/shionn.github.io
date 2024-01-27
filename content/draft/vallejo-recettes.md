@@ -6,7 +6,7 @@ Cette page est une simple factorisation des recettes que j'ai trouvé avec les p
 [paints title="Rouge Basic"]
 Aplat	72011
 Ombrage	72112
-Eclaircissement	72106
+Eclaircissement	72010
 Rehaut	72009
 [/paints]
 
