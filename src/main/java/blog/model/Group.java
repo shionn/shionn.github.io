@@ -20,6 +20,10 @@ public class Group {
 	private final String name;
 	private List<Article> articles = new ArrayList<Article>();
 
+	public boolean isGenerated() {
+		return !articles.isEmpty();
+	}
+
 	public String getUrl() {
 		return type.name().toLowerCase() + "/" + name.toLowerCase().replaceAll("[^a-z]", "-") + ".html";
 	}

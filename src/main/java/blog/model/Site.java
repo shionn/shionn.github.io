@@ -36,6 +36,7 @@ public class Site {
 	public List<Group> getTags() {
 		return groups.stream()
 				.filter(c -> c.getType() == Group.Type.Tag)
+				.filter(t -> t.isGenerated())
 				.sorted((a, b) -> a.getName().compareTo(b.getName()))
 				.collect(Collectors.toList());
 	}
