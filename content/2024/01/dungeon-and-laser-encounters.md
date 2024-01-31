@@ -97,7 +97,11 @@ Glacie Ombre	72415
 ### Arbre Enchanté
 Cette figurine a été peinte pour le défi __Janvier 2024 - Plante vs Monde de [CFM](https://taverne.colorfulminis.com/t/defi-janvier-2024-plantes-vs-le-monde/5284)__.
 
-TODO peinture une fois vernis
+[gallery h=300 w=250]
+2024/dungeon-and-laser-encounters/ssg/arbre-enchante/1.jpg
+2024/dungeon-and-laser-encounters/ssg/arbre-enchante/2.jpg
+2024/dungeon-and-laser-encounters/ssg/arbre-enchante/3.jpg
+[/gallery]
 
 [paints title="Base"]
 Tronc	72420
