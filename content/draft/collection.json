@@ -5,6 +5,5 @@
 	"tags": ["Bdd"],
 	"category": "Perso",
 	"logo": false,
-	"published": false,
-	"js" : [ "collection.js" ]
+	"published": false
 }
