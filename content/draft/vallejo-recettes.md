@@ -102,7 +102,7 @@ Eclaircissement	72076
 Rehaut	72114
 [/paints]
 
-[paints title="Kit Bleu"]
+[paints title="Kit Bleu " icon="youtube-play" link="https://www.youtube.com/watch?v=p_fJ1RhHCi8"]
 Aplat	72020
 Ombrage	72019
 Eclaircissement	72021
@@ -137,7 +137,7 @@ Eclaircissement	72099
 Rehaut	72098
 [/paints]
 
-[paints title="Kit Cuir"]
+[paints title="Kit Cuir " icon="youtube-play" link="https://youtu.be/im2GbyelEb8?si=1QVPcEq5EuWfnsFX"]
 Aplat	72115
 Ombrage	72124
 Eclaircissement	72042
