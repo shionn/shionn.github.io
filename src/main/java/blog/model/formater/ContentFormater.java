@@ -17,6 +17,11 @@ import org.commonmark.renderer.html.HtmlNodeRendererContext;
 import org.commonmark.renderer.html.HtmlNodeRendererFactory;
 import org.commonmark.renderer.html.HtmlRenderer;
 
+import blog.model.formater.gallery.GalleryBlockParser;
+import blog.model.formater.gallery.GalleryRenderer;
+import blog.model.formater.paint.PaintGuideParser;
+import blog.model.formater.paint.PaintGuideRenderer;
+
 public class ContentFormater {
 
 	private static final int MAX_PARAGRAPH = 5;

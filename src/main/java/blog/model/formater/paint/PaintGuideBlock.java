@@ -1,4 +1,4 @@
-package blog.model.formater;
+package blog.model.formater.paint;
 
 import java.util.ArrayList;
 import java.util.List;

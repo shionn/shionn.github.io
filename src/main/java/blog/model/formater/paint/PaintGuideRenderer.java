@@ -1,4 +1,4 @@
-package blog.model.formater;
+package blog.model.formater.paint;
 
 import java.util.Collections;
 import java.util.HashSet;
@@ -8,6 +8,8 @@ import org.commonmark.node.Node;
 import org.commonmark.renderer.NodeRenderer;
 import org.commonmark.renderer.html.HtmlNodeRendererContext;
 import org.commonmark.renderer.html.HtmlWriter;
+
+import blog.model.formater.Attributes;
 
 public class PaintGuideRenderer implements NodeRenderer {
 

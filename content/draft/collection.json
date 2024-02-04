@@ -1,0 +1,10 @@
+{
+	"type": "page",
+	"date": "2024/12/01",
+	"title": "Collections",
+	"tags": ["Bdd"],
+	"category": "Perso",
+	"logo": false,
+	"published": false,
+	"js" : [ "collection.js" ]
+}
