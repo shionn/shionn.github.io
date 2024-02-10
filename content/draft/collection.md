@@ -28,15 +28,15 @@ Page non référencé  mes collections perso.
 1-3	Getter Robot
 [/table]
 
-[table class="manga" title="Les Chefs d'Oeuvre de Lovecraft" cols="#,Nom,Volume,Chronologique,Cycle"]
-1	Les Montages Hallucinées	1-2	6	Dieux Extérieurs 3
-2	Dans l'Abîme du Temps	1	9	Grands Anciens 3
-3	La Couleur Tombée du Ciel	1	3	Grands Anciens 1
-4	L'appel de Cthulhu	1	4	Dieux Extérieurs 1
-5	Celui qui Hantait les Ténèbres	1
-6	Le Cauchemar d'Innsmouth	1-2	7	Grands Anciens 4
-7	Le Molosse	1
-8	L'abomination de Dunwich	1-	5	Grands Anciens 2
+[table class="manga" title="Les Chefs d'Oeuvre de Lovecraft" cols="#,Nom,Volume,Annee,Chronologique,Cycle"]
+1	Les Montages Hallucinées	1-2	1931	6	Dieux Extérieurs 3
+2	Dans l'Abîme du Temps	1	1935	9	Grands Anciens 3
+3	La Couleur Tombée du Ciel	1	????	3	Grands Anciens 1
+4	L'appel de Cthulhu	1	????	4	Dieux Extérieurs 1
+5	Celui qui Hantait les Ténèbres	1	????
+6	Le Cauchemar d'Innsmouth	1-2	1927	7	Grands Anciens 4
+7	Le Molosse	1	????
+8	L'abomination de Dunwich	1-	1913 ?	5	Grands Anciens 2
 [/table]
 [source](https://lantredecthulhu.com/lecture/ordre-lecture-lovecraft/)
 
