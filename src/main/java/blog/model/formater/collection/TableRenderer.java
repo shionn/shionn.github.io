@@ -12,18 +12,18 @@ import org.commonmark.renderer.NodeRenderer;
 import org.commonmark.renderer.html.HtmlNodeRendererContext;
 import org.commonmark.renderer.html.HtmlWriter;
 
-public class CollectionRenderer implements NodeRenderer {
+public class TableRenderer implements NodeRenderer {
 
 	private HtmlWriter writer;
 
-	public CollectionRenderer(HtmlNodeRendererContext context) {
+	public TableRenderer(HtmlNodeRendererContext context) {
 		this.writer = context.getWriter();
 	}
 
 	@Override
 	public Set<Class<? extends Node>> getNodeTypes() {
 		Set<Class<? extends Node>> nodes = new HashSet<>();
-		nodes.add(CollectionBlock.class);
+		nodes.add(TableBlock.class);
 		return nodes;
 	}
 
@@ -37,7 +37,7 @@ public class CollectionRenderer implements NodeRenderer {
 		writer.tag("/table");
 	}
 
-	private void tbody(CollectionBlock node) {
+	private void tbody(TableBlock node) {
 		writer.tag("tbody");
 		node.getDatas().forEach(datas -> {
 			writer.tag("tr");
@@ -51,7 +51,7 @@ public class CollectionRenderer implements NodeRenderer {
 		writer.tag("/tbody");
 	}
 
-	private void thead(CollectionBlock node) {
+	private void thead(TableBlock node) {
 		writer.tag("thead");
 		writer.tag("tr");
 		writer.tag("th", Collections.singletonMap("colspan", Integer.toString(node.getCols().length)));
@@ -68,14 +68,14 @@ public class CollectionRenderer implements NodeRenderer {
 		writer.tag("/thead");
 	}
 
-	private Map<String, String> buildTableAttr(CollectionBlock node) {
+	private Map<String, String> buildTableAttr(TableBlock node) {
 		Map<String, String> attr = new HashMap<>();
 		attr.put("class", "collection,"+node.getType());
 		return attr;
 	}
 
-	private CollectionBlock collection(Node node) {
-		return (CollectionBlock) node;
+	private TableBlock collection(Node node) {
+		return (TableBlock) node;
 	}
 
 

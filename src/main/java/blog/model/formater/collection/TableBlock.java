@@ -6,14 +6,14 @@ import java.util.List;
 import org.commonmark.node.Block;
 import org.commonmark.node.Visitor;
 
-public class CollectionBlock extends Block {
+public class TableBlock extends Block {
 
 	private String type;
 	private String title;
 	private String[] cols;
 	private List<String[]> datas = new ArrayList<String[]>();
 
-	public CollectionBlock(String type, String title, String[] cols) {
+	public TableBlock(String type, String title, String[] cols) {
 		this.type = type;
 		this.title = title;
 		this.cols = cols;

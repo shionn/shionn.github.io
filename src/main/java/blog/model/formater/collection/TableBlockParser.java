@@ -12,18 +12,18 @@ import org.commonmark.parser.block.BlockStart;
 import org.commonmark.parser.block.MatchedBlockParser;
 import org.commonmark.parser.block.ParserState;
 
-public class CollectionBlockParser implements BlockParser {
+public class TableBlockParser implements BlockParser {
 
-	private static final String TAG = "collection";
+	private static final String TAG = "table";
 
 	public static class Factory implements BlockParserFactory {
 		@Override
 		public BlockStart tryStart(ParserState state, MatchedBlockParser matchedBlockParser) {
 			if (state.getLine().toString().startsWith("[" + TAG)) {
-				String type = getAttr("type", state);
+				String type = getAttr("class", state);
 				String title = getAttr("title", state);
 				String[] cols = getAttr("cols", state).split(",");
-				return BlockStart.of(new CollectionBlockParser(type, title, cols)).atIndex(state.getIndent());
+				return BlockStart.of(new TableBlockParser(type, title, cols)).atIndex(state.getIndent());
 			}
 			return BlockStart.none();
 		}
@@ -37,10 +37,10 @@ public class CollectionBlockParser implements BlockParser {
 		}
 	}
 
-	private CollectionBlock block;
+	private TableBlock block;
 
-	public CollectionBlockParser(String type, String title, String[] cols) {
-		this.block = new CollectionBlock(type, title, cols);
+	public TableBlockParser(String type, String title, String[] cols) {
+		this.block = new TableBlock(type, title, cols);
 	}
 
 	@Override

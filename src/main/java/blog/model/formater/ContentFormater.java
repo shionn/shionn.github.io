@@ -17,8 +17,8 @@ import org.commonmark.renderer.html.HtmlNodeRendererContext;
 import org.commonmark.renderer.html.HtmlNodeRendererFactory;
 import org.commonmark.renderer.html.HtmlRenderer;
 
-import blog.model.formater.collection.CollectionBlockParser;
-import blog.model.formater.collection.CollectionRenderer;
+import blog.model.formater.collection.TableBlockParser;
+import blog.model.formater.collection.TableRenderer;
 import blog.model.formater.gallery.GalleryBlockParser;
 import blog.model.formater.gallery.GalleryRenderer;
 import blog.model.formater.paint.PaintGuideParser;
@@ -42,7 +42,7 @@ public class ContentFormater {
 		return Parser.builder()
 				.customBlockParserFactory(new GalleryBlockParser.Factory())
 				.customBlockParserFactory(new PaintGuideParser.Factory())
-				.customBlockParserFactory(new CollectionBlockParser.Factory())
+				.customBlockParserFactory(new TableBlockParser.Factory())
 				.postProcessor(new PostProcessor() {
 					/**
 					 * permet de limiter à X paragraph pour la page d'acceuil
@@ -68,7 +68,7 @@ public class ContentFormater {
 		return Parser.builder()
 				.customBlockParserFactory(new GalleryBlockParser.Factory())
 				.customBlockParserFactory(new PaintGuideParser.Factory())
-				.customBlockParserFactory(new CollectionBlockParser.Factory())
+				.customBlockParserFactory(new TableBlockParser.Factory())
 				.build();
 	}
 
@@ -86,7 +86,7 @@ public class ContentFormater {
 		}).nodeRendererFactory(new HtmlNodeRendererFactory() {
 			@Override
 			public NodeRenderer create(HtmlNodeRendererContext context) {
-				return new CollectionRenderer(context);
+				return new TableRenderer(context);
 			}
 		}).attributeProviderFactory(new AttributeProviderFactory() {
 			@Override
