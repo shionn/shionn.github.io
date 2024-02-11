@@ -3,7 +3,7 @@ Cette armée a été composé de 2 start-co et de 2 régiment de renon, et c'est
 J'ai essayer d'avoir un truc jouable le plus rapidement possible pour faire des partie en 1000pts.
 J'aime bien les nains mais c'est pas une armée dont le visuel me botte plus que ca.
 
-Tous les socle ont ete fait en moins de 10 minutes, j'ai simplement tapoté différentes couleurs avec un pinceau de brossage.
+Tous les socles ont ete fait en moins de 10 minutes, j'ai simplement tapoté différentes couleurs avec un pinceau de brossage.
 
 ## Héros
 ### Roi Gardien
@@ -29,10 +29,25 @@ Il as une pipe !
 [/gallery]
 
 ### Seigneur des Runes
-TODO
+
+- Peinte en fevrier 2024
+- 4h30
+
+[gallery w=300 h=350]
+2024/cos-duardin/maitre-des-runes/1.jpg
+2024/cos-duardin/maitre-des-runes/2.jpg
+[/gallery]
 
 ### Seigneur des Runes (Conversion)
-TODO
+
+J'ai simplement remplacer sa tête par c'elle d'un cogsmith, comme ca, il a une pipe !
+- Peinte en fevrier 2024
+- 4h30
+
+[gallery w=300 h=350]
+2024/cos-duardin/maitre-des-runes/3.jpg
+2024/cos-duardin/maitre-des-runes/4.jpg
+[/gallery]
 
 ## Troupe
 
@@ -85,11 +100,28 @@ J'ai choisi de faire 10 langue barbe et 10 martelier pour la variation, mais dan
 [/gallery]
 
 ## Truc
-### Gyrocoptères
-TODO
-
 ### Gyrobombardier
-TODO
+Je deteste toujours autant peindre des véhicules.
+
+- Peinte en fevrier 2024
+- 3h40
+
+[gallery w=350 h=300]
+2024/cos-duardin/gyro/1.jpg
+2024/cos-duardin/gyro/2.jpg
+[/gallery]
+
+### Gyrocoptères
+
+La térrible technique du tapotage !
+- Peinte en fevrier 2024
+- 2h30
+
+[gallery w=350 h=300]
+2024/cos-duardin/gyro/3.jpg
+2024/cos-duardin/gyro/4.jpg
+[/gallery]
+
 
 ## Peinture
 Tous les aciers sont traité grosso merdo de la même maniere, seul le glacie varie d'une variation à l'autre.
