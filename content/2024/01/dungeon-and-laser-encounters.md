@@ -51,6 +51,14 @@ Cette figurine a été peinte pour le défi __Janvier 2024 - Mythologie de [OOM]
 2024/dungeon-and-laser-encounters/sg/cerbere/3.jpg
 [/gallery]
 
+### Driade
+Cette figurine a été peinte pour le défi __Fevrier 2024 - Fée de [CFM](https://taverne.colorfulminis.com/t/defi-fevrier-2024-fee/5340)__.
+[gallery h=300 w=250]
+2024/dungeon-and-laser-encounters/sg/driade/1.jpg
+2024/dungeon-and-laser-encounters/sg/driade/2.jpg
+2024/dungeon-and-laser-encounters/sg/driade/3.jpg
+[/gallery]
+
 ### Harpie
 Ces figurines ont été peintes pour le défi __Septembre 2023 - Vole petit oiseau de [OOM](https://onemoremini.fr/topic/563/d%C3%A9fi-septembre-2023-vole-petit-oiseau)__.
 J'ai essaye de faire 3 ombrrage de couleur differente sur la peau, jade / turquoise / viollet.

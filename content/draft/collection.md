@@ -28,15 +28,19 @@ Page non référencé  mes collections perso.
 1-3	Getter Robot
 [/table]
 
-[table class="manga" title="Les Chefs d'Oeuvre de Lovecraft" cols="#,Nom,Volume,Annee,Chronologique,Cycle"]
-1	Les Montages Hallucinées	1-2	1931	6	Dieux Extérieurs 3
-2	Dans l'Abîme du Temps	1	1935	9	Grands Anciens 3
-3	La Couleur Tombée du Ciel	1	????	3	Grands Anciens 1
-4	L'appel de Cthulhu	1	????	4	Dieux Extérieurs 1
-5	Celui qui Hantait les Ténèbres	1	????
-6	Le Cauchemar d'Innsmouth	1-2	1927	7	Grands Anciens 4
-7	Le Molosse	1	????
-8	L'abomination de Dunwich	1-	1913 ?	5	Grands Anciens 2
+[table class="manga" title="Les Chefs d'Oeuvre de Lovecraft" cols="#,Nom,Volume,Annee,Chronologique,Cycle,Ecriture"]
+1	Les Montages Hallucinées	1-2	1931	6	Dieux Extérieurs 3	1931(15)
+2	Dans l'Abîme du Temps	1	1935	9	Grands Anciens 3	1934(19)
+3	La Couleur Tombée du Ciel	1	????	3	Grands Anciens 1	1927(9)
+4	L'appel de Cthulhu	1	1926	4	Dieux Extérieurs 1	1926(7)
+5	Dagon	1	????			1917(1)
+5	Celui qui Hantait les Ténèbres	1	????			1935(20)
+6	Le Cauchemar d'Innsmouth	1-2	1927	7	Grands Anciens 4	1931(16)
+7	Le Temple	1	????
+7	Le Molosse	1	????		1922(4)
+7	La Cité sans nom	1	????		1921(3)
+8	L'abomination de Dunwich	1-	1913 ?	5	Grands Anciens 2	1928(13)
 [/table]
 [source](https://lantredecthulhu.com/lecture/ordre-lecture-lovecraft/)
-
+[source](https://chronolivre.com/quel-ordre-lire-h-p-lovecraft-cthulhu/)
+[source](https://www.senscritique.com/liste/Le_Mythe_de_Cthulhu_ordre_chronologique/1434003)
