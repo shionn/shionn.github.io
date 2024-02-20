@@ -30,4 +30,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B compile --file pom.xml
     - name: Build with Maven
-      run: mvn exec:java -Dexec.mainClass="blog.generator.Generator" [-Dexec.args="https://shionn.github.io"] --file pom.xml
+      run: mvn exec:java -Dexec.mainClass="blog.generator.Generator" -Dexec.args="https://shionn.github.io" --file pom.xml
