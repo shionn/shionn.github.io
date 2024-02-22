@@ -27,6 +27,10 @@ ajouter **PULSE_LATENCY_MSEC=60 DRI_PRIME=1** à la commande de lancement
 - Mangohud
 - Gamemoderun
 
+## Gnome
+### ALT-F5 qui fait nimp
+dans dconf-editor modifier la clef : org.gnome.desktop.wm.keybindings
+
 ## Steam Deck
 ### Calibrer les joystick
 thumbstick_cal
@@ -43,3 +47,10 @@ dossier contenant le deploement ROOT a changer le droit
 /var/lib/tomcat10/webapps#
 
 changer le port dans : /etc/tomcat10/server.xml
+
+### Initialisation
+apt install bash-completion vim -y
+echo "set mouse-=a" >> ~/.vimrc
+echo "syntax on" >> ~/.vimrc
+echo "alias ll=\"ls -l\"" >> ~/.bashrc
+echo "alias la=\"ls -al\"" >> ~/.bashrc
