@@ -15,7 +15,7 @@ public class TemplateEngineBuilder {
 	private FileTemplateResolver initResolver() {
 		FileTemplateResolver resolver = new FileTemplateResolver();
 		resolver.setTemplateMode(TemplateMode.HTML);
-		resolver.setPrefix("src/main/resources/templates/");
+		resolver.setPrefix("templates/");
 		resolver.setSuffix(".html");
 		return resolver;
 	}

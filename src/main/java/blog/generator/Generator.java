@@ -13,7 +13,6 @@ import org.thymeleaf.context.Context;
 
 import blog.model.Article;
 import blog.model.Group;
-import blog.model.Group.Type;
 import blog.model.Site;
 import blog.model.builder.SiteBuilder;
 import blog.template.TemplateEngineBuilder;

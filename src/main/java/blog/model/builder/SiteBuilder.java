@@ -1,6 +1,7 @@
 package blog.model.builder;
 
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -54,7 +55,7 @@ public class SiteBuilder {
 
 	private Properties loadConfiguration() throws IOException {
 		Properties props = new Properties();
-		props.load(Thread.currentThread().getContextClassLoader().getResourceAsStream("configuration.properties"));
+		props.load(new FileReader("configuration.properties"));
 		return props;
 	}
 
