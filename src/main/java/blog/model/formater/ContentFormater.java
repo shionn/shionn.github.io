@@ -1,5 +1,7 @@
 package blog.model.formater;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.lang3.StringUtils;
@@ -8,6 +10,7 @@ import org.commonmark.node.Image;
 import org.commonmark.node.Link;
 import org.commonmark.node.Node;
 import org.commonmark.parser.Parser;
+import org.commonmark.parser.Parser.Builder;
 import org.commonmark.parser.PostProcessor;
 import org.commonmark.renderer.NodeRenderer;
 import org.commonmark.renderer.html.AttributeProvider;
@@ -17,14 +20,13 @@ import org.commonmark.renderer.html.HtmlNodeRendererContext;
 import org.commonmark.renderer.html.HtmlNodeRendererFactory;
 import org.commonmark.renderer.html.HtmlRenderer;
 
-import blog.model.formater.gallery.GalleryBlockParser;
-import blog.model.formater.gallery.GalleryRenderer;
-import blog.model.formater.paint.PaintGuideParser;
-import blog.model.formater.paint.PaintGuideRenderer;
-import blog.model.formater.table.TableBlockParser;
-import blog.model.formater.table.TableRenderer;
-
 public class ContentFormater {
+
+	private List<FormaterDescription> extenssion = Arrays.asList(
+			new Gallery(), 
+			new Paint(),
+			new Table() 
+			);
 
 	public String shortPost(String content, int limit) {
 		Node nodes = homeParser(limit).parse(content);
@@ -37,10 +39,11 @@ public class ContentFormater {
 	}
 
 	private Parser homeParser(int limit) {
-		return Parser.builder()
-				.customBlockParserFactory(new GalleryBlockParser.Factory())
-				.customBlockParserFactory(new PaintGuideParser.Factory())
-				.customBlockParserFactory(new TableBlockParser.Factory())
+		Builder builder = Parser.builder();
+		for (FormaterDescription desc : extenssion) {
+			builder.customBlockParserFactory(desc.blockParserFactory());
+		}
+		return builder
 				.postProcessor(new PostProcessor() {
 					/**
 					 * permet de limiter à X paragraph pour les article de la page d'acceuil
@@ -63,30 +66,25 @@ public class ContentFormater {
 	}
 
 	public Parser fullParser() {
-		return Parser.builder()
-				.customBlockParserFactory(new GalleryBlockParser.Factory())
-				.customBlockParserFactory(new PaintGuideParser.Factory())
-				.customBlockParserFactory(new TableBlockParser.Factory())
-				.build();
+		Builder builder = Parser.builder();
+		for (FormaterDescription desc : extenssion) {
+			builder.customBlockParserFactory(desc.blockParserFactory());
+		}
+		return builder.build();
 	}
 
 	private HtmlRenderer renderer() {
-		return HtmlRenderer.builder().nodeRendererFactory(new HtmlNodeRendererFactory() {
-			@Override
-			public NodeRenderer create(HtmlNodeRendererContext context) {
-				return new GalleryRenderer(context);
-			}
-		}).nodeRendererFactory(new HtmlNodeRendererFactory() {
-			@Override
-			public NodeRenderer create(HtmlNodeRendererContext context) {
-				return new PaintGuideRenderer(context);
-			}
-		}).nodeRendererFactory(new HtmlNodeRendererFactory() {
-			@Override
-			public NodeRenderer create(HtmlNodeRendererContext context) {
-				return new TableRenderer(context);
-			}
-		}).attributeProviderFactory(new AttributeProviderFactory() {
+		HtmlRenderer.Builder builder = HtmlRenderer.builder();
+		for (FormaterDescription desc : extenssion) {
+			builder.nodeRendererFactory(new HtmlNodeRendererFactory() {
+				@Override
+				public NodeRenderer create(HtmlNodeRendererContext context) {
+					return desc.createNodeRenderer(context);
+				}
+			});
+		}
+
+		return builder.attributeProviderFactory(new AttributeProviderFactory() {
 			@Override
 			public AttributeProvider create(AttributeProviderContext context) {
 				return new AttributeProvider() {

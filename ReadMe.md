@@ -1,3 +1,5 @@
+GEnerateur de site static en java utilisant thymeleaf
+
 # Articles
 
 Toutes les paires de fichier du même nom json et md represente un article de type `page` ou `post`. La page se différencie du `post` dans le fait qu'il n'apparait pas dans la page d'acceuil.
@@ -41,9 +43,9 @@ Structure de `site`
 	- `shortContent` contenu formaté en HTML tronqué pour l'affichage dans la page d'acceuil
 	- `fullContent` contenu formaté en HTML
 	- `date`
-	- `formatedDate` au format dd MMMM yyyy
+	- `formatedDate` au format en configuration
 	- `updateDate`
-	- `formatedUpdateDate` au format dd MMMM yyyy
+	- `formatedUpdateDate` au format en configuration
 	- `author` pour l'instant une constante "shionn" à aajouter au metadata.
 
 - `lastArticles` renvoie les derniers articles `post` pour l'affichage de la page d'acceuil.

@@ -87,11 +87,11 @@ public class Article {
 	}
 
 	public String getFormatedDate() {
-		return new SimpleDateFormat("dd MMMM yyyy", Locale.FRANCE).format(getDate());
+		return new SimpleDateFormat(configuration.getProperty("date.format"), Locale.FRANCE).format(getDate());
 	}
 
 	public String getFormatedUpdateDate() {
-		return new SimpleDateFormat("dd MMMM yyyy", Locale.FRANCE).format(getUpdateDate());
+		return new SimpleDateFormat(configuration.getProperty("date.format"), Locale.FRANCE).format(getUpdateDate());
 	}
 
 	public String getAuthor() {
