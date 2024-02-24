@@ -17,19 +17,17 @@ import org.commonmark.renderer.html.HtmlNodeRendererContext;
 import org.commonmark.renderer.html.HtmlNodeRendererFactory;
 import org.commonmark.renderer.html.HtmlRenderer;
 
-import blog.model.formater.collection.TableBlockParser;
-import blog.model.formater.collection.TableRenderer;
 import blog.model.formater.gallery.GalleryBlockParser;
 import blog.model.formater.gallery.GalleryRenderer;
 import blog.model.formater.paint.PaintGuideParser;
 import blog.model.formater.paint.PaintGuideRenderer;
+import blog.model.formater.table.TableBlockParser;
+import blog.model.formater.table.TableRenderer;
 
 public class ContentFormater {
 
-	private static final int MAX_PARAGRAPH = 5;
-
-	public String shortPost(String content) {
-		Node nodes = homeParser().parse(content);
+	public String shortPost(String content, int limit) {
+		Node nodes = homeParser(limit).parse(content);
 		return renderer().render(nodes);
 	}
 
@@ -38,14 +36,14 @@ public class ContentFormater {
 		return renderer().render(nodes);
 	}
 
-	private Parser homeParser() {
+	private Parser homeParser(int limit) {
 		return Parser.builder()
 				.customBlockParserFactory(new GalleryBlockParser.Factory())
 				.customBlockParserFactory(new PaintGuideParser.Factory())
 				.customBlockParserFactory(new TableBlockParser.Factory())
 				.postProcessor(new PostProcessor() {
 					/**
-					 * permet de limiter à X paragraph pour la page d'acceuil
+					 * permet de limiter à X paragraph pour les article de la page d'acceuil
 					 */
 					@Override
 					public Node process(Node root) {
@@ -53,7 +51,7 @@ public class ContentFormater {
 						int count = 0;
 						while (current != null) {
 							Node next = current.getNext();
-							if (++count > MAX_PARAGRAPH) {
+							if (++count > limit) {
 								current.unlink();
 							}
 							current = next;

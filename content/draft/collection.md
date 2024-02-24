@@ -1,6 +1,6 @@
 Page non référencé  mes collections perso.
 
-[table class="vallejo" title="Vallejo Air" cols="Nom,Type"]
+[table class="collection,vallejo" title="Vallejo Air" cols="Nom,Type"]
 76001	New
 76027	New
 76028	New
@@ -13,7 +13,7 @@ Page non référencé  mes collections perso.
 76120	New
 [/table]
 
-[table class="manga" title="Leiji Matsumoto" cols="#,Nom"]
+[table class="collection,manga" title="Leiji Matsumoto" cols="#,Nom"]
 /	24 Histoires d'un temps lointain
 /	25 Histoires d'un monde en 4 dimensions
 /	V2 Panzer
@@ -22,13 +22,13 @@ Page non référencé  mes collections perso.
 1-2	Gunfrontier
 [/table]
 
-[table class="manga" title="Go Nagai" cols="#,Nom"]
+[table class="collection,manga" title="Go Nagai" cols="#,Nom"]
 1-5	Devil Man
 /	Great Mazinger
 1-3	Getter Robot
 [/table]
 
-[table class="manga" title="Les Chefs d'Oeuvre de Lovecraft" cols="#,Nom,Volume,Annee,Chronologique,Cycle,Ecriture"]
+[table class="collection,manga" title="Les Chefs d'Oeuvre de Lovecraft" cols="#,Nom,Volume,Annee,Chronologique,Cycle,Ecriture"]
 1	Les Montages Hallucinées	1-2	1931	6	Dieux Extérieurs 3	1931(15)
 2	Dans l'Abîme du Temps	1	1935	9	Grands Anciens 3	1934(19)
 3	La Couleur Tombée du Ciel	1	????	3	Grands Anciens 1	1927(9)

@@ -2,6 +2,7 @@ package blog.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 import java.util.stream.Collectors;
 
 import lombok.Getter;
@@ -18,14 +19,21 @@ public class Group {
 	private final Type type;
 	@Getter
 	private final String name;
+	private final Properties configuration;
 	private List<Article> articles = new ArrayList<Article>();
 
+	public boolean is(Type type) {
+		return this.type == type;
+	}
+
 	public boolean isGenerated() {
-		return !articles.isEmpty();
+		return !articles.isEmpty()
+				&& Boolean.parseBoolean(configuration.getProperty(type.name().toLowerCase() + ".enable"));
 	}
 
 	public String getUrl() {
-		return type.name().toLowerCase() + "/" + name.toLowerCase().replaceAll("[^a-z]", "-") + ".html";
+		return configuration.getProperty(type.name().toLowerCase() + ".subfolder") + "/"
+				+ name.toLowerCase().replaceAll("[^a-z]", "-") + ".html";
 	}
 
 	public void add(Article article) {

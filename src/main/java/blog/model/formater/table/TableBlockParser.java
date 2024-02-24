@@ -1,4 +1,4 @@
-package blog.model.formater.collection;
+package blog.model.formater.table;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

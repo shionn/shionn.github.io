@@ -1,4 +1,4 @@
-package blog.model.formater.collection;
+package blog.model.formater.table;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -70,7 +70,7 @@ public class TableRenderer implements NodeRenderer {
 
 	private Map<String, String> buildTableAttr(TableBlock node) {
 		Map<String, String> attr = new HashMap<>();
-		attr.put("class", "collection,"+node.getType());
+		attr.put("class", node.getType());
 		return attr;
 	}
 

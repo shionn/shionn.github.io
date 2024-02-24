@@ -7,6 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
+import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
 
@@ -24,6 +25,8 @@ public class Article {
 	@Getter
 	private final List<Group> tags;
 	private final File file;
+
+	private final Properties configuration;
 
 	public String getLogo() {
 		if (metadata.isLogo()) {
@@ -67,7 +70,8 @@ public class Article {
 	}
 
 	public String getShortContent() throws IOException {
-		return new ContentFormater().shortPost(getRawContent());
+		return new ContentFormater().shortPost(getRawContent(),
+				Integer.parseInt(configuration.getProperty("article.shortsize")));
 	}
 
 	public String getFullContent() throws IOException {

@@ -13,6 +13,7 @@ import org.thymeleaf.context.Context;
 
 import blog.model.Article;
 import blog.model.Group;
+import blog.model.Group.Type;
 import blog.model.Site;
 import blog.model.builder.SiteBuilder;
 import blog.template.TemplateEngineBuilder;
@@ -40,7 +41,8 @@ public class Generator {
 					new FileWriter(site.getTargetFolder() + "/" + article.getUrl()));
 		}
 		for (Group group : site.getGroups()) {
-			engine.process("template", buildGroupContext(site, group),
+			engine.process("template",
+					buildGroupContext(site, group),
 					new FileWriter(site.getTargetFolder() + "/" + group.getUrl()));
 		}
 	}

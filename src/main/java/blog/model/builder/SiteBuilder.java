@@ -25,6 +25,7 @@ public class SiteBuilder {
 
 
 	public Site build() throws IOException {
+		Properties configuration = loadConfiguration();
 		Map<String, Group> groups = new HashMap<String, Group>();
 		List<Article> articles = new ArrayList<Article>();
 		for (File file : FileUtils.listFiles(new File("content"), new SuffixFileFilter("json"),
@@ -32,21 +33,21 @@ public class SiteBuilder {
 			Metadata metadata = new ObjectMapper().readValue(file, Metadata.class);
 			List<Group> tags = metadata.getTags()
 					.stream()
-					.map(tag -> retreiveGroup(groups, tag, Type.Tag))
+					.map(tag -> retreiveGroup(groups, tag, Type.Tag, configuration))
 					.collect(Collectors.toList());
-			Group category = retreiveGroup(groups, metadata.getCategory(), Type.Category);
-			Article article = new Article(metadata, category, tags, file);
+			Group category = retreiveGroup(groups, metadata.getCategory(), Type.Category, configuration);
+			Article article = new Article(metadata, category, tags, file, configuration);
 			if (metadata.isPublished()) {
 				category.add(article);
 				tags.stream().forEach(t -> t.add(article));
 			}
 			articles.add(article);
 		}
-		return new Site(loadConfiguration(), articles, groups.values(), new MenuBuilder().build());
+		return new Site(configuration, articles, groups.values(), new MenuBuilder().build());
 	}
 
-	private Group retreiveGroup(Map<String, Group> groups, String key, Type type) {
-		Group group = groups.getOrDefault(type + "-" + key, new Group(type, key));
+	private Group retreiveGroup(Map<String, Group> groups, String key, Type type, Properties configuration) {
+		Group group = groups.getOrDefault(type + "-" + key, new Group(type, key, configuration));
 		groups.put(type + "-" + key, group);
 		return group;
 	}
