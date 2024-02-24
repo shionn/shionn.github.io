@@ -11,6 +11,12 @@ category/wargame	War Game
 category/linux	Linux
 	2023/survivre-sur-debian	Kit de Survie sur Debian
 https://web.archive.org/web/20210420064444/http://shionn.org/	Web Archive
+mailto:shionn@gmail.com	Contact
+	mailto:shionn@gmail.com	shionn@gmail.com
+	https://github.com/shionn	Github
+	https://www.facebook.com/shionn	Facebook
+	https://twitter.com/shionn	Twitter @shionn
+// menu de l'ancien blog
 //category/radiomodelisme	Radiomodélisme
 //	mes-bolides	Mes Bolides
 //		category/3racing-f109	3Racing F109
@@ -78,8 +84,3 @@ https://web.archive.org/web/20210420064444/http://shionn.org/	Web Archive
 //		warhammer-40k-web-army-editor	W40k Web Army Editor
 //		dotmodeler	DotModeler
 //		hebergement	Hebergement
-mailto:shionn@gmail.com	Contact
-	mailto:shionn@gmail.com	shionn@gmail.com
-	https://github.com/shionn	Github
-	https://www.facebook.com/shionn	Facebook
-	https://twitter.com/shionn	Twitter @shionn

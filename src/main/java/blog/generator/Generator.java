@@ -19,30 +19,29 @@ import blog.template.TemplateEngineBuilder;
 
 public class Generator {
 
-//	private static final String BASE = "file:///home/shionn/projects/BlogGenerator/docs/";
-//	private static final String BASE = "file:///home/shionn/projects/shionn.github.io/docs/";
-//	private static final String BASE = "https://shionn.github.io/";
-	private static final String TARGET = "docs";
 
 	public static void main(String[] args) throws IOException {
-		new Generator().generate(args[0]);
+		new Generator().generate();
 	}
 
-	private void generate(String base) throws IOException {
-		prepareDestFolder();
-		Site site = new SiteBuilder().build(base);
+	private void generate() throws IOException {
+		Site site = new SiteBuilder().build();
+		prepareDestFolder(site);
 		TemplateEngine engine = new TemplateEngineBuilder().build();
-		engine.process("template", buildIndexContext(site), new FileWriter(TARGET + "/index.html"));
-		engine.process("template", buildDraftContext(site), new FileWriter(TARGET + "/draft.html"));
-		engine.process("template", build404Context(site), new FileWriter(TARGET + "/404.html"));
+		engine.process("template", buildIndexContext(site), new FileWriter(site.getTargetFolder() + "/index.html"));
+		engine.process("template", build404Context(site), new FileWriter(site.getTargetFolder() + "/404.html"));
+		if (site.isDraftEnable()) {
+			engine.process("template", buildDraftContext(site), new FileWriter(site.getTargetFolder() + "/draft.html"));
+		}
 		for (Article article : site.getArticles()) {
-			new File(TARGET + "/" + article.getFolder()).mkdirs();
+			new File(site.getTargetFolder() + "/" + article.getFolder()).mkdirs();
 			System.out.println("generate " + article.getTitle() + " into " + article.getUrl());
 			engine.process("template", buildArticleContext(site, article),
-					new FileWriter(TARGET + "/" + article.getUrl()));
+					new FileWriter(site.getTargetFolder() + "/" + article.getUrl()));
 		}
 		for (Group group : site.getGroups()) {
-			engine.process("template", buildGroupContext(site, group), new FileWriter(TARGET + "/" + group.getUrl()));
+			engine.process("template", buildGroupContext(site, group),
+					new FileWriter(site.getTargetFolder() + "/" + group.getUrl()));
 		}
 	}
 
@@ -76,18 +75,28 @@ public class Generator {
 		return new Context(Locale.FRANCE, params);
 	}
 
-	private void prepareDestFolder() throws IOException {
-		new File(TARGET).mkdir();
-		new File(TARGET + "/category").mkdir();
-		new File(TARGET + "/tag").mkdir();
-		Arrays.stream(new File(TARGET + "/draft").listFiles()).forEach(f -> f.delete());
-	}
-
 	private Map<String, Object> buildParam(Site site, String mode) {
 		Map<String, Object> param = new HashMap<String, Object>();
 		param.put("site", site);
 		param.put("mode", mode);
 		return param;
 	}
+
+	private void prepareDestFolder(Site site) throws IOException {
+
+		new File(site.getTargetFolder()).mkdir();
+		if (site.isCategopryEnable()) {
+			new File(site.getCategoryFolder()).mkdir();
+		}
+		if (site.isTagEnable()) {
+			new File(site.getTagFolder()).mkdir();
+		}
+		if (site.isDraftEnable()) {
+			File folder = new File(site.getDraftFolder());
+			folder.mkdir();
+			Arrays.stream(folder.listFiles()).forEach(f -> f.delete());
+		}
+	}
+
 
 }

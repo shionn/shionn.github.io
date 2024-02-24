@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.stream.Collectors;
 
 import org.apache.commons.io.FileUtils;
@@ -22,7 +23,8 @@ import blog.model.Site;
 
 public class SiteBuilder {
 
-	public Site build(String base) throws IOException {
+
+	public Site build() throws IOException {
 		Map<String, Group> groups = new HashMap<String, Group>();
 		List<Article> articles = new ArrayList<Article>();
 		for (File file : FileUtils.listFiles(new File("content"), new SuffixFileFilter("json"),
@@ -40,7 +42,7 @@ public class SiteBuilder {
 			}
 			articles.add(article);
 		}
-		return new Site(base, articles, groups.values(), new MenuBuilder().build());
+		return new Site(loadConfiguration(), articles, groups.values(), new MenuBuilder().build());
 	}
 
 	private Group retreiveGroup(Map<String, Group> groups, String key, Type type) {
@@ -48,4 +50,11 @@ public class SiteBuilder {
 		groups.put(type + "-" + key, group);
 		return group;
 	}
+
+	private Properties loadConfiguration() throws IOException {
+		Properties props = new Properties();
+		props.load(Thread.currentThread().getContextClassLoader().getResourceAsStream("configuration.properties"));
+		return props;
+	}
+
 }

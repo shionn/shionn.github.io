@@ -2,6 +2,7 @@ package blog.model;
 
 import java.util.Collection;
 import java.util.List;
+import java.util.Properties;
 import java.util.stream.Collectors;
 
 import blog.model.Metadata.Type;
@@ -11,7 +12,7 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public class Site {
-	private String base;
+	private Properties configuration;
 	private List<Article> articles;
 	private Collection<Group> groups;
 	private Menu menu;
@@ -30,7 +31,6 @@ public class Site {
 				.sorted((a, b) -> -a.getDate().compareTo(b.getDate()))
 				.filter(a -> !a.isPublished())
 				.collect(Collectors.toList());
-
 	}
 
 	public List<Group> getTags() {
@@ -50,6 +50,38 @@ public class Site {
 
 	public List<String> getJs() {
 		return articles.stream().flatMap(a -> a.getJs().stream()).distinct().collect(Collectors.toList());
+	}
+
+	public String getBase() {
+		return configuration.getProperty("base");
+	}
+
+	public String getTargetFolder() {
+		return configuration.getProperty("target");
+	}
+
+	public boolean isCategopryEnable() {
+		return Boolean.parseBoolean(configuration.getProperty("category.enable"));
+	}
+
+	public String getCategoryFolder() {
+		return getTargetFolder() + "/" + configuration.getProperty("category.subfolder");
+	}
+
+	public boolean isTagEnable() {
+		return Boolean.parseBoolean(configuration.getProperty("tag.enable"));
+	}
+
+	public String getTagFolder() {
+		return getTargetFolder() + "/" + configuration.getProperty("tag.subfolder");
+	}
+
+	public boolean isDraftEnable() {
+		return Boolean.parseBoolean(configuration.getProperty("draft.enable"));
+	}
+
+	public String getDraftFolder() {
+		return getTargetFolder() + "/" + configuration.getProperty("draft.subfolder");
 	}
 
 }
