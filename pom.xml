@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>shionn</groupId>
-	<artifactId>BlogGenerator</artifactId>
+	<artifactId>shionn.github.io</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<name>shionn.github.io</name>
 	<packaging>jar</packaging>
