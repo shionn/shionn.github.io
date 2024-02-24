@@ -1,3 +1,4 @@
+# Articles
 
 Toutes les paires de fichier du même nom json et md represente un article de type `page` ou `post`. La page se différencie du `post` dans le fait qu'il n'apparait pas dans la page d'acceuil.
 
@@ -15,10 +16,46 @@ metadata d'un article :
 	logoFolder: "dossier', // optionnel
 	category: "Titre Categorie",
 	tags: [ "Titre tag 1", ... ],
-	js: [ liste fichier JS a ajouter à la page ], //optionnel
+	js: [ liste fichier JS a ajouter à la page ], //optionnel (remplir scripts)
 	published: true // false pour draft
 }
 ~~~
+
+# Rendu
+
+Tous les appels de rendu se font sur le fichier `template.html` avec les objets `site` et `scripts`. Mais la variable `mode` qui change en fonction de ce qui est generé :
+- page d'acceuil : `mode=index`
+- page draft : `mode=draft`
+- page de tag ou de category: `mode=group` avec la variable `group` qui est le tag ou la category.
+- page d'un article : `mode=article` avec la varivbale `article`
+- page 404 : `mode=404`
+
+Structure de `site`
+- `article` tous les de types publié ou non
+	- `category` categorie de l'article
+		- `is(Category|Tag)`
+	- `tags` liste des tags de l'article (structure identique à `category`.
+	- `logo` image de l'entete de l'article
+	- `is(Post|Page)`
+	- `title`
+	- `shortContent` contenu formaté en HTML tronqué pour l'affichage dans la page d'acceuil
+	- `fullContent` contenu formaté en HTML
+	- `date`
+	- `formatedDate` au format dd MMMM yyyy
+	- `updateDate`
+	- `formatedUpdateDate` au format dd MMMM yyyy
+	- `author` pour l'instant une constante "shionn" à aajouter au metadata.
+
+- `lastArticles` renvoie les derniers articles `post` pour l'affichage de la page d'acceuil.
+- `drafts` renvoie les articles `post` non publié pour la génération de `draft.html`.
+
+## Home page
+Appel le rendu de `template.html` avec `mode=index` avec les objets `site` et `scripts`
+
+## Article page ou post
+Appel le rendu de `template.html` avec `mode=index` avec les objets `site` et `scripts`
+
+
 
 # Extenssion Common Mark :
 

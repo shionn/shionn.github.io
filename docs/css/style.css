@@ -767,6 +767,12 @@ article footer a {
     display: block;
   }
 }
+article.short footer {
+  text-align: center;
+}
+article.short footer a {
+  font-size: larger;
+}
 article.short footer:after {
   content: '';
   width: 90%;
