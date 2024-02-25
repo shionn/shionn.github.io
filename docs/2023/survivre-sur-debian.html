@@ -113,52 +113,54 @@
 		</span>
 	</header>
 	<section><p>Voici ma petite liste de truc est astuce sur debian.</p>
-<h2>Outils</h2>
+<h2>Gnome</h2>
 <h3>Pavucontrol</h3>
 <p>Outil pour mieux controller les peripheriques audio</p>
+<h3>ALT-F5 qui fait nimp</h3>
+<p>dans dconf-editor modifier la clef : <code>org.gnome.desktop.wm.keybindings</code></p>
+<h3>Desactiver pasword apres sleep</h3>
+<p>installer dconf-editor modifier la clef <code>/org/gnome/desktop/screensaver lock-enable</code> à false</p>
 <h2>Configuration</h2>
 <h3>Vim</h3>
 <h4>Desactiver le mode visual</h4>
-<p>echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc</p>
+<pre><code class="shell">echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
+</code></pre>
 <h4>Pas de coloration syntaxique</h4>
-<p>Ajouter &quot;syntax on&quot; au ~/.vimrc</p>
-<h3>Desactiver pasword apres sleep</h3>
-<p>installer dconf-editor
-/org/gnome/desktop/screensaver lock-enable &gt; false</p>
+<pre><code class="shell">echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
+</code></pre>
 <h2>Jeux</h2>
 <h3>Jeux comme au ralenti (Horizon Zero Dawn)</h3>
 <p>Ajouter l'option <strong>tsc=reliable</strong> aux noyeau</p>
 <h3>Son qui sature (Horizon Zero Dawn)</h3>
-<p>ajouter <strong>PULSE_LATENCY_MSEC=60 DRI_PRIME=1</strong> à la commande de lancement</p>
+<p>ajouter ̀<code>PULSE_LATENCY_MSEC=60 DRI_PRIME=1</code> à la commande de lancement</p>
 <h3>Utilitaire</h3>
 <ul>
 <li>Mangohud</li>
 <li>Gamemoderun</li>
 </ul>
-<h2>Gnome</h2>
-<h3>ALT-F5 qui fait nimp</h3>
-<p>dans dconf-editor modifier la clef : org.gnome.desktop.wm.keybindings</p>
 <h2>Steam Deck</h2>
 <h3>Calibrer les joystick</h3>
 <p>thumbstick_cal</p>
 <h2>Erreur</h2>
 <h3>Eclipse erreur ouverture markdown</h3>
 <p>Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.</p>
-<p>sudo apt install libwebkit2gtk-4.0-37</p>
+<pre><code class="shell">sudo apt install libwebkit2gtk-4.0-37
+</code></pre>
 <h2>Seveur</h2>
-<h3>Tomcat</h3>
-<p>dossier contenant le deploement ROOT a changer le droit
-/var/lib/tomcat10/webapps#</p>
-<p>changer le port dans : /etc/tomcat10/server.xml</p>
 <h3>Initialisation</h3>
-<p>apt install bash-completion vim -y
+<p>Sur chacun de mes serveurs je commence par faire ca :</p>
+<pre><code class="shell">apt install bash-completion vim -y
 echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
 echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
-echo &quot;alias ll=&quot;ls -l&quot;&quot; &gt;&gt; ~/.bashrc
-echo &quot;alias la=&quot;ls -al&quot;&quot; &gt;&gt; ~/.bashrc</p>
+echo &quot;alias ll=\&quot;ls -l\&quot;&quot; &gt;&gt; ~/.bashrc
+echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.bashrc
+</code></pre>
+<h3>Tomcat</h3>
+<p>Quand je veux deployé dans ROOT Je dois changer les droit d'acces dans le dossier ROOT de <code>/var/lib/tomcat10/webapps</code></p>
+<p>Et si je veux qu'il reponde sur 80 dans le fichier : <code>/etc/tomcat10/server.xml</code></p>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 22 février 2024</span>.</em>
+		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 25 février 2024</span>.</em>
 		<hr>
 	</footer>
 </article>
@@ -226,7 +228,8 @@ echo &quot;alias la=&quot;ls -al&quot;&quot; &gt;&gt; ~/.bashrc</p>
 				<a href="https://github.com/shionn" target="_blank" title="Github"><i class="fa fa-github"></i></a> |
 				<a href="https://www.thymeleaf.org/" target="_blank" title="Thymeleaf"><i class="fa fa-leaf"></i></a> |
 				<a href="https://fontawesome.com/v4/icons/" target="_blank" title="FontAwesome"><i class="fa fa-font-awesome"></i></a> |
-				<a href="http://commonmark.org/" target="_blank" title="CommonMark">M<i class="fa fa-long-arrow-down"></i></a>
+				<a href="http://commonmark.org/" target="_blank" title="CommonMark">M<i class="fa fa-long-arrow-down"></i></a> |
+				<a href="https://highlightjs.org/download" target="_blanck" title="highlightjs"><i class="fa fa-header"></i>js</a>
 			</span>
 		</div>
 	</footer>
@@ -237,6 +240,11 @@ echo &quot;alias la=&quot;ls -al&quot;&quot; &gt;&gt; ~/.bashrc</p>
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/gallery.js"></script>
 	
+		<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
+	
+		<script type="text/javascript" src="js/hljs/bash.min.js"></script>
+	
 	<script type="text/javascript" src="js/table.js"></script>
+	<script type="text/javascript">if(hljs) {hljs.initHighlightingOnLoad();}</script>
 </body>
 </html>
