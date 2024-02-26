@@ -1,11 +1,11 @@
 {
 	"type": "post",
-	"date": "2023/02/11",
+	"date": "2024/02/26",
 	"title": "Mes Nains en CoS",
 	"tags": ["War Game", "Armée", "Nains", "Citée de Sigmar"],
 	"category": "War Game",
-	"logo": true,
-	"published": false,
+	"logo": false,
+	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"
 }
