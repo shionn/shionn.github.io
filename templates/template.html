@@ -60,6 +60,24 @@
 					<th:block th:text="${cat.name}"/> (<th:block th:text="${cat.size}"/>)
 				</a>
 			</div>
+			<div class="calendar">
+				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
+				<ul class="tree">
+					<li th:each="year:${site.treePost}">
+						<a href="#"><th:block th:text="${year.name}"/> (<th:block th:text="${year.size}"/>)</a>
+						<ul>
+							<li th:each="month:${year.subGroups}">
+								<a href="#"><th:block th:text="${month.name}"/> (<th:block th:text="${month.size}"/>)</a>
+								<ul>
+									<li th:each="a:${month.subArticles}">
+										<a th:href="${a.url}" th:text="${a.title}"></a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 	<footer class="footer">
@@ -81,6 +99,7 @@
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/gallery.js"></script>
+	<script type="text/javascript" src="js/tree.js"></script>
 	<th:block th:each="script : ${scripts}">
 		<script type="text/javascript" th:src="${script}"></script>
 	</th:block>

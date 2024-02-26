@@ -1,0 +1,33 @@
+@import "_variables.scss";
+
+ul.tree {
+	padding-left: 10px;
+}
+
+ul.tree ul {
+	padding-left: 20px;
+}
+
+ul.tree, ul.tree ul {
+	list-style-type: none;
+
+	li.closed > ul {
+		display: none;
+	}
+
+	li.closed > a[href="#"]:before {
+		content: "\f196";
+		font-family: FontAwesome;
+		color: $theme-color;
+		vertical-align: bottom;
+		padding-right: 5px;
+	}
+
+	li:not(.closed) > a[href="#"]:before {
+		content: "\f147";
+		font-family: FontAwesome;
+		color: $theme-color;
+		vertical-align: bottom;
+		padding-right: 5px;
+	}
+}

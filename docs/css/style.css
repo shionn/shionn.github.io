@@ -887,6 +887,35 @@ div.gallery img {
     opacity: 1;
   }
 }
+ul.tree {
+  padding-left: 10px;
+}
+
+ul.tree ul {
+  padding-left: 20px;
+}
+
+ul.tree, ul.tree ul {
+  list-style-type: none;
+}
+ul.tree li.closed > ul, ul.tree ul li.closed > ul {
+  display: none;
+}
+ul.tree li.closed > a[href="#"]:before, ul.tree ul li.closed > a[href="#"]:before {
+  content: "\f196";
+  font-family: FontAwesome;
+  color: #d8ae47;
+  vertical-align: bottom;
+  padding-right: 5px;
+}
+ul.tree li:not(.closed) > a[href="#"]:before, ul.tree ul li:not(.closed) > a[href="#"]:before {
+  content: "\f147";
+  font-family: FontAwesome;
+  color: #d8ae47;
+  vertical-align: bottom;
+  padding-right: 5px;
+}
+
 .side > div {
   margin-top: 3em;
 }
