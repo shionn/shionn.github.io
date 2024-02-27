@@ -1,8 +1,9 @@
 index	Accueil
 category/wargame	War Game
 	tag/arm-e	Mes Armées
-		2023/armee-skaven	Skavens
+		2024/armee-naine-cos	Nains (CoS)
 		2023/armee-nighthaunt	Nighthaunt
+		2023/armee-skaven	Skavens
 	tag/dungeon-and-laser	Dungeon and Laser
 		2024/dungeon-and-laser-encounters	Encounters
 	tag/peinture	Guide
