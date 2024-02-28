@@ -27,5 +27,5 @@ Eclaircissement	72107
 Rehaut	72100
 [/paints]
 
-[Toute mon armée skaven présenté ici](/2023/arm-e-skaven.html)
+[Toute mon armée skaven présenté ici](2023/armee-skaven.html)
 

@@ -1,6 +1,6 @@
 index	Accueil
 category/wargame	War Game
-	tag/arm-e	Mes Armées
+	2024/mes-armees	Mes Armées
 		2024/armee-naine-cos	Nains (CoS)
 		2023/armee-nighthaunt	Nighthaunt
 		2023/armee-skaven	Skavens
