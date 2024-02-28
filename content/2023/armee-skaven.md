@@ -132,7 +132,7 @@ Cette figurine proviens de ma boite **Ile de Sang**.
 [/gallery]
 
 ### Ingénieur Technomage (Game Day)
-C'est une figurne en métal que j'ai acheté encore sous blister à un certain Karv (merci). C'est tres plaisant de peindre ces figurines. 
+C'est une figurne en métal que j'ai acheté encore sous blister à un certain Karv (merci). C'est tres plaisant de peindre ces figurines.
 * Peinte en aout 2023
 * ~ 4h30 de peinture
 [gallery h=300 w=250]
@@ -143,7 +143,7 @@ C'est une figurne en métal que j'ai acheté encore sous blister à un certain K
 [/gallery]
 
 ### Saboteur Techomage
-J'ai acheté cette figurine avant la précédente, si j'avais su je pense que je ne l'aurai pas prise, bien que la figurine fu agréable à peindre. 
+J'ai acheté cette figurine avant la précédente, si j'avais su je pense que je ne l'aurai pas prise, bien que la figurine fu agréable à peindre.
 * Peinte en aout 2023
 * ~ 4h30 de peinture
 [gallery h=300 w=250]
@@ -227,7 +227,7 @@ Rehaut	72095
 
 ## Clans Moulder
 ### Maître moulder
-Cette figurine proviens de ma boite **Ile de Sang**. 
+Cette figurine proviens de ma boite **Ile de Sang**.
 * Peinte en mai 2023
 * ~ 2h30 de peinture
 [gallery h=250 w=400]
@@ -236,7 +236,7 @@ Cette figurine proviens de ma boite **Ile de Sang**.
 [/gallery]
 
 ### Rats ogre
-Ces figurines proviennent de ma boite **Ile de Sang**. Au début je ne pensais pas les joué, et finalement c'est une de mes unitées préférées. 
+Ces figurines proviennent de ma boite **Ile de Sang**. Au début je ne pensais pas les joué, et finalement c'est une de mes unitées préférées.
 * Peinte en mai 2023
 * ~ 7 heures de peinture
 [gallery h=300 w=250]
@@ -312,7 +312,7 @@ Ces figurines proviennent d'un **Start Collecting**.
 
 ## Clans Eshin
 ### Maîtremort
-Cette figurine proviens de la boite **echos de la ruine**. 
+Cette figurine proviens de la boite **echos de la ruine**.
 * Peinte en juillet 2023
 * ~ 5 heures de peinture
 [gallery h=300 w=250]
