@@ -1,0 +1,11 @@
+{
+	"type": "post",
+	"date": "2024/02/28",
+	"title": "Monica, mon abomination de Malefausse",
+	"tags": ["War Game", "Figurine", "Elfe Noir", "Metal"],
+	"category": "War Game",
+	"logo": false,
+	"published": false,
+	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
+	"author": "Shionn"
+}
