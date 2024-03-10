@@ -30,6 +30,13 @@ Réhaut	72052
 
 ## Tuto Angel Giraldez
 
+[paints title=" BSL Blanc par Angel GiraldeZ" icon="youtube-play" link="https://www.youtube.com/watch?v=STpBLWA6uNc"]
+Aplat	72034
+Ombrage	72061
+Eclaircissement	72101
+Rehaut	72001
+[/paints]
+
 [paints title=" BSL Jaune par Angel GiraldeZ" icon="youtube-play" link="https://youtu.be/XrRwOLuvWj0?si=p-W3jwfzmxzmP8ju"]
 Aplat	72006
 Ombrage	72007
@@ -81,7 +88,7 @@ Eclaircissement	72005
 Rehaut	72109
 [/paints]
 
-[paints title="Kit orange"]
+[paints title=" Kit orange" icon="youtube-play" link="https://www.youtube.com/watch?v=pXzoAdVr96k"]
 Aplat	72009
 Ombrage	72106
 Eclaircissement	72008
@@ -102,7 +109,7 @@ Eclaircissement	72076
 Rehaut	72114
 [/paints]
 
-[paints title="Kit Bleu " icon="youtube-play" link="https://www.youtube.com/watch?v=p_fJ1RhHCi8"]
+[paints title=" Kit Bleu" icon="youtube-play" link="https://www.youtube.com/watch?v=p_fJ1RhHCi8"]
 Aplat	72020
 Ombrage	72019
 Eclaircissement	72021
@@ -123,21 +130,21 @@ Eclaircissement	72025
 Rehaut	72121
 [/paints]
 
-[paints title="Kit Peau"]
+[paints title=" Kit Peau" icon="youtube-play" link="https://www.youtube.com/watch?v=aY65yEtxeAQ"]
 Aplat	72100
 Ombrage	72108
 Eclaircissement	72107
 Rehaut	72003
 [/paints]
 
-[paints title="Kit Peau Pale"]
+[paints title=" Kit Peau Tannée" icon="youtube-play" link="https://www.youtube.com/watch?v=N6M94sXMUkw"]
 Aplat	72004
 Ombrage	72071
 Eclaircissement	72099
 Rehaut	72098
 [/paints]
 
-[paints title="Kit Cuir " icon="youtube-play" link="https://youtu.be/im2GbyelEb8?si=1QVPcEq5EuWfnsFX"]
+[paints title=" Kit Cuir" icon="youtube-play" link="https://youtu.be/im2GbyelEb8?si=1QVPcEq5EuWfnsFX"]
 Aplat	72115
 Ombrage	72124
 Eclaircissement	72042
