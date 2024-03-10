@@ -14,6 +14,8 @@ base	72045
 
 [paints title="interieur tissu violet"]
 base	72112
+????	72113
+????	72014
 [/paints]
 
 [paints title="bourse"]

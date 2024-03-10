@@ -4,7 +4,7 @@ Et comme j'ai très peu de monstre dans mes armées, avoir un petit monstre à j
 Et finalement je ne regrette absolumeent pas la fig est vraiment belle.
 
 * Peinte en février 2024
-* Je n'ai pas compté mon nombre d'heure sur cette fig. Cependant on dois bien être à 15~20h.
+* Je n'ai pas compté mon nombre d'heure sur cette fig. Cependant on dois bien être entre 15 et 20h.
 
 [gallery w=300 h=250]
 2023/armee-skaven/monica/1.jpg
