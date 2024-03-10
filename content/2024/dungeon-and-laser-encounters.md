@@ -43,6 +43,14 @@ Rien de particulier sur cette boite. Pour les colinnes j'ai utiliser ma recette 
 [/gallery]
 
 ## Strech Goal
+### Beauté de la Nature
+Cette figurine a été peintre pour le défi __Mars 2023 - Réveil de la nature__. Il s'agit de mon premier éssai de tissus transparent.
+[gallery w=200 h=300]
+2024/dungeon-and-laser-encounters/sg/beaute-nature/1.jpg
+2024/dungeon-and-laser-encounters/sg/beaute-nature/2.jpg
+[/gallery]
+
+
 ### Cerbere
 Cette figurine a été peinte pour le défi __Janvier 2024 - Mythologie de [OOM](https://onemoremini.fr/topic/601/d%C3%A9fi-janvier-2024-mythologie)__.
 [gallery h=200 w=300]
