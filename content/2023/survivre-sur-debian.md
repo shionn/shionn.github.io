@@ -54,6 +54,7 @@ Sur chacun de mes serveurs je commence par faire ca :
 
 ~~~shell
 apt install bash-completion vim -y
+apt remove nano -y
 echo "set mouse-=a" >> ~/.vimrc
 echo "syntax on" >> ~/.vimrc
 echo "alias ll=\"ls -l\"" >> ~/.bashrc
@@ -63,5 +64,23 @@ echo "alias la=\"ls -al\"" >> ~/.bashrc
 ### Tomcat
 Quand je veux deployé dans ROOT Je dois changer les droit d'acces dans le dossier ROOT de `/var/lib/tomcat10/webapps`
 
-Et si je veux qu'il reponde sur 80 dans le fichier : `/etc/tomcat10/server.xml`
+Pour répondre sur 80 dans le fichier : `/etc/tomcat10/server.xml`
 
+### Tuto file serveur sur promox
+J'aime pas les tuto youtube mais celui la est bien [MRP](https://youtu.be/I7nfSCNKeck?si=uNb3HVNwdK8xJMQQ)
+
+### hdparm spindown des disks :
+[source](https://wiki.archlinux.org/title/Hdparm)
+
+~~~shell
+#/etc/udev/rules.d/69-hdparm.rules
+ACTION=="add|change", KERNEL=="sd[a-z]", ATTRS{queue/rotational}=="1", RUN+="/usr/bin/hdparm -B 127 /dev/%k"
+~~~
+
+## Ma config desktop
+apt install gnome-shel
+apt install gimp firefox thunar gedit blender gimage-reader shotwell
+apt install lutris
+apt install git openjdk-17-jdk openjdk-17-source7
+apt remove firefox-esr
+apt remove gnome-software

@@ -50,7 +50,6 @@ Cette figurine a été peintre pour le défi __Mars 2023 - Réveil de la nature_
 2024/dungeon-and-laser-encounters/sg/beaute-nature/2.jpg
 [/gallery]
 
-
 ### Cerbere
 Cette figurine a été peinte pour le défi __Janvier 2024 - Mythologie de [OOM](https://onemoremini.fr/topic/601/d%C3%A9fi-janvier-2024-mythologie)__.
 [gallery h=200 w=300]
@@ -142,7 +141,7 @@ Ces figurines sont d'une qualitée encore supérieur à celle présente dans ce 
 ### Redoe: Rashers Golem
 Cette figurine a été peinte pour le défi __Décembre 2023 - Chants de Noël et d'hiver de [OOM](https://onemoremini.fr/topic/596/d%C3%A9fi-d%C3%A9cembre-2023-chants-de-no%C3%ABl-et-d-hiver)__.
 
-J'ai beaucoup travaillé le bois, mais j'ai été totalement à l'impro et je ne me souviens pas du tous de la recette. Je sais que je suis parti d'une grissaille et qu'ensuite j'ai essayé d'utiliser des xpress color et pas mal de brossag dont du khaki.
+J'ai beaucoup travaillé le bois, mais j'ai été totalement à l'impro et je ne me souviens pas du tous de la recette. Je sais que je suis parti d'une grissaille et qu'ensuite j'ai essayé d'utiliser des xpress color et pas mal de brossage dont du khaki.
 
 [gallery h=300 w=250]
 2024/dungeon-and-laser-encounters/redoe/rashers-golem/1.jpg

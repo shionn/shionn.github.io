@@ -153,6 +153,7 @@
 <h3>Initialisation</h3>
 <p>Sur chacun de mes serveurs je commence par faire ca :</p>
 <pre><code class="shell">apt install bash-completion vim -y
+apt remove nano -y
 echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
 echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
 echo &quot;alias ll=\&quot;ls -l\&quot;&quot; &gt;&gt; ~/.bashrc
@@ -160,10 +161,24 @@ echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.bashrc
 </code></pre>
 <h3>Tomcat</h3>
 <p>Quand je veux deployé dans ROOT Je dois changer les droit d'acces dans le dossier ROOT de <code>/var/lib/tomcat10/webapps</code></p>
-<p>Et si je veux qu'il reponde sur 80 dans le fichier : <code>/etc/tomcat10/server.xml</code></p>
+<p>Pour répondre sur 80 dans le fichier : <code>/etc/tomcat10/server.xml</code></p>
+<h3>Tuto file serveur sur promox</h3>
+<p>J'aime pas les tuto youtube mais celui la est bien <a href="https://youtu.be/I7nfSCNKeck?si=uNb3HVNwdK8xJMQQ" target="_blank">MRP</a></p>
+<h3>hdparm spindown des disks :</h3>
+<p><a href="https://wiki.archlinux.org/title/Hdparm" target="_blank">source</a></p>
+<pre><code class="shell">#/etc/udev/rules.d/69-hdparm.rules
+ACTION==&quot;add|change&quot;, KERNEL==&quot;sd[a-z]&quot;, ATTRS{queue/rotational}==&quot;1&quot;, RUN+=&quot;/usr/bin/hdparm -B 127 /dev/%k&quot;
+</code></pre>
+<h2>Ma config desktop</h2>
+<p>apt install gnome-shel
+apt install gimp firefox thunar gedit blender gimage-reader shotwell
+apt install lutris
+apt install git openjdk-17-jdk openjdk-17-source7
+apt remove firefox-esr
+apt remove gnome-software</p>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 25 février 2024</span>.</em>
+		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 13 mars 2024</span>.</em>
 		<hr>
 	</footer>
 </article>

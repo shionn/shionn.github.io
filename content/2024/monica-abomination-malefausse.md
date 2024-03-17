@@ -15,6 +15,7 @@ Et finalement je ne regrette absolumeent pas la fig est vraiment belle.
 2023/armee-skaven/monica/6.jpg
 2023/armee-skaven/monica/7.jpg
 2023/armee-skaven/monica/8.jpg
+2023/armee-skaven/monica/9.jpg
 [/gallery]
 
 [paints title="Peau"]
