@@ -4,7 +4,6 @@
 	"title": "Recette Vallejo",
 	"tags": ["War Game", "Peinture", "Bdd"],
 	"category": "War Game",
-	"logo": false,
 	"published": false,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"

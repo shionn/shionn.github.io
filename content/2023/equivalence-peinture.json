@@ -5,7 +5,7 @@
 	"title": "Equivalence peinture",
 	"tags": ["War Game", "Peinture", "Bdd"],
 	"category": "War Game",
-	"logo": true,
+	"logo": "pictures/titles/equivalence-peinture.jpg",
 	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-equivalence.js" ],
 	"author": "Shionn"

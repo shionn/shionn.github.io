@@ -4,7 +4,6 @@
 	"title": "Mes Nains en CoS",
 	"tags": ["War Game", "Armée", "Nains", "Citée de Sigmar", "AoS"],
 	"category": "War Game",
-	"logo": false,
 	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"

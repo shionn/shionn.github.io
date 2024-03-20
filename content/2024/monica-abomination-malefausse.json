@@ -5,8 +5,8 @@
 	"title": "Monica, mon abomination de Malefausse",
 	"tags": ["War Game", "Figurine", "Skaven", "AoS"],
 	"category": "War Game",
-	"logo": false,
 	"published": true,
+	"logo": "pictures/titles/monica-abomination-malefausse.jpg",
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"
 }

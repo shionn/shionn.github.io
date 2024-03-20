@@ -5,7 +5,6 @@
 	"title": "Kit de Survie sur Debian",
 	"tags": ["Linux", "Debian", "Kit Survie"],
 	"category": "Linux",
-	"logo": false,
 	"published": true,
 	"author": "Shionn",
 	"js" : [ "js/hljs/highlight.min.js", "js/hljs/bash.min.js" ]

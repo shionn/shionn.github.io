@@ -1,11 +1,27 @@
 
-Voici mes corsair elfe noir en métal. Je les ai acheté gamin. Puis j'ai completé avec un rachat recent.
+Cette année j'ai choisi de completer enfin mon rêve de gosse, completer et peindre mon armée elfe noir tel que je l'a voulais étant gosse.
+
+Voici mes corsairs elfe noir en métal.
+Cela fait plus de 20 ans que ces figurines sont dans ma pile de la honte.
+Je les ai acheté gamin.
+
+Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'avais depuis un moment.
 
 * Peinte en Mars 2024
 * Environ 28h.
 
 [gallery w=300 h=250]
-warhammer/elfe-noir/corsair/1.jpg
+pictures/dark-elves/corsair/01.jpg
+pictures/dark-elves/corsair/02.jpg
+pictures/dark-elves/corsair/03.jpg
+pictures/dark-elves/corsair/04.jpg
+pictures/dark-elves/corsair/05.jpg
+pictures/dark-elves/corsair/06.jpg
+pictures/dark-elves/corsair/07.jpg
+pictures/dark-elves/corsair/08.jpg
+pictures/dark-elves/corsair/09.jpg
+pictures/dark-elves/corsair/10.jpg
+pictures/dark-elves/corsair/11.jpg
 [/gallery]
 
 [paints title="Interieur cape"]
@@ -76,6 +92,3 @@ Base	72045
 Eclaircissement	72061
 Rehaut	72034
 [/paints]
-
-[Toute mon armée elfe noir présenté ici](2024/armee-elfe-noir.html)
-

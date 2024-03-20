@@ -5,7 +5,7 @@
 	"title": "Dungeon & Laser : Encounter",
 	"tags": ["War Game", "Dungeon and Laser", "Encounter", "JdR"],
 	"category": "War Game",
-	"logo": true,
+	"logo": "pictures/titles/dungeon-and-laser-encounters.jpg",
 	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"

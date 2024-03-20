@@ -5,7 +5,7 @@
 	"title": "Mes Skavens",
 	"tags": ["War Game", "Armée", "Skaven", "AoS"],
 	"category": "War Game",
-	"logo": true,
+	"logo": "pictures/titles/armee-skaven.jpg",
 	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"
