@@ -2,7 +2,7 @@
 Voici mes corsair elfe noir en métal. Je les ai acheté gamin. Puis j'ai completé avec un rachat recent.
 
 * Peinte en Mars 2024
-* todo duré.
+* Environ 28h.
 
 [gallery w=300 h=250]
 warhammer/elfe-noir/corsair/1.jpg

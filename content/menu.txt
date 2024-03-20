@@ -6,6 +6,7 @@ category/wargame	War Game
 		2023/armee-skaven	Skavens
 	tag/dungeon-and-laser	Dungeon and Laser
 		2024/dungeon-and-laser-encounters	Encounters
+//	tag/underworld	Underworld
 	tag/peinture	Guide
 		2023/equivalence-peinture	Tableau d'équivalence de peinture
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
