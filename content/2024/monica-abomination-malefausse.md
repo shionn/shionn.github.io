@@ -7,15 +7,15 @@ Et finalement je ne regrette absolumeent pas la fig est vraiment belle.
 * Je n'ai pas compté mon nombre d'heure sur cette fig. Cependant on dois bien être entre 15 et 20h.
 
 [gallery w=300 h=250]
-2023/armee-skaven/monica/1.jpg
-2023/armee-skaven/monica/2.jpg
-2023/armee-skaven/monica/3.jpg
-2023/armee-skaven/monica/4.jpg
-2023/armee-skaven/monica/5.jpg
-2023/armee-skaven/monica/6.jpg
-2023/armee-skaven/monica/7.jpg
-2023/armee-skaven/monica/8.jpg
-2023/armee-skaven/monica/9.jpg
+pictures/skaven/monica/1.jpg
+pictures/skaven/monica/2.jpg
+pictures/skaven/monica/3.jpg
+pictures/skaven/monica/4.jpg
+pictures/skaven/monica/5.jpg
+pictures/skaven/monica/6.jpg
+pictures/skaven/monica/7.jpg
+pictures/skaven/monica/8.jpg
+pictures/skaven/monica/9.jpg
 [/gallery]
 
 [paints title="Peau"]

@@ -8,10 +8,10 @@ Cette figurine provient de ma boite **Vanguard**.
 * Peinte en février 2023
 * ~ 9h30 de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/prophete/1.jpg
-2023/armee-skaven/prophete/2.jpg
-2023/armee-skaven/prophete/3.jpg
-2023/armee-skaven/prophete/4.jpg
+pictures/skaven/prophete/1.jpg
+pictures/skaven/prophete/2.jpg
+pictures/skaven/prophete/3.jpg
+pictures/skaven/prophete/4.jpg
 [/gallery]
 
 [paints title="Toge Grise"]
@@ -26,9 +26,9 @@ Cette figurine provient de ma boite **Echos de la ruine**.
 * Peinte en avril 2023
 * ~ 14 heures de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/cloche/1.jpg
-2023/armee-skaven/cloche/2.jpg
-2023/armee-skaven/cloche/3.jpg
+pictures/skaven/cloche/1.jpg
+pictures/skaven/cloche/2.jpg
+pictures/skaven/cloche/3.jpg
 [/gallery]
 
 [paints title="Toge Violette"]
@@ -43,14 +43,14 @@ J'ai détesté peindre cette figurine. Je ne voulais pas avoir de verminarque. M
 * Peinte en mai 2023
 * ~ 30 heures de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/verminarque/1.jpg
-2023/armee-skaven/verminarque/2.jpg
-2023/armee-skaven/verminarque/3.jpg
-2023/armee-skaven/verminarque/4.jpg
-2023/armee-skaven/verminarque/5.jpg
-2023/armee-skaven/verminarque/6.jpg
-2023/armee-skaven/verminarque/7.jpg
-2023/armee-skaven/verminarque/8.jpg
+pictures/skaven/verminarque/1.jpg
+pictures/skaven/verminarque/2.jpg
+pictures/skaven/verminarque/3.jpg
+pictures/skaven/verminarque/4.jpg
+pictures/skaven/verminarque/5.jpg
+pictures/skaven/verminarque/6.jpg
+pictures/skaven/verminarque/7.jpg
+pictures/skaven/verminarque/8.jpg
 [/gallery]
 
 [paints title="Peau rosé"]
@@ -68,11 +68,11 @@ Cette figurine proviens de ma boite **Ile de Sang**.
 * Peinte en janvier 2023
 * ~ 6h30 de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/griffarque/1.jpg
-2023/armee-skaven/griffarque/2.jpg
-2023/armee-skaven/griffarque/3.jpg
-2023/armee-skaven/griffarque/4.jpg	right
-2023/armee-skaven/griffarque/5.jpg	left
+pictures/skaven/griffarque/1.jpg
+pictures/skaven/griffarque/2.jpg
+pictures/skaven/griffarque/3.jpg
+pictures/skaven/griffarque/4.jpg	right
+pictures/skaven/griffarque/5.jpg	left
 [/gallery]
 
 [paints title="Acier TMP"]
@@ -89,8 +89,8 @@ ce qui est surprenant car ces figurines sont vendu par 20, mais ce joue bien par
 * Peinte en avril 2023
 * ~ 19 heures de peinture
 [gallery h=250 w=400]
-2023/armee-skaven/vermines-de-choc/1.jpg
-2023/armee-skaven/vermines-de-choc/2.jpg
+pictures/skaven/vermines-de-choc/1.jpg
+pictures/skaven/vermines-de-choc/2.jpg
 [/gallery]
 
 ### Rats des Clans
@@ -100,16 +100,16 @@ Ces figurines proviennent de diverse boites.
 * Peinte en janvie, février, mars et juin 2023.
 * ~ 85 heures de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/rats-des-clans/1.jpg
-2023/armee-skaven/rats-des-clans/2.jpg
-2023/armee-skaven/rats-des-clans/3.jpg
-2023/armee-skaven/rats-des-clans/4.jpg
-2023/armee-skaven/rats-des-clans/5.jpg
-2023/armee-skaven/rats-des-clans/6.jpg
-2023/armee-skaven/rats-des-clans/7.jpg
-2023/armee-skaven/rats-des-clans/8.jpg
-2023/armee-skaven/rats-des-clans/9.jpg
-2023/armee-skaven/rats-des-clans/10.jpg
+pictures/skaven/rats-des-clans/1.jpg
+pictures/skaven/rats-des-clans/2.jpg
+pictures/skaven/rats-des-clans/3.jpg
+pictures/skaven/rats-des-clans/4.jpg
+pictures/skaven/rats-des-clans/5.jpg
+pictures/skaven/rats-des-clans/6.jpg
+pictures/skaven/rats-des-clans/7.jpg
+pictures/skaven/rats-des-clans/8.jpg
+pictures/skaven/rats-des-clans/9.jpg
+pictures/skaven/rats-des-clans/10.jpg
 [/gallery]
 
 [paints title="Toge Rouge"]
@@ -126,9 +126,9 @@ Cette figurine proviens de ma boite **Ile de Sang**.
 * Peinte en mars 2023
 * ~ 6h30 de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/ingenieur/1.jpg
-2023/armee-skaven/ingenieur/2.jpg
-2023/armee-skaven/ingenieur/3.jpg
+pictures/skaven/ingenieur/1.jpg
+pictures/skaven/ingenieur/2.jpg
+pictures/skaven/ingenieur/3.jpg
 [/gallery]
 
 ### Ingénieur Technomage (Game Day)
@@ -136,10 +136,10 @@ C'est une figurne en métal que j'ai acheté encore sous blister à un certain K
 * Peinte en aout 2023
 * ~ 4h30 de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/ingenieur-2/1.jpg
-2023/armee-skaven/ingenieur-2/2.jpg
-2023/armee-skaven/ingenieur-2/3.jpg
-2023/armee-skaven/ingenieur-2/4.jpg
+pictures/skaven/ingenieur-2/1.jpg
+pictures/skaven/ingenieur-2/2.jpg
+pictures/skaven/ingenieur-2/3.jpg
+pictures/skaven/ingenieur-2/4.jpg
 [/gallery]
 
 ### Saboteur Techomage
@@ -147,9 +147,9 @@ J'ai acheté cette figurine avant la précédente, si j'avais su je pense que je
 * Peinte en aout 2023
 * ~ 4h30 de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/saboteur/1.jpg
-2023/armee-skaven/saboteur/2.jpg
-2023/armee-skaven/saboteur/3.jpg
+pictures/skaven/saboteur/1.jpg
+pictures/skaven/saboteur/2.jpg
+pictures/skaven/saboteur/3.jpg
 [/gallery]
 
 ### Canon à malefoudre
@@ -157,11 +157,11 @@ Cette figurine proviens de ma boite **Vanguard**.
 * Peinte en avril 2023
 * ~ 9 heures de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/canon/1.jpg
-2023/armee-skaven/canon/2.jpg
-2023/armee-skaven/canon/3.jpg
-2023/armee-skaven/canon/4.jpg
-2023/armee-skaven/canon/5.jpg
+pictures/skaven/canon/1.jpg
+pictures/skaven/canon/2.jpg
+pictures/skaven/canon/3.jpg
+pictures/skaven/canon/4.jpg
+pictures/skaven/canon/5.jpg
 [/gallery]
 
 [paints title="Bois"]
@@ -175,11 +175,11 @@ Je ne comptais pas avoir de roue infranle, et puis il faut reconnaitre que c'est
 * Peinte en aout 2023
 * ~ 10 heures de peinture
 [gallery h=300 w=400]
-2023/armee-skaven/roue-infernale/1.jpg
-2023/armee-skaven/roue-infernale/2.jpg
-2023/armee-skaven/roue-infernale/3.jpg
-2023/armee-skaven/roue-infernale/4.jpg
-2023/armee-skaven/roue-infernale/5.jpg
+pictures/skaven/roue-infernale/1.jpg
+pictures/skaven/roue-infernale/2.jpg
+pictures/skaven/roue-infernale/3.jpg
+pictures/skaven/roue-infernale/4.jpg
+pictures/skaven/roue-infernale/5.jpg
 [/gallery]
 
 ### Lance-feu
@@ -187,8 +187,8 @@ Cette figurine proviens de ma boite **Ile de Sang**.
 * Peinte en avril 2023
 * ~ 4 heures de peinture
 [gallery h=250 w=400]
-2023/armee-skaven/lance-feu/1.jpg
-2023/armee-skaven/lance-feu/2.jpg
+pictures/skaven/lance-feu/1.jpg
+pictures/skaven/lance-feu/2.jpg
 [/gallery]
 
 ### Mortier à Globe toxique
@@ -196,8 +196,8 @@ Cette figurine proviens de ma boite **Ile de Sang**. Normalement les 2 skavens s
 * Peinte en avril 2023
 * ~ 4 heures de peinture
 [gallery h=250 w=400]
-2023/armee-skaven/mortier/1.jpg
-2023/armee-skaven/mortier/2.jpg
+pictures/skaven/mortier/1.jpg
+pictures/skaven/mortier/2.jpg
 [/gallery]
 
 [paints title="Toge Beige"]
@@ -212,8 +212,8 @@ Ces figurine provienne de ma boite **Vanguard**. J'ai détésté peindre ces fig
 * Peinte en mars 2023
 * ~ 24 heures de peinture
 [gallery h=250 w=400]
-2023/armee-skaven/colosse/1.jpg
-2023/armee-skaven/colosse/2.jpg
+pictures/skaven/colosse/1.jpg
+pictures/skaven/colosse/2.jpg
 [/gallery]
 
 [paints title="Armure Noir"]
@@ -231,8 +231,8 @@ Cette figurine proviens de ma boite **Ile de Sang**.
 * Peinte en mai 2023
 * ~ 2h30 de peinture
 [gallery h=250 w=400]
-2023/armee-skaven/maitre-moulder/1.jpg	left
-2023/armee-skaven/maitre-moulder/2.jpg	right
+pictures/skaven/maitre-moulder/1.jpg	left
+pictures/skaven/maitre-moulder/2.jpg	right
 [/gallery]
 
 ### Rats ogre
@@ -240,9 +240,9 @@ Ces figurines proviennent de ma boite **Ile de Sang**. Au début je ne pensais p
 * Peinte en mai 2023
 * ~ 7 heures de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/rat-ogre/1.jpg
-2023/armee-skaven/rat-ogre/2.jpg
-2023/armee-skaven/rat-ogre/3.jpg
+pictures/skaven/rat-ogre/1.jpg
+pictures/skaven/rat-ogre/2.jpg
+pictures/skaven/rat-ogre/3.jpg
 [/gallery]
 
 [paints title="Malepiere"]
@@ -261,14 +261,14 @@ Et finalement je ne regrette absolumeent pas la fig est vraiment belle.
 * Je n'ai pas compté mon nombre d'heure sur cette fig. Cependant on dois bien être à 15~20h.
 
 [gallery w=300 h=250]
-2023/armee-skaven/monica/1.jpg
-2023/armee-skaven/monica/2.jpg
-2023/armee-skaven/monica/3.jpg
-2023/armee-skaven/monica/4.jpg
-2023/armee-skaven/monica/5.jpg
-2023/armee-skaven/monica/6.jpg
-2023/armee-skaven/monica/7.jpg
-2023/armee-skaven/monica/8.jpg
+pictures/skaven/monica/1.jpg
+pictures/skaven/monica/2.jpg
+pictures/skaven/monica/3.jpg
+pictures/skaven/monica/4.jpg
+pictures/skaven/monica/5.jpg
+pictures/skaven/monica/6.jpg
+pictures/skaven/monica/7.jpg
+pictures/skaven/monica/8.jpg
 [/gallery]
 
 [paints title="Peau"]
@@ -288,8 +288,8 @@ Cette figurine proviens de ma boite **Start Collecting**. Normalemnt il se monte
 * Peinte en Juin 2023
 * ~ 2h30 de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/pretre/1.jpg
-2023/armee-skaven/pretre/2.jpg
+pictures/skaven/pretre/1.jpg
+pictures/skaven/pretre/2.jpg
 [/gallery]
 
 [paints title="Toge Verte"]
@@ -304,9 +304,9 @@ Cette figurine proviens d'un vieux **Start Collecting**. Je profite que le prêt
 * Peinte en Juillet 2023
 * ~ 10 heures de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/creuset/1.jpg
-2023/armee-skaven/creuset/2.jpg
-2023/armee-skaven/creuset/3.jpg
+pictures/skaven/creuset/1.jpg
+pictures/skaven/creuset/2.jpg
+pictures/skaven/creuset/3.jpg
 [/gallery]
 
 ### Catapulte de la peste
@@ -314,10 +314,10 @@ Cette figurine proviens d'un vieux **Start Collecting**.
 * Peinte en Juillet 2023
 * ~ 7h30 de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/catapulte/1.jpg
-2023/armee-skaven/catapulte/2.jpg
-2023/armee-skaven/catapulte/3.jpg
-2023/armee-skaven/catapulte/4.jpg
+pictures/skaven/catapulte/1.jpg
+pictures/skaven/catapulte/2.jpg
+pictures/skaven/catapulte/3.jpg
+pictures/skaven/catapulte/4.jpg
 [/gallery]
 [paints title="Maladie"]
 Aplat	72028
@@ -331,11 +331,11 @@ Ces figurines proviennent d'un **Start Collecting**.
 * Peinte en Juin 2023
 * ~ 20 heures de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/moine/1.jpg
-2023/armee-skaven/moine/2.jpg
-2023/armee-skaven/moine/3.jpg
-2023/armee-skaven/moine/4.jpg
-2023/armee-skaven/moine/5.jpg
+pictures/skaven/moine/1.jpg
+pictures/skaven/moine/2.jpg
+pictures/skaven/moine/3.jpg
+pictures/skaven/moine/4.jpg
+pictures/skaven/moine/5.jpg
 [/gallery]
 
 ## Clans Eshin
@@ -344,10 +344,10 @@ Cette figurine proviens de la boite **echos de la ruine**.
 * Peinte en juillet 2023
 * ~ 5 heures de peinture
 [gallery h=300 w=250]
-2023/armee-skaven/maitre-mort/1.jpg
-2023/armee-skaven/maitre-mort/2.jpg
-2023/armee-skaven/maitre-mort/3.jpg
-2023/armee-skaven/maitre-mort/4.jpg
+pictures/skaven/maitre-mort/1.jpg
+pictures/skaven/maitre-mort/2.jpg
+pictures/skaven/maitre-mort/3.jpg
+pictures/skaven/maitre-mort/4.jpg
 [/gallery]
 
 ## Divers
@@ -356,7 +356,7 @@ J'ai choisi de ne pas assembler les poutres de bois et de corde au dessus des tr
 * Peinte en mars 2023
 * ~ 1h30 de peinture
 [gallery h=300 w=400]
-2023/armee-skaven/trou/1.jpg
+pictures/skaven/trou/1.jpg
 [/gallery]
 
 [paints title="Pierre"]
@@ -369,5 +369,5 @@ Brossage	72047
 * Peinte en juillet 2023
 * ~ 5 heures de peinture
 [gallery h=300 w=500]
-2023/armee-skaven/sort/1.jpg
+pictures/skaven/sort/1.jpg
 [/gallery]
