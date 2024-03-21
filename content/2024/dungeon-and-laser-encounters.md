@@ -1,12 +1,12 @@
 En Juin 2022 j'ai KS le __[Dungeon and Laser Encounters](https://gamefound.com/fr/projects/archon-studio/encounters)__ de Archon Studio. Originellement pour les decorts pour mes wargames.
 
-Mais les figurines m'ont surrpise de part leurs qualité et cela m'as encourager à prendre le KS suivant. Je me sers essentiellement de celle-ci pour faire des essais de technique de peinture ou de couleur, souvent a l'occasion de défis.
+Mais les figurines m'ont surpise de part leurs qualité et cela m'as encourager à prendre le KS suivant. Je me sers essentiellement de celle-ci pour faire des essais de technique de peinture ou de couleur, souvent à l'occasion de défis.
 
 ## Swamp of Doom
 J'ai commencé par cette boite, car les arbes n'ayant pas de feuillage cela simplififiat le travail. J'ai utilisé ma
 recette classic de bois, j'ai simplement fait des glacies d'un vert jade par endroit.
 
-Les marais ont été peinte avec des glacies sur base de grissaille. J'ai simplement utilisé de l'eau tranquil de Vallejo par enrdoit. Tous comme le poisson, ceci mes premiere utilisation de gamme xpress color.
+Les marais ont été peinte avec des glacies sur base de grissaille. J'ai simplement utilisé de l'eau tranquil de Vallejo par enrdoit. Tous comme le poisson, ceci est ma premiere utilisation de gamme xpress color.
 
 [gallery h=200 w=300]
 pictures/dungeon-and-laser-encounters/swamp-doom/1.jpg
