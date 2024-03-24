@@ -1,11 +1,10 @@
 
-Cette année j'ai choisi de completer enfin mon rêve de gosse, completer et peindre mon armée elfe noir tel que je l'a voulais étant gosse.
+Cette année j'ai choisi de completer enfin mon rêve de gosse, completer et peindre mon armée elfe noir tel que je la voulais étant gosse.
 
 Voici mes corsairs elfe noir en métal.
-Cela fait plus de 20 ans que ces figurines sont dans ma pile de la honte.
-Je les ai acheté gamin.
+J'ai acheté ces figurine étant gamin, cela fait donc plus de 20 ans que ces figurines sont dans ma pile de la honte.
 
-Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'avais depuis un moment.
+Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 
 * Peinte en Mars 2024
 * Environ 28h.
@@ -40,12 +39,12 @@ Rehaut (dorsale)	72121
 [paints title="Tissu violet"]
 Base	72112
 Eclaircissement	72015
-Eclaircissement	72075
+Eclaircissement	72076
 Rehaut	72114
 Glacie	72112
 [/paints]
 
-[paints title="Bourse"]
+[paints title="Cuir bourse"]
 Base	72045
 Eclaircissement	72043
 Eclaircissement	72039
@@ -78,7 +77,7 @@ Rehaut	72098
 Base	72051
 Rehaut	72120
 Rehaut	72024
-Rehaut	720119
+Rehaut	72119
 [/paints]
 
 [paints title="Cheveux noir"]

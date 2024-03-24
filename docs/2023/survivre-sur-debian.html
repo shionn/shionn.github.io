@@ -149,6 +149,11 @@
 <p>Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.</p>
 <pre><code class="shell">sudo apt install libwebkit2gtk-4.0-37
 </code></pre>
+<h3>eclipse wayland</h3>
+<pre><code class="shell">#/bin/bash
+export WEBKIT_DISABLE_COMPOSITING_MODE=1
+/path/to/eclipse/eclipse
+</code></pre>
 <h2>Seveur</h2>
 <h3>Initialisation</h3>
 <p>Sur chacun de mes serveurs je commence par faire ca :</p>
@@ -170,15 +175,16 @@ echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.bashrc
 ACTION==&quot;add|change&quot;, KERNEL==&quot;sd[a-z]&quot;, ATTRS{queue/rotational}==&quot;1&quot;, RUN+=&quot;/usr/bin/hdparm -B 127 /dev/%k&quot;
 </code></pre>
 <h2>Ma config desktop</h2>
-<p>apt install gnome-shel
+<pre><code class="shell">apt install gnome-shel
 apt install gimp firefox thunar gedit blender gimage-reader shotwell
 apt install lutris
 apt install git openjdk-17-jdk openjdk-17-source7
 apt remove firefox-esr
-apt remove gnome-software</p>
+apt remove gnome-software
+</code></pre>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 13 mars 2024</span>.</em>
+		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 24 mars 2024</span>.</em>
 		<hr>
 	</footer>
 </article>
@@ -204,10 +210,12 @@ apt remove gnome-software</p>
 					Developpement (1)
 				</a><a href="tag/dungeon-and-laser.html">
 					Dungeon and Laser (1)
+				</a><a href="tag/elfe-noir.html">
+					Elfe Noir (1)
 				</a><a href="tag/encounter.html">
 					Encounter (1)
 				</a><a href="tag/figurine.html">
-					Figurine (1)
+					Figurine (2)
 				</a><a href="tag/geek.html">
 					Geek (1)
 				</a><a href="tag/guide.html">
@@ -220,6 +228,8 @@ apt remove gnome-software</p>
 					Kit Survie (1)
 				</a><a href="tag/linux.html">
 					Linux (1)
+				</a><a href="tag/metal.html">
+					Metal (1)
 				</a><a href="tag/nains.html">
 					Nains (1)
 				</a><a href="tag/nightaunt.html">
@@ -229,7 +239,7 @@ apt remove gnome-software</p>
 				</a><a href="tag/skaven.html">
 					Skaven (3)
 				</a><a href="tag/war-game.html">
-					War Game (8)
+					War Game (9)
 				</a>
 			</div>
 			<div class="tagclood">
@@ -239,20 +249,23 @@ apt remove gnome-software</p>
 				</a><a href="category/vie-du-blog.html">
 					Vie du Blog (1)
 				</a><a href="category/war-game.html">
-					War Game (8)
+					War Game (9)
 				</a>
 			</div>
 			<div class="calendar">
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 				<ul class="tree">
 					<li>
-						<a href="#">2024 (3)</a>
+						<a href="#">2024 (4)</a>
 						<ul>
 							<li>
-								<a href="#">mars (1)</a>
+								<a href="#">mars (2)</a>
 								<ul>
 									<li>
 										<a href="2024/monica-abomination-malefausse.html">Monica, mon abomination de Malefausse</a>
+									</li>
+									<li>
+										<a href="2024/elfe-noir-corsair-metal.html">Corsair Elfes Noir</a>
 									</li>
 								</ul>
 							</li>
@@ -297,10 +310,10 @@ apt remove gnome-software</p>
 								<a href="#">juillet (2)</a>
 								<ul>
 									<li>
-										<a href="2023/equivalence-peinture.html">Equivalence peinture</a>
+										<a href="2023/armee-skaven.html">Mes Skavens</a>
 									</li>
 									<li>
-										<a href="2023/armee-skaven.html">Mes Skavens</a>
+										<a href="2023/equivalence-peinture.html">Equivalence peinture</a>
 									</li>
 								</ul>
 							</li>

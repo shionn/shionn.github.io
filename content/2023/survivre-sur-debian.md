@@ -47,6 +47,14 @@ Cannot display wiki markup preview: No more handles because there is no underlyi
 sudo apt install libwebkit2gtk-4.0-37
 ~~~
 
+### eclipse wayland
+~~~shell
+#/bin/bash
+export WEBKIT_DISABLE_COMPOSITING_MODE=1
+/path/to/eclipse/eclipse
+~~~
+
+
 ## Seveur
 ### Initialisation
 
@@ -78,9 +86,11 @@ ACTION=="add|change", KERNEL=="sd[a-z]", ATTRS{queue/rotational}=="1", RUN+="/us
 ~~~
 
 ## Ma config desktop
+~~~shell
 apt install gnome-shel
 apt install gimp firefox thunar gedit blender gimage-reader shotwell
 apt install lutris
 apt install git openjdk-17-jdk openjdk-17-source7
 apt remove firefox-esr
 apt remove gnome-software
+~~~
