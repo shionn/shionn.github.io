@@ -68,7 +68,7 @@ Rehaut	72114
 [paints title=" BSL jade par Angel GiraldeZ" icon="youtube-play" link="https://youtu.be/LJgCSrDssdw?si=x1qyaC5ntJXHH3NE"]
 Aplat	72026
 Ombrage	72027
-Eclaircissement	72026
+Eclaircissement	72025
 Rehaut	72121
 [/paints]
 

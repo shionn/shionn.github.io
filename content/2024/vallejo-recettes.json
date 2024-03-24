@@ -1,10 +1,10 @@
 {
 	"type": "page",
-	"date": "2023/12/10",
+	"date": "2024/03/24",
 	"title": "Recette Vallejo",
 	"tags": ["War Game", "Peinture", "Bdd"],
 	"category": "War Game",
-	"published": false,
+	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"
 }
