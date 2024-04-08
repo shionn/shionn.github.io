@@ -1,5 +1,7 @@
 Page non référencé  mes collections perso.
 
+## Peinture
+
 [table class="collection,vallejo" title="Vallejo Air" cols="Nom,Type"]
 76001	New
 76027	New
@@ -12,6 +14,8 @@ Page non référencé  mes collections perso.
 76111	New
 76120	New
 [/table]
+
+## Mangas
 
 [table class="collection,manga" title="Leiji Matsumoto" cols="#,Nom"]
 /	24 Histoires d'un temps lointain
@@ -26,6 +30,7 @@ Page non référencé  mes collections perso.
 1-5	Devil Man
 /	Great Mazinger
 1-3	Getter Robot
+2	Dynamic Hero
 [/table]
 
 [table class="collection,manga" title="Les Chefs d'Oeuvre de Lovecraft" cols="#,Nom,Volume,Annee,Chronologique,Cycle,Ecriture"]
@@ -37,10 +42,21 @@ Page non référencé  mes collections perso.
 5	Celui qui Hantait les Ténèbres	1	????			1935(20)
 6	Le Cauchemar d'Innsmouth	1-2	1927	7	Grands Anciens 4	1931(16)
 7	Le Temple	1	????
-7	Le Molosse	1	????		1922(4)
-7	La Cité sans nom	1	????		1921(3)
-8	L'abomination de Dunwich	1-	1913 ?	5	Grands Anciens 2	1928(13)
+7	Le Molosse	1	????			1922(4)
+7	La Cité sans nom	1	????			1921(3)
+8	L'abomination de Dunwich	1-2	1913 ?	5	Grands Anciens 2	1928(13)
 [/table]
 [source](https://lantredecthulhu.com/lecture/ordre-lecture-lovecraft/)
 [source](https://chronolivre.com/quel-ordre-lire-h-p-lovecraft-cthulhu/)
 [source](https://www.senscritique.com/liste/Le_Mythe_de_Cthulhu_ordre_chronologique/1434003)
+
+## Livres
+
+[table class="collection,livre" title="Livre dont vous êtes le Héro" cols="#,Nom"]
+1	Le Sorcier de la Montagne de Feu
+44	La Légende des Guerriers Fantômes
+48	Les Mondes de l'Aleph
+51	Les Mages de Solani
+52	La Légende de Zagor
+[/table]
+

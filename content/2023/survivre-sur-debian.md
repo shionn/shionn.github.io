@@ -35,6 +35,12 @@ ajouter ̀`PULSE_LATENCY_MSEC=60 DRI_PRIME=1` à la commande de lancement
 - Mangohud
 - Gamemoderun
 
+## Vidéo
+### OBS pas de Vaapi
+~~~shell
+apt instal mesa-va-drivers
+~~~
+
 ## Steam Deck
 ### Calibrer les joystick
 thumbstick_cal
@@ -91,6 +97,7 @@ apt install gnome-shel
 apt install gimp firefox thunar gedit blender gimage-reader shotwell
 apt install lutris
 apt install git openjdk-17-jdk openjdk-17-source7
+apt install npt
 apt remove firefox-esr
 apt remove gnome-software
 ~~~
