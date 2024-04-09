@@ -2,17 +2,17 @@ Page non référencé  mes collections perso.
 
 ## Peinture
 
-[table class="collection,vallejo" title="Vallejo Air" cols="Nom,Type"]
-76001	New
-76027	New
-76028	New
-76047	New
-76048	New
-76050	New
-76062	New
-76107	New
-76111	New
-76120	New
+[table class="collection,vallejo" title="Vallejo" cols="Nom,Type"]
+76001	New Air
+76027	New Air
+76028	New Air
+76047	New Air
+76048	New Air
+76050	New Air
+76062	New Air
+76107	New Air
+76111	New Air
+76120	New Air
 [/table]
 
 ## Mangas
@@ -54,6 +54,12 @@ Page non référencé  mes collections perso.
 
 [table class="collection,livre" title="Livre dont vous êtes le Héro" cols="#,Nom"]
 1	Le Sorcier de la Montagne de Feu
+2	La Citadel du Chaos
+3	La Forêt de la Malédiction
+6	Le Labirynthe de la Mort
+9	La Sorciere des Neiges
+10	Le Manoir de l'Enfer
+11	Le Talisman de la Mort
 44	La Légende des Guerriers Fantômes
 48	Les Mondes de l'Aleph
 51	Les Mages de Solani
