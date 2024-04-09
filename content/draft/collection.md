@@ -17,16 +17,15 @@ Page non référencé  mes collections perso.
 
 ## Mangas
 
-[table class="collection,manga" title="Leiji Matsumoto" cols="#,Nom"]
+[table class="collection,manga" title="Mangas" cols="#,Nom"]
+Leiji Matsumoto
 /	24 Histoires d'un temps lointain
 /	25 Histoires d'un monde en 4 dimensions
 /	V2 Panzer
 1-3	Cosmoship Yamato
 1-2	Interstellar Robot Danguard A
 1-2	Gunfrontier
-[/table]
-
-[table class="collection,manga" title="Go Nagai" cols="#,Nom"]
+Go Nagai
 1-5	Devil Man
 /	Great Mazinger
 1-3	Getter Robot
@@ -66,3 +65,17 @@ Page non référencé  mes collections perso.
 52	La Légende de Zagor
 [/table]
 
+
+## Autre
+### Jeux de carte qui ont bidé
+
+Et que j'ai connu :
+- 2023 : Star Wars
+- 2023 : Flesh and Blood
+- 2023 : Disney Lorcadia
+- 2018 : Dragon Ball
+- 2016 : Final Fantasy
+- 2006 : WoW
+- 2005 : Force of Will
+- 1996 : NetRunner
+- 1995 : Legend of the Five Rings
