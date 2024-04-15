@@ -1,13 +1,11 @@
 
 Cette armée de Morruck Kruelboyz est composé de figurine de la boite Dominion, et de l'abonnement Stormbringer.
 
-## Boite Dominion
-
 J'ai eu deux boites dominion, pas de ma volonté. De la seconde boite je n'ai gardé que les 10 eventreurs et les 3 embrocheurs.
 Tous le reste à été donné ou vendu.
 Pourquoi en Violet ? je ne sais pas.
 
-### Bosskitue avec Grot Surineur
+## Bosskitue avec Grot Surineur
 
 - Peinte en Mars 2022.
 
@@ -17,7 +15,7 @@ pictures/kruelboyz/bosskitue/2.jpg
 pictures/kruelboyz/bosskitue/3.jpg
 [/gallery]
 
-### Bosskitue sur Bruxodonte
+## Bosskitue sur Bruxodonte
 
 - Peinte en Mars 2022.
 
@@ -29,7 +27,7 @@ pictures/kruelboyz/bosskitue-bruxodonte/4.jpg
 pictures/kruelboyz/bosskitue-bruxodonte/5.jpg
 [/gallery]
 
-### Chamane Vasomancien et Grot Touilleur
+## Chamane Vasomancien et Grot Touilleur
 
 - Peinte en Mars 2022.
 
@@ -44,7 +42,7 @@ pictures/kruelboyz/vasomancien/7.jpg
 pictures/kruelboyz/vasomancien/8.jpg
 [/gallery]
 
-### Nobskur avec Rotétendard
+## Nobskur avec Rotétendard
 
 - Peinte en Mars 2022.
 
@@ -54,7 +52,7 @@ pictures/kruelboyz/nobskur-rotetendard/2.jpg
 pictures/kruelboyz/nobskur-rotetendard/3.jpg
 [/gallery]
 
-### Eventreurs
+## Eventreurs
 
 Pourquoi j'ai fait les 10 de la seconde boite en rouge ? Je ne sais pas.
 
@@ -72,7 +70,7 @@ pictures/kruelboyz/eventreurs/7.jpg
 pictures/kruelboyz/eventreurs/8.jpg
 [/gallery]
 
-### Embrocheurs
+## Embrocheurs
 
 - Peinte en Mars 2022 pour les violets.
 - Peinte en Avril 2022 pour les rouges.
@@ -84,7 +82,7 @@ pictures/kruelboyz/embrocheurs/3.jpg
 pictures/kruelboyz/embrocheurs/4.jpg
 [/gallery]
 
-### Egorgeur Hobgrot
+## Egorgeur Hobgrot
 
 J'ai pas peint ceux de la seconde boite (faut pas déconner).
 
