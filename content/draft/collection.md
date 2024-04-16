@@ -51,23 +51,25 @@ Go Nagai
 
 ## Livres
 
-[table class="collection,livre" title="Livre dont vous êtes le Héro" cols="#,Nom"]
-1	Le Sorcier de la Montagne de Feu
-2	La Citadel du Chaos
-3	La Forêt de la Malédiction
-5	La cité des Voleurs
-6	Le Labirynthe de la Mort
-9	La Sorciere des Neiges
-10	Le Manoir de l'Enfer
-11	Le Talisman de la Mort
-37	Les Sombres Cohortes
-44	La Légende des Guerriers Fantômes
-48	Les Mondes de l'Aleph
-50	Retour à la Montagne de Feu
-51	Les Mages de Solani
-52	La Légende de Zagor
+[table class="collection,livre" title="Livre dont vous êtes le Héro" cols="#,Nom,Version"]
+1	Le Sorcier de la Montagne de Feu	V2
+2	La Citadel du Chaos	V2
+3	La Forêt de la Malédiction	V2
+5	La cité des Voleurs	V2
+6	Le Labirynthe de la Mort	V2
+9	La Sorciere des Neiges	V2
+10	Le Manoir de l'Enfer	V2
+11	Le Talisman de la Mort	V2
+37	Les Sombres Cohortes	V2
+44	La Légende des Guerriers Fantômes	V2
+48	Les Mondes de l'Aleph	V2
+50	Retour à la Montagne de Feu	V2
+51	Les Mages de Solani	V2
+52	La Légende de Zagor	V2
 [/table]
+Les numméros 4, 7, 8, 13, 14>15, 17, 19>23, 25>28, 31>33, 36, 38, 41 n'existe pas en V2. Mais les 7, 14, 17, 21, 26 existe en V2 avec LOGO
 
+Attention le 58 il faut prendre l'edition de 99 à 2001, l'edition de 97 a une grosse erreur.
 
 ## Autre
 ### Jeux de carte qui ont bidé
