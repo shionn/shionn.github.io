@@ -89,7 +89,9 @@ Et que j'ai connu :
 - 2023 : Disney Lorcadia
 - 2018 : Dragon Ball
 - 2016 : Final Fantasy
+- 2009 : Wakfu
 - 2006 : WoW
 - 2005 : Force of Will
+- 2001 : Seigneur des Anneau
 - 1996 : NetRunner
 - 1995 : Legend of the Five Rings
