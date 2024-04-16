@@ -55,12 +55,15 @@ Go Nagai
 1	Le Sorcier de la Montagne de Feu
 2	La Citadel du Chaos
 3	La Forêt de la Malédiction
+5	La cité des Voleurs
 6	Le Labirynthe de la Mort
 9	La Sorciere des Neiges
 10	Le Manoir de l'Enfer
 11	Le Talisman de la Mort
+37	Les Sombres Cohortes
 44	La Légende des Guerriers Fantômes
 48	Les Mondes de l'Aleph
+50	Retour à la Montagne de Feu
 51	Les Mages de Solani
 52	La Légende de Zagor
 [/table]
