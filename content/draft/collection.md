@@ -45,8 +45,8 @@ Go Nagai
 7	La Cité sans nom	1	????			1921(3)
 8	L'abomination de Dunwich	1-2	1913 ?	5	Grands Anciens 2	1928(13)
 [/table]
-[source](https://lantredecthulhu.com/lecture/ordre-lecture-lovecraft/)
-[source](https://chronolivre.com/quel-ordre-lire-h-p-lovecraft-cthulhu/)
+[source](https://lantredecthulhu.com/lecture/ordre-lecture-lovecraft/),
+[source](https://chronolivre.com/quel-ordre-lire-h-p-lovecraft-cthulhu/),
 [source](https://www.senscritique.com/liste/Le_Mythe_de_Cthulhu_ordre_chronologique/1434003)
 
 ## Livres
@@ -76,9 +76,33 @@ Go Nagai
 51	Les Mages de Solani	V2
 52	La Légende de Zagor	V2
 [/table]
-Les numméros 4, 7, 8, 13>15, 17, 19>23, 25>28, 31>33, 36, 38, 41 n'existe pas en V2. Mais les 7, 14, 17, 21, 26 existe en V2 avec LOGO
+Les numméros 4, 7, 8, 13>15, 17, 19>23, 25>28, 31>33, 36, 38, 41 n'existe pas en V2. Mais les 7, 14, 17, 21, 26 existe en V2 avec logo.
 
 Attention le 58 il faut prendre l'edition de 99 à 2001, l'edition de 97 a une grosse erreur.
+
+[Source sur les éditions](https://www.la-taverne-des-aventuriers.com/t4727-les-differentes-versions-des-df),
+[Autre source sur les editions](https://www.bibliotheque-des-aventuriers.com/menu/4_serie/defis_fantastiques.htm)
+
+[Erata](https://www.la-taverne-des-aventuriers.com/t2074-errata-de-la-serie-defis-fantastiques)
+
+## Codex Battle
+
+[table class="collection,livre" title="Battle" cols="Nom,Année"]
+Version 4
+Elfe Noir	(j'ai pas)
+Skaven	(j'ai pas)
+Version 6
+Elfe Noir	2001
+Skaven	2002
+Version 7
+Elfe Noir	2008 (j'ai pas)
+Skaven	2009
+Version 8
+Elfe Noir	2013
+Skaven	V7
+[/table]
+[Source](https://sites.google.com/site/warhammerphiles/warhammer-a-travers-les-ages-et-les-editions),
+[source](https://fr.wikipedia.org/wiki/Warhammer_le_jeu_des_batailles_fantastiques)
 
 ## Autre
 ### Jeux de carte qui ont bidé
