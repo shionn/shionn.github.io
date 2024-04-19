@@ -89,13 +89,13 @@ Attention le 58 il faut prendre l'edition de 99 à 2001, l'edition de 97 a une g
 
 [table class="collection,livre" title="Battle" cols="Nom,Année"]
 Version 4
-Elfe Noir	(j'ai pas)
+Elfe Noir	1994
 Skaven	(j'ai pas)
 Version 6
-Elfe Noir	2001
+Elfe Noir	2001 (deux version)
 Skaven	2002
 Version 7
-Elfe Noir	2008 (j'ai pas)
+Elfe Noir	2008
 Skaven	2009
 Version 8
 Elfe Noir	2013
