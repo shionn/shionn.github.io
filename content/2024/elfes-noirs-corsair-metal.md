@@ -91,3 +91,10 @@ Base	72045
 Eclaircissement	72061
 Rehaut	72034
 [/paints]
+
+[paints title="Terre"]
+Base	72062
+Eclaircissement	72029
+Eclaircissement	72032
+Glacie	24-21
+[/paints]
