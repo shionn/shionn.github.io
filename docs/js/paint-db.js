@@ -24,7 +24,17 @@ _paint.prototype.haveId = function() {
 	return (""+this.id).indexOf("old") < 0;
 }
 
+_paint.prototype.asVJ = function() {
+	if (this.brand === VJ)  {
+		return this;
+	}
+	return null;
+}
+
 _paint.prototype.asGW = function() {
+	if (this.brand === GW)  {
+		return this;
+	}
 	if (this.equivalences.length>0) {
 		return paint(this.equivalences[0]?.ids[1]);
 	}
@@ -48,7 +58,11 @@ _paint.prototype.asGSW = function() {
 let paints = new Map();
 
 let paint = function(id) {
-	return paints.get(id);
+	let p = paints.get(id);
+	if (!p) {
+		p = paints.get(parseInt(id));
+	}
+	return p;
 }
 
 let _cPnt = function(brand, id, name, hex = null, legacy = false) {
@@ -376,6 +390,7 @@ _cPnt(GW, "24-09", "Seraphin Sepia");
 _cPnt(GW, "24-10", "Reikland Fleshshade");
 _cPnt(GW, "24-11", "Agrax Earthshade");
 _cPnt(GW, "24-12", "Nuln Oil");
+_cPnt(GW, "24-22", "Coelia Greenshade");
 
 _cPnt(GW, "27-06", "Nihilakh Oxide");
 _cPnt(GW, "27-19", "Nighthaunt Gloom");

@@ -1,5 +1,5 @@
 
-Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment. Accomplir enfin mon rêve de gosse, 
+Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment. Accomplir enfin mon rêve de gosse,
 completer et peindre mon armée elfes noirs tel que je la voulais étant gosse.
 
 
@@ -17,7 +17,7 @@ TODO
 
 ## Base
 ### Cavalier Noire
-### Corsair des Arches Noires 
+### Corsair des Arches Noires
 Voici mes corsairs elfe noir en métal.
 J'ai acheté ces figurine étant gamin, cela fait donc plus de 20 ans que ces figurines sont dans ma pile de la honte.
 
@@ -105,7 +105,7 @@ Rehaut	72052
 
 [paints title="Peau homme"]
 Base	72004
-Shade	24-24
+Shade	24-09
 Eclaircissement	72099
 Rehaut	72098
 [/paints]

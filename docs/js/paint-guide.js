@@ -10,10 +10,10 @@ q(function() {
 	};
 
 	q(".paint-guide tbody").find("tr").each(function() {
-		let p = paint(parseInt(this.find("td").attr("data-id")));
+		let p = paint(this.find("td").attr("data-id"));
 		if (p) {
 			this.append(q("<td>").addClass("color").attr("style","background-color: "+ p.hex).text(' '));
-			this.append(q("<td>").text(p.id)).append(q("<td>").text(p.name))
+			_addToGuide(this, p.asVJ());
 			_addToGuide(this, p.asGW());
 			_addToGuide(this, p.asAP());
 			_addToGuide(this, p.asGSW());

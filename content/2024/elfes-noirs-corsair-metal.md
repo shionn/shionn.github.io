@@ -68,7 +68,7 @@ Rehaut	72052
 
 [paints title="Peau homme"]
 Base	72004
-Shade	24-24
+Shade	24-09
 Eclaircissement	72099
 Rehaut	72098
 [/paints]
@@ -96,5 +96,5 @@ Rehaut	72034
 Base	72062
 Eclaircissement	72029
 Eclaircissement	72032
-Glacie	24-21
+Glacie	24-08
 [/paints]
