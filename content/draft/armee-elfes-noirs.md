@@ -23,8 +23,9 @@ Reste à faire :
 ### Corsair des Arches Noires
 J'ai acheté ces figurines étant gamin, cela fait donc plus de 20 ans que ces figurines sont dans ma pile de la honte.
 
-* Peinte en Mars 2024
-* Environ 28h.
+- Figurines en métal de 99.
+- Peinte en Mars 2024.
+- Environ 28h.
 
 [gallery w=300 h=250]
 pictures/dark-elves/corsair/01.jpg
@@ -57,8 +58,9 @@ Rehaut	72039
 
 J'ai acheté le QG étant gamin. Le reste proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore merci.
 
-* Peinte en Avril 2024.
-* Environ 43h.
+- Figurines en métal de 2001.
+- Peinte en Avril 2024.
+- Environ 43h.
 
 [gallery w=300 h=250]
 pictures/dark-elves/furies/01.jpg
