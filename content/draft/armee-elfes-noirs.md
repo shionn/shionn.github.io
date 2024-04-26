@@ -1,25 +1,27 @@
 
-Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment. Accomplir enfin mon rêve de gosse,
-completer et peindre mon armée elfes noirs tel que je la voulais étant gosse.
+Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
+Accomplir enfin mon rêve de gosse, completer et peindre mon armée elfes noirs tel que je la voulais étant gosse.
 
 
 ## Seigneurs & Heros
-### Assassins
-TODO
-### Hellebron
-TODO
-### Lokhir Fellheart (Maitre d'arche noire
-TODO
-### Morathi
-TODO
-### Sorcières
-TODO
+
+Il devrais y avoir à terme :
+- Assassins
+- Hellebron
+- Lokhir Fellheart (Maitre d'arche noire)
+- Malus darkblade
+- Morathi
+- Porteur de la Grande Banniere
+- Sorcières
 
 ## Base
-### Cavalier Noire
+
+Reste à faire :
+- Cavalier Noire
+- Guerrier Elfe Noir
+
 ### Corsair des Arches Noires
-Voici mes corsairs elfe noir en métal.
-J'ai acheté ces figurine étant gamin, cela fait donc plus de 20 ans que ces figurines sont dans ma pile de la honte.
+J'ai acheté ces figurines étant gamin, cela fait donc plus de 20 ans que ces figurines sont dans ma pile de la honte.
 
 * Peinte en Mars 2024
 * Environ 28h.
@@ -45,33 +47,81 @@ Rehaut	72025
 Rehaut (dorsale)	72121
 [/paints]
 
-### Furie
-### Guerrier Elfe Noir
-
-## Spéciales
-### Baliste Faucheuse
-### Char à courre ou à Sang-froid
-### Chevalier sur Sang-froid
-### Exécuteur
-### Harpie
-### Hydre de Guerre
-### Ombre
-
-## Rare
-### Conjurateur du Feu Maudit
-### Kharidbyss
-### Soeurs du Massacre
-
-
-
-
-
 [paints title="Interieur cape"]
 Base	72045
 Eclaircissement	72115
 Rehaut	72039
 [/paints]
 
+### Furie
+
+J'ai acheté le QG étant gamin. Le reste proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore merci.
+
+* Peinte en Avril 2024.
+* Environ 43h.
+
+[gallery w=300 h=250]
+pictures/dark-elves/furies/01.jpg
+pictures/dark-elves/furies/02.jpg
+pictures/dark-elves/furies/03.jpg
+pictures/dark-elves/furies/04.jpg
+pictures/dark-elves/furies/05.jpg
+pictures/dark-elves/furies/06.jpg
+pictures/dark-elves/furies/07.jpg
+pictures/dark-elves/furies/08.jpg
+pictures/dark-elves/furies/09.jpg
+[/gallery]
+[gallery w=200 h=250]
+pictures/dark-elves/furies/10.jpg
+pictures/dark-elves/furies/11.jpg
+pictures/dark-elves/furies/12.jpg
+pictures/dark-elves/furies/13.jpg
+pictures/dark-elves/furies/14.jpg
+pictures/dark-elves/furies/15.jpg
+pictures/dark-elves/furies/16.jpg
+pictures/dark-elves/furies/17.jpg
+pictures/dark-elves/furies/18.jpg
+pictures/dark-elves/furies/19.jpg
+[/gallery]
+
+[paints title="Peau femme"]
+Base	72108
+Eclaircissement	72107
+Rehaut	72100
+Ombre	72113
+[/paints]
+
+[paints title="Metal lame"]
+Base	72053
+Ombrage 1	72054
+Ombrage 2	72054
+Ombrage 2	72051
+Eclaircissement	72052
+Glacie	24-22
+Rehaut	72052
+[/paints]
+
+
+## Spéciales
+
+Il devrais y avoir à terme :
+- Baliste Faucheuse
+- Char à courrsier ou à Sang-froid
+- Chevalier sur Sang-froid
+- Exécuteur
+- Harpie
+- Hydre de Guerre
+- Ombre
+
+## Rare
+
+Il devrais y avoir à terme :
+- Conjurateur du Feu Maudit
+- Kharidbyss
+- Soeurs du Massacre
+
+
+## Autre peinture
 
 [paints title="Tissu violet"]
 Base	72112
@@ -91,15 +141,6 @@ Corde	72061
 [paints title="Metal sombre"]
 Base	72051
 Eclaircissement	72054
-Rehaut	72052
-[/paints]
-
-[paints title="Metal lame"]
-Base	72054
-Eclaircissement	72054
-Eclaircissement	72053
-Glacie	24-22
-Eclaircissement	72053
 Rehaut	72052
 [/paints]
 
@@ -127,4 +168,21 @@ Rehaut	72047
 Base	72045
 Eclaircissement	72061
 Rehaut	72034
+[/paints]
+
+[paints title="Terre"]
+Base	72062
+Eclaircissement	72029
+Eclaircissement	72032
+Glacie	24-08
+[/paints]
+
+[paints title="Or"]
+Base	72051
+Base	72066
+Eclaircissement	72057
+Ombrage *	72051
+Ombrage *	72045
+Rehaut	72055
+Rivet	72047
 [/paints]
