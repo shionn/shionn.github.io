@@ -33,7 +33,6 @@ pictures/dark-elves/furies/18.jpg
 pictures/dark-elves/furies/19.jpg
 [/gallery]
 
-
 [paints title="Peau femme"]
 Base	72108
 Eclaircissement	72107
@@ -51,12 +50,5 @@ Glacie	24-22
 Rehaut	72052
 [/paints]
 
-[paints title="Or"]
-Base	72051
-Base	72066
-Eclaircissement	72057
-Ombrage *	72051
-Ombrage *	72045
-Rehaut	72055
-Rivet	72047
-[/paints]
+Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
+sur la page dédiée à [Mon armée elfes noirs](2024/armee-elfes-noirs.html).
