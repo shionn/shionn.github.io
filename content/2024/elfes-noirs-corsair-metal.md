@@ -1,5 +1,5 @@
 
-Cette année j'ai choisi de completer enfin mon rêve de gosse, completer et peindre mon armée elfe noir tel que je la voulais étant gosse.
+Cette année j'ai choisi de réaliser enfin mon rêve de gosse, completer et peindre mon armée elfes noirs telle que je la voulais étant gosse.
 
 Voici mes corsairs elfe noir en métal.
 J'ai acheté ces figurines étant gamin, cela fait donc plus de 20 ans que ces figurines sont dans ma pile de la honte.

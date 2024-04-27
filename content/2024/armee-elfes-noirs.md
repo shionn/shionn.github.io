@@ -143,7 +143,7 @@ Corde	72061
 [paints title="Metal sombre"]
 Base	72051
 Eclaircissement	72054
-Rehaut	72052
+Rehaut	72053
 [/paints]
 
 [paints title="Peau homme"]
@@ -153,14 +153,14 @@ Eclaircissement	72099
 Rehaut	72098
 [/paints]
 
-[paints title="Cuir noir"]
+[paints title="Cuir Noir / Acier Noir"]
 Base	72051
 Rehaut	72120
 Rehaut	72024
 Rehaut	72119
 [/paints]
 
-[paints title="Cheveux noir"]
+[paints title="Cheveux Noir"]
 Base	72051
 Rehaut	72120
 Rehaut	72047
