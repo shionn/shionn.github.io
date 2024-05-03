@@ -2,12 +2,12 @@
 Cette année j'ai choisi de réaliser enfin mon rêve de gosse, completer et peindre mon armée elfes noirs telle que je la voulais étant enfant.
 
 Voici deux baliste à répétition en métal.
-Je les ai acheté étant gamin. Je les ai décaper pour les repeindrent avec mon schémat et niveau actuel. 
+Je les ai acheté étant gamin. Je les ai décaper pour les repeindrent avec mon schémat et niveau actuel.
 
 Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 
 * Peinte en Avril 2024.
-* Environ 43h.
+* Environ 11h pour les deux.
 
 [gallery w=300 h=250]
 pictures/dark-elves/balistes/1.jpg
