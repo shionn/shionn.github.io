@@ -2,7 +2,6 @@
 Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 Accomplir enfin mon rêve de gosse, completer et peindre mon armée elfes noirs tel que je la voulais étant gosse.
 
-
 ## Seigneurs & Heros
 
 Il devrais y avoir à terme :
