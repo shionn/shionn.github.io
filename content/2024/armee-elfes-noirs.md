@@ -57,7 +57,7 @@ Rehaut	72039
 
 J'ai acheté le QG étant gamin. Le reste proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore merci.
 
-- Figurines en métal de 2001.
+- Figurines en métal de 2000.
 - Peinte en Avril 2024.
 - Environ 43h.
 
