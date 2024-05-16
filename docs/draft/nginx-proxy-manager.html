@@ -107,30 +107,56 @@
 	</header>
 	<div class="container">
 		
+		
+		
 		<div class="main">
-			<ul>
-				<li>
-					<a href="draft/collection.html">Collections</a>
-				</li>
-				<li>
-					<a href="draft/elfes-noirs-balistes-metal.html">Baliste à répétition Elfes Noirs</a>
-				</li>
-				<li>
-					<a href="draft/elfes-noirs-sorciere-metal.html">Sorcière suprême Elfes Noirs</a>
-				</li>
-				<li>
-					<a href="draft/docker-sur-debian.html">Installation Docker sur Debian</a>
-				</li>
-				<li>
-					<a href="draft/nginx-proxy-manager.html">Installation de nginx proxy manager sur Debian</a>
-				</li>
-				<li>
-					<a href="draft/underworld-dok.html">Bande Underworld Daughther of Khaine</a>
-				</li>
-			</ul>
+			<article>
+	<header>
+		
+		<h1><a href="draft/nginx-proxy-manager.html">Installation de nginx proxy manager sur Debian</a></h1>
+		<span class="date">20 mai 2024</span>
+		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
+		<span class="tags">
+			<span class="fa fa-flag"></span>
+			<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/nginx.html">nginx</a>
+		</span>
+	</header>
+	<section><h2>installation</h2>
+<h3>Prérequis</h3>
+<p>Installer docker. <a href="TODO">procedure disponible ici</a></p>
+<h3>Configuration docker</h3>
+<p>Il faut créer un fichier de configuration docker</p>
+<pre><code class="yaml">version: '3.8'
+services:
+  app:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+</code></pre>
+<h3>configuration reseau</h3>
+<p>Rediriger les port 80 et 443 vers votre serveur.</p>
+<h2>Execution</h2>
+<h3>Lancer</h3>
+<pre><code class="shell">docker-compose up -d
+</code></pre>
+<h3>connexion</h3>
+<p>Ca se passe sur le port 81. les Users par defaut sont : admin@example.com / changeme</p>
+<h2>source</h2>
+<p><a href="https://nginxproxymanager.com/guide/#quick-setup" target="_blank">nginx</a>
+<a href="https://www.youtube.com/watch?v=qlcVx-k-02E&amp;t=321s" target="_blank">wolf</a></p>
+</section>
+	<footer>
+		<em class="author">par Shionn, le 20 mai 2024.</em>
+		<hr>
+	</footer>
+</article>
 		</div>
-		
-		
 		
 
 		<div class="side">
@@ -316,14 +342,6 @@
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/gallery.js"></script>
 	<script type="text/javascript" src="js/tree.js"></script>
-	
-		<script type="text/javascript" src="js/paint-db.js"></script>
-	
-		<script type="text/javascript" src="js/paint-equivalence-db.js"></script>
-	
-		<script type="text/javascript" src="js/paint-equivalence.js"></script>
-	
-		<script type="text/javascript" src="js/paint-guide.js"></script>
 	
 		<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
 	

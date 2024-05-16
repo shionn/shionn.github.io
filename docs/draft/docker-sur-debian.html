@@ -107,30 +107,47 @@
 	</header>
 	<div class="container">
 		
+		
+		
 		<div class="main">
-			<ul>
-				<li>
-					<a href="draft/collection.html">Collections</a>
-				</li>
-				<li>
-					<a href="draft/elfes-noirs-balistes-metal.html">Baliste à répétition Elfes Noirs</a>
-				</li>
-				<li>
-					<a href="draft/elfes-noirs-sorciere-metal.html">Sorcière suprême Elfes Noirs</a>
-				</li>
-				<li>
-					<a href="draft/docker-sur-debian.html">Installation Docker sur Debian</a>
-				</li>
-				<li>
-					<a href="draft/nginx-proxy-manager.html">Installation de nginx proxy manager sur Debian</a>
-				</li>
-				<li>
-					<a href="draft/underworld-dok.html">Bande Underworld Daughther of Khaine</a>
-				</li>
-			</ul>
+			<article>
+	<header>
+		
+		<h1><a href="draft/docker-sur-debian.html">Installation Docker sur Debian</a></h1>
+		<span class="date">20 mai 2024</span>
+		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
+		<span class="tags">
+			<span class="fa fa-flag"></span>
+			<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/docker.html">Docker</a>
+		</span>
+	</header>
+	<section><p>Je n'aime  pas particuliermeent docker, je préfere passer par LXC en temps normal. Mais bon pour un autre projet j'en ai eu besoin.</p>
+<h2>Installation</h2>
+<h3>Ajout du repo</h3>
+<p>Ajout des packages pour docker. Il ne faut pas installer ceux présent dans debian qui ne sont pas les package officiel de docker. il s'agit potentielement de vieux build.</p>
+<p>Ajouter la clef de chiffrage :</p>
+<pre><code class="shell">curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+</code></pre>
+<p>Ces dépendances peuvent être nécéssaire :</p>
+<pre><code class="shell">apt install ca-certificates curl
+</code></pre>
+<p>Puis ajouter un fichier de source à apt : <code>/etc/apt/sources.list.d/docker.list</code></p>
+<pre><code class="shell">deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian bookworm stable
+</code></pre>
+<h3>installation</h3>
+<p>Peut etre que pas toute les dependance sont necessaire</p>
+<pre><code class="shell">apt install docker-ce docker-ce-cli containerd.io docker-compose
+</code></pre>
+<p>test :</p>
+<pre><code class="shell">docker run hello-world
+</code></pre>
+</section>
+	<footer>
+		<em class="author">par Shionn, le 20 mai 2024.</em>
+		<hr>
+	</footer>
+</article>
 		</div>
-		
-		
 		
 
 		<div class="side">
@@ -316,14 +333,6 @@
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/gallery.js"></script>
 	<script type="text/javascript" src="js/tree.js"></script>
-	
-		<script type="text/javascript" src="js/paint-db.js"></script>
-	
-		<script type="text/javascript" src="js/paint-equivalence-db.js"></script>
-	
-		<script type="text/javascript" src="js/paint-equivalence.js"></script>
-	
-		<script type="text/javascript" src="js/paint-guide.js"></script>
 	
 		<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
 	
