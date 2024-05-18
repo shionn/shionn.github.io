@@ -13,12 +13,6 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 * Environ 5h.
 
 [gallery w=300 h=250]
-pictures/dark-elves/sorciere/1.jpg
-pictures/dark-elves/sorciere/2.jpg
-pictures/dark-elves/sorciere/3.jpg
-pictures/dark-elves/sorciere/4.jpg
-pictures/dark-elves/sorciere/5.jpg
-pictures/dark-elves/sorciere/6.jpg
 [/gallery]
 
 [paints title="Tissu violet froid"]

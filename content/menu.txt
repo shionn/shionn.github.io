@@ -1,13 +1,16 @@
 index	Accueil
 category/wargame	War Game
-	2024/mes-armees	Mes Armées
-		2024/armee-elfes-noirs	Elfes Noir
+	2024/mes-armees	Age of Sigmar
+		2024/kruelboyz-dominion	Kruelboyz
 		2024/armee-naine-cos	Nains (CoS)
 		2023/armee-nighthaunt	Nighthaunt
 		2023/armee-skaven	Skavens
+	2024/mes-armees	Warhammer Battle
+		2024/armee-elfes-noirs	Elfes Noir
+	2024/mes-armees	Underworld
+		2024/underworld-dok	Fille de Khaine
 	tag/dungeon-and-laser	Dungeon and Laser
 		2024/dungeon-and-laser-encounters	Encounters
-//	tag/underworld	Underworld
 	tag/peinture	Guide
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Tableau d'équivalence de peinture
