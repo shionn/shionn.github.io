@@ -71,6 +71,7 @@ Ombrage	72027
 Eclaircissement	72025
 Rehaut	72121
 [/paints]
+[Tuto alternatif par Angel GiraldeZ](link="https://youtu.be/QP4zs8zpck4?si=XGqYpCCbJGzyreGq")
 
 [paints title=" BSL Orc Skin par Angel Giraldez" icon="youtube-play" link="https://youtu.be/aNdhaw-hwcQ?si=gAX5AKyChD9Ilv7M"]
 Aplat	72123
@@ -78,6 +79,18 @@ Ombrage	72028
 Eclaircissement	72032
 Rehaut	72122
 [/paints]
+
+[paints title=" TMM acier rouillé par Angel Giraldez" icon="youtube-play" link="https://youtu.be/_1BTQZHHBbw?si=Lok8XE7YuHhRxRyX"]
+Aplat	72053
+Ombrage 1	72054
+Ombrage 2	72054
+Ombrage 2	72051
+Glacis rouille	72608
+Detail rouille	72008
+Eclaircissement	72052
+Rehaut	72122
+[/paints]
+
 
 ## Kits Vallejo
 
@@ -102,7 +115,7 @@ Eclaircissement	72106
 Rehaut	72110
 [/paints]
 
-[paints title="Kit Violet froid"]
+[paints title="Kit Violet froid" icon="youtube-play" link="https://youtu.be/jv7UF8thGCs?si=kLOWXBUQF0_S2x2G"]
 Aplat	72015
 Ombrage	72116
 Eclaircissement	72076
@@ -116,7 +129,7 @@ Eclaircissement	72021
 Rehaut	72118
 [/paints]
 
-[paints title=" Kit Vert froid" icon="youtube-play" link="https://youtu.be/OnKfWSCh-Q0?si=grvMJwbDi2o_9mAq"]
+[paints title=" Kit Vert" icon="youtube-play" link="https://youtu.be/OnKfWSCh-Q0?si=grvMJwbDi2o_9mAq"]
 Aplat	72123
 Ombrage	72028
 Eclaircissement	72029
@@ -130,11 +143,11 @@ Eclaircissement	72025
 Rehaut	72121
 [/paints]
 
-[paints title=" Kit Peau" icon="youtube-play" link="https://www.youtube.com/watch?v=aY65yEtxeAQ"]
-Aplat	72100
+[paints title=" Kit Peau Pale" icon="youtube-play" link="https://www.youtube.com/watch?v=aY65yEtxeAQ"]
+Aplat	72107
 Ombrage	72108
-Eclaircissement	72107
-Rehaut	72003
+Eclaircissement 1	72100
+Eclaircissement 2	72003
 [/paints]
 
 [paints title=" Kit Peau Tannée" icon="youtube-play" link="https://www.youtube.com/watch?v=N6M94sXMUkw"]
