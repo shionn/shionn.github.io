@@ -4,7 +4,6 @@
 	"title": "Sorcière suprême Elfes Noirs",
 	"tags": ["War Game", "Figurine", "Elfes Noirs", "Warhammer Battle", "Metal"],
 	"category": "War Game",
-	"logo": "pictures/titles/todo.jpg",
 	"published": false,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"

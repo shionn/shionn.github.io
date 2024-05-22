@@ -12,7 +12,11 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 * Peinte en Mai 2024.
 * Environ 5h.
 
-[gallery w=300 h=250]
+[gallery w=200 h=250]
+pictures/dark-elves/sorciere-supreme/1.jpg
+pictures/dark-elves/sorciere-supreme/2.jpg
+pictures/dark-elves/sorciere-supreme/3.jpg
+pictures/dark-elves/sorciere-supreme/4.jpg
 [/gallery]
 
 [paints title="Tissu violet froid"]

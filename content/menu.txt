@@ -6,7 +6,7 @@ category/wargame	War Game
 		2023/armee-nighthaunt	Nighthaunt
 		2023/armee-skaven	Skavens
 	2024/mes-armees	Warhammer Battle
-		2024/armee-elfes-noirs	Elfes Noir
+		2024/armee-elfes-noirs	Elfes Noirs
 	2024/mes-armees	Underworld
 		2024/underworld-dok	Fille de Khaine
 	tag/dungeon-and-laser	Dungeon and Laser
