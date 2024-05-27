@@ -44,7 +44,7 @@ pictures/dungeon-and-laser-encounters/elven-woods/8.jpg
 
 ## Strech Goal
 ### Beauté de la Nature
-Cette figurine a été peinte pour le défi __Mars 2023 - Réveil de la nature__. Il s'agit de mon premier éssai de tissus transparent.
+Cette figurine a été peinte pour le défi __Mars 2023 - Réveil de la nature de Karv__. Il s'agit de mon premier éssai de tissus transparent.
 [gallery w=200 h=300]
 pictures/dungeon-and-laser-encounters/sg/beaute-nature/1.jpg
 pictures/dungeon-and-laser-encounters/sg/beaute-nature/2.jpg
@@ -56,6 +56,13 @@ Cette figurine a été peinte pour le défi __Janvier 2024 - Mythologie de [OOM]
 pictures/dungeon-and-laser-encounters/sg/cerbere/1.jpg
 pictures/dungeon-and-laser-encounters/sg/cerbere/2.jpg
 pictures/dungeon-and-laser-encounters/sg/cerbere/3.jpg
+[/gallery]
+
+### Crabes
+Ces figurines ont été peintes pour le défi __Mai 2024 - Mermay de [CFM](https://taverne.colorfulminis.com/t/defi-mai-2024-mermay/5480)__.
+[gallery h=200 w=450]
+pictures/dungeon-and-laser-encounters/sg/crabes/1.jpg
+pictures/dungeon-and-laser-encounters/sg/crabes/2.jpg
 [/gallery]
 
 ### Driade

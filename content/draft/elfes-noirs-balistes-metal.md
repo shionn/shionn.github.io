@@ -8,6 +8,8 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 
 * Peinte en Avril 2024.
 * Environ 11h pour les deux.
+* Soumise au défis __FDC - case machine de guerre - de Whisp__.
+* Peinte pour le défis __Avril 2024 - Ne te découvre pas d'un fil - de Karv__.
 
 [gallery w=300 h=250]
 pictures/dark-elves/balistes/1.jpg

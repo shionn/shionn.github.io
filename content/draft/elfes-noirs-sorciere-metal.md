@@ -11,6 +11,7 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 
 * Peinte en Mai 2024.
 * Environ 5h.
+* Soumise au défis __FDC - case héro ou personnage - de Whisp__.
 
 [gallery w=200 h=300]
 pictures/dark-elves/sorciere-supreme/1.jpg

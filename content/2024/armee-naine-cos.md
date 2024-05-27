@@ -43,6 +43,7 @@ pictures/cos-duardin/maitre-des-runes/2.jpg
 J'ai simplement remplacer sa tête par c'elle d'un cogsmith, comme ca, il a une pipe !
 - Peinte en fevrier 2024
 - 4h30
+- Soumise au défis __FDC - case conversion - de Whisp__.
 
 [gallery w=300 h=350]
 pictures/cos-duardin/maitre-des-runes/3.jpg
@@ -105,6 +106,8 @@ Je deteste toujours autant peindre des véhicules.
 
 - Peinte en fevrier 2024
 - 3h40
+- Peinte pour le défis __Fevrier 2024 - La vie, c'est mieux à deux voir plus - de Karv__.
+
 
 [gallery w=350 h=300]
 pictures/cos-duardin/gyro/1.jpg

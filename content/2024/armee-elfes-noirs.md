@@ -25,6 +25,7 @@ J'ai acheté ces figurines étant gamin, cela fait donc plus de 20 ans que ces f
 - Figurines en métal de 99.
 - Peinte en Mars 2024.
 - Environ 28h.
+- Soumise au défis __FDC - case unité - de Whisp__.
 
 [gallery w=300 h=250]
 pictures/dark-elves/corsair/01.jpg

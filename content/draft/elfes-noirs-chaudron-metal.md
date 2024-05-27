@@ -10,6 +10,7 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 
 * Peinte en Mai 2024.
 * Environ 16h.
+* Peinte pour le défis __Mai 2024 - Fait ce qu'il te plait - de Karv__.
 
 [gallery w=300 h=200]
 pictures/dark-elves/chaudron-de-sang/1.jpg
