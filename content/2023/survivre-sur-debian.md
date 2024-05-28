@@ -45,6 +45,9 @@ apt instal mesa-va-drivers
 ### Calibrer les joystick
 thumbstick_cal
 
+### débloquer / bloquer
+sudo steamos-readonly disable
+
 ## Erreur
 ### Eclipse erreur ouverture markdown
 Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.
