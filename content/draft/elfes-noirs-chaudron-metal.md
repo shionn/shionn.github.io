@@ -22,20 +22,11 @@ pictures/dark-elves/chaudron-de-sang/6.jpg
 pictures/dark-elves/chaudron-de-sang/7.jpg
 [/gallery]
 
-[paints title="Tissu violet froid"]
-Base	72112
-Eclaircissement	72015
-Eclaircissement	72076
-Rehaut	72114
-Glacie	72112
-[/paints]
-
-[paints title="Tissu violet chaud"]
-Base	72112
-Eclaircissement	72113
-Eclaircissement	72014
-Rehaut	72013
-Glacie	72112
+[paints title="Jade"]
+Base	72027
+Eclaircissement	72026
+Rehaut	72025
+Rehaut	72121
 [/paints]
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
