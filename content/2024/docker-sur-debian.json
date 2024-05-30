@@ -1,10 +1,11 @@
 {
 	"type": "post",
-	"date": "2024/05/20",
+	"date": "2024/05/31",
 	"title": "Installation Docker sur Debian",
-	"tags": ["Linux", "Debian", "Docker"],
+	"tags": ["Linux", "Debian", "Docker", "Server"],
 	"category": "Linux",
-	"published": false,
+	"published": true,
 	"author": "Shionn",
+	"logo": "pictures/titles/docker-debian.jpg",
 	"js" : [ "js/hljs/highlight.min.js", "js/hljs/bash.min.js" ]
 }

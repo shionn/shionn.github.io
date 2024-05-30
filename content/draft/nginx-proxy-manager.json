@@ -6,5 +6,6 @@
 	"category": "Linux",
 	"published": false,
 	"author": "Shionn",
+	"logo": "pictures/titles/nginx-debian.jpg",
 	"js" : [ "js/hljs/highlight.min.js", "js/hljs/bash.min.js" ]
 }
