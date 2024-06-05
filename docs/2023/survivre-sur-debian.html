@@ -149,17 +149,34 @@
 <h2>Gnome</h2>
 <h3>Pavucontrol</h3>
 <p>Outil pour mieux controller les peripheriques audio</p>
+<pre><code class="shell">apt instal pavucontrol
+</code></pre>
 <h3>ALT-F5 qui fait nimp</h3>
 <p>dans dconf-editor modifier la clef : <code>org.gnome.desktop.wm.keybindings</code></p>
 <h3>Desactiver pasword apres sleep</h3>
 <p>installer dconf-editor modifier la clef <code>/org/gnome/desktop/screensaver lock-enable</code> à false</p>
-<h2>Configuration</h2>
-<h3>Vim</h3>
-<h4>Desactiver le mode visual</h4>
+<h2>Vim</h2>
+<h3>Desactiver le mode visual</h3>
 <pre><code class="shell">echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
 </code></pre>
-<h4>Pas de coloration syntaxique</h4>
+<h3>Pas de coloration syntaxique</h3>
 <pre><code class="shell">echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
+</code></pre>
+<h2>Cron</h2>
+<h3>cron au boot</h3>
+<pre><code class="java">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
+</code></pre>
+<h2>Openrgb</h2>
+<p>Logiciel de control de peripherique de rgb</p>
+<h3>Gskill et gigabyte</h3>
+<p>Le couple des mémoires Gskill sur une carte mere gigabyte ne marche pas fort. Ajouter l'option : <code>acpi_enforce_resources=lax</code> au boot du noyau.</p>
+<pre><code class="java">GRUB_CMDLINE_LINUX=&quot;acpi_enforce_resources=lax&quot;
+</code></pre>
+<p>installer également <code>i2c-dev</code></p>
+<pre><code class="java">apt instal i2c-dev
+</code></pre>
+<p>Avant de lancer openrgb charger le module.</p>
+<pre><code class="java">sudo modprobe i2c-dev
 </code></pre>
 <h2>Jeux</h2>
 <h3>Jeux comme au ralenti (Horizon Zero Dawn)</h3>
@@ -180,7 +197,7 @@
 <p>thumbstick_cal</p>
 <h3>débloquer / bloquer</h3>
 <p>sudo steamos-readonly disable</p>
-<h2>Erreur</h2>
+<h2>Eclipse</h2>
 <h3>Eclipse erreur ouverture markdown</h3>
 <p>Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.</p>
 <pre><code class="shell">sudo apt install libwebkit2gtk-4.0-37
@@ -221,7 +238,7 @@ apt remove gnome-software
 </code></pre>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 28 mai 2024</span>.</em>
+		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 05 juin 2024</span>.</em>
 		<hr>
 	</footer>
 </article>

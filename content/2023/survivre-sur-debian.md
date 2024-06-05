@@ -4,24 +4,54 @@ Voici ma petite liste de truc est astuce sur debian.
 ### Pavucontrol
 Outil pour mieux controller les peripheriques audio
 
+~~~shell
+apt instal pavucontrol
+~~~
+
 ### ALT-F5 qui fait nimp
 dans dconf-editor modifier la clef : `org.gnome.desktop.wm.keybindings`
 
 ### Desactiver pasword apres sleep
 installer dconf-editor modifier la clef `/org/gnome/desktop/screensaver lock-enable` à false
 
-## Configuration
-### Vim
-#### Desactiver le mode visual
+## Vim
+### Desactiver le mode visual
 
 ~~~shell
 echo "set mouse-=a" >> ~/.vimrc
 ~~~
 
-#### Pas de coloration syntaxique
+### Pas de coloration syntaxique
 
 ~~~shell
 echo "syntax on" >> ~/.vimrc
+~~~
+
+## Cron
+### cron au boot
+~~~
+@reboot		root	cd / && run-parts --report /etc/cron.reboot
+~~~
+
+## Openrgb
+Logiciel de control de peripherique de rgb
+### Gskill et gigabyte
+Le couple des mémoires Gskill sur une carte mere gigabyte ne marche pas fort. Ajouter l'option : `acpi_enforce_resources=lax` au boot du noyau.
+
+~~~
+GRUB_CMDLINE_LINUX="acpi_enforce_resources=lax"
+~~~
+
+installer également `i2c-dev`
+
+~~~
+apt instal i2c-dev
+~~~
+
+Avant de lancer openrgb charger le module.
+
+~~~
+sudo modprobe i2c-dev
 ~~~
 
 ## Jeux
@@ -48,7 +78,7 @@ thumbstick_cal
 ### débloquer / bloquer
 sudo steamos-readonly disable
 
-## Erreur
+## Eclipse
 ### Eclipse erreur ouverture markdown
 Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.
 
