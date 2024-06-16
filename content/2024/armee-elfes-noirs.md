@@ -107,13 +107,38 @@ Rehaut	72052
 ## Spéciales
 
 Il devrais y avoir à terme :
-- Baliste Faucheuse
 - Char à courrsier ou à Sang-froid
 - Chevalier sur Sang-froid
 - Exécuteur
 - Harpie
 - Hydre de Guerre
 - Ombre
+
+### Baliste Faucheuse
+
+Je les ai acheté étant gamin. Je les ai décaper pour les repeindrent avec mon schémat et niveau actuel.
+* Peinte en Avril 2024.
+* Environ 11h pour les deux.
+* Soumise au défis __FDC - case machine de guerre - de Whisp__.
+* Peinte pour le défis __Avril 2024 - Ne te découvre pas d'un fil - de Karv__.
+
+[gallery w=300 h=250]
+pictures/dark-elves/balistes/1.jpg
+pictures/dark-elves/balistes/2.jpg
+pictures/dark-elves/balistes/3.jpg
+pictures/dark-elves/balistes/4.jpg
+pictures/dark-elves/balistes/5.jpg
+pictures/dark-elves/balistes/6.jpg
+pictures/dark-elves/balistes/7.jpg
+[/gallery]
+
+[paints title="Parchemin / Crane"]
+Base	72061
+Shade	24-11
+Eclaircissement	72061
+Eclaircissement	72034
+[/paints]
+
 
 ## Rare
 
