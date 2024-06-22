@@ -43,8 +43,18 @@ pictures/dungeon-and-laser-encounters/elven-woods/8.jpg
 [/gallery]
 
 ## Strech Goal
+### Abomination
+Cette figurine a été peinte pour le défi __Juin 2024 - Tomber la Chemise de Karv__
+et __Gros et/ou Degeulasse de [OOM](https://onemoremini.fr/topic/635/defi-gros-et-ou-degueulasse)__.
+Peinte bien trop vite.
+[gallery w=200 h=300]
+pictures/dungeon-and-laser-encounters/sg/abomination/1.jpg
+pictures/dungeon-and-laser-encounters/sg/abomination/2.jpg
+pictures/dungeon-and-laser-encounters/sg/abomination/3.jpg
+[/gallery]
+
 ### Beauté de la Nature
-Cette figurine a été peinte pour le défi __Mars 2023 - Réveil de la nature de Karv__. Il s'agit de mon premier éssai de tissus transparent.
+Cette figurine a été peinte pour le défi __Mars 2024 - Réveil de la nature de Karv__. Il s'agit de mon premier éssai de tissus transparent.
 [gallery w=200 h=300]
 pictures/dungeon-and-laser-encounters/sg/beaute-nature/1.jpg
 pictures/dungeon-and-laser-encounters/sg/beaute-nature/2.jpg

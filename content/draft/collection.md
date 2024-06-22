@@ -29,7 +29,7 @@ Go Nagai
 1-5	Devil Man
 /	Great Mazinger
 1-3	Getter Robot
-2	Dynamic Hero
+1-3	Dynamic Hero
 [/table]
 
 [table class="collection,manga" title="Les Chefs d'Oeuvre de Lovecraft" cols="#,Nom,Volume,Annee,Chronologique,Cycle,Ecriture"]
