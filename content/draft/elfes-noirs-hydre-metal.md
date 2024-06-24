@@ -3,14 +3,26 @@ Cette année j'ai choisi de réaliser enfin mon rêve de gosse, completer et pei
 
 Voici mon hydre de guerre en métal.
 Cette figurine m'as été offerte par un certain David que je remerci si il passe par la.
+Je me suis inspiré de la peinture du sang froid de l'a sorciere supreme.
 
 Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 
 * Peinte en Juin 2024.
-* Environ Xh pour l'hydre et Xh pour les suivant.
+* Environ 11h pour l'hydre et 6h pour les suivant.
 * Soumise au défis __FDC - case choix libre - de Whisp__.
 
 [gallery w=300 h=250]
+pictures/dark-elves/hydre-de-guerre/01.jpg
+pictures/dark-elves/hydre-de-guerre/02.jpg
+pictures/dark-elves/hydre-de-guerre/03.jpg
+pictures/dark-elves/hydre-de-guerre/04.jpg
+pictures/dark-elves/hydre-de-guerre/05.jpg
+pictures/dark-elves/hydre-de-guerre/06.jpg
+pictures/dark-elves/hydre-de-guerre/07.jpg
+pictures/dark-elves/hydre-de-guerre/08.jpg
+pictures/dark-elves/hydre-de-guerre/09.jpg
+pictures/dark-elves/hydre-de-guerre/10.jpg
+pictures/dark-elves/hydre-de-guerre/11.jpg
 [/gallery]
 
 [paints title="Ecaille Orange"]

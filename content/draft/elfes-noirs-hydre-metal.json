@@ -1,0 +1,10 @@
+{
+	"type": "post",
+	"date": "2024/05/26",
+	"title": "Hydre de Guerre Elfes Noirs",
+	"tags": ["War Game", "Figurine", "Elfes Noirs", "Warhammer Battle", "Metal"],
+	"category": "War Game",
+	"published": false,
+	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
+	"author": "Shionn"
+}
