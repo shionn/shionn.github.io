@@ -93,6 +93,9 @@
 						<li>
 							<a href="2024/docker-sur-debian.html">Installation Docker sur Debian</a>
 						</li>
+						<li>
+							<a href="2024/nginx-proxy-manager.html">Installation Nginx proxy manager</a>
+						</li>
 					</ul>
 				</li>
 				<li>
@@ -137,19 +140,46 @@
 			<article>
 	<header>
 		<img src="pictures/titles/nginx-debian.jpg" title="Installation de nginx proxy manager sur Debian" alt="Installation de nginx proxy manager sur Debian" />
-		<h1><a href="draft/nginx-proxy-manager.html">Installation de nginx proxy manager sur Debian</a></h1>
-		<span class="date">20 mai 2024</span>
+		<h1><a href="2024/nginx-proxy-manager.html">Installation de nginx proxy manager sur Debian</a></h1>
+		<span class="date">30 juin 2024</span>
 		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
 		<span class="tags">
 			<span class="fa fa-flag"></span>
 			<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/nginx.html">nginx</a>
 		</span>
 	</header>
-	<section><h2>installation</h2>
+	<section><h2>nginx Kesako ?</h2>
+<p>Nginx est un reverse proxy.</p>
+<p>Un reverse proxy permet pas mal de choses entres autres :</p>
+<ul>
+<li>Servir de point d'entrée à l'enssemble de vos serveur</li>
+<li>Permet d'ajouter des headers</li>
+<li>Permet d'ajouter une basic auth</li>
+<li>Permet d'ajouter du HTTPS</li>
+</ul>
+<h3>Exemple</h3>
+<p>Par exemple admettons que que votre nom de domaine &quot;exemple.com&quot; tape sur votre serveur Nginx.
+Admettons égallement que vous avez deux serveur <strong>web1</strong> et <strong>web2</strong> dans votre reseau privé qui ecoutent tous les deux sur le port 80.</p>
+<p>Vous souhaitez que web1 répond à <strong>https://web1.exemple.com</strong> et web2 répond à <strong>https://web2.exemple.com</strong>. Bon ben deja vos serveur ecoute sur le port 80 et non 443 et en plus seulement sur le reseau local. Ben un reverse proxy permet de résoudre tous ca.</p>
+<pre><code class="java">                            web1.exemple.com
+                          --------------------&gt;[web1:80]
+*.exemple.com            /
+--------------&gt;[ngix:443]
+internet                 \
+                          --------------------&gt;[web2:80]
+                            web2.exemple.com
+</code></pre>
+<p>Ca semble pas mal non ?</p>
+<h2>Mais, y a toujours un <em>mais</em></h2>
+<p>Franchement Nginx c'est pas super agréable à configurer quand on est comme moi pas interressé par le reseau. Et puis faut gerer la signature des certificats SSL (c'est chiant).</p>
+<p>C'est la qu'intervient <strong><a href="https://nginxproxymanager.com/" target="_blank">Nginx proxy manager</a></strong>.
+Qui est une solution tout en un avec l'installation de nginx et d'une interface web pour faire tout ca simplement avec en plus la gestion des certificats SSL via let's encrypt.
+Et le seul défaut de cette solutiuon finalement c'est que ca marche sur docker.</p>
+<h2>Installation</h2>
 <h3>Prérequis</h3>
 <p>Installer docker. <a href="2024/docker-sur-debian.html">procedure disponible ici</a></p>
 <h3>Configuration docker</h3>
-<p>Il faut créer un fichier de configuration docker</p>
+<p>Il faut créer un fichier de configuration docker.</p>
 <pre><code class="yaml">version: '3.8'
 services:
   app:
@@ -163,20 +193,20 @@ services:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
 </code></pre>
-<h3>configuration reseau</h3>
+<h3>Configuration reseau</h3>
 <p>Rediriger les port 80 et 443 vers votre serveur.</p>
 <h2>Execution</h2>
 <h3>Lancer</h3>
 <pre><code class="shell">docker-compose up -d
 </code></pre>
-<h3>connexion</h3>
+<h3>Connexion</h3>
 <p>Ca se passe sur le port 81. les Users par defaut sont : admin@example.com / changeme</p>
-<h2>source</h2>
+<h2>Source</h2>
 <p><a href="https://nginxproxymanager.com/guide/#quick-setup" target="_blank">nginx</a>
 <a href="https://www.youtube.com/watch?v=qlcVx-k-02E&amp;t=321s" target="_blank">wolf</a></p>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 20 mai 2024.</em>
+		<em class="author">par Shionn, le 30 juin 2024.</em>
 		<hr>
 	</footer>
 </article>
@@ -197,7 +227,7 @@ services:
 				</a><a href="tag/cit-e-de-sigmar.html">
 					Citée de Sigmar (1)
 				</a><a href="tag/debian.html">
-					Debian (2)
+					Debian (3)
 				</a><a href="tag/developpement.html">
 					Developpement (1)
 				</a><a href="tag/dok.html">
@@ -225,7 +255,7 @@ services:
 				</a><a href="tag/kruelboyz.html">
 					Kruelboyz (1)
 				</a><a href="tag/linux.html">
-					Linux (2)
+					Linux (3)
 				</a><a href="tag/metal.html">
 					Metal (3)
 				</a><a href="tag/nains.html">
@@ -235,7 +265,7 @@ services:
 				</a><a href="tag/peinture.html">
 					Peinture (3)
 				</a><a href="tag/server.html">
-					Server (1)
+					Server (2)
 				</a><a href="tag/skaven.html">
 					Skaven (3)
 				</a><a href="tag/underworld.html">
@@ -244,12 +274,14 @@ services:
 					War Game (15)
 				</a><a href="tag/warhammer-battle.html">
 					Warhammer Battle (4)
+				</a><a href="tag/nginx.html">
+					nginx (1)
 				</a>
 			</div>
 			<div class="tagclood">
 				<h1><span class="fa fa-folder-open"></span> Catégories</h1>
 				<a href="category/linux.html">
-					Linux (2)
+					Linux (3)
 				</a><a href="category/vie-du-blog.html">
 					Vie du Blog (1)
 				</a><a href="category/war-game.html">
@@ -260,11 +292,14 @@ services:
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 				<ul class="tree">
 					<li>
-						<a href="#">2024 (9)</a>
+						<a href="#">2024 (10)</a>
 						<ul>
 							<li>
-								<a href="#">juin (1)</a>
+								<a href="#">juin (2)</a>
 								<ul>
+									<li>
+										<a href="2024/nginx-proxy-manager.html">Installation de nginx proxy manager sur Debian</a>
+									</li>
 									<li>
 										<a href="2024/elfes-noirs-balistes-metal.html">Baliste à répétition Elfes Noirs</a>
 									</li>

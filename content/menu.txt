@@ -18,6 +18,7 @@ category/wargame	War Game
 category/linux	Linux
 	tag/server	Server
 		2024/docker-sur-debian	Installation Docker sur Debian
+		2024/nginx-proxy-manager	Installation Nginx proxy manager
 	2023/survivre-sur-debian	Kit de Survie sur Debian
 https://web.archive.org/web/20210420064444/http://shionn.org/	Web Archive
 mailto:shionn@gmail.com	Contact
