@@ -83,6 +83,15 @@ pictures/dungeon-and-laser-encounters/sg/driade/2.jpg
 pictures/dungeon-and-laser-encounters/sg/driade/3.jpg
 [/gallery]
 
+### Grenouilles
+Ces figurines ont été peintes pour le défi __Juin 2024 - Petit et/ou mignon [CFM](https://taverne.colorfulminis.com/t/defi-juin-2024-petit-et-ou-mignon/5535)__.
+[gallery h=200 w=250]
+pictures/dungeon-and-laser-encounters/sg/grenouilles/1.jpg
+pictures/dungeon-and-laser-encounters/sg/grenouilles/2.jpg
+pictures/dungeon-and-laser-encounters/sg/grenouilles/3.jpg
+pictures/dungeon-and-laser-encounters/sg/grenouilles/4.jpg
+[/gallery]
+
 ### Harpie
 Ces figurines ont été peintes pour le défi __Septembre 2023 - Vole petit oiseau de [OOM](https://onemoremini.fr/topic/563/d%C3%A9fi-septembre-2023-vole-petit-oiseau)__.
 J'ai essayé de faire 3 ombrages de couleur différente sur la peau, jade / turquoise / violet.
