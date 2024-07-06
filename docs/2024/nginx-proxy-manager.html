@@ -156,6 +156,7 @@
 <li>Permet d'ajouter des headers</li>
 <li>Permet d'ajouter une basic auth</li>
 <li>Permet d'ajouter du HTTPS</li>
+<li>Permet de cacher les ports et chemin</li>
 </ul>
 <h3>Exemple</h3>
 <p>Par exemple admettons que que votre nom de domaine &quot;exemple.com&quot; tape sur votre serveur Nginx.
@@ -166,7 +167,7 @@ Admettons égallement que vous avez deux serveur <strong>web1</strong> et <stron
 *.exemple.com            /
 --------------&gt;[ngix:443]
 internet                 \
-                          --------------------&gt;[web2:80]
+                          --------------------&gt;[web2:8080/truc]
                             web2.exemple.com
 </code></pre>
 <p>Ca semble pas mal non ?</p>
@@ -206,7 +207,7 @@ services:
 <a href="https://www.youtube.com/watch?v=qlcVx-k-02E&amp;t=321s" target="_blank">wolf</a></p>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 30 juin 2024.</em>
+		<em class="author">par Shionn, le 30 juin 2024<span>, derniére modification le 06 juillet 2024</span>.</em>
 		<hr>
 	</footer>
 </article>

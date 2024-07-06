@@ -8,6 +8,7 @@ Un reverse proxy permet pas mal de choses entres autres :
 - Permet d'ajouter des headers
 - Permet d'ajouter une basic auth
 - Permet d'ajouter du HTTPS
+- Permet de cacher les ports et chemin
 
 ### Exemple
 
@@ -22,7 +23,7 @@ Vous souhaitez que web1 répond à __https://web1.exemple.com__ et web2 répond 
 *.exemple.com            /
 -------------->[ngix:443]
 internet                 \
-                          -------------------->[web2:80]
+                          -------------------->[web2:8080/truc]
                             web2.exemple.com
 ~~~
 
