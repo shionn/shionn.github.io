@@ -13,6 +13,32 @@ Il devrais y avoir à terme :
 - Porteur de la Grande Banniere
 - Sorcières
 
+### Reine matriache et Chaudron de Sang
+
+Proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore merci. Qu'est ce que je voulais cet fig étant petit.
+
+* Figurine en métal de 1999/2001. 
+* Peinte en Mai 2024.
+* Environ 16h.
+* Peinte pour le défis __Mai 2024 - Fait ce qu'il te plait - de Karv__.
+
+[gallery w=300 h=200]
+pictures/dark-elves/chaudron-de-sang/1.jpg
+pictures/dark-elves/chaudron-de-sang/2.jpg
+pictures/dark-elves/chaudron-de-sang/3.jpg
+pictures/dark-elves/chaudron-de-sang/4.jpg
+pictures/dark-elves/chaudron-de-sang/5.jpg
+pictures/dark-elves/chaudron-de-sang/6.jpg
+pictures/dark-elves/chaudron-de-sang/7.jpg
+[/gallery]
+
+[paints title="Jade"]
+Base	72027
+Eclaircissement	72026
+Rehaut	72025
+Rehaut	72121
+[/paints]
+
 ## Base
 
 Reste à faire :
@@ -56,7 +82,8 @@ Rehaut	72039
 
 ### Furie
 
-J'ai acheté le QG étant gamin. Le reste proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore merci.
+J'ai acheté le QG étant gamin. Le reste proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore merci. 
+J'**adore** les furies, j'ai ersé une larme quand j'ai commencé leur peinture.
 
 - Figurines en métal de 2000.
 - Peinte en Avril 2024.
