@@ -5,7 +5,7 @@ Voici ma petite liste de truc est astuce sur debian.
 Outil pour mieux controller les peripheriques audio
 
 ~~~shell
-apt instal pavucontrol
+apt install pavucontrol
 ~~~
 
 ### ALT-F5 qui fait nimp
@@ -29,7 +29,7 @@ echo "syntax on" >> ~/.vimrc
 
 ## Cron
 ### cron au boot
-~~~
+~~~shell
 @reboot		root	cd / && run-parts --report /etc/cron.reboot
 ~~~
 
@@ -38,23 +38,36 @@ Logiciel de control de peripherique de rgb
 ### Gskill et gigabyte
 Le couple des mémoires Gskill sur une carte mere gigabyte ne marche pas fort. Ajouter l'option : `acpi_enforce_resources=lax` au boot du noyau.
 
-~~~
+~~~shell
 GRUB_CMDLINE_LINUX="acpi_enforce_resources=lax"
 ~~~
 
 installer également `i2c-dev`
 
-~~~
-apt instal i2c-dev
+~~~shell
+apt install i2c-dev
 ~~~
 
 Avant de lancer openrgb charger le module.
 
-~~~
+~~~shell
 sudo modprobe i2c-dev
 ~~~
 
 ## Jeux
+### Installer steam
+Il faut ajouter les dépot _non-free_ puis Ajouter des l'architecture i386 :
+
+~~~shell
+sudo dpkg --add-architecture i386
+~~~
+
+Puis installation de steam :
+
+~~~shell
+sudo apt install steam
+~~~
+
 ### Jeux comme au ralenti (Horizon Zero Dawn)
 Ajouter l'option **tsc=reliable** aux noyeau
 
@@ -127,7 +140,7 @@ ACTION=="add|change", KERNEL=="sd[a-z]", ATTRS{queue/rotational}=="1", RUN+="/us
 ## Ma config desktop
 ~~~shell
 apt install gnome-shel
-apt install gimp firefox thunar gedit blender gimage-reader shotwell
+apt install gimp firefox thunar gedit blender gimage-reader
 apt install lutris
 apt install git openjdk-17-jdk openjdk-17-source7
 apt install npt

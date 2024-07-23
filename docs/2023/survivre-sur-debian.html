@@ -152,7 +152,7 @@
 <h2>Gnome</h2>
 <h3>Pavucontrol</h3>
 <p>Outil pour mieux controller les peripheriques audio</p>
-<pre><code class="shell">apt instal pavucontrol
+<pre><code class="shell">apt install pavucontrol
 </code></pre>
 <h3>ALT-F5 qui fait nimp</h3>
 <p>dans dconf-editor modifier la clef : <code>org.gnome.desktop.wm.keybindings</code></p>
@@ -167,21 +167,28 @@
 </code></pre>
 <h2>Cron</h2>
 <h3>cron au boot</h3>
-<pre><code class="java">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
+<pre><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
 </code></pre>
 <h2>Openrgb</h2>
 <p>Logiciel de control de peripherique de rgb</p>
 <h3>Gskill et gigabyte</h3>
 <p>Le couple des mémoires Gskill sur une carte mere gigabyte ne marche pas fort. Ajouter l'option : <code>acpi_enforce_resources=lax</code> au boot du noyau.</p>
-<pre><code class="java">GRUB_CMDLINE_LINUX=&quot;acpi_enforce_resources=lax&quot;
+<pre><code class="shell">GRUB_CMDLINE_LINUX=&quot;acpi_enforce_resources=lax&quot;
 </code></pre>
 <p>installer également <code>i2c-dev</code></p>
-<pre><code class="java">apt instal i2c-dev
+<pre><code class="shell">apt install i2c-dev
 </code></pre>
 <p>Avant de lancer openrgb charger le module.</p>
-<pre><code class="java">sudo modprobe i2c-dev
+<pre><code class="shell">sudo modprobe i2c-dev
 </code></pre>
 <h2>Jeux</h2>
+<h3>Installer steam</h3>
+<p>Il faut ajouter les dépot <em>non-free</em> puis Ajouter des l'architecture i386 :</p>
+<pre><code class="shell">sudo dpkg --add-architecture i386
+</code></pre>
+<p>Puis installation de steam :</p>
+<pre><code class="shell">sudo apt install steam
+</code></pre>
 <h3>Jeux comme au ralenti (Horizon Zero Dawn)</h3>
 <p>Ajouter l'option <strong>tsc=reliable</strong> aux noyeau</p>
 <h3>Son qui sature (Horizon Zero Dawn)</h3>
@@ -232,7 +239,7 @@ ACTION==&quot;add|change&quot;, KERNEL==&quot;sd[a-z]&quot;, ATTRS{queue/rotatio
 </code></pre>
 <h2>Ma config desktop</h2>
 <pre><code class="shell">apt install gnome-shel
-apt install gimp firefox thunar gedit blender gimage-reader shotwell
+apt install gimp firefox thunar gedit blender gimage-reader
 apt install lutris
 apt install git openjdk-17-jdk openjdk-17-source7
 apt install npt
@@ -241,7 +248,7 @@ apt remove gnome-software
 </code></pre>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 05 juin 2024</span>.</em>
+		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 23 juillet 2024</span>.</em>
 		<hr>
 	</footer>
 </article>
