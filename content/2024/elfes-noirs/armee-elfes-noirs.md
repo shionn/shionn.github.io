@@ -17,7 +17,7 @@ Il devrais y avoir à terme :
 
 Proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore merci. Qu'est ce que je voulais cet fig étant petit.
 
-* Figurine en métal de 1999/2001. 
+* Figurine en métal de 1999/2001.
 * Peinte en Mai 2024.
 * Environ 16h.
 * Peinte pour le défis __Mai 2024 - Fait ce qu'il te plait - de Karv__.
@@ -38,6 +38,40 @@ Eclaircissement	72026
 Rehaut	72025
 Rehaut	72121
 [/paints]
+
+### Sorcière supreme
+
+Elle provient d'un lot que j'ai acheté, David si tu passes par là, encore merci.
+Je l'ai décapée et repeinte.
+Je possède toujours celle que j'avais ado mais j'ai préféré ne pas la décaper.
+
+* Peinte en Mai 2024.
+* Environ 5h.
+* Soumise au défis __FDC - case héro ou personnage - de Whisp__.
+
+[gallery w=200 h=300]
+pictures/dark-elves/sorciere-supreme/1.jpg
+pictures/dark-elves/sorciere-supreme/2.jpg
+pictures/dark-elves/sorciere-supreme/3.jpg
+pictures/dark-elves/sorciere-supreme/4.jpg
+[/gallery]
+
+[paints title="Tissu violet froid"]
+Base	72112
+Eclaircissement	72015
+Eclaircissement	72076
+Rehaut	72114
+Glacie	72112
+[/paints]
+
+[paints title="Tissu violet chaud"]
+Base	72112
+Eclaircissement	72113
+Eclaircissement	72014
+Rehaut	72013
+Glacie	72112
+[/paints]
+
 
 ## Base
 
@@ -82,7 +116,7 @@ Rehaut	72039
 
 ### Furie
 
-J'ai acheté le QG étant gamin. Le reste proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore merci. 
+J'ai acheté le QG étant gamin. Le reste proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore merci.
 J'**adore** les furies, j'ai ersé une larme quand j'ai commencé leur peinture.
 
 - Figurines en métal de 2000.
@@ -176,14 +210,6 @@ Il devrais y avoir à terme :
 
 
 ## Autre peinture
-
-[paints title="Tissu violet"]
-Base	72112
-Eclaircissement	72015
-Eclaircissement	72076
-Rehaut	72114
-Glacie	72112
-[/paints]
 
 [paints title="Cuir bourse"]
 Base	72045
