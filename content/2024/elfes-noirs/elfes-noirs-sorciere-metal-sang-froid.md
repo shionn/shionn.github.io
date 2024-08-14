@@ -5,8 +5,8 @@ completer et peindre mon armée elfes noirs telle que je la voulais étant enfan
 Voici ma sorcière suprême en métal sur sang-froid.
 Elle provient d'un lot que j'ai acheté, David si tu passes par là, encore merci.
 Je l'ai décapée et repeinte.
-Parmis toute les version de sang froid qui existe c'est clairement celle que j'aime le moins.
-Quoique j'aime encore moins les sang froid actuelle des sarapohons.
+Parmis toute les versions de sang froid qui existe c'est clairement celle que j'aime le moins.
+Quoique j'aime encore moins les sang froid actuelle des saraphons.
 
 Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 

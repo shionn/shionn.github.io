@@ -11,7 +11,6 @@ Il devrais y avoir à terme :
 - Malus darkblade
 - Morathi
 - Porteur de la Grande Banniere
-- Sorcières
 
 ### Reine matriache et Chaudron de Sang
 
@@ -70,6 +69,40 @@ Eclaircissement	72113
 Eclaircissement	72014
 Rehaut	72013
 Glacie	72112
+[/paints]
+
+### Sorcière supreme s/ Sang Froid
+
+Elle provient d'un lot que j'ai acheté, David si tu passes par là, encore merci.
+Je l'ai décapée et repeinte.
+Parmis toute les versions de sang froid qui existe c'est clairement celle que j'aime le moins.
+Quoique j'aime encore moins les sang froid actuelle des saraphons.
+
+[gallery w=200 h=300]
+pictures/dark-elves/sorciere-sg-froid/1.jpg
+pictures/dark-elves/sorciere-sg-froid/2.jpg
+pictures/dark-elves/sorciere-sg-froid/3.jpg
+pictures/dark-elves/sorciere-sg-froid/4.jpg
+pictures/dark-elves/sorciere-sg-froid/5.jpg
+[/gallery]
+
+* Peinte en Mai 2024.
+* Environ 5h.
+* Soumise au défis __FDC - case héro ou personnage - de Whisp__.
+
+[paints title="Ecaille Sang Froid"]
+Base	72027
+Eclaircissement	72026
+Rehaut	72025
+Rehaut	72121
+[/paints]
+
+[paints title="Corp Sang Froid"]
+Base	72120
+Zénithal aero	72024
+Eclaircissement	72024
+Eclaircissement	72119
+Rehaut	72096
 [/paints]
 
 
