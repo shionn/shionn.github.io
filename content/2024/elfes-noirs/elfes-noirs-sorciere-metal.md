@@ -13,7 +13,7 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 * Environ 5h.
 * Soumise au défis __FDC - case héro ou personnage - de Whisp__.
 
-[gallery w=200 h=300]
+[gallery w=150 h=250]
 pictures/dark-elves/sorciere-supreme/1.jpg
 pictures/dark-elves/sorciere-supreme/2.jpg
 pictures/dark-elves/sorciere-supreme/3.jpg

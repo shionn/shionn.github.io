@@ -21,12 +21,14 @@ Proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore
 * Environ 16h.
 * Peinte pour le défis __Mai 2024 - Fait ce qu'il te plait - de Karv__.
 
-[gallery w=300 h=200]
+[gallery w=200 h=250]
 pictures/dark-elves/chaudron-de-sang/1.jpg
 pictures/dark-elves/chaudron-de-sang/2.jpg
 pictures/dark-elves/chaudron-de-sang/3.jpg
 pictures/dark-elves/chaudron-de-sang/4.jpg
 pictures/dark-elves/chaudron-de-sang/5.jpg
+[/gallery]
+[gallery w=400 h=200]
 pictures/dark-elves/chaudron-de-sang/6.jpg
 pictures/dark-elves/chaudron-de-sang/7.jpg
 [/gallery]
@@ -48,7 +50,7 @@ Je possède toujours celle que j'avais ado mais j'ai préféré ne pas la décap
 * Environ 5h.
 * Soumise au défis __FDC - case héro ou personnage - de Whisp__.
 
-[gallery w=200 h=300]
+[gallery w=150 h=250]
 pictures/dark-elves/sorciere-supreme/1.jpg
 pictures/dark-elves/sorciere-supreme/2.jpg
 pictures/dark-elves/sorciere-supreme/3.jpg
