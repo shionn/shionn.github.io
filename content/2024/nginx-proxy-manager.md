@@ -78,5 +78,5 @@ docker-compose up -d
 Ca se passe sur le port 81. les Users par defaut sont : admin@example.com / changeme
 
 ## Source
-[nginx](https://nginxproxymanager.com/guide/#quick-setup)
-[wolf](https://www.youtube.com/watch?v=qlcVx-k-02E&t=321s)
+- [nginx](https://nginxproxymanager.com/guide/#quick-setup)
+- [wolf](https://www.youtube.com/watch?v=qlcVx-k-02E&t=321s)
