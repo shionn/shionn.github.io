@@ -18,7 +18,6 @@ pictures/dark-elves/furies/05.jpg
 pictures/dark-elves/furies/06.jpg
 pictures/dark-elves/furies/07.jpg
 pictures/dark-elves/furies/08.jpg
-pictures/dark-elves/furies/09.jpg
 [/gallery]
 [gallery w=200 h=250]
 pictures/dark-elves/furies/10.jpg

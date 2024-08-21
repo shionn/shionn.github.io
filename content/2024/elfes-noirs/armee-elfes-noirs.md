@@ -165,7 +165,6 @@ pictures/dark-elves/furies/05.jpg
 pictures/dark-elves/furies/06.jpg
 pictures/dark-elves/furies/07.jpg
 pictures/dark-elves/furies/08.jpg
-pictures/dark-elves/furies/09.jpg
 [/gallery]
 [gallery w=200 h=250]
 pictures/dark-elves/furies/10.jpg
@@ -216,12 +215,16 @@ Je les ai acheté étant gamin. Je les ai décaper pour les repeindrent avec mon
 * Soumise au défis __FDC - case machine de guerre - de Whisp__.
 * Peinte pour le défis __Avril 2024 - Ne te découvre pas d'un fil - de Karv__.
 
-[gallery w=300 h=250]
+[gallery w=500 h=200]
 pictures/dark-elves/balistes/1.jpg
+[/gallery]
+[gallery w=250 h=200]
 pictures/dark-elves/balistes/2.jpg
 pictures/dark-elves/balistes/3.jpg
 pictures/dark-elves/balistes/4.jpg
 pictures/dark-elves/balistes/5.jpg
+[/gallery]
+[gallery w=450 h=200]
 pictures/dark-elves/balistes/6.jpg
 pictures/dark-elves/balistes/7.jpg
 [/gallery]
