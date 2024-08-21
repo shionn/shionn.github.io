@@ -18,6 +18,8 @@ pictures/dark-elves/sorciere-supreme/1.jpg
 pictures/dark-elves/sorciere-supreme/2.jpg
 pictures/dark-elves/sorciere-supreme/3.jpg
 pictures/dark-elves/sorciere-supreme/4.jpg
+pictures/dark-elves/sorciere-supreme/5.jpg
+pictures/dark-elves/sorciere-supreme/6.jpg
 [/gallery]
 
 [paints title="Tissu violet froid"]

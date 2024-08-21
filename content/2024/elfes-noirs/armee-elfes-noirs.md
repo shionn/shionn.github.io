@@ -53,6 +53,8 @@ pictures/dark-elves/sorciere-supreme/1.jpg
 pictures/dark-elves/sorciere-supreme/2.jpg
 pictures/dark-elves/sorciere-supreme/3.jpg
 pictures/dark-elves/sorciere-supreme/4.jpg
+pictures/dark-elves/sorciere-supreme/5.jpg
+pictures/dark-elves/sorciere-supreme/6.jpg
 [/gallery]
 
 [paints title="Tissu violet froid"]
@@ -78,12 +80,11 @@ Je l'ai décapée et repeinte.
 Parmis toute les versions de sang froid qui existe c'est clairement celle que j'aime le moins.
 Quoique j'aime encore moins les sang froid actuelle des saraphons.
 
-[gallery w=200 h=300]
+[gallery w=250 h=300]
 pictures/dark-elves/sorciere-sg-froid/1.jpg
 pictures/dark-elves/sorciere-sg-froid/2.jpg
 pictures/dark-elves/sorciere-sg-froid/3.jpg
 pictures/dark-elves/sorciere-sg-froid/4.jpg
-pictures/dark-elves/sorciere-sg-froid/5.jpg
 [/gallery]
 
 * Peinte en Mai 2024.
@@ -120,18 +121,17 @@ J'ai acheté ces figurines étant gamin, cela fait donc plus de 20 ans que ces f
 - Environ 28h.
 - Soumise au défis __FDC - case unité - de Whisp__.
 
-[gallery w=300 h=250]
+[gallery w=250 h=200]
 pictures/dark-elves/corsair/01.jpg
 pictures/dark-elves/corsair/02.jpg
 pictures/dark-elves/corsair/03.jpg
 pictures/dark-elves/corsair/04.jpg
+[/gallery]
+[gallery w=250 h=125]
 pictures/dark-elves/corsair/05.jpg
 pictures/dark-elves/corsair/06.jpg
 pictures/dark-elves/corsair/07.jpg
 pictures/dark-elves/corsair/08.jpg
-pictures/dark-elves/corsair/09.jpg
-pictures/dark-elves/corsair/10.jpg
-pictures/dark-elves/corsair/11.jpg
 [/gallery]
 
 [paints title="Ecaille cape"]

@@ -14,12 +14,11 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 * Environ 5h.
 * Soumise au défis __FDC - case héro ou personnage - de Whisp__.
 
-[gallery w=200 h=300]
+[gallery w=250 h=300]
 pictures/dark-elves/sorciere-sg-froid/1.jpg
 pictures/dark-elves/sorciere-sg-froid/2.jpg
 pictures/dark-elves/sorciere-sg-froid/3.jpg
 pictures/dark-elves/sorciere-sg-froid/4.jpg
-pictures/dark-elves/sorciere-sg-froid/5.jpg
 [/gallery]
 
 [paints title="Ecaille Sang Froid"]
