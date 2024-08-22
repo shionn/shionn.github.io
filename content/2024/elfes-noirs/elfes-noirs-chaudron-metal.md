@@ -13,7 +13,7 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 * Peinte pour le défis __Mai 2024 - Fait ce qu'il te plait - de Karv__.
 * J'ai mis des aimants qui permettent de jouer la reine et les furie à manière de la V6 ou V8.
 
-[gallery w=200 h=250]
+[gallery w=180 h=200]
 pictures/dark-elves/chaudron-de-sang/1.jpg
 pictures/dark-elves/chaudron-de-sang/2.jpg
 pictures/dark-elves/chaudron-de-sang/3.jpg

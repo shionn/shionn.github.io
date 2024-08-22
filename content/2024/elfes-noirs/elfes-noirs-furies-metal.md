@@ -9,7 +9,7 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 * Peinte en Avril 2024.
 * Environ 43h.
 
-[gallery w=300 h=250]
+[gallery w=250 h=200]
 pictures/dark-elves/furies/01.jpg
 pictures/dark-elves/furies/02.jpg
 pictures/dark-elves/furies/03.jpg

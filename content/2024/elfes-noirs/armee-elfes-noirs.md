@@ -21,7 +21,7 @@ Proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore
 * Environ 16h.
 * Peinte pour le défis __Mai 2024 - Fait ce qu'il te plait - de Karv__.
 
-[gallery w=200 h=250]
+[gallery w=180 h=200]
 pictures/dark-elves/chaudron-de-sang/1.jpg
 pictures/dark-elves/chaudron-de-sang/2.jpg
 pictures/dark-elves/chaudron-de-sang/3.jpg
@@ -82,7 +82,7 @@ Je l'ai décapée et repeinte.
 Parmis toute les versions de sang froid qui existe c'est clairement celle que j'aime le moins.
 Quoique j'aime encore moins les sang froid actuelle des saraphons.
 
-[gallery w=250 h=300]
+[gallery w=200 h=250]
 pictures/dark-elves/sorciere-sg-froid/1.jpg
 pictures/dark-elves/sorciere-sg-froid/2.jpg
 pictures/dark-elves/sorciere-sg-froid/3.jpg
@@ -158,7 +158,7 @@ J'**adore** les furies, j'ai ersé une larme quand j'ai commencé leur peinture.
 - Peinte en Avril 2024.
 - Environ 43h.
 
-[gallery w=300 h=250]
+[gallery w=250 h=200]
 pictures/dark-elves/furies/01.jpg
 pictures/dark-elves/furies/02.jpg
 pictures/dark-elves/furies/03.jpg
