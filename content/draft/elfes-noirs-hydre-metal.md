@@ -11,7 +11,7 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 * Environ 11h pour l'hydre et 6h pour les suivant.
 * Soumise au défis __FDC - case choix libre - de Whisp__.
 
-[gallery w=300 h=250]
+[gallery w=250 h=200]
 pictures/dark-elves/hydre-de-guerre/01.jpg
 pictures/dark-elves/hydre-de-guerre/02.jpg
 pictures/dark-elves/hydre-de-guerre/03.jpg
@@ -19,10 +19,6 @@ pictures/dark-elves/hydre-de-guerre/04.jpg
 pictures/dark-elves/hydre-de-guerre/05.jpg
 pictures/dark-elves/hydre-de-guerre/06.jpg
 pictures/dark-elves/hydre-de-guerre/07.jpg
-pictures/dark-elves/hydre-de-guerre/08.jpg
-pictures/dark-elves/hydre-de-guerre/09.jpg
-pictures/dark-elves/hydre-de-guerre/10.jpg
-pictures/dark-elves/hydre-de-guerre/11.jpg
 [/gallery]
 
 [paints title="Ecaille Orange"]
