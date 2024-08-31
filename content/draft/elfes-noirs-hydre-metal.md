@@ -10,6 +10,7 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 * Peinte en Juin 2024.
 * Environ 11h pour l'hydre et 6h pour les suivant.
 * Soumise au défis __FDC - case choix libre - de Whisp__.
+* Figurine de 2000.
 
 [gallery w=250 h=200]
 pictures/dark-elves/hydre-de-guerre/01.jpg

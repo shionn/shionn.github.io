@@ -7,7 +7,7 @@ Il provient d'un lot que j'ai acheté, David si tu passes par là, encore merci.
 Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 
 * Peinte en Aout 2024.
-* Figurine alternative. Provenant d'un game day ?
+* Figurine exlsuvive à une boite d'armée de 2000.
 * Environ 3h30 environ.
 * Soumise au défis __FDC - case seigneur - de Whisp__.
 * Le glyph sur l'étendart représente la grande banniere de naggarith.
