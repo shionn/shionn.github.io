@@ -2,6 +2,8 @@
 Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 Accomplir enfin mon rêve de gosse, completer et peindre mon armée elfes noirs tel que je la voulais étant gosse.
 
+J'ai choisi d'organisé les figurines celon la V6 qui celle que je jouais ado.
+
 ## Seigneurs & Heros
 
 Il devrais y avoir à terme :
@@ -11,34 +13,6 @@ Il devrais y avoir à terme :
 - Malus darkblade
 - Morathi
 - Porteur de la Grande Banniere
-
-### Reine matriache et Chaudron de Sang
-
-Proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore merci. Qu'est ce que je voulais cet fig étant petit.
-
-* Figurine en métal de 1999/2001.
-* Peinte en Mai 2024.
-* Environ 16h.
-* Peinte pour le défis __Mai 2024 - Fait ce qu'il te plait - de Karv__.
-
-[gallery w=180 h=200]
-pictures/dark-elves/chaudron-de-sang/1.jpg
-pictures/dark-elves/chaudron-de-sang/2.jpg
-pictures/dark-elves/chaudron-de-sang/3.jpg
-pictures/dark-elves/chaudron-de-sang/4.jpg
-pictures/dark-elves/chaudron-de-sang/5.jpg
-[/gallery]
-[gallery w=400 h=200]
-pictures/dark-elves/chaudron-de-sang/6.jpg
-pictures/dark-elves/chaudron-de-sang/7.jpg
-[/gallery]
-
-[paints title="Jade"]
-Base	72027
-Eclaircissement	72026
-Rehaut	72025
-Rehaut	72121
-[/paints]
 
 ### Sorcière supreme
 
@@ -109,7 +83,7 @@ Rehaut	72096
 [/paints]
 
 
-## Base
+## Unités de Base
 
 Reste à faire :
 - Cavalier Noire
@@ -149,7 +123,16 @@ Eclaircissement	72115
 Rehaut	72039
 [/paints]
 
-### Furie
+## Unités Spéciales
+
+Reste à faire :
+- Char à Sang-Froid
+- Chevalier sur Sang-froid
+- Exécuteurs
+- Harpie
+- Ombre
+
+### Furies de Khaine
 
 J'ai acheté le QG étant gamin. Le reste proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore merci.
 J'**adore** les furies, j'ai ersé une larme quand j'ai commencé leur peinture.
@@ -199,19 +182,12 @@ Rehaut	72052
 [/paints]
 
 
-## Spéciales
+## Rares
 
-Il devrais y avoir à terme :
-- Char à courrsier ou à Sang-froid
-- Chevalier sur Sang-froid
-- Exécuteur
-- Harpie
-- Hydre de Guerre
-- Ombre
-
-### Baliste Faucheuse
+### Baliste à répétition
 
 Je les ai acheté étant gamin. Je les ai décaper pour les repeindrent avec mon schémat et niveau actuel.
+
 * Peinte en Avril 2024.
 * Environ 11h pour les deux.
 * Soumise au défis __FDC - case machine de guerre - de Whisp__.
@@ -238,13 +214,67 @@ Eclaircissement	72061
 Eclaircissement	72034
 [/paints]
 
+### Chaudron de Sang et Reine Matriache
 
-## Rare
+Proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore merci. Qu'est ce que je voulais cet fig étant petit.
 
-Il devrais y avoir à terme :
-- Conjurateur du Feu Maudit
-- Kharidbyss
-- Soeurs du Massacre
+* Figurine en métal de 1999/2001.
+* Peinte en Mai 2024.
+* Environ 16h.
+* Peinte pour le défis __Mai 2024 - Fait ce qu'il te plait - de Karv__.
+
+[gallery w=180 h=200]
+pictures/dark-elves/chaudron-de-sang/1.jpg
+pictures/dark-elves/chaudron-de-sang/2.jpg
+pictures/dark-elves/chaudron-de-sang/3.jpg
+pictures/dark-elves/chaudron-de-sang/4.jpg
+pictures/dark-elves/chaudron-de-sang/5.jpg
+[/gallery]
+[gallery w=400 h=200]
+pictures/dark-elves/chaudron-de-sang/6.jpg
+pictures/dark-elves/chaudron-de-sang/7.jpg
+[/gallery]
+
+[paints title="Jade"]
+Base	72027
+Eclaircissement	72026
+Rehaut	72025
+Rehaut	72121
+[/paints]
+
+### Hydre de Guerre
+
+Voici mon hydre de guerre en métal.
+Cette figurine m'as été offerte par un certain David que je remerci si il passe par la.
+Je me suis inspiré de la peinture du sang froid de l'a sorciere supreme.
+
+* Peinte en Juin 2024.
+* Environ 11h pour l'hydre et 6h pour les suivant.
+* Soumise au défis __FDC - case choix libre - de Whisp__.
+* Figurine de 2000.
+
+[gallery w=250 h=200]
+pictures/dark-elves/hydre-de-guerre/01.jpg
+pictures/dark-elves/hydre-de-guerre/02.jpg
+pictures/dark-elves/hydre-de-guerre/03.jpg
+pictures/dark-elves/hydre-de-guerre/04.jpg
+pictures/dark-elves/hydre-de-guerre/05.jpg
+pictures/dark-elves/hydre-de-guerre/06.jpg
+pictures/dark-elves/hydre-de-guerre/07.jpg
+[/gallery]
+
+[paints title="Ecaille Orange"]
+Base	72106
+Eclaircissement	72009
+Eclaircissement	72008
+Rehaut	72110
+[/paints]
+
+[paints title="Griffe"]
+Base	72045
+Eclaircissement	72061
+Rehaut	72034
+[/paints]
 
 
 ## Autre peinture
@@ -280,12 +310,6 @@ Rehaut	72119
 Base	72051
 Rehaut	72120
 Rehaut	72047
-[/paints]
-
-[paints title="Griffe"]
-Base	72045
-Eclaircissement	72061
-Rehaut	72034
 [/paints]
 
 [paints title="Terre"]
