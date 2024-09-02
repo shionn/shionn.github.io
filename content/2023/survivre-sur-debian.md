@@ -159,7 +159,7 @@ Puis recharger la configuration comme suit : `sudo systemctl daemon-reload`
 ~~~shell
 apt install bash-completion vim
 apt remove nano
-apt install gnome-shell gnome-terminal
+apt install gnome-shell gnome-terminal dconf-editor
 apt install cifs-utils npt
 apt install gimp firefox thunar gedit blender gimage-reader
 apt install lutris steam gamemode mangohud
