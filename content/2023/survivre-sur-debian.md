@@ -137,6 +137,24 @@ J'aime pas les tuto youtube mais celui la est bien [MRP](https://youtu.be/I7nfSC
 ACTION=="add|change", KERNEL=="sd[a-z]", ATTRS{queue/rotational}=="1", RUN+="/usr/bin/hdparm -B 127 /dev/%k"
 ~~~
 
+## file system
+### Samba et fstab
+Créer un fichier _.smbcredentials_ dans votre /home :
+~~~
+username=votre user
+password=votre mot de pass
+domaine=WORKGROUP
+~~~
+
+Installer le package _cifs-utils_. 
+
+Editer votre fichier votre fichier fstab comme suit :
+~~~
+//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
+~~~
+
+Puis recharger la configuration comme suit : `sudo systemctl daemon-reload`
+
 ## Ma config desktop
 ~~~shell
 apt install bash-completion vim
