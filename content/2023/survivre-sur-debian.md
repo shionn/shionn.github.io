@@ -162,8 +162,8 @@ apt remove nano
 apt install gnome-shell gnome-terminal
 apt install cifs-utils npt
 apt install gimp firefox thunar gedit blender gimage-reader
-apt install lutris
-apt install git openjdk-17-jdk openjdk-17-source7
+apt install lutris steam gamemode mangohud
+apt install git openjdk-17-jdk openjdk-17-source
 apt remove firefox-esr
 apt remove gnome-software
 ~~~
