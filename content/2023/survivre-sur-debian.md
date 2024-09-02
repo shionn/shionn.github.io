@@ -139,11 +139,13 @@ ACTION=="add|change", KERNEL=="sd[a-z]", ATTRS{queue/rotational}=="1", RUN+="/us
 
 ## Ma config desktop
 ~~~shell
-apt install gnome-shel
+apt install bash-completion vim
+apt remove nano
+apt install gnome-shell gnome-terminal
+apt install cifs-utils npt
 apt install gimp firefox thunar gedit blender gimage-reader
 apt install lutris
 apt install git openjdk-17-jdk openjdk-17-source7
-apt install npt
 apt remove firefox-esr
 apt remove gnome-software
 ~~~
