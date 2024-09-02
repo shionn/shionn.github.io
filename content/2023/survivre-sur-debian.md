@@ -161,7 +161,7 @@ apt install bash-completion vim
 apt remove nano
 apt install gnome-shell gnome-terminal dconf-editor
 apt install cifs-utils npt
-apt install gimp firefox thunar gedit blender gimage-reader
+apt install gimp firefox thunar thunar-archive-plugin gedit blender gimage-reader
 apt install lutris steam gamemode mangohud
 apt install git openjdk-17-jdk openjdk-17-source
 apt remove firefox-esr
