@@ -75,7 +75,7 @@ Ajouter l'option **tsc=reliable** aux noyeau
 ajouter ̀`PULSE_LATENCY_MSEC=60 DRI_PRIME=1` à la commande de lancement
 
 ### Utilitaire
-- Mangohud
+- Mangohud et Goverlay pour la config
 - Gamemoderun
 
 ## Vidéo
