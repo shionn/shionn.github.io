@@ -195,7 +195,7 @@
 <p>ajouter ̀<code>PULSE_LATENCY_MSEC=60 DRI_PRIME=1</code> à la commande de lancement</p>
 <h3>Utilitaire</h3>
 <ul>
-<li>Mangohud</li>
+<li>Mangohud et Goverlay pour la config</li>
 <li>Gamemoderun</li>
 </ul>
 <h2>Vidéo</h2>
@@ -237,12 +237,26 @@ echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.bashrc
 <pre><code class="shell">#/etc/udev/rules.d/69-hdparm.rules
 ACTION==&quot;add|change&quot;, KERNEL==&quot;sd[a-z]&quot;, ATTRS{queue/rotational}==&quot;1&quot;, RUN+=&quot;/usr/bin/hdparm -B 127 /dev/%k&quot;
 </code></pre>
+<h2>file system</h2>
+<h3>Samba et fstab</h3>
+<p>Créer un fichier <em>.smbcredentials</em> dans votre /home :</p>
+<pre><code class="java">username=votre user
+password=votre mot de pass
+domaine=WORKGROUP
+</code></pre>
+<p>Installer le package <em>cifs-utils</em>.</p>
+<p>Editer votre fichier votre fichier fstab comme suit :</p>
+<pre><code class="java">//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
+</code></pre>
+<p>Puis recharger la configuration comme suit : <code>sudo systemctl daemon-reload</code></p>
 <h2>Ma config desktop</h2>
-<pre><code class="shell">apt install gnome-shel
-apt install gimp firefox thunar gedit blender gimage-reader
-apt install lutris
-apt install git openjdk-17-jdk openjdk-17-source7
-apt install npt
+<pre><code class="shell">apt install bash-completion vim
+apt remove nano
+apt install gnome-shell gnome-terminal dconf-editor 
+apt install cifs-utils npt
+apt install gimp firefox thunar gedit blender gimage-reader 
+apt install lutris steam gamemode mangohud
+apt install git openjdk-17-jdk openjdk-17-source
 apt remove firefox-esr
 apt remove gnome-software
 </code></pre>
