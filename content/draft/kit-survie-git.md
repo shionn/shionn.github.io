@@ -6,7 +6,7 @@ git reset --hard HEAD
 ~~~
 
 
-Supprimer les fichier non suivie : 
+Supprimer les fichiers non suivie : 
 
 ~~~shell
 git clean -fd
