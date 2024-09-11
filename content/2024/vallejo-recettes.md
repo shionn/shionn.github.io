@@ -13,7 +13,7 @@ Rehaut	72009
 [paints title="Peau de zombie"]
 Aplat	72145
 Brossage	72035
-Lavis	24-24
+Lavis	24-10
 [/paints]
 
 ### Or pratiqué avec Whisp57
