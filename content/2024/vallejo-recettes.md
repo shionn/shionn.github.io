@@ -10,6 +10,12 @@ Eclaircissement	72010
 Rehaut	72009
 [/paints]
 
+[paints title="Peau de zombie"]
+Aplat	72145
+Brossage	72035
+Lavis	24-24
+[/paints]
+
 ### Or pratiqué avec Whisp57
 [gallery h=300 w=350]
 2024/recette/or-whisp57/1.jpg
