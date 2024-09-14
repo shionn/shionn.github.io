@@ -4,7 +4,7 @@
 	"title": "Executeurs Elfes Noirs",
 	"tags": ["War Game", "Figurine", "Elfes Noirs", "Warhammer Battle", "Metal"],
 	"category": "War Game",
-	"published": false,
+	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"
 }

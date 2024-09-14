@@ -128,9 +128,29 @@ Rehaut	72039
 Reste à faire :
 - Char à Sang-Froid
 - Chevalier sur Sang-froid
-- Exécuteurs
 - Harpie
 - Ombre
+
+### Exécuteurs de Har Ganeth
+
+Certains m'ont été offerts (merci Ardien si tu passe par la) quand aux autres je les ai acheté sur facebook le bon coin ou vinted.
+
+* Peinte en Juillet 2024.
+* Environ 18h environ.
+* Soumise au défis __FDC - case choix libre - de Whisp__.
+* Le glyph sur le port étendart représente la cité de Har Ganeth
+
+[gallery w=250 h=200]
+pictures/dark-elves/executeurs/01.jpg
+pictures/dark-elves/executeurs/02.jpg
+pictures/dark-elves/executeurs/03.jpg
+pictures/dark-elves/executeurs/04.jpg
+pictures/dark-elves/executeurs/05.jpg
+pictures/dark-elves/executeurs/06.jpg
+pictures/dark-elves/executeurs/07.jpg
+pictures/dark-elves/executeurs/08.jpg
+pictures/dark-elves/executeurs/09.jpg
+[/gallery]
 
 ### Furies de Khaine
 
@@ -180,7 +200,6 @@ Eclaircissement	72052
 Glacie	24-22
 Rehaut	72052
 [/paints]
-
 
 ## Rares
 
