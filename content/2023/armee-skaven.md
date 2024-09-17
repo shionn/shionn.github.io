@@ -235,6 +235,13 @@ pictures/skaven/maitre-moulder/1.jpg	left
 pictures/skaven/maitre-moulder/2.jpg	right
 [/gallery]
 
+[paints title="Malepierre"]
+Aplat	72028
+Brossage 1	72029
+Brossage 2	72032
+Rehaut	72122
+[/paints]
+
 ### Rats ogre
 Ces figurines proviennent de ma boite **Ile de Sang**. Au début je ne pensais pas les joué, et finalement c'est une de mes unitées préférées.
 * Peinte en mai 2023
@@ -245,11 +252,10 @@ pictures/skaven/rat-ogre/2.jpg
 pictures/skaven/rat-ogre/3.jpg
 [/gallery]
 
-[paints title="Malepiere"]
-Applat	72028
-Brossage 1	72029
-Brossage 2	72032
-Behaut	72122
+[paints title="Poils"]
+Applat	72045
+Eclaircissement	72043
+Rehaut	72039
 [/paints]
 
 ### Abomination de Malefausse : Monica
