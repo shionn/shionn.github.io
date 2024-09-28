@@ -134,44 +134,44 @@
 	</header>
 	<div class="container">
 		
+		
+		
 		<div class="main">
-			<ul>
-				<li>
-					<a href="draft/kit-survie-git.html">Kit de Survie avec Git</a>
-					
-				</li>
-				<li>
-					<a href="draft/amd-ryzen.html">Astuce pour Amd Ryzen</a>
-					
-				</li>
-				<li>
-					<a href="draft/collection.html">Collections</a>
-					
-				</li>
-				<li>
-					<a href="draft/debian-execute-task-before-and-after-suspend.html">Executer un script avant et apres la mise en veille</a>
-					24 novembre 2024
-				</li>
-				<li>
-					<a href="draft/thanquol-and-boneripper-kit-bash.html">Kitbash Thanquol and Boneripper</a>
-					10 novembre 2024
-				</li>
-				<li>
-					<a href="draft/elfes-noirs-gardes-noirs-metal.html">Gardes Noirs Elfes Noirs</a>
-					27 octobre 2024
-				</li>
-				<li>
-					<a href="draft/elfes-noirs-porteur-gd-banniere.html">Porteur de la grand bannière Elfes Noirs</a>
-					13 octobre 2024
-				</li>
-				<li>
-					<a href="draft/underworld-soulblight.html">Bande Underworld Seigneurs Ruinemânes</a>
-					29 septembre 2024
-				</li>
-			</ul>
+			<article>
+	<header>
+		
+		<h1><a href="draft/debian-execute-task-before-and-after-suspend.html">Executer un script avant et apres la mise en veille</a></h1>
+		<span class="date">24 novembre 2024</span>
+		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
+		<span class="tags">
+			<span class="fa fa-flag"></span>
+			<a href="tag/debian.html">Debian</a><a href="tag/script.html">Script</a><a href="tag/systemd.html">Systemd</a>
+		</span>
+	</header>
+	<section><p>Pendant longtemps j'ai cherché à executer des scripts avant et/ou après la mise en veille de mon pc.</p>
+<p>Actuellement je m'en sers sur mon pc principal pour éteindre le RGB quand il rentre en veille, et le rellumer quand il sort de cette veille.</p>
+<h2>Comment qu'on fait</h2>
+<p>Si on fait un <code>man systemd-suspend.service</code> on y apprend que tous les executables dans <strong>/usr/lib/systemd/system-sleep/</strong> sont éxécuté avant et apres une mise en veille avec deux argument :</p>
+<ul>
+<li>'pre' ou 'post' suivant si il rentre en veille ou si il en sort.</li>
+<li>les typess de mise en veille 'suspend' ou 'hibernate' ...</li>
+</ul>
+<p>Donc on crais le dossier <strong>/usr/lib/systemd/system-sleep/</strong> si il n'existe pas.</p>
+<p>Et maintenant on peu y faire notre script :</p>
+<pre><code class="shell">#!/bin/bash
+if [ &quot;${1}&quot; == &quot;pre&quot; ]; then
+	echo &quot;le pc passe en veille&quot;
+elif [ &quot;${1}&quot; == &quot;post&quot; ]; then
+	echo &quot;le pc sort de veille&quot;
+fi
+</code></pre>
+</section>
+	<footer>
+		<em class="author">par Shionn, le 24 novembre 2024.</em>
+		<hr>
+	</footer>
+</article>
 		</div>
-		
-		
 		
 
 		<div class="side">
@@ -425,17 +425,9 @@
 	<script type="text/javascript" src="js/gallery.js"></script>
 	<script type="text/javascript" src="js/tree.js"></script>
 	
-		<script type="text/javascript" src="js/hljs/bash.min.js"></script>
-	
 		<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
 	
-		<script type="text/javascript" src="js/paint-db.js"></script>
-	
-		<script type="text/javascript" src="js/paint-equivalence-db.js"></script>
-	
-		<script type="text/javascript" src="js/paint-equivalence.js"></script>
-	
-		<script type="text/javascript" src="js/paint-guide.js"></script>
+		<script type="text/javascript" src="js/hljs/bash.min.js"></script>
 	
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.initHighlightingOnLoad();}</script>
