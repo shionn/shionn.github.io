@@ -15,5 +15,6 @@ Un mec me cassant les c######s régulierement sur twitch pour que je mette mes p
 ## Underworld
 
 - [Filles de Khaine](2024/underworld-dok.html)
+- [Seigneurs Ruinemânes](2024/underworld-soulblight.html)
 
 Pas d'insta, pas d'insta, pas d'insta.

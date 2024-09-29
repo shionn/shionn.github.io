@@ -9,6 +9,7 @@ category/wargame	War Game
 		2024/armee-elfes-noirs	Elfes Noirs
 	2024/mes-armees	Underworld
 		2024/underworld-dok	Fille de Khaine
+		2024/underworld-soulblight	Seigneurs Ruinemânes
 	tag/dungeon-and-laser	Dungeon and Laser
 		2024/dungeon-and-laser-encounters	Encounters
 	tag/peinture	Guide
