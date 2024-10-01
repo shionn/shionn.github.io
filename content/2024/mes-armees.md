@@ -3,10 +3,12 @@ Un mec me cassant les c######s régulierement sur twitch pour que je mette mes p
 
 ## Age of Sigmar
 
+- _à venir Fille de Khaine_
 - [Kruelboys](2024/kruelboyz-dominion.html)
 - [Nains (Citée de Simar)](2024/armee-naine-cos.html)
 - [Nighthaunt](2023/armee-nighthaunt.html)
 - [Skaven](2023/armee-skaven.html)
+- _à venir Vil du Fiel Obscure_
 
 ## Warhammer Battle
 
@@ -14,7 +16,11 @@ Un mec me cassant les c######s régulierement sur twitch pour que je mette mes p
 
 ## Underworld
 
-- [Filles de Khaine](2024/underworld-dok.html)
-- [Seigneurs Ruinemânes](2024/underworld-soulblight.html)
+- [Filles de Khaine](2024/underworld-dok.html) _3 bandes_
+- [Seigneurs Ruinemânes](2024/underworld-soulblight.html) _2 bandes_
+
+## Warcry
+
+- _à venir Fille de Khaine_
 
 Pas d'insta, pas d'insta, pas d'insta.
