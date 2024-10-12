@@ -1,5 +1,5 @@
 
-Un mec me cassant les c######s régulierement sur twitch pour que je mette mes photos de mes armee sur instagram, j'ai décidé de ne pas l'écouter et de le faire ici.
+Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes photos de mes armée sur instagram, j'ai décidé de ne pas l'écouter et de le faire ici.
 
 ## Age of Sigmar
 

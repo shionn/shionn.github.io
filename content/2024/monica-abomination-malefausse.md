@@ -20,11 +20,11 @@ pictures/skaven/monica/9.jpg
 
 [paints title="Peau"]
 Aplat	72120
-Eclaircissement	72108
-Eclaircissement	72107
-Glacie	72409
-Eclaircissement	72108
-Eclaircissement	72107
+Éclaircissement	72108
+Éclaircissement	72107
+Glacis	72409
+Éclaircissement	72108
+Éclaircissement	72107
 Rehaut	72100
 [/paints]
 

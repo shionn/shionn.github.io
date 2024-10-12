@@ -1,5 +1,5 @@
 
-Cette année j'ai choisi de réaliser enfin mon rêve de gosse, completer et peindre mon armée elfes noirs telle que je la voulais étant enfant.
+Cette année j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant enfant.
 
 Voici mon chaudron de sang en métal.
 Il provient d'un lot que j'ai acheté, David si tu passes par là, encore merci.
@@ -27,7 +27,7 @@ pictures/dark-elves/chaudron-de-sang/7.jpg
 
 [paints title="Jade"]
 Base	72027
-Eclaircissement	72026
+Éclaircissement	72026
 Rehaut	72025
 Rehaut	72121
 [/paints]

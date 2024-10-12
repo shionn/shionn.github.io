@@ -1,7 +1,8 @@
 
 Cette armée de Morruck Kruelboyz est composé de figurine de la boite Dominion, et de l'abonnement Stormbringer.
 
-J'ai eu deux boites dominion, pas de ma volonté. De la seconde boite je n'ai gardé que les 10 eventreurs et les 3 embrocheurs.
+J'ai eu deux boites dominion, pas de ma volonté. 
+De la seconde boite je n'ai gardé que les 10 éventreurs et les 3 Embrocheurs.
 Tous le reste à été donné ou vendu.
 Pourquoi en Violet ? je ne sais pas.
 

@@ -4,7 +4,7 @@
 Nginx est un reverse proxy.
 
 Un reverse proxy permet pas mal de choses entres autres :
-- Servir de point d'entrée à l'enssemble de vos serveur
+- Servir de point d'entrée à l'ensemble de vos serveur
 - Permet d'ajouter des headers
 - Permet d'ajouter une basic auth
 - Permet d'ajouter du HTTPS
@@ -13,9 +13,11 @@ Un reverse proxy permet pas mal de choses entres autres :
 ### Exemple
 
 Par exemple admettons que que votre nom de domaine "exemple.com" tape sur votre serveur Nginx.
-Admettons égallement que vous avez deux serveur __web1__ et __web2__ dans votre reseau privé qui ecoutent tous les deux sur le port 80.
+Admettons également que vous avez deux serveur __web1__ et __web2__ dans votre réseau privé qui écoutent tous les deux sur le port 80.
 
-Vous souhaitez que web1 répond à __https://web1.exemple.com__ et web2 répond à __https://web2.exemple.com__. Bon ben deja vos serveur ecoute sur le port 80 et non 443 et en plus seulement sur le reseau local. Ben un reverse proxy permet de résoudre tous ca.
+Vous souhaitez que web1 répond à __https://web1.exemple.com__ et web2 répond à __https://web2.exemple.com__. 
+Bon ben déjà vos serveur écoute sur le port 80 et non 443 et en plus seulement sur le réseau local. 
+Ben un reverse proxy permet de résoudre tous cela.
 
 ~~~
                             web1.exemple.com
@@ -27,20 +29,22 @@ internet                 \
                             web2.exemple.com
 ~~~
 
-Ca semble pas mal non ?
+Ça semble pas mal non ?
 
 ## Mais, y a toujours un _mais_
 
-Franchement Nginx c'est pas super agréable à configurer quand on est comme moi pas interressé par le reseau. Et puis faut gerer la signature des certificats SSL (c'est chiant).
+Franchement Nginx c'est pas super agréable à configurer quand on est comme moi pas intéressé par le réseau. 
+Et puis faut gérer la signature des certificats SSL (c'est chiant).
 
 C'est la qu'intervient __[Nginx proxy manager](https://nginxproxymanager.com/)__.
-Qui est une solution tout en un avec l'installation de nginx et d'une interface web pour faire tout ca simplement avec en plus la gestion des certificats SSL via let's encrypt.
-Et le seul défaut de cette solutiuon finalement c'est que ca marche sur docker.
+Qui est une solution tout en un avec l'installation de nginx et d'une interface web 
+pour faire tout ça simplement avec en plus la gestion des certificats SSL via let's encrypt.
+Et le seul défaut de cette solution finalement c'est que ça marche sur docker.
 
 ## Installation
 
-### Prérequis
-Installer docker. [procedure disponible ici](2024/docker-sur-debian.html)
+### Pré requis
+Installer docker. [procédure disponible ici](2024/docker-sur-debian.html)
 
 ### Configuration docker
 
@@ -63,9 +67,9 @@ services:
 
 ### Configuration reseau
 
-Rediriger les port 80 et 443 vers votre serveur.
+Re-diriger les port 80 et 443 vers votre serveur.
 
-## Execution
+## Exécution
 
 ### Lancer
 
@@ -75,7 +79,7 @@ docker-compose up -d
 
 ### Connexion
 
-Ca se passe sur le port 81. les Users par defaut sont : admin@example.com / changeme
+Ça se passe sur le port 81. les Users par défaut sont : admin@example.com / changeme
 
 ## Source
 [nginx](https://nginxproxymanager.com/guide/#quick-setup)

@@ -1,12 +1,12 @@
 
 Cette année j'ai choisi de réaliser enfin mon rêve de gosse,
-completer et peindre mon armée elfes noirs telle que je la voulais étant enfant.
+compléter et peindre mon armée elfes noirs telle que je la voulais étant enfant.
 
 Voici ma sorcière suprême en métal sur sang-froid.
 Elle provient d'un lot que j'ai acheté, David si tu passes par là, encore merci.
 Je l'ai décapée et repeinte.
-Parmis toute les versions de sang froid qui existe c'est clairement celle que j'aime le moins.
-Quoique j'aime encore moins les sang froid actuelle des saraphons.
+Parmi toute les versions de sang froid qui existe c'est clairement celle que j'aime le moins.
+Quoique j'aime encore moins les sang froid actuelle des Séraphons.
 
 Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 
@@ -23,7 +23,7 @@ pictures/dark-elves/sorciere-sg-froid/4.jpg
 
 [paints title="Ecaille Sang Froid"]
 Base	72027
-Eclaircissement	72026
+Éclaircissement	72026
 Rehaut	72025
 Rehaut	72121
 [/paints]
@@ -31,8 +31,8 @@ Rehaut	72121
 [paints title="Corp Sang Froid"]
 Base	72120
 Zénithal aero	72024
-Eclaircissement	72024
-Eclaircissement	72119
+Éclaircissement	72024
+Éclaircissement	72119
 Rehaut	72096
 [/paints]
 

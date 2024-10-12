@@ -1,7 +1,7 @@
 
-Cette année j'ai choisi de réaliser enfin mon rêve de gosse, completer et peindre mon armée elfes noirs telle que je la voulais étant gosse.
+Cette année j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant gosse.
 
-Voici mes corsairs elfe noir en métal.
+Voici mes corsaires elfe noir en métal.
 J'ai acheté ces figurines étant gamin, cela fait donc plus de 20 ans que ces figurines sont dans ma pile de la honte.
 
 Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
@@ -25,13 +25,13 @@ pictures/dark-elves/corsair/08.jpg
 
 [paints title="Interieur cape"]
 Base	72045
-Eclaircissement	72115
+Éclaircissement	72115
 Rehaut	72039
 [/paints]
 
 [paints title="Ecaille cape"]
 Base	72027
-Eclaircissement	72026
+Éclaircissement	72026
 Rehaut	72025
 Rehaut (dorsale)	72121
 [/paints]

@@ -1,8 +1,8 @@
 
-Cette année j'ai choisi de réaliser enfin mon rêve de gosse, completer et peindre mon armée elfes noirs telle que je la voulais étant enfant.
+Cette année j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant enfant.
 
 Voici deux baliste à répétition en métal.
-Je les ai acheté étant gamin. Je les ai décaper pour les repeindrent avec mon schémat et niveau actuel.
+Je les ai acheté étant gamin. Je les ai décaper pour les repeindre avec mon schéma et niveau actuel.
 
 Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 
@@ -28,8 +28,8 @@ pictures/dark-elves/balistes/7.jpg
 [paints title="Parchemin / Crane"]
 Base	72061
 Shade	24-11
-Eclaircissement	72061
-Eclaircissement	72034
+Éclaircissement	72061
+Éclaircissement	72034
 [/paints]
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées

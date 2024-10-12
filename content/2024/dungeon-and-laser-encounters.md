@@ -1,10 +1,12 @@
-En Juin 2022 j'ai KS le __[Dungeon and Laser Encounters](https://gamefound.com/fr/projects/archon-studio/encounters)__ de Archon Studio. Originellement pour les decorts pour mes wargames.
+En Juin 2022 j'ai KS le __[Dungeon and Laser Encounters](https://gamefound.com/fr/projects/archon-studio/encounters)__ de Archon Studio. 
+Originellement pour les décors pour mes wargames.
 
-Mais les figurines m'ont surpise de part leurs qualité et cela m'as encourager à prendre le KS suivant. Je me sers essentiellement de celle-ci pour faire des essais de technique de peinture ou de couleur, souvent à l'occasion de défis.
+Mais les figurines m'ont surprise de part leurs qualité et cela m'as encourager à prendre le KS suivant. 
+Je me sers essentiellement de celle-ci pour faire des essais de technique de peinture ou de couleur, souvent à l'occasion de défis.
 
 ## Swamp of Doom
-J'ai commencé par cette boite, car les arbes n'ayant pas de feuillage cela simplifiat le travail. J'ai utilisé ma
-recette classic de bois, j'ai simplement fait des glacies d'un vert jade par endroit.
+J'ai commencé par cette boite, car les arbres n'ayant pas de feuillage cela simplifiait le travail. 
+J'ai utilisé ma recette classique de bois, j'ai simplement fait des Glacis d'un vert jade par endroit.
 
 Les marais ont été peinte avec des glacies sur base de grissaille. J'ai simplement utilisé de l'eau tranquille de Vallejo par enrdoit. Tous comme le poisson, ceci est ma premiere utilisation de gamme xpress color.
 
@@ -29,7 +31,8 @@ Glacie	72417
 
 ## The elven Woods
 
-Rien de particulier sur cette boite. Pour les colinnes j'ai utilisé ma recette classique de pierre. Et par dessus j'ai fait divers glacie pour les détails.
+Rien de particulier sur cette boite. Pour les collines j'ai utilisé ma recette classique de pierre.
+Et par dessus j'ai fait divers Glacis pour les détails.
 
 [gallery h=200 w=300]
 pictures/dungeon-and-laser-encounters/elven-woods/1.jpg
@@ -54,7 +57,8 @@ pictures/dungeon-and-laser-encounters/sg/abomination/3.jpg
 [/gallery]
 
 ### Beauté de la Nature
-Cette figurine a été peinte pour le défi __Mars 2024 - Réveil de la nature de Karv__. Il s'agit de mon premier éssai de tissus transparent.
+Cette figurine a été peinte pour le défi __Mars 2024 - Réveil de la nature de Karv__. 
+Il s'agit de mon premier essai de tissus transparent.
 [gallery w=200 h=300]
 pictures/dungeon-and-laser-encounters/sg/beaute-nature/1.jpg
 pictures/dungeon-and-laser-encounters/sg/beaute-nature/2.jpg
@@ -102,7 +106,8 @@ pictures/dungeon-and-laser-encounters/sg/harpies/3.jpg
 [/gallery]
 
 ### Ogre
-Cette figurine a été peinte pour le défi __Janvier 2024 - Retour des fêtes de Karv__. J'ai beaucoup travaillé les couleurs de la peau en m'inspirant de la vidéo d'Angel Giraldez.
+Cette figurine a été peinte pour le défi __Janvier 2024 - Retour des fêtes de Karv__. 
+J'ai beaucoup travaillé les couleurs de la peau en m'inspirant de la vidéo d'Angel Giraldez.
 [gallery h=300 w=250]
 pictures/dungeon-and-laser-encounters/sg/ogre/1.jpg
 pictures/dungeon-and-laser-encounters/sg/ogre/2.jpg
@@ -110,13 +115,13 @@ pictures/dungeon-and-laser-encounters/sg/ogre/3.jpg
 [/gallery]
 
 [paints title="Peau"]
-Aero ombre	72120
-Aero base	72108
-Eclaircissement	72039
+Aéro ombre	72120
+Aéro base	72108
+Éclaircissement	72039
 Rehaut	72004
-Glacie Lumiere	72402
-Glacie Détail	72409
-Glacie Ombre	72415
+Glacis Lumière	72402
+Glacis Détail	72409
+Glacis Ombre	72415
 [/paints]
 
 ### Décorts
@@ -161,7 +166,7 @@ pictures/dungeon-and-laser-encounters/ssg/entree-mine-naine/2.jpg
 ### Tarrasque
 40cm de plaisir. Cette figurine a été peinte pour le défi __Octobre 2023 - Monster Inc de [OOM](https://onemoremini.fr/topic/572/d%C3%A9fi-octobre-2023-monster-inc)__.
 
-Je deteste peindre des grosses figurines, avoir un défi m'encourageant à le peindre a été le déclancheur sinon je ne l'aurais probablement jamais peint.
+Je déteste peindre des grosses figurines, avoir un défi m'encourageant à le peindre a été le déclencheur sinon je ne l'aurais probablement jamais peint.
 
 [gallery h=200 w=350]
 pictures/dungeon-and-laser-encounters/ssg/tarrasque/1.jpg
@@ -179,7 +184,8 @@ pictures/dungeon-and-laser-encounters/ssg/tour-guet/2.jpg
 
 
 ## Preview Deuslair
-Ces figurines sont d'une qualitée encore supérieur à celle présente dans ce KS. Ce qui m'as conforté dans ma décision de prendre le suivant.
+Ces figurines sont d'une qualité encore supérieur à celle présente dans ce KS. 
+Ce qui m'as conforté dans ma décision de prendre le suivant.
 
 ### Dragsa: Tu'ur
 Cette figurine a été peinte pour le défi __Mars 2024 - En mars et ca repart de [CFM](https://taverne.colorfulminis.com/t/defi-en-mars-et-ca-repart/5379)__.
@@ -194,7 +200,8 @@ pictures/dungeon-and-laser-encounters/dragsa/tu-ur/4.jpg
 ### Redoe: Rashers Golem
 Cette figurine a été peinte pour le défi __Décembre 2023 - Chants de Noël et d'hiver de [OOM](https://onemoremini.fr/topic/596/d%C3%A9fi-d%C3%A9cembre-2023-chants-de-no%C3%ABl-et-d-hiver)__.
 
-J'ai beaucoup travaillé le bois, mais j'y ai été totalement à l'impro et je ne me souviens pas du tous de la recette. Je sais que je suis parti d'une grissaille et qu'ensuite j'ai essayé d'utiliser des xpress color et pas mal de brossage dont du khaki.
+J'ai beaucoup travaillé le bois, mais j'y ai été totalement à l'impro et je ne me souviens pas du tous de la recette. 
+Je sais que je suis parti d'une grisaille et qu'ensuite j'ai essayé d'utiliser des xpress color et pas mal de brossage dont du khaki.
 
 [gallery h=300 w=250]
 pictures/dungeon-and-laser-encounters/redoe/rashers-golem/1.jpg

@@ -1,10 +1,10 @@
 
 Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
-Accomplir enfin mon rêve de gosse, completer et peindre mon armée elfes noirs tel que je la voulais étant gosse.
+Accomplir enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs tel que je la voulais étant gosse.
 
-J'ai choisi d'organisé les figurines celon la V6 qui celle que je jouais ado.
+J'ai choisi d'organiser les figurines celons la V6 qui celle que je jouais ado.
 
-## Seigneurs & Heros
+## Seigneurs & Héros
 
 Il devrais y avoir à terme :
 - Assassins
@@ -12,9 +12,9 @@ Il devrais y avoir à terme :
 - Lokhir Fellheart (Maitre d'arche noire)
 - Malus darkblade
 - Morathi
-- Porteur de la Grande Banniere
+- Porteur de la Grande Bannière
 
-### Sorcière supreme
+### Sorcière suprême
 
 Elle provient d'un lot que j'ai acheté, David si tu passes par là, encore merci.
 Je l'ai décapée et repeinte.
@@ -35,26 +35,26 @@ pictures/dark-elves/sorciere-supreme/6.jpg
 
 [paints title="Tissu violet froid"]
 Base	72112
-Eclaircissement	72015
-Eclaircissement	72076
+Éclaircissement	72015
+Éclaircissement	72076
 Rehaut	72114
-Glacie	72112
+Glacis	72112
 [/paints]
 
 [paints title="Tissu violet chaud"]
 Base	72112
-Eclaircissement	72113
-Eclaircissement	72014
+Éclaircissement	72113
+Éclaircissement	72014
 Rehaut	72013
-Glacie	72112
+Glacis	72112
 [/paints]
 
-### Sorcière supreme s/ Sang Froid
+### Sorcière suprême s/ Sang Froid
 
 Elle provient d'un lot que j'ai acheté, David si tu passes par là, encore merci.
 Je l'ai décapée et repeinte.
-Parmis toute les versions de sang froid qui existe c'est clairement celle que j'aime le moins.
-Quoique j'aime encore moins les sang froid actuelle des saraphons.
+Parmi toute les versions de sang froid qui existe c'est clairement celle que j'aime le moins.
+Quoique j'aime encore moins les sang froid actuelle des Séraphons.
 
 [gallery w=200 h=250]
 pictures/dark-elves/sorciere-sg-froid/1.jpg
@@ -65,20 +65,20 @@ pictures/dark-elves/sorciere-sg-froid/4.jpg
 
 * Peinte en Mai 2024.
 * Environ 5h.
-* Soumise au défis __FDC - case héro ou personnage - de Whisp__.
+* Soumise au défis __FDC - case héros ou personnage - de Whisp__.
 
 [paints title="Ecaille Sang Froid"]
 Base	72027
-Eclaircissement	72026
+Éclaircissement	72026
 Rehaut	72025
 Rehaut	72121
 [/paints]
 
 [paints title="Corp Sang Froid"]
 Base	72120
-Zénithal aero	72024
-Eclaircissement	72024
-Eclaircissement	72119
+Zénithal aéro	72024
+Éclaircissement	72024
+Éclaircissement	72119
 Rehaut	72096
 [/paints]
 
@@ -89,7 +89,7 @@ Reste à faire :
 - Cavalier Noire
 - Guerrier Elfe Noir
 
-### Corsair des Arches Noires
+### Corsaires des Arches Noires
 J'ai acheté ces figurines étant gamin, cela fait donc plus de 20 ans que ces figurines sont dans ma pile de la honte.
 
 - Figurines en métal de 99.
@@ -112,14 +112,14 @@ pictures/dark-elves/corsair/08.jpg
 
 [paints title="Ecaille cape"]
 Base	72027
-Eclaircissement	72026
+Éclaircissement	72026
 Rehaut	72025
 Rehaut (dorsale)	72121
 [/paints]
 
 [paints title="Interieur cape"]
 Base	72045
-Eclaircissement	72115
+Éclaircissement	72115
 Rehaut	72039
 [/paints]
 
@@ -138,7 +138,7 @@ Certains m'ont été offerts (merci Ardien si tu passe par la) quand aux autres 
 * Peinte en Juillet 2024.
 * Environ 18h environ.
 * Soumise au défis __FDC - case choix libre - de Whisp__.
-* Le glyph sur le port étendart représente la cité de Har Ganeth
+* Le glyphe sur le port étendard représente la cité de Har Ganeth
 
 [gallery w=250 h=200]
 pictures/dark-elves/executeurs/01.jpg
@@ -154,8 +154,8 @@ pictures/dark-elves/executeurs/09.jpg
 
 ### Furies de Khaine
 
-J'ai acheté le QG étant gamin. Le reste proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore merci.
-J'**adore** les furies, j'ai ersé une larme quand j'ai commencé leur peinture.
+J'ai acheté le QG étant gamin. Le reste proviens de l'achat d'un lot, que j'ai décapé. David si tu passes par la encore merci.
+J'**adore** les furies, j'ai versé une larme quand j'ai commencé leur peinture.
 
 - Figurines en métal de 2000.
 - Peinte en Avril 2024.
@@ -186,7 +186,7 @@ pictures/dark-elves/furies/19.jpg
 
 [paints title="Peau femme"]
 Base	72108
-Eclaircissement	72107
+Éclaircissement	72107
 Rehaut	72100
 Ombre	72113
 [/paints]
@@ -196,8 +196,8 @@ Base	72053
 Ombrage 1	72054
 Ombrage 2	72054
 Ombrage 2	72051
-Eclaircissement	72052
-Glacie	24-22
+Éclaircissement	72052
+Glacis	24-22
 Rehaut	72052
 [/paints]
 
@@ -205,7 +205,8 @@ Rehaut	72052
 
 ### Baliste à répétition
 
-Je les ai acheté étant gamin. Je les ai décaper pour les repeindrent avec mon schémat et niveau actuel.
+Je les ai acheté étant gamin. 
+Je les ai décaper pour les repeindre avec mon schéma et niveau actuel.
 
 * Peinte en Avril 2024.
 * Environ 11h pour les deux.
@@ -229,18 +230,20 @@ pictures/dark-elves/balistes/7.jpg
 [paints title="Parchemin / Crane"]
 Base	72061
 Shade	24-11
-Eclaircissement	72061
-Eclaircissement	72034
+Éclaircissement	72061
+Éclaircissement	72034
 [/paints]
 
-### Chaudron de Sang et Reine Matriache
+### Chaudron de Sang et Reine Matriarche
 
-Proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore merci. Qu'est ce que je voulais cet fig étant petit.
+Proviens de l'achat d'un lot, que j'ai décapé. 
+David si tu passes par la encore merci. 
+Qu'est ce que je voulais cet fig étant petit.
 
 * Figurine en métal de 1999/2001.
 * Peinte en Mai 2024.
 * Environ 16h.
-* Peinte pour le défis __Mai 2024 - Fait ce qu'il te plait - de Karv__.
+* Peinte pour le défis __Mai 2024 - Fait ce qu'il te plaît - de Karv__.
 
 [gallery w=180 h=200]
 pictures/dark-elves/chaudron-de-sang/1.jpg
@@ -256,7 +259,7 @@ pictures/dark-elves/chaudron-de-sang/7.jpg
 
 [paints title="Jade"]
 Base	72027
-Eclaircissement	72026
+Éclaircissement	72026
 Rehaut	72025
 Rehaut	72121
 [/paints]
@@ -264,8 +267,8 @@ Rehaut	72121
 ### Hydre de Guerre
 
 Voici mon hydre de guerre en métal.
-Cette figurine m'as été offerte par un certain David que je remerci si il passe par la.
-Je me suis inspiré de la peinture du sang froid de l'a sorciere supreme.
+Cette figurine m'as été offerte par un certain David que je remercie si il passe par la.
+Je me suis inspiré de la peinture du sang froid de l'a sorcière suprême.
 
 * Peinte en Juin 2024.
 * Environ 11h pour l'hydre et 6h pour les suivant.
@@ -284,14 +287,14 @@ pictures/dark-elves/hydre-de-guerre/07.jpg
 
 [paints title="Ecaille Orange"]
 Base	72106
-Eclaircissement	72009
-Eclaircissement	72008
+Éclaircissement	72009
+Éclaircissement	72008
 Rehaut	72110
 [/paints]
 
 [paints title="Griffe"]
 Base	72045
-Eclaircissement	72061
+Éclaircissement	72061
 Rehaut	72034
 [/paints]
 
@@ -300,21 +303,21 @@ Rehaut	72034
 
 [paints title="Cuir bourse"]
 Base	72045
-Eclaircissement	72043
-Eclaircissement	72039
+Éclaircissement	72043
+Éclaircissement	72039
 Corde	72061
 [/paints]
 
 [paints title="Metal sombre"]
 Base	72051
-Eclaircissement	72054
+Éclaircissement	72054
 Rehaut	72053
 [/paints]
 
 [paints title="Peau homme"]
 Base	72004
 Shade	24-09
-Eclaircissement	72099
+Éclaircissement	72099
 Rehaut	72098
 [/paints]
 
@@ -333,15 +336,15 @@ Rehaut	72047
 
 [paints title="Terre"]
 Base	72062
-Eclaircissement	72029
-Eclaircissement	72032
-Glacie	24-08
+Éclaircissement	72029
+Éclaircissement	72032
+Glacis	24-08
 [/paints]
 
 [paints title="Or"]
 Base	72051
 Base	72066
-Eclaircissement	72057
+Éclaircissement	72057
 Ombrage *	72051
 Ombrage *	72045
 Rehaut	72055

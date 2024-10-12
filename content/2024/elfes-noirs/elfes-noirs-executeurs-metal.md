@@ -1,14 +1,14 @@
 
-Cette année j'ai choisi de réaliser enfin mon rêve de gosse, completer et peindre mon armée elfes noirs telle que je la voulais étant enfant.
+Cette année j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant enfant.
 
-Voici mes éxécuteurs en métal. Certains m'ont été offerts (merci Ardien si tu passe par la) quand aux autres je les ai acheté sur facebook le bon coin ou vinted.
+Voici mes exécuteurs en métal. Certains m'ont été offerts (merci Ardien si tu passe par la) quand aux autres je les ai acheté sur Facebook, le bon coin ou Vinted.
 
 Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 
 * Peinte en Juillet 2024.
 * Environ 18h environ.
 * Soumise au défis __FDC - case choix libre - de Whisp__.
-* Le glyph sur le port étendart représente la cité de Har Ganeth
+* Le glyphe sur le port étendard représente la cité de Har Ganeth
 
 [gallery w=250 h=200]
 pictures/dark-elves/executeurs/01.jpg

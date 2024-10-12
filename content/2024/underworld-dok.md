@@ -1,5 +1,6 @@
 
-Voici mes bandes Underworld affilié aux Daughter of Khaine. J'ai des bandes mais je n'y joue pas.
+Voici mes bandes Underworld affilié aux Daughter of Khaine. 
+J'ai des bandes mais je n'y joue pas.
 
 ## Les Lames de Khaine
 

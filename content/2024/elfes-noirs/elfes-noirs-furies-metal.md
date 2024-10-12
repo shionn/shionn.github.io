@@ -1,8 +1,9 @@
 
-Cette année j'ai choisi de réaliser enfin mon rêve de gosse, completer et peindre mon armée elfes noirs telle que je la voulais étant gosse.
+Cette année j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant gosse.
 
 Voici mes furies elfe noir en métal.
-J'ai acheté le QG étant gamin. Le reste proviens de l'achat d'un lot, que j'ai decapé. David si tu passes par la encore merci.
+J'ai acheté le QG étant gamin. Le reste proviens de l'achat d'un lot, que j'ai décapé. 
+David si tu passes par la encore merci.
 
 Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 
@@ -34,7 +35,7 @@ pictures/dark-elves/furies/19.jpg
 
 [paints title="Peau femme"]
 Base	72108
-Eclaircissement	72107
+Éclaircissement	72107
 Rehaut	72100
 Ombre	72113
 [/paints]
@@ -44,8 +45,8 @@ Base	72053
 Ombrage 1	72054
 Ombrage 2	72054
 Ombrage 2	72051
-Eclaircissement	72052
-Glacie	24-22
+Éclaircissement	72052
+Glacis	24-22
 Rehaut	72052
 [/paints]
 
