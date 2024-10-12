@@ -147,23 +147,24 @@
 			<article>
 	<header>
 		
-		<h1><a href="draft/debian-execute-task-before-and-after-suspend.html">Executer un script avant et apres la mise en veille</a></h1>
-		<span class="date">24 novembre 2024</span>
+		<h1><a href="draft/debian-execute-task-before-and-after-suspend.html">Exécuter un script avant et après la mise en veille</a></h1>
+		<span class="date">08 décembre 2024</span>
 		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
 		<span class="tags">
 			<span class="fa fa-flag"></span>
 			<a href="tag/debian.html">Debian</a><a href="tag/script.html">Script</a><a href="tag/systemd.html">Systemd</a><a href="tag/desktop.html">Desktop</a>
 		</span>
 	</header>
-	<section><p>Pendant longtemps j'ai cherché à executer des scripts avant et/ou après la mise en veille de mon pc.</p>
-<p>Actuellement je m'en sers sur mon pc principal pour éteindre le RGB quand il rentre en veille, et le rellumer quand il sort de cette veille.</p>
+	<section><p>Pendant longtemps j'ai cherché à exécuter des scripts avant et/ou après la mise en veille de mon pc.</p>
+<p>Actuellement je m'en sers sur mon pc principal pour éteindre le RGB quand il rentre en veille, et le rallumer quand il sort de cette veille.</p>
 <h2>Comment qu'on fait</h2>
-<p>Si on fait un <code>man systemd-suspend.service</code> on y apprend que tous les executables dans <strong>/usr/lib/systemd/system-sleep/</strong> sont éxécuté avant et apres une mise en veille avec deux argument :</p>
+<p>Si on fait un <code>man systemd-suspend.service</code> on y apprend que tous les exécutables
+dans <strong>/usr/lib/systemd/system-sleep/</strong> sont exécuté avant et après une mise en veille avec deux argument :</p>
 <ul>
 <li>'pre' ou 'post' suivant si il rentre en veille ou si il en sort.</li>
-<li>les typess de mise en veille 'suspend' ou 'hibernate' ...</li>
+<li>les types de mise en veille 'suspend' ou 'hibernate' ...</li>
 </ul>
-<p>Donc on crais le dossier <strong>/usr/lib/systemd/system-sleep/</strong> si il n'existe pas.</p>
+<p>Donc on craies le dossier <strong>/usr/lib/systemd/system-sleep/</strong> si il n'existe pas.</p>
 <p>Et maintenant on peu y faire notre script :</p>
 <pre><code class="shell">#!/bin/bash
 if [ &quot;${1}&quot; == &quot;pre&quot; ]; then
@@ -174,7 +175,7 @@ fi
 </code></pre>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 24 novembre 2024.</em>
+		<em class="author">par Shionn, le 08 décembre 2024.</em>
 		<hr>
 	</footer>
 </article>

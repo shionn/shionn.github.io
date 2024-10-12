@@ -1,10 +1,10 @@
 {
 	"type": "post",
-	"date": "2024/09/29",
+	"date": "2024/10/27",
 	"title": "PlatformIO, environnement de dev pour Arduino sur VSCode",
 	"tags": ["Arduino", "VSCode", "PlatformIO"],
 	"category": "Code",
-	"published": false,
+	"published": true,
 	"js" : [ "js/hljs/highlight.min.js", "js/hljs/cpp.min.js", "js/hljs/bash.min.js" ],
 	"author": "Shionn"
 }

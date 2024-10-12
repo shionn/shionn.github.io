@@ -159,7 +159,7 @@
 <p>Nginx est un reverse proxy.</p>
 <p>Un reverse proxy permet pas mal de choses entres autres :</p>
 <ul>
-<li>Servir de point d'entrée à l'enssemble de vos serveur</li>
+<li>Servir de point d'entrée à l'ensemble de vos serveur</li>
 <li>Permet d'ajouter des headers</li>
 <li>Permet d'ajouter une basic auth</li>
 <li>Permet d'ajouter du HTTPS</li>
@@ -167,8 +167,10 @@
 </ul>
 <h3>Exemple</h3>
 <p>Par exemple admettons que que votre nom de domaine &quot;exemple.com&quot; tape sur votre serveur Nginx.
-Admettons égallement que vous avez deux serveur <strong>web1</strong> et <strong>web2</strong> dans votre reseau privé qui ecoutent tous les deux sur le port 80.</p>
-<p>Vous souhaitez que web1 répond à <strong>https://web1.exemple.com</strong> et web2 répond à <strong>https://web2.exemple.com</strong>. Bon ben deja vos serveur ecoute sur le port 80 et non 443 et en plus seulement sur le reseau local. Ben un reverse proxy permet de résoudre tous ca.</p>
+Admettons également que vous avez deux serveur <strong>web1</strong> et <strong>web2</strong> dans votre réseau privé qui écoutent tous les deux sur le port 80.</p>
+<p>Vous souhaitez que web1 répond à <strong>https://web1.exemple.com</strong> et web2 répond à <strong>https://web2.exemple.com</strong>.
+Bon ben déjà vos serveur écoute sur le port 80 et non 443 et en plus seulement sur le réseau local.
+Ben un reverse proxy permet de résoudre tous cela.</p>
 <pre><code class="java">                            web1.exemple.com
                           --------------------&gt;[web1:80]
 *.exemple.com            /
@@ -177,15 +179,17 @@ internet                 \
                           --------------------&gt;[web2:8080/truc]
                             web2.exemple.com
 </code></pre>
-<p>Ca semble pas mal non ?</p>
+<p>Ça semble pas mal non ?</p>
 <h2>Mais, y a toujours un <em>mais</em></h2>
-<p>Franchement Nginx c'est pas super agréable à configurer quand on est comme moi pas interressé par le reseau. Et puis faut gerer la signature des certificats SSL (c'est chiant).</p>
+<p>Franchement Nginx c'est pas super agréable à configurer quand on est comme moi pas intéressé par le réseau.
+Et puis faut gérer la signature des certificats SSL (c'est chiant).</p>
 <p>C'est la qu'intervient <strong><a href="https://nginxproxymanager.com/" target="_blank">Nginx proxy manager</a></strong>.
-Qui est une solution tout en un avec l'installation de nginx et d'une interface web pour faire tout ca simplement avec en plus la gestion des certificats SSL via let's encrypt.
-Et le seul défaut de cette solutiuon finalement c'est que ca marche sur docker.</p>
+Qui est une solution tout en un avec l'installation de nginx et d'une interface web
+pour faire tout ça simplement avec en plus la gestion des certificats SSL via let's encrypt.
+Et le seul défaut de cette solution finalement c'est que ça marche sur docker.</p>
 <h2>Installation</h2>
-<h3>Prérequis</h3>
-<p>Installer docker. <a href="2024/docker-sur-debian.html">procedure disponible ici</a></p>
+<h3>Pré requis</h3>
+<p>Installer docker. <a href="2024/docker-sur-debian.html">procédure disponible ici</a></p>
 <h3>Configuration docker</h3>
 <p>Il faut créer un fichier de configuration docker.</p>
 <pre><code class="yaml">version: '3.8'
@@ -202,13 +206,13 @@ services:
       - ./letsencrypt:/etc/letsencrypt
 </code></pre>
 <h3>Configuration reseau</h3>
-<p>Rediriger les port 80 et 443 vers votre serveur.</p>
-<h2>Execution</h2>
+<p>Re-diriger les port 80 et 443 vers votre serveur.</p>
+<h2>Exécution</h2>
 <h3>Lancer</h3>
 <pre><code class="shell">docker-compose up -d
 </code></pre>
 <h3>Connexion</h3>
-<p>Ca se passe sur le port 81. les Users par defaut sont : admin@example.com / changeme</p>
+<p>Ça se passe sur le port 81. les Users par défaut sont : admin@example.com / changeme</p>
 <h2>Source</h2>
 <p><a href="https://nginxproxymanager.com/guide/#quick-setup" target="_blank">nginx</a>
 <a href="https://www.youtube.com/watch?v=qlcVx-k-02E&amp;t=321s" target="_blank">wolf</a></p>

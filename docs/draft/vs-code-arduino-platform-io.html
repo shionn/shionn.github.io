@@ -147,8 +147,8 @@
 			<article>
 	<header>
 		
-		<h1><a href="draft/vs-code-arduino-platform-io.html">PlatformIO, environnement de dev pour arduino sur VSCode</a></h1>
-		<span class="date">29 septembre 2024</span>
+		<h1><a href="draft/vs-code-arduino-platform-io.html">PlatformIO, environnement de dev pour Arduino sur VSCode</a></h1>
+		<span class="date">27 octobre 2024</span>
 		<a class="category" href="category/code.html"><span class="fa fa-folder-open"></span> Code</a>
 		<span class="tags">
 			<span class="fa fa-flag"></span>
@@ -158,32 +158,32 @@
 	<section><p>J'aime bien faire des bouts de code sur les Arduinos, il y a l'aspect des technologies récentes,
 mais surtout j'ai parfois l'agréable impression de coder sur de vieux ordinateur 8bit.
 Mais je n'aime pas utiliser l'éditeur officiel Arduino.
-Surtout qu'au final je travail rarement sur un arduino mais bien souvent sur d'autre board notamment les ESP.</p>
-<h1>Installation de PlatformIO</h1>
-<h2>Installation de VSCode</h2>
-<p>Télé charger et installer VSCode disponible ici : https://code.visualstudio.com/</p>
-<h2>Pré-requis</h2>
+Surtout qu'au final je travail rarement sur un Arduino mais bien souvent sur d'autre carte notamment les ESP.</p>
+<h2>Installation de PlatformIO</h2>
+<h3>Installation de VSCode</h3>
+<p>Télécharger et installer <a href="https://code.visualstudio.com/" target="_blank">VSCode disponible ici</a></p>
 <h3>Python</h3>
 <p>Il vous faut un environnement python 3 sur votre machine. Sous Debian il vous suffit d'installer python3-venv.
 Pour les autres systèmes vous pouvez regarder sur la <a href="https://docs.platformio.org/en/latest/faq/install-python.html" target="_blank">documentation de PlatformIO</a></p>
 <pre><code class="shell">sudo apt install python3-venv
 </code></pre>
 <h3>Communication série</h3>
-<p>Il vous faut la possibilité d'utiliser les ports séries. Sous Dedian il vous faut vous ajouter au group <strong>dialout</strong>.</p>
+<p>Il vous faut la possibilité d'utiliser les ports séries.
+Sous Dedian il vous faut vous ajouter au group <strong>dialout</strong>.</p>
 <pre><code class="shell">sudo usermod -a -G dialout $USER
 </code></pre>
 <p>Si cela ne suffit pas il faut aussi ajouter le group tty.</p>
-<h2>Installation de l'extension PlatformIo</h2>
+<h3>Installation de l'extension PlatformIo</h3>
 <p>Dans les extensions de VSCode, recherche et installer &quot;PlatformIO IDE&quot;.</p>
-<p>// insertion image</p>
-<h2>Autre extension</h2>
+<div class="gallery"><a href="pictures/arduino/platformio/extension-platform-io.png"><img src="pictures/arduino/platformio/extension-platform-io.png"></a></div>
+<h3>Autre extension</h3>
 <p>Venant d'éclipse j'aime bien l'extension : Eclipse Keymap</p>
-<h1>Premier projet</h1>
-<h2>Création d'un projet</h2>
+<h2>Premier projet</h2>
+<h3>Création d'un projet</h3>
 <p>En ouvrant l'extension de PlatformIO vous accédez à l'interface de création de projet.
 Il y a un nombre impressionnant de carte disponible.</p>
-<p>// insertion image</p>
-<h2>Structure</h2>
+<div class="gallery"><a href="pictures/arduino/platformio/creation-projet-1.png"><img src="pictures/arduino/platformio/creation-projet-1.png"></a><a href="pictures/arduino/platformio/creation-projet-2.png"><img src="pictures/arduino/platformio/creation-projet-2.png"></a></div>
+<h3>Structure</h3>
 <p>La Structure d'un projet sous PlatformIO est un peu différent de celui d'un projet avec l'ide Arduino.</p>
 <pre><code class="java">Répertoire Racine 
 |- plateformio.txt # un peu l'équivalent d'un pom.xml
@@ -198,7 +198,7 @@ Il y a un nombre impressionnant de carte disponible.</p>
 |  |     |- Bar.c
 |  |     |- Bar.h
 </code></pre>
-<h2>Faire clignoter une diode</h2>
+<h3>Faire clignoter une diode</h3>
 <p>Créer un projet et coller dans le fichier main ce code simple :</p>
 <pre><code class="cpp">#include &lt;Arduino.h&gt;
 
@@ -213,12 +213,11 @@ void loop() {
   delay(500);
 }
 </code></pre>
-<h2>Upload du code</h2>
-<p>Cliquer sur ce bouton et normalement la diode de votre carte clignotera :
-// inserer image</p>
-</section>
+<h3>Upload du code</h3>
+<p>Cliquer sur ce bouton et normalement la diode de votre carte clignotera :</p>
+<div class="gallery"><a href="pictures/arduino/platformio/upload-code.png"><img src="pictures/arduino/platformio/upload-code.png"></a></div></section>
 	<footer>
-		<em class="author">par Shionn, le 29 septembre 2024.</em>
+		<em class="author">par Shionn, le 27 octobre 2024.</em>
 		<hr>
 	</footer>
 </article>
