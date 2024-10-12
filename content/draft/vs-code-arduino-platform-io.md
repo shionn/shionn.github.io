@@ -1,51 +1,54 @@
 
 
-# Instalation de PlatformIO
+J'aime bien faire des bouts de code sur les Arduinos, il y a l'aspect des technologies récentes, 
+mais surtout j'ai parfois l'agréable impression de coder sur de vieux ordinateur 8bit. 
+Mais je n'aime pas utiliser l'éditeur officiel Arduino. 
+Surtout qu'au final je travail rarement sur un arduino mais bien souvent sur d'autre board notamment les ESP.
 
-J'aime bien faire des bouts de code sur les Arduinos, il y a l'aspect des technologies recentes, mais j'ai parfois l'agréable impression de coder sur de vieux ordinateur 8bit. 
-Mais je n'aime pas utiliser l'éditeur officiel Arduino. Surtout qu'au final je travail rarement sur un arduino mais bien souvent sur d'autre board notament les ESP.
+# Installation de PlatformIO
 
-## Instalation de VSCode
-Télécharger et installer VSCode disponible ici : https://code.visualstudio.com/
+## Installation de VSCode
+Télé charger et installer VSCode disponible ici : https://code.visualstudio.com/
 
-## Prérequis
+## Pré-requis
 ### Python
-Il vous faut un envirronement python3 sur votre machine. Sous debian il vous suffit d'installer python3-venv.
-Pour les autres system vous pouvez regarder du coder de la [documentation de PlatformIO](https://docs.platformio.org/en/latest/faq/install-python.html)
+Il vous faut un environnement python 3 sur votre machine. Sous Debian il vous suffit d'installer python3-venv.
+Pour les autres systèmes vous pouvez regarder sur la [documentation de PlatformIO](https://docs.platformio.org/en/latest/faq/install-python.html)
 
 ~~~shell
 sudo apt install python3-venv
 ~~~
 
-### Communication serie
-Il vous faut la possibilité d'utilisé les ports series. Sous linux il vous faut vous ajouter au group __dialout__.
+### Communication série
+Il vous faut la possibilité d'utiliser les ports séries. Sous Dedian il vous faut vous ajouter au group __dialout__.
 
 ~~~shell
 sudo usermod -a -G dialout $USER
 ~~~
 
-Si ca ne suffit pas il faut aussi ajouter le group tty.
+Si cela ne suffit pas il faut aussi ajouter le group tty.
 
-## Autre extention
-
-Venant de eclipse j'aime bien l'extension : Eclipse Keymap
-
-## Installation de l'extenssion PlatformIo
+## Installation de l'extension PlatformIo
 Dans les extensions de VSCode, recherche et installer "PlatformIO IDE".
 
 // insertion image
+
+## Autre extension
+
+Venant d'éclipse j'aime bien l'extension : Eclipse Keymap
 
 # Premier projet
 
 ## Création d'un projet
 
-En ouvrant l'extension de platformIO vous accedez à l'interface de création de projet. Il y a un nombre impressionant de board disponible. 
+En ouvrant l'extension de PlatformIO vous accédez à l'interface de création de projet.
+Il y a un nombre impressionnant de carte disponible. 
 
-// insertion des board
+// insertion image
 
 ## Structure
 
-La Structure d'un projet sous platformio est un peu différent de celui d'un projet avec l'ide Arduino. 
+La Structure d'un projet sous PlatformIO est un peu différent de celui d'un projet avec l'ide Arduino. 
 
 ~~~
 Répertoire Racine 
@@ -62,9 +65,9 @@ Répertoire Racine
 |  |     |- Bar.h
 ~~~
 
-## faire clignoter une led 
+## Faire clignoter une diode 
 
-Creer un projet et coller dans le fichier main ce code simple :
+Créer un projet et coller dans le fichier main ce code simple :
 
 ~~~cpp
 #include <Arduino.h>
@@ -81,10 +84,8 @@ void loop() {
 }
 ~~~
 
-## upload 
+## Upload du code
 
-Clicker sur ce bouton : 
-
+Cliquer sur ce bouton et normalement la diode de votre carte clignotera : 
 // inserer image
 
-Et normalement la led de votre carte clignotera :)
