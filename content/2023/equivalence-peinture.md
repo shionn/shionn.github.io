@@ -1,11 +1,12 @@
-Bonjour, cela fait uin moment que j'utilise mes propre tableau de conversion de couleur. Je vous les propose aujourd'hui.
+Bonjour, cela fait un moment que j'utilise mes propres tableaux de conversion de couleur. 
+Je vous les propose aujourd'hui.
 
 Voici mon tableau d'équivalence de peinture :
-* Le premier tableau est ma compilation des diverses sources que je corrige régulierement.
+* Le premier tableau est ma compilation des diverses sources que je corrige régulièrement.
 * Le second tableau contient les sources dont est tiré mon tableau.
-* Vous avez un filtre pour rechercher rapidement parmis les tableaux.
-* Les colonnes des tableaux sont triables.
-* Il y a probablememnt des erreurs qui se sont glissée !
+* Vous avez un filtre pour rechercher rapidement parmi les tableaux.
+* Les colonnes des tableaux sont triable.
+* Il y a probablement des erreurs qui se sont glissée !
 
 <form style="text-align: center;">
 	<label>
