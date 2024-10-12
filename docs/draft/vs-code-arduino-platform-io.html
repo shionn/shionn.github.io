@@ -155,33 +155,36 @@
 			<a href="tag/arduino.html">Arduino</a><a href="tag/vscode.html">VSCode</a><a href="tag/platformio.html">PlatformIO</a>
 		</span>
 	</header>
-	<section><h1>Instalation de PlatformIO</h1>
-<p>J'aime bien faire des bouts de code sur les Arduinos, il y a l'aspect des technologies recentes, mais j'ai parfois l'agréable impression de coder sur de vieux ordinateur 8bit.
-Mais je n'aime pas utiliser l'éditeur officiel Arduino. Surtout qu'au final je travail rarement sur un arduino mais bien souvent sur d'autre board notament les ESP.</p>
-<h2>Instalation de VSCode</h2>
-<p>Télécharger et installer VSCode disponible ici : https://code.visualstudio.com/</p>
-<h2>Prérequis</h2>
+	<section><p>J'aime bien faire des bouts de code sur les Arduinos, il y a l'aspect des technologies récentes,
+mais surtout j'ai parfois l'agréable impression de coder sur de vieux ordinateur 8bit.
+Mais je n'aime pas utiliser l'éditeur officiel Arduino.
+Surtout qu'au final je travail rarement sur un arduino mais bien souvent sur d'autre board notamment les ESP.</p>
+<h1>Installation de PlatformIO</h1>
+<h2>Installation de VSCode</h2>
+<p>Télé charger et installer VSCode disponible ici : https://code.visualstudio.com/</p>
+<h2>Pré-requis</h2>
 <h3>Python</h3>
-<p>Il vous faut un envirronement python3 sur votre machine. Sous debian il vous suffit d'installer python3-venv.
-Pour les autres system vous pouvez regarder du coder de la <a href="https://docs.platformio.org/en/latest/faq/install-python.html" target="_blank">documentation de PlatformIO</a></p>
+<p>Il vous faut un environnement python 3 sur votre machine. Sous Debian il vous suffit d'installer python3-venv.
+Pour les autres systèmes vous pouvez regarder sur la <a href="https://docs.platformio.org/en/latest/faq/install-python.html" target="_blank">documentation de PlatformIO</a></p>
 <pre><code class="shell">sudo apt install python3-venv
 </code></pre>
-<h3>Communication serie</h3>
-<p>Il vous faut la possibilité d'utilisé les ports series. Sous linux il vous faut vous ajouter au group <strong>dialout</strong>.</p>
+<h3>Communication série</h3>
+<p>Il vous faut la possibilité d'utiliser les ports séries. Sous Dedian il vous faut vous ajouter au group <strong>dialout</strong>.</p>
 <pre><code class="shell">sudo usermod -a -G dialout $USER
 </code></pre>
-<p>Si ca ne suffit pas il faut aussi ajouter le group tty.</p>
-<h2>Autre extention</h2>
-<p>Venant de eclipse j'aime bien l'extension : Eclipse Keymap</p>
-<h2>Installation de l'extenssion PlatformIo</h2>
+<p>Si cela ne suffit pas il faut aussi ajouter le group tty.</p>
+<h2>Installation de l'extension PlatformIo</h2>
 <p>Dans les extensions de VSCode, recherche et installer &quot;PlatformIO IDE&quot;.</p>
 <p>// insertion image</p>
+<h2>Autre extension</h2>
+<p>Venant d'éclipse j'aime bien l'extension : Eclipse Keymap</p>
 <h1>Premier projet</h1>
 <h2>Création d'un projet</h2>
-<p>En ouvrant l'extension de platformIO vous accedez à l'interface de création de projet. Il y a un nombre impressionant de board disponible.</p>
-<p>// insertion des board</p>
+<p>En ouvrant l'extension de PlatformIO vous accédez à l'interface de création de projet.
+Il y a un nombre impressionnant de carte disponible.</p>
+<p>// insertion image</p>
 <h2>Structure</h2>
-<p>La Structure d'un projet sous platformio est un peu différent de celui d'un projet avec l'ide Arduino.</p>
+<p>La Structure d'un projet sous PlatformIO est un peu différent de celui d'un projet avec l'ide Arduino.</p>
 <pre><code class="java">Répertoire Racine 
 |- plateformio.txt # un peu l'équivalent d'un pom.xml
 |--src
@@ -195,8 +198,8 @@ Pour les autres system vous pouvez regarder du coder de la <a href="https://docs
 |  |     |- Bar.c
 |  |     |- Bar.h
 </code></pre>
-<h2>faire clignoter une led</h2>
-<p>Creer un projet et coller dans le fichier main ce code simple :</p>
+<h2>Faire clignoter une diode</h2>
+<p>Créer un projet et coller dans le fichier main ce code simple :</p>
 <pre><code class="cpp">#include &lt;Arduino.h&gt;
 
 void setup() {
@@ -210,10 +213,9 @@ void loop() {
   delay(500);
 }
 </code></pre>
-<h2>upload</h2>
-<p>Clicker sur ce bouton :</p>
-<p>// inserer image</p>
-<p>Et normalement la led de votre carte clignotera :)</p>
+<h2>Upload du code</h2>
+<p>Cliquer sur ce bouton et normalement la diode de votre carte clignotera :
+// inserer image</p>
 </section>
 	<footer>
 		<em class="author">par Shionn, le 29 septembre 2024.</em>
