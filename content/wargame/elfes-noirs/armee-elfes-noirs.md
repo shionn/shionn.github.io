@@ -12,7 +12,23 @@ Il devrais y avoir à terme :
 - Lokhir Fellheart (Maitre d'arche noire)
 - Malus darkblade
 - Morathi
-- Porteur de la Grande Bannière
+
+### Porteur de la grand bannière Elfes Noirs
+
+Il provient d'un lot que j'ai acheté, David si tu passes par là, encore merci. Je n'ai pas eu à le décaper.
+
+- Peinte en Aout 2024.
+- Figurine exclusive à une boite d'armée de 2000.
+- Environ 3h30 environ.
+- Soumise au défis __FDC - case seigneur - de Whisp__.
+- Le glyphe sur l'étendard représente la grande bannière de Naggarith.
+
+[gallery w=150 h=250]
+pictures/dark-elves/porteur-gd-banniere/1.jpg
+pictures/dark-elves/porteur-gd-banniere/2.jpg
+pictures/dark-elves/porteur-gd-banniere/3.jpg
+pictures/dark-elves/porteur-gd-banniere/4.jpg
+[/gallery]
 
 ### Sorcière suprême
 
