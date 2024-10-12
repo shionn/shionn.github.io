@@ -688,6 +688,24 @@ pre code.java .hljs-string, pre code.shell .hljs-string {
 pre code.java .hljs-meta, pre code.shell .hljs-meta {
   color: #646464;
 }
+pre code.cpp .hljs-meta {
+  color: #da70d6;
+}
+pre code.cpp .hljs-meta .hljs-string {
+  color: #c98e76;
+}
+pre code.cpp .hljs-type {
+  color: #569cd6;
+}
+pre code.cpp .hljs-title, pre code.cpp .hljs-built_in {
+  color: #d4d4a4;
+}
+pre code.cpp .hljs-params {
+  color: #da70d6;
+}
+pre code.cpp .hljs-number {
+  color: #fad301;
+}
 
 article {
   margin-top: 3em;

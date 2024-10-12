@@ -28,4 +28,26 @@ pre {
 			color: #646464;
 		}
 	}
+	
+	code.cpp {
+		.hljs-meta {
+			color: #da70d6;
+			.hljs-string {
+				color: #c98e76;
+			}
+		}
+		.hljs-type {
+			color: #569cd6;
+		}
+		
+		.hljs-title, .hljs-built_in {
+			color: #d4d4a4;
+		}
+		.hljs-params {
+			color: #da70d6;
+		}
+		.hljs-number {
+			color: #fad301;
+		}
+	}
 }
