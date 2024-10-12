@@ -14,6 +14,35 @@ dans dconf-editor modifier la clef : `org.gnome.desktop.wm.keybindings`
 ### Desactiver pasword apres sleep
 installer dconf-editor modifier la clef `/org/gnome/desktop/screensaver lock-enable` à false
 
+### Le pc ne se met pas en veille
+Généralement un processus l'en enpeche. J'ai trouvé cette astuce sur Reddit. Pour connaitre ce processus vous pouvez entrer cette commande : 
+
+~~~shell
+dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager org.gnome.SessionManager.GetInhibitors
+~~~
+
+Cela vous donnera une réponse comme cela : 
+
+~~~shell
+method return time=1728730333.701330 sender=:1.28 -> destination=:1.303 serial=2481 reply_serial=2
+   array [
+      object path "/org/gnome/SessionManager/Inhibitor272"
+   ]
+~~~
+
+Ensuite on reprend le __/org/gnome/SessionManager/Inhibitor272__ qu'on met dans cette commande :
+
+~~~shell
+dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager/Inhibitor272 org.gnome.SessionManager.Inhibitor.GetAppId
+~~~
+
+Qui nous donnera ce résultat :
+
+~~~shell
+method return time=1728730410.581488 sender=:1.28 -> destination=:1.304 serial=2482 reply_serial=2
+   string "firefox"
+~~~
+
 ## Vim
 ### Desactiver le mode visual
 
