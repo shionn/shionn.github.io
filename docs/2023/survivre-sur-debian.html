@@ -165,6 +165,23 @@
 <p>dans dconf-editor modifier la clef : <code>org.gnome.desktop.wm.keybindings</code></p>
 <h3>Desactiver pasword apres sleep</h3>
 <p>installer dconf-editor modifier la clef <code>/org/gnome/desktop/screensaver lock-enable</code> à false</p>
+<h3>Le pc ne se met pas en veille</h3>
+<p>Généralement un processus l'en enpeche. J'ai trouvé cette astuce sur Reddit. Pour connaitre ce processus vous pouvez entrer cette commande :</p>
+<pre><code class="shell">dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager org.gnome.SessionManager.GetInhibitors
+</code></pre>
+<p>Cela vous donnera une réponse comme cela :</p>
+<pre><code class="shell">method return time=1728730333.701330 sender=:1.28 -&gt; destination=:1.303 serial=2481 reply_serial=2
+   array [
+      object path &quot;/org/gnome/SessionManager/Inhibitor272&quot;
+   ]
+</code></pre>
+<p>Ensuite on reprend le <strong>/org/gnome/SessionManager/Inhibitor272</strong> qu'on met dans cette commande :</p>
+<pre><code class="shell">dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager/Inhibitor272 org.gnome.SessionManager.Inhibitor.GetAppId
+</code></pre>
+<p>Qui nous donnera ce résultat :</p>
+<pre><code class="shell">method return time=1728730410.581488 sender=:1.28 -&gt; destination=:1.304 serial=2482 reply_serial=2
+   string &quot;firefox&quot;
+</code></pre>
 <h2>Vim</h2>
 <h3>Desactiver le mode visual</h3>
 <pre><code class="shell">echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
@@ -269,7 +286,7 @@ apt remove gnome-software
 </code></pre>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 28 septembre 2024</span>.</em>
+		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 12 octobre 2024</span>.</em>
 		<hr>
 	</footer>
 </article>
