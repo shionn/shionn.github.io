@@ -155,18 +155,18 @@
 			<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/desktop.html">Desktop</a><a href="tag/kit-survie.html">Kit Survie</a>
 		</span>
 	</header>
-	<section><p>Voici ma petite liste de truc est astuce sur debian.</p>
+	<section><p>Voici ma petite liste de truc est astuce sur Debian.</p>
 <h2>Gnome</h2>
 <h3>Pavucontrol</h3>
-<p>Outil pour mieux controller les peripheriques audio</p>
+<p>Outil pour mieux contrôler les périphériques audio</p>
 <pre><code class="shell">apt install pavucontrol
 </code></pre>
 <h3>ALT-F5 qui fait nimp</h3>
-<p>dans dconf-editor modifier la clef : <code>org.gnome.desktop.wm.keybindings</code></p>
+<p>Dans dconf-editor modifier la clef : <code>org.gnome.desktop.wm.keybindings</code></p>
 <h3>Desactiver pasword apres sleep</h3>
-<p>installer dconf-editor modifier la clef <code>/org/gnome/desktop/screensaver lock-enable</code> à false</p>
+<p>Installer dconf-editor modifier la clef <code>/org/gnome/desktop/screensaver lock-enable</code> à false</p>
 <h3>Le pc ne se met pas en veille</h3>
-<p>Généralement un processus l'en enpeche. J'ai trouvé cette astuce sur Reddit. Pour connaitre ce processus vous pouvez entrer cette commande :</p>
+<p>Généralement un processus l'en empêche. J'ai trouvé cette astuce sur Reddit. Pour connaître ce processus vous pouvez entrer cette commande :</p>
 <pre><code class="shell">dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager org.gnome.SessionManager.GetInhibitors
 </code></pre>
 <p>Cela vous donnera une réponse comme cela :</p>
@@ -183,40 +183,40 @@
    string &quot;firefox&quot;
 </code></pre>
 <h2>Vim</h2>
-<h3>Desactiver le mode visual</h3>
+<h3>Désactiver le mode visual</h3>
 <pre><code class="shell">echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
 </code></pre>
 <h3>Pas de coloration syntaxique</h3>
 <pre><code class="shell">echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
 </code></pre>
 <h2>Cron</h2>
-<h3>cron au boot</h3>
+<h3>Cron au boot</h3>
 <pre><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
 </code></pre>
 <h2>Openrgb</h2>
-<p>Logiciel de control de peripherique de rgb</p>
+<p>Logiciel de contrôle de périphérique de rgb</p>
 <h3>Gskill et gigabyte</h3>
-<p>Le couple des mémoires Gskill sur une carte mere gigabyte ne marche pas fort. Ajouter l'option : <code>acpi_enforce_resources=lax</code> au boot du noyau.</p>
+<p>Le couple des mémoires Gskill sur une carte mère Gigabyte ne marche pas fort. Ajouter l'option : <code>acpi_enforce_resources=lax</code> au boot du noyau.</p>
 <pre><code class="shell">GRUB_CMDLINE_LINUX=&quot;acpi_enforce_resources=lax&quot;
 </code></pre>
-<p>installer également <code>i2c-dev</code></p>
+<p>Installer également <code>i2c-dev</code></p>
 <pre><code class="shell">apt install i2c-dev
 </code></pre>
-<p>Avant de lancer openrgb charger le module.</p>
+<p>Avant de lancer OpenRGB charger le module.</p>
 <pre><code class="shell">sudo modprobe i2c-dev
 </code></pre>
 <h2>Jeux</h2>
-<h3>Installer steam</h3>
-<p>Il faut ajouter les dépot <em>non-free</em> puis Ajouter des l'architecture i386 :</p>
+<h3>Installer Steam</h3>
+<p>Il faut ajouter les dépôts <em>non-free</em> puis Ajouter des l'architecture i386 :</p>
 <pre><code class="shell">sudo dpkg --add-architecture i386
 </code></pre>
-<p>Puis installation de steam :</p>
+<p>Puis installation de Steam :</p>
 <pre><code class="shell">sudo apt install steam
 </code></pre>
 <h3>Jeux comme au ralenti (Horizon Zero Dawn)</h3>
-<p>Ajouter l'option <strong>tsc=reliable</strong> aux noyeau</p>
+<p>Ajouter l'option <strong>tsc=reliable</strong> aux noyaux.</p>
 <h3>Son qui sature (Horizon Zero Dawn)</h3>
-<p>ajouter ̀<code>PULSE_LATENCY_MSEC=60 DRI_PRIME=1</code> à la commande de lancement</p>
+<p>Ajouter ̀<code>PULSE_LATENCY_MSEC=60 DRI_PRIME=1</code> à la commande de lancement</p>
 <h3>Utilitaire</h3>
 <ul>
 <li>Mangohud et Goverlay pour la config</li>
@@ -243,7 +243,7 @@ export WEBKIT_DISABLE_COMPOSITING_MODE=1
 </code></pre>
 <h2>Seveur</h2>
 <h3>Initialisation</h3>
-<p>Sur chacun de mes serveurs je commence par faire ca :</p>
+<p>Sur chacun de mes serveurs je commence par faire cela :</p>
 <pre><code class="shell">apt install bash-completion vim -y
 apt remove nano -y
 echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
@@ -252,7 +252,7 @@ echo &quot;alias ll=\&quot;ls -l\&quot;&quot; &gt;&gt; ~/.bashrc
 echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.bashrc
 </code></pre>
 <h3>Tomcat</h3>
-<p>Quand je veux deployé dans ROOT Je dois changer les droit d'acces dans le dossier ROOT de <code>/var/lib/tomcat10/webapps</code></p>
+<p>Quand je veux déployé dans ROOT je dois changer les droit d'accès dans le dossier ROOT de <code>/var/lib/tomcat10/webapps</code></p>
 <p>Pour répondre sur 80 dans le fichier : <code>/etc/tomcat10/server.xml</code></p>
 <h3>Tuto file serveur sur promox</h3>
 <p>J'aime pas les tuto youtube mais celui la est bien <a href="https://youtu.be/I7nfSCNKeck?si=uNb3HVNwdK8xJMQQ" target="_blank">MRP</a></p>
@@ -264,15 +264,17 @@ ACTION==&quot;add|change&quot;, KERNEL==&quot;sd[a-z]&quot;, ATTRS{queue/rotatio
 <h2>file system</h2>
 <h3>Samba et fstab</h3>
 <p>Créer un fichier <em>.smbcredentials</em> dans votre /home :</p>
-<pre><code class="java">username=votre user
+<pre><code class="shell">username=votre user
 password=votre mot de pass
 domaine=WORKGROUP
 </code></pre>
 <p>Installer le package <em>cifs-utils</em>.</p>
-<p>Editer votre fichier votre fichier fstab comme suit :</p>
-<pre><code class="java">//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
+<p>Éditer votre fichier votre fichier fstab comme suit :</p>
+<pre><code class="shell">//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
 </code></pre>
-<p>Puis recharger la configuration comme suit : <code>sudo systemctl daemon-reload</code></p>
+<p>Puis recharger la configuration comme suit :</p>
+<pre><code class="shell">sudo systemctl daemon-reload
+</code></pre>
 <h2>Ma config desktop</h2>
 <pre><code class="shell">apt install bash-completion vim
 apt remove nano
