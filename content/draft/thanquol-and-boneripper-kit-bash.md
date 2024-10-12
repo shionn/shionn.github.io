@@ -1,15 +1,20 @@
 
-Cela fait un moment que je voulais ma propre version de thanqol and boneripper. Mais pas la version moderne, je voulais la veille version. C'est à dire celle la : 
+Cela fait un moment que je voulais ma propre version de Thanquol and Boneripper. Mais pas la version moderne, je voulais la veille version. C'est à dire celle la : 
 [gallery w=400 h=300]
 pictures/skaven/rat-ogre-prophete-gris-kit-bash/thanquol-boneripper-classic.jpg
 [/gallery]
 
-Mais je voulais également qu'il y ai une inspiration du thanquol modern, c'est à dire que le prophéte gris soit monté sur le rat ogre. 
+Mais je voulais également qu'il y ai une inspiration du Thanquol moderne, c'est à dire que le prophète gris soit monté sur le rat ogre. 
 
-Avec la V4 de AOS, les rat ogres sont devenue jouable par 3 et non plus par 2. Hors je n'avais que 2 rat-ogre provenant d'une boite ile de sang. Il me falais donc que le ra-ogre soit jouable sans le prophete gris. Il falais aussi que le design du nouveau rat-ogre colle au design d'un rat-ogre de cette boite. 
-Je voulais également utilisé des pieces officiele provenant de GW, pas d'impression 3D.
+Avec la V4 de AOS, les rat ogres sont devenue jouable par 3 et non plus par 2. 
+Hors je n'avais que 2 rat-ogre provenant d'une boite île de sang. 
+Il me fallait donc que le ra-ogre soit jouable sans le prophète gris. 
+Il fallait aussi que le design du nouveau rat-ogre colle au design d'un rat-ogre de cette boite. 
+Je voulais également utilisé des pièces officielle provenant de GW, pas d'impression 3D.
 
-Je possede un creuset de la peste, qui est le même kit que la cloche hurlante. J'ai donc recuperé les pieces du rat ogre et prophete gris que je n'avais pas utilisé, j'ai ajouter un canon à malfoudre provenant des stormfiends. 
+Je possède un creuset de la peste, qui est le même kit que la cloche hurlante. 
+J'ai donc récupère les pièces du rat ogre et prophète gris que je n'avais pas utilisé, 
+j'ai ajouter un canon à malfoudre provenant des colosses de chocs. 
 
 [gallery w=300 h=300]
 pictures/skaven/rat-ogre-prophete-gris-kit-bash/cloche-hurlante.jpg

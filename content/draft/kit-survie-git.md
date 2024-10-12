@@ -1,5 +1,5 @@
 
-Annuler les changement :
+Annuler les changements :
 
 ~~~shell
 git reset --hard HEAD

@@ -1,4 +1,4 @@
-Page non référencé  mes collections perso.
+Page non référencé  mes collections personnelle.
 
 ## Peinture
 

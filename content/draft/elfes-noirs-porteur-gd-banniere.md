@@ -1,16 +1,16 @@
 
-Cette année j'ai choisi de réaliser enfin mon rêve de gosse, completer et peindre mon armée elfes noirs telle que je la voulais étant enfant.
+Cette année j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant enfant.
 
-Voici mon porteur de la grand banniere.
+Voici mon porteur de la grand bannière.
 Il provient d'un lot que j'ai acheté, David si tu passes par là, encore merci. Je n'ai pas eu à le décaper.
 
 Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 
 * Peinte en Aout 2024.
-* Figurine exlsuvive à une boite d'armée de 2000.
+* Figurine exclusive à une boite d'armée de 2000.
 * Environ 3h30 environ.
 * Soumise au défis __FDC - case seigneur - de Whisp__.
-* Le glyph sur l'étendart représente la grande banniere de naggarith.
+* Le glyphe sur l'étendard représente la grande bannière de Naggarith.
 
 [gallery w=150 h=250]
 pictures/dark-elves/porteur-gd-banniere/1.jpg
