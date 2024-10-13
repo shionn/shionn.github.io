@@ -102,5 +102,5 @@ pictures/arduino/platformio/upload-code.png
 
 Et normalement ca devrais clignoter comme dans cette magnifique vidéo flou : 
 
-<iframe style="margin: 0 auto; display: block" width="560" height="315" src="https://www.youtube-nocookie.com/embed/WaYvFZpZX_s?si=EBSovUOH9H-FfL9e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[youtube video="WaYvFZpZX_s?si=EBSovUOH9H-FfL9e"/]
 

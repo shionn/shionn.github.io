@@ -22,10 +22,10 @@ category/linux	Linux
 		2024/nginx-proxy-manager	Installation Nginx proxy manager
 	tag/desktop	Desktop
 		2023/survivre-sur-debian	Kit de Survie sur Debian
-//		2023/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille
-//category/code	Code
-//	tag/arduino	Arduino
-//		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode
+		2023/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille	2024-12-08
+category/code	Code	2024-10-27
+	tag/arduino	Arduino	2024-10-27
+		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode	2024-10-27
 https://web.archive.org/web/20210420064444/http://shionn.org/	Web Archive
 mailto:shionn@gmail.com	Contact
 	mailto:shionn@gmail.com	shionn@gmail.com
