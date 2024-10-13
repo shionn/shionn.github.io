@@ -5,6 +5,9 @@ mais surtout j'ai parfois l'agréable impression de coder sur de vieux ordinateu
 Mais je n'aime pas utiliser l'éditeur officiel Arduino. 
 Surtout qu'au final je travail rarement sur un Arduino mais bien souvent sur d'autre carte notamment les ESP.
 
+Dans ce petit tuto on va installer VSCode et ce qu'il faut pour coder avec le framework arduino.
+Puis nous verrons le classique tuto du clignotage de led.
+
 ## Installation de PlatformIO
 
 ### Installation de VSCode
@@ -96,4 +99,8 @@ Cliquer sur ce bouton et normalement la diode de votre carte clignotera :
 [gallery]
 pictures/arduino/platformio/upload-code.png
 [/gallery]
+
+Et normalement ca devrais clignoter comme dans cette magnifique vidéo flou : 
+
+<iframe style="margin: 0 auto; display: block" width="560" height="315" src="https://www.youtube-nocookie.com/embed/WaYvFZpZX_s?si=EBSovUOH9H-FfL9e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
