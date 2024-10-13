@@ -104,3 +104,6 @@ Et normalement ca devrais clignoter comme dans cette magnifique vidéo flou :
 
 [youtube video="WaYvFZpZX_s?si=EBSovUOH9H-FfL9e"/]
 
+Vous trouverez le code sur mon [github](https://github.com/shionn/ArduinoBlogTuto/tree/master/LedBlink)
+
+La prochaine fois nous verrons comment faire clignoter un ruban de diode WS2811 ou équivalent.
