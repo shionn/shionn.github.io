@@ -664,7 +664,7 @@ nav.main-menu ul ul ul li:hover {
 }
 
 pre {
-  border: 1px solid black;
+  border: 1px solid #d8ae47;
   border-radius: 3px;
   padding: .5em 1.5em;
   margin: 0 1em;
@@ -720,6 +720,7 @@ article h1, article h2, article h3, article h4, article h5, article h6 {
 article h1 {
   font-size: 1.4em;
   line-height: 1em;
+  text-align: center;
 }
 @media (min-width: 768px) {
   article h1 {
@@ -728,6 +729,7 @@ article h1 {
 }
 article h2 {
   font-size: 1.2em;
+  padding-left: 25px;
 }
 @media (min-width: 768px) {
   article h2 {
@@ -736,6 +738,7 @@ article h2 {
 }
 article h3 {
   font-size: 1.1em;
+  padding-left: 50px;
 }
 @media (min-width: 768px) {
   article h3 {
@@ -792,8 +795,14 @@ article header .date, article header .category, article header .tags {
     display: block;
   }
 }
+article header .date a, article header .category a, article header .tags a {
+  color: #d8ae47;
+}
 article header .tags a:not(:last-child)::after {
   content: ", ";
+}
+article footer {
+  margin-top: 15px;
 }
 article footer .author {
   font-size: larger;
@@ -823,9 +832,9 @@ article.short footer:after {
   position: relative;
   bottom: -.8em;
   left: 5%;
-  border-color: #333;
-  border-bottom-style: dashed;
-  border-bottom-width: 1px;
+  border-color: #d8ae47;
+  border-bottom-style: double;
+  border-bottom-width: 5px;
   display: block;
 }
 
@@ -976,6 +985,9 @@ footer.footer .container span a[title="CommonMark"] {
 }
 footer.footer .container span a[title="CommonMark"] i {
   font-size: x-small;
+}
+footer.footer .container span a[title="Draft"] {
+  color: #333;
 }
 
 .hidden {

@@ -79,6 +79,9 @@ footer.footer {
 					font-size: x-small;
 				}
 			}
+			a[title="Draft"] {
+				color: $theme-dark;
+			}
 		}
 	}
 }
