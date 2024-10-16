@@ -853,6 +853,9 @@ table.sort thead {
 table tr.hide {
   display: none;
 }
+table.boxed td {
+  border: 1px solid #d8ae47;
+}
 
 .paint-db, .paint-guide {
   min-width: 780px;

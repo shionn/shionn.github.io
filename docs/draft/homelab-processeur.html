@@ -141,52 +141,149 @@
 	</header>
 	<div class="container">
 		
+		
+		
 		<div class="main">
-			<ul>
-				<li>
-					<a href="draft/amd-ryzen.html">Astuce pour Amd Ryzen</a>
-					
-				</li>
-				<li>
-					<a href="draft/collection.html">Collections</a>
-					
-				</li>
-				<li>
-					<a href="draft/kit-survie-git.html">Kit de Survie avec Git</a>
-					
-				</li>
-				<li>
-					<a href="draft/warcry-dok.html">Rodeur de l&#39;ombre Khainites</a>
-					
-				</li>
-				<li>
-					<a href="draft/elfes-noirs-char-a-sang-froid-metal.html">Char à Sang Froid Elfes Noirs</a>
-					22 décembre 2024
-				</li>
-				<li>
-					<a href="draft/debian-execute-task-before-and-after-suspend.html">Exécuter un script avant et après la mise en veille</a>
-					08 décembre 2024
-				</li>
-				<li>
-					<a href="draft/thanquol-and-boneripper-kit-bash.html">Kitbash Thanquol and Boneripper</a>
-					24 novembre 2024
-				</li>
-				<li>
-					<a href="draft/elfes-noirs-gardes-noirs-metal.html">Gardes Noirs Elfes Noirs</a>
-					10 novembre 2024
-				</li>
-				<li>
-					<a href="draft/vs-code-arduino-platform-io.html">PlatformIO, environnement de dev pour Arduino sur VSCode</a>
-					27 octobre 2024
-				</li>
-				<li>
-					<a href="draft/homelab-processeur.html">Processeur pour HomeLab</a>
-					
-				</li>
-			</ul>
+			<article>
+	<header>
+		
+		<h1><a href="draft/homelab-processeur.html">Processeur pour HomeLab</a></h1>
+		<span class="date">31 janvier 2024</span>
+		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
+		<span class="tags">
+			<span class="fa fa-flag"></span>
+			<a href="tag/matos.html">Matos</a><a href="tag/server.html">Server</a>
+		</span>
+	</header>
+	<section><p>Si comme moi vous avez un homelab, ou si vous aimer simplement le matos informatique beaucoup trop cher,
+vous avez forcement du vous perdre un peu avec les références de ces processeurs.</p>
+<p>Je vais lister ici les diverses gammes de processeurs <strong>&quot;achetable&quot;</strong> que l'ont trouve sur le marché d'occasion (et chinois).</p>
+<h2>Processeur Intel Xeon</h2>
+<table class="boxed">
+	<thead>
+		<tr>
+			<th>Famille</th>
+			<th>Reference</th>
+			<th>Micro Arch.</th>
+			<th>Gravure</th>
+			<th>Socket</th>
+			<th>Memoire</th>
+			<th>Année</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td rowspan="4">Xeon E5</td>
+			<td>E5-x600-v1</td>
+			<td>Sandy Bridge</td>
+			<td rowspan="3">22 nm</td>
+			<td rowspan="2">LGA2011</td>
+			<td rowspan="2">DDR3</td>
+			<td>2011</td>
+		</tr>
+		<tr>
+			<td>E5-x600-v2</td>
+			<td>Ivy Bridge</td>
+			<td>2013</td>
+		</tr>
+		<tr>
+			<td>E5-x600-v3</td>
+			<td>Haswell</td>
+			<td rowspan="2">LGA2011-3</td>
+			<td>DDR3 / DRR4</td>
+			<td>2014</td>
+		</tr>
+		<tr>
+			<td>E5-x600-v4</td>
+			<td>Broadwell</td>
+			<td rowspan="3">14 nm</td>
+			<td rowspan="3">DRR4</td>
+			<td>2016</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Xeon W</td>
+			<td>W-x100</td>
+			<td>Skylake</td>
+			<td rowspan="2">LGA3647</td>
+			<td>2017</td>
+		</tr>
+		<tr>
+			<td>W-x200</td>
+			<td>Cascade Lake</td>
+			<td>2019</td>
+		</tr>
+	</tbody>
+</table>
+<h3>Xeon E5</h3>
+<p>Décodage d'une référence : <strong>E5-2650L v4</strong></p>
+<ul>
+<li>E5 : Gamme, il existe également E3 et E7.
+<ul>
+<li>E3 : est orienté <em>workstation</em></li>
+<li>E5 : serveur</li>
+<li>E7 : Serveur haut de gamme.</li>
+</ul>
+</li>
+<li>2 : nombre de socket maximal</li>
+<li>4/6 : desktop / serveur
+<ul>
+<li>4 socket desktop</li>
+<li>6 socket serveur</li>
+</ul>
+</li>
+<li>50 : SKU, influe sui le nombre de coeur / frequence.</li>
+<li>L : TDP
+<ul>
+<li>L : processeur basse consso</li>
+<li>? : je ne connais pas d'autre suffix</li>
+</ul>
+</li>
+<li>v4 : Architecture (cf tableau)
+<ul>
+<li>v1 : est generalement homis</li>
+</ul>
+</li>
+</ul>
+<h3>Xeon W</h3>
+<p>Décodage d'une référence : <strong>W-4245M</strong></p>
+<ul>
+<li>W- constante</li>
+<li>4 : Gamme Commercial :
+<ul>
+<li>3 : Bronze</li>
+<li>4 : Silver</li>
+<li>5/6 : Gold</li>
+<li>8/9 : Platinium</li>
+</ul>
+</li>
+<li>1 : Generation
+<ul>
+<li>1 : Skylake</li>
+<li>2 : Cascade Lake</li>
+</ul>
+</li>
+<li>45 : SKU</li>
+<li>M : Suffix
+<ul>
+<li>F : ???</li>
+<li>L : Peu supporter 4.5TiO de Ram</li>
+<li>M : Peu supporter 2TiO de Ram</li>
+<li>N : Special Network App</li>
+<li>R : ???</li>
+<li>S : Special Search App</li>
+<li>T : ???</li>
+<li>U : single socket</li>
+<li>V : ????</li>
+<li>Y : ????</li>
+</ul>
+</li>
+</ul>
+</section>
+	<footer>
+		<em class="author">par Shionn, le 31 janvier 2024.</em>
+	</footer>
+</article>
 		</div>
-		
-		
 		
 
 		<div class="side">
@@ -457,20 +554,6 @@
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/gallery.js"></script>
 	<script type="text/javascript" src="js/tree.js"></script>
-	
-		<script type="text/javascript" src="js/hljs/bash.min.js"></script>
-	
-		<script type="text/javascript" src="js/hljs/cpp.min.js"></script>
-	
-		<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
-	
-		<script type="text/javascript" src="js/paint-db.js"></script>
-	
-		<script type="text/javascript" src="js/paint-equivalence-db.js"></script>
-	
-		<script type="text/javascript" src="js/paint-equivalence.js"></script>
-	
-		<script type="text/javascript" src="js/paint-guide.js"></script>
 	
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.initHighlightingOnLoad();}</script>
