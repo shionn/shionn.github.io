@@ -88,7 +88,7 @@ Décodage d'une référence : __E5-2650L v4__
 ### Xeon W 
 
 Décodage d'une référence : __W-4245M__
-* W- constante
+* W- : Constante
 * 4 : Gamme Commercial : 
 	- 3 : Bronze
 	- 4 : Silver
