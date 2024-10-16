@@ -77,7 +77,7 @@ Décodage d'une référence : __E5-2650L v4__
 * 4/6 : desktop / serveur
 	- 4 socket desktop
 	- 6 socket serveur
-* 50 : SKU, influe sui le nombre de coeur / frequence. 
+* 50 : SKU, influe sur le nombre de coeur / frequence. 
 * L : TDP 
 	- L : processeur basse consso
 	- ? : je ne connais pas d'autre suffix
@@ -110,4 +110,91 @@ Décodage d'une référence : __W-4245M__
 	- V : ???? 
 	- Y : ????
 
+## Threadripper / Epyc
 
+<table class="boxed">
+	<thead>
+		<tr>
+			<th>Famille</th>
+			<th>Reference</th>
+			<th>Micro Arch.</th>
+			<th>Gravure</th>
+			<th>Core</th>
+			<th>Socket</th>
+			<th>Chipset</th>
+			<th>Memoire</th>
+			<th>Pcie</th>
+			<th>Année</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td rowspan="5">Threadripper</td>
+			<td>1900X</td>
+			<td>Zen</td>
+			<td>14 nm</td>
+			<td>8 à 16</td>
+			<td rowspan="2">sTR4</td>
+			<td rowspan="2">X399</td>
+			<td rowspan="5">DDR4</td>
+			<td rowspan="2">60x 3.0</td>
+			<td>2017</td>
+		</tr>
+		<tr>
+			<td>2900(W)X</td>
+			<td>Zen+</td>
+			<td>12 nm</td>
+			<td>12 à 32</td>
+			<td>2018</td>
+		</tr>
+		<tr>
+			<td>3900X</td>
+			<td rowspan="2">Zen 2</td>
+			<td rowspan="3">7 nm</td>
+			<td>24 à 64</td>
+			<td>sTR4x</td>
+			<td>TRX40</td>
+			<td>64x 4.0</td>
+			<td>2019</td>
+		</tr>
+		<tr>
+			<td>PRO 3900WX</td>
+			<td rowspan="2">12 à 64</td>
+			<td rowspan="2">sWRX8</td>
+			<td rowspan="2">WRX80</td>
+			<td rowspan="2">128x 4.0</td>
+			<td>2020</td>
+		</tr>
+		<tr>
+			<td>PRO 5900WX</td>
+			<td>Zen 3</td>
+			<td>2022</td>
+		</tr>
+		<tr>
+			<td rowspan="3">Epyc</td>
+			<td>7001</td>
+			<td>Zen</td>
+			<td>14 nm</td>
+			<td>8-32</td>
+			<td rowspan="3">SP3</td>
+			<td rowspan="3">SOC</td>
+			<td rowspan="3">DDR4</td>
+			<td>128x 3.0</td>
+			<td>2017</td>
+		</tr>
+		<tr>
+			<td>7002</td>
+			<td>Zen 2</td>
+			<td rowspan="2">7 nm</td>
+			<td rowspan="2">8-64</td>
+			<td rowspan="2">128x 4.0</td>
+			<td>2019</td>
+		</tr>
+		<tr>
+			<td>7003</td>
+			<td>Zen 3</td>
+			<td>2021</td>
+		</tr>
+	</tbody>
+</table>
+	

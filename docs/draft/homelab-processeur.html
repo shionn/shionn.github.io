@@ -167,6 +167,7 @@ vous avez forcement du vous perdre un peu avec les références de ces processeu
 			<th>Micro Arch.</th>
 			<th>Gravure</th>
 			<th>Socket</th>
+			<th>Chipset</th>
 			<th>Memoire</th>
 			<th>Année</th>
 		</tr>
@@ -178,6 +179,7 @@ vous avez forcement du vous perdre un peu avec les références de ces processeu
 			<td>Sandy Bridge</td>
 			<td rowspan="3">22 nm</td>
 			<td rowspan="2">LGA2011</td>
+			<td rowspan="2">X79/C602</td>
 			<td rowspan="2">DDR3</td>
 			<td>2011</td>
 		</tr>
@@ -190,6 +192,7 @@ vous avez forcement du vous perdre un peu avec les références de ces processeu
 			<td>E5-x600-v3</td>
 			<td>Haswell</td>
 			<td rowspan="2">LGA2011-3</td>
+			<td rowspan="2">X99/C612</td>
 			<td>DDR3 / DRR4</td>
 			<td>2014</td>
 		</tr>
@@ -205,6 +208,7 @@ vous avez forcement du vous perdre un peu avec les références de ces processeu
 			<td>W-x100</td>
 			<td>Skylake</td>
 			<td rowspan="2">LGA3647</td>
+			<td rowspan="2">X11/C621/C622</td>
 			<td>2017</td>
 		</tr>
 		<tr>
@@ -231,7 +235,7 @@ vous avez forcement du vous perdre un peu avec les références de ces processeu
 <li>6 socket serveur</li>
 </ul>
 </li>
-<li>50 : SKU, influe sui le nombre de coeur / frequence.</li>
+<li>50 : SKU, influe sur le nombre de coeur / frequence.</li>
 <li>L : TDP
 <ul>
 <li>L : processeur basse consso</li>
@@ -247,7 +251,7 @@ vous avez forcement du vous perdre un peu avec les références de ces processeu
 <h3>Xeon W</h3>
 <p>Décodage d'une référence : <strong>W-4245M</strong></p>
 <ul>
-<li>W- constante</li>
+<li>W- : Constante</li>
 <li>4 : Gamme Commercial :
 <ul>
 <li>3 : Bronze</li>
@@ -278,6 +282,92 @@ vous avez forcement du vous perdre un peu avec les références de ces processeu
 </ul>
 </li>
 </ul>
+<h2>Threadripper / Epyc</h2>
+<table class="boxed">
+	<thead>
+		<tr>
+			<th>Famille</th>
+			<th>Reference</th>
+			<th>Micro Arch.</th>
+			<th>Gravure</th>
+			<th>Core</th>
+			<th>Socket</th>
+			<th>Chipset</th>
+			<th>Memoire</th>
+			<th>Pcie</th>
+			<th>Année</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td rowspan="5">Threadripper</td>
+			<td>1900X</td>
+			<td>Zen</td>
+			<td>14 nm</td>
+			<td>8 à 16</td>
+			<td rowspan="2">sTR4</td>
+			<td rowspan="2">X399</td>
+			<td rowspan="5">DDR4</td>
+			<td rowspan="2">60x 3.0</td>
+			<td>2017</td>
+		</tr>
+		<tr>
+			<td>2900(W)X</td>
+			<td>Zen+</td>
+			<td>12 nm</td>
+			<td>12 à 32</td>
+			<td>2018</td>
+		</tr>
+		<tr>
+			<td>3900X</td>
+			<td rowspan="2">Zen 2</td>
+			<td rowspan="3">7 nm</td>
+			<td>24 à 64</td>
+			<td>sTR4x</td>
+			<td>TRX40</td>
+			<td>64x 4.0</td>
+			<td>2019</td>
+		</tr>
+		<tr>
+			<td>PRO 3900WX</td>
+			<td rowspan="2">12 à 64</td>
+			<td rowspan="2">sWRX8</td>
+			<td rowspan="2">WRX80</td>
+			<td rowspan="2">128x 4.0</td>
+			<td>2020</td>
+		</tr>
+		<tr>
+			<td>PRO 5900WX</td>
+			<td>Zen 3</td>
+			<td>2022</td>
+		</tr>
+		<tr>
+			<td rowspan="3">Epyc</td>
+			<td>7001</td>
+			<td>Zen</td>
+			<td>14 nm</td>
+			<td>8-32</td>
+			<td rowspan="3">SP3</td>
+			<td rowspan="3">SOC</td>
+			<td rowspan="3">DDR4</td>
+			<td>128x 3.0</td>
+			<td>2017</td>
+		</tr>
+		<tr>
+			<td>7002</td>
+			<td>Zen 2</td>
+			<td rowspan="2">7 nm</td>
+			<td rowspan="2">8-64</td>
+			<td rowspan="2">128x 4.0</td>
+			<td>2019</td>
+		</tr>
+		<tr>
+			<td>7003</td>
+			<td>Zen 3</td>
+			<td>2021</td>
+		</tr>
+	</tbody>
+</table>
 </section>
 	<footer>
 		<em class="author">par Shionn, le 31 janvier 2024.</em>

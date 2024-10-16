@@ -15,7 +15,7 @@ table {
 	tr.hide {
 		display: none;
 	}
-	&.boxed td {
+	&.boxed td, &.boxed th {
 		border: 1px solid $theme-color;
 	}
 	
