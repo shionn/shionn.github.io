@@ -16,6 +16,7 @@ Je vais lister ici les diverses gammes de processeurs __"achetable"__ que l'ont 
 			<th>Socket</th>
 			<th>Chipset</th>
 			<th>Memoire</th>
+			<th>Pcie</th>
 			<th>Année</th>
 		</tr>
 	</thead>
@@ -28,6 +29,7 @@ Je vais lister ici les diverses gammes de processeurs __"achetable"__ que l'ont 
 			<td rowspan="2">LGA2011</td>
 			<td rowspan="2">X79/C602</td>
 			<td rowspan="2">DDR3</td>
+			<td rowspan="4">40x 3.0</td>
 			<td>2011</td>
 		</tr>
 		<tr>
@@ -56,6 +58,7 @@ Je vais lister ici les diverses gammes de processeurs __"achetable"__ que l'ont 
 			<td>Skylake</td>
 			<td rowspan="2">LGA3647</td>
 			<td rowspan="2">X11/C621/C622</td>
+			<td rowspan="2">44x 3.0</td>
 			<td>2017</td>
 		</tr>
 		<tr>
