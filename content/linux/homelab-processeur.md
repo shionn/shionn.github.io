@@ -136,7 +136,7 @@ Décodage d'une référence : __W-4245M__
 			<td>1900X</td>
 			<td>Zen</td>
 			<td>14 nm</td>
-			<td>8 à 16</td>
+			<td>8-16</td>
 			<td rowspan="2">sTR4</td>
 			<td rowspan="2">X399</td>
 			<td rowspan="5">DDR4</td>
@@ -147,14 +147,14 @@ Décodage d'une référence : __W-4245M__
 			<td>2900(W)X</td>
 			<td>Zen+</td>
 			<td>12 nm</td>
-			<td>12 à 32</td>
+			<td>12-32</td>
 			<td>2018</td>
 		</tr>
 		<tr>
 			<td>3900X</td>
 			<td rowspan="2">Zen 2</td>
 			<td rowspan="3">7 nm</td>
-			<td>24 à 64</td>
+			<td>24-64</td>
 			<td>sTR4x</td>
 			<td>TRX40</td>
 			<td>64x 4.0</td>
@@ -162,7 +162,7 @@ Décodage d'une référence : __W-4245M__
 		</tr>
 		<tr>
 			<td>PRO 3900WX</td>
-			<td rowspan="2">12 à 64</td>
+			<td rowspan="2">12-64</td>
 			<td rowspan="2">sWRX8</td>
 			<td rowspan="2">WRX80</td>
 			<td rowspan="2">128x 4.0</td>
