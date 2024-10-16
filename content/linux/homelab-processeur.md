@@ -14,6 +14,7 @@ Je vais lister ici les diverses gammes de processeurs __"achetable"__ que l'ont 
 			<th>Micro Arch.</th>
 			<th>Gravure</th>
 			<th>Socket</th>
+			<th>Chipset</th>
 			<th>Memoire</th>
 			<th>Année</th>
 		</tr>
@@ -25,6 +26,7 @@ Je vais lister ici les diverses gammes de processeurs __"achetable"__ que l'ont 
 			<td>Sandy Bridge</td>
 			<td rowspan="3">22 nm</td>
 			<td rowspan="2">LGA2011</td>
+			<td rowspan="2">X79/C602</td>
 			<td rowspan="2">DDR3</td>
 			<td>2011</td>
 		</tr>
@@ -37,6 +39,7 @@ Je vais lister ici les diverses gammes de processeurs __"achetable"__ que l'ont 
 			<td>E5-x600-v3</td>
 			<td>Haswell</td>
 			<td rowspan="2">LGA2011-3</td>
+			<td rowspan="2">X99/C612</td>
 			<td>DDR3 / DRR4</td>
 			<td>2014</td>
 		</tr>
@@ -52,6 +55,7 @@ Je vais lister ici les diverses gammes de processeurs __"achetable"__ que l'ont 
 			<td>W-x100</td>
 			<td>Skylake</td>
 			<td rowspan="2">LGA3647</td>
+			<td rowspan="2">X11/C621/C622</td>
 			<td>2017</td>
 		</tr>
 		<tr>
