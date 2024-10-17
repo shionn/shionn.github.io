@@ -77,16 +77,18 @@ Décodage d'une référence : __E5-2650L v4__
 	- E3 : est orienté _workstation_
 	- E5 : serveur 
 	- E7 : Serveur haut de gamme.
-* 2 : nombre de socket maximal
+* 1/2/4 : nombre de socket maximal
 * 4/6 : desktop / serveur
-	- 4 socket desktop
+	- 4 socket desktop (à confirmé)
 	- 6 socket serveur
 * 50 : SKU, influe sur le nombre de coeur / frequence. 
-* L : TDP 
+* L : Suffix 
 	- L : processeur basse consso
 	- ? : je ne connais pas d'autre suffix
 * v4 : Architecture (cf tableau)
 	- v1 : est generalement homis
+
+
 
 
 ### Xeon W 
