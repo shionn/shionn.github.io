@@ -25,7 +25,7 @@ Je vais lister ici les diverses gammes de processeurs __"achetable"__ que l'ont 
 			<td rowspan="4">Xeon E5</td>
 			<td>E5-x600-v1</td>
 			<td>Sandy Bridge</td>
-			<td rowspan="3">32 nm</td>
+			<td>32 nm</td>
 			<td rowspan="2">LGA2011</td>
 			<td rowspan="2">X79/C602</td>
 			<td rowspan="2">DDR3</td>
