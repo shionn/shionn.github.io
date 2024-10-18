@@ -222,7 +222,7 @@ Décodage d'une référence : __W-4245M__
 			<td>8 / 16</td>
 			<td>4M / 16M</td>
 			<td>3.8 / 4</td>
-			<td rowspan="3">180W</td>
+			<td rowspan="5">180W</td>
 		</tr>
 		<tr>
 			<td>1920X</td>
@@ -241,7 +241,6 @@ Décodage d'une référence : __W-4245M__
 			<td>12 / 24</td>
 			<td>6M / 32M</td>
 			<td>3.5 / 4.3</td>
-			<td rowspan="2">180W</td>
 		</tr>
 		<tr>
 			<td>2950X</td>
