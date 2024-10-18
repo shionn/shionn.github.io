@@ -204,3 +204,63 @@ Décodage d'une référence : __W-4245M__
 	</tbody>
 </table>
 	
+<table class="boxed">
+	<thead>
+		<tr>
+			<th>Famille</th>
+			<th>Reference</th>
+			<th>Core / Thread</th>
+			<th>L2 / L3</th>
+			<th>Frequence</th>
+			<th>TDP</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td rowspan="7">Threadripper</td>
+			<td>1900X</td>
+			<td>8 / 16</td>
+			<td>4M / 16M</td>
+			<td>3.8 / 4</td>
+			<td rowspan="3">180W</td>
+		</tr>
+		<tr>
+			<td>1920X</td>
+			<td>12 / 24</td>
+			<td>6M / 32M</td>
+			<td>3.5 / 4</td>
+		</tr>
+		<tr>
+			<td>1950X</td>
+			<td>16 / 32</td>
+			<td>8M / 32M</td>
+			<td>3.4 / 4</td>
+		</tr>
+		<tr>
+			<td>2920X</td>
+			<td>12 / 24</td>
+			<td>6M / 32M</td>
+			<td>3.5 / 4.3</td>
+			<td rowspan="2">180W</td>
+		</tr>
+		<tr>
+			<td>2950X</td>
+			<td>16 / 32</td>
+			<td>8M / 32M</td>
+			<td>3.5 / 4.4</td>
+		</tr>
+		<tr>
+			<td>2970WX</td>
+			<td>24 / 48</td>
+			<td>12M / 64M</td>
+			<td>3 / 4.2</td>
+			<td rowspan="2">250W</td>
+		</tr>
+		<tr>
+			<td>2990WX</td>
+			<td>32 / 64</td>
+			<td>16M / 64M</td>
+			<td>3 / 4.2</td>
+		</tr>
+	</tbody>
+</table>
