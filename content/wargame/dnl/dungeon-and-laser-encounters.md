@@ -59,19 +59,21 @@ pictures/dungeon-and-laser-encounters/sg/abomination/3.jpg
 ### Araignée
 Ces figurines ont été peinte pour le défi __Avril 2024 Oeuf(s) de [OMM](https://taverne.colorfulminis.com/t/defi-avril-2024-oeuf-s/5436)__.
 
-[gallery w=200 h=300]
+[gallery w=500 h=200]
 pictures/dungeon-and-laser-encounters/sg/araignee/1.jpg
+[/gallery]
+[gallery w=200 h=200]
 pictures/dungeon-and-laser-encounters/sg/araignee/2.jpg
 pictures/dungeon-and-laser-encounters/sg/araignee/3.jpg
 pictures/dungeon-and-laser-encounters/sg/araignee/4.jpg
 pictures/dungeon-and-laser-encounters/sg/araignee/5.jpg
+[/gallery]
+[gallery w=200 h=150]
 pictures/dungeon-and-laser-encounters/sg/araignee/6.jpg
 pictures/dungeon-and-laser-encounters/sg/araignee/7.jpg
 pictures/dungeon-and-laser-encounters/sg/araignee/8.jpg
 pictures/dungeon-and-laser-encounters/sg/araignee/9.jpg
 [/gallery]
-
-
 
 ### Beauté de la Nature
 Cette figurine a été peinte pour le défi __Mars 2024 - Réveil de la nature de Karv__. 
@@ -98,7 +100,7 @@ pictures/dungeon-and-laser-encounters/sg/crabes/2.jpg
 
 ### Dryade
 Cette figurine a été peinte pour le défi __Fevrier 2024 - Fée de [CFM](https://taverne.colorfulminis.com/t/defi-fevrier-2024-fee/5340)__.
-[gallery h=300 w=250]
+[gallery w=200 h=300]
 pictures/dungeon-and-laser-encounters/sg/driade/1.jpg
 pictures/dungeon-and-laser-encounters/sg/driade/2.jpg
 pictures/dungeon-and-laser-encounters/sg/driade/3.jpg
@@ -199,6 +201,17 @@ pictures/dungeon-and-laser-encounters/ssg/tour-guet/1.jpg
 pictures/dungeon-and-laser-encounters/ssg/tour-guet/2.jpg
 [/gallery]
 
+### Ygrid la géante
+
+Cette figurine a été peinte pour le défi __Octobre 2024 - Pink Lady de [CFM](https://taverne.colorfulminis.com/t/defi-octobre-2024-pink-lady/5690)__.
+
+[gallery w=200 h=300]
+pictures/dungeon-and-laser-encounters/ssg/ygrid/01.jpg
+pictures/dungeon-and-laser-encounters/ssg/ygrid/02.jpg
+pictures/dungeon-and-laser-encounters/ssg/ygrid/03.jpg
+pictures/dungeon-and-laser-encounters/ssg/ygrid/04.jpg
+pictures/dungeon-and-laser-encounters/ssg/ygrid/05.jpg
+[/gallery]
 
 ## Preview Deuslair
 Ces figurines sont d'une qualité encore supérieur à celle présente dans ce KS. 
