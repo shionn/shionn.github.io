@@ -25,7 +25,7 @@ Je vais lister ici les diverses gammes de processeurs __"achetable"__ que l'ont 
 			<td rowspan="4">Xeon E5</td>
 			<td>E5-x600-v1</td>
 			<td>Sandy Bridge</td>
-			<td rowspan="3">22 nm</td>
+			<td>32 nm</td>
 			<td rowspan="2">LGA2011</td>
 			<td rowspan="2">X79/C602</td>
 			<td rowspan="2">DDR3</td>
@@ -35,6 +35,7 @@ Je vais lister ici les diverses gammes de processeurs __"achetable"__ que l'ont 
 		<tr>
 			<td>E5-x600-v2</td>
 			<td>Ivy Bridge</td>
+			<td rowspan="2">22 nm</td>
 			<td>2013</td>
 		</tr>
 		<tr>
@@ -76,16 +77,18 @@ Décodage d'une référence : __E5-2650L v4__
 	- E3 : est orienté _workstation_
 	- E5 : serveur 
 	- E7 : Serveur haut de gamme.
-* 2 : nombre de socket maximal
+* 1/2/4 : nombre de socket maximal
 * 4/6 : desktop / serveur
-	- 4 socket desktop
+	- 4 socket desktop (à confirmé)
 	- 6 socket serveur
 * 50 : SKU, influe sur le nombre de coeur / frequence. 
-* L : TDP 
+* L : Suffix 
 	- L : processeur basse consso
 	- ? : je ne connais pas d'autre suffix
 * v4 : Architecture (cf tableau)
 	- v1 : est generalement homis
+
+
 
 
 ### Xeon W 
@@ -201,3 +204,62 @@ Décodage d'une référence : __W-4245M__
 	</tbody>
 </table>
 	
+<table class="boxed">
+	<thead>
+		<tr>
+			<th>Famille</th>
+			<th>Reference</th>
+			<th>Core / Thread</th>
+			<th>L2 / L3</th>
+			<th>Frequence</th>
+			<th>TDP</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td rowspan="7">Threadripper</td>
+			<td>1900X</td>
+			<td>8 / 16</td>
+			<td>4M / 16M</td>
+			<td>3.8 / 4</td>
+			<td rowspan="5">180W</td>
+		</tr>
+		<tr>
+			<td>1920X</td>
+			<td>12 / 24</td>
+			<td>6M / 32M</td>
+			<td>3.5 / 4</td>
+		</tr>
+		<tr>
+			<td>1950X</td>
+			<td>16 / 32</td>
+			<td>8M / 32M</td>
+			<td>3.4 / 4</td>
+		</tr>
+		<tr>
+			<td>2920X</td>
+			<td>12 / 24</td>
+			<td>6M / 32M</td>
+			<td>3.5 / 4.3</td>
+		</tr>
+		<tr>
+			<td>2950X</td>
+			<td>16 / 32</td>
+			<td>8M / 32M</td>
+			<td>3.5 / 4.4</td>
+		</tr>
+		<tr>
+			<td>2970WX</td>
+			<td>24 / 48</td>
+			<td>12M / 64M</td>
+			<td>3 / 4.2</td>
+			<td rowspan="2">250W</td>
+		</tr>
+		<tr>
+			<td>2990WX</td>
+			<td>32 / 64</td>
+			<td>16M / 64M</td>
+			<td>3 / 4.2</td>
+		</tr>
+	</tbody>
+</table>
