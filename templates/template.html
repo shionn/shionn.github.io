@@ -32,7 +32,8 @@
 			<ul>
 				<li th:each="article : ${site.drafts}">
 					<a th:text="${article.title}" th:href="${article.url}"></a>
-					<th:block th:if="${article.autoPublished}" th:text="${article.formatedDate}"></th:block>
+					<th:block th:text="${article.formatedDate}"/>
+					<th:block th:if="${article.autoPublished}"><em>Auto</em></th:block>
 				</li>
 			</ul>
 		</div>

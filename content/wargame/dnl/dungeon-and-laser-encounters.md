@@ -56,6 +56,23 @@ pictures/dungeon-and-laser-encounters/sg/abomination/2.jpg
 pictures/dungeon-and-laser-encounters/sg/abomination/3.jpg
 [/gallery]
 
+### Araignée
+Ces figurines ont été peinte pour le défi __Avril 2024 Oeuf(s) de [OMM](https://taverne.colorfulminis.com/t/defi-avril-2024-oeuf-s/5436)__.
+
+[gallery w=200 h=300]
+pictures/dungeon-and-laser-encounters/sg/araignee/1.jpg
+pictures/dungeon-and-laser-encounters/sg/araignee/2.jpg
+pictures/dungeon-and-laser-encounters/sg/araignee/3.jpg
+pictures/dungeon-and-laser-encounters/sg/araignee/4.jpg
+pictures/dungeon-and-laser-encounters/sg/araignee/5.jpg
+pictures/dungeon-and-laser-encounters/sg/araignee/6.jpg
+pictures/dungeon-and-laser-encounters/sg/araignee/7.jpg
+pictures/dungeon-and-laser-encounters/sg/araignee/8.jpg
+pictures/dungeon-and-laser-encounters/sg/araignee/9.jpg
+[/gallery]
+
+
+
 ### Beauté de la Nature
 Cette figurine a été peinte pour le défi __Mars 2024 - Réveil de la nature de Karv__. 
 Il s'agit de mon premier essai de tissus transparent.
@@ -64,7 +81,7 @@ pictures/dungeon-and-laser-encounters/sg/beaute-nature/1.jpg
 pictures/dungeon-and-laser-encounters/sg/beaute-nature/2.jpg
 [/gallery]
 
-### Cerbere
+### Cerbère
 Cette figurine a été peinte pour le défi __Janvier 2024 - Mythologie de [OOM](https://onemoremini.fr/topic/601/d%C3%A9fi-janvier-2024-mythologie)__.
 [gallery h=200 w=300]
 pictures/dungeon-and-laser-encounters/sg/cerbere/1.jpg
@@ -79,7 +96,7 @@ pictures/dungeon-and-laser-encounters/sg/crabes/1.jpg
 pictures/dungeon-and-laser-encounters/sg/crabes/2.jpg
 [/gallery]
 
-### Driade
+### Dryade
 Cette figurine a été peinte pour le défi __Fevrier 2024 - Fée de [CFM](https://taverne.colorfulminis.com/t/defi-fevrier-2024-fee/5340)__.
 [gallery h=300 w=250]
 pictures/dungeon-and-laser-encounters/sg/driade/1.jpg
