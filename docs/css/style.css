@@ -838,6 +838,11 @@ article.short footer:after {
   display: block;
 }
 
+div.chaptering {
+  margin-top: 35px;
+  text-align: center;
+}
+
 table {
   margin: 8px auto 0;
 }

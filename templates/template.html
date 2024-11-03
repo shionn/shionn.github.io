@@ -24,9 +24,15 @@
 	</header>
 	<div class="container" th:switch="${mode}">
 		<div class="main" th:case="'index'">
-			<th:block th:each="article : ${site.lastArticles}">
+			<th:block th:each="article : ${site.getHomePageArticles(page)}">
 				<article th:replace="~{article :: articleshort (${article})}"></article>
 			</th:block>
+			<div class="chaptering">
+				<a th:if="${page == 1}" th:href="index.html">&lt;</a>
+				<a th:with="prev=${page -1}" th:if="${page > 1}" th:href="'index-'+${prev}+'.html'">&lt;</a>
+				<th:block th:text="${page}"/> / <th:block th:text="${site.homePageCount}"/> 
+				<a th:with="next=${page + 1}" th:if="${page < site.homePageCount}" th:href="'index-'+${next}+'.html'">&gt;</a>
+			</div>
 		</div>
 		<div class="main" th:case="'draft'">
 			<ul>
