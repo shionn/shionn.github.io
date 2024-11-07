@@ -22,5 +22,39 @@ Dans /etc/jellyfin/encoding.xml vous pouvez activer le support du HEVC ou AV1. a
 <AllowAv1Encoding>true</AllowAv1Encoding>
 ~~~
 
+## acceleration materiel 
+Ici j'utilise une intel A310. 
+
+### passthrought du GPU
+Sur votre proxmox dans /dev/dri vous devrier avoir quelque chose ressemblant à `renderDXXX`, dans mon cas j'ai `renderD128`.
+Ensuite il faut identifier l'ID du group `render` dans votre conteneur Jellyfin. 
+~~~bash
+getent group render
+~~~
+Dans mon cas cette commande me renvoi `render:x:104:jellyfin`. Ici ce qui m'interesse c'est `104`
+
+Maintenant qu'on a identifier le periférique et le group on peu passthrought notre composant. 
+Vous pouvez le faire via l'interface de proxmox
+
+TODO : invserer image
+
+Ou en ajoutant dans le fichier de cofniguration du container dans `/etc/pve/lxc/XXX.conf`:
+~~~bash
+dev0: /dev/dri/renderD128,gid=104
+~~~
+
+Une fois cela fait vous pouvez relancer votre conteneur et normalement dans /dev/dri vous devrriez retrouver votre périphérique en 660 avec root:render. 
+~~~bash
+root@Jellyfin:/dev/dri# ll
+total 0
+crw-rw---- 1 root render 226, 128 Nov  7 12:11 renderD128
+root@Jellyfin:/dev/dri# 
+~~~
+
+
+
+~~~bash
+apt install jellyfin-ffmpeg7
+~~~
 
 
