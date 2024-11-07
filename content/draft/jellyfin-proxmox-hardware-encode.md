@@ -51,6 +51,9 @@ crw-rw---- 1 root render 226, 128 Nov  7 12:11 renderD128
 root@Jellyfin:/dev/dri# 
 ~~~
 
+### Activer l'acceleration materiel :
+
+Il faut installer le package opencl, pour verifier si vous avz la bonne version faire un `apt policy intel-opencl-icd`. Si vous faut une version 23.xx. ou plus pour les intel ARC sinon un version 22.xx suffit. Si vous repo ne possede pas la bonne version vous pouvez telecharger les package depuis : [https://github.com/intel/compute-runtime/releases]. Ou en activant les (apt-pinning)[http://jaqque.sbih.org/kplug/apt-pinning.html].
 
 
 ~~~bash
