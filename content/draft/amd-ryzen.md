@@ -8,3 +8,15 @@ gaming	122	82	124
 heavy multi work	114	75	115
 lower power gaming	100	65	90 
 [/table]
+
+
+https://www.reddit.com/r/linux/comments/t7pxpk/are_all_of_your_usb_devices_disconnecting/
+
+echo -1 > /sys/module/usbcore/parameters/autosuspend
+
+et si ca corrige le probleme : 
+/etc/default/grub
+usbcore.autosuspend=-1 >> GRUB_CMDLINE_LINUX_DEFAULT
+sudo update-grub
+
+

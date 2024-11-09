@@ -174,6 +174,16 @@ Sol	72418
 Feuille	72416
 [/paints]
 
+### Caleche
+
+[paints title="Cheval"]
+Base	72048
+Éclaircissement	72050
+Éclaircissement	72049
+Éclaircissement	72047
+Éclaircissement	72001
+[/paints]
+
 ### Entrée de la Mine Naine
 Cette figurine a été peinte pour le défi __Mars 2024 - Routine de construction 7 2 1 lancée  de [OOM](https://onemoremini.fr/topic/618/d%C3%A9fi-mars-2024-routine-de-construction-7-2-1-lanc%C3%A9e)__.
 
