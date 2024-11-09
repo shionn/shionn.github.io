@@ -1,7 +1,7 @@
 Cette année j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant enfant.
 
 Voici mon premier pack de 20 guerrier elfe noir en plastique. 
-Proviens d'un lot d'une armée que j'ai racheter (merci David). 
+Proviens d'un lot d'une armée que j'ai racheté (merci David). 
 Je les ai décapé, décollé et recollé. Il y a eu de la perte :p
 
 * Peinte en Octobre 2024
@@ -14,8 +14,6 @@ pictures/dark-elves/garde-noir/03.jpg
 pictures/dark-elves/garde-noir/04.jpg
 pictures/dark-elves/garde-noir/05.jpg
 pictures/dark-elves/garde-noir/06.jpg
-pictures/dark-elves/garde-noir/07.jpg
-pictures/dark-elves/garde-noir/08.jpg
 [/gallery]
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
