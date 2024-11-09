@@ -280,6 +280,25 @@ Rehaut	72025
 Rehaut	72121
 [/paints]
 
+### Gardes Noirs de Naggarond
+
+Voici mes Gardes Noir de Naggarond en métal. J'ai peiné à les regrouper, je les ai acheté par petit lot sur Vinted, Facebook et LeBonCoin.
+
+* Peinte en Août 2024.
+* Environ 20h environ.
+* Figurine de 2000.
+
+[gallery w=250 h=200]
+pictures/dark-elves/garde-noir/01.jpg
+pictures/dark-elves/garde-noir/02.jpg
+pictures/dark-elves/garde-noir/03.jpg
+pictures/dark-elves/garde-noir/04.jpg
+pictures/dark-elves/garde-noir/05.jpg
+pictures/dark-elves/garde-noir/06.jpg
+pictures/dark-elves/garde-noir/07.jpg
+pictures/dark-elves/garde-noir/08.jpg
+[/gallery]
+
 ### Hydre de Guerre
 
 Voici mon hydre de guerre en métal.
