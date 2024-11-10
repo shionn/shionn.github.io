@@ -179,7 +179,7 @@ dans <strong>/usr/lib/systemd/system-sleep/</strong> sont exécuté avant et apr
 </ul>
 <p>Donc on craies le dossier <strong>/usr/lib/systemd/system-sleep/</strong> si il n'existe pas.</p>
 <p>Et maintenant on peu y faire notre script :</p>
-<pre><code class="shell">#!/bin/bash
+<pre class="shell"><code class="shell">#!/bin/bash
 if [ &quot;${1}&quot; == &quot;pre&quot; ]; then
 	echo &quot;le pc passe en veille&quot;
 elif [ &quot;${1}&quot; == &quot;post&quot; ]; then
