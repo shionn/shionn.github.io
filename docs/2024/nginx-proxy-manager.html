@@ -184,7 +184,7 @@ Admettons également que vous avez deux serveur <strong>web1</strong> et <strong
 <p>Vous souhaitez que web1 répond à <strong>https://web1.exemple.com</strong> et web2 répond à <strong>https://web2.exemple.com</strong>.
 Bon ben déjà vos serveur écoute sur le port 80 et non 443 et en plus seulement sur le réseau local.
 Ben un reverse proxy permet de résoudre tous cela.</p>
-<pre><code class="java">                            web1.exemple.com
+<pre class="java"><code class="java">                            web1.exemple.com
                           --------------------&gt;[web1:80]
 *.exemple.com            /
 --------------&gt;[ngix:443]
@@ -205,7 +205,7 @@ Et le seul défaut de cette solution finalement c'est que ça marche sur docker.
 <p>Installer docker. <a href="2024/docker-sur-debian.html">procédure disponible ici</a></p>
 <h3>Configuration docker</h3>
 <p>Il faut créer un fichier de configuration docker.</p>
-<pre><code class="yaml">version: '3.8'
+<pre class="yaml"><code class="yaml">version: '3.8'
 services:
   app:
     image: 'jc21/nginx-proxy-manager:latest'
@@ -222,7 +222,7 @@ services:
 <p>Re-diriger les port 80 et 443 vers votre serveur.</p>
 <h2>Exécution</h2>
 <h3>Lancer</h3>
-<pre><code class="shell">docker-compose up -d
+<pre class="shell"><code class="shell">docker-compose up -d
 </code></pre>
 <h3>Connexion</h3>
 <p>Ça se passe sur le port 81. les Users par défaut sont : admin@example.com / changeme</p>

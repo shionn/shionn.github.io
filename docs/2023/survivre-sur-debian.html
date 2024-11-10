@@ -172,7 +172,7 @@
 <h2>Gnome</h2>
 <h3>Pavucontrol</h3>
 <p>Outil pour mieux contrôler les périphériques audio</p>
-<pre><code class="shell">apt install pavucontrol
+<pre class="shell"><code class="shell">apt install pavucontrol
 </code></pre>
 <h3>ALT-F5 qui fait nimp</h3>
 <p>Dans dconf-editor modifier la clef : <code>org.gnome.desktop.wm.keybindings</code></p>
@@ -180,51 +180,51 @@
 <p>Installer dconf-editor modifier la clef <code>/org/gnome/desktop/screensaver lock-enable</code> à false</p>
 <h3>Le pc ne se met pas en veille</h3>
 <p>Généralement un processus l'en empêche. J'ai trouvé cette astuce sur Reddit. Pour connaître ce processus vous pouvez entrer cette commande :</p>
-<pre><code class="shell">dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager org.gnome.SessionManager.GetInhibitors
+<pre class="shell"><code class="shell">dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager org.gnome.SessionManager.GetInhibitors
 </code></pre>
 <p>Cela vous donnera une réponse comme cela :</p>
-<pre><code class="shell">method return time=1728730333.701330 sender=:1.28 -&gt; destination=:1.303 serial=2481 reply_serial=2
+<pre class="shell"><code class="shell">method return time=1728730333.701330 sender=:1.28 -&gt; destination=:1.303 serial=2481 reply_serial=2
    array [
       object path &quot;/org/gnome/SessionManager/Inhibitor272&quot;
    ]
 </code></pre>
 <p>Ensuite on reprend le <strong>/org/gnome/SessionManager/Inhibitor272</strong> qu'on met dans cette commande :</p>
-<pre><code class="shell">dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager/Inhibitor272 org.gnome.SessionManager.Inhibitor.GetAppId
+<pre class="shell"><code class="shell">dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager/Inhibitor272 org.gnome.SessionManager.Inhibitor.GetAppId
 </code></pre>
 <p>Qui nous donnera ce résultat :</p>
-<pre><code class="shell">method return time=1728730410.581488 sender=:1.28 -&gt; destination=:1.304 serial=2482 reply_serial=2
+<pre class="shell"><code class="shell">method return time=1728730410.581488 sender=:1.28 -&gt; destination=:1.304 serial=2482 reply_serial=2
    string &quot;firefox&quot;
 </code></pre>
 <h2>Vim</h2>
 <h3>Désactiver le mode visual</h3>
-<pre><code class="shell">echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
+<pre class="shell"><code class="shell">echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
 </code></pre>
 <h3>Pas de coloration syntaxique</h3>
-<pre><code class="shell">echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
+<pre class="shell"><code class="shell">echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
 </code></pre>
 <h2>Cron</h2>
 <h3>Cron au boot</h3>
-<pre><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
+<pre class="shell"><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
 </code></pre>
 <h2>Openrgb</h2>
 <p>Logiciel de contrôle de périphérique de rgb</p>
 <h3>Gskill et gigabyte</h3>
 <p>Le couple des mémoires Gskill sur une carte mère Gigabyte ne marche pas fort. Ajouter l'option : <code>acpi_enforce_resources=lax</code> au boot du noyau.</p>
-<pre><code class="shell">GRUB_CMDLINE_LINUX=&quot;acpi_enforce_resources=lax&quot;
+<pre class="shell"><code class="shell">GRUB_CMDLINE_LINUX=&quot;acpi_enforce_resources=lax&quot;
 </code></pre>
 <p>Installer également <code>i2c-dev</code></p>
-<pre><code class="shell">apt install i2c-dev
+<pre class="shell"><code class="shell">apt install i2c-dev
 </code></pre>
 <p>Avant de lancer OpenRGB charger le module.</p>
-<pre><code class="shell">sudo modprobe i2c-dev
+<pre class="shell"><code class="shell">sudo modprobe i2c-dev
 </code></pre>
 <h2>Jeux</h2>
 <h3>Installer Steam</h3>
 <p>Il faut ajouter les dépôts <em>non-free</em> puis Ajouter des l'architecture i386 :</p>
-<pre><code class="shell">sudo dpkg --add-architecture i386
+<pre class="shell"><code class="shell">sudo dpkg --add-architecture i386
 </code></pre>
 <p>Puis installation de Steam :</p>
-<pre><code class="shell">sudo apt install steam
+<pre class="shell"><code class="shell">sudo apt install steam
 </code></pre>
 <h3>Jeux comme au ralenti (Horizon Zero Dawn)</h3>
 <p>Ajouter l'option <strong>tsc=reliable</strong> aux noyaux.</p>
@@ -237,7 +237,7 @@
 </ul>
 <h2>Vidéo</h2>
 <h3>OBS pas de Vaapi</h3>
-<pre><code class="shell">apt instal mesa-va-drivers
+<pre class="shell"><code class="shell">apt instal mesa-va-drivers
 </code></pre>
 <h2>Steam Deck</h2>
 <h3>Calibrer les joystick</h3>
@@ -247,17 +247,17 @@
 <h2>Eclipse</h2>
 <h3>Eclipse erreur ouverture markdown</h3>
 <p>Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.</p>
-<pre><code class="shell">sudo apt install libwebkit2gtk-4.0-37
+<pre class="shell"><code class="shell">sudo apt install libwebkit2gtk-4.0-37
 </code></pre>
 <h3>eclipse wayland</h3>
-<pre><code class="shell">#/bin/bash
+<pre class="shell"><code class="shell">#/bin/bash
 export WEBKIT_DISABLE_COMPOSITING_MODE=1
 /path/to/eclipse/eclipse
 </code></pre>
 <h2>Seveur</h2>
 <h3>Initialisation</h3>
 <p>Sur chacun de mes serveurs je commence par faire cela :</p>
-<pre><code class="shell">apt install bash-completion vim -y
+<pre class="shell"><code class="shell">apt install bash-completion vim -y
 apt remove nano -y
 echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
 echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
@@ -271,25 +271,25 @@ echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.bashrc
 <p>J'aime pas les tuto youtube mais celui la est bien <a href="https://youtu.be/I7nfSCNKeck?si=uNb3HVNwdK8xJMQQ" target="_blank">MRP</a></p>
 <h3>hdparm spindown des disks :</h3>
 <p><a href="https://wiki.archlinux.org/title/Hdparm" target="_blank">source</a></p>
-<pre><code class="shell">#/etc/udev/rules.d/69-hdparm.rules
+<pre class="shell"><code class="shell">#/etc/udev/rules.d/69-hdparm.rules
 ACTION==&quot;add|change&quot;, KERNEL==&quot;sd[a-z]&quot;, ATTRS{queue/rotational}==&quot;1&quot;, RUN+=&quot;/usr/bin/hdparm -B 127 /dev/%k&quot;
 </code></pre>
 <h2>file system</h2>
 <h3>Samba et fstab</h3>
 <p>Créer un fichier <em>.smbcredentials</em> dans votre /home :</p>
-<pre><code class="shell">username=votre user
+<pre class="shell"><code class="shell">username=votre user
 password=votre mot de pass
 domaine=WORKGROUP
 </code></pre>
 <p>Installer le package <em>cifs-utils</em>.</p>
 <p>Éditer votre fichier votre fichier fstab comme suit :</p>
-<pre><code class="shell">//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
+<pre class="shell"><code class="shell">//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
 </code></pre>
 <p>Puis recharger la configuration comme suit :</p>
-<pre><code class="shell">sudo systemctl daemon-reload
+<pre class="shell"><code class="shell">sudo systemctl daemon-reload
 </code></pre>
 <h2>Ma config desktop</h2>
-<pre><code class="shell">apt install bash-completion vim
+<pre class="shell"><code class="shell">apt install bash-completion vim
 apt remove nano
 apt install gnome-shell gnome-terminal dconf-editor 
 apt install cifs-utils npt

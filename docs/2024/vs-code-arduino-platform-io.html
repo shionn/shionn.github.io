@@ -180,12 +180,12 @@ Puis nous verrons le classique tuto du clignotage de led.</p>
 <h3>Python</h3>
 <p>Il vous faut un environnement python 3 sur votre machine. Sous Debian il vous suffit d'installer python3-venv.
 Pour les autres systèmes vous pouvez regarder sur la <a href="https://docs.platformio.org/en/latest/faq/install-python.html" target="_blank">documentation de PlatformIO</a></p>
-<pre><code class="shell">sudo apt install python3-venv
+<pre class="shell"><code class="shell">sudo apt install python3-venv
 </code></pre>
 <h3>Communication série</h3>
 <p>Il vous faut la possibilité d'utiliser les ports séries.
 Sous Dedian il vous faut vous ajouter au group <strong>dialout</strong>.</p>
-<pre><code class="shell">sudo usermod -a -G dialout $USER
+<pre class="shell"><code class="shell">sudo usermod -a -G dialout $USER
 </code></pre>
 <p>Si cela ne suffit pas il faut aussi ajouter le group tty.</p>
 <h3>Installation de l'extension PlatformIo</h3>
@@ -200,7 +200,7 @@ Il y a un nombre impressionnant de carte disponible.</p>
 <div class="gallery"><a href="pictures/arduino/platformio/creation-projet-1.png"><img src="pictures/arduino/platformio/creation-projet-1.png"></a><a href="pictures/arduino/platformio/creation-projet-2.png"><img src="pictures/arduino/platformio/creation-projet-2.png"></a></div>
 <h3>Structure</h3>
 <p>La Structure d'un projet sous PlatformIO est un peu différent de celui d'un projet avec l'ide Arduino.</p>
-<pre><code class="java">Répertoire Racine 
+<pre class="java"><code class="java">Répertoire Racine 
 |- plateformio.txt # un peu l'équivalent d'un pom.xml
 |--src
 |  |- main.c
@@ -215,7 +215,7 @@ Il y a un nombre impressionnant de carte disponible.</p>
 </code></pre>
 <h3>Faire clignoter une diode</h3>
 <p>Créer un projet et coller dans le fichier main ce code simple :</p>
-<pre><code class="cpp">#include &lt;Arduino.h&gt;
+<pre class="cpp"><code class="cpp">#include &lt;Arduino.h&gt;
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
