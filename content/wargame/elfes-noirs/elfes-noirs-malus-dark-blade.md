@@ -19,3 +19,7 @@ pictures/dark-elves/malus-dark-blade/05.jpg
 pictures/dark-elves/malus-dark-blade/06.jpg
 pictures/dark-elves/malus-dark-blade/07.jpg
 [/gallery]
+
+Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
+sur la page dédiée à [Mon armée elfes noirs](2024/armee-elfes-noirs.html).
+

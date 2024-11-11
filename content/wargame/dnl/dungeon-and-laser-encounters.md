@@ -176,6 +176,20 @@ Feuille	72416
 
 ### Caleche
 
+Cette figurine a été peinte pour le défi __Novembre 2024 - Mad Drivers de [OOM](https://onemoremini.fr/topic/645/d%C3%A9fi-novembre-2024-mad-drivers)__.
+
+[gallery w=250 h=200]
+pictures/dungeon-and-laser-encounters/ssg/caravanne/01.jpg
+pictures/dungeon-and-laser-encounters/ssg/caravanne/02.jpg
+pictures/dungeon-and-laser-encounters/ssg/caravanne/03.jpg
+pictures/dungeon-and-laser-encounters/ssg/caravanne/04.jpg
+[/gallery]
+[gallery w=200 h=200]
+pictures/dungeon-and-laser-encounters/ssg/caravanne/05.jpg
+pictures/dungeon-and-laser-encounters/ssg/caravanne/06.jpg
+pictures/dungeon-and-laser-encounters/ssg/caravanne/07.jpg
+[/gallery]
+
 [paints title="Cheval"]
 Base	72048
 Éclaircissement	72050

@@ -139,6 +139,8 @@ En novembre j'ai peint :
 * pour mon défi chez __Karv__
 
 [gallery w=200 h=250]
+pictures/dungeon-and-laser-encounters/ssg/caravanne/01.jpg
+pictures/dark-elves/assassin/02.jpg
 [/gallery]
 
 ## Decembre 2024

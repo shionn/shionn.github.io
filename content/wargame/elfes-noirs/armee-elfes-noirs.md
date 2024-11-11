@@ -7,10 +7,25 @@ J'ai choisi d'organiser les figurines celons la V6 qui celle que je jouais ado.
 ## Seigneurs & Héros
 
 Il devrais y avoir à terme :
-- Assassins
 - Hellebron
 - Lokhir Fellheart (Maitre d'arche noire)
 - Morathi
+
+[after date="2025/02/01"]
+### Assassin
+
+Voici mon assassin en métal. J'ai acheté cette figurine il y a presque 25 ans.
+
+* Peinte en Novembre 2024
+* Environ 3h00
+* Soumise au défis __FDC - case héros ou personnage - de Whisp__.
+
+[gallery w=200 h=200]
+pictures/dark-elves/assassin/01.jpg
+pictures/dark-elves/assassin/02.jpg
+pictures/dark-elves/assassin/03.jpg
+[/gallery]
+[/after]
 
 [after date="2025/01/22"]
 ### Malus Dark Blade
