@@ -16,6 +16,8 @@ category/wargame	War Game
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Tableau d'équivalence de peinture
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
+	tag/d-fi	Défi Peinture	2025-01-02
+		2025/annee-2024-defi-peinture	2024 une année de défi	2025-01-02
 category/linux	Linux
 	tag/server	Server
 		2024/docker-sur-debian	Installation Docker sur Debian

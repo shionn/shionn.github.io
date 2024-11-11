@@ -1,5 +1,6 @@
 
-Cela fait un moment que je voulais ma propre version de Thanquol and Boneripper. Mais pas la version moderne, je voulais la veille version. C'est à dire celle la : 
+Cela fait un moment que je voulais ma propre version de Thanquol and Boneripper. 
+Mais pas la version moderne, je voulais la veille version. C'est à dire celle la : 
 [gallery w=400 h=300]
 pictures/skaven/rat-ogre-prophete-gris-kit-bash/thanquol-boneripper-classic.jpg
 [/gallery]

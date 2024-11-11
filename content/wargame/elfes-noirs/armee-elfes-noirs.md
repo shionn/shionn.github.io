@@ -10,8 +10,31 @@ Il devrais y avoir à terme :
 - Assassins
 - Hellebron
 - Lokhir Fellheart (Maitre d'arche noire)
-- Malus darkblade
 - Morathi
+
+[after date="2025/01/22"]
+### Malus Dark Blade
+
+Voici mon malus dark blade en métal.
+Proviens d'un lot d'une armée que j'ai racheté (merci David). 
+Le corps du sang froid est en plastique mais la tête est en métal.
+
+* Peinte en Octobre 2024
+* Environ 6h30
+* Soumise au défis __FDC - case personnage légendaire - de Whisp__.
+
+[gallery w=200 h=200]
+pictures/dark-elves/malus-dark-blade/01.jpg
+pictures/dark-elves/malus-dark-blade/02.jpg
+pictures/dark-elves/malus-dark-blade/03.jpg
+[/gallery]
+[gallery w=250 h=200]
+pictures/dark-elves/malus-dark-blade/04.jpg
+pictures/dark-elves/malus-dark-blade/05.jpg
+pictures/dark-elves/malus-dark-blade/06.jpg
+pictures/dark-elves/malus-dark-blade/07.jpg
+[/gallery]
+[/after]
 
 ### Porteur de la grand bannière Elfes Noirs
 
@@ -139,13 +162,51 @@ Base	72045
 Rehaut	72039
 [/paints]
 
+[after date="2025/01/12"]
+### Lanciers
+
+Voici mon premier pack de 20 guerrier elfe noir en plastique. 
+Proviens d'un lot d'une armée que j'ai racheté (merci David). 
+Je les ai décapé, décollé et recollé. Il y a eu de la perte :p
+
+* Peinte en Octobre 2024
+* Environ 20h
+
+[gallery w=250 h=200]
+pictures/dark-elves/garde-noir/01.jpg
+pictures/dark-elves/garde-noir/02.jpg
+pictures/dark-elves/garde-noir/03.jpg
+pictures/dark-elves/garde-noir/04.jpg
+pictures/dark-elves/garde-noir/05.jpg
+pictures/dark-elves/garde-noir/06.jpg
+[/gallery]
+[/after]
+
 ## Unités Spéciales
 
 Reste à faire :
-- Char à Sang-Froid
 - Chevalier sur Sang-froid
 - Harpie
 - Ombre
+
+[after date="2024/12/22"]
+### Char à Sang Froid
+
+Voici mon char à sang froid en métal et plastique, en effet les roues et sang froid sont en plastique.
+Je l'ai acheter sur Vinted, décapé, contre percé et repeint.
+
+* Peinte en Septembre 2024.
+* Environ 5h30 pour le char et 2h30 pour les monteurs.
+* Soumise au défis __FDC - case unité lourde - de Whisp__.
+
+[gallery w=300 h=200]
+pictures/dark-elves/char-sg-froid/1.jpg
+pictures/dark-elves/char-sg-froid/2.jpg
+pictures/dark-elves/char-sg-froid/3.jpg
+pictures/dark-elves/char-sg-froid/4.jpg
+pictures/dark-elves/char-sg-froid/5.jpg
+[/gallery]
+[/after]
 
 ### Exécuteurs de Har Ganeth
 
