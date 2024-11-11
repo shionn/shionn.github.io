@@ -123,7 +123,7 @@ pictures/underworld/death/les-morts-en-exil/01.jpg
 ## Octobre 2024
 
 En octobre j'ai peint :
-* Une géante de _Dungeon and Laser_ pour  [CFM](https://taverne.colorfulminis.com/t/defi-octobre-2024-pink-lady/5690) et pour mon défi chez __Karv__
+* Une géante de _Dungeon and Laser_ pour [CFM](https://taverne.colorfulminis.com/t/defi-octobre-2024-pink-lady/5690) et pour mon défi chez __Karv__
 * Malus Dark Blade pour le __Fond de cale__ de __Whisp__
 
 [gallery w=200 h=250]
@@ -136,11 +136,12 @@ pictures/dark-elves/malus-dark-blade/01.jpg
 En novembre j'ai peint :
 * Une calèche de _Dungeon and Laser_ pour [OMM](https://onemoremini.fr/topic/645/d%C3%A9fi-novembre-2024-mad-drivers)
 * Un assassin elfe noir pour le __Fond de cale__ de __Whisp__
-* pour mon défi chez __Karv__
+* Un genre de Big Foot pour mon défi chez __Karv__
 
 [gallery w=200 h=250]
 pictures/dungeon-and-laser-encounters/ssg/caravanne/01.jpg
 pictures/dark-elves/assassin/02.jpg
+pictures/dungeon-and-laser-encounters/sg/big-foot/01.jpg
 [/gallery]
 
 ## Decembre 2024

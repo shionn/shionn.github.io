@@ -78,10 +78,31 @@ pictures/dungeon-and-laser-encounters/sg/araignee/9.jpg
 ### Beauté de la Nature
 Cette figurine a été peinte pour le défi __Mars 2024 - Réveil de la nature de Karv__. 
 Il s'agit de mon premier essai de tissus transparent.
-[gallery w=200 h=300]
+[gallery w=150 h=200]
 pictures/dungeon-and-laser-encounters/sg/beaute-nature/1.jpg
 pictures/dungeon-and-laser-encounters/sg/beaute-nature/2.jpg
 [/gallery]
+
+### Big Foot ??
+
+Dans la notice il s'appelle _Fluffy Dummy_. 
+Cette figurine a été peinte pour le défi __Novembre 2024 - Movember__. 
+
+[gallery w=150 h=200]
+pictures/dungeon-and-laser-encounters/sg/big-foot/01.jpg
+pictures/dungeon-and-laser-encounters/sg/big-foot/02.jpg
+pictures/dungeon-and-laser-encounters/sg/big-foot/03.jpg
+pictures/dungeon-and-laser-encounters/sg/big-foot/04.jpg
+[/gallery]
+
+[paints title="Poils"]
+Base	72045
+Brossage	72124
+Brossage	72115
+Brossage	72042
+Brossage	72036
+Brossage	72035
+[/paints]
 
 ### Cerbère
 Cette figurine a été peinte pour le défi __Janvier 2024 - Mythologie de [OOM](https://onemoremini.fr/topic/601/d%C3%A9fi-janvier-2024-mythologie)__.
@@ -124,7 +145,7 @@ pictures/dungeon-and-laser-encounters/sg/harpies/2.jpg
 pictures/dungeon-and-laser-encounters/sg/harpies/3.jpg
 [/gallery]
 
-### Ogre
+### Soren le Troll
 Cette figurine a été peinte pour le défi __Janvier 2024 - Retour des fêtes de Karv__. 
 J'ai beaucoup travaillé les couleurs de la peau en m'inspirant de la vidéo d'Angel Giraldez.
 [gallery h=300 w=250]
@@ -142,6 +163,7 @@ Glacis Lumière	72402
 Glacis Détail	72409
 Glacis Ombre	72415
 [/paints]
+
 
 ### Décorts
 [gallery h=250 w=250]
