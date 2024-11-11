@@ -10,6 +10,8 @@ category/wargame	War Game
 	2024/mes-armees	Underworld
 		2024/underworld-dok	Fille de Khaine
 		2024/underworld-soulblight	Seigneurs Ruinemânes
+	2024/mes-armees	Warcry	2025-02-11
+		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-02-11
 	tag/dungeon-and-laser	Dungeon and Laser
 		2024/dungeon-and-laser-encounters	Encounters
 	tag/peinture	Guide

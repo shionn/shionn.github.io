@@ -19,8 +19,10 @@ Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes 
 - [Filles de Khaine](2024/underworld-dok.html) _3 bandes_
 - [Seigneurs Ruinemânes](2024/underworld-soulblight.html) _2 bandes_
 
+[after date="2025/02/11"]
 ## Warcry
 
-- _à venir Fille de Khaine_
+- [Filles de Khaine](2025/warcry-dok.html) _Rodeur de l'ombre Khainites_
+[/after]
 
 Pas d'insta, pas d'insta, pas d'insta.
