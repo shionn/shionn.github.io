@@ -1,0 +1,10 @@
+{
+	"type": "post",
+	"date": "2025/12/31",
+	"title": "Installation de Jellyfin et accelaration materiel sur Proxmox",
+	"tags": ["Linux", "Proxmox", "Debian", "Server", "Jellyfin"],
+	"category": "Linux",
+	"published": false,
+	"author": "Shionn",
+	"js" : [ "js/hljs/highlight.min.js", "js/hljs/bash.min.js" ]
+}
