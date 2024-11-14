@@ -172,13 +172,13 @@
 <p>Sur votre proxmox creer un container à partir du'une debian. Puis connectez vous à ce container.</p>
 <h3>Ajout du dépo et installation</h3>
 <p>en root :</p>
-<pre class="bash"><code class="bash">apt install extrepo
+<pre class="shell"><code class="shell">apt install extrepo
 extrepo enable jellyfin
 apt update
 apt install jellyfin
 </code></pre>
 <p>Je ne sais plus pour quelle raison mais j'ai installé :</p>
-<pre class="bash"><code class="bash">apt install jellyfin-ffmpeg6
+<pre class="shell"><code class="shell">apt install jellyfin-ffmpeg6
 </code></pre>
 <h3>configuration</h3>
 <p>Dans /etc/jellyfin/encoding.xml vous pouvez activer le support du HEVC ou AV1. avec les balises :</p>
@@ -190,25 +190,35 @@ apt install jellyfin
 <h3>passthrought du GPU</h3>
 <p>Sur votre proxmox dans /dev/dri vous devrier avoir quelque chose ressemblant à <code>renderDXXX</code>, dans mon cas j'ai <code>renderD128</code>.
 Ensuite il faut identifier l'ID du group <code>render</code> dans votre conteneur Jellyfin.</p>
-<pre class="bash"><code class="bash">getent group render
+<pre class="shell"><code class="shell">getent group render
 </code></pre>
 <p>Dans mon cas cette commande me renvoi <code>render:x:104:jellyfin</code>. Ici ce qui m'interesse c'est <code>104</code></p>
 <p>Maintenant qu'on a identifier le periférique et le group on peu passthrought notre composant.
 Vous pouvez le faire via l'interface de proxmox</p>
-<p>TODO : invserer image</p>
-<p>Ou en ajoutant dans le fichier de cofniguration du container dans <code>/etc/pve/lxc/XXX.conf</code>:</p>
-<pre class="bash"><code class="bash">dev0: /dev/dri/renderD128,gid=104
+<div class="gallery"><a href="/pictures/serveur/proxmox-jellyfin/01-add-device-button.png"><img src="/pictures/serveur/proxmox-jellyfin/01-add-device-button.png"></a><a href="/pictures/serveur/proxmox-jellyfin/01-add-device-interface.png"><img src="/pictures/serveur/proxmox-jellyfin/01-add-device-interface.png"></a></div>
+<p>Ou en ajoutant dans le fichier de configuration du container dans <code>/etc/pve/lxc/XXX.conf</code>:</p>
+<pre class="shell"><code class="shell">dev0: /dev/dri/renderD128,gid=104
 </code></pre>
 <p>Une fois cela fait vous pouvez relancer votre conteneur et normalement dans /dev/dri vous devrriez retrouver votre périphérique en 660 avec root:render.</p>
-<pre class="bash"><code class="bash">root@Jellyfin:/dev/dri# ll
+<pre class="shell"><code class="shell">root@Jellyfin:/dev/dri# ll
 total 0
 crw-rw---- 1 root render 226, 128 Nov  7 12:11 renderD128
 root@Jellyfin:/dev/dri# 
 </code></pre>
-<h3>Activer l'acceleration materiel :</h3>
-<p>Il faut installer le package opencl, pour verifier si vous avz la bonne version faire un <code>apt policy intel-opencl-icd</code>. Si vous faut une version 23.xx. ou plus pour les intel ARC sinon un version 22.xx suffit. Si vous repo ne possede pas la bonne version vous pouvez telecharger les package depuis : [https://github.com/intel/compute-runtime/releases]. Ou en activant les <a href="http://jaqque.sbih.org/kplug/apt-pinning.html" target="_blank">apt-pinning</a>.</p>
-<pre class="bash"><code class="bash">apt install jellyfin-ffmpeg7
+<h3>Installer l'acceleration materiel :</h3>
+<p>Il faut installer le package opencl, pour verifier si vous avz la bonne version faire un <code>apt policy intel-opencl-icd</code>. Si vous faut une version 23.xx. ou plus pour les intel ARC sinon un version 22.xx suffit. Si vous repo ne possede pas la bonne version vous pouvez telecharger les package depuis : (https://github.com/intel/compute-runtime/releases). Ou en activant les <a href="http://jaqque.sbih.org/kplug/apt-pinning.html" target="_blank">apt-pinning</a>.</p>
+<p>Dans mon cas il me falais aussi installer l'extenssion ffmpeg7 de jellyfin.</p>
+<pre class="shell"><code class="shell">apt install jellyfin-ffmpeg7
 </code></pre>
+<h3>Mode intel low Power :</h3>
+<p>TODO</p>
+<h3>Activation</h3>
+<p>Cela se passe dans le <code>tableau de bord</code> de jellyfin dans l'interface web.</p>
+<h2>Source</h2>
+<ul>
+<li><a href="https://jellyfin.org/docs/general/administration/hardware-acceleration/" target="_blank">Jellyfin</a></li>
+<li></li>
+</ul>
 </section>
 	<footer>
 		<em class="author">par Shionn, le 31 décembre 2025.</em>
