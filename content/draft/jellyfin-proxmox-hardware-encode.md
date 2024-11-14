@@ -36,9 +36,12 @@ Dans mon cas cette commande me renvoi `render:x:104:jellyfin`. Ici ce qui m'inte
 Maintenant qu'on a identifier le periférique et le group on peu passthrought notre composant. 
 Vous pouvez le faire via l'interface de proxmox
 
-TODO : invserer image
+[gallery]
+/pictures/serveur/proxmox-jellyfin/01-add-device-button.png
+/pictures/serveur/proxmox-jellyfin/01-add-device-interface.png
+[/gallery]
 
-Ou en ajoutant dans le fichier de cofniguration du container dans `/etc/pve/lxc/XXX.conf`:
+Ou en ajoutant dans le fichier de configuration du container dans `/etc/pve/lxc/XXX.conf`:
 ~~~shell
 dev0: /dev/dri/renderD128,gid=104
 ~~~
