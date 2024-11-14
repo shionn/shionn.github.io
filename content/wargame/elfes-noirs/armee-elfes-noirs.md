@@ -11,7 +11,7 @@ Il devrais y avoir à terme :
 - Lokhir Fellheart (Maitre d'arche noire)
 - Morathi
 
-[after date="2025/02/01"]
+[after date="2025/02/11"]
 ### Assassin
 
 Voici mon assassin en métal. J'ai acheté cette figurine il y a presque 25 ans.
@@ -27,7 +27,7 @@ pictures/dark-elves/assassin/03.jpg
 [/gallery]
 [/after]
 
-[after date="2025/01/22"]
+[after date="2025/02/01"]
 ### Malus Dark Blade
 
 Voici mon malus dark blade en métal.
