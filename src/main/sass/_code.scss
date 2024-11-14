@@ -50,4 +50,12 @@ pre {
 			color: #fad301;
 		}
 	}
+	
+	code.xml {
+		color: #6d9ae3;
+		.hljs-literal {
+			color: rgb(127, 0, 95);
+			font-weight: bold;
+		}
+	}
 }

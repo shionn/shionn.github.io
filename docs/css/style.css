@@ -706,6 +706,13 @@ pre code.cpp .hljs-params {
 pre code.cpp .hljs-number {
   color: #fad301;
 }
+pre code.xml {
+  color: #6d9ae3;
+}
+pre code.xml .hljs-literal {
+  color: #7f005f;
+  font-weight: bold;
+}
 
 article {
   margin-top: 3em;
