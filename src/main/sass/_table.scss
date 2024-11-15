@@ -29,13 +29,10 @@ table {
 		padding-right: 2px;
 	}
 	tr td:nth-child(2n) {
-		border-right:  1px solid $theme-color;
+		border-right: 1px solid $theme-color;
 	}
 	tbody tr:nth-child(2n) {
 		background-color: lighten($theme-color, 30%);
-//		@media (prefers-color-scheme: dark) {
-//			background-color: darken($theme-color, 20%);
-//		}
 	}
 	td.color {
 		width: 40px;

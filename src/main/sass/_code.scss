@@ -1,14 +1,11 @@
 pre {
 	border: 1px solid $theme-color;
-	border-radius: 3px;
+	border-radius: $border-width;
 	padding: .5em 1.5em;
 	margin: 0 1em;
 	background: $theme-grey;
 	color: $theme-black;
 	white-space: pre-wrap;
-//	@media (prefers-color-scheme: dark) {
-//		background: $theme-black;
-//	}
 	
 	code.java, code.shell {
 

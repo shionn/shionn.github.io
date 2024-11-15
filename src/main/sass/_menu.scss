@@ -43,7 +43,7 @@ nav.main-menu {
 			}
 
 			&.active > a {
-				background-color: $border-color;
+				background-color: $theme-black;
 				color: $theme-grey;
 			}
 
@@ -51,7 +51,7 @@ nav.main-menu {
 				display: block;
 				text-decoration: none;
 				white-space: normal;
-				color: $border-color;
+				color: $theme-black;
 				font-size: 1.3em;
 				line-height: 49px;
 				padding: 0 15px;
@@ -70,7 +70,7 @@ nav.main-menu {
 		ul {
 			background-color: $theme-grey;
 			box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-			color: $border-color;
+			color: $theme-black;
 			visibility: hidden;
 			position: absolute;
 			margin: $border-width 0 0 0;
@@ -127,7 +127,7 @@ nav.main-menu {
 			display: block;
 			text-decoration: none;
 			white-space: normal;
-			color: $border-color;
+			color: $theme-black;
 			font-size: 1.3em;
 			line-height: 49px;
 			padding: 0 15px;
