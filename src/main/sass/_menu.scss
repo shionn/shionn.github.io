@@ -1,17 +1,18 @@
 
-$menu-color : $theme-border-color;
-$menu-background-color : $theme-grey;
-$menu-aletrnate-color : $theme-color;
-$menu-underline-width : $theme-border-width;
-
 nav.main-menu {
 	margin: 0;
 	padding: 0;
-	border-bottom: $menu-underline-width solid $menu-color;
-	background-color: $menu-background-color;
+	border-bottom: $border-width solid $theme-black;
+	background-color: $theme-grey;
 	float: left;
 	position: relative;
 	width: 100%;
+	
+	@media (prefers-color-scheme: dark) {
+		border-bottom: $border-width solid $theme-grey;
+		background-color: $theme-color;
+	}
+
 	ul, li, li a  {
 		-moz-transition: all 450ms ease-in-out 0s;
 		-ms-transition: all 450ms ease-in-out 0s;
@@ -42,33 +43,37 @@ nav.main-menu {
 			}
 
 			&.active > a {
-				background-color: $menu-color;
-				color: #FFFFFF;
+				background-color: $border-color;
+				color: $theme-grey;
 			}
 
 			a {
 				display: block;
 				text-decoration: none;
 				white-space: normal;
-				color: $menu-color;
+				color: $border-color;
 				font-size: 1.3em;
 				line-height: 49px;
 				padding: 0 15px;
 				text-transform: uppercase;
 				&:hover {
-					background-color: $menu-aletrnate-color;
-					color: #FFFFFF;
+					background-color: $theme-color;
+					color: $theme-grey;
+					@media (prefers-color-scheme: dark) {
+						background-color: $theme-grey;
+						color: $theme-color;
+					}
 				}
 			}
 		}
 
 		ul {
-			background-color: #FFFFFF;
+			background-color: $theme-grey;
 			box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-			color: $menu-color;
+			color: $border-color;
 			visibility: hidden;
 			position: absolute;
-			margin: $menu-underline-width 0 0 0;
+			margin: $border-width 0 0 0;
 			padding: 10px 0;
 			left: 0;
 			right: 0;
@@ -80,14 +85,14 @@ nav.main-menu {
 				vertical-align: top;
 				padding: 10px 1px;
 				a {
-					color: #777777;
+					color: $theme-black;
 					font-size: 1.3em;
 					@media all and (min-width: $min-sm) {
 						line-height: 20px;
 					}
 
 					&:hover {
-						color: $menu-aletrnate-color;
+						color: $theme-color;
 						background: none;
 					}
 				}
@@ -122,14 +127,14 @@ nav.main-menu {
 			display: block;
 			text-decoration: none;
 			white-space: normal;
-			color: $menu-color;
+			color: $border-color;
 			font-size: 1.3em;
 			line-height: 49px;
 			padding: 0 15px;
 			text-transform: uppercase;
 			&:hover {
-				background-color: $menu-aletrnate-color;
-				color: #FFFFFF;
+				background-color: $theme-color;
+				color: $theme-grey;
 			}
 		}
 

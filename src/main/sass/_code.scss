@@ -3,9 +3,13 @@ pre {
 	border-radius: 3px;
 	padding: .5em 1.5em;
 	margin: 0 1em;
-	background: #f5f5f5;
+	background: $theme-grey;
+	color: $theme-black;
 	white-space: pre-wrap;
-
+//	@media (prefers-color-scheme: dark) {
+//		background: $theme-black;
+//	}
+	
 	code.java, code.shell {
 
 		font-size: 1em;

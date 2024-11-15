@@ -2,6 +2,9 @@
 
 table {
 	margin: 8px auto 0;
+	color: $theme-black;
+	background-color: $theme-grey;
+	
 	thead, tbody {
 		border: 1px solid $theme-color;
 	}
@@ -18,11 +21,6 @@ table {
 	&.boxed td, &.boxed th {
 		border: 1px solid $theme-color;
 	}
-	
-
-//	&.collection {
-//		width: 90%;
-//	}
 }
 
 .paint-db, .paint-guide {
@@ -34,18 +32,14 @@ table {
 		border-right:  1px solid $theme-color;
 	}
 	tbody tr:nth-child(2n) {
-		background-color: lighten($theme-color, 40%);
+		background-color: lighten($theme-color, 30%);
+//		@media (prefers-color-scheme: dark) {
+//			background-color: darken($theme-color, 20%);
+//		}
 	}
 	td.color {
 		width: 40px;
 	}
-//	[data-color]:before {
-//		content: ' ';
-//		background-color: attr(data-color, color);
-//		width: 10px; height: 10px;
-//		display: inline-block;
-//		border: solid 1px black;
-//	}
 }
 
 

@@ -10,6 +10,9 @@ header .banner {
 		padding:15px 0 8px;
 		a {
 			color : $text-color;
+			@media (prefers-color-scheme: dark) {
+				color : $theme-grey;
+			}
 		}
 		&:before {
 			content : '{';

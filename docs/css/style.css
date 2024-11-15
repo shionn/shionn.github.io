@@ -398,6 +398,12 @@ body {
   color: #333;
   font: 1em/1.25em "Source Sans Pro", Helvetica, sans-serif;
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+    color: #F5F5F5;
+  }
+}
 
 a {
   text-decoration: none;
@@ -501,6 +507,11 @@ header .banner h1 {
 header .banner h1 a {
   color: #333;
 }
+@media (prefers-color-scheme: dark) {
+  header .banner h1 a {
+    color: #F5F5F5;
+  }
+}
 header .banner h1:before {
   content: '{';
   font-size: 2em;
@@ -528,6 +539,12 @@ nav.main-menu {
   float: left;
   position: relative;
   width: 100%;
+}
+@media (prefers-color-scheme: dark) {
+  nav.main-menu {
+    border-bottom: 5px solid #F5F5F5;
+    background-color: #d8ae47;
+  }
 }
 nav.main-menu ul, nav.main-menu li, nav.main-menu li a {
   -moz-transition: all 450ms ease-in-out 0s;
@@ -559,7 +576,7 @@ nav.main-menu ul li.open ul {
 }
 nav.main-menu ul li.active > a {
   background-color: #333;
-  color: #FFFFFF;
+  color: #F5F5F5;
 }
 nav.main-menu ul li a {
   display: block;
@@ -573,10 +590,16 @@ nav.main-menu ul li a {
 }
 nav.main-menu ul li a:hover {
   background-color: #d8ae47;
-  color: #FFFFFF;
+  color: #F5F5F5;
+}
+@media (prefers-color-scheme: dark) {
+  nav.main-menu ul li a:hover {
+    background-color: #F5F5F5;
+    color: #d8ae47;
+  }
 }
 nav.main-menu ul ul {
-  background-color: #FFFFFF;
+  background-color: #F5F5F5;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
   color: #333;
   visibility: hidden;
@@ -594,7 +617,7 @@ nav.main-menu ul ul li {
   padding: 10px 1px;
 }
 nav.main-menu ul ul li a {
-  color: #777777;
+  color: #333;
   font-size: 1.3em;
 }
 @media all and (min-width: 768px) {
@@ -639,7 +662,7 @@ nav.main-menu ul ul ul li:hover {
   }
   nav.main-menu > a:hover {
     background-color: #d8ae47;
-    color: #FFFFFF;
+    color: #F5F5F5;
   }
   nav.main-menu > ul {
     display: none;
@@ -668,7 +691,8 @@ pre {
   border-radius: 3px;
   padding: .5em 1.5em;
   margin: 0 1em;
-  background: #f5f5f5;
+  background: #F5F5F5;
+  color: #333;
   white-space: pre-wrap;
 }
 pre code.java, pre code.shell {
@@ -852,6 +876,8 @@ div.chaptering {
 
 table {
   margin: 8px auto 0;
+  color: #333;
+  background-color: #F5F5F5;
 }
 table thead, table tbody {
   border: 1px solid #d8ae47;
@@ -879,7 +905,7 @@ table.boxed td, table.boxed th {
   border-right: 1px solid #d8ae47;
 }
 .paint-db tbody tr:nth-child(2n), .paint-guide tbody tr:nth-child(2n) {
-  background-color: #fcf8ef;
+  background-color: #f3e6c5;
 }
 .paint-db td.color, .paint-guide td.color {
   width: 40px;
@@ -969,6 +995,13 @@ ul.tree li:not(.closed) > a[href="#"]:before, ul.tree ul li:not(.closed) > a[hre
   font-family: "Press Start 2P", cursive;
   font-size: 1em;
 }
+@media (prefers-color-scheme: dark) {
+  .side h1 {
+    background-color: #d8ae47;
+    border-bottom: #F5F5F5 solid 5px;
+    color: #333;
+  }
+}
 .side .tagclood a::after {
   content: ' ';
 }
@@ -979,6 +1012,11 @@ footer.footer .container {
   background-color: #333;
   border-top: 5px solid #F5F5F5;
   color: #F5F5F5;
+}
+@media (prefers-color-scheme: dark) {
+  footer.footer .container {
+    background-color: black;
+  }
 }
 footer.footer .container span {
   text-align: center;
@@ -1004,16 +1042,23 @@ footer.footer .container span a[title="CommonMark"] i {
 footer.footer .container span a[title="Draft"] {
   color: #333;
 }
+@media (prefers-color-scheme: dark) {
+  footer.footer .container span a[title="Draft"] {
+    color: black;
+  }
+}
 
 .hidden {
   display: none;
 }
 
-.e404, .e405 {
+.e404,
+.e405 {
   margin-top: 7em;
   text-align: center;
 }
-.e404 H1, .e405 H1 {
+.e404 H1,
+.e405 H1 {
   font-family: "Press Start 2P", cursive;
   color: #d8ae47;
   font-size: 8em;
