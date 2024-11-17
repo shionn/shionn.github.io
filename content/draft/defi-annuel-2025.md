@@ -1,17 +1,21 @@
 ## Présentation 
-Ce défi est inspiré à 90% du [défi annuel 2024 du forum OMM](https://onemoremini.fr/topic/605/defi-annuel-2024-omm-king-of-the-hill). 
+__La discorde du pinceau__ est un défi de peinture sur discord.
+Il est inspiré à 90% du [défi annuel 2024 du forum OMM](https://onemoremini.fr/topic/605/defi-annuel-2024-omm-king-of-the-hill). 
 J'en reprend pratiquement toutes les règles, je ne change que quelques points.
 
 L'idée de ce défi qui s'étalera toute l'année est de nous affronter à l'aide de nos figurines peintes au cours de cette année.
+Il faut prendre le contrôle du pot de pinceau discordant au centre du champ de bataille.
 
-C'est un jeu à la fois coopératif mais également il faut savoir se la jouer solo. Le but est de tenir l'__objectif__ (j'y reviendrais).
+C'est un jeu à la fois coopératif mais également il faut savoir se la jouer solo. 
+Le but est de prendre et de tenir le contrôle du __pot de pinceau discordant__ au centre du champs de bataille que j'appellerai l'__objectif__ dans la suite des règles.
 
 Ce défi se tiens sur deux Discord, celui de Karv et celui Whisp. 
 Vous n'êtes pas obliger de rejoindre les deux mais vous serez alors partiellement aveugle des troupes envoyés au combat. 
 
 ### Comment participer
 
-C'est très simple, il vous suffit de poster les figurines que vous avez fini de peindre, la seule condition est que la figurine doit avoir été commencé après le premier janvier.
+C'est très simple, il vous suffit de poster les figurines que vous avez fini de peindre, 
+la seule condition est que la figurine doit avoir été commencé après le premier janvier.
 Il faut indiquer aussi pour quelle faction ces figurines comptent s'il y a un doute.
 
 Chaque figurine compte, cependant un cavalier avec sa monture ne compte que pour 1.
@@ -19,6 +23,8 @@ De même qu'un véhicule et son pilote. Mais les passagers, si il sont visible e
 Un dragon de 50cm compte autant qu'un soldat au format épic de 5mm.
 
 ### Les factions
+
+Un soldat ne peut pas combattre à côté de n'importe qui, aussi les figurines se regroupe par faction pour unir leurs force et partir au combat.
 
 Au nombre de 4 les voici : 
 * __Les anciens__ : Toutes les troupes un temps soit peu fréquentable, réel ou fantastique mais qui ont trait au passé. 
@@ -78,6 +84,10 @@ Il faut envoyer 5 figurines en plus des potentiels déserteurs (cf réserve).
 
 ### Leader
 
+Chaque faction a besoin d'un leader pour les diriger.
+Ce leader conduit les troupes au combat et s'attribue les honneurs de la victoire si sa faction gagne. 
+Mais il trouvera bien une excuse pour repousser la faute de sa défaite à quelqu'un d'autre. 
+
 Au début de chaque assaut, pour chaque faction on détermine un joueur qui sera le __leader__ pour cette faction.
 * Celui qui n'a jamais été leader avec au moins 1 galon pour cette faction.
 * Le joueur qui a le plus de galons. Si il y a égalité.
@@ -87,7 +97,7 @@ Au début de chaque assaut, pour chaque faction on détermine un joueur qui sera
 Le leader désigné, peut s'il le décide donner le leadership à un autre joueur si celui-ci l'accepte.
 À lui de voir si c'est compatible avec sa stratégie.
 
-Si la faction du __Leader__ gagne l'assaut alors ce __Leader__ prendra l'objectif !
+Si la faction du __Leader__ gagne l'assaut alors ce __Leader__ prendra l'objectif le _pot de pinceau discordant_ !
 
 > Exemple, en début d'assaut je suis le joueur avec le plus de galon pour __L'au-delà__.
 > Je suis désigné comme leader.
@@ -97,7 +107,7 @@ Si la faction du __Leader__ gagne l'assaut alors ce __Leader__ prendra l'objecti
 Donc si un joueur peint peu de figurine, mais si il est régulier, à l'aide de ces galons 
 il pourra devenir le __Leader__ de cette faction et peut-être que son jour viendra. 
 
-Pour le premier assaut, il n'y aura pas de leader et c'est celui qui enverra le plus de figurine dans la faction qui sera considéré comme leader de la faction.
+Pour le premier assaut, il n'y aura pas de leader et c'est celui qui enverra le plus de figurine dans la faction gagnante qui gagnera cet assaut.
 
 ### Tenir et défendre l'objectif. 
 
