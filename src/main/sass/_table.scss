@@ -39,4 +39,21 @@ table {
 	}
 }
 
+table.assault {
+	tbody tr:nth-child(2n) {
+		background-color: lighten($theme-color, 30%);
+	}
+	
+	thead tr {
+		background-color: lighten($theme-color, 15%);
+	}
+
+	
+	td:not([colspan="4"]) {
+		text-align: center;
+	}
+
+
+}
+
 

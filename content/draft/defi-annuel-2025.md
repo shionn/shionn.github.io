@@ -50,11 +50,13 @@ et si elle part à l'__assaut__ ou si elle va en __réserve__ (cf réserve).
 
 On peut sortir autant de figurines que l'on veut de nos __réserve__ pendant l'assaut mais l'inverse n'est pas possible (CF réserve).
 
+Vous pouvez poster les mêmes figurines sur les deux discords, mais elle ne compterons qu'une seule fois :p. 
+
 #### Fin d'assaut
 
 La fin d'un assaut est à minuit. Cependant pour éviter qu'une personne envoie des figurine sur le
 fils à 23h59m59 en coupant l'herbe sous le pieds des autres généraux, chaque figurine envoyé
-pendant les 10 dernières minutes d'un assaut prolonge de 10 minute l'assaut.
+pendant les 10 dernières minutes d'un assaut prolonge de 10 minutes l'assaut.
 Bref l'assaut se finit au moins 10 minutes après que la dernière fig a été envoyé.
 
 > Exemple, j'envoie 5 figurines à l'assaut de l'objectif à 23h55. Alors l'assaut prendra fin à 00h05. 
@@ -66,7 +68,6 @@ Bref l'assaut se finit au moins 10 minutes après que la dernière fig a été e
 * On décompte les fuyards (CF réserve).
 * On détermine les nouveaux leaders pour chaque faction.
 * Toutes les figurines envoyées à l'assaut parte du champ de bataille touché leur prime pour la dépenser à la taverne. Elle ne compte plus pour la suite du jeu.
-
 
 ### Galon 
 
@@ -95,6 +96,8 @@ Si la faction du __Leader__ gagne l'assaut alors ce __Leader__ prendra l'objecti
 
 Donc si un joueur peint peu de figurine, mais si il est régulier, à l'aide de ces galons 
 il pourra devenir le __Leader__ de cette faction et peut-être que son jour viendra. 
+
+Pour le premier assaut, il n'y aura pas de leader et c'est celui qui enverra le plus de figurine dans la faction qui sera considéré comme leader de la faction.
 
 ### Tenir et défendre l'objectif. 
 
@@ -129,7 +132,7 @@ au début d'un assaut doivent être envoyés sinon elles désertent.
 * Ces 20% sont à compter en plus des 5 figurines pour gagner un galon.
 
 > Si par exemple au début d'un assaut je possèdes 9 figurines en réserve alors j'ai un risque de 2 déserteurs, 
-> si je veux gagner un galon je dois en envoyer au moins 7 (5+2) figurine pendant cette assaut.
+> Si je veux gagner un galon je dois en envoyer au moins 7 (5+2) figurine pendant cette assaut.
 
 A vous de choisir, voulez-vous garder vos figurines pour vous et les garder de côté pour le prochain assaut ?
 Voulez vous vous jeter dans la bataille sans compter vos pertes ?
@@ -149,7 +152,7 @@ Si le joueur qui trahit est le Leader de la faction alors un nouveau général s
 > **anciens** et je porte allégeance au **chaos**. Mes 10 nains sont automatiquement envoyé à 
 > l'assaut pour soutenir mes nouveaux ennemis.
 
-### Qu'est-ce qu'on gagne 
+### Qu'est-ce qu'on gagne ?
 
 De la gloire (ou pas). Mais je trouverai bien des figurines à offrir dans ma pile de honte !
 Rien de bien foufou mais pour le principe.
@@ -159,3 +162,10 @@ Rien de bien foufou mais pour le principe.
 
 J'attribuerais 3 vainqueurs différents.
 Si un joueur gagne 2 lots alors j'attribuerais un de ces lots au second de la catégorie.
+
+## Compte rendu
+
+En dessous de ce point je teste la generation des tableaux n'y pretez pas attention. 
+
+<div class="assaults" />
+

@@ -914,6 +914,16 @@ table.boxed td, table.boxed th {
   width: 40px;
 }
 
+table.assault tbody tr:nth-child(2n) {
+  background-color: #f3e6c5;
+}
+table.assault thead tr {
+  background-color: #e5ca86;
+}
+table.assault td:not([colspan="4"]) {
+  text-align: center;
+}
+
 div.gallery {
   text-align: center;
 }

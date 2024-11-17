@@ -5,6 +5,6 @@
 	"tags": ["War Game", "Défi"],
 	"category": "War Game",
 	"published": false,
-	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
+	"js" : [ "js/defi-2025.js" ],
 	"author": "Shionn"
 }
