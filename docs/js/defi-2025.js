@@ -11,6 +11,7 @@ q(function() {
 	const SEND_FROM_RESERVE = 1;
 	const RESERVE = 2;
 	const TRAHIS = 3;
+	const WIN = 4;
 
 	let _faction = function(f) {
 		switch (f) {
@@ -20,7 +21,6 @@ q(function() {
 			case MORT: return "L'au-delà";
 		}
 	};
-
 
 	let _assault = function() {
 		this.history = new Array();
@@ -35,12 +35,15 @@ q(function() {
 		this.description = description;
 		this.date = date;
 		this.faction = faction;
+		this.originalFaction = player.faction;
 
 		this.text = function() {
 			switch (type) {
 				case SEND_ASSAULT: return player.name + " envoie " + count + " " + description + " à l'assaut pour " + _faction(faction);
 				case SEND_FROM_RESERVE: return player.name + " sort de ces réserve " + count + " " + description + " à l'assaut pour " + _faction(faction);
 				case RESERVE: return player.name + " place " + count + " " + description + " en réserve pour " + _faction(faction);
+				case TRAHIS: return player.name + " trahis " + _faction(this.originalFaction) + " ces " + count + " troupes partent à l'assaut !";
+				case WIN: return _faction(faction) + " gagne l'assaut mené par " + player.name + " !";
 			}
 		}
 	};
@@ -51,6 +54,12 @@ q(function() {
 		this.galon = [0, 0, 0, 0];
 		this.reserve = [0, 0, 0, 0];
 		this.assault = [0, 0, 0, 0];
+		this.winCount = 0;
+		this.toSend = 0;
+
+		this.countSend = function() {
+			return this.assault.reduce((a, b) => a + b, 0);
+		}
 	};
 
 	let _ASSAULTS = [new _assault()];
@@ -62,8 +71,13 @@ q(function() {
 		}
 		let a = _ASSAULTS[_ASSAULTS.length - 1];
 		let p = _PLAYERS[player];
-		if (false) {
-			// TODO trahison
+		if (p.faction !== faction) {
+			a.history.push(new _history(p, TRAHIS, count, description, faction, date));
+			a.assault[p.faction] += p.reserve[p.faction];
+			a.reserve[p.faction] -= p.reserve[p.faction];
+			p.assault[p.faction] += p.reserve[p.faction];
+			p.reserve[p.faction] = 0;
+			p.faction = faction;
 		}
 		if (side) {
 			a.history.push(new _history(p, SEND_FROM_RESERVE, count, description, faction, date));
@@ -74,6 +88,8 @@ q(function() {
 		}
 		a.assault[faction] += count;
 		p.assault[faction] += count;
+
+
 	};
 
 	let _reserve = function(player, count, description, faction, date) {
@@ -86,6 +102,24 @@ q(function() {
 		a.reserve[faction] += count;
 		p.reserve[faction] += count;
 	};
+
+	let _winner = function(player, faction, date) {
+		let a = _ASSAULTS[_ASSAULTS.length - 1];
+		let p = _PLAYERS[player];
+		p.winCount++;
+		a.winner = p;
+		a.history.push(new _history(p, WIN, 0, "", faction, date));
+	};
+
+	//	let _computeGrade = function() {
+	//		Object.values(_PLAYERS).forEach(p => {
+	//			if (p.assault)
+	//		});
+	//	}
+
+	let _computeEndAssault = function() {
+		
+	}
 
 	let _tableHeader = function(name) {
 		let head = q("<thead>");
@@ -102,14 +136,14 @@ q(function() {
 		return head.append(line);
 	}
 
-	let _previewAssault = function() {
+	let _previewAssault = function(root) {
 		let a = _ASSAULTS[_ASSAULTS.length - 1];
 		let table = q("<table>").attr("class", "assault").append(_tableHeader("Assaut en cours"));
 		let body = q("<tbody>");
 		a.history.forEach(h => {
 			let tr = q("<tr>");
 			tr.append(q("<td>").text(h.date));
-			tr.append(q("<td>").attr("colspan",4).text(h.text()));
+			tr.append(q("<td>").attr("colspan", 4).text(h.text()));
 			body.append(tr);
 		});
 		table.append(body);
@@ -139,17 +173,43 @@ q(function() {
 		body.append(line);
 		table.append(body);
 
-		
-		q("div.assaults").append(table);
 
+		q(root).append(table);
 	};
+
+	let _endAssault = function(root) {
+		let a = _ASSAULTS[_ASSAULTS.length - 1];
+
+		let table = q("<table>").attr("class", "assault").append(_tableHeader("Assaut n°" + _ASSAULTS.length));
+		let body = q("<tbody>");
+		a.history.forEach(h => {
+			let tr = q("<tr>");
+			tr.append(q("<td>").text(h.date));
+			tr.append(q("<td>").attr("colspan", 4).text(h.text()));
+			body.append(tr);
+		});
+		table.append(body);
+
+
+
+
+
+		q(root).append(table);
+	};
+
 
 	_send("AAA", 5, "nains", ANCIEN, false, "05/01");
 	_send("BBB", 3, "lancier", ANCIEN, false, "05/01");
 	_send("CCC", 3, "élu", CHAOS, false, "06/01");
 	_reserve("AAA", 10, "fusilier", ANCIEN, "08/01");
 	_send("AAA", 2, "fusilier", ANCIEN, true, "09/01");
+	_send("BBB", 3, "élu", CYBER, false, "12/01");
 
-	_previewAssault();
+	_winner("AAA", ANCIEN, "15/01");
+	//	_computeGalon();
+//	_computeEndAssault();
+	_endAssault("div.janvier", ANCIEN, "AAA", "15/01");
+
+	_previewAssault("div.janvier");
 
 });

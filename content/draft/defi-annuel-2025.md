@@ -177,5 +177,72 @@ Si un joueur gagne 2 lots alors j'attribuerais un de ces lots au second de la ca
 
 En dessous de ce point je teste la generation des tableaux n'y pretez pas attention. 
 
-<div class="assaults" />
+### Janvier
 
+<div class="janvier" />
+
+[after date="2025/02/01"]
+### Fevrier
+
+<div class="fevrier" />
+[/after]
+
+[after date="2025/03/01"]
+### Mars
+
+<div class="mars" />
+[/after]
+
+[after date="2025/04/01"]
+### Avril
+
+<div class="avril" />
+[/after]
+
+[after date="2025/05/01"]
+### Mai
+
+<div class="mai" />
+[/after]
+
+[after date="2025/06/01"]
+### Juin
+
+<div class="juin" />
+[/after]
+
+[after date="2025/07/01"]
+### Juillet
+
+<div class="juillet" />
+[/after]
+
+[after date="2025/08/01"]
+### Aout
+
+<div class="aout" />
+[/after]
+
+[after date="2025/09/01"]
+### Septembre
+
+<div class="septembre" />
+[/after]
+
+[after date="2025/10/01"]
+### Octobre
+
+<div class="octobre" />
+[/after]
+
+[after date="2025/11/01"]
+### Novembre
+
+<div class="novembre" />
+[/after]
+
+[after date="2025/12/01"]
+### Décembre
+
+<div class="decembre" />
+[/after]
