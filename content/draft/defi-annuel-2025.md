@@ -6,6 +6,9 @@ L'idée de ce défi qui s'étalera toute l'année est de nous affronter à l'aid
 
 C'est un jeu à la fois coopératif mais également il faut savoir se la jouer solo. Le but est de tenir l'__objectif__ (j'y reviendrais).
 
+Ce défi se tiens sur deux Discord, celui de Karv et celui Whisp. 
+Vous n'êtes pas obliger de rejoindre les deux mais vous serez alors partiellement aveugle des troupes envoyés au combat. 
+
 ### Comment participer
 
 C'est très simple, il vous suffit de poster les figurines que vous avez fini de peindre, la seule condition est que la figurine doit avoir été commencé après le premier janvier.
