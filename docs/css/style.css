@@ -776,6 +776,9 @@ article h3 {
     font-size: 1.2em;
   }
 }
+article h4 {
+  padding-left: 75px;
+}
 article section p {
   text-align: justify;
 }
