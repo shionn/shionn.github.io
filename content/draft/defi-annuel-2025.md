@@ -109,6 +109,8 @@ il pourra devenir le __Leader__ de cette faction et peut-être que son jour vien
 
 Pour le premier assaut, il n'y aura pas de leader et c'est celui qui enverra le plus de figurine dans la faction gagnante qui gagnera cet assaut.
 
+Pour le dernier assaut, hormis pour la faction tenant l'objectif, c'est le joueur qui as le plus galon, en faisant fi des autres règles qui mènera l'assaut.
+
 ### Tenir et défendre l'objectif. 
 
 Quand une __faction__ tient l'objectif il est dur à tenir, puisqu'il doit se défendre contre toutes les autres factions.
@@ -171,78 +173,99 @@ Rien de bien foufou mais pour le principe.
 * Une figurine pour celui qui à le plus galon toute faction confondu.
 
 J'attribuerais 3 vainqueurs différents.
-Si un joueur gagne 2 lots alors j'attribuerais un de ces lots au second de la catégorie.
+Si un joueur gagne 2 lots alors j'attribuerais un de ces lots au second de la catégorie. 
+Bien évidemment, même si je vais jouer je m'exclue des lots potentiel.
 
 ## Compte rendu
 
 En dessous de ce point je teste la generation des tableaux n'y pretez pas attention. 
 
+### Leader Board
+
+<div class="leaderboard"></div>
+
+
 ### Janvier
 
-<div class="janvier" />
+ici inserer text recapitulitif de l'assaut, et une petite gallerie de photo. 
+<div class="janvier1"></div>
+
+ici inserer text recapitulitif de l'assaut, et une petite gallerie de photo. 
+<div class="janvier2"></div>
 
 [after date="2025/02/01"]
 ### Fevrier
 
-<div class="fevrier" />
+<div class="fevrier1"></div>
+<div class="fevrier2"></div>
 [/after]
 
 [after date="2025/03/01"]
 ### Mars
 
-<div class="mars" />
+<div class="mars1"></div>
+<div class="mars2"></div>
 [/after]
 
 [after date="2025/04/01"]
 ### Avril
 
-<div class="avril" />
+<div class="avril1"></div>
+<div class="avril2"></div>
 [/after]
 
 [after date="2025/05/01"]
 ### Mai
 
-<div class="mai" />
+<div class="mai1"></div>
+<div class="mai2"></div>
 [/after]
 
 [after date="2025/06/01"]
 ### Juin
 
-<div class="juin" />
+<div class="juin"></div>
+<div class="juin"></div>
 [/after]
 
 [after date="2025/07/01"]
 ### Juillet
 
-<div class="juillet" />
+<div class="juillet1"></div>
+<div class="juillet2"></div>
 [/after]
 
 [after date="2025/08/01"]
 ### Aout
 
-<div class="aout" />
+<div class="aout1"></div>
+<div class="aout2"></div>
 [/after]
 
 [after date="2025/09/01"]
 ### Septembre
 
-<div class="septembre" />
+<div class="septembre1"></div>
+<div class="septembre2"></div>
 [/after]
 
 [after date="2025/10/01"]
 ### Octobre
 
-<div class="octobre" />
+<div class="octobre1"></div>
+<div class="octobre2"></div>
 [/after]
 
 [after date="2025/11/01"]
 ### Novembre
 
-<div class="novembre" />
+<div class="novembre1"></div>
+<div class="novembre2"></div>
 [/after]
 
 [after date="2025/12/01"]
 ### Décembre
 
-<div class="decembre" />
+<div class="decembre1"></div>
+<div class="decembre2"></div>
 [/after]

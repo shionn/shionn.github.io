@@ -63,7 +63,8 @@ q(function() {
 		this.winGrade = [false, false, false, false];
 		this.reserve = [0, 0, 0, 0];
 		this.assault = [0, 0, 0, 0];
-		this.winCount = 0;
+		this.allpaint = [0, 0, 0, 0];
+		this.win = [0, 0, 0, 0];
 		this.toSend = 0;
 
 		this.countSend = function() {
@@ -71,6 +72,9 @@ q(function() {
 		}
 		this.countReserve = function() {
 			return this.reserve.reduce((a, b) => a + b, 0);
+		}
+		this.countWin = function() {
+			return this.win.reduce((a, b) => a + b, 0);
 		}
 	};
 
@@ -97,6 +101,7 @@ q(function() {
 			a.reserve[faction] -= count;
 		} else {
 			a.history.push(new _history(p, SEND_ASSAULT, count, description, faction, date));
+			p.allpaint[faction] += count;
 		}
 		a.assault[faction] += count;
 		p.assault[faction] += count;
@@ -119,6 +124,7 @@ q(function() {
 		a.history.push(new _history(p, RESERVE, count, description, faction, date));
 		a.reserve[faction] += count;
 		p.reserve[faction] += count;
+		p.allpaint[faction] += count;
 	};
 	
 	let _flee = function(player, count, description, faction, date) {
@@ -133,7 +139,7 @@ q(function() {
 	let _winner = function(player, faction, date) {
 		let a = _ASSAULTS[_ASSAULTS.length - 1];
 		let p = _PLAYERS[player];
-		p.winCount++;
+		p.win[faction]++;
 		a.winner = p;
 		a.history.push(new _history(p, WIN, 0, "", faction, date));
 	};
@@ -228,7 +234,7 @@ q(function() {
 		return body;
 	};
 
-	let _rankTable = function(a) {
+	let _rankTable = function() {
 		let body = q("<tbody>");
 		Object.values(_PLAYERS).forEach(p => {
 			let line = q("<tr>").append(q("<td>").text(p.name));
@@ -248,7 +254,6 @@ q(function() {
 		table.append(_tableHeader("Assaut en cours")).append(_historyTable(a));
 		table.append(_tableFactionHeader("État des forces")).append(_assaultTable(a));
 		table.append(_tableFactionHeader("État des Réserves")).append(_reserveTable(a));
-		table.append(_tableFactionHeader("État des Galons")).append(_rankTable(a));
 
 
 		q(root).append(table);
@@ -261,10 +266,48 @@ q(function() {
 		table.append(_tableHeader("Assaut n°" + _ASSAULTS.length)).append(_historyTable(a));
 		table.append(_tableFactionHeader("Force déployée")).append(_assaultTable(a));
 		table.append(_tableFactionHeader("État des Réserves")).append(_reserveTable(a));
-		table.append(_tableFactionHeader("État des Galons")).append(_rankTable(a));
+		table.append(_tableFactionHeader("État des Galons")).append(_rankTable());
 
 		q(root).append(table);
 	};
+	
+	let _leaderBoard=function() {
+//		let a = _ASSAULTS[_ASSAULTS.length - 1];
+		let table = q("<table>").attr("class", "assault")
+		table.append(_tableFactionHeader("Victoire"));
+		let body = q("<tbody>");
+		Object.values(_PLAYERS).forEach(p => {
+			if (p.countWin()>0) {
+				let line = q("<tr>").append(q("<td>").text(p.name));
+				for (let i = 0; i < 4; i++) {
+					line.append(q("<td>").text(p.grade[i]));
+				}
+				body.append(line);
+			}
+		});
+		table.append(body);
+		let all = [0,0,0,0];
+		table.append(_tableFactionHeader("Figurine peinte"));
+		body = q("<tbody>");
+		Object.values(_PLAYERS).forEach(p => {
+			let line = q("<tr>").append(q("<td>").text(p.name));
+			for (let i = 0; i < 4; i++) {
+				line.append(q("<td>").text(p.allpaint[i]));
+				all[i]+=p.allpaint[i];
+			}
+			body.append(line);
+		});
+		let line = q("<tr>").append(q("<td>").text("Total"));
+		for (let i = 0; i < 4; i++) {
+			line.append(q("<td>").text(all[i]));
+		}
+		body.append(line);
+		table.append(body);
+
+		
+		table.append(_tableFactionHeader("État des Galons")).append(_rankTable());
+		q("div.leaderboard").append(table);
+	}
 
 
 	_send("AAA", 5, "nains", ANCIEN, false, "05/01");
@@ -277,10 +320,12 @@ q(function() {
 	_flee("AAA", 1, "fusilier", ANCIEN, "15/01");
 
 	_winner("AAA", ANCIEN, "15/01");
-	_endAssault("div.janvier", ANCIEN, "AAA", "15/01");
+	_endAssault("div.janvier1", ANCIEN, "AAA", "15/01");
 
 	_leaders("AAA", "BBB", "CCC", null, "16/01");
-	_previewAssault("div.janvier");
+	_previewAssault("div.janvier2");
 
+	
+	_leaderBoard();
 
 });
