@@ -174,11 +174,11 @@ De la gloire (ou pas). Mais je trouverai bien des figurines à offrir dans ma pi
 Rien de bien foufou mais pour le principe.
 * Une figurine pour celui qui tiendra l'objectif le 31 décembre.
 * Une figurine pour celui qui à tenu le plus souvent l'objectif.
-* Une figurine pour celui qui à le plus galon toute faction confondu.
+* d'autres défis sont caché et seront révélé le temps venu, chacun de ces défis donnera droit a une fig.  
 
-J'attribuerais 3 vainqueurs différents.
+J'attribuerais que des vainqueurs différents.
 Si un joueur gagne 2 lots alors j'attribuerais un de ces lots au second de la catégorie. 
-Bien évidemment, même si je vais jouer je m'exclue des lots potentiel.
+Bien évidemment, même si je vais jouer je m'exclue des lots potentiels.
 
 ## Compte rendu
 
