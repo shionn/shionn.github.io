@@ -82,6 +82,10 @@ A la fin de chaque __assaut__ :
 Il faut envoyer 5 figurines en plus des potentiels déserteurs (cf réserve).
 * Chaque joueur qui n'a envoyé aucune figurine à l'assaut de l'objectif perd un galon pour sa faction d'allégeance.
 
+> Remarque : Je me demande si "envoyé 5 figurine" pour gagné un galon est une bonne chose... 
+> Je me demande si ca serai pas mieux de rendre l'obtention d'un galon de plus en plus dure avec les galons. 
+> par exemple 1-1-2-3-5-8-13-21-44
+
 ### Leader
 
 Chaque faction a besoin d'un leader pour les diriger.
