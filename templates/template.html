@@ -22,7 +22,7 @@
 			<ul th:replace="~{menu :: menu}"></ul>
 		</nav>
 	</header>
-	<div class="container" th:switch="${mode}">
+	<div class="container main" th:switch="${mode}">
 		<div class="main" th:case="'index'">
 			<th:block th:each="article : ${site.getHomePageArticles(page)}">
 				<article th:replace="~{article :: articleshort (${article})}"></article>

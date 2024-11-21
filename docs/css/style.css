@@ -395,12 +395,12 @@ th {
 }
 
 body {
-  color: #333;
+  color: #111;
   font: 1em/1.25em "Source Sans Pro", Helvetica, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #333;
+    background-color: black;
     color: #F5F5F5;
   }
 }
@@ -442,12 +442,16 @@ a {
     max-width: 1440px;
   }
 }
+@media (prefers-color-scheme: dark) {
+  .container.main {
+    background-color: #111;
+  }
+}
 .container .main {
-  padding: 0 1.5em;
+  padding: 0 1.5em 4em 1.5em;
 }
 @media (min-width: 768px) {
   .container .main {
-    padding-left: 0;
     width: 70%;
     float: left;
   }
@@ -463,7 +467,7 @@ a {
   }
 }
 .container .side {
-  padding: 0 1.5em;
+  padding: 0 1.5em 4em;
   position: sticky;
   top: 0px;
 }
@@ -505,7 +509,7 @@ header .banner h1 {
   padding: 15px 0 8px;
 }
 header .banner h1 a {
-  color: #333;
+  color: #111;
 }
 @media (prefers-color-scheme: dark) {
   header .banner h1 a {
@@ -534,7 +538,7 @@ header .banner h2 {
 nav.main-menu {
   margin: 0;
   padding: 0;
-  border-bottom: 5px solid #333;
+  border-bottom: 5px solid #111;
   background-color: #F5F5F5;
   float: left;
   position: relative;
@@ -575,14 +579,14 @@ nav.main-menu ul li.open ul {
   visibility: visible;
 }
 nav.main-menu ul li.active > a {
-  background-color: #333;
+  background-color: #111;
   color: #F5F5F5;
 }
 nav.main-menu ul li a {
   display: block;
   text-decoration: none;
   white-space: normal;
-  color: #333;
+  color: #111;
   font-size: 1.3em;
   line-height: 49px;
   padding: 0 15px;
@@ -601,7 +605,7 @@ nav.main-menu ul li a:hover {
 nav.main-menu ul ul {
   background-color: #F5F5F5;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-  color: #333;
+  color: #111;
   visibility: hidden;
   position: absolute;
   margin: 5px 0 0 0;
@@ -617,7 +621,7 @@ nav.main-menu ul ul li {
   padding: 10px 1px;
 }
 nav.main-menu ul ul li a {
-  color: #333;
+  color: #111;
   font-size: 1.3em;
 }
 @media all and (min-width: 768px) {
@@ -654,7 +658,7 @@ nav.main-menu ul ul ul li:hover {
     display: block;
     text-decoration: none;
     white-space: normal;
-    color: #333;
+    color: #111;
     font-size: 1.3em;
     line-height: 49px;
     padding: 0 15px;
@@ -692,7 +696,7 @@ pre {
   padding: .5em 1.5em;
   margin: 0 1em;
   background: #F5F5F5;
-  color: #333;
+  color: #111;
   white-space: pre-wrap;
 }
 pre code.java, pre code.shell {
@@ -879,7 +883,7 @@ div.chaptering {
 
 table {
   margin: 8px auto 0;
-  color: #333;
+  color: #111;
   background-color: #F5F5F5;
 }
 table thead, table tbody {
@@ -1003,7 +1007,7 @@ ul.tree li:not(.closed) > a[href="#"]:before, ul.tree ul li:not(.closed) > a[hre
 .side h1 {
   text-align: center;
   background-color: #F5F5F5;
-  border-bottom: #333 solid 5px;
+  border-bottom: #111 solid 5px;
   padding: 1em 0;
   font-family: "Press Start 2P", cursive;
   font-size: 1em;
@@ -1012,7 +1016,7 @@ ul.tree li:not(.closed) > a[href="#"]:before, ul.tree ul li:not(.closed) > a[hre
   .side h1 {
     background-color: #d8ae47;
     border-bottom: #F5F5F5 solid 5px;
-    color: #333;
+    color: #111;
   }
 }
 .side .tagclood a::after {
@@ -1020,9 +1024,9 @@ ul.tree li:not(.closed) > a[href="#"]:before, ul.tree ul li:not(.closed) > a[hre
 }
 
 footer.footer .container {
-  margin-top: 4em;
+  margin-top: 0;
   min-height: 8em;
-  background-color: #333;
+  background-color: #111;
   border-top: 5px solid #F5F5F5;
   color: #F5F5F5;
 }
@@ -1053,7 +1057,7 @@ footer.footer .container span a[title="CommonMark"] i {
   font-size: x-small;
 }
 footer.footer .container span a[title="Draft"] {
-  color: #333;
+  color: #111;
 }
 @media (prefers-color-scheme: dark) {
   footer.footer .container span a[title="Draft"] {
