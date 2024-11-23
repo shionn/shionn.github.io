@@ -18,7 +18,7 @@ cha 13 +2
 Marteau de guerre 1D8 (1H) ou 1D10 (2H) +force
 Armure: broigne (+4): 14 
 CA : 10 + 3 (consti)  
-Or : 151 po
+Or : 166 po
 Poids : 100kg / 112 cm / 142 ans
 alignement :loyal neutre
 
@@ -74,4 +74,6 @@ Le chat fouille le troll, y trouve de la bave de troll l'elfe semble aprecier ce
 Elle trouve une capuche de description sur le second orc. Elle obtiens 6 po et encore une fois ne partage rien. Je renote cet affront.
 
 Ce qui clos cette premiere soirée. 
+
+J'ai gagné 
 
