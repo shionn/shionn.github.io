@@ -74,7 +74,7 @@ GRUB_CMDLINE_LINUX="acpi_enforce_resources=lax"
 Installer également `i2c-dev`
 
 ~~~shell
-apt install i2c-dev
+apt install i2c-tools
 ~~~
 
 Avant de lancer OpenRGB charger le module.
@@ -82,6 +82,13 @@ Avant de lancer OpenRGB charger le module.
 ~~~shell
 sudo modprobe i2c-dev
 ~~~
+
+Et peut etre vous ajouter au groupe : 
+
+~~~shell 
+sudo usermod -aG i2c <USER>
+~~~
+
 
 ## Jeux
 ### Installer Steam
