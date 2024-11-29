@@ -175,7 +175,7 @@
 <pre class="shell"><code class="shell">apt install pavucontrol
 </code></pre>
 <h3>ALT-F5 qui fait nimp</h3>
-<p>Dans dconf-editor modifier la clef : <code>org.gnome.desktop.wm.keybindings</code></p>
+<p>Dans dconf-editor modifier la clef <code>unmaximise</code> dans le dossier : <code>org.gnome.desktop.wm.keybindings</code></p>
 <h3>Desactiver pasword apres sleep</h3>
 <p>Installer dconf-editor modifier la clef <code>/org/gnome/desktop/screensaver lock-enable</code> à false</p>
 <h3>Le pc ne se met pas en veille</h3>
@@ -213,10 +213,13 @@
 <pre class="shell"><code class="shell">GRUB_CMDLINE_LINUX=&quot;acpi_enforce_resources=lax&quot;
 </code></pre>
 <p>Installer également <code>i2c-dev</code></p>
-<pre class="shell"><code class="shell">apt install i2c-dev
+<pre class="shell"><code class="shell">apt install i2c-tools
 </code></pre>
 <p>Avant de lancer OpenRGB charger le module.</p>
 <pre class="shell"><code class="shell">sudo modprobe i2c-dev
+</code></pre>
+<p>Et peut etre vous ajouter au groupe :</p>
+<pre class="shell"><code class="shell">sudo usermod -aG i2c &lt;USER&gt;
 </code></pre>
 <h2>Jeux</h2>
 <h3>Installer Steam</h3>

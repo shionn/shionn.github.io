@@ -1,4 +1,4 @@
-Cette année j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant enfant.
+En 2024, j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant enfant.
 
 Voici mon assassin en métal. J'ai acheté cette figurine il y a presque 25 ans.
 

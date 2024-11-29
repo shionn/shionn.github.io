@@ -9,7 +9,7 @@ apt install pavucontrol
 ~~~
 
 ### ALT-F5 qui fait nimp
-Dans dconf-editor modifier la clef : `org.gnome.desktop.wm.keybindings`
+Dans dconf-editor modifier la clef `unmaximise` dans le dossier : `org.gnome.desktop.wm.keybindings`
 
 ### Desactiver pasword apres sleep
 Installer dconf-editor modifier la clef `/org/gnome/desktop/screensaver lock-enable` à false
