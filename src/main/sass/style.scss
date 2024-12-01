@@ -1,7 +1,5 @@
 @import "_normalize-3.0.2.scss";
 @import "_variables.scss";
-//@import "functions.less";
-//@import "fontawesome/font-awesome.less";
 
 * {
 	box-sizing: border-box
@@ -10,7 +8,13 @@
 body {
 	color: $text-color;
 	font: 1em / 1.25em $font;
+
+	@media (prefers-color-scheme: dark) {
+		background-color: black;
+		color: $theme-grey;
+	}
 }
+
 a {
 	text-decoration: none;
 	color: darken($theme-color, 20%);
@@ -29,22 +33,27 @@ a {
 @import "_code.scss";
 @import "_article.scss";
 @import "_table.scss";
-//@import "form.less";
 @import "_gallery.scss";
 @import "_tree.scss";
 
 .side {
-	& > div {
+	&>div {
 		margin-top: 3em;
 	}
 
 	h1 {
 		text-align: center;
 		background-color: $theme-grey;
-		border-bottom: $theme-border-color solid $theme-border-width;
+		border-bottom: $theme-black solid $border-width;
 		padding: 1em 0;
 		font-family: $font-alternate;
 		font-size: 1em;
+
+		@media (prefers-color-scheme: dark) {
+			background-color: $theme-color;
+			border-bottom: $theme-grey solid $border-width;
+			color: $theme-black;
+		}
 	}
 
 	.tagclood a::after {
@@ -54,32 +63,51 @@ a {
 
 footer.footer {
 	.container {
-		margin-top: 4em;
+		margin-top: 0;
 		min-height: 8em;
-		background-color: $theme-dark;
-		border-top: $theme-border-width solid $theme-grey;
+		background-color: $theme-black;
+		border-top: $border-width solid $theme-grey;
 		color: $theme-grey;
+
+		@media (prefers-color-scheme: dark) {
+			background-color: black;
+		}
+
 		span {
 			text-align: center;
 			display: block;
+
 			a[title="PureIoCss"] sub {
 				bottom: -0.5em;
 				font-size: xx-small;
 			}
+
 			a[title="Less"] small {
 				font-size: x-small;
 			}
+
 			a[title="CommonMark"] {
-				border : 1px solid;
+				border: 1px solid;
 				border-radius: 2px;
 				padding: 0 1px;
 				font-size: small;
 				font-weight: bold;
+
 				i {
 					font-size: x-small;
 				}
 			}
+
+			a[title="Draft"] {
+				color: $theme-black;
+
+				@media (prefers-color-scheme: dark) {
+					color: black;
+				}
+			}
 		}
+
+
 	}
 }
 
@@ -87,9 +115,11 @@ footer.footer {
 	display: none;
 }
 
-.e404, .e405 {
+.e404,
+.e405 {
 	margin-top: 7em;
 	text-align: center;
+
 	H1 {
 		font-family: $font-alternate;
 		color: $theme-color;
@@ -100,18 +130,23 @@ footer.footer {
 .fa.fa-star-5:before {
 	content: "\f005\f005\f005\f005\f005";
 }
+
 .fa.fa-star-4:before {
 	content: "\f005\f005\f005\f005\f006";
 }
+
 .fa.fa-star-3:before {
 	content: "\f005\f005\f005\f006\f006";
 }
+
 .fa.fa-star-2:before {
 	content: "\f005\f005\f006\f006\f006";
 }
+
 .fa.fa-star-1:before {
 	content: "\f005\f006\f006\f006\f006";
 }
+
 .fa.fa-star-0:before {
 	content: "\f006\f006\f006\f006\f006";
 }

@@ -1,5 +1,5 @@
 'use strict';
-// version 1.6
+// version 1.7
 
 let _q = function(obj) {
 	this.obj = obj;
@@ -19,6 +19,10 @@ _q.prototype.each = function(callback) {
 
 _q.prototype.exists = function() {
 	return this.obj.length > 0;
+}
+
+_q.prototype.size = function() {
+	return this.obj.length;
 }
 
 _q.prototype.css = function(attr, value) {

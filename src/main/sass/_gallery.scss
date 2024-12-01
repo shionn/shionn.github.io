@@ -8,7 +8,7 @@ div.gallery {
 	img {
 		display : inline-block;
 		border: 1px solid $theme-color;
-		border-radius: 3px;
+		border-radius: $border-width;
 		object-fit: cover;
 	}
 }

@@ -1,0 +1,11 @@
+{
+	"type": "post",
+	"date": "2023/11/22",
+	"updated": "2024/10/12",
+	"title": "Kit de Survie sur Debian",
+	"tags": ["Linux", "Debian", "Desktop", "Kit Survie"],
+	"category": "Linux",
+	"published": true,
+	"author": "Shionn",
+	"js" : [ "js/hljs/highlight.min.js", "js/hljs/bash.min.js" ]
+}

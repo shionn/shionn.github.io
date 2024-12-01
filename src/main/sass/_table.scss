@@ -2,6 +2,9 @@
 
 table {
 	margin: 8px auto 0;
+	color: $theme-black;
+	background-color: $theme-grey;
+	
 	thead, tbody {
 		border: 1px solid $theme-color;
 	}
@@ -15,10 +18,9 @@ table {
 	tr.hide {
 		display: none;
 	}
-
-//	&.collection {
-//		width: 90%;
-//	}
+	&.boxed td, &.boxed th {
+		border: 1px solid $theme-color;
+	}
 }
 
 .paint-db, .paint-guide {
@@ -27,21 +29,31 @@ table {
 		padding-right: 2px;
 	}
 	tr td:nth-child(2n) {
-		border-right:  1px solid $theme-color;
+		border-right: 1px solid $theme-color;
 	}
 	tbody tr:nth-child(2n) {
-		background-color: lighten($theme-color, 40%);
+		background-color: lighten($theme-color, 30%);
 	}
 	td.color {
 		width: 40px;
 	}
-//	[data-color]:before {
-//		content: ' ';
-//		background-color: attr(data-color, color);
-//		width: 10px; height: 10px;
-//		display: inline-block;
-//		border: solid 1px black;
-//	}
+}
+
+table.assault {
+	tbody tr:nth-child(2n) {
+		background-color: lighten($theme-color, 30%);
+	}
+	
+	thead tr {
+		background-color: lighten($theme-color, 15%);
+	}
+
+	
+	td:not([colspan="4"]) {
+		text-align: center;
+	}
+
+
 }
 
 

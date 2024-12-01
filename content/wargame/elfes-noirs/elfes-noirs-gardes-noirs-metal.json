@@ -1,0 +1,11 @@
+{
+	"type": "post",
+	"date": "2024/11/10",
+	"title": "Gardes Noirs de Naggarond Elfes Noirs",
+	"tags": ["War Game", "Figurine", "Elfes Noirs", "Warhammer Battle", "Metal"],
+	"category": "War Game",
+	"published": true,
+	"logo": "pictures/titles/elfe-noir-garde-noir.jpg",
+	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
+	"author": "Shionn"
+}

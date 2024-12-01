@@ -1,0 +1,12 @@
+{
+	"type": "post",
+	"date": "2023/07/15",
+	"updated": "2024/10/12",
+	"title": "Equivalence peinture",
+	"tags": ["War Game", "Peinture", "Bdd"],
+	"category": "War Game",
+	"logo": "pictures/titles/equivalence-peinture.jpg",
+	"published": true,
+	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-equivalence.js" ],
+	"author": "Shionn"
+}

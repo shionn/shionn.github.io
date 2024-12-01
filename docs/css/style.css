@@ -395,8 +395,14 @@ th {
 }
 
 body {
-  color: #333;
+  color: #111;
   font: 1em/1.25em "Source Sans Pro", Helvetica, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: #F5F5F5;
+  }
 }
 
 a {
@@ -436,12 +442,16 @@ a {
     max-width: 1440px;
   }
 }
+@media (prefers-color-scheme: dark) {
+  .container.main {
+    background-color: #111;
+  }
+}
 .container .main {
-  padding: 0 1.5em;
+  padding: 0 1.5em 4em 1.5em;
 }
 @media (min-width: 768px) {
   .container .main {
-    padding-left: 0;
     width: 70%;
     float: left;
   }
@@ -457,7 +467,7 @@ a {
   }
 }
 .container .side {
-  padding: 0 1.5em;
+  padding: 0 1.5em 4em;
   position: sticky;
   top: 0px;
 }
@@ -499,7 +509,12 @@ header .banner h1 {
   padding: 15px 0 8px;
 }
 header .banner h1 a {
-  color: #333;
+  color: #111;
+}
+@media (prefers-color-scheme: dark) {
+  header .banner h1 a {
+    color: #F5F5F5;
+  }
 }
 header .banner h1:before {
   content: '{';
@@ -523,11 +538,17 @@ header .banner h2 {
 nav.main-menu {
   margin: 0;
   padding: 0;
-  border-bottom: 5px solid #333;
+  border-bottom: 5px solid #111;
   background-color: #F5F5F5;
   float: left;
   position: relative;
   width: 100%;
+}
+@media (prefers-color-scheme: dark) {
+  nav.main-menu {
+    border-bottom: 5px solid #F5F5F5;
+    background-color: #d8ae47;
+  }
 }
 nav.main-menu ul, nav.main-menu li, nav.main-menu li a {
   -moz-transition: all 450ms ease-in-out 0s;
@@ -558,14 +579,14 @@ nav.main-menu ul li.open ul {
   visibility: visible;
 }
 nav.main-menu ul li.active > a {
-  background-color: #333;
-  color: #FFFFFF;
+  background-color: #111;
+  color: #F5F5F5;
 }
 nav.main-menu ul li a {
   display: block;
   text-decoration: none;
   white-space: normal;
-  color: #333;
+  color: #111;
   font-size: 1.3em;
   line-height: 49px;
   padding: 0 15px;
@@ -573,12 +594,18 @@ nav.main-menu ul li a {
 }
 nav.main-menu ul li a:hover {
   background-color: #d8ae47;
-  color: #FFFFFF;
+  color: #F5F5F5;
+}
+@media (prefers-color-scheme: dark) {
+  nav.main-menu ul li a:hover {
+    background-color: #F5F5F5;
+    color: #d8ae47;
+  }
 }
 nav.main-menu ul ul {
-  background-color: #FFFFFF;
+  background-color: #F5F5F5;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-  color: #333;
+  color: #111;
   visibility: hidden;
   position: absolute;
   margin: 5px 0 0 0;
@@ -594,7 +621,7 @@ nav.main-menu ul ul li {
   padding: 10px 1px;
 }
 nav.main-menu ul ul li a {
-  color: #777777;
+  color: #111;
   font-size: 1.3em;
 }
 @media all and (min-width: 768px) {
@@ -631,7 +658,7 @@ nav.main-menu ul ul ul li:hover {
     display: block;
     text-decoration: none;
     white-space: normal;
-    color: #333;
+    color: #111;
     font-size: 1.3em;
     line-height: 49px;
     padding: 0 15px;
@@ -639,7 +666,7 @@ nav.main-menu ul ul ul li:hover {
   }
   nav.main-menu > a:hover {
     background-color: #d8ae47;
-    color: #FFFFFF;
+    color: #F5F5F5;
   }
   nav.main-menu > ul {
     display: none;
@@ -664,11 +691,12 @@ nav.main-menu ul ul ul li:hover {
 }
 
 pre {
-  border: 1px solid black;
-  border-radius: 3px;
+  border: 1px solid #d8ae47;
+  border-radius: 5px;
   padding: .5em 1.5em;
   margin: 0 1em;
-  background: #f5f5f5;
+  background: #F5F5F5;
+  color: #111;
   white-space: pre-wrap;
 }
 pre code.java, pre code.shell {
@@ -688,6 +716,31 @@ pre code.java .hljs-string, pre code.shell .hljs-string {
 pre code.java .hljs-meta, pre code.shell .hljs-meta {
   color: #646464;
 }
+pre code.cpp .hljs-meta {
+  color: #da70d6;
+}
+pre code.cpp .hljs-meta .hljs-string {
+  color: #c98e76;
+}
+pre code.cpp .hljs-type {
+  color: #569cd6;
+}
+pre code.cpp .hljs-title, pre code.cpp .hljs-built_in {
+  color: #d4d4a4;
+}
+pre code.cpp .hljs-params {
+  color: #da70d6;
+}
+pre code.cpp .hljs-number {
+  color: #fad301;
+}
+pre code.xml {
+  color: #6d9ae3;
+}
+pre code.xml .hljs-literal {
+  color: #7f005f;
+  font-weight: bold;
+}
 
 article {
   margin-top: 3em;
@@ -701,6 +754,8 @@ article h1, article h2, article h3, article h4, article h5, article h6 {
 }
 article h1 {
   font-size: 1.4em;
+  line-height: 1em;
+  text-align: center;
 }
 @media (min-width: 768px) {
   article h1 {
@@ -709,6 +764,7 @@ article h1 {
 }
 article h2 {
   font-size: 1.2em;
+  padding-left: 25px;
 }
 @media (min-width: 768px) {
   article h2 {
@@ -717,11 +773,15 @@ article h2 {
 }
 article h3 {
   font-size: 1.1em;
+  padding-left: 50px;
 }
 @media (min-width: 768px) {
   article h3 {
     font-size: 1.2em;
   }
+}
+article h4 {
+  padding-left: 75px;
 }
 article section p {
   text-align: justify;
@@ -760,7 +820,7 @@ article section div.pub iframe {
 article header img {
   margin: 0 auto;
   border: 1px solid #d8ae47;
-  border-radius: 3px;
+  border-radius: 5px;
   display: block;
   max-width: 90%;
 }
@@ -773,8 +833,14 @@ article header .date, article header .category, article header .tags {
     display: block;
   }
 }
+article header .date a, article header .category a, article header .tags a {
+  color: #d8ae47;
+}
 article header .tags a:not(:last-child)::after {
   content: ", ";
+}
+article footer {
+  margin-top: 15px;
 }
 article footer .author {
   font-size: larger;
@@ -804,14 +870,21 @@ article.short footer:after {
   position: relative;
   bottom: -.8em;
   left: 5%;
-  border-color: #333;
-  border-bottom-style: dashed;
-  border-bottom-width: 1px;
+  border-color: #d8ae47;
+  border-bottom-style: double;
+  border-bottom-width: 5px;
   display: block;
+}
+
+div.chaptering {
+  margin-top: 35px;
+  text-align: center;
 }
 
 table {
   margin: 8px auto 0;
+  color: #111;
+  background-color: #F5F5F5;
 }
 table thead, table tbody {
   border: 1px solid #d8ae47;
@@ -825,6 +898,9 @@ table.sort thead {
 table tr.hide {
   display: none;
 }
+table.boxed td, table.boxed th {
+  border: 1px solid #d8ae47;
+}
 
 .paint-db, .paint-guide {
   min-width: 780px;
@@ -836,10 +912,20 @@ table tr.hide {
   border-right: 1px solid #d8ae47;
 }
 .paint-db tbody tr:nth-child(2n), .paint-guide tbody tr:nth-child(2n) {
-  background-color: #fcf8ef;
+  background-color: #f3e6c5;
 }
 .paint-db td.color, .paint-guide td.color {
   width: 40px;
+}
+
+table.assault tbody tr:nth-child(2n) {
+  background-color: #f3e6c5;
+}
+table.assault thead tr {
+  background-color: #e5ca86;
+}
+table.assault td:not([colspan="4"]) {
+  text-align: center;
 }
 
 div.gallery {
@@ -851,7 +937,7 @@ div.gallery a {
 div.gallery img {
   display: inline-block;
   border: 1px solid #d8ae47;
-  border-radius: 3px;
+  border-radius: 5px;
   object-fit: cover;
 }
 
@@ -921,21 +1007,33 @@ ul.tree li:not(.closed) > a[href="#"]:before, ul.tree ul li:not(.closed) > a[hre
 .side h1 {
   text-align: center;
   background-color: #F5F5F5;
-  border-bottom: #333 solid 5px;
+  border-bottom: #111 solid 5px;
   padding: 1em 0;
   font-family: "Press Start 2P", cursive;
   font-size: 1em;
+}
+@media (prefers-color-scheme: dark) {
+  .side h1 {
+    background-color: #d8ae47;
+    border-bottom: #F5F5F5 solid 5px;
+    color: #111;
+  }
 }
 .side .tagclood a::after {
   content: ' ';
 }
 
 footer.footer .container {
-  margin-top: 4em;
+  margin-top: 0;
   min-height: 8em;
-  background-color: #333;
+  background-color: #111;
   border-top: 5px solid #F5F5F5;
   color: #F5F5F5;
+}
+@media (prefers-color-scheme: dark) {
+  footer.footer .container {
+    background-color: black;
+  }
 }
 footer.footer .container span {
   text-align: center;
@@ -958,16 +1056,26 @@ footer.footer .container span a[title="CommonMark"] {
 footer.footer .container span a[title="CommonMark"] i {
   font-size: x-small;
 }
+footer.footer .container span a[title="Draft"] {
+  color: #111;
+}
+@media (prefers-color-scheme: dark) {
+  footer.footer .container span a[title="Draft"] {
+    color: black;
+  }
+}
 
 .hidden {
   display: none;
 }
 
-.e404, .e405 {
+.e404,
+.e405 {
   margin-top: 7em;
   text-align: center;
 }
-.e404 H1, .e405 H1 {
+.e404 H1,
+.e405 H1 {
   font-family: "Press Start 2P", cursive;
   color: #d8ae47;
   font-size: 8em;

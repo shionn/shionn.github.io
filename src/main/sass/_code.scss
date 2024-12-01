@@ -1,11 +1,12 @@
 pre {
-	border: 1px solid black;
-	border-radius: 3px;
+	border: 1px solid $theme-color;
+	border-radius: $border-width;
 	padding: .5em 1.5em;
 	margin: 0 1em;
-	background: #f5f5f5;
+	background: $theme-grey;
+	color: $theme-black;
 	white-space: pre-wrap;
-
+	
 	code.java, code.shell {
 
 		font-size: 1em;
@@ -26,6 +27,36 @@ pre {
 
 		.hljs-meta {
 			color: #646464;
+		}
+	}
+	
+	code.cpp {
+		.hljs-meta {
+			color: #da70d6;
+			.hljs-string {
+				color: #c98e76;
+			}
+		}
+		.hljs-type {
+			color: #569cd6;
+		}
+		
+		.hljs-title, .hljs-built_in {
+			color: #d4d4a4;
+		}
+		.hljs-params {
+			color: #da70d6;
+		}
+		.hljs-number {
+			color: #fad301;
+		}
+	}
+	
+	code.xml {
+		color: #6d9ae3;
+		.hljs-literal {
+			color: rgb(127, 0, 95);
+			font-weight: bold;
 		}
 	}
 }

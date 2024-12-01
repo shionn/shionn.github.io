@@ -6,11 +6,13 @@ $min-xlg: 1470px;
 
 $theme-color: #d8ae47;
 $theme-grey : #F5F5F5;
-$theme-dark : #333;
-$text-color: #333;
+$theme-black : #111;
 
-$theme-border-color : $theme-dark;
-$theme-border-width : 5px;
+$text-color: $theme-black;
+$border-width : 5px;
 
 $font: "Source Sans Pro", Helvetica, sans-serif;
 $font-alternate: 'Press Start 2P', cursive;
+
+@media (prefers-color-scheme: dark) {
+}

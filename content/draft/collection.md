@@ -1,4 +1,4 @@
-Page non référencé  mes collections perso.
+Page non référencé  mes collections personnelle.
 
 ## Peinture
 
@@ -30,6 +30,7 @@ Go Nagai
 /	Great Mazinger
 1-3	Getter Robot
 1-3	Dynamic Hero
+2	Mazinger Z
 [/table]
 
 [table class="collection,manga" title="Les Chefs d'Oeuvre de Lovecraft" cols="#,Nom,Volume,Annee,Chronologique,Cycle,Ecriture"]
@@ -43,7 +44,7 @@ Go Nagai
 7	Le Temple	1	????
 7	Le Molosse	1	????			1922(4)
 7	La Cité sans nom	1	????			1921(3)
-8	L'abomination de Dunwich	1-2	1913 ?	5	Grands Anciens 2	1928(13)
+8	L'abomination de Dunwich	1-3	1913 ?	5	Grands Anciens 2	1928(13)
 [/table]
 [source](https://lantredecthulhu.com/lecture/ordre-lecture-lovecraft/),
 [source](https://chronolivre.com/quel-ordre-lire-h-p-lovecraft-cthulhu/),

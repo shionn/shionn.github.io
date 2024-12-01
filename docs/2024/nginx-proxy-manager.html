@@ -58,6 +58,9 @@
 						<li>
 							<a href="2024/underworld-dok.html">Fille de Khaine</a>
 						</li>
+						<li>
+							<a href="2024/underworld-soulblight.html">Seigneurs Ruinemânes</a>
+						</li>
 					</ul>
 				</li>
 				<li>
@@ -99,8 +102,25 @@
 					</ul>
 				</li>
 				<li>
-					<a href="2023/survivre-sur-debian.html">Kit de Survie sur Debian</a>
-					
+					<a href="tag/desktop.html">Desktop</a>
+					<ul>
+						<li>
+							<a href="2023/survivre-sur-debian.html">Kit de Survie sur Debian</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="category/code.html">Code</a>
+			<ul>
+				<li>
+					<a href="tag/arduino.html">Arduino</a>
+					<ul>
+						<li>
+							<a href="2024/vs-code-arduino-platform-io.html">PlatformIO sur VsCode</a>
+						</li>
+					</ul>
 				</li>
 			</ul>
 		</li>
@@ -132,7 +152,7 @@
 	</ul>
 		</nav>
 	</header>
-	<div class="container">
+	<div class="container main">
 		
 		
 		
@@ -152,7 +172,7 @@
 <p>Nginx est un reverse proxy.</p>
 <p>Un reverse proxy permet pas mal de choses entres autres :</p>
 <ul>
-<li>Servir de point d'entrée à l'enssemble de vos serveur</li>
+<li>Servir de point d'entrée à l'ensemble de vos serveur</li>
 <li>Permet d'ajouter des headers</li>
 <li>Permet d'ajouter une basic auth</li>
 <li>Permet d'ajouter du HTTPS</li>
@@ -160,9 +180,11 @@
 </ul>
 <h3>Exemple</h3>
 <p>Par exemple admettons que que votre nom de domaine &quot;exemple.com&quot; tape sur votre serveur Nginx.
-Admettons égallement que vous avez deux serveur <strong>web1</strong> et <strong>web2</strong> dans votre reseau privé qui ecoutent tous les deux sur le port 80.</p>
-<p>Vous souhaitez que web1 répond à <strong>https://web1.exemple.com</strong> et web2 répond à <strong>https://web2.exemple.com</strong>. Bon ben deja vos serveur ecoute sur le port 80 et non 443 et en plus seulement sur le reseau local. Ben un reverse proxy permet de résoudre tous ca.</p>
-<pre><code class="java">                            web1.exemple.com
+Admettons également que vous avez deux serveur <strong>web1</strong> et <strong>web2</strong> dans votre réseau privé qui écoutent tous les deux sur le port 80.</p>
+<p>Vous souhaitez que web1 répond à <strong>https://web1.exemple.com</strong> et web2 répond à <strong>https://web2.exemple.com</strong>.
+Bon ben déjà vos serveur écoute sur le port 80 et non 443 et en plus seulement sur le réseau local.
+Ben un reverse proxy permet de résoudre tous cela.</p>
+<pre class="java"><code class="java">                            web1.exemple.com
                           --------------------&gt;[web1:80]
 *.exemple.com            /
 --------------&gt;[ngix:443]
@@ -170,18 +192,20 @@ internet                 \
                           --------------------&gt;[web2:8080/truc]
                             web2.exemple.com
 </code></pre>
-<p>Ca semble pas mal non ?</p>
+<p>Ça semble pas mal non ?</p>
 <h2>Mais, y a toujours un <em>mais</em></h2>
-<p>Franchement Nginx c'est pas super agréable à configurer quand on est comme moi pas interressé par le reseau. Et puis faut gerer la signature des certificats SSL (c'est chiant).</p>
+<p>Franchement Nginx c'est pas super agréable à configurer quand on est comme moi pas intéressé par le réseau.
+Et puis faut gérer la signature des certificats SSL (c'est chiant).</p>
 <p>C'est la qu'intervient <strong><a href="https://nginxproxymanager.com/" target="_blank">Nginx proxy manager</a></strong>.
-Qui est une solution tout en un avec l'installation de nginx et d'une interface web pour faire tout ca simplement avec en plus la gestion des certificats SSL via let's encrypt.
-Et le seul défaut de cette solutiuon finalement c'est que ca marche sur docker.</p>
+Qui est une solution tout en un avec l'installation de nginx et d'une interface web
+pour faire tout ça simplement avec en plus la gestion des certificats SSL via let's encrypt.
+Et le seul défaut de cette solution finalement c'est que ça marche sur docker.</p>
 <h2>Installation</h2>
-<h3>Prérequis</h3>
-<p>Installer docker. <a href="2024/docker-sur-debian.html">procedure disponible ici</a></p>
+<h3>Pré requis</h3>
+<p>Installer docker. <a href="2024/docker-sur-debian.html">procédure disponible ici</a></p>
 <h3>Configuration docker</h3>
 <p>Il faut créer un fichier de configuration docker.</p>
-<pre><code class="yaml">version: '3.8'
+<pre class="yaml"><code class="yaml">version: '3.8'
 services:
   app:
     image: 'jc21/nginx-proxy-manager:latest'
@@ -195,20 +219,19 @@ services:
       - ./letsencrypt:/etc/letsencrypt
 </code></pre>
 <h3>Configuration reseau</h3>
-<p>Rediriger les port 80 et 443 vers votre serveur.</p>
-<h2>Execution</h2>
+<p>Re-diriger les port 80 et 443 vers votre serveur.</p>
+<h2>Exécution</h2>
 <h3>Lancer</h3>
-<pre><code class="shell">docker-compose up -d
+<pre class="shell"><code class="shell">docker-compose up -d
 </code></pre>
 <h3>Connexion</h3>
-<p>Ca se passe sur le port 81. les Users par defaut sont : admin@example.com / changeme</p>
+<p>Ça se passe sur le port 81. les Users par défaut sont : admin@example.com / changeme</p>
 <h2>Source</h2>
 <p><a href="https://nginxproxymanager.com/guide/#quick-setup" target="_blank">nginx</a>
 <a href="https://www.youtube.com/watch?v=qlcVx-k-02E&amp;t=321s" target="_blank">wolf</a></p>
 </section>
 	<footer>
 		<em class="author">par Shionn, le 30 juin 2024<span>, derniére modification le 06 juillet 2024</span>.</em>
-		<hr>
 	</footer>
 </article>
 		</div>
@@ -218,86 +241,143 @@ services:
 			<div class="tagclood">
 				<h1><span class="fa fa-flag"></span> Tags</h1>
 				<a href="tag/aos.html">
-					AoS (5)
+					AoS&nbsp;(6)
+				</a><a href="tag/arduino.html">
+					Arduino&nbsp;(1)
 				</a><a href="tag/arm-e.html">
-					Armée (6)
+					Armée&nbsp;(6)
 				</a><a href="tag/bdd.html">
-					Bdd (2)
+					Bdd&nbsp;(2)
 				</a><a href="tag/blog.html">
-					Blog (1)
+					Blog&nbsp;(1)
 				</a><a href="tag/cit-e-de-sigmar.html">
-					Citée de Sigmar (1)
+					Citée de Sigmar&nbsp;(1)
+				</a><a href="tag/conversion.html">
+					Conversion&nbsp;(1)
 				</a><a href="tag/debian.html">
-					Debian (3)
+					Debian&nbsp;(3)
+				</a><a href="tag/desktop.html">
+					Desktop&nbsp;(1)
 				</a><a href="tag/developpement.html">
-					Developpement (1)
+					Developpement&nbsp;(1)
 				</a><a href="tag/dok.html">
-					DoK (1)
+					DoK&nbsp;(1)
 				</a><a href="tag/docker.html">
-					Docker (1)
+					Docker&nbsp;(1)
 				</a><a href="tag/dungeon-and-laser.html">
-					Dungeon and Laser (1)
+					Dungeon and Laser&nbsp;(1)
 				</a><a href="tag/elfes-noirs.html">
-					Elfes Noirs (8)
+					Elfes Noirs&nbsp;(13)
 				</a><a href="tag/encounter.html">
-					Encounter (1)
+					Encounter&nbsp;(1)
 				</a><a href="tag/figurine.html">
-					Figurine (7)
+					Figurine&nbsp;(13)
 				</a><a href="tag/geek.html">
-					Geek (1)
+					Geek&nbsp;(1)
 				</a><a href="tag/guide.html">
-					Guide (1)
+					Guide&nbsp;(1)
 				</a><a href="tag/java.html">
-					Java (1)
+					Java&nbsp;(1)
 				</a><a href="tag/jdr.html">
-					JdR (1)
+					JdR&nbsp;(1)
 				</a><a href="tag/kit-survie.html">
-					Kit Survie (1)
+					Kit Survie&nbsp;(1)
+				</a><a href="tag/kit-bash.html">
+					Kit bash&nbsp;(1)
 				</a><a href="tag/kruelboyz.html">
-					Kruelboyz (1)
+					Kruelboyz&nbsp;(1)
 				</a><a href="tag/linux.html">
-					Linux (3)
+					Linux&nbsp;(3)
 				</a><a href="tag/metal.html">
-					Metal (6)
+					Metal&nbsp;(10)
 				</a><a href="tag/nains.html">
-					Nains (1)
+					Nains&nbsp;(1)
 				</a><a href="tag/nightaunt.html">
-					Nightaunt (1)
+					Nightaunt&nbsp;(1)
 				</a><a href="tag/peinture.html">
-					Peinture (3)
+					Peinture&nbsp;(3)
+				</a><a href="tag/photo.html">
+					Photo&nbsp;(1)
+				</a><a href="tag/platformio.html">
+					PlatformIO&nbsp;(1)
+				</a><a href="tag/seigneurs-ruinem-nes.html">
+					Seigneurs Ruinemânes&nbsp;(1)
 				</a><a href="tag/server.html">
-					Server (2)
+					Server&nbsp;(2)
 				</a><a href="tag/skaven.html">
-					Skaven (3)
+					Skaven&nbsp;(4)
 				</a><a href="tag/underworld.html">
-					Underworld (1)
+					Underworld&nbsp;(2)
+				</a><a href="tag/vscode.html">
+					VSCode&nbsp;(1)
 				</a><a href="tag/war-game.html">
-					War Game (18)
+					War Game&nbsp;(25)
 				</a><a href="tag/warhammer-battle.html">
-					Warhammer Battle (7)
+					Warhammer Battle&nbsp;(12)
 				</a><a href="tag/nginx.html">
-					nginx (1)
+					nginx&nbsp;(1)
 				</a>
 			</div>
 			<div class="tagclood">
 				<h1><span class="fa fa-folder-open"></span> Catégories</h1>
-				<a href="category/linux.html">
-					Linux (3)
+				<a href="category/code.html">
+					Code&nbsp;(1)
+				</a><a href="category/linux.html">
+					Linux&nbsp;(3)
 				</a><a href="category/vie-du-blog.html">
-					Vie du Blog (1)
+					Vie du Blog&nbsp;(1)
 				</a><a href="category/war-game.html">
-					War Game (18)
+					War Game&nbsp;(25)
 				</a>
 			</div>
 			<div class="calendar">
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 				<ul class="tree">
 					<li>
-						<a href="#">2024 (13)</a>
+						<a href="#">2024 (21)</a>
 						<ul>
 							<li>
-								<a href="#">août (1)</a>
+								<a href="#">novembre (2)</a>
 								<ul>
+									<li>
+										<a href="2024/thanquol-and-boneripper-kit-bash.html">Kitbash Thanquol and Boneripper</a>
+									</li>
+									<li>
+										<a href="2024/elfes-noirs-gardes-noirs-metal.html">Gardes Noirs de Naggarond Elfes Noirs</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">octobre (2)</a>
+								<ul>
+									<li>
+										<a href="2024/vs-code-arduino-platform-io.html">PlatformIO, environnement de dev pour Arduino sur VSCode</a>
+									</li>
+									<li>
+										<a href="2024/elfes-noirs-porteur-gd-banniere.html">Porteur de la grande bannière Elfes Noirs</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">septembre (3)</a>
+								<ul>
+									<li>
+										<a href="2024/underworld-soulblight.html">Bande Underworld Seigneurs Ruinemânes</a>
+									</li>
+									<li>
+										<a href="2024/elfes-noirs-executeurs-metal.html">Executeurs Elfes Noirs</a>
+									</li>
+									<li>
+										<a href="2024/elfes-noirs-hydre-metal.html">Hydre de Guerre Elfes Noirs</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">août (2)</a>
+								<ul>
+									<li>
+										<a href="2024/elfes-noirs-photos-mise-a-jour.html">Mise à jour des photos Elfes Noirs</a>
+									</li>
 									<li>
 										<a href="2024/elfes-noirs-sorciere-metal-sang-froid.html">Sorcière s/ Sang Froid Elfes Noirs</a>
 									</li>
@@ -438,6 +518,9 @@ services:
 				<a href="https://fontawesome.com/v4/icons/" target="_blank" title="FontAwesome"><i class="fa fa-font-awesome"></i></a> |
 				<a href="http://commonmark.org/" target="_blank" title="CommonMark">M<i class="fa fa-long-arrow-down"></i></a> |
 				<a href="https://highlightjs.org/download" target="_blanck" title="highlightjs"><i class="fa fa-header"></i>js</a>
+			</span>
+			<span>
+				<a href="draft.html" title="Draft">Draft</a>
 			</span>
 		</div>
 	</footer>

@@ -31,7 +31,6 @@
 	<section th:utext="${article.fullContent}"></section>
 	<footer>
 		<em class="author">par <th:block th:text="${article.author}"/>, le <th:block th:text="${article.formatedDate}"/><span th:if="${article.updateDate}">, derniére modification le <th:block th:text="${article.formatedUpdateDate}"/></span>.</em>
-		<hr>
 	</footer>
 </article>
 <div class="e404" th:fragment="404">

@@ -14,8 +14,9 @@ article {
 	}
 
 	h1 {
-//		line-height: 1.2em;
 		font-size: 1.4em;
+		line-height: 1em;
+		text-align: center;
 		@media (min-width: $min-sm) {
 			font-size: 1.8em;
 		}
@@ -23,6 +24,7 @@ article {
 
 	h2 {
 		font-size: 1.2em;
+		padding-left: 25px;
 		@media (min-width: $min-sm) {
 			font-size: 1.5em;
 		}
@@ -30,9 +32,14 @@ article {
 
 	h3 {
 		font-size: 1.1em;
+		padding-left: 50px;
 		@media (min-width: $min-sm) {
 			font-size: 1.2em;
 		}
+	}
+
+	h4 {
+		padding-left: 75px;
 	}
 
 	section {
@@ -80,7 +87,7 @@ article {
 		img {
 			margin: 0 auto;
 			border: 1px solid $theme-color;
-			border-radius: 3px;
+			border-radius: $border-width;
 			display: block;
 			max-width: 90%;
 		}
@@ -91,6 +98,9 @@ article {
 			@media (max-width: $max-xs) {
 				display: block;
 			}
+			a {
+				color: $theme-color;
+			}
 		}
 
 		.tags a:not(:last-child)::after {
@@ -99,6 +109,7 @@ article {
 	}
 
 	footer {
+		margin-top: 15px;
 		.author {
 			@media (min-width: $min-sm) {
 				padding-left: 3em;
@@ -127,11 +138,16 @@ article {
 			position: relative;
 			bottom: -.8em;
 			left: 5%;
-			border-color: $theme-dark;
-			border-bottom-style: dashed;
-			border-bottom-width: 1px;
+			border-color: $theme-color;
+			border-bottom-style: double;
+			border-bottom-width: 5px;
 			display: block;
 		}
 	}
+}
+
+div.chaptering {
+	margin-top: 35px;
+	text-align: center;
 }
 

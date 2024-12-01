@@ -58,6 +58,9 @@
 						<li>
 							<a href="2024/underworld-dok.html">Fille de Khaine</a>
 						</li>
+						<li>
+							<a href="2024/underworld-soulblight.html">Seigneurs Ruinemânes</a>
+						</li>
 					</ul>
 				</li>
 				<li>
@@ -99,8 +102,25 @@
 					</ul>
 				</li>
 				<li>
-					<a href="2023/survivre-sur-debian.html">Kit de Survie sur Debian</a>
-					
+					<a href="tag/desktop.html">Desktop</a>
+					<ul>
+						<li>
+							<a href="2023/survivre-sur-debian.html">Kit de Survie sur Debian</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="category/code.html">Code</a>
+			<ul>
+				<li>
+					<a href="tag/arduino.html">Arduino</a>
+					<ul>
+						<li>
+							<a href="2024/vs-code-arduino-platform-io.html">PlatformIO sur VsCode</a>
+						</li>
+					</ul>
 				</li>
 			</ul>
 		</li>
@@ -132,7 +152,7 @@
 	</ul>
 		</nav>
 	</header>
-	<div class="container">
+	<div class="container main">
 		
 		
 		
@@ -145,62 +165,82 @@
 		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
 		<span class="tags">
 			<span class="fa fa-flag"></span>
-			<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/kit-survie.html">Kit Survie</a>
+			<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/desktop.html">Desktop</a><a href="tag/kit-survie.html">Kit Survie</a>
 		</span>
 	</header>
-	<section><p>Voici ma petite liste de truc est astuce sur debian.</p>
+	<section><p>Voici ma petite liste de truc est astuce sur Debian.</p>
 <h2>Gnome</h2>
 <h3>Pavucontrol</h3>
-<p>Outil pour mieux controller les peripheriques audio</p>
-<pre><code class="shell">apt install pavucontrol
+<p>Outil pour mieux contrôler les périphériques audio</p>
+<pre class="shell"><code class="shell">apt install pavucontrol
 </code></pre>
 <h3>ALT-F5 qui fait nimp</h3>
-<p>dans dconf-editor modifier la clef : <code>org.gnome.desktop.wm.keybindings</code></p>
+<p>Dans dconf-editor modifier la clef <code>unmaximise</code> dans le dossier : <code>org.gnome.desktop.wm.keybindings</code></p>
 <h3>Desactiver pasword apres sleep</h3>
-<p>installer dconf-editor modifier la clef <code>/org/gnome/desktop/screensaver lock-enable</code> à false</p>
+<p>Installer dconf-editor modifier la clef <code>/org/gnome/desktop/screensaver lock-enable</code> à false</p>
+<h3>Le pc ne se met pas en veille</h3>
+<p>Généralement un processus l'en empêche. J'ai trouvé cette astuce sur Reddit. Pour connaître ce processus vous pouvez entrer cette commande :</p>
+<pre class="shell"><code class="shell">dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager org.gnome.SessionManager.GetInhibitors
+</code></pre>
+<p>Cela vous donnera une réponse comme cela :</p>
+<pre class="shell"><code class="shell">method return time=1728730333.701330 sender=:1.28 -&gt; destination=:1.303 serial=2481 reply_serial=2
+   array [
+      object path &quot;/org/gnome/SessionManager/Inhibitor272&quot;
+   ]
+</code></pre>
+<p>Ensuite on reprend le <strong>/org/gnome/SessionManager/Inhibitor272</strong> qu'on met dans cette commande :</p>
+<pre class="shell"><code class="shell">dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager/Inhibitor272 org.gnome.SessionManager.Inhibitor.GetAppId
+</code></pre>
+<p>Qui nous donnera ce résultat :</p>
+<pre class="shell"><code class="shell">method return time=1728730410.581488 sender=:1.28 -&gt; destination=:1.304 serial=2482 reply_serial=2
+   string &quot;firefox&quot;
+</code></pre>
 <h2>Vim</h2>
-<h3>Desactiver le mode visual</h3>
-<pre><code class="shell">echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
+<h3>Désactiver le mode visual</h3>
+<pre class="shell"><code class="shell">echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
 </code></pre>
 <h3>Pas de coloration syntaxique</h3>
-<pre><code class="shell">echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
+<pre class="shell"><code class="shell">echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
 </code></pre>
 <h2>Cron</h2>
-<h3>cron au boot</h3>
-<pre><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
+<h3>Cron au boot</h3>
+<pre class="shell"><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
 </code></pre>
 <h2>Openrgb</h2>
-<p>Logiciel de control de peripherique de rgb</p>
+<p>Logiciel de contrôle de périphérique de rgb</p>
 <h3>Gskill et gigabyte</h3>
-<p>Le couple des mémoires Gskill sur une carte mere gigabyte ne marche pas fort. Ajouter l'option : <code>acpi_enforce_resources=lax</code> au boot du noyau.</p>
-<pre><code class="shell">GRUB_CMDLINE_LINUX=&quot;acpi_enforce_resources=lax&quot;
+<p>Le couple des mémoires Gskill sur une carte mère Gigabyte ne marche pas fort. Ajouter l'option : <code>acpi_enforce_resources=lax</code> au boot du noyau.</p>
+<pre class="shell"><code class="shell">GRUB_CMDLINE_LINUX=&quot;acpi_enforce_resources=lax&quot;
 </code></pre>
-<p>installer également <code>i2c-dev</code></p>
-<pre><code class="shell">apt install i2c-dev
+<p>Installer également <code>i2c-dev</code></p>
+<pre class="shell"><code class="shell">apt install i2c-tools
 </code></pre>
-<p>Avant de lancer openrgb charger le module.</p>
-<pre><code class="shell">sudo modprobe i2c-dev
+<p>Avant de lancer OpenRGB charger le module.</p>
+<pre class="shell"><code class="shell">sudo modprobe i2c-dev
+</code></pre>
+<p>Et peut etre vous ajouter au groupe :</p>
+<pre class="shell"><code class="shell">sudo usermod -aG i2c &lt;USER&gt;
 </code></pre>
 <h2>Jeux</h2>
-<h3>Installer steam</h3>
-<p>Il faut ajouter les dépot <em>non-free</em> puis Ajouter des l'architecture i386 :</p>
-<pre><code class="shell">sudo dpkg --add-architecture i386
+<h3>Installer Steam</h3>
+<p>Il faut ajouter les dépôts <em>non-free</em> puis Ajouter des l'architecture i386 :</p>
+<pre class="shell"><code class="shell">sudo dpkg --add-architecture i386
 </code></pre>
-<p>Puis installation de steam :</p>
-<pre><code class="shell">sudo apt install steam
+<p>Puis installation de Steam :</p>
+<pre class="shell"><code class="shell">sudo apt install steam
 </code></pre>
 <h3>Jeux comme au ralenti (Horizon Zero Dawn)</h3>
-<p>Ajouter l'option <strong>tsc=reliable</strong> aux noyeau</p>
+<p>Ajouter l'option <strong>tsc=reliable</strong> aux noyaux.</p>
 <h3>Son qui sature (Horizon Zero Dawn)</h3>
-<p>ajouter ̀<code>PULSE_LATENCY_MSEC=60 DRI_PRIME=1</code> à la commande de lancement</p>
+<p>Ajouter ̀<code>PULSE_LATENCY_MSEC=60 DRI_PRIME=1</code> à la commande de lancement</p>
 <h3>Utilitaire</h3>
 <ul>
-<li>Mangohud</li>
+<li>Mangohud et Goverlay pour la config</li>
 <li>Gamemoderun</li>
 </ul>
 <h2>Vidéo</h2>
 <h3>OBS pas de Vaapi</h3>
-<pre><code class="shell">apt instal mesa-va-drivers
+<pre class="shell"><code class="shell">apt instal mesa-va-drivers
 </code></pre>
 <h2>Steam Deck</h2>
 <h3>Calibrer les joystick</h3>
@@ -210,17 +250,17 @@
 <h2>Eclipse</h2>
 <h3>Eclipse erreur ouverture markdown</h3>
 <p>Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.</p>
-<pre><code class="shell">sudo apt install libwebkit2gtk-4.0-37
+<pre class="shell"><code class="shell">sudo apt install libwebkit2gtk-4.0-37
 </code></pre>
 <h3>eclipse wayland</h3>
-<pre><code class="shell">#/bin/bash
+<pre class="shell"><code class="shell">#/bin/bash
 export WEBKIT_DISABLE_COMPOSITING_MODE=1
 /path/to/eclipse/eclipse
 </code></pre>
 <h2>Seveur</h2>
 <h3>Initialisation</h3>
-<p>Sur chacun de mes serveurs je commence par faire ca :</p>
-<pre><code class="shell">apt install bash-completion vim -y
+<p>Sur chacun de mes serveurs je commence par faire cela :</p>
+<pre class="shell"><code class="shell">apt install bash-completion vim -y
 apt remove nano -y
 echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
 echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
@@ -228,28 +268,43 @@ echo &quot;alias ll=\&quot;ls -l\&quot;&quot; &gt;&gt; ~/.bashrc
 echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.bashrc
 </code></pre>
 <h3>Tomcat</h3>
-<p>Quand je veux deployé dans ROOT Je dois changer les droit d'acces dans le dossier ROOT de <code>/var/lib/tomcat10/webapps</code></p>
+<p>Quand je veux déployé dans ROOT je dois changer les droit d'accès dans le dossier ROOT de <code>/var/lib/tomcat10/webapps</code></p>
 <p>Pour répondre sur 80 dans le fichier : <code>/etc/tomcat10/server.xml</code></p>
 <h3>Tuto file serveur sur promox</h3>
 <p>J'aime pas les tuto youtube mais celui la est bien <a href="https://youtu.be/I7nfSCNKeck?si=uNb3HVNwdK8xJMQQ" target="_blank">MRP</a></p>
 <h3>hdparm spindown des disks :</h3>
 <p><a href="https://wiki.archlinux.org/title/Hdparm" target="_blank">source</a></p>
-<pre><code class="shell">#/etc/udev/rules.d/69-hdparm.rules
+<pre class="shell"><code class="shell">#/etc/udev/rules.d/69-hdparm.rules
 ACTION==&quot;add|change&quot;, KERNEL==&quot;sd[a-z]&quot;, ATTRS{queue/rotational}==&quot;1&quot;, RUN+=&quot;/usr/bin/hdparm -B 127 /dev/%k&quot;
 </code></pre>
+<h2>file system</h2>
+<h3>Samba et fstab</h3>
+<p>Créer un fichier <em>.smbcredentials</em> dans votre /home :</p>
+<pre class="shell"><code class="shell">username=votre user
+password=votre mot de pass
+domaine=WORKGROUP
+</code></pre>
+<p>Installer le package <em>cifs-utils</em>.</p>
+<p>Éditer votre fichier votre fichier fstab comme suit :</p>
+<pre class="shell"><code class="shell">//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
+</code></pre>
+<p>Puis recharger la configuration comme suit :</p>
+<pre class="shell"><code class="shell">sudo systemctl daemon-reload
+</code></pre>
 <h2>Ma config desktop</h2>
-<pre><code class="shell">apt install gnome-shel
-apt install gimp firefox thunar gedit blender gimage-reader
-apt install lutris
-apt install git openjdk-17-jdk openjdk-17-source7
-apt install npt
+<pre class="shell"><code class="shell">apt install bash-completion vim
+apt remove nano
+apt install gnome-shell gnome-terminal dconf-editor 
+apt install cifs-utils npt
+apt install gimp firefox thunar thunar-archive-plugin geany blender gimage-reader
+apt install lutris steam gamemode mangohud
+apt install git openjdk-17-jdk openjdk-17-source
 apt remove firefox-esr
 apt remove gnome-software
 </code></pre>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 23 juillet 2024</span>.</em>
-		<hr>
+		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 12 octobre 2024</span>.</em>
 	</footer>
 </article>
 		</div>
@@ -259,86 +314,143 @@ apt remove gnome-software
 			<div class="tagclood">
 				<h1><span class="fa fa-flag"></span> Tags</h1>
 				<a href="tag/aos.html">
-					AoS (5)
+					AoS&nbsp;(6)
+				</a><a href="tag/arduino.html">
+					Arduino&nbsp;(1)
 				</a><a href="tag/arm-e.html">
-					Armée (6)
+					Armée&nbsp;(6)
 				</a><a href="tag/bdd.html">
-					Bdd (2)
+					Bdd&nbsp;(2)
 				</a><a href="tag/blog.html">
-					Blog (1)
+					Blog&nbsp;(1)
 				</a><a href="tag/cit-e-de-sigmar.html">
-					Citée de Sigmar (1)
+					Citée de Sigmar&nbsp;(1)
+				</a><a href="tag/conversion.html">
+					Conversion&nbsp;(1)
 				</a><a href="tag/debian.html">
-					Debian (3)
+					Debian&nbsp;(3)
+				</a><a href="tag/desktop.html">
+					Desktop&nbsp;(1)
 				</a><a href="tag/developpement.html">
-					Developpement (1)
+					Developpement&nbsp;(1)
 				</a><a href="tag/dok.html">
-					DoK (1)
+					DoK&nbsp;(1)
 				</a><a href="tag/docker.html">
-					Docker (1)
+					Docker&nbsp;(1)
 				</a><a href="tag/dungeon-and-laser.html">
-					Dungeon and Laser (1)
+					Dungeon and Laser&nbsp;(1)
 				</a><a href="tag/elfes-noirs.html">
-					Elfes Noirs (8)
+					Elfes Noirs&nbsp;(13)
 				</a><a href="tag/encounter.html">
-					Encounter (1)
+					Encounter&nbsp;(1)
 				</a><a href="tag/figurine.html">
-					Figurine (7)
+					Figurine&nbsp;(13)
 				</a><a href="tag/geek.html">
-					Geek (1)
+					Geek&nbsp;(1)
 				</a><a href="tag/guide.html">
-					Guide (1)
+					Guide&nbsp;(1)
 				</a><a href="tag/java.html">
-					Java (1)
+					Java&nbsp;(1)
 				</a><a href="tag/jdr.html">
-					JdR (1)
+					JdR&nbsp;(1)
 				</a><a href="tag/kit-survie.html">
-					Kit Survie (1)
+					Kit Survie&nbsp;(1)
+				</a><a href="tag/kit-bash.html">
+					Kit bash&nbsp;(1)
 				</a><a href="tag/kruelboyz.html">
-					Kruelboyz (1)
+					Kruelboyz&nbsp;(1)
 				</a><a href="tag/linux.html">
-					Linux (3)
+					Linux&nbsp;(3)
 				</a><a href="tag/metal.html">
-					Metal (6)
+					Metal&nbsp;(10)
 				</a><a href="tag/nains.html">
-					Nains (1)
+					Nains&nbsp;(1)
 				</a><a href="tag/nightaunt.html">
-					Nightaunt (1)
+					Nightaunt&nbsp;(1)
 				</a><a href="tag/peinture.html">
-					Peinture (3)
+					Peinture&nbsp;(3)
+				</a><a href="tag/photo.html">
+					Photo&nbsp;(1)
+				</a><a href="tag/platformio.html">
+					PlatformIO&nbsp;(1)
+				</a><a href="tag/seigneurs-ruinem-nes.html">
+					Seigneurs Ruinemânes&nbsp;(1)
 				</a><a href="tag/server.html">
-					Server (2)
+					Server&nbsp;(2)
 				</a><a href="tag/skaven.html">
-					Skaven (3)
+					Skaven&nbsp;(4)
 				</a><a href="tag/underworld.html">
-					Underworld (1)
+					Underworld&nbsp;(2)
+				</a><a href="tag/vscode.html">
+					VSCode&nbsp;(1)
 				</a><a href="tag/war-game.html">
-					War Game (18)
+					War Game&nbsp;(25)
 				</a><a href="tag/warhammer-battle.html">
-					Warhammer Battle (7)
+					Warhammer Battle&nbsp;(12)
 				</a><a href="tag/nginx.html">
-					nginx (1)
+					nginx&nbsp;(1)
 				</a>
 			</div>
 			<div class="tagclood">
 				<h1><span class="fa fa-folder-open"></span> Catégories</h1>
-				<a href="category/linux.html">
-					Linux (3)
+				<a href="category/code.html">
+					Code&nbsp;(1)
+				</a><a href="category/linux.html">
+					Linux&nbsp;(3)
 				</a><a href="category/vie-du-blog.html">
-					Vie du Blog (1)
+					Vie du Blog&nbsp;(1)
 				</a><a href="category/war-game.html">
-					War Game (18)
+					War Game&nbsp;(25)
 				</a>
 			</div>
 			<div class="calendar">
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 				<ul class="tree">
 					<li>
-						<a href="#">2024 (13)</a>
+						<a href="#">2024 (21)</a>
 						<ul>
 							<li>
-								<a href="#">août (1)</a>
+								<a href="#">novembre (2)</a>
 								<ul>
+									<li>
+										<a href="2024/thanquol-and-boneripper-kit-bash.html">Kitbash Thanquol and Boneripper</a>
+									</li>
+									<li>
+										<a href="2024/elfes-noirs-gardes-noirs-metal.html">Gardes Noirs de Naggarond Elfes Noirs</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">octobre (2)</a>
+								<ul>
+									<li>
+										<a href="2024/vs-code-arduino-platform-io.html">PlatformIO, environnement de dev pour Arduino sur VSCode</a>
+									</li>
+									<li>
+										<a href="2024/elfes-noirs-porteur-gd-banniere.html">Porteur de la grande bannière Elfes Noirs</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">septembre (3)</a>
+								<ul>
+									<li>
+										<a href="2024/underworld-soulblight.html">Bande Underworld Seigneurs Ruinemânes</a>
+									</li>
+									<li>
+										<a href="2024/elfes-noirs-executeurs-metal.html">Executeurs Elfes Noirs</a>
+									</li>
+									<li>
+										<a href="2024/elfes-noirs-hydre-metal.html">Hydre de Guerre Elfes Noirs</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">août (2)</a>
+								<ul>
+									<li>
+										<a href="2024/elfes-noirs-photos-mise-a-jour.html">Mise à jour des photos Elfes Noirs</a>
+									</li>
 									<li>
 										<a href="2024/elfes-noirs-sorciere-metal-sang-froid.html">Sorcière s/ Sang Froid Elfes Noirs</a>
 									</li>
@@ -479,6 +591,9 @@ apt remove gnome-software
 				<a href="https://fontawesome.com/v4/icons/" target="_blank" title="FontAwesome"><i class="fa fa-font-awesome"></i></a> |
 				<a href="http://commonmark.org/" target="_blank" title="CommonMark">M<i class="fa fa-long-arrow-down"></i></a> |
 				<a href="https://highlightjs.org/download" target="_blanck" title="highlightjs"><i class="fa fa-header"></i>js</a>
+			</span>
+			<span>
+				<a href="draft.html" title="Draft">Draft</a>
 			</span>
 		</div>
 	</footer>
