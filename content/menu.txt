@@ -10,8 +10,8 @@ category/wargame	War Game
 	2024/mes-armees	Underworld
 		2024/underworld-dok	Fille de Khaine
 		2024/underworld-soulblight	Seigneurs Ruinemânes
-	2024/mes-armees	Warcry	2025-02-21
-		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-02-21
+	2024/mes-armees	Warcry	2025-03-03
+		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-03-03
 	tag/dungeon-and-laser	Dungeon and Laser
 		2024/dungeon-and-laser-encounters	Encounters
 	tag/peinture	Guide
@@ -20,14 +20,17 @@ category/wargame	War Game
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
 	tag/d-fi	Défi Peinture	2025-01-02
 		2025/annee-2024-defi-peinture	2024 une année de défi	2025-01-02
+category/jdr	JdR	2024-12-08
+	tag/whisperia	A tale of Whisperia	2024-12-08
+		2024/whisperia-1	1: Évasion d'une gaule	2024-12-08
 category/linux	Linux
 	tag/server	Server
 		2024/docker-sur-debian	Installation Docker sur Debian
 		2024/nginx-proxy-manager	Installation Nginx proxy manager
-		2025/jellyfin-proxmox-hardware-encode	Jellyfin avec accélération matériel sur Proxmox	2025-01-22
+		2025/jellyfin-proxmox-hardware-encode	Jellyfin avec accélération matériel sur Proxmox	2025-02-01
 	tag/desktop	Desktop
 		2023/survivre-sur-debian	Kit de Survie sur Debian
-		2023/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille	2024-12-08
+		2024/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille	2024-12-22
 category/code	Code	2024-10-27
 	tag/arduino	Arduino	2024-10-27
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode	2024-10-27

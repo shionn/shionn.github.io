@@ -11,7 +11,7 @@ Il devrais y avoir à terme :
 - Lokhir Fellheart (Maitre d'arche noire)
 - Morathi
 
-[after date="2025/02/11"]
+[after date="2025/02/21"]
 ### Assassin
 
 Voici mon assassin en métal. J'ai acheté cette figurine il y a presque 25 ans.
@@ -27,7 +27,7 @@ pictures/dark-elves/assassin/03.jpg
 [/gallery]
 [/after]
 
-[after date="2025/02/01"]
+[after date="2025/02/11"]
 ### Malus Dark Blade
 
 Voici mon malus dark blade en métal.
@@ -142,7 +142,7 @@ Rehaut	72096
 Reste à faire :
 - Cavalier Noire
 
-[after date="2025/03/03"]
+[after date="2025/03/13"]
 ### Arbaletriers
 
 Voici mon premier pack de 12 arbaletriers elfe noir en plastique. 
@@ -196,7 +196,7 @@ Base	72045
 Rehaut	72039
 [/paints]
 
-[after date="2025/01/12"]
+[after date="2025/01/22"]
 ### Lanciers
 
 Voici mon premier pack de 20 guerrier elfe noir en plastique. 
@@ -223,7 +223,7 @@ Reste à faire :
 - Harpie
 - Ombre
 
-[after date="2024/12/22"]
+[after date="2025/01/12"]
 ### Char à Sang Froid
 
 Voici mon char à sang froid en métal et plastique, en effet les roues et sang froid sont en plastique.

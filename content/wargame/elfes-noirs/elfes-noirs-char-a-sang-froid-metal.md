@@ -1,5 +1,5 @@
 
-Cette année j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant enfant.
+En 2024 j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant enfant.
 
 Voici mon char à sang froid en métal et plastique, en effet les roues et sang froid sont en plastique.
 Je l'ai acheter sur Vinted, décapé, contre percé et repeint.
