@@ -16,7 +16,7 @@ pictures/jdr/whisperia/carte.jpg
 
 Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans 
 du haut de ces 1m12 pour 100kg pas grand chose lui fait peur. 
-Il cherche à rejoindre la Guilde des aventuriers de __A COMPLETER__ .
+Il cherche à rejoindre la Guilde des aventuriers d'__Heavenrir__ .
 
 Il souhaite rejoindre cette guilde car en étant un membre cela 
 lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne. 
