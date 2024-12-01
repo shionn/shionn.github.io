@@ -141,7 +141,26 @@ Rehaut	72096
 
 Reste à faire :
 - Cavalier Noire
-- Guerrier Elfe Noir
+
+[after date="2025/03/03"]
+### Arbaletriers
+
+Voici mon premier pack de 12 arbaletriers elfe noir en plastique. 
+Ils proviennent d'un lot d'une armée que j'ai racheté (merci David). 
+Je les ai décapé, décollé et recollé. Il y a eu de la perte :p
+
+* Peinte en Novembre 2024
+* Environ 8h30h
+
+[gallery w=250 h=200]
+pictures/dark-elves/arbaletriers/01.jpg
+pictures/dark-elves/arbaletriers/02.jpg
+pictures/dark-elves/arbaletriers/03.jpg
+pictures/dark-elves/arbaletriers/04.jpg
+pictures/dark-elves/arbaletriers/05.jpg
+pictures/dark-elves/arbaletriers/06.jpg
+[/gallery]
+[/after]
 
 ### Corsaires des Arches Noires
 J'ai acheté ces figurines étant gamin, cela fait donc plus de 20 ans que ces figurines sont dans ma pile de la honte.

@@ -1,6 +1,6 @@
 En 2024, j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant enfant.
 
-Voici mon premier pack de 12 arbaletrier elfe noir en plastique. 
+Voici mon premier pack de 12 arbaletriers elfe noir en plastique. 
 Ils proviennent d'un lot d'une armée que j'ai racheté (merci David). 
 Je les ai décapé, décollé et recollé. Il y a eu de la perte :p
 
