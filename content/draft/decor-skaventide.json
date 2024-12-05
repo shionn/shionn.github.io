@@ -1,8 +1,8 @@
 {
 	"type": "post",
-	"date": "2025/12/31",
-	"title": "Décors issu de Mortal Realms",
-	"tags": ["War Game", "Decors"],
+	"date": "2025/04/02",
+	"title": "Décor issu de Skaventide",
+	"tags": ["War Game", "Décor", "Skaventide"],
 	"category": "War Game",
 	"published": false,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],

@@ -19,7 +19,7 @@ En janvier j'ai peint :
 
 [gallery w=200 h=250]
 pictures/dungeon-and-laser-encounters/sg/cerbere/1.jpg
-pictures/decors-mortal-realms/statue-griffon/01.jpg
+pictures/decor-mortal-realms/statue-griffon/01.jpg
 pictures/dungeon-and-laser-encounters/sg/ogre/1.jpg
 [/gallery]
 
@@ -147,7 +147,9 @@ pictures/dungeon-and-laser-encounters/sg/big-foot/01.jpg
 ## Decembre 2024
 
 En décembre j'ai peint :
-* pour mon défi chez __Karv__
+* ??? pour mon défi chez __Karv__
+* Des decors de Skaventide pour le __Fond de cale__ de __Whisp__
+* Des chevaucheurs de sang-froid pour [CFM](https://taverne.colorfulminis.com/t/defi-decembre-2024-chevalier/5777) 
 
 [gallery w=200 h=250]
 [/gallery]

@@ -88,9 +88,6 @@ Décodage d'une référence : __E5-2650L v4__
 * v4 : Architecture (cf tableau)
 	- v1 : est generalement homis
 
-
-
-
 ### Xeon W 
 
 Décodage d'une référence : __W-4245M__
