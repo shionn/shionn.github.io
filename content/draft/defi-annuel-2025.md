@@ -92,7 +92,7 @@ Il faut envoyer ces X figurines en plus des potentiels déserteurs (cf réserve)
 7  13
 8  21
 9  44
-[table]
+[/table]
 
 ### Leader
 

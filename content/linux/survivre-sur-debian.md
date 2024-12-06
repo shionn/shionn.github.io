@@ -89,6 +89,14 @@ Et peut etre vous ajouter au groupe :
 sudo usermod -aG i2c <USER>
 ~~~
 
+## journalctl
+### i2c-designware-pci 0000:09:00.3: Refused to change power state from D0 to D3hot
+J'ai un spam de ce log. Il semblerai qu'ajouter l'option suivante la grub resolve le probleme : 
+
+~~~shell
+GRUB_CMDLINE_LINUX="pcie_port_pm=off"
+~~~
+
 
 ## Jeux
 ### Installer Steam

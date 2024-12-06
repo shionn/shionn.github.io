@@ -221,6 +221,11 @@
 <p>Et peut etre vous ajouter au groupe :</p>
 <pre class="shell"><code class="shell">sudo usermod -aG i2c &lt;USER&gt;
 </code></pre>
+<h2>journalctl</h2>
+<h3>i2c-designware-pci 0000:09:00.3: Refused to change power state from D0 to D3hot</h3>
+<p>J'ai un spam de ce log. Il semblerai qu'ajouter l'option suivante la grub resolve le probleme :</p>
+<pre class="shell"><code class="shell">GRUB_CMDLINE_LINUX=&quot;pcie_port_pm=off&quot;
+</code></pre>
 <h2>Jeux</h2>
 <h3>Installer Steam</h3>
 <p>Il faut ajouter les dépôts <em>non-free</em> puis Ajouter des l'architecture i386 :</p>
