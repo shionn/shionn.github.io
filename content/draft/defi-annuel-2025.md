@@ -153,10 +153,10 @@ Une figurine en __réserve__ ne participe pas à l'assaut, elle attendra un futu
 Cependant :
 * Les figurines en réserve perdent patience et 20% des figurine en réserve
 au début d'un assaut doivent être envoyés sinon elles désertent.  
-* Ces 20% sont à compter en plus des 5 figurines pour gagner un galon.
+* Ces 20% (tronqué à l'inferieur) sont à compter en plus des X figurines necessaire pour gagner un galon.
 
-> Si par exemple au début d'un assaut je possèdes 9 figurines en réserve alors j'ai un risque de 2 déserteurs, 
-> Si je veux gagner un galon je dois en envoyer au moins 7 (5+2) figurine pendant cette assaut.
+> Si par exemple au début d'un assaut je possèdes 11 figurines en réserve alors j'ai un risque de 2 déserteurs, 
+> Si je possede 4 galon, si je veux gagner un galon je dois en envoyer au moins 7 (5+2) figurine pendant cette assaut.
 
 A vous de choisir, voulez-vous garder vos figurines pour vous et les garder de côté pour le prochain assaut ?
 Voulez vous vous jeter dans la bataille sans compter vos pertes ?
