@@ -83,15 +83,15 @@ Il faut envoyer ces X figurines en plus des potentiels déserteurs (cf réserve)
 * Chaque joueur qui n'a envoyé aucune figurine à l'assaut depuis au moins deux assaut de l'objectif perd un galon pour sa faction d'allégeance.
 
 [table cols="Nombre de galon actuel,Nombre de figurine à envoyer (X)"]
-0  1
-1  1
-2  2
-3  3
-4  5
-6  8
-7  13
-8  21
-9  44
+0	1
+1	2
+2	3
+3	5
+4	8
+5	13
+6	21
+7 	44
+8	65
 [/table]
 
 ### Leader
