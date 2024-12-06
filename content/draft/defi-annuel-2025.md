@@ -46,7 +46,7 @@ Si il ne le fait pas, je considérai qu'elle sera dans la faction la moins repr�
 ### Déroulement 
 
 Le jeu se déroule par __assaut__ chaque assaut se déroule sur un demi mois. 
-Du 1er du mois à 0h00 au 15 à 23h59 ou du 16 à 0h00 au dernier jour du mois à 23h59. 
+Du 1er du mois à 8h00 au 15 à 22h00 ou du 16 à 8h00 au dernier jour du mois à 22h00. 
 
 #### Pendant l'assaut
 
@@ -60,13 +60,13 @@ Vous pouvez poster les mêmes figurines sur les deux discords, mais elle ne comp
 
 #### Fin d'assaut
 
-La fin d'un assaut est à minuit. Cependant pour éviter qu'une personne envoie des figurine sur le
-fils à 23h59m59 en coupant l'herbe sous le pieds des autres généraux, chaque figurine envoyé
-pendant les 10 dernières minutes d'un assaut prolonge de 10 minutes l'assaut.
-Bref l'assaut se finit au moins 10 minutes après que la dernière fig a été envoyé.
+La fin d'un assaut est à 22h00. Cependant pour éviter qu'un joueur envoie des figurines sur le
+fils à 21h59m59 en coupant l'herbe sous le pieds des autres généraux, chaque figurine envoyé
+pendant les 5 dernières minutes d'un assaut prolonge de 5 minutes l'assaut.
+Bref l'assaut se finit au moins 5 minutes après que la dernière fig a été envoyé.
 
-> Exemple, j'envoie 5 figurines à l'assaut de l'objectif à 23h55. Alors l'assaut prendra fin à 00h05. 
-> Et si de nouveau quelqu'un envoie une figurine à 00h02, l'assaut prendra fin à 00h12. 
+> Exemple, j'envoie 5 figurines à l'assaut de l'objectif à 21h57. Alors l'assaut prendra fin à 22h02. 
+> Et si de nouveau quelqu'un envoie une figurine à 22h01, l'assaut prendra fin à 00h06. 
 
 À la fin d'un assaut on fait les comptes:
 * On détermine quelle faction prend l'objectif.
@@ -78,13 +78,21 @@ Bref l'assaut se finit au moins 10 minutes après que la dernière fig a été e
 ### Galon 
 
 A la fin de chaque __assaut__ :
-* Chaque joueur qui a envoyé au moins 5 figurines à l'assaut de l'objectif pour une faction gagne un __galon__ pour cette faction.
-Il faut envoyer 5 figurines en plus des potentiels déserteurs (cf réserve).
-* Chaque joueur qui n'a envoyé aucune figurine à l'assaut de l'objectif perd un galon pour sa faction d'allégeance.
+* Chaque joueur qui a envoyé au moins X (Cf tableau) figurines à l'assaut de l'objectif pour une faction gagne un __galon__ pour cette faction.
+Il faut envoyer ces X figurines en plus des potentiels déserteurs (cf réserve).
+* Chaque joueur qui n'a envoyé aucune figurine à l'assaut depuis au moins deux assaut de l'objectif perd un galon pour sa faction d'allégeance.
 
-> Remarque : Je me demande si "envoyé 5 figurine" pour gagné un galon est une bonne chose... 
-> Je me demande si ca serai pas mieux de rendre l'obtention d'un galon de plus en plus dure avec les galons. 
-> par exemple 1-1-2-3-5-8-13-21-44
+[table cols="Nombre de galon actuel,Nombre de figurine à envoyer (X)"]
+0  1
+1  1
+2  2
+3  3
+4  5
+6  8
+7  13
+8  21
+9  44
+[table]
 
 ### Leader
 
