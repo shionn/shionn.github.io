@@ -1,14 +1,16 @@
 Bonjour,
 
-Je participe à quelque défis de peinture. 
-Dans ces défis il n'y a rien à gagné, hormis le fait d'avoir peint une fig et d'en avoir une de moins dans la pile de la honte.
-Dans l'année qui viens de passer j'ai participer principalement aux défis du 
+Je participe à quelques défis de peinture. 
+Dans ces défis il n'y a rien à gagner, hormis le fait d'avoir peint une fig et d'en avoir une de moins dans la pile de la honte.
+Dans l'année qui viens de passer j'ai participé principalement aux défis du 
 forum [OneMoreMini](https://onemoremini.fr/topic/203/calendrier-des-d%C3%A9fis-mensuels) 
 et [ColorFullMinis](https://taverne.colorfulminis.com/t/defis-cfm-annee-2024/5163). 
-J'ai aussi partificpé au __Fond de cale__ sur le discord de __Whisp__. 
-Mais également j'ai organisé mon propre défi sur le discord de __Karv__. 
+J'ai aussi participé au __Fond de cale__ sur le discord de __Whisp__. 
+Mais également à celui que j'ai organisé sur le discord de __Karv__. 
 
-En plus de ces défi c'est suivi mon CDA sur le discord de __Karv__ ou j'ai peint presque tous mes elfs noir.
+[gallery]
+pictures/defis/grille-whisp-2024.png
+[/gallery]
 
 ## Janvier 2024
 
@@ -147,9 +149,10 @@ pictures/dungeon-and-laser-encounters/sg/big-foot/01.jpg
 ## Decembre 2024
 
 En décembre j'ai peint :
-* ??? pour mon défi chez __Karv__
 * Des decors de Skaventide pour le __Fond de cale__ de __Whisp__
 * Des chevaucheurs de sang-froid pour [CFM](https://taverne.colorfulminis.com/t/defi-decembre-2024-chevalier/5777) 
+* Une Bulma pour mon défi chez __Karv__
 
 [gallery w=200 h=250]
+pictures/decor-skaventide/06.jpg
 [/gallery]

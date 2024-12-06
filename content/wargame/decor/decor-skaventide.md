@@ -11,10 +11,9 @@ voulais vraiment. Mais j'ai peint les décord que voici.
 [gallery  w=300 h=200]
 pictures/decor-skaventide/01.jpg
 pictures/decor-skaventide/02.jpg
-[/gallery]
-
-
-todo 
-
 pictures/decor-skaventide/03.jpg
 pictures/decor-skaventide/04.jpg
+pictures/decor-skaventide/05.jpg
+pictures/decor-skaventide/06.jpg
+pictures/decor-skaventide/07.jpg
+[/gallery]

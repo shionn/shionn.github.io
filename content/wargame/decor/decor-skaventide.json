@@ -4,7 +4,8 @@
 	"title": "Décor issu de Skaventide",
 	"tags": ["War Game", "Décor", "Skaventide"],
 	"category": "War Game",
-	"published": false,
+	"logo": "pictures/titles/decor-skaventide.jpg",
+	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"
 }
