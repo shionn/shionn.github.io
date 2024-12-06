@@ -10,7 +10,7 @@ body {
 	font: 1em / 1.25em $font;
 
 	@media (prefers-color-scheme: dark) {
-		background-color: black;
+		background-color: $theme-blacker;
 		color: $theme-grey;
 	}
 }
@@ -52,7 +52,7 @@ a {
 		@media (prefers-color-scheme: dark) {
 			background-color: $theme-color;
 			border-bottom: $theme-grey solid $border-width;
-			color: $theme-black;
+			color: $theme-blacker;
 		}
 	}
 
@@ -70,7 +70,7 @@ footer.footer {
 		color: $theme-grey;
 
 		@media (prefers-color-scheme: dark) {
-			background-color: black;
+			background-color: $theme-blacker;
 		}
 
 		span {
@@ -102,7 +102,7 @@ footer.footer {
 				color: $theme-black;
 
 				@media (prefers-color-scheme: dark) {
-					color: black;
+					color: $theme-blacker;
 				}
 			}
 		}
