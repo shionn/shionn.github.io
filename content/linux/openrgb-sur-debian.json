@@ -1,11 +1,11 @@
 {
 	"type": "post",
-	"date": "2023/11/22",
-	"updated": "2024/12/07",
-	"title": "Kit de Survie sur Debian",
-	"tags": ["Linux", "Debian", "Desktop", "Kit Survie"],
+	"date": "2025/04/12",
+	"title": "Openrgb sur Debian",
+	"tags": ["Linux", "Debian", "OpenRGB", "Desktop"],
 	"category": "Linux",
 	"published": true,
 	"author": "Shionn",
 	"js" : [ "js/hljs/highlight.min.js", "js/hljs/bash.min.js" ]
 }
+

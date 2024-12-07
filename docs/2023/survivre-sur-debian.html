@@ -206,21 +206,6 @@
 <h3>Cron au boot</h3>
 <pre class="shell"><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
 </code></pre>
-<h2>Openrgb</h2>
-<p>Logiciel de contrôle de périphérique de rgb</p>
-<h3>Gskill et gigabyte</h3>
-<p>Le couple des mémoires Gskill sur une carte mère Gigabyte ne marche pas fort. Ajouter l'option : <code>acpi_enforce_resources=lax</code> au boot du noyau.</p>
-<pre class="shell"><code class="shell">GRUB_CMDLINE_LINUX=&quot;acpi_enforce_resources=lax&quot;
-</code></pre>
-<p>Installer également <code>i2c-dev</code></p>
-<pre class="shell"><code class="shell">apt install i2c-tools
-</code></pre>
-<p>Avant de lancer OpenRGB charger le module.</p>
-<pre class="shell"><code class="shell">sudo modprobe i2c-dev
-</code></pre>
-<p>Et peut etre vous ajouter au groupe :</p>
-<pre class="shell"><code class="shell">sudo usermod -aG i2c &lt;USER&gt;
-</code></pre>
 <h2>journalctl</h2>
 <h3>i2c-designware-pci 0000:09:00.3: Refused to change power state from D0 to D3hot</h3>
 <p>J'ai un spam de ce log. Il semblerai qu'ajouter l'option suivante la grub resolve le probleme :</p>
@@ -309,7 +294,7 @@ apt remove gnome-software
 </code></pre>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 12 octobre 2024</span>.</em>
+		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 07 décembre 2024</span>.</em>
 	</footer>
 </article>
 		</div>

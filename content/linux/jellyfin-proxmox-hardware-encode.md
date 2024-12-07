@@ -55,8 +55,8 @@ Maintenant qu'on a identifié le périphérique et le group on peu
 passthrought notre composant. Vous pouvez le faire via l'interface de Proxmox.
 
 [gallery]
-pictures/serveur/proxmox-jellyfin/01-add-device-button.png
-pictures/serveur/proxmox-jellyfin/02-add-device-interface.png
+pictures/linux/proxmox-jellyfin/01-add-device-button.png
+pictures/linux/proxmox-jellyfin/02-add-device-interface.png
 [/gallery]
 
 Ou en ajoutant dans le fichier de configuration du container 
@@ -99,8 +99,8 @@ apt install jellyfin-ffmpeg7
 Cela se passe dans le `tableau de bord` de Jellyfin dans l'interface web. 
 
 [gallery]
-pictures/serveur/proxmox-jellyfin/03-activation-transcodage-menu.png
-pictures/serveur/proxmox-jellyfin/04-activation-transcodage-options.png
+pictures/linux/proxmox-jellyfin/03-activation-transcodage-menu.png
+pictures/linux/proxmox-jellyfin/04-activation-transcodage-options.png
 [/gallery]
 
 ## Résultat
@@ -109,7 +109,7 @@ HEVC 10bit vers de l'AV1 4K à environ 180 fps. Ce qui est assez :p.
 En software malgré l'attribution de 20 coeur, je plafonnais a 15 fps. 
 
 [gallery]
-pictures/serveur/proxmox-jellyfin/05-resultat.png
+pictures/linux/proxmox-jellyfin/05-resultat.png
 [/gallery]
 
 

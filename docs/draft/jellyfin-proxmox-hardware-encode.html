@@ -203,7 +203,7 @@ Ensuite il faut identifier l'ID du group <code>render</code> dans votre conteneu
 <p>Dans mon cas cette commande me renvoi <code>render:x:104:jellyfin</code>. Ici ce qui m'intéresse c'est <code>104</code>.</p>
 <p>Maintenant qu'on a identifié le périphérique et le group on peu
 passthrought notre composant. Vous pouvez le faire via l'interface de Proxmox.</p>
-<div class="gallery"><a href="pictures/serveur/proxmox-jellyfin/01-add-device-button.png"><img src="pictures/serveur/proxmox-jellyfin/01-add-device-button.png"></a><a href="pictures/serveur/proxmox-jellyfin/02-add-device-interface.png"><img src="pictures/serveur/proxmox-jellyfin/02-add-device-interface.png"></a></div>
+<div class="gallery"><a href="pictures/linux/proxmox-jellyfin/01-add-device-button.png"><img src="pictures/linux/proxmox-jellyfin/01-add-device-button.png"></a><a href="pictures/linux/proxmox-jellyfin/02-add-device-interface.png"><img src="pictures/linux/proxmox-jellyfin/02-add-device-interface.png"></a></div>
 <p>Ou en ajoutant dans le fichier de configuration du container
 dans <code>/etc/pve/lxc/XXX.conf</code>:</p>
 <pre class="shell"><code class="shell">dev0: /dev/dri/renderD128,gid=104
@@ -231,12 +231,12 @@ les packages depuis <a href="https://github.com/intel/compute-runtime/releases" 
 </code></pre>
 <h3>Activation</h3>
 <p>Cela se passe dans le <code>tableau de bord</code> de Jellyfin dans l'interface web.</p>
-<div class="gallery"><a href="pictures/serveur/proxmox-jellyfin/03-activation-transcodage-menu.png"><img src="pictures/serveur/proxmox-jellyfin/03-activation-transcodage-menu.png"></a><a href="pictures/serveur/proxmox-jellyfin/04-activation-transcodage-options.png"><img src="pictures/serveur/proxmox-jellyfin/04-activation-transcodage-options.png"></a></div>
+<div class="gallery"><a href="pictures/linux/proxmox-jellyfin/03-activation-transcodage-menu.png"><img src="pictures/linux/proxmox-jellyfin/03-activation-transcodage-menu.png"></a><a href="pictures/linux/proxmox-jellyfin/04-activation-transcodage-options.png"><img src="pictures/linux/proxmox-jellyfin/04-activation-transcodage-options.png"></a></div>
 <h2>Résultat</h2>
 <p>Avec cette configuration, ma machine transcode un flux 4K en
 HEVC 10bit vers de l'AV1 4K à environ 180 fps. Ce qui est assez :p.
 En software malgré l'attribution de 20 coeur, je plafonnais a 15 fps.</p>
-<div class="gallery"><a href="pictures/serveur/proxmox-jellyfin/05-resultat.png"><img src="pictures/serveur/proxmox-jellyfin/05-resultat.png"></a></div>
+<div class="gallery"><a href="pictures/linux/proxmox-jellyfin/05-resultat.png"><img src="pictures/linux/proxmox-jellyfin/05-resultat.png"></a></div>
 <h2>Source</h2>
 <ul>
 <li><a href="https://jellyfin.org/docs/general/administration/hardware-acceleration/" target="_blank">Jellyfin</a></li>

@@ -33,6 +33,7 @@ category/linux	Linux
 	tag/desktop	Desktop
 		2023/survivre-sur-debian	Kit de Survie sur Debian
 		2024/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille	2024-12-22
+		2025/openrgb-sur-debian	OpenRGB sur Débian	2025-04-12
 	tag/matos	Matos	2025-03-23
 		2025/homelab-processor	Processeur pour Homelab	2025-03-23
 category/code	Code	2024-10-27

@@ -62,33 +62,6 @@ echo "syntax on" >> ~/.vimrc
 @reboot		root	cd / && run-parts --report /etc/cron.reboot
 ~~~
 
-## Openrgb
-Logiciel de contrôle de périphérique de rgb
-### Gskill et gigabyte
-Le couple des mémoires Gskill sur une carte mère Gigabyte ne marche pas fort. Ajouter l'option : `acpi_enforce_resources=lax` au boot du noyau.
-
-~~~shell
-GRUB_CMDLINE_LINUX="acpi_enforce_resources=lax"
-~~~
-
-Installer également `i2c-dev`
-
-~~~shell
-apt install i2c-tools
-~~~
-
-Avant de lancer OpenRGB charger le module.
-
-~~~shell
-sudo modprobe i2c-dev
-~~~
-
-Et peut etre vous ajouter au groupe : 
-
-~~~shell 
-sudo usermod -aG i2c <USER>
-~~~
-
 ## journalctl
 ### i2c-designware-pci 0000:09:00.3: Refused to change power state from D0 to D3hot
 J'ai un spam de ce log. Il semblerai qu'ajouter l'option suivante la grub resolve le probleme : 
