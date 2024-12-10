@@ -23,6 +23,15 @@ Sagesse	3	-4	Fouille, Observer
 Cha	13	+2	Négocier
 [/table]
 
+[table title="Autre" cols="Cat,Valeur,Description"]
+Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
+Maitrise	+2	???
+Armure	Broigne(+14)	CA : 14
+Or	150po
+Alignement	Loyal Neutre
+Passif	Second souffle	1 fois par jour, +1D10 pv.
+[/table]
+
 Suite à notre première aventure il me reste 7 pv sur mes 13. 
 
 ## Précédement

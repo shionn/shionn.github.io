@@ -39,6 +39,7 @@ Je commence la partie avec 13 pv.
 
 [table title="Autre" cols="Cat,Valeur,Description"]
 Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
+Maitrise	+2	???
 Armure	Broigne(+14)	CA : 14
 Or	150po
 Alignement	Loyal Neutre
