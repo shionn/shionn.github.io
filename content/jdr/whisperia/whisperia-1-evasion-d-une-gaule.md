@@ -178,7 +178,7 @@ pictures/jdr/whisperia/010.png
 pictures/jdr/whisperia/011.png
 [/gallery]
 
-## conclusion
+## Conclusion
 
 Nous nous sommes échappé d'une gaule, nous avons récupérer notre équipement. 
 Combattu 3 orcs et 1 troll. Trouver une capuche, de la bave et une potion ainsi que des pièces.
