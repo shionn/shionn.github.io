@@ -44,6 +44,7 @@ Armure	Broigne(+14)	CA : 14
 Or	150po
 Alignement	Loyal Neutre
 Passif	Second souffle	1 fois par jour, +1D10 pv.
+PV	13/13
 [/table]
 
 ## Notre groupe
@@ -184,7 +185,7 @@ pictures/jdr/whisperia/011.png
 Nous nous sommes échappé d'une gaule, nous avons récupérer notre équipement. 
 Combattu 3 orcs et 1 troll. Trouver une capuche, de la bave et une potion ainsi que des pièces.
 
-J'ai gagné 26 po dans cette partie, cracher sur des elfes, c'était bien. 
+J'ai gagné 16 po dans cette partie, cracher sur des elfes, c'était bien. 
 Je n'avais pas du tous compris l'importance de la capacité de la sagesse dans ce jeu sinon jamais je n'aurais mis mon 3 dedans. 
 En gros je ne peu presque pas participer au phase d'enquête et d'énigme.
 D'ailleurs des fois on fouille sur la dex et des fois sur la sagesse faut que j'éclaircisse cela. 

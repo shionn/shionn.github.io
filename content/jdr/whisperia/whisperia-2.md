@@ -27,7 +27,7 @@ Cha	13	+2	Négocier
 Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
 Maitrise	+2	???
 Armure	Broigne(+14)	CA : 14
-Or	176po
+Or	166po
 Alignement	Loyal Neutre
 Passif	Second souffle	1 fois par jour, +1D10 pv.
 [/table]
@@ -107,6 +107,6 @@ J'obtiens le passif fouge, une fois par jour je peu attaquer une deuxieme fois.
 Je gagne 9 pv, je passe à 22pv.
 
 
-Je fini avec 181 po, et 21/22 pv.
+Je fini avec 171 po, et 21/22 pv.
  
 
