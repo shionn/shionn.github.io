@@ -21,6 +21,7 @@ Consti	16	+3	Encaisser, Résister
 Intel	9	-1	
 Sagesse	3	-4	Fouille, Observer
 Cha	13	+2	Négocier
+PV	7/13
 [/table]
 
 [table title="Autre" cols="Cat,Valeur,Description"]
@@ -31,10 +32,6 @@ Or	166po
 Alignement	Loyal Neutre
 Passif	Second souffle	1 fois par jour, +1D10 pv.
 [/table]
-
-iniiative : dex + sag
-
-Suite à notre première aventure il me reste 7 pv sur mes 13. 
 
 ## Précédement
 
