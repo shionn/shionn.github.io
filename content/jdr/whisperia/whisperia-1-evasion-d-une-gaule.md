@@ -28,9 +28,9 @@ En effet les impôts sur les alcools sont réduits quand on est membre de la gui
 Force	14	+2	Taper, Soulever, Casser
 Dex	9	-1	Lancer
 Consti	16	+3	Encaisser, Résister
-Intel	9	-1	
-Sagesse	3	-4	Fouille, Observer
-Cha	13	+2	Négocier
+Intel	3	-4	
+Sagesse	13	+1	Fouille, Observer
+Cha	9	-1	Négocier
 [/table]
 
 Je commence la partie avec 13 pv.
