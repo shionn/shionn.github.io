@@ -39,12 +39,12 @@ Je commence la partie avec 13 pv.
 
 [table title="Autre" cols="Cat,Valeur,Description"]
 Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
-Maitrise	+2	???
 Armure	Broigne(+14)	CA : 14
-Or	150po
+Maitrise	+2	???
 Alignement	Loyal Neutre
 Passif	Second souffle	1 fois par jour, +1D10 pv.
 PV	13/13
+Or	150po
 [/table]
 
 ## Notre groupe
@@ -171,6 +171,7 @@ Le chat fouille le troll, y trouve de la bave de troll l'elfe semble apprécier 
 elle dis que ça a de la valeur et il paraîtrais que ça sert à faire une potion de résistance au dégât.
 Elle trouve une capuche de discrétion sur le second orc. 
 Elle obtiens 6 po et encore une fois ne partage rien. Je note de nouveau cet affront.
+Elle trouve une __Grosse clef écris burreau__ .
 
 Ce qui clos cette première soirée. 
 
