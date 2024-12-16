@@ -14,28 +14,30 @@ category/wargame	War Game
 		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-03-03
 	tag/dungeon-and-laser	Dungeon and Laser
 		2024/dungeon-and-laser-encounters	Encounters
-	tag/d-cor	Décor	2025-04-02
-		2025/decor-skaventide	Décor Skaventide	2025-04-02
+	tag/d-cor	Décor	2025-04-12
+		2025/decor-skaventide	Décor Skaventide	2025-04-12
+		2025/decor-mortal-realms	Décor Mortal Realms	2025-05-12
 	tag/peinture	Guide
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Tableau d'équivalence de peinture
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
 	tag/d-fi	Défi Peinture	2025-01-02
 		2025/annee-2024-defi-peinture	2024 une année de défi	2025-01-02
-category/jdr	JdR	2024-12-08
-	tag/whisperia	A tale of Whisperia	2024-12-08
-		2024/whisperia-1	1: Évasion d'une gaule	2024-12-08
+category/jdr	JdR
+	tag/whisperia	A tale of Whisperia
+		2024/whisperia-1-evasion-d-une-gaule	1: Évasion d'une gaule	2024-12-08
+		2024/whisperia-orcs-et-chausette	2: Orcs et Chaussette	2024-12-22
 category/linux	Linux
 	tag/server	Server
 		2024/docker-sur-debian	Installation Docker sur Debian
 		2024/nginx-proxy-manager	Installation Nginx proxy manager
-		2025/jellyfin-proxmox-hardware-encode	Jellyfin avec accélération matériel sur Proxmox	2025-02-01
+		2025/jellyfin-proxmox-hardware-encode	Jellyfin avec accélération matériel sur Proxmox	2025-02-11
 	tag/desktop	Desktop
 		2023/survivre-sur-debian	Kit de Survie sur Debian
-		2024/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille	2024-12-22
-		2025/openrgb-sur-debian	OpenRGB sur Débian	2025-04-12
-	tag/matos	Matos	2025-03-23
-		2025/homelab-processor	Processeur pour Homelab	2025-03-23
+		2024/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille	2025-01-22
+		2025/openrgb-sur-debian	OpenRGB sur Débian	2025-04-22
+	tag/matos	Matos	2025-03-13
+		2025/homelab-processor	Processeur pour Homelab	2025-03-13
 category/code	Code	2024-10-27
 	tag/arduino	Arduino	2024-10-27
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode	2024-10-27

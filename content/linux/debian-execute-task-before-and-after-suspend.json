@@ -1,6 +1,6 @@
 {
 	"type": "post",
-	"date": "2024/12/22",
+	"date": "2025/01/22",
 	"title": "Exécuter un script avant et après la mise en veille",
 	"tags": ["Debian", "Script", "Systemd", "Desktop"],
 	"category": "Linux",

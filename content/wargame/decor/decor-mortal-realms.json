@@ -1,10 +1,10 @@
 {
 	"type": "post",
-	"date": "2025/12/31",
+	"date": "2025/05/12",
 	"title": "Décor issu de Mortal Realms",
 	"tags": ["War Game", "Decors"],
 	"category": "War Game",
-	"published": false,
+	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"
 }
