@@ -45,16 +45,26 @@ Notre aventure précédente dans l'[article dédié](2024/whisperia-1-evasion-d-
 
 Cette partie s'est déroulée le 14 décembre 2024. Dont voici le replay :
 
-TODO insertion youtube
+[youtube video="U6zcgVMq1Uo?si=zvrC6wG30Dfsh-4m"/]
 
 Nous commençons par faire le point sur notre situation, 
 Nous barricadons la porte dont nous ne connaissons pas ce qu'il y a derrière avec les cadavres de orc et du troll. Ceci dans le but de nous reposer.
 Nous récupérons nos pv et nos pouvoir. Je repasse à 13 et mon second souffle. 
 
+[gallery w=300 h=250]
+pictures/jdr/whisperia/013.png
+pictures/jdr/whisperia/014.png
+[/gallery]
+
 Après notre repos, nous démontons notre barricade et le __Anuabi__ entre-trouve la porte, elle n'arrive qu'a apercevoir 2 orc. 
 pendant que les autres parlementent, je regarde le barbare dans les yeux et nous décidons d'ouvrir la porte et d'attaquer.
 
 Nous arrivons dans un couloir avec une porte sur notre droite, 4 orcs nous attendent plus loin avec un autre porte sur notre droite et une porte au fond.
+
+[gallery w=300 h=250]
+pictures/jdr/whisperia/015.png
+pictures/jdr/whisperia/016.png
+[/gallery]
 
 ### 4 orcs.
 
@@ -64,6 +74,12 @@ __Peverell__, _le paladin_ nous suis et par un coup de bol touche l'orc et le bl
 __Hyasull__ et moi enchaînons sur une seconde attaque mais nous ne faisons pas bien mieux. 
 __Ariana__, _la magicienne_ balance de la neige sur les 3 orcs du fond qui n'ont pas l'air d'apprécier.
 Les deux orcs proche de nous se reprennent et tape sur notre paladin. 
+
+[gallery w=300 h=250]
+pictures/jdr/whisperia/017.png
+pictures/jdr/whisperia/018.png
+[/gallery]
+
 
 Les deux autres me fonce dessus, le premier m'effleure et me fait perdre un 1pv, et l'autre impressionné par ma prestance ce plante son épée dans le pied. 
 Mes autres compagnons ne font pas grand chose.
@@ -95,11 +111,15 @@ Les orcs tape contre __Peverell__ qui retombe dans le monde des rêves et __Anua
 Nous nous acharnons sur nos assaillants. Les échanges s'enchaînent. 
 Un orc brasse l'air au dessous de ma tête et l'autre tape le chaton. Le barbare et l'elfe achève nos deux assaillant. 
 
+[gallery w=300 h=250]
+pictures/jdr/whisperia/019.png
+[/gallery]
+
 ### Fouilleage
 
 On laisse __Anuabi__ fouiller les cadavres, il trouve 32 pièces d'or, et nous en donne 5 chacun. 
 
-Nous décidons de commencer par revenir sur nos pas pour voir la porte devant laquelles nous sommes passé. 
+Nous décidons de commencer par revenir sur nos pas pour voir la porte devant laquelle nous sommes passé. 
 
 __Anuabi__ essaye de la crocheter mais n'y arrive pas. 
 __Hyasull__ essaye de défoncer la porte mais la porte bouge pas.
@@ -108,9 +128,19 @@ Soudain __Anuabi__ à l'intuition qu'il lui faudrait une grosse clef. Mais ne pe
 
 Nous fouillons la pièce dont les deux orcs sont sortit et nous n'y trouvons rien non plus. 
 
+[gallery w=300 h=250]
+pictures/jdr/whisperia/020.png
+pictures/jdr/whisperia/021.png
+[/gallery]
+
+
 Enfin nous allons à la dernière porte au fond du couloir. __Anuabi__ entre ouvre la porte et n'y vois rien. 
 
 Nous finissons par ouvrir la porte et __Ariana__ jette une torche dedans. 
+
+[gallery w=300 h=250]
+pictures/jdr/whisperia/022.png
+[/gallery]
 
 La partie s'achève ici sur une :
 
