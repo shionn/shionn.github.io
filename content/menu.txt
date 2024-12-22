@@ -25,8 +25,8 @@ category/wargame	War Game
 		2025/annee-2024-defi-peinture	2024 une année de défi	2025-01-02
 category/jdr	JdR
 	tag/whisperia	A tale of Whisperia
-		2024/whisperia-1-evasion-d-une-gaule	1: Évasion d'une gaule	2024-12-08
-		2024/whisperia-orcs-et-chausette	2: Orcs et Chaussette	2024-12-22
+		2024/whisperia-1-evasion-d-une-gaule	1: Évasion d'une gaule
+		2024/whisperia-2-orcs-et-chausette	2: Orcs et Chaussette
 category/linux	Linux
 	tag/server	Server
 		2024/docker-sur-debian	Installation Docker sur Debian
