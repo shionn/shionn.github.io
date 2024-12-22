@@ -26,7 +26,7 @@ category/wargame	War Game
 category/jdr	JdR
 	tag/whisperia	A tale of Whisperia
 		2024/whisperia-1-evasion-d-une-gaule	1: Évasion d'une gaule
-		2024/whisperia-2-orcs-et-chausette	2: Orcs et Chaussette
+		2024/whisperia-2-orcs-et-chaussette	2: Orcs et Chaussette
 category/linux	Linux
 	tag/server	Server
 		2024/docker-sur-debian	Installation Docker sur Debian
