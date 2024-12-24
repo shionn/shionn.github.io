@@ -23,6 +23,8 @@ category/wargame	War Game
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
 	tag/d-fi	Défi Peinture	2025-01-02
 		2025/annee-2024-defi-peinture	2024 une année de défi	2025-01-02
+	tag/repaint	Repaint	2025-06-01
+		2025/repaint-bulma	Repaint d'une Bulma	2025-06-01
 category/jdr	JdR
 	tag/whisperia	A tale of Whisperia
 		2024/whisperia-1-evasion-d-une-gaule	1: Évasion d'une gaule

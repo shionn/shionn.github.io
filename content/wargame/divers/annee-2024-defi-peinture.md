@@ -155,4 +155,6 @@ En décembre j'ai peint :
 
 [gallery w=200 h=250]
 pictures/decor-skaventide/06.jpg
+pictures/repaint/bulma/01.jpg
+pictures/dark-elves/cavalier-sg-froid/01.jpg
 [/gallery]

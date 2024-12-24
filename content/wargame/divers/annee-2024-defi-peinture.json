@@ -4,7 +4,7 @@
 	"title": "Résumé d'un an de défi peinture.",
 	"tags": ["War Game", "Défi"],
 	"category": "War Game",
-	"published": false,
+	"published": true,
 	"js" : [ ],
 	"author": "Shionn"
 }
