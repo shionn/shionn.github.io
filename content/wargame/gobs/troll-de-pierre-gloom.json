@@ -1,0 +1,10 @@
+{
+	"type": "post",
+	"date": "2025/09/30",
+	"title": "Troll de pierre Gloom",
+	"tags": ["War Game", "Figurine", "Gloomspite Gitz", "AoS"],
+	"category": "War Game",
+	"published": false,
+	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
+	"author": "Shionn"
+}
