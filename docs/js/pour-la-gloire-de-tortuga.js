@@ -5,20 +5,28 @@ q(function() {
 	const _SMALL = 1;
 	const _MEDIUM = 2;
 	const _BIG = 5;
-	const _GRADES = ["mousse", "pirate de pacotille", "flibustiers", "loups de mers", "quartier maître", "pirate émérite", "Terreur des mers", "quartier maître en chef", "second du capitaine"];
+	const _GRADES = ["Mousse", "Pirate de pacotille", "Flibustiers", "Loups de mers", "Quartier maître", "Pirate émérite", "Terreur des mers", "Quartier maître en chef", "Second du capitaine"];
 
 	const _PAINT = 1;
 	const _LVL_UP = 2;
 	const _END_QUEST = 3;
 
+	let _progressBar = function(current, target) {
+		let pct = current * 100 / target;
+		return q("<span>").addClass("progress")
+			.append(q("<span>").css("width", pct + "%"))
+			.append(q("<span>").text(current + "/" + target));
+	}
 
 	let _player = function(name, avatar) {
 		this.name = name;
 		this.avatar = avatar;
 		this.lvl = 1;
 		this.xp = 0;
+		this.figurines = 0;
 
 		this.gainXp = function(count, xpFactor) {
+			this.figurines += count;
 			this.xp += count * xpFactor;
 			if (this.xp >= this.lvl * 10) {
 				this.xp -= this.lvl * 10;
@@ -30,6 +38,11 @@ q(function() {
 
 		this.grade = function() {
 			return _GRADES[this.lvl - 1];
+		}
+
+
+		this.avatarPath = function() {
+			return "pictures/defis/whisp-2025/" + this.avatar;
 		}
 	};
 
@@ -43,7 +56,7 @@ q(function() {
 
 		this.description = function() {
 			switch (type) {
-				case _PAINT: return "peint " + count + " " + desc;
+				case _PAINT: return "peint " + count + " " + desc + " (+" + (count * xpFactor) + " xp)";
 				case _LVL_UP: return "passe " + player.grade();
 				case _END_QUEST: return "fini la quete";
 			}
@@ -59,23 +72,14 @@ q(function() {
 
 		this.history = [];
 
-		this._progressBar = function() {
-			return q("<span>").append(q("<span>").css("width", this._progressPct() + "%"))
-				.append(q("<span>").text(this.current + "/" + this.size));
-		}
-
-		this._progressPct = function() {
-			return this.current * 100 / size;
-		}
-
 		this.render = function() {
-			let table = q("<table>").attr("class", "quest");
+			let table = q("<table>").addClass("quest");
 			let head = q("<thead>");
 			head.append(q("<tr>").append(q("<th>").attr("colspan", "3").text(this.name + " : " + this.objectif)));
 			table.append(head);
 
 			let body = q("<tbody>");
-			body.append(q("<tr>").append(q("<td>").attr("colspan", "3").append(this._progressBar())));
+			body.append(q("<tr>").append(q("<td>").attr("colspan", "3").append(_progressBar(this.current, this.size))));
 			table.append(body);
 
 			head = q("<thead>");
@@ -111,14 +115,33 @@ q(function() {
 
 	};
 
+	let _renderPlayers = function(players) {
+		let table = q("<table>").addClass("players").addClass("boxed");
+		table.append(q("<thead>").append(q("<tr>").append(q("<th>").attr("colspan", "2").text("Participants"))));
+
+		let body = q("<tbody>");
+		players.forEach(player => {
+			body.append(q("<tr>").append(q("<td>").attr("rowspan", 4).append(q("<img>").attr("src", player.avatarPath()))).append(q("<td>").text(player.name)));
+			body.append(q("<tr>").append(q("<td>").text(player.grade() + " (" + player.lvl + ")")));
+			body.append(q("<tr>").append(q("<td>").append(_progressBar(player.xp, player.lvl * 10))));
+			body.append(q("<tr>").append(q("<td>").text(player.figurines + " figurines")));
+		});
+
+		q("#participants").append(table.append(body));
+
+	};
+
 	let shionn = new _player("Shionn", "pirate02.png");
 	let whisp = new _player("Whisp", "pirate00.png");
 
-	let q1 = 
+	let q1 =
 		new _quest("quest-1", "Collecter des vivres", "Peindre 10 figurine", 10)
-		.progress("05/01/2025", shionn, 3, "Gobelin", _SMALL)
-		.progress("10/01/2025", shionn, 2, "Troll", _BIG)
-		.progress("15/01/2025", whisp, 5, "Orc", _SMALL)
-		.render();
+			.progress("05/01/2025", shionn, 3, "Gobelin", _SMALL)
+			.progress("10/01/2025", shionn, 2, "Troll", _BIG)
+			.progress("15/01/2025", whisp, 5, "Orc", _SMALL)
+			.render();
+
+
+	_renderPlayers([shionn, whisp]);
 
 });

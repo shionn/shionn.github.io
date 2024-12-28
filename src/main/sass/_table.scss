@@ -66,39 +66,45 @@ table.assault {
 
 }
 
+/**
+ * tortuga
+ */
 
 table.quest {
-	
+
+	margin-bottom: 15px;
+
+	&>tbody:nth-child(2) {
+		td {
+			padding: 5px 10px;
+		}
+	}
+}
+
+table.quest, table.players {
 	thead tr {
 		background-color: lighten($theme-color, 15%);
 	}
 
-	&>tbody:nth-child(2) {
+	span.progress {
+		display: block;
+		width: 100%;
+		height: 20px;
+		border: 2px solid $theme-black;
+		border-radius: 10px;
+		text-align: center;
 
-		td {
-			padding: 5px 10px;
+		span:first-child {
+			display: block;
+			background-color: $theme-color;
+			height: 16px;
+			border-radius: 8px;
 		}
 
-
-		td>span {
-			display: block;
-			width: 100%;
-			height: 20px;
-			border: 2px solid $theme-black;
-			border-radius: 10px;
-			text-align: center;
-
-			span:first-child {
-				display: block;
-				background-color: $theme-color;
-				height: 16px;
-				border-radius: 8px;
-			}
-
-			span:nth-child(2) {
-				position: relative;
-				top: -18px;
-			}
+		span:nth-child(2) {
+			position: relative;
+			top: -18px;
 		}
 	}
+
 }

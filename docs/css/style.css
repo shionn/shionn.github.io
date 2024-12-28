@@ -935,13 +935,20 @@ table.assault td:not([colspan="4"]) {
   text-align: center;
 }
 
-table.quest thead tr {
-  background-color: #e5ca86;
+/**
+ * tortuga
+ */
+table.quest {
+  margin-bottom: 15px;
 }
 table.quest > tbody:nth-child(2) td {
   padding: 5px 10px;
 }
-table.quest > tbody:nth-child(2) td > span {
+
+table.quest thead tr, table.players thead tr {
+  background-color: #e5ca86;
+}
+table.quest span.progress, table.players span.progress {
   display: block;
   width: 100%;
   height: 20px;
@@ -949,13 +956,13 @@ table.quest > tbody:nth-child(2) td > span {
   border-radius: 10px;
   text-align: center;
 }
-table.quest > tbody:nth-child(2) td > span span:first-child {
+table.quest span.progress span:first-child, table.players span.progress span:first-child {
   display: block;
   background-color: #d8ae47;
   height: 16px;
   border-radius: 8px;
 }
-table.quest > tbody:nth-child(2) td > span span:nth-child(2) {
+table.quest span.progress span:nth-child(2), table.players span.progress span:nth-child(2) {
   position: relative;
   top: -18px;
 }
