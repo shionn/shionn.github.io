@@ -1,10 +1,10 @@
 {
 	"type": "post",
 	"date": "2025/12/30",
-	"title": "Défi annuel Whisp 2025",
+	"title": "Pour la gloire de Tortuga",
 	"tags": ["War Game", "Défi"],
 	"category": "War Game",
 	"published": false,
-	"js" : [ ],
+	"js" : [ "js/pour-la-gloire-de-tortuga.js" ],
 	"author": "Shionn"
 }

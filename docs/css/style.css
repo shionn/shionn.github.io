@@ -886,10 +886,12 @@ table {
   color: #222;
   background-color: #F5F5F5;
 }
-table thead, table tbody {
+table thead,
+table tbody {
   border: 1px solid #d8ae47;
 }
-table td, table th {
+table td,
+table th {
   padding: 1px 3px;
 }
 table.sort thead {
@@ -902,19 +904,24 @@ table.boxed td, table.boxed th {
   border: 1px solid #d8ae47;
 }
 
-.paint-db, .paint-guide {
+.paint-db,
+.paint-guide {
   min-width: 780px;
 }
-.paint-db td a, .paint-guide td a {
+.paint-db td a,
+.paint-guide td a {
   padding-right: 2px;
 }
-.paint-db tr td:nth-child(2n), .paint-guide tr td:nth-child(2n) {
+.paint-db tr td:nth-child(2n),
+.paint-guide tr td:nth-child(2n) {
   border-right: 1px solid #d8ae47;
 }
-.paint-db tbody tr:nth-child(2n), .paint-guide tbody tr:nth-child(2n) {
+.paint-db tbody tr:nth-child(2n),
+.paint-guide tbody tr:nth-child(2n) {
   background-color: #f3e6c5;
 }
-.paint-db td.color, .paint-guide td.color {
+.paint-db td.color,
+.paint-guide td.color {
   width: 40px;
 }
 
@@ -926,6 +933,31 @@ table.assault thead tr {
 }
 table.assault td:not([colspan="4"]) {
   text-align: center;
+}
+
+table.quest thead tr {
+  background-color: #e5ca86;
+}
+table.quest > tbody:nth-child(2) td {
+  padding: 5px 10px;
+}
+table.quest > tbody:nth-child(2) td > span {
+  display: block;
+  width: 100%;
+  height: 20px;
+  border: 2px solid #222;
+  border-radius: 10px;
+  text-align: center;
+}
+table.quest > tbody:nth-child(2) td > span span:first-child {
+  display: block;
+  background-color: #d8ae47;
+  height: 16px;
+  border-radius: 8px;
+}
+table.quest > tbody:nth-child(2) td > span span:nth-child(2) {
+  position: relative;
+  top: -18px;
 }
 
 div.gallery {

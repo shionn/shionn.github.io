@@ -13,10 +13,12 @@ Avex Whisp on organise un défi annuel sous forme d'un jeu. L'idée est de peind
 
 ## Comment participer ? 
 
-Il vous suffit de rejoindre le serveur (discord de Whisp)[http://todo-creer-lien-longue-validité]. 
+Il vous suffit de rejoindre le serveur [discord de Whisp](https://discord.gg/xk3zKTtCA3). 
 Vous présenter puis selectionner un avatar dans le canal dédié. 
 
-Une fois cela fait il vous suffit de poster vos figurine peinte dans le canal dédier. 
+L'idée du jeux est que nous participons tous à la reconstruction de notre base en completant des quetes. Les quetes se completant généralement en peignant des figurines. 
+
+Une fois cela fait il vous suffit de poster vos figurine peinte dans le canal dédier. Et cela fera progresser la quete en cours. 
 Si plusieurs quetes sont en cours indiqué à quel quête elles participent.
 
 Et c'est tous. Whisp et moi nous chargons du reste.
@@ -26,13 +28,26 @@ Et c'est tous. Whisp et moi nous chargons du reste.
 - La seul condition pour que la figurine soit valide est qu'elle soit peinte pendant l'année 2025.
 - Tous le monde participe au même quete commune. 
 - Quelque soit la figurine, l'echelle ou sa taille elle compte pour 1 point de progression de quete. 
-- Certaine quete peuvent avoir des contraintes particuliere par exemple "peindre 5 décord" 
-mais dans ce cas la une quete basique out toute les figurines compte se déroulera en même temps.
+- Certaine quete peuvent avoir des contraintes particuliere par exemple "peindre 5 décord" mais dans ce cas la une quete basique out toute les figurines compte se déroulera en même temps.
+
+### Niveau des Pirates
+
+En plus des quetes chaque pirate aura son propre niveau et grade de pirate. Nous commençons _mousse_ et gagnerons nos grade au fur et mesure qu'on peindra des fig. Vous devez gagner 10 fois votre niveau en point d'experience pour passer au niveau suivant : 
+
+Le nombre de point d'expereience depend de la taille du socle : 
+ 
+- un petit socle, inferieur strictement à 40mm : compte pour 1 points d'experience. 
+- un socle moyen, entre 40mm et 60mm, compte pour 2 points d'experience.
+- un grand socle, superieur strictement à 60mm, compte pour 5 points d'experience.
+- Vous commencez niveau 1 : _mousse_
+- Vous devez gagner 10 points d'experience pour passer niveau 2 : _pirate de pacotille_
+- Vous devez gagner 20 points d'experience pour passer niveau 3 : _flibustiers_
+- etc.
 
 ### Participant
 
 TODO @shionn inserer tableau des participant avec les avatars. 
-<div id="participants"/>
+<div id="participants"></div>
 
 ### Recapitulatif des quetes accomplies
 
@@ -40,15 +55,11 @@ TODO @shionn tableau recap des quetes avec la recompense et
 
 ## Historique 
 
-TODO @whisp ordre normal ou inversé ? 
-
 ### Jour 1 découverte de notre nouvelle base. 
 
-TODO @Whisp inserer un petit text de lore genre "nous trouvons une crique et nous allons y contruire notre nouvelle base"
+TODO @Whisp inserer un petit text de lore genre "nous trouvons une crique et nous allons y contruire notre nouvelle base Mais tous d'abort nous devons nourrir nos troupes"
 
-TODO @shionn inserer ici la progression de la premiere quete. 
-
-TODO @whisp est-ce que je met une gallerie de toute les figurines realisé par quete (faut l'accord du joueur)
+<div id="quest-1"></div>
 
 [gallery]
 pictures/defis/whisp-2025/map01.png
