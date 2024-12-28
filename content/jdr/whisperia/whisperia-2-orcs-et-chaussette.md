@@ -152,3 +152,6 @@ Je gagne 9 pv, je passe à 22pv.
 
 Je fini avec 171 po, et 21/22 pv.
 
+[gallery]
+pictures/jdr/whisperia/023.png
+[/gallery]
