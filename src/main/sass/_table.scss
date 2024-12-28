@@ -81,7 +81,19 @@ table.quest {
 	}
 }
 
-table.quest, table.players {
+table.all-quests {
+
+	tbody tr td:nth-child(3) {
+		padding: 5px 10px;
+		min-width: 100px;
+	}
+}
+
+table.quest, table.players, table.all-quests {
+	
+	img {
+		max-width: unset;
+	}
 	thead tr {
 		background-color: lighten($theme-color, 15%);
 	}

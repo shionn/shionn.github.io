@@ -95,9 +95,8 @@ q(function() {
 				body.append(line)
 			});
 
-			table.append(body);
-
-			q("#" + this.id).append(table);
+			q("#" + this.id).append(table.append(body));
+			return this;
 		}
 
 		this.progress = function(date, player, count, desc, xp_factor) {
@@ -128,7 +127,19 @@ q(function() {
 		});
 
 		q("#participants").append(table.append(body));
+	};
+	
+	let _renderQuests = function(quests) {
+		let table = q("<table>").addClass("boxed").addClass("all-quests");
+		table.append(q("<thead>").append(q("<tr>").append(q("<th>").attr("colspan", "3").text("Quetes"))));
+		let body = q("<tbody>");
+		quests.forEach(qu => {
+			let line = q("<tr>");
+			line.append(q("<td>").text(qu.name)).append(q("<td>").text(qu.objectif)).append(q("<td>").append(_progressBar(qu.current,qu.size)));
+			body.append(line);
+		});
 
+		q("#all-quests").append(table.append(body));
 	};
 
 	let shionn = new _player("Shionn", "pirate02.png");
@@ -141,7 +152,12 @@ q(function() {
 			.progress("15/01/2025", whisp, 5, "Orc", _SMALL)
 			.render();
 
+	let q2 =
+		new _quest("quest-2", "Construire un taverne", "Peindre 50 figurine", 50)
+			.render();
+
 
 	_renderPlayers([shionn, whisp]);
+	_renderQuests([q1,q2]);
 
 });

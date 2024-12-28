@@ -52,7 +52,7 @@ Le nombre de point d'expérience dépend de la taille du socle :
 
 ### Recapitulatif des quetes accomplies
 
-TODO @shionn tableau recap des quetes avec la recompense et  
+<div id="all-quests"></div>
 
 ## Historique 
 

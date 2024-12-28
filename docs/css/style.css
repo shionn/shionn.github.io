@@ -945,10 +945,18 @@ table.quest > tbody:nth-child(2) td {
   padding: 5px 10px;
 }
 
-table.quest thead tr, table.players thead tr {
+table.all-quests tbody tr td:nth-child(3) {
+  padding: 5px 10px;
+  min-width: 100px;
+}
+
+table.quest img, table.players img, table.all-quests img {
+  max-width: unset;
+}
+table.quest thead tr, table.players thead tr, table.all-quests thead tr {
   background-color: #e5ca86;
 }
-table.quest span.progress, table.players span.progress {
+table.quest span.progress, table.players span.progress, table.all-quests span.progress {
   display: block;
   width: 100%;
   height: 20px;
@@ -956,13 +964,13 @@ table.quest span.progress, table.players span.progress {
   border-radius: 10px;
   text-align: center;
 }
-table.quest span.progress span:first-child, table.players span.progress span:first-child {
+table.quest span.progress span:first-child, table.players span.progress span:first-child, table.all-quests span.progress span:first-child {
   display: block;
   background-color: #d8ae47;
   height: 16px;
   border-radius: 8px;
 }
-table.quest span.progress span:nth-child(2), table.players span.progress span:nth-child(2) {
+table.quest span.progress span:nth-child(2), table.players span.progress span:nth-child(2), table.all-quests span.progress span:nth-child(2) {
   position: relative;
   top: -18px;
 }
