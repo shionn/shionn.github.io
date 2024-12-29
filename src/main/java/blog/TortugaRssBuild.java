@@ -22,12 +22,14 @@ import com.rometools.rome.io.SyndFeedOutput;
 import blog.generator.Configuration;
 
 public class TortugaRssBuild {
+	private static final String DOCS = "docs/";
+
 	public static void main(String[] args) throws IOException, FeedException {
 		TortugaRssBuild builder = new TortugaRssBuild();
-		builder.checkImgs("docs/pictures/defis/whisp-2025/quest-1/");
-		builder.checkImgs("docs/pictures/defis/whisp-2025/participants/");
-		builder.buildRss("docs/pictures/defis/whisp-2025/quest-1/", "docs/draft/quest-1.rss");
-		builder.buildRss("docs/pictures/defis/whisp-2025/participants/", "docs/draft/participants.rss");
+		builder.checkImgs("pictures/defis/whisp-2025/quest-1/");
+		builder.checkImgs("pictures/defis/whisp-2025/participants/");
+		builder.buildRss("pictures/defis/whisp-2025/quest-1/", "docs/draft/quest-1.rss");
+		builder.buildRss("pictures/defis/whisp-2025/participants/", "docs/draft/participants.rss");
 	}
 
 
@@ -39,13 +41,13 @@ public class TortugaRssBuild {
 	}
 
 	private void checkImgs(String folder) throws IOException {
-		if (new File(folder+"last.png").exists()) {
+		if (new File(DOCS + folder + "last.png").exists()) {
 			
 		} else {
-			FileUtils.copyFile(new File(folder + "temp.png"), new File(folder + now + ".png"));
-			FileUtils.copyFile(new File(folder + "temp.png"), new File(folder + "last.png"));
+			FileUtils.copyFile(new File(DOCS + folder + "temp.png"), new File(DOCS + folder + now + ".png"));
+			FileUtils.copyFile(new File(DOCS + folder + "temp.png"), new File(DOCS + folder + "last.png"));
 		}
-		new File(folder + "temp.png").delete();
+		new File(DOCS + folder + "temp.png").delete();
 	}
 
 	private void buildRss(String folder, String target) throws IOException, FeedException {
@@ -55,7 +57,7 @@ public class TortugaRssBuild {
 		feed.setLink(Configuration.get().getBase());
 		feed.setDescription("Pour la Gloire de Tortuga ");
 
-		List<SyndEntry> entries = Arrays.stream(new File(folder).listFiles(new FilenameFilter() {
+		List<SyndEntry> entries = Arrays.stream(new File(DOCS + folder).listFiles(new FilenameFilter() {
 			@Override
 			public boolean accept(File dir, String name) {
 				return name.endsWith(".png") && !name.startsWith("last");
