@@ -36,7 +36,13 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 	public void start(Stage primaryStage) throws Exception {
 		webView = new WebView();
 
-		webView.getEngine().load(Configuration.get().getBase() + "draft/pour-la-gloire-de-tortuga.html");
+		String url = Configuration.get().getBase();
+		if (!url.endsWith("/")) {
+			url += "/";
+		}
+		url += "draft/pour-la-gloire-de-tortuga.html";
+		System.out.println("open url " + url);
+		webView.getEngine().load(url);
 		webView.getEngine().getLoadWorker().stateProperty().addListener(this);
 
 		Scene scene = new Scene(webView, 1400, 1200);
@@ -47,10 +53,7 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 	@Override
 	public void changed(ObservableValue<? extends State> observable, State oldValue, State newState) {
 		if (newState == Worker.State.SUCCEEDED) {
-
-			// quest-1
 			requestCapture(QUEST);
-
 		}
 	}
 
@@ -77,7 +80,9 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 		BufferedImage bufferedImage = SwingFXUtils.fromFXImage(snapshot, null);
 
 		try {
-			ImageIO.write(bufferedImage, "png", new File(id + ".png"));
+			File output = new File("docs/pictures/defis/whisp-2025/" + id + "/temp.png");
+			output.mkdirs();
+			ImageIO.write(bufferedImage, "png", output);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -90,7 +95,6 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 	}
 
 	private double reteiveDouble(String id, String prop) {
-		System.out.println("reading " + prop);
 		return ((Number) webView.getEngine()
 				.executeScript("q(\"#" + id + " table\").obj[0].getBoundingClientRect()." + prop)).doubleValue();
 	}
