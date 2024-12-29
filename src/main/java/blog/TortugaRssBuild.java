@@ -11,6 +11,7 @@ import java.util.List;
 
 import org.apache.commons.io.FileUtils;
 
+import com.rometools.rome.feed.synd.SyndContent;
 import com.rometools.rome.feed.synd.SyndContentImpl;
 import com.rometools.rome.feed.synd.SyndEntry;
 import com.rometools.rome.feed.synd.SyndEntryImpl;
@@ -74,13 +75,20 @@ public class TortugaRssBuild {
 		SyndContentImpl desc = new SyndContentImpl();
 		desc.setValue(file.getName());
 		desc.setType(now);
-		entry.setDescription(desc);
+		entry.setDescription(buildItemDescription(folder, file));
 		try {
 			entry.setPublishedDate(format.parse(file.getName()));
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
 		return entry;
+	}
+
+
+	private SyndContent buildItemDescription(String folder, File file) {
+		SyndContentImpl content = new SyndContentImpl();
+		content.setValue("<![CDATA[<img src=\"" + toUrl(folder, file) + "\">]]>");
+		return content;
 	}
 
 	private String toUrl(String folder, File file) {
