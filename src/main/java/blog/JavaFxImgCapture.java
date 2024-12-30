@@ -72,7 +72,8 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 	}
 
 	private void requestCapture(String id, String path) {
-		webView.getEngine().executeScript("document.getElementById(\"" + id + "\").scrollIntoView()");
+		System.out.println("scroll to " + id);
+		webView.getEngine().executeScript("document.getElementById(\"" + id + "\").scrollIntoView(true)");
 		Platform.runLater(new Runnable() {
 			@Override
 			public void run() {
@@ -104,7 +105,7 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 				reteiveDouble(id, "width"), reteiveDouble(id, "height")));
 		WritableImage snapshot = webView.snapshot(params, null);
 		BufferedImage bufferedImage = SwingFXUtils.fromFXImage(snapshot, null);
-		System.out.println("capture done for "+id);
+		System.out.println("capture done for " + id);
 		try {
 			File output = new File("docs/pictures/defis/tortuga-2025/" + path + "/temp.png");
 			output.mkdirs();
