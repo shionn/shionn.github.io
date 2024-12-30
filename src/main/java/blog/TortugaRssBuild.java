@@ -58,8 +58,8 @@ public class TortugaRssBuild {
 
 	public static void main(String[] args) throws IOException, FeedException {
 		TortugaRssBuild builder = new TortugaRssBuild();
-		builder.checkImgs("pictures/defis/whisp-2025/quests/");
-		builder.checkImgs("pictures/defis/whisp-2025/players/");
+		builder.checkImgs(Model.QUEST);
+		builder.checkImgs(Model.PLAYERS);
 		builder.buildRss(Model.QUEST);
 		builder.buildRss(Model.PLAYERS);
 	}
@@ -68,16 +68,16 @@ public class TortugaRssBuild {
 	private SimpleDateFormat displayFormat = new SimpleDateFormat("dd MMMM yyyy HH:mm");
 	private String formatedNow = format.format(new Date());
 
-	private void checkImgs(String folder) throws IOException {
-		File temp = new File(DOCS + folder + "temp.png");
+	private void checkImgs(Model model) throws IOException {
+		File temp = new File(DOCS + model.getImgFolder() + "temp.png");
 		if (temp.exists()) {
-			File last = new File(DOCS + folder + "last.png");
+			File last = new File(DOCS + model.getImgFolder() + "last.png");
 			if (last.exists()) {
 				BufferedImage tempImg = ImageIO.read(temp);
 				BufferedImage lastImg = ImageIO.read(last);
 				if (!bufferedImagesEqual(tempImg, lastImg)) {
 					System.out.println("New image");
-					FileUtils.copyFile(temp, new File(DOCS + folder + formatedNow + ".png"));
+					FileUtils.copyFile(temp, new File(DOCS + model.getImgFolder() + formatedNow + ".png"));
 					last.delete();
 					FileUtils.copyFile(temp, last);
 				} else {
@@ -85,7 +85,7 @@ public class TortugaRssBuild {
 				}
 			} else {
 				System.out.println("First image");
-				FileUtils.copyFile(temp, new File(DOCS + folder + formatedNow + ".png"));
+				FileUtils.copyFile(temp, new File(DOCS + model.getImgFolder() + formatedNow + ".png"));
 				FileUtils.copyFile(temp, last);
 			}
 			System.out.println("delete temp file");
