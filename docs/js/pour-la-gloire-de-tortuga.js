@@ -149,7 +149,7 @@ q(function() {
 		new _quest("quest-1", "Collecter des vivres", "Peindre 10 figurine", 10)
 			.progress("05/01/2025", shionn, 3, "Gobelin", _SMALL)
 			.progress("10/01/2025", whisp, 5, "Orc", _SMALL)
-//			.progress("15/01/2025", shionn, 2, "Troll", _BIG)
+			.progress("15/01/2025", shionn, 2, "Troll", _BIG)
 			.render();
 
 	let q2 =
