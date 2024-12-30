@@ -64,8 +64,8 @@ public class TortugaRssBuild {
 		builder.buildRss(Model.PLAYERS);
 	}
 
-	private SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd hh-mm");
-	private SimpleDateFormat displayFormat = new SimpleDateFormat("dd MMMM yyyy hh:mm");
+	private SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH-mm");
+	private SimpleDateFormat displayFormat = new SimpleDateFormat("dd MMMM yyyy HH:mm");
 	private String formatedNow = format.format(new Date());
 
 	private void checkImgs(String folder) throws IOException {
