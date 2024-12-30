@@ -37,6 +37,14 @@ Base	72045
 Base	72011
 [/paints]
 
+[paints title="Toge"]
+Base	72145
+Ombrage	24-08
+Éclaircissement	72031
+Rehaut	72035
+[/paints]
+
+
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
 sur la page dédiée à [Mon armée Gloomspite](2025/armee-gloomspite.html).
 
