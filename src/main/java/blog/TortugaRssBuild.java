@@ -115,7 +115,7 @@ public class TortugaRssBuild {
 	private SyndEntry buildRssEntry(Model model, File file) {
 		SyndEntryImpl entry = new SyndEntryImpl();
 		entry.setAuthor("shionn");
-		entry.setLink(toUrl(model, file));
+		entry.setLink(toUrl(model, file).replace(" ", "%20"));
 		SyndContentImpl desc = new SyndContentImpl();
 		desc.setValue(file.getName());
 		entry.setDescription(buildItemDescription(model, file));
