@@ -5,7 +5,7 @@ q(function() {
 	const _SMALL = 1;
 	const _MEDIUM = 2;
 	const _BIG = 5;
-	const _GRADES = ["Mousse", "Pirate de pacotille", "Flibustiers", "Loups de mers", "Quartier maître", "Pirate émérite", "Terreur des mers", "Quartier maître en chef", "Second du capitaine"];
+	const _GRADES = ["Mousse", "Pirate de pacotille", "Flibustiers", "Cannoniers", "Loups de mers", "Ecumeurs des mers", "Quartier maître", "Pirate émérite", "Terreur des mers", "Quartier maître en chef", "Second du capitaine"];
 
 	const _PAINT = 1;
 	const _LVL_UP = 2;

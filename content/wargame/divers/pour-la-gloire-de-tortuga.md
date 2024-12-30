@@ -58,8 +58,19 @@ Le nombre de point d'expérience dépend de la taille du socle :
 
 ### Jour 1 découverte de notre nouvelle base. 
 
-C'est le premier jour, vous regardez tristement l'ancien repaore de Tortuga détruit pendant que le bateau délabré s'eloigne de l'île. Les Seigneurs Whisp et Sparrow regarde du haut de leur postes de Capitaines, une lueur tenebreuse dans leur regard! Les felons vont bientôt gouter au fer des Pirates! Tandis qu'ils naviguent péniblement dans la zone du triange les Bermudes, là ouù seul les braves et donc les Pirates osent s'aventurer, un épais brouillard les entoure... Non sans un once d'inquiètude, ils continuent bravement droit devant, toutes voiles dehors. Bientot l'épais brouillard se dissiê et laisse entrevoir une  Petites île, oui une petite île en forme de tortue de mer avec une crique en ssont centre.
-C'est là, les Seigneurs se tournèrent l'un vers l'autre et ils se sont compris au premier regard! L'endroit est parfait de la forme à sa position dans une région isolée où personne n'osera s'aventurer. Et la cerise sur la gateau un épais brouillard effrayant les masquant au reste du Monde! Les Pirates accostèrent et posèrent le pieds sur ce qui allait être la nouvelle Tortuga! Il fallait maintenant reconstruire mais la route a été longue et pénible et il leur fallait se restaurer et un bon repos avant d'attaquer la reconstruction. Les viivres sont malheureusement épuisés il va falloir un dernier effort aux Pirates pour s'accommoder devant un repas digne! 
+C'est le premier jour, vous regardez tristement l'ancien repaire de Tortuga détruit pendant que le bateau délabré s'éloigne de l'île. 
+Les Seigneurs Whisp et Sparrow regarde du haut de leur postes de Capitaines, une lueur ténébreuse dans leur regard! Les félons vont bientôt goûter au fer des Pirates! 
+Tandis qu'ils naviguent péniblement dans la zone du triangle les Bermudes, là où seul les braves et donc les Pirates osent s'aventurer, un épais brouillard les entoure... 
+Non sans un once d'inquiétude, ils continuent bravement droit devant, toutes voiles dehors. 
+Bientôt l'épais brouillard se dissipe et laisse entrevoir une  Petites île, oui une petite île en forme de tortue de mer avec une crique en son centre.
+
+C'est là, les Seigneurs se tournèrent l'un vers l'autre et ils se sont compris au premier regard!
+L'endroit est parfait de la forme à sa position dans une région isolée où personne n'osera s'aventurer.
+Et la cerise sur la gâteau un épais brouillard effrayant les masquant au reste du Monde!
+Les Pirates accostèrent et posèrent le pieds sur ce qui allait être la nouvelle Tortuga!
+Il fallait maintenant reconstruire mais la route a été longue et pénible et il leur fallait se restaurer et un bon repos avant d'attaquer la reconstruction.
+Les vivres sont malheureusement épuisés il va falloir un dernier effort aux Pirates pour s'accommoder devant un repas digne!
+
 Ce sera là votre premier Objectif!!! 
 
 <div id="quest-1"></div>
