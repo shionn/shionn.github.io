@@ -72,7 +72,7 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 	}
 
 	private void requestCapture(String id, String path) {
-		webView.getEngine().executeScript("document.getElementById(\"" + id + "\").scrollIntoView(false)");
+		webView.getEngine().executeScript("document.getElementById(\"" + id + "\").scrollIntoView()");
 		Platform.runLater(new Runnable() {
 			@Override
 			public void run() {
