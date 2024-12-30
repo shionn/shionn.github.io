@@ -23,6 +23,27 @@ Si plusieurs quêtes sont en cours indiquer à quelle quête elles participent.
 
 Et c'est tout. Whisp et moi nous chargeons du reste.
 
+Pour choisir votre avatar, faite votre choix dans le tableau suivant et envoyer un message sur discord pour indiquer lequel vous voulez : 
+[gallery]
+pictures/defis/tortuga-2025/pirate01.png
+pictures/defis/tortuga-2025/pirate02.png
+pictures/defis/tortuga-2025/pirate03.png
+pictures/defis/tortuga-2025/pirate04.png
+pictures/defis/tortuga-2025/pirate05.png
+pictures/defis/tortuga-2025/pirate06.png
+pictures/defis/tortuga-2025/pirate07.png
+pictures/defis/tortuga-2025/pirate08.png
+pictures/defis/tortuga-2025/pirate09.png
+pictures/defis/tortuga-2025/pirate10.png
+pictures/defis/tortuga-2025/pirate11.png
+pictures/defis/tortuga-2025/pirate12.png
+pictures/defis/tortuga-2025/pirate13.png
+pictures/defis/tortuga-2025/pirate14.png
+pictures/defis/tortuga-2025/pirate15.png
+pictures/defis/tortuga-2025/pirate16.png
+[/gallery]
+Si aucun avatar ne vous conviens contactez shionn pour en créer un sur mesure ! 
+
 ### Règles avancées
 
 - La seule condition pour que la figurine soit valide est qu'elle soit peinte pendant l'année 2025. (Peu importe si elle a été entamée en 2024)
