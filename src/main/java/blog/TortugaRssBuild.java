@@ -28,8 +28,8 @@ import blog.generator.Configuration;
 public class TortugaRssBuild {
 
 	static enum Model {
-		QUEST("pictures/defis/tortuga-2025/quests/", "docs/rss/quests.rss", "Mise à jour des quetes "),
-		PLAYERS("pictures/defis/tortuga-2025/players/", "docs/rss/players.rss", "Mise à jour des joueurs "),;
+		QUEST("pictures/defis/tortuga-2025/quests/", "docs/rss/tortuga-quests.rss", "Mise à jour des quetes "),
+		PLAYERS("pictures/defis/tortuga-2025/players/", "docs/rss/tortuga-players.rss", "Mise à jour des joueurs "),;
 
 		private String imgFolder;
 		private String rssFile;
