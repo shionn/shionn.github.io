@@ -109,7 +109,9 @@ public class TortugaRssBuild {
 		feed.setEntries(entries);
 		feed.setPublishedDate(entries.get(0).getPublishedDate());
 
-		new SyndFeedOutput().output(feed, new File(model.getRssFile()));
+		File output = new File(model.getRssFile());
+		output.mkdirs();
+		new SyndFeedOutput().output(feed, output);
 	}
 
 	private SyndEntry buildRssEntry(Model model, File file) {
