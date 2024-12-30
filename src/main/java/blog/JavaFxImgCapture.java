@@ -7,6 +7,8 @@ import java.util.concurrent.TimeUnit;
 
 import javax.imageio.ImageIO;
 
+import org.w3c.dom.Element;
+
 import blog.generator.Configuration;
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -24,7 +26,8 @@ import javafx.stage.Stage;
 
 public class JavaFxImgCapture extends Application implements ChangeListener<Worker.State> {
 
-	private static final String QUEST = "quest-1";
+	private static final int SLEEP_TIME = 5;
+	private static final String QUEST = "quest-";
 
 	public static void main(String[] args) {
 		launch(args);
@@ -53,18 +56,28 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 	@Override
 	public void changed(ObservableValue<? extends State> observable, State oldValue, State newState) {
 		if (newState == Worker.State.SUCCEEDED) {
-			requestCapture(QUEST);
+			Platform.runLater(new Runnable() {
+				@Override
+				public void run() {
+					try {
+						TimeUnit.SECONDS.sleep(SLEEP_TIME);
+						searchForCurrentQuest();
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+				}
+			});
 		}
 	}
 
-	private void requestCapture(String id) {
+	private void requestCapture(String id, String path) {
 		webView.getEngine().executeScript("document.getElementById(\"" + id + "\").scrollIntoView(true)");
 		Platform.runLater(new Runnable() {
 			@Override
 			public void run() {
 				try {
-					TimeUnit.SECONDS.sleep(1);
-					doCapture(id);
+					TimeUnit.SECONDS.sleep(SLEEP_TIME);
+					doCapture(id, path);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
@@ -72,23 +85,35 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 		});
 	}
 
-	private void doCapture(String id) {
+	private void searchForCurrentQuest() {
+		int i = 50;
+		Element element = webView.getEngine().getDocument().getElementById(QUEST + i);
+		while (element == null && i > 0) {
+			i--;
+			element = webView.getEngine().getDocument().getElementById(QUEST + i);
+		}
+		if (element != null) {
+			requestCapture(QUEST + i, "quests");
+		}
+	}
+
+	private void doCapture(String id, String path) {
 		SnapshotParameters params = new SnapshotParameters();
 		params.setViewport(new Rectangle2D(reteiveDouble(id, "left"), reteiveDouble(id, "top"),
 				reteiveDouble(id, "width"), reteiveDouble(id, "height")));
 		WritableImage snapshot = webView.snapshot(params, null);
 		BufferedImage bufferedImage = SwingFXUtils.fromFXImage(snapshot, null);
-
+		System.out.println("capture done for "+id);
 		try {
-			File output = new File("docs/pictures/defis/whisp-2025/" + id + "/temp.png");
+			File output = new File("docs/pictures/defis/whisp-2025/" + path + "/temp.png");
 			output.mkdirs();
 			ImageIO.write(bufferedImage, "png", output);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 
-		if (QUEST.equals(id)) {
-			requestCapture("participants");
+		if (id.startsWith(QUEST)) {
+			requestCapture("participants", "players");
 		} else {
 			Platform.exit();
 		}

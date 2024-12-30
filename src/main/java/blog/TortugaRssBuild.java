@@ -26,84 +26,125 @@ import com.rometools.rome.io.SyndFeedOutput;
 import blog.generator.Configuration;
 
 public class TortugaRssBuild {
+
+	static enum Model {
+		QUEST("pictures/defis/whisp-2025/quests/", "docs/draft/quests.rss", "Mise à jour des quetes "),
+		PLAYERS("pictures/defis/whisp-2025/players/", "docs/draft/players.rss", "Mise à jour des joueurs "),;
+
+		private String imgFolder;
+		private String rssFile;
+		private String rssTitle;
+
+		Model(String imgFolder, String rssFile, String rssTitle) {
+			this.imgFolder = imgFolder;
+			this.rssFile = rssFile;
+			this.rssTitle = rssTitle;
+		}
+
+		public String getImgFolder() {
+			return imgFolder;
+		}
+
+		public String getRssFile() {
+			return rssFile;
+		}
+
+		public String getRssTitle() {
+			return rssTitle;
+		}
+	}
+
 	private static final String DOCS = "docs/";
 
 	public static void main(String[] args) throws IOException, FeedException {
 		TortugaRssBuild builder = new TortugaRssBuild();
-		builder.checkImgs("pictures/defis/whisp-2025/quest-1/");
-		builder.checkImgs("pictures/defis/whisp-2025/participants/");
-		builder.buildRss("pictures/defis/whisp-2025/quest-1/", "docs/draft/quest-1.rss");
-		builder.buildRss("pictures/defis/whisp-2025/participants/", "docs/draft/participants.rss");
+		builder.checkImgs("pictures/defis/whisp-2025/quests/");
+		builder.checkImgs("pictures/defis/whisp-2025/players/");
+		builder.buildRss(Model.QUEST);
+		builder.buildRss(Model.PLAYERS);
 	}
 
 	private SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd hh-mm");
+	private SimpleDateFormat displayFormat = new SimpleDateFormat("dd MMMM yyyy hh:mm");
 	private String now;
+	private String nowDisplay;
 
 	public TortugaRssBuild() {
-		now = format.format(new Date());
+		Date date = new Date();
+		now = format.format(date);
 	}
 
 	private void checkImgs(String folder) throws IOException {
-		if (new File(DOCS + folder + "temp.png").exists()) {
-			if (new File(DOCS + folder + "last.png").exists()) {
-				BufferedImage temp = ImageIO.read(new File(DOCS + folder + "temp.png"));
-				BufferedImage last = ImageIO.read(new File(DOCS + folder + "last.png"));
-				if (!bufferedImagesEqual(temp, last)) {
-					System.out.println("les image sont differentes !");
+		File temp = new File(DOCS + folder + "temp.png");
+		if (temp.exists()) {
+			File last = new File(DOCS + folder + "last.png");
+			if (last.exists()) {
+				BufferedImage tempImg = ImageIO.read(temp);
+				BufferedImage lastImg = ImageIO.read(last);
+				if (!bufferedImagesEqual(tempImg, lastImg)) {
+					System.out.println("New image");
+					FileUtils.copyFile(temp, new File(DOCS + folder + now + ".png"));
+					last.delete();
+					FileUtils.copyFile(temp, last);
+				} else {
+					System.out.println("Same image");
 				}
 			} else {
-				FileUtils.copyFile(new File(DOCS + folder + "temp.png"), new File(DOCS + folder + now + ".png"));
-				FileUtils.copyFile(new File(DOCS + folder + "temp.png"), new File(DOCS + folder + "last.png"));
+				System.out.println("First image");
+				FileUtils.copyFile(temp, new File(DOCS + folder + now + ".png"));
+				FileUtils.copyFile(temp, last);
 			}
-//			new File(DOCS + folder + "temp.png").delete();
+			System.out.println("delete temp file");
+			temp.delete();
 		}
 	}
 
-	private void buildRss(String folder, String target) throws IOException, FeedException {
+	private void buildRss(Model model) throws IOException, FeedException {
 		SyndFeed feed = new SyndFeedImpl();
 		feed.setFeedType("rss_2.0");
 		feed.setTitle("Pour la Gloire de Tortuga");
 		feed.setLink(Configuration.get().getBase());
 		feed.setDescription("Pour la Gloire de Tortuga ");
 
-		List<SyndEntry> entries = Arrays.stream(new File(DOCS + folder).listFiles(new FilenameFilter() {
+		List<SyndEntry> entries = Arrays.stream(new File(DOCS + model.imgFolder).listFiles(new FilenameFilter() {
 			@Override
 			public boolean accept(File dir, String name) {
 				return name.endsWith(".png") && !name.startsWith("last");
 			}
-		})).sorted().map(file -> buildRssEntry(folder, file)).toList();
+		})).sorted((a, b) -> -a.compareTo(b)).map(file -> buildRssEntry(model, file)).toList();
 		feed.setEntries(entries);
-		new SyndFeedOutput().output(feed, new File(target));
+		new SyndFeedOutput().output(feed, new File(model.getRssFile()));
 	}
 
-	private SyndEntry buildRssEntry(String folder, File file) {
+	private SyndEntry buildRssEntry(Model model, File file) {
 		SyndEntryImpl entry = new SyndEntryImpl();
 		entry.setAuthor("shionn");
-		entry.setLink(toUrl(folder, file));
+		entry.setLink(toUrl(model, file));
 		SyndContentImpl desc = new SyndContentImpl();
 		desc.setValue(file.getName());
-		desc.setType(now);
-		entry.setDescription(buildItemDescription(folder, file));
+		entry.setDescription(buildItemDescription(model, file));
 		try {
-			entry.setPublishedDate(format.parse(file.getName()));
+			Date date = format.parse(file.getName());
+			entry.setPublishedDate(date);
+			entry.setTitle(model.getRssTitle() + displayFormat.format(date));
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
 		return entry;
 	}
 
-	private SyndContent buildItemDescription(String folder, File file) {
+	private SyndContent buildItemDescription(Model model, File file) {
 		SyndContentImpl content = new SyndContentImpl();
-		content.setValue("<img src=\"" + toUrl(folder, file) + "\">");
+		content.setValue("<img src=\"" + toUrl(model, file) + "\">");
 		return content;
 	}
 
-	private String toUrl(String folder, File file) {
+	private String toUrl(Model model, File file) {
 		String url = Configuration.get().getBase();
 		if (!url.endsWith("/")) {
 			url += "/";
 		}
-		url += folder;
+		url += model.getImgFolder();
 		return url + file.getName();
 	}
 
