@@ -27,6 +27,11 @@ table {
 		text-align: right;
 	}
 
+	tr td.subtitle {
+		text-align: right;
+		background-color: lighten($theme-color, 30%);
+	}
+
 	&.boxed td,
 	&.boxed th {
 		border: 1px solid $theme-color;
@@ -122,5 +127,6 @@ table.quest, table.players, table.all-quests {
 			top: -18px;
 		}
 	}
+	
 
 }

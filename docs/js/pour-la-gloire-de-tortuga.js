@@ -122,16 +122,16 @@ q(function() {
 		players.forEach(player => {
 			body.append(q("<tr>")
 					.append(q("<td>").attr("rowspan", 4).append(q("<img>").attr("src", player.avatarPath())))
-					.append(q("<td>").addClass("right").text("Joueur"))
+					.append(q("<td>").addClass("subtitle").text("Joueur"))
 					.append(q("<td>").text(player.name)));
 			body.append(q("<tr>")
-					.append(q("<td>").addClass("right").text("Niveau"))
+					.append(q("<td>").addClass("subtitle").text("Niveau"))
 					.append(q("<td>").text(player.grade() + " (" + player.lvl + ")")));
 			body.append(q("<tr>")
-					.append(q("<td>").addClass("right").text("Expérience"))
+					.append(q("<td>").addClass("subtitle").text("Exp."))
 					.append(q("<td>").append(_progressBar(player.xp, player.lvl * 10))));
 			body.append(q("<tr>")
-					.append(q("<td>").addClass("right").text("Participation"))
+					.append(q("<td>").addClass("subtitle").text("Contrib."))
 					.append(q("<td>").text(player.figurines + " figurines")));
 		});
 

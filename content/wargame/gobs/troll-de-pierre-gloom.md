@@ -17,6 +17,26 @@ Base	72120
 Rehaut	72001
 [/paints]
 
+[paints title="Peau rocailleurse"]
+Base	72120
+Éclaircissement	72024
+Éclaircissement	72119
+Éclaircissement	72096
+Rehaut	72001
+[/paints]
+
+[paints title="Cuir"]
+Base	72124
+[/paints]
+
+[paints title="Bois"]
+Base	72045
+[/paints]
+
+[paints title="Rubis"]
+Base	72011
+[/paints]
+
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
 sur la page dédiée à [Mon armée Gloomspite](2025/armee-gloomspite.html).
 

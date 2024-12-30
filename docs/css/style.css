@@ -903,6 +903,10 @@ table tr.hide {
 table td.right {
   text-align: right;
 }
+table tr td.subtitle {
+  text-align: right;
+  background-color: #f3e6c5;
+}
 table.boxed td, table.boxed th {
   border: 1px solid #d8ae47;
 }
