@@ -66,13 +66,7 @@ public class TortugaRssBuild {
 
 	private SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd hh-mm");
 	private SimpleDateFormat displayFormat = new SimpleDateFormat("dd MMMM yyyy hh:mm");
-	private String now;
-	private String nowDisplay;
-
-	public TortugaRssBuild() {
-		Date date = new Date();
-		now = format.format(date);
-	}
+	private String formatedNow = format.format(new Date());
 
 	private void checkImgs(String folder) throws IOException {
 		File temp = new File(DOCS + folder + "temp.png");
@@ -83,7 +77,7 @@ public class TortugaRssBuild {
 				BufferedImage lastImg = ImageIO.read(last);
 				if (!bufferedImagesEqual(tempImg, lastImg)) {
 					System.out.println("New image");
-					FileUtils.copyFile(temp, new File(DOCS + folder + now + ".png"));
+					FileUtils.copyFile(temp, new File(DOCS + folder + formatedNow + ".png"));
 					last.delete();
 					FileUtils.copyFile(temp, last);
 				} else {
@@ -91,7 +85,7 @@ public class TortugaRssBuild {
 				}
 			} else {
 				System.out.println("First image");
-				FileUtils.copyFile(temp, new File(DOCS + folder + now + ".png"));
+				FileUtils.copyFile(temp, new File(DOCS + folder + formatedNow + ".png"));
 				FileUtils.copyFile(temp, last);
 			}
 			System.out.println("delete temp file");
@@ -113,6 +107,8 @@ public class TortugaRssBuild {
 			}
 		})).sorted((a, b) -> -a.compareTo(b)).map(file -> buildRssEntry(model, file)).toList();
 		feed.setEntries(entries);
+		feed.setPublishedDate(entries.get(0).getPublishedDate());
+
 		new SyndFeedOutput().output(feed, new File(model.getRssFile()));
 	}
 
