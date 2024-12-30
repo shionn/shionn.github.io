@@ -76,6 +76,6 @@ Ce sera là votre premier Objectif!!!
 <div id="quest-1"></div>
 
 [gallery]
-pictures/defis/whisp-2025/map01.png
+pictures/defis/tortuga-2025/map01.png
 [/gallery]
 

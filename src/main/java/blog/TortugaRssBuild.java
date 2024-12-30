@@ -133,7 +133,6 @@ public class TortugaRssBuild {
 		SyndContentImpl content = new SyndContentImpl();
 		content.setType("text/html");
 		content.setValue("<img src=\"" + toUrl(model, file) + "\">");
-		// ici c'est indcomplet
 		return content;
 	}
 

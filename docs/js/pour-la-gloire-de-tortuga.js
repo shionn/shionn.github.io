@@ -42,7 +42,7 @@ q(function() {
 
 
 		this.avatarPath = function() {
-			return "pictures/defis/whisp-2025/" + this.avatar;
+			return "pictures/defis/tortuga-2025/" + this.avatar;
 		}
 	};
 
