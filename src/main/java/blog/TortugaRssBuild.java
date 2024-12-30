@@ -1,5 +1,6 @@
 package blog;
 
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;
@@ -8,6 +9,8 @@ import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
+
+import javax.imageio.ImageIO;
 
 import org.apache.commons.io.FileUtils;
 
@@ -33,7 +36,6 @@ public class TortugaRssBuild {
 		builder.buildRss("pictures/defis/whisp-2025/participants/", "docs/draft/participants.rss");
 	}
 
-
 	private SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd hh-mm");
 	private String now;
 
@@ -42,13 +44,19 @@ public class TortugaRssBuild {
 	}
 
 	private void checkImgs(String folder) throws IOException {
-		if (new File(DOCS + folder + "last.png").exists()) {
-			
-		} else {
-			FileUtils.copyFile(new File(DOCS + folder + "temp.png"), new File(DOCS + folder + now + ".png"));
-			FileUtils.copyFile(new File(DOCS + folder + "temp.png"), new File(DOCS + folder + "last.png"));
+		if (new File(DOCS + folder + "temp.png").exists()) {
+			if (new File(DOCS + folder + "last.png").exists()) {
+				BufferedImage temp = ImageIO.read(new File(DOCS + folder + "temp.png"));
+				BufferedImage last = ImageIO.read(new File(DOCS + folder + "last.png"));
+				if (!bufferedImagesEqual(temp, last)) {
+					System.out.println("les image sont differentes !");
+				}
+			} else {
+				FileUtils.copyFile(new File(DOCS + folder + "temp.png"), new File(DOCS + folder + now + ".png"));
+				FileUtils.copyFile(new File(DOCS + folder + "temp.png"), new File(DOCS + folder + "last.png"));
+			}
+//			new File(DOCS + folder + "temp.png").delete();
 		}
-		new File(DOCS + folder + "temp.png").delete();
 	}
 
 	private void buildRss(String folder, String target) throws IOException, FeedException {
@@ -84,10 +92,9 @@ public class TortugaRssBuild {
 		return entry;
 	}
 
-
 	private SyndContent buildItemDescription(String folder, File file) {
 		SyndContentImpl content = new SyndContentImpl();
-		content.setValue("<![CDATA[<img src=\"" + toUrl(folder, file) + "\">]]>");
+		content.setValue("<img src=\"" + toUrl(folder, file) + "\">");
 		return content;
 	}
 
@@ -100,4 +107,17 @@ public class TortugaRssBuild {
 		return url + file.getName();
 	}
 
+	boolean bufferedImagesEqual(BufferedImage img1, BufferedImage img2) {
+		if (img1.getWidth() == img2.getWidth() && img1.getHeight() == img2.getHeight()) {
+			for (int x = 0; x < img1.getWidth(); x++) {
+				for (int y = 0; y < img1.getHeight(); y++) {
+					if (img1.getRGB(x, y) != img2.getRGB(x, y))
+						return false;
+				}
+			}
+		} else {
+			return false;
+		}
+		return true;
+	}
 }
