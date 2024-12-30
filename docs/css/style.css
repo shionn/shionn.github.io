@@ -900,6 +900,9 @@ table.sort thead {
 table tr.hide {
   display: none;
 }
+table td.right {
+  text-align: right;
+}
 table.boxed td, table.boxed th {
   border: 1px solid #d8ae47;
 }

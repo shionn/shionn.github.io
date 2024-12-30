@@ -1,11 +1,11 @@
 
-Avec Whisp on organise un défi annuel sous forme d'un jeu. L'idée est de peindre des figurines, chaque figurine permet d'avancer des quêtes et de faire progresser notre base de pirate. 
+Avec Whisp on organise un défi annuel sous la forme d'un jeu. L'idée est de peindre des figurines, chaque figurine permet d'avancer des quêtes et de faire progresser notre repaire de pirates. 
 
 ## Introduction
 
-> Lors de la tenue du grand Conseil des Pirates les Seigneur Pirates Whisp et Sparrow ont été mis au fait du saccage de leur tant adorée il de Tortuga par les félons de la nouvelle Angleterre !! Cette nouvelle les as abattus mais les a mis dans une colère noire !! Ils n’auront pas de répit tant que cet affront ne sera pas lavé et l’ile rebattit en mieux. Tout est à refaire, La Taverne, les Docs, Les navires sont endommagés !!
-> C’est alors que le Seigneur Capitaine Whisp convoqua tous ses meilleurs hommes ! Leur mission, piller, couler, détruire les navires des colons et leurs colonies pour rebâtir Tortuga et venger l’honneur des Pirates ! 
-- __DEVENEZ LE SEIGNEUR DES PIRATES__ : Vous n'avez peut-être pas la nature d'un grand pirate, mais nous vous donnons les moyens de devenir le MEILLEUR des pirates. En plaçant le plus de figurines pour le mois gagnez votre réputation et remportez le titre de Quartier Maitre du mois pour devenir le second du Seigneur des Pirates – le redoutable WHISP. Celui qui aura occupé ce poste le plus de fois dans l’année remportera une Commission peinture offerte par le Seigneur Pirate Lui-même !!
+> Lors de la tenue du grand Conseil des Pirates les Seigneurs Pirates Whisp et Sparrow ont été mis au fait du saccage de leur tant adorée île de Tortuga par les félons de la nouvelle Angleterre !! Cette nouvelle les a abattu mais mis dans une colère noire !! Ils n’auront pas de répit tant que cet affront ne sera pas lavé et l’île rebattie en mieux. Tout est à refaire, La Taverne, les Docs, tout, Les navires sont même endommagés !!
+> C’est alors que le Seigneur Whisp convoqua tous ses meilleurs hommes ! Leur mission? Piller, couler, saccager, détruire les navires des colons et leurs colonies pour rebâtir Tortuga et venger l’honneur des Pirates ! 
+- __DEVENEZ LE MEILLEUR DES PIRATES__ : Vous n'avez peut-être pas la nature d'un grand pirate, mais nous vous donnons les moyens de devenir le MEILLEUR des pirates. En plaçant le plus de figurines pour le mois gagnez votre réputation et remportez le titre de Quartier Maitre du mois pour devenir le second du Seigneur des Pirates – le redoutable WHISP. Celui qui aura occupé ce poste le plus de fois dans l’année remportera une Commission peinture offerte par le Seigneur Pirate Lui-même !!
 - __PILLEZ ET VOGUEZ SUR LA MER DES CARAÏBES__ : Les Caraïbes du 17e siècle sont dominées par les quatre puissances coloniales de l'Ancien Monde. Être un pirate c'est votre responsabilité et votre devoir consiste à aider les colonies espagnoles, hollandaises, françaises et anglaises à ne pas se noyer dans leurs richesses. Mais attention ! Aventurez-vous au-delà de votre port d'origine seulement lorsque vous pensez être en mesure d'engloutir vos adversaires, lancez l’assaut avec autant de figurines nécessaires seul ou avec vos compagnons Pirates pour saborder l’ennemi et remportez la bataille ! Chaque victoire permettra la reconstruction d’un élément prédéfini de lu port de l’ile de Tortuga !.
 - __LANCEZ DES BATAILLES NAVALES TACTIQUES__ : Votre navire sera certes en sécurité au port, mais ce n'est pas à ça que servent les navires. Battez-vous lors de batailles navales tactiques en tour par tour et ramener votre butin pour développer votre Navire, améliorer votre flotte ou l’antre Pirate !
 - __AMÉLIOREZ VOTRE FLOTTE__ : Votre rôle vous incombe d'entretenir et améliorer votre formidable flotte pour faire face à la pluie de boulets de canon que vous réservent les navires de guerre arpentant les mers. Utilisez les améliorations uniques de l'équipement de base de votre navire, tel que l'armement, la coque, le gréement ou la figure de proue.
@@ -16,23 +16,23 @@ Avec Whisp on organise un défi annuel sous forme d'un jeu. L'idée est de peind
 Il vous suffit de rejoindre le serveur [discord de Whisp](https://discord.gg/xk3zKTtCA3). 
 Vous présenter puis sélectionner un avatar dans le canal dédié. 
 
-L'idée du jeux est que nous participons tous à la reconstruction de notre base en complétant des quêtes. Les quêtes se complétant généralement en peignant des figurines. 
+L'idée du jeux est que nous participons tous à la reconstruction de notre repaire en complétant des quêtes. Les quêtes se complétant généralement en peignant des figurines. Une Figurine = 1 Point d'objectif! 
 
 Une fois cela fait il vous suffit de poster vos figurine peinte dans le canal dédier. Et cela fera progresser la quête en cours. 
-Si plusieurs quêtes sont en cours indiqué à quel quête elles participent.
+Si plusieurs quêtes sont en cours indiquer à quelle quête elles participent.
 
-Et c'est tous. Whisp et moi nous chargeons du reste.
+Et c'est tout. Whisp et moi nous chargeons du reste.
 
-### Règle avancé
+### Règles avancées
 
-- La seul condition pour que la figurine soit valide est qu'elle soit peinte pendant l'année 2025.
-- Tous le monde participe aux mêmes quêtes communes. 
+- La seule condition pour que la figurine soit valide est qu'elle soit peinte pendant l'année 2025. (Peu importe si elle a été entamée en 2024)
+- Tout le monde participe aux mêmes quêtes qui sont communes. 
 - Quelque soit la figurine, l'échelle ou sa taille elle compte pour 1 point de progression de quête. 
-- Certaine quête peuvent avoir des contraintes particulière par exemple "peindre 5 décors" mais dans ce cas la une quête basique out toutes les figurines compte se déroulera en même temps.
+- Certaines quêtes peuvent avoir des contraintes particulières par exemple "peindre 5 décors" mais dans ce cas précis, une quête basique où toutes les figurines comptent se déroulera en même temps.
 
 ### Niveau des Pirates
 
-En plus des quêtes chaque pirate aura son propre niveau et grade de pirate. Nous commençons _mousse_ et gagnerons nos grade au fur et mesure qu'on peindra des figurines. 
+En plus des quêtes chaque pirate aura son propre niveau et grade de pirate. Nous commençons _mousse_ et gagnerons nos grades au fur et mesure qu'on peindra des figurines. 
 Vous devez gagner 10 fois votre niveau en point d'expérience pour passer au niveau suivant : 
 
 - Vous commencez niveau 1 : _mousse_
@@ -42,13 +42,11 @@ Vous devez gagner 10 fois votre niveau en point d'expérience pour passer au niv
 
 Le nombre de point d'expérience dépend de la taille du socle : 
  
-- un petit socle, inférieur strictement à 40mm : compte pour 1 points d'expérience. 
+- un petit socle, inférieur strictement à 40mm : compte pour 1 point d'expérience. 
 - un socle moyen, entre 40mm et 60mm, compte pour 2 points d'expérience.
 - un grand socle, supérieur strictement à 60mm, compte pour 5 points d'expérience.
 
 ### Participant
-
-TODO 
 
 <div id="participants"></div>
 
@@ -60,14 +58,13 @@ TODO
 
 ### Jour 1 découverte de notre nouvelle base. 
 
-TODO @Whisp inserer un petit text de lore genre "nous trouvons une crique et nous allons y construire notre nouvelle base mais avant tous nous devons nourrir nos troupes"
+C'est le premier jour, vous regardez tristement l'ancien repaore de Tortuga détruit pendant que le bateau délabré s'eloigne de l'île. Les Seigneurs Whisp et Sparrow regarde du haut de leur postes de Capitaines, une lueur tenebreuse dans leur regard! Les felons vont bientôt gouter au fer des Pirates! Tandis qu'ils naviguent péniblement dans la zone du triange les Bermudes, là ouù seul les braves et donc les Pirates osent s'aventurer, un épais brouillard les entoure... Non sans un once d'inquiètude, ils continuent bravement droit devant, toutes voiles dehors. Bientot l'épais brouillard se dissiê et laisse entrevoir une  Petites île, oui une petite île en forme de tortue de mer avec une crique en ssont centre.
+C'est là, les Seigneurs se tournèrent l'un vers l'autre et ils se sont compris au premier regard! L'endroit est parfait de la forme à sa position dans une région isolée où personne n'osera s'aventurer. Et la cerise sur la gateau un épais brouillard effrayant les masquant au reste du Monde! Les Pirates accostèrent et posèrent le pieds sur ce qui allait être la nouvelle Tortuga! Il fallait maintenant reconstruire mais la route a été longue et pénible et il leur fallait se restaurer et un bon repos avant d'attaquer la reconstruction. Les viivres sont malheureusement épuisés il va falloir un dernier effort aux Pirates pour s'accommoder devant un repas digne! 
+Ce sera là votre premier Objectif!!! 
 
 <div id="quest-1"></div>
 
 [gallery]
 pictures/defis/whisp-2025/map01.png
 [/gallery]
-
-
-
 

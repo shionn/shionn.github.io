@@ -22,6 +22,10 @@ table {
 	tr.hide {
 		display: none;
 	}
+	
+	td.right {
+		text-align: right;
+	}
 
 	&.boxed td,
 	&.boxed th {

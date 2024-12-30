@@ -116,14 +116,23 @@ q(function() {
 
 	let _renderPlayers = function(players) {
 		let table = q("<table>").addClass("players").addClass("boxed");
-		table.append(q("<thead>").append(q("<tr>").append(q("<th>").attr("colspan", "2").text("Participants"))));
+		table.append(q("<thead>").append(q("<tr>").append(q("<th>").attr("colspan", "3").text("Participants"))));
 
 		let body = q("<tbody>");
 		players.forEach(player => {
-			body.append(q("<tr>").append(q("<td>").attr("rowspan", 4).append(q("<img>").attr("src", player.avatarPath()))).append(q("<td>").text(player.name)));
-			body.append(q("<tr>").append(q("<td>").text(player.grade() + " (" + player.lvl + ")")));
-			body.append(q("<tr>").append(q("<td>").append(_progressBar(player.xp, player.lvl * 10))));
-			body.append(q("<tr>").append(q("<td>").text(player.figurines + " figurines")));
+			body.append(q("<tr>")
+					.append(q("<td>").attr("rowspan", 4).append(q("<img>").attr("src", player.avatarPath())))
+					.append(q("<td>").addClass("right").text("Joueur"))
+					.append(q("<td>").text(player.name)));
+			body.append(q("<tr>")
+					.append(q("<td>").addClass("right").text("Niveau"))
+					.append(q("<td>").text(player.grade() + " (" + player.lvl + ")")));
+			body.append(q("<tr>")
+					.append(q("<td>").addClass("right").text("Expérience"))
+					.append(q("<td>").append(_progressBar(player.xp, player.lvl * 10))));
+			body.append(q("<tr>")
+					.append(q("<td>").addClass("right").text("Participation"))
+					.append(q("<td>").text(player.figurines + " figurines")));
 		});
 
 		q("#participants").append(table.append(body));
