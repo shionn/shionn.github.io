@@ -43,6 +43,7 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 		if (!url.endsWith("/")) {
 			url += "/";
 		}
+		// todo draft > 2025
 		url += "draft/pour-la-gloire-de-tortuga.html";
 		System.out.println("open url " + url);
 		webView.getEngine().load(url);
@@ -105,7 +106,7 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 		BufferedImage bufferedImage = SwingFXUtils.fromFXImage(snapshot, null);
 		System.out.println("capture done for "+id);
 		try {
-			File output = new File("docs/pictures/defis/whisp-2025/" + path + "/temp.png");
+			File output = new File("docs/pictures/defis/tortuga-2025/" + path + "/temp.png");
 			output.mkdirs();
 			ImageIO.write(bufferedImage, "png", output);
 		} catch (IOException e) {

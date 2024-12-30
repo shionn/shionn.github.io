@@ -28,9 +28,8 @@ import blog.generator.Configuration;
 public class TortugaRssBuild {
 
 	static enum Model {
-		// TODO replace rss/tortuga-quests or players
-		QUEST("pictures/defis/whisp-2025/quests/", "docs/draft/quests.rss", "Mise à jour des quetes "),
-		PLAYERS("pictures/defis/whisp-2025/players/", "docs/draft/players.rss", "Mise à jour des joueurs "),;
+		QUEST("pictures/defis/tortuga-2025/quests/", "docs/rss/quests.rss", "Mise à jour des quetes "),
+		PLAYERS("pictures/defis/tortuga-2025/players/", "docs/rss/players.rss", "Mise à jour des joueurs "),;
 
 		private String imgFolder;
 		private String rssFile;
