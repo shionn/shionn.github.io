@@ -79,7 +79,11 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 			public void run() {
 				try {
 					TimeUnit.SECONDS.sleep(SLEEP_TIME);
-					doCapture(id, path);
+					if(((Number)webView.getEngine().executeScript("window.scrollY")).intValue()<10) {
+						requestCapture(id, path);
+					} else {
+						doCapture(id, path);
+					}
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
