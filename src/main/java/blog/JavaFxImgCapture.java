@@ -73,13 +73,15 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 
 	private void requestCapture(String id, String path) {
 		System.out.println("scroll to " + id);
-		webView.getEngine().executeScript("document.getElementById(\"" + id + "\").scrollIntoView(true)");
+		String scrolloption = "{block: \"start\", inline: \"nearest\", behavior: \"instant\"}";
+		webView.getEngine()
+				.executeScript("document.getElementById(\"" + id + "\").scrollIntoView(" + scrolloption + ")");
 		Platform.runLater(new Runnable() {
 			@Override
 			public void run() {
 				try {
 					TimeUnit.SECONDS.sleep(SLEEP_TIME);
-					if(((Number)webView.getEngine().executeScript("window.scrollY")).intValue()<10) {
+					if (((Number) webView.getEngine().executeScript("window.scrollY")).intValue() < 10) {
 						System.out.println("Redo scroll");
 						requestCapture(id, path);
 					} else {
