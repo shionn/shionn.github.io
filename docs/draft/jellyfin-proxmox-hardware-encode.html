@@ -170,132 +170,99 @@
 	</header>
 	<div class="container main">
 		
+		
+		
 		<div class="main">
-			<h2>Programmation auto :</h2>
-			<ul>
-				<li>
-					<a href="draft/repaint-bulma.html">Repaint d&#39;une Bulma</a>
-					11 juin 2025
-				</li>
-				<li>
-					<a href="draft/elfes-noirs-cavalier-sg-froid.html">Cavalier sur Sang-Froid Elfes Noirs</a>
-					01 juin 2025
-				</li>
-				<li>
-					<a href="draft/decor-mortal-realms.html">Décor issu de Mortal Realms</a>
-					22 mai 2025
-				</li>
-				<li>
-					<a href="draft/elfes-noirs-arbaletriers.html">Arbaletriers Elfes Noirs</a>
-					12 mai 2025
-				</li>
-				<li>
-					<a href="draft/openrgb-sur-debian.html">Openrgb sur Debian</a>
-					22 avril 2025
-				</li>
-				<li>
-					<a href="draft/decor-skaventide.html">Décor issu de Skaventide</a>
-					12 avril 2025
-				</li>
-				<li>
-					<a href="draft/elfes-noirs-assassin.html">Assassin Elfes Noirs</a>
-					02 avril 2025
-				</li>
-				<li>
-					<a href="draft/homelab-processeur.html">Processeur pour HomeLab</a>
-					23 mars 2025
-				</li>
-				<li>
-					<a href="draft/elfes-noirs-malus-dark-blade.html">Malus Dark Blade Elfes Noirs</a>
-					13 mars 2025
-				</li>
-				<li>
-					<a href="draft/warcry-dok.html">Rodeur de l&#39;ombre Khainites</a>
-					03 mars 2025
-				</li>
-				<li>
-					<a href="draft/jellyfin-proxmox-hardware-encode.html">Installation de Jellyfin avec accélération matériel sur Proxmox</a>
-					21 février 2025
-				</li>
-				<li>
-					<a href="draft/elfes-noirs-lanciers.html">Lanciers Elfes Noirs</a>
-					11 février 2025
-				</li>
-				<li>
-					<a href="draft/debian-execute-task-before-and-after-suspend.html">Exécuter un script avant et après la mise en veille</a>
-					01 février 2025
-				</li>
-				<li>
-					<a href="draft/elfes-noirs-char-a-sang-froid-metal.html">Char à Sang Froid Elfes Noirs</a>
-					22 janvier 2025
-				</li>
-				<li>
-					<a href="draft/annee-2024-defi-peinture.html">Résumé d&#39;un an de défi peinture.</a>
-					12 janvier 2025
-				</li>
-				<li>
-					<a href="draft/pour-la-gloire-de-tortuga.html">Pour la gloire de Tortuga</a>
-					02 janvier 2025
-				</li>
-			</ul>
-			<h2>Non programmé</h2>
-			<ul>
-				<li>
-					<a href="draft/apt-cacher.html">Apt Cacher NG</a>
-					31 décembre 2025
-				</li>
-				<li>
-					<a href="draft/apt-pinning.html">Apt Pinning</a>
-					31 décembre 2025
-				</li>
-				<li>
-					<a href="draft/amd-ryzen.html">Astuce pour Amd Ryzen</a>
-					31 décembre 2025
-				</li>
-				<li>
-					<a href="draft/decor-stormbringers.html">Décor issu de Stormbringer</a>
-					31 décembre 2025
-				</li>
-				<li>
-					<a href="draft/flux-rss-avec-java-et-rometools.html">Flux RSS en JAVA avec Rome</a>
-					31 décembre 2025
-				</li>
-				<li>
-					<a href="draft/kit-survie-git.html">Kit de Survie avec Git</a>
-					31 décembre 2025
-				</li>
-				<li>
-					<a href="draft/defi-annuel-2025.html">La discorde du pinceau</a>
-					31 décembre 2025
-				</li>
-				<li>
-					<a href="draft/webview-avec-javafx-et-screenshot.html">Webview avec JavaFX et Screenshot</a>
-					31 décembre 2025
-				</li>
-				<li>
-					<a href="draft/whisperia-3.html">Whisperia 3</a>
-					22 décembre 2025
-				</li>
-				<li>
-					<a href="draft/troll-de-pierre-gloom.html">Troll de pierre Gloom</a>
-					30 septembre 2025
-				</li>
-				<li>
-					<a href="draft/pour-la-gloire-de-tortuga-players.html">Tortuga Joueurs</a>
-					02 janvier 2025
-				</li>
-				<li>
-					<a href="draft/pour-la-gloire-de-tortuga-quests.html">Tortuga Quests</a>
-					02 janvier 2025
-				</li>
-				<li>
-					<a href="draft/collection.html">Collections</a>
-					01 janvier 2024
-				</li>
-			</ul>
+			<article>
+	<header>
+		
+		<h1><a href="draft/jellyfin-proxmox-hardware-encode.html">Installation de Jellyfin avec accélération matériel sur Proxmox</a></h1>
+		<span class="date">21 février 2025</span>
+		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
+		<span class="tags">
+			<span class="fa fa-flag"></span>
+			<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/jellyfin.html">Jellyfin</a>
+		</span>
+	</header>
+	<section><h2>Installation de Jellyfin</h2>
+<p>Sur votre proxmox créer un container à partir d'une Debian.
+Puis connectez vous à ce container.</p>
+<h3>Ajout du dépo et installation</h3>
+<p>En root :</p>
+<pre class="shell"><code class="shell">apt install extrepo
+extrepo enable jellyfin
+apt update
+apt install jellyfin
+</code></pre>
+<p>Je ne sais plus pour quelle raison mais j'ai installé :</p>
+<pre class="shell"><code class="shell">apt install jellyfin-ffmpeg6
+</code></pre>
+<h3>Configuration</h3>
+<p>Dans /etc/jellyfin/encoding.xml vous pouvez activer le support du HEVC ou AV1.
+Avec les balises :</p>
+<pre class="xml"><code class="xml">&lt;AllowHevcEncoding&gt;true&lt;/AllowHevcEncoding&gt;
+&lt;AllowAv1Encoding&gt;true&lt;/AllowAv1Encoding&gt;
+</code></pre>
+<h2>Accélération matériel</h2>
+<p>Ici j'utilise une Intel Arc A310.
+Certes en jeux c'est pas une foudre de guerre mais pour le transcodage
+vidéo c'est ce qui donne la meilleure qualité.</p>
+<p>Cependant si vous avez un processeur Intel avec un GPU intégré cela
+suffit amplement. Dans mon cas possédant un serveur à base de Xéon,
+je n'en ai pas et j'ai donc opté pour une carte dédié.</p>
+<h3>Passthrought du GPU</h3>
+<p>Sur votre Proxmox dans <code>/dev/dri</code> vous devriez avoir quelque chose ressemblant
+à <code>renderDXXX</code>, dans mon cas j'ai <code>renderD128</code>.
+Ensuite il faut identifier l'ID du group <code>render</code> dans votre conteneur Jellyfin.</p>
+<pre class="shell"><code class="shell">getent group render
+</code></pre>
+<p>Dans mon cas cette commande me renvoi <code>render:x:104:jellyfin</code>. Ici ce qui m'intéresse c'est <code>104</code>.</p>
+<p>Maintenant qu'on a identifié le périphérique et le group on peu
+passthrought notre composant. Vous pouvez le faire via l'interface de Proxmox.</p>
+<div class="gallery"><a href="pictures/linux/proxmox-jellyfin/01-add-device-button.png"><img src="pictures/linux/proxmox-jellyfin/01-add-device-button.png"></a><a href="pictures/linux/proxmox-jellyfin/02-add-device-interface.png"><img src="pictures/linux/proxmox-jellyfin/02-add-device-interface.png"></a></div>
+<p>Ou en ajoutant dans le fichier de configuration du container
+dans <code>/etc/pve/lxc/XXX.conf</code>:</p>
+<pre class="shell"><code class="shell">dev0: /dev/dri/renderD128,gid=104
+</code></pre>
+<p>Une fois cela fait vous pouvez relancer votre conteneur et normalement
+dans /dev/dri vous devriez retrouver votre périphérique en 660
+avec root:render.</p>
+<pre class="shell"><code class="shell">root@Jellyfin:/dev/dri# ll
+total 0
+crw-rw---- 1 root render 226, 128 Nov  7 12:11 renderD128
+root@Jellyfin:/dev/dri# 
+</code></pre>
+<h3>Installer l'accélération matériel :</h3>
+<p>Il faut installer le package opencl, pour vérifier si vous avez la
+bonne version faire un <code>apt policy intel-opencl-icd</code>.
+Il vous faut :</p>
+<ul>
+<li>une version supérieur à 22.xx pour un gpu intégré au processeur.</li>
+<li>une version supérieur à 23.xx pour une intel Arc</li>
+</ul>
+<p>Si votre repo ne possède pas la bonne version vous pouvez les télécharger et installer à la main<br />
+les packages depuis <a href="https://github.com/intel/compute-runtime/releases" target="_blank">github</a>.</p>
+<p>Dans mon cas il me faut aussi installer l'extension ffmpeg7 de jellyfin.</p>
+<pre class="shell"><code class="shell">apt install jellyfin-ffmpeg7
+</code></pre>
+<h3>Activation</h3>
+<p>Cela se passe dans le <code>tableau de bord</code> de Jellyfin dans l'interface web.</p>
+<div class="gallery"><a href="pictures/linux/proxmox-jellyfin/03-activation-transcodage-menu.png"><img src="pictures/linux/proxmox-jellyfin/03-activation-transcodage-menu.png"></a><a href="pictures/linux/proxmox-jellyfin/04-activation-transcodage-options.png"><img src="pictures/linux/proxmox-jellyfin/04-activation-transcodage-options.png"></a></div>
+<h2>Résultat</h2>
+<p>Avec cette configuration, ma machine transcode un flux 4K en
+HEVC 10bit vers de l'AV1 4K à environ 180 fps. Ce qui est assez :p.
+En software malgré l'attribution de 20 coeur, je plafonnais a 15 fps.</p>
+<div class="gallery"><a href="pictures/linux/proxmox-jellyfin/05-resultat.png"><img src="pictures/linux/proxmox-jellyfin/05-resultat.png"></a></div>
+<h2>Source</h2>
+<ul>
+<li><a href="https://jellyfin.org/docs/general/administration/hardware-acceleration/" target="_blank">Jellyfin</a></li>
+</ul>
+</section>
+	<footer>
+		<em class="author">par Shionn, le 21 février 2025.</em>
+	</footer>
+</article>
 		</div>
-		
-		
 		
 
 		<div class="side">
@@ -612,25 +579,9 @@
 	<script type="text/javascript" src="js/gallery.js"></script>
 	<script type="text/javascript" src="js/tree.js"></script>
 	
-		<script type="text/javascript" src="js/defi-2025.js"></script>
-	
-		<script type="text/javascript" src="js/hljs/bash.min.js"></script>
-	
-		<script type="text/javascript" src="js/hljs/cpp.min.js"></script>
-	
 		<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
 	
-		<script type="text/javascript" src="js/hljs/java.min.js"></script>
-	
-		<script type="text/javascript" src="js/paint-db.js"></script>
-	
-		<script type="text/javascript" src="js/paint-equivalence-db.js"></script>
-	
-		<script type="text/javascript" src="js/paint-equivalence.js"></script>
-	
-		<script type="text/javascript" src="js/paint-guide.js"></script>
-	
-		<script type="text/javascript" src="js/pour-la-gloire-de-tortuga.js"></script>
+		<script type="text/javascript" src="js/hljs/bash.min.js"></script>
 	
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.initHighlightingOnLoad();}</script>
