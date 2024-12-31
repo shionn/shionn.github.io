@@ -43,6 +43,7 @@ public class DecaleDate {
 					System.out.println(
 							"replace " + metadata.getDate() + " with " + translation.getValue() + " in " + file);
 					metadata.setDate(date);
+					new ObjectMapper().writer().writeValue(file, metadata);
 				}
 			}
 		}
