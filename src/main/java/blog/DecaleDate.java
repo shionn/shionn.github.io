@@ -16,6 +16,7 @@ import org.apache.commons.io.filefilter.TrueFileFilter;
 import org.apache.commons.lang3.tuple.Pair;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 
 import blog.model.Metadata;
 
@@ -43,7 +44,7 @@ public class DecaleDate {
 					System.out.println(
 							"replace " + metadata.getDate() + " with " + translation.getValue() + " in " + file);
 					metadata.setDate(date);
-					new ObjectMapper().writer().writeValue(file, metadata);
+					new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT).writer().writeValue(file, metadata);
 				}
 			}
 		}
