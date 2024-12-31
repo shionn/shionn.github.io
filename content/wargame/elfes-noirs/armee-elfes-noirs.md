@@ -27,7 +27,7 @@ pictures/dark-elves/assassin/03.jpg
 [/gallery]
 [/after]
 
-[after date="2025/02/21"]
+[after date="2025/03/13"]
 ### Malus Dark Blade
 
 Voici mon malus dark blade en métal.
@@ -142,7 +142,7 @@ Rehaut	72096
 Reste à faire :
 - Cavalier Noire
 
-[after date="2025/05/02"]
+[after date="2025/05/12"]
 ### Arbaletriers
 
 Voici mon premier pack de 12 arbaletriers elfe noir en plastique. 
@@ -196,7 +196,7 @@ Base	72045
 Rehaut	72039
 [/paints]
 
-[after date="2025/02/01"]
+[after date="2025/02/11"]
 ### Lanciers
 
 Voici mon premier pack de 20 guerrier elfe noir en plastique. 
@@ -222,7 +222,7 @@ Reste à faire :
 - Harpie
 - Ombre
 
-[after date="2025/05/22"]
+[after date="2025/06/01"]
 ### Cavalier sur Sang Froid
 
 Voici ma cavalerie lourde sur sang froid. 
@@ -255,7 +255,7 @@ pictures/dark-elves/cavalier-sg-froid/08.jpg
 
 [/after]
 
-[after date="2025/01/12"]
+[after date="2025/01/22"]
 ### Char à Sang Froid
 
 Voici mon char à sang froid en métal et plastique, en effet les roues et sang froid sont en plastique.

@@ -35,11 +35,18 @@
 			</div>
 		</div>
 		<div class="main" th:case="'draft'">
+			<h2>Programmation auto :</h2>
+			<ul>
+				<li th:each="article : ${site.autoPublishedDrafts}">
+					<a th:text="${article.title}" th:href="${article.url}"></a>
+					<th:block th:text="${article.formatedDate}"/>
+				</li>
+			</ul>
+			<h2>Non programmé</h2>
 			<ul>
 				<li th:each="article : ${site.drafts}">
 					<a th:text="${article.title}" th:href="${article.url}"></a>
 					<th:block th:text="${article.formatedDate}"/>
-					<th:block th:if="${article.autoPublished}"><em>Auto</em></th:block>
 				</li>
 			</ul>
 		</div>
