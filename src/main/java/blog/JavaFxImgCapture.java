@@ -7,8 +7,6 @@ import java.util.concurrent.TimeUnit;
 
 import javax.imageio.ImageIO;
 
-import org.w3c.dom.Element;
-
 import blog.generator.Configuration;
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -24,16 +22,11 @@ import javafx.scene.image.WritableImage;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
-public class JavaFxImgCapture extends Application implements ChangeListener<Worker.State> {
+public abstract class JavaFxImgCapture extends Application implements ChangeListener<Worker.State> {
 
 	private static final int SLEEP_TIME = 2;
-	private static final String QUEST = "quest-";
 
-	public static void main(String[] args) {
-		launch(args);
-	}
-
-	private WebView webView;
+	WebView webView;
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
@@ -43,40 +36,46 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 		if (!url.endsWith("/")) {
 			url += "/";
 		}
-		// todo draft > 2025
-		url += "draft/pour-la-gloire-de-tortuga.html";
+		url += getBaseUrl();
 		System.out.println("open url " + url);
 		webView.getEngine().load(url);
 		webView.getEngine().getLoadWorker().stateProperty().addListener(this);
 
-		Scene scene = new Scene(webView, 1400, 1200);
+		Scene scene = new Scene(webView, 1500, 2000);
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
 
+	abstract String getBaseUrl();
+
+	abstract String getElementId();
+
+	abstract String getImgTargetPath();
+
 	@Override
 	public void changed(ObservableValue<? extends State> observable, State oldValue, State newState) {
 		if (newState == Worker.State.SUCCEEDED) {
-			System.out.println("scroll bottom");
-			webView.getEngine().executeScript("window.scrollTo(0, document.body.scrollHeight)");
+//			System.out.println("scroll bottom");
+//			webView.getEngine().executeScript("window.scrollTo(0, document.body.scrollHeight)");
 			Platform.runLater(new Runnable() {
 				@Override
 				public void run() {
 					try {
 						TimeUnit.SECONDS.sleep(SLEEP_TIME);
-						searchForCurrentQuest();
+						requestCapture(getElementId(), getImgTargetPath());
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}
 				}
+
 			});
 		}
 	}
 
 	private void requestCapture(String id, String path) {
-		System.out.println("scroll to " + id);
+//		System.out.println("scroll to " + id);
 //		String scrolloption = "{block: \"start\", inline: \"nearest\", behavior: \"instant\"}";
-		webView.getEngine().executeScript("document.getElementById(\"" + id + "\").scrollIntoView(true)");
+//		webView.getEngine().executeScript("document.getElementById(\"" + id + "\").scrollIntoView(true)");
 		Platform.runLater(new Runnable() {
 			@Override
 			public void run() {
@@ -88,18 +87,6 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 				}
 			}
 		});
-	}
-
-	private void searchForCurrentQuest() {
-		int i = 50;
-		Element element = webView.getEngine().getDocument().getElementById(QUEST + i);
-		while (element == null && i > 0) {
-			i--;
-			element = webView.getEngine().getDocument().getElementById(QUEST + i);
-		}
-		if (element != null) {
-			requestCapture(QUEST + i, "quests");
-		}
 	}
 
 	private void doCapture(String id, String path) {
@@ -117,11 +104,7 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 			e.printStackTrace();
 		}
 
-		if (id.startsWith(QUEST)) {
-			requestCapture("participants", "players");
-		} else {
-			Platform.exit();
-		}
+		Platform.exit();
 	}
 
 	private double reteiveDouble(String id, String prop) {
