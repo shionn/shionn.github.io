@@ -71,7 +71,7 @@ Le nombre de point d'expérience dépend de la taille du socle :
 
 <div id="participants"></div>
 
-### Recapitulatif des quetes accomplies
+### Récapitulatif des quetes accomplies
 
 <div id="all-quests"></div>
 

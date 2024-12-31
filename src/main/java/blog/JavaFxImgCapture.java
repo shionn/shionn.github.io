@@ -26,7 +26,7 @@ import javafx.stage.Stage;
 
 public class JavaFxImgCapture extends Application implements ChangeListener<Worker.State> {
 
-	private static final int SLEEP_TIME = 5;
+	private static final int SLEEP_TIME = 2;
 	private static final String QUEST = "quest-";
 
 	public static void main(String[] args) {
@@ -57,6 +57,8 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 	@Override
 	public void changed(ObservableValue<? extends State> observable, State oldValue, State newState) {
 		if (newState == Worker.State.SUCCEEDED) {
+			System.out.println("scroll bottom");
+			webView.getEngine().executeScript("window.scrollTo(0, document.body.scrollHeight)");
 			Platform.runLater(new Runnable() {
 				@Override
 				public void run() {
@@ -73,20 +75,14 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 
 	private void requestCapture(String id, String path) {
 		System.out.println("scroll to " + id);
-		String scrolloption = "{block: \"start\", inline: \"nearest\", behavior: \"instant\"}";
-		webView.getEngine()
-				.executeScript("document.getElementById(\"" + id + "\").scrollIntoView(" + scrolloption + ")");
+//		String scrolloption = "{block: \"start\", inline: \"nearest\", behavior: \"instant\"}";
+		webView.getEngine().executeScript("document.getElementById(\"" + id + "\").scrollIntoView(true)");
 		Platform.runLater(new Runnable() {
 			@Override
 			public void run() {
 				try {
 					TimeUnit.SECONDS.sleep(SLEEP_TIME);
-					if (((Number) webView.getEngine().executeScript("window.scrollY")).intValue() < 10) {
-						System.out.println("Redo scroll");
-						requestCapture(id, path);
-					} else {
-						doCapture(id, path);
-					}
+					doCapture(id, path);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
