@@ -38,6 +38,11 @@ Base	72045
 
 [paints title="Rubis"]
 Base	72011
+Éclaircissement	72106
+Ombrage	72112
+Rehaut	72008
+Rehaut	72110
+Rehaut	72001
 [/paints]
 
 [paints title="Toge"]
