@@ -27,6 +27,9 @@ Rehaut	72001
 
 [paints title="Cuir"]
 Base	72124
+Éclaircissement	72115
+Éclaircissement	72042
+Rehaut	72110
 [/paints]
 
 [paints title="Bois"]
