@@ -15,6 +15,8 @@ import org.apache.commons.io.filefilter.SuffixFileFilter;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 import org.apache.commons.lang3.tuple.Pair;
 
+import com.fasterxml.jackson.core.util.DefaultIndenter;
+import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
@@ -44,7 +46,12 @@ public class DecaleDate {
 					System.out.println(
 							"replace " + metadata.getDate() + " with " + translation.getValue() + " in " + file);
 					metadata.setDate(date);
-					new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT).writer().writeValue(file, metadata);
+					DefaultPrettyPrinter.Indenter indenter = new DefaultIndenter("\t", DefaultIndenter.SYS_LF);
+					DefaultPrettyPrinter printer = new DefaultPrettyPrinter();
+					printer.indentObjectsWith(indenter);
+					printer.indentArraysWith(indenter);
+					new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT).writer(printer).writeValue(file,
+							metadata);
 				}
 			}
 		}
