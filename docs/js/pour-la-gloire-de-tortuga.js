@@ -151,6 +151,7 @@ q(function() {
 		q("#all-quests").append(table.append(body));
 	};
 
+	let phylios = new _player("Phylios", "pirate07.png");
 	let shionn = new _player("Shionn", "pirate02.png");
 	let whisp = new _player("Whisp", "pirate00.png");
 
@@ -166,7 +167,7 @@ q(function() {
 			.render();
 
 
-	_renderPlayers([shionn, whisp]);
+	_renderPlayers([phylios, shionn, whisp]);
 	_renderQuests([q1,q2]);
 
 });
