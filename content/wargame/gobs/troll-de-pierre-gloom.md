@@ -34,6 +34,8 @@ Rehaut	72110
 
 [paints title="Bois"]
 Base	72045
+Éclaircissement	72042
+Éclaircissement	72036
 [/paints]
 
 [paints title="Rubis"]
