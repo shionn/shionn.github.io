@@ -168,6 +168,6 @@ q(function() {
 
 
 	_renderPlayers([phylios, shionn, whisp]);
-	_renderQuests([q1,q2]);
+	_renderQuests([q1]);
 
 });
