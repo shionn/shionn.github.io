@@ -163,7 +163,7 @@ q(function() {
 		q("#all-quests").append(table.append(body));
 	};
 
-	let phylios = new _player("Phylios", "pirate07.png");
+	let phylios = new _player("Phylios", "pirate12.png");
 	let shionn = new _player("Shionn", "pirate02.png");
 	let whisp = new _player("Whisp", "pirate00.png");
 	whisp.captain = true;
