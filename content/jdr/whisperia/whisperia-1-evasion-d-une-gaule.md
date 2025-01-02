@@ -44,7 +44,7 @@ Maitrise	+2	???
 Alignement	Loyal Neutre
 Passif	Second souffle	1 fois par jour, +1D10 pv.
 PV	13/13
-Or	150po
+Or	160po
 [/table]
 
 ## Notre groupe

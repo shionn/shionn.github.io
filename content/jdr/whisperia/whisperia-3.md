@@ -32,7 +32,7 @@ Alignement	Loyal Neutre
 Passif	Second souffle	1 fois par jour, +1D10 pv.
 Passif	Fougue	1 fois par jour, attaquer une seconde fois.
 PV	21/22
-Or	171po
+Or	181po
 [/table]
 
 ## Précédemment...

@@ -30,7 +30,7 @@ Maitrise	+2	???
 Alignement	Loyal Neutre
 Passif	Second souffle	1 fois par jour, +1D10 pv.
 PV	7/13
-Or	166po
+Or	176po
 [/table]
 
 ## Précédemment...
@@ -150,7 +150,7 @@ J'obtiens le passif fougue, une fois par jour je peu attaquer une deuxième fois
 
 Je gagne 9 pv, je passe à 22pv.
 
-Je fini avec 171 po, et 21/22 pv.
+Je fini avec 181 po, et 21/22 pv.
 
 [gallery]
 pictures/jdr/whisperia/023.png

@@ -54,6 +54,13 @@ Ombrage	24-08
 Rehaut	72035
 [/paints]
 
+[paints title="Robe du Gobelin"]
+Base	72016
+Ombrage	72116
+Éclaircissement	72076
+Rehaut	72114
+[/paints]
+
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
 sur la page dédiée à [Mon armée Gloomspite](2025/armee-gloomspite.html).
