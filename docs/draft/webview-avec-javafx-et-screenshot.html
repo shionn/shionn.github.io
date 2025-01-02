@@ -185,19 +185,161 @@
 	<header>
 		
 		<h1><a href="draft/webview-avec-javafx-et-screenshot.html">Webview avec JavaFX et Screenshot</a></h1>
-		<span class="date">31 décembre 2025</span>
+		<span class="date">21 juin 2025</span>
 		<a class="category" href="category/code.html"><span class="fa fa-folder-open"></span> Code</a>
 		<span class="tags">
 			<span class="fa fa-flag"></span>
 			<a href="tag/java.html">Java</a><a href="tag/webview.html">Webview</a><a href="tag/javafx.html">JavaFX</a><a href="tag/screenshost.html">Screenshost</a>
 		</span>
 	</header>
-	<section><p>TODO</p>
-<p>// preciser la verison de javafx avec la version de la JDK</p>
-<p>// comment le faire sans IO avec framebuffer.</p>
+	<section><p>Pour un projet personnel, j'ai eu besoin récemment de faire des captures d'écran d'un site web en java.
+J'ai même envisagé d'installer un serveur avec un outil comme cypress, mais <strong>FLEMME</strong>.</p>
+<h2>Une webview avec Java FX</h2>
+<p>La solution la plus simple que j'ai trouvé est d'utiliser JavaFX.</p>
+<h3>Import</h3>
+<p>Voici l'import Maven que j'ai ajouté à mon projet.</p>
+<pre class="xml"><code class="xml">&lt;dependency&gt;
+    &lt;groupId&gt;org.openjfx&lt;/groupId&gt;
+    &lt;artifactId&gt;javafx-web&lt;/artifactId&gt;
+    &lt;version&gt;21.0.5&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<p>La version de JavaFX à importer dépend de la version de votre JDK :</p>
+<table class=""><thead><tr><th colspan="2"></th></tr><tr><th>Version JDK</th><th> Version JavaFX</th></tr></thead><tbody><tr><td>11</td><td>17</td></tr><tr><td>17</td><td>21</td></tr><tr><td>21</td><td>23</td></tr></tbody></table>
+<h3>Exemple de code</h3>
+<p>Ensuite afficher le site n'est clairement pas le plus dur :</p>
+<pre class="java"><code class="java">public class JavaFxImgCapture extends Application {
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        WebView webView = new WebView();
+
+        webView.getEngine().load(&quot;https://SomeWebSite.com&quot;);
+
+        Scene scene = new Scene(webView, 800, 600);
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+}
+</code></pre>
+<h3>Lancer le programme</h3>
+<p>Le plus simple que j'ai trouvé est de passer par une commande maven grâce à ce plugin :</p>
+<pre class="xml"><code class="xml">&lt;plugin&gt;
+     &lt;groupId&gt;org.openjfx&lt;/groupId&gt;
+     &lt;artifactId&gt;javafx-maven-plugin&lt;/artifactId&gt;
+     &lt;version&gt;0.0.8&lt;/version&gt;
+     &lt;configuration&gt;
+          &lt;mainClass&gt;monpackage.JavaFxImgCapture&lt;/mainClass&gt;
+     &lt;/configuration&gt;
+&lt;/plugin&gt;
+</code></pre>
+<p>Et on peu l'exécuter avec la commande suivante :</p>
+<pre class="shell"><code class="shell">mvn javafx:run
+</code></pre>
+<h2>Faire une Capture d'écran</h2>
+<p>Cela à été beaucoup plus compliquer qu'il n'y parait. Il faut :</p>
+<ul>
+<li>attendre que le site soit chargé</li>
+<li>attendre que les ressources soit chargées (image, javascript par exemple)</li>
+<li>faire la capture</li>
+</ul>
+<p>La difficulté étant qu'il ne faut pas faire un <em>sleep</em> dans un thread JavaFX et qu'on ne peu pas exécuter un commande JavaFX dans un thread qui n'est pas d'origine de JavaFX.</p>
+<p>Donc si je reprend la liste précédente il faut faire comme cela :</p>
+<ul>
+<li>attendre que le site soit chargé : Callback JavaFX.</li>
+<li>attendre que les ressources soit chargées (image javascript) : Faire un pause dans un thread classique.</li>
+<li>faire la captures : Prendre la capture dans un Thread JavaFX.</li>
+</ul>
+<h3>Import</h3>
+<p>On va avoir besoin d'import supplémentaire :</p>
+<pre class="xml"><code class="xml">&lt;dependency&gt;
+    &lt;groupId&gt;org.openjfx&lt;/groupId&gt;
+    &lt;artifactId&gt;javafx-swing&lt;/artifactId&gt;
+    &lt;version&gt;21.0.5&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<h3>Code Java</h3>
+<pre class="java"><code class="java">public class JavaFxImgCapture extends Application implements ChangeListener&lt;Worker.State&gt; {
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+
+    private WebView webView
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        webView = new WebView();
+        webView.getEngine().load(&quot;https://SomeWebSite.com&quot;);
+        
+        // enregistrement du callback :
+        webView.getEngine().getLoadWorker().stateProperty().addListener(this);
+
+        Scene scene = new Scene(webView, 800, 600);
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+
+    @Override
+    public void changed(ObservableValue&lt;? extends State&gt; observable, State oldState, State newState) {
+        if (newState == Worker.State.SUCCEEDED) {
+            waitInStandartThread();
+        }
+    }
+    
+    private void waitInStandartThread() {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    TimeUnit.SECONDS.sleep(SLEEP_TIME);
+                    doCaptureInJavaFxThread();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
+    }
+    
+    private void doCaptureInJavaFxThread() {
+        Platform.runLater(new Runnable() {
+            @Override
+            public void run() {
+                doCapture();
+            }
+        });
+    }
+
+    private void doCapture() {
+        WritableImage snapshot = webView.snapshot(null, null);
+        BufferedImage bufferedImage = SwingFXUtils.fromFXImage(snapshot, null);
+        try {
+            ImageIO.write(bufferedImage, &quot;png&quot;, new File(&quot;SomeOutputFile.png&quot;));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+}
+</code></pre>
+<h2>Sans interface graphique</h2>
+<p>Si comme moi vous avez votre serveur linux qui automatise des choses,
+vous n'avez probablement pas d'interface graphique sur celui-ci et donc vous ne pouvez
+pas lancer un programme en JavaFX.</p>
+<p>La solution que j'ai trouvé est d'utiliser le serveur X FrameBuffer.
+Ce serveur X émule la sortie écran en mémoire, d'où le nom <em>framebuffer</em>.</p>
+<pre class="shell"><code class="shell">sudo apt install xvfb
+</code></pre>
+<p>Et pour lancer un programme dans ce serveur X il suffit de préfixer la commande par xvfb-run. Par exemple :</p>
+<pre class="shell"><code class="shell">xvfb-run mvn javafx:run
+</code></pre>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 31 décembre 2025.</em>
+		<em class="author">par Shionn, le 21 juin 2025.</em>
 	</footer>
 </article>
 		</div>
@@ -537,6 +679,8 @@
 		<script type="text/javascript" src="js/hljs/java.min.js"></script>
 	
 		<script type="text/javascript" src="js/hljs/bash.min.js"></script>
+	
+		<script type="text/javascript" src="js/hljs/xml.min.js"></script>
 	
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.initHighlightingOnLoad();}</script>

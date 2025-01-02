@@ -41,9 +41,11 @@ category/linux	Linux
 		2025/openrgb-sur-debian	OpenRGB sur Débian	2025-04-22
 	tag/matos	Matos	2025-03-23
 		2025/homelab-processor	Processeur pour Homelab	2025-03-23
-category/code	Code	2024-10-27
-	tag/arduino	Arduino	2024-10-27
-		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode	2024-10-27
+category/code	Code
+	tag/arduino	Arduino
+		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode
+	tag/java	Java	2025-06-21
+		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX WebView	2025-06-21
 https://web.archive.org/web/20210420064444/http://shionn.org/	Web Archive
 mailto:shionn@gmail.com	Contact
 	mailto:shionn@gmail.com	shionn@gmail.com
