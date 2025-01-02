@@ -5,7 +5,7 @@ q(function() {
 	const _SMALL = 1;
 	const _MEDIUM = 2;
 	const _BIG = 5;
-	const _GRADES = ["Mousse", "Pirate de pacotille", "Flibustiers", "Cannoniers", "Loups de mers", "Ecumeurs des mers", "Quartier maître", "Pirate émérite", "Terreur des mers", "Quartier maître en chef", "Second du capitaine"];
+	const _GRADES = ["Mousse", "Pirate de pacotille", "Flibustiers", "Cannoniers", "Loups de mers", "Ecumeurs des mers", "Quartier maître", "Pirate émérite", "Terreur des mers", "Quartier maître en chef", "Second du capitaine", "Capitaine", "Amiral"];
 
 	const _PAINT = 1;
 	const _LVL_UP = 2;
@@ -154,6 +154,7 @@ q(function() {
 	let phylios = new _player("Phylios", "pirate07.png");
 	let shionn = new _player("Shionn", "pirate02.png");
 	let whisp = new _player("Whisp", "pirate00.png");
+	whisp.lvl = 12;
 
 	let q1 =
 		new _quest("quest-1", "Collecter des vivres", "Peindre 10 figurine", 10)

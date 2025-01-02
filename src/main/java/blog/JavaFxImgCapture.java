@@ -94,12 +94,6 @@ public abstract class JavaFxImgCapture extends Application implements ChangeList
 		params.setViewport(new Rectangle2D(reteiveDouble(id, "left"), reteiveDouble(id, "top"),
 				reteiveDouble(id, "width"), reteiveDouble(id, "height")));
 		WritableImage snapshot = webView.snapshot(params, null);
-		try {
-			TimeUnit.SECONDS.sleep(SLEEP_TIME);
-			snapshot = webView.snapshot(params, null);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
 		BufferedImage bufferedImage = SwingFXUtils.fromFXImage(snapshot, null);
 		System.out.println("capture done for " + id);
 		try {
