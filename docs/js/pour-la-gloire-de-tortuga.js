@@ -163,7 +163,7 @@ q(function() {
 			.render();
 
 	let q2 =
-		new _quest("quest-2", "Collecter des ressources", "Peindre 10 figurine", 10)
+		new _quest("quest-2", "	Réapprovisionnement en matériaux", "Peindre 15 figurine", 15)
 			.render();
 
 

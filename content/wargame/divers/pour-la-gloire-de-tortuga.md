@@ -77,6 +77,15 @@ Le nombre de point d'expérience dépend de la taille du socle :
 
 ## Historique 
 
+[after date="2025/12/31"]
+### JourXX Réapprovisionnement en matériaux. 
+
+On doit reconstruire Tortuga, pour cela il nous faudra apporter du bois pour commencer à reconstruire la Taverne des Pirates, le Port etc… Il faut donc piller l’ile la plus proche. Nous ne disposons que de quelques chaloupes et les places sont limitées il faudra 15 ressources quelconques pour atteindre cet objectif et avoir les ressources de fabriquer le ponton.
+
+<div id="quest-2"></div>
+
+[/after]
+
 ### Jour 1 découverte de notre nouvelle base. 
 
 C'est le premier jour, vous regardez tristement l'ancien repaire de Tortuga détruit pendant que le bateau délabré s'éloigne de l'île. 
