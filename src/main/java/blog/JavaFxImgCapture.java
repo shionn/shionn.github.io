@@ -24,7 +24,7 @@ import javafx.stage.Stage;
 
 public abstract class JavaFxImgCapture extends Application implements ChangeListener<Worker.State> {
 
-	private static final int SLEEP_TIME = 5;
+	private static final int SLEEP_TIME = 2;
 
 	WebView webView;
 
@@ -44,6 +44,7 @@ public abstract class JavaFxImgCapture extends Application implements ChangeList
 		Scene scene = new Scene(webView, 1500, 2000);
 		primaryStage.setScene(scene);
 		primaryStage.show();
+
 	}
 
 	abstract String getBaseUrl();
@@ -55,36 +56,35 @@ public abstract class JavaFxImgCapture extends Application implements ChangeList
 	@Override
 	public void changed(ObservableValue<? extends State> observable, State oldValue, State newState) {
 		if (newState == Worker.State.SUCCEEDED) {
-//			System.out.println("scroll bottom");
-//			webView.getEngine().executeScript("window.scrollTo(0, document.body.scrollHeight)");
-			Platform.runLater(new Runnable() {
+			sleepAndExecute(new Runnable() {
 				@Override
 				public void run() {
-					try {
-						TimeUnit.SECONDS.sleep(SLEEP_TIME);
-						requestCapture(getElementId(), getImgTargetPath());
-					} catch (InterruptedException e) {
-						e.printStackTrace();
-					}
+					requestCapture(getElementId(), getImgTargetPath());
 				}
-
 			});
 		}
 	}
 
-	private void requestCapture(String id, String path) {
-//		System.out.println("scroll to " + id);
-//		String scrolloption = "{block: \"start\", inline: \"nearest\", behavior: \"instant\"}";
-//		webView.getEngine().executeScript("document.getElementById(\"" + id + "\").scrollIntoView(true)");
-		Platform.runLater(new Runnable() {
+	private void sleepAndExecute(Runnable runnable) {
+		new Thread(new Runnable() {
 			@Override
 			public void run() {
 				try {
 					TimeUnit.SECONDS.sleep(SLEEP_TIME);
-					doCapture(id, path);
+					Platform.runLater(runnable);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
+
+			}
+		}).start();
+	}
+
+	private void requestCapture(String id, String path) {
+		sleepAndExecute(new Runnable() {
+			@Override
+			public void run() {
+				doCapture(id, path);
 			}
 		});
 	}
@@ -94,6 +94,12 @@ public abstract class JavaFxImgCapture extends Application implements ChangeList
 		params.setViewport(new Rectangle2D(reteiveDouble(id, "left"), reteiveDouble(id, "top"),
 				reteiveDouble(id, "width"), reteiveDouble(id, "height")));
 		WritableImage snapshot = webView.snapshot(params, null);
+		try {
+			TimeUnit.SECONDS.sleep(SLEEP_TIME);
+			snapshot = webView.snapshot(params, null);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		BufferedImage bufferedImage = SwingFXUtils.fromFXImage(snapshot, null);
 		System.out.println("capture done for " + id);
 		try {
