@@ -24,7 +24,7 @@ import javafx.stage.Stage;
 
 public abstract class JavaFxImgCapture extends Application implements ChangeListener<Worker.State> {
 
-	private static final int SLEEP_TIME = 2;
+	private static final int SLEEP_TIME = 5;
 
 	WebView webView;
 
