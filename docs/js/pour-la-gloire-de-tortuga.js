@@ -5,7 +5,8 @@ q(function() {
 	const _SMALL = 1;
 	const _MEDIUM = 2;
 	const _BIG = 5;
-	const _GRADES = ["Mousse", "Pirate de pacotille", "Flibustiers", "Cannoniers", "Loups de mers", "Ecumeurs des mers", "Quartier maître", "Pirate émérite", "Terreur des mers", "Quartier maître en chef", "Second du capitaine", "Capitaine", "Amiral"];
+	const _GRADES = ["Mousse", "Pirate de pacotille", "Flibustiers", "Cannoniers", "Loups de mers", "Ecumeurs des mers", "Quartier maître", "Pirate émérite", "Terreur des mers", "Quartier maître en chef", "Second du capitaine"];
+	const _CAPTAIN_GRADES = ["Capitaine Déchu", "Capitaine Maudit", "Capitaine Cendré", "Capitaine Tenebreux", "Capitaine", "Capitaine Supreme"];
 
 	const _PAINT = 1;
 	const _LVL_UP = 2;
@@ -24,12 +25,14 @@ q(function() {
 		this.lvl = 1;
 		this.xp = 0;
 		this.figurines = 0;
+		this.captain = false;
 
 		this.gainXp = function(count, xpFactor) {
 			this.figurines += count;
 			this.xp += count * xpFactor;
-			if (this.xp >= this.lvl * 10) {
-				this.xp -= this.lvl * 10;
+			let target = this.xpTarget()
+			if (this.xp >= target) {
+				this.xp -= target;
 				this.lvl++;
 				return true;
 			}
@@ -37,9 +40,19 @@ q(function() {
 		}
 
 		this.grade = function() {
+			if (this.captain) {
+				return _CAPTAIN_GRADES[this.lvl - 1];
+			}
 			return _GRADES[this.lvl - 1];
 		}
-
+		
+		this.xpTarget = function () {
+			let target = this.lvl * 10;
+			if (this.captain) {
+				target = target * 2;
+			}
+			return target;
+		}
 
 		this.avatarPath = function() {
 			return "pictures/defis/tortuga-2025/" + this.avatar;
@@ -121,30 +134,30 @@ q(function() {
 		let body = q("<tbody>");
 		players.forEach(player => {
 			body.append(q("<tr>")
-					.append(q("<td>").attr("rowspan", 4).append(q("<img>").attr("src", player.avatarPath())))
-					.append(q("<td>").addClass("subtitle").text("Joueur"))
-					.append(q("<td>").text(player.name)));
+				.append(q("<td>").attr("rowspan", 4).append(q("<img>").attr("src", player.avatarPath())))
+				.append(q("<td>").addClass("subtitle").text("Joueur"))
+				.append(q("<td>").text(player.name)));
 			body.append(q("<tr>")
-					.append(q("<td>").addClass("subtitle").text("Niveau"))
-					.append(q("<td>").text(player.grade() + " (" + player.lvl + ")")));
+				.append(q("<td>").addClass("subtitle").text("Niveau"))
+				.append(q("<td>").text(player.grade() + " (" + player.lvl + ")")));
 			body.append(q("<tr>")
-					.append(q("<td>").addClass("subtitle").text("Exp."))
-					.append(q("<td>").append(_progressBar(player.xp, player.lvl * 10))));
+				.append(q("<td>").addClass("subtitle").text("Exp."))
+				.append(q("<td>").append(_progressBar(player.xp, player.xpTarget()))));
 			body.append(q("<tr>")
-					.append(q("<td>").addClass("subtitle").text("Contrib."))
-					.append(q("<td>").text(player.figurines + " figurines")));
+				.append(q("<td>").addClass("subtitle").text("Contrib."))
+				.append(q("<td>").text(player.figurines + " figurines")));
 		});
 
 		q("#participants").append(table.append(body));
 	};
-	
+
 	let _renderQuests = function(quests) {
 		let table = q("<table>").addClass("boxed").addClass("all-quests");
 		table.append(q("<thead>").append(q("<tr>").append(q("<th>").attr("colspan", "3").text("Quetes"))));
 		let body = q("<tbody>");
 		quests.forEach(qu => {
 			let line = q("<tr>");
-			line.append(q("<td>").text(qu.name)).append(q("<td>").text(qu.objectif)).append(q("<td>").append(_progressBar(qu.current,qu.size)));
+			line.append(q("<td>").text(qu.name)).append(q("<td>").text(qu.objectif)).append(q("<td>").append(_progressBar(qu.current, qu.size)));
 			body.append(line);
 		});
 
@@ -154,17 +167,17 @@ q(function() {
 	let phylios = new _player("Phylios", "pirate07.png");
 	let shionn = new _player("Shionn", "pirate02.png");
 	let whisp = new _player("Whisp", "pirate00.png");
-	whisp.lvl = 12;
+	whisp.captain = true;
 
 	let q1 =
 		new _quest("quest-1", "Collecter des vivres", "Peindre 10 figurine", 10)
-//			.progress("05/01/2025", shionn, 3, "Gobelin", _SMALL)
-//			.progress("10/01/2025", whisp, 5, "Orc", _SMALL)
-//			.progress("15/01/2025", shionn, 2, "Troll", _BIG)
+			//			.progress("05/01/2025", shionn, 3, "Gobelin", _SMALL)
+			//			.progress("10/01/2025", whisp, 5, "Orc", _SMALL)
+			//			.progress("15/01/2025", shionn, 2, "Troll", _BIG)
 			.render();
 
 	let q2 =
-		new _quest("quest-2", "	Réapprovisionnement en matériaux", "Peindre 15 figurine", 15)
+		new _quest("quest-2", "Réapprovisionnement en matériaux", "Peindre 15 figurine", 15)
 			.render();
 
 
