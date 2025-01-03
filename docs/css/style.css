@@ -957,16 +957,31 @@ table.all-quests tbody tr td:nth-child(3) {
   min-width: 100px;
 }
 
-table.quest img, table.players img, table.all-quests img {
+table.quest img,
+table.players img,
+table.all-quests img {
   max-width: unset;
 }
-table.quest thead tr, table.players thead tr, table.all-quests thead tr {
+table.quest thead tr,
+table.players thead tr,
+table.all-quests thead tr {
   background-color: #e5ca86;
 }
-table.quest td.xp, table.players td.xp, table.all-quests td.xp {
+table.quest td.xp,
+table.players td.xp,
+table.all-quests td.xp {
   min-width: 150px;
 }
-table.quest span.progress, table.players span.progress, table.all-quests span.progress {
+table.quest td.badge img,
+table.players td.badge img,
+table.all-quests td.badge img {
+  max-height: 16px;
+  margin: 0 2px 0 0;
+  display: unset;
+}
+table.quest span.progress,
+table.players span.progress,
+table.all-quests span.progress {
   display: block;
   width: 100%;
   height: 20px;
@@ -974,13 +989,17 @@ table.quest span.progress, table.players span.progress, table.all-quests span.pr
   border-radius: 10px;
   text-align: center;
 }
-table.quest span.progress span:first-child, table.players span.progress span:first-child, table.all-quests span.progress span:first-child {
+table.quest span.progress span:first-child,
+table.players span.progress span:first-child,
+table.all-quests span.progress span:first-child {
   display: block;
   background-color: #d8ae47;
   height: 16px;
   border-radius: 8px;
 }
-table.quest span.progress span:nth-child(2), table.players span.progress span:nth-child(2), table.all-quests span.progress span:nth-child(2) {
+table.quest span.progress span:nth-child(2),
+table.players span.progress span:nth-child(2),
+table.all-quests span.progress span:nth-child(2) {
   position: relative;
   top: -18px;
 }

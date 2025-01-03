@@ -10,6 +10,20 @@ q(function() {
 	const _PAINT = 1;
 	const _LVL_UP = 2;
 	const _END_QUEST = 3;
+	const _GAIN_BADGE = 4;
+
+	let _badge = function(name, icon, description) {
+		this.name = name;
+		this.icon = icon;
+		this.description = description;
+		this.gained = false;
+
+		this.iconPath = function() {
+			return "pictures/defis/tortuga-2025/icons/" + this.icon;
+		}
+	};
+
+	const _BADGE = [];
 
 	let _progressBar = function(current, target) {
 		let pct = current * 100 / target;
@@ -25,6 +39,11 @@ q(function() {
 		this.xp = 0;
 		this.figurines = 0;
 		this.captain = false;
+		this.badges = [];
+
+		this.progress = function(date, count, desc, xp_factor) {
+			return { up: this.gainXp(count, xp_factor), badge: this.gainBadge(count, xp_factor) };
+		}
 
 		this.gainXp = function(count, xpFactor) {
 			this.figurines += count;
@@ -44,8 +63,8 @@ q(function() {
 			}
 			return _GRADES[this.lvl - 1];
 		}
-		
-		this.xpTarget = function () {
+
+		this.xpTarget = function() {
 			let target = this.lvl * 10;
 			if (this.captain) {
 				target = target * 2;
@@ -56,21 +75,26 @@ q(function() {
 		this.avatarPath = function() {
 			return "pictures/defis/tortuga-2025/" + this.avatar;
 		}
+
+		this.addBadge = function(badge) {
+			this.badges.push(badge);
+		}
 	};
 
-	let _history = function(type, date, player, count, desc, xpFactor) {
+	let _history = function(type, date, player, value, desc, xpFactor) {
 		this.type = type;
 		this.date = date;
 		this.player = player;
-		this.count = count;
+		this.value = value;
 		this.desc = desc;
 		this.xpFactor = xpFactor;
 
 		this.description = function() {
 			switch (type) {
-				case _PAINT: return "peint " + count + " " + desc + " (+" + (count * xpFactor) + " xp)";
+				case _PAINT: return "peint " + value + " " + desc + " (+" + (value * xpFactor) + " xp)";
 				case _LVL_UP: return "passe " + player.grade();
 				case _END_QUEST: return "fini la quete";
+				case _GAIN_BADGE: return "gagne le badge " + _BADGE[value].name;
 			}
 		}
 	};
@@ -117,12 +141,23 @@ q(function() {
 				this.history.push(new _history(_LVL_UP, date, player));
 			};
 			this.current = this.current + count, this.size;
-			if (this.current >= this.size) {
+			if (this.isFinished()) {
 				this.current = this.size;
 				this.history.push(new _history(_END_QUEST, date, player));
 			}
 			return this;
 		};
+
+		this.addBadge = function(date, player, badge) {
+			this.history.push(new _history(_GAIN_BADGE, date, player, badge));
+			player.addBadge(badge);
+			_BADGE[badge].gained = true;
+			return this;
+		};
+
+		this.isFinished = function() {
+			return this.current >= this.size;
+		}
 
 	};
 
@@ -131,15 +166,15 @@ q(function() {
 		table.append(q("<thead>").append(q("<tr>").append(q("<th>").attr("colspan", "6").text("Participants"))));
 
 		let body = q("<tbody>");
-		
+
 		let lines = [];
 		players.forEach((player, index) => {
-			if (index % 2 === 0 ) {
-				lines = [q("<tr>"), q("<tr>"),q("<tr>"),q("<tr>")];
-				body.append(lines[0]).append(lines[1]).append(lines[2]).append(lines[3]);
+			if (index % 2 === 0) {
+				lines = [q("<tr>"), q("<tr>"), q("<tr>"), q("<tr>"), q("<tr>")];
+				body.append(lines[0]).append(lines[1]).append(lines[2]).append(lines[3]).append(lines[4]);
 			}
 			lines[0]
-				.append(q("<td>").attr("rowspan", 4).append(q("<img>").attr("src", player.avatarPath())))
+				.append(q("<td>").attr("rowspan", 5).append(q("<img>").attr("src", player.avatarPath())))
 				.append(q("<td>").addClass("subtitle").text("Joueur"))
 				.append(q("<td>").text(player.name));
 			lines[1]
@@ -151,13 +186,26 @@ q(function() {
 			lines[3]
 				.append(q("<td>").addClass("subtitle").text("Contrib."))
 				.append(q("<td>").text(player.figurines + " figurines"));
-			if (index % 2 === 1 ) {
-				lines = null;
+			let badge = q("<td>").addClass("badge");
+			player.badges.forEach(b => {
+				badge.append(q("<img>").attr("src", _BADGE[b].iconPath()));
+			});
+			lines[4]
+				.append(q("<td>").addClass("subtitle").text("Badges"))
+				.append(badge);
+
+			if (index % 2 === 1) {
+				lines = [];
 			}
 		});
-		if (lines) {
-			lines[0].append(q("<td>").addClass("subtitle").attr("rowspan", 4).attr("colspan", 3));
+		if (lines.length) {
+			lines[0].append(q("<td>").addClass("subtitle").attr("rowspan", 5).attr("colspan", 3));
 		}
+		_BADGE.forEach(b => {
+			if (b.gained) {
+				body.append(q("<tr>").append(q("<td>").attr("colspan", 6).addClass("badge").append(q("<img>").attr("src", b.iconPath())).append(q("<strong>").text(b.name + ": " )).append(q("<span>").text(b.description))));
+			}
+		});
 
 		q("#participants").append(table.append(body));
 	};
@@ -175,6 +223,18 @@ q(function() {
 		q("#all-quests").append(table.append(body));
 	};
 
+	_BADGE.push(
+		new _badge("Coup final", "icon07.png", "Achever une quete"),
+		new _badge("Populeux", "icon23.png", "Envoyer 10 petites figurines d'un coup"),
+		new _badge("Bourrin", "icon03.png", "Envoyer 5 figurines moyenne d'un coup"),
+		new _badge("Massif", "icon06.png", "Envoyer 2 grande figurines d'un coup"),
+		new _badge("Petit/Gros", "icon20.png", "Envoyer une petite figurine et une grande dans la même quête"),
+		new _badge("Petit/Moyen/Gros", "icon31.png", "Envoyer une figurine de chaque taille dans la même quête"),
+		new _badge("Mitraillette", "icon19.png", "Faire 3 contributions à la même quête"),
+		new _badge("Gatling", "icon32.png", "Faire 5 contributions à la même quête")
+	);
+
+	
 	let angest = new _player("Angest", "pirate12.png");
 	let phylios = new _player("Phylios", "pirate07.png");
 	let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
@@ -187,6 +247,7 @@ q(function() {
 			.progress("03/01/2025", angest, 1, "Suppressor", _MEDIUM)
 			.progress("03/01/2025", whisp, 1, "Statue de Ragryl", _MEDIUM)
 			.progress("03/01/2025", angest, 1, "Ork", _SMALL)
+//			.addBadge("05/01/2025", shionn, 0)
 			//			.progress("15/01/2025", shionn, 2, "Troll", _BIG)
 			.render();
 

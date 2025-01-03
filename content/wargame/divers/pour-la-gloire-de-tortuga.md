@@ -110,3 +110,9 @@ Ce sera là votre premier Objectif!!!
 pictures/defis/tortuga-2025/map01.png
 [/gallery]
 
+## Source 
+
+- icones : https://opengameart.org/content/rpg-icons-3
+- joueurs : https://opengameart.org/content/lpc-pirates
+- carte : https://opengameart.org/content/slates-32x32px-orthogonal-tileset-by-ivan-voirol
+- carte : https://opengameart.org/content/rpg-tiles-cobble-stone-paths-town-objects
