@@ -38,6 +38,13 @@ Base	72045
 Éclaircissement	72036
 [/paints]
 
+[paints title="Bois socle"]
+Base	72045
+Éclaircissement	72115
+Éclaircissement	72036
+Lavis	24-08
+[/paints]
+
 [paints title="Rubis"]
 Base	72011
 Éclaircissement	72106
@@ -59,6 +66,13 @@ Base	72016
 Ombrage	72116
 Éclaircissement	72076
 Rehaut	72114
+[/paints]
+
+[paints title="Peau du Gobelin"]
+Base	72123
+Ombrage	72028
+Éclaircissement	72032
+Rehaut	72122
 [/paints]
 
 
