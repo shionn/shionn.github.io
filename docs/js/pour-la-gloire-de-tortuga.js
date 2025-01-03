@@ -173,6 +173,7 @@ q(function() {
 		new _quest("quest-1", "Collecter des vivres", "Peindre 10 figurine", 10)
 			.progress("03/01/2025", angest, 1, "Suppressor", _MEDIUM)
 			.progress("03/01/2025", whisp, 1, "Statue de Ragryl", _SMALL)
+			.progress("03/01/2025", angest, 1, "Ork", _SMALL)
 			//			.progress("15/01/2025", shionn, 2, "Troll", _BIG)
 			.render();
 
