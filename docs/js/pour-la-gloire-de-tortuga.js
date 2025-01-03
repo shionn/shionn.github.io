@@ -128,24 +128,36 @@ q(function() {
 
 	let _renderPlayers = function(players) {
 		let table = q("<table>").addClass("players").addClass("boxed");
-		table.append(q("<thead>").append(q("<tr>").append(q("<th>").attr("colspan", "3").text("Participants"))));
+		table.append(q("<thead>").append(q("<tr>").append(q("<th>").attr("colspan", "6").text("Participants"))));
 
 		let body = q("<tbody>");
-		players.forEach(player => {
-			body.append(q("<tr>")
+		
+		let lines = [];
+		players.forEach((player, index) => {
+			if (index % 2 === 0 ) {
+				lines = [q("<tr>"), q("<tr>"),q("<tr>"),q("<tr>")];
+				body.append(lines[0]).append(lines[1]).append(lines[2]).append(lines[3]);
+			}
+			lines[0]
 				.append(q("<td>").attr("rowspan", 4).append(q("<img>").attr("src", player.avatarPath())))
 				.append(q("<td>").addClass("subtitle").text("Joueur"))
-				.append(q("<td>").text(player.name)));
-			body.append(q("<tr>")
+				.append(q("<td>").text(player.name));
+			lines[1]
 				.append(q("<td>").addClass("subtitle").text("Niveau"))
-				.append(q("<td>").text(player.grade() + " (" + player.lvl + ")")));
-			body.append(q("<tr>")
+				.append(q("<td>").text(player.grade() + " (" + player.lvl + ")"));
+			lines[2]
 				.append(q("<td>").addClass("subtitle").text("Exp."))
-				.append(q("<td>").append(_progressBar(player.xp, player.xpTarget()))));
-			body.append(q("<tr>")
+				.append(q("<td>").addClass("xp").append(_progressBar(player.xp, player.xpTarget())));
+			lines[3]
 				.append(q("<td>").addClass("subtitle").text("Contrib."))
-				.append(q("<td>").text(player.figurines + " figurines")));
+				.append(q("<td>").text(player.figurines + " figurines"));
+			if (index % 2 === 1 ) {
+				lines = null;
+			}
 		});
+		if (lines) {
+			lines[0].append(q("<td>").addClass("subtitle").attr("rowspan", 4).attr("colspan", 3));
+		}
 
 		q("#participants").append(table.append(body));
 	};

@@ -963,6 +963,9 @@ table.quest img, table.players img, table.all-quests img {
 table.quest thead tr, table.players thead tr, table.all-quests thead tr {
   background-color: #e5ca86;
 }
+table.quest td.xp, table.players td.xp, table.all-quests td.xp {
+  min-width: 150px;
+}
 table.quest span.progress, table.players span.progress, table.all-quests span.progress {
   display: block;
   width: 100%;

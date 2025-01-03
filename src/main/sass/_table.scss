@@ -107,6 +107,10 @@ table.quest, table.players, table.all-quests {
 		background-color: lighten($theme-color, 15%);
 	}
 
+	td.xp {
+		min-width: 150px;
+	}
+	
 	span.progress {
 		display: block;
 		width: 100%;
