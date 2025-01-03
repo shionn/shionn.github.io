@@ -66,6 +66,7 @@ Le nombre de point d'expérience dépend de la taille du socle :
 - un petit socle, inférieur strictement à 40mm : compte pour 1 point d'expérience. 
 - un socle moyen, entre 40mm et 60mm, compte pour 2 points d'expérience.
 - un grand socle, supérieur strictement à 60mm, compte pour 5 points d'expérience.
+- dans le cas d'un socle rectangulaire ou ovale, c'est la plus grande des dimensions qui compte.
 
 ### Participant
 
