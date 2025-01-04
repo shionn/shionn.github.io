@@ -78,7 +78,7 @@ Le nombre de point d'expérience dépend de la taille du socle :
 
 ## Historique 
 
-### Jour5 Construction des Pontons
+### Jour 5 Construction des Pontons
 
 On reconstruit le quai numero 1 pour amarrer les barques.
 
@@ -88,7 +88,7 @@ On reconstruit le quai numero 1 pour amarrer les barques.
 pictures/defis/tortuga-2025/map03.png
 [/gallery]
 
-### Jour4 Excursion en foret pour collecter du Bois
+### Jour 4 Excursion en foret pour collecter du Bois
 
 On doit reconstruire Tortuga, pour cela il nous faudra apporter du bois pour commencer à reconstruire la Taverne des Pirates, le Port etc… il faut donc piller l’ile la plus proche. Nous ne disposons que de quelques chaloupes et les places sont limitées il faudra 30 ressources quelconques pour atteindre cet objectif et avoir les ressources de fabriquer le ponton.
 
