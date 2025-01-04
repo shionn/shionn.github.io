@@ -1,15 +1,21 @@
 
-En 2025 j'ai eu envie de peindre des gobs. Et avec les gob y a des trolls. 
-Voici mes trolls de pierre. Ils provienne de la boite Dawnbringers qui contien également le Roi des Troll Trugg's. 
+## Troggoths
 
-L'idée que j'ai c'est de pouvoir jouer full troll en petit format. 
+J'ai volontairement pas mal de troll, l'idée que j'ai est de pouvoir jouer full troll en petit format. 
+C'est clairement rendu possible grâce à Trugg.
+
+### Rockgut Troggoths
+
+Voici mes trolls de pierre. Ils proviennent de la boite Dawnbringers qui contient également le Roi des trolls Trugg's. 
 
 * Peinte en Janvier 2025
 * En environ 35 heures
 * Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
-[gallery w=150 h=250]
+[gallery w=400 h=200]
 pictures/gloomspite/rockgut-troggoths/01.jpg
+[/gallery]
+[gallery w=170 h=200]
 pictures/gloomspite/rockgut-troggoths/02.jpg
 pictures/gloomspite/rockgut-troggoths/03.jpg
 pictures/gloomspite/rockgut-troggoths/04.jpg
@@ -29,6 +35,8 @@ pictures/gloomspite/rockgut-troggoths/17.jpg
 pictures/gloomspite/rockgut-troggoths/18.jpg
 pictures/gloomspite/rockgut-troggoths/19.jpg
 pictures/gloomspite/rockgut-troggoths/20.jpg
+[/gallery]
+[gallery w=200 h=200]
 pictures/gloomspite/rockgut-troggoths/21.jpg
 pictures/gloomspite/rockgut-troggoths/22.jpg
 pictures/gloomspite/rockgut-troggoths/23.jpg
@@ -36,12 +44,11 @@ pictures/gloomspite/rockgut-troggoths/24.jpg
 pictures/gloomspite/rockgut-troggoths/25.jpg
 pictures/gloomspite/rockgut-troggoths/26.jpg
 pictures/gloomspite/rockgut-troggoths/27.jpg
-pictures/gloomspite/rockgut-troggoths/28.jpg
-pictures/gloomspite/rockgut-troggoths/29.jpg
-pictures/gloomspite/rockgut-troggoths/30.jpg
 [/gallery]
 
-[paints title="Peau"]
+## Recette Peinture
+
+[paints title="Peau Troll"]
 Base	72120
 Éclaircissement	72048
 Éclaircissement	72102
@@ -77,7 +84,7 @@ Base	72045
 Lavis	24-08
 [/paints]
 
-[paints title="Rubis"]
+[paints title="Grenat"]
 Base	72011
 Éclaircissement	72106
 Ombrage	72112
@@ -86,7 +93,7 @@ Rehaut	72110
 Rehaut	72001
 [/paints]
 
-[paints title="Toge"]
+[paints title="Toge des Troll"]
 Base	72145
 Ombrage	24-08
 Éclaircissement	72031
@@ -108,6 +115,12 @@ Rehaut	72122
 [/paints]
 
 
-Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
-sur la page dédiée à [Mon armée Gloomspite](2025/armee-gloomspite.html).
+[after date="31/12/2025"]
+## idee socle : 
 
+- champigno
+- marai /  foret
+- sol sous -terrain
+- eau stagnante
+- crystaux
+[/after]

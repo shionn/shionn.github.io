@@ -8,7 +8,9 @@ Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes 
 - [Nains (Citée de Simar)](2024/armee-naine-cos.html)
 - [Nighthaunt](2023/armee-nighthaunt.html)
 - [Skaven](2023/armee-skaven.html)
-- _à venir Vil du Fiel Obscure_
+[after date="2025/02/11"]
+- [Gloomspite Gitz](2025/armee-gloomspite-gitz/html)
+[/after]
 
 ## Warhammer Battle
 

@@ -5,6 +5,7 @@ category/wargame	War Game
 		2024/armee-naine-cos	Nains (CoS)
 		2023/armee-nighthaunt	Nighthaunt
 		2023/armee-skaven	Skavens
+		2025/armee-gloomspite-gitz	Gloomspite Gitz	2025-02-11
 	2024/mes-armees	Warhammer Battle
 		2024/armee-elfes-noirs	Elfes Noirs
 	2024/mes-armees	Underworld
