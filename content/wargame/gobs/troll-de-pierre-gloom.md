@@ -5,8 +5,40 @@ Voici mes trolls de pierre. Ils provienne de la boite Dawnbringers qui contien �
 L'idée que j'ai c'est de pouvoir jouer full troll en petit format. 
 
 * Peinte en Janvier 2025
+* En environ 35 heures
+* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=150 h=250]
+pictures/gloomspite/rockgut-troggoths/01.jpg
+pictures/gloomspite/rockgut-troggoths/02.jpg
+pictures/gloomspite/rockgut-troggoths/03.jpg
+pictures/gloomspite/rockgut-troggoths/04.jpg
+pictures/gloomspite/rockgut-troggoths/05.jpg
+pictures/gloomspite/rockgut-troggoths/06.jpg
+pictures/gloomspite/rockgut-troggoths/07.jpg
+pictures/gloomspite/rockgut-troggoths/08.jpg
+pictures/gloomspite/rockgut-troggoths/09.jpg
+pictures/gloomspite/rockgut-troggoths/10.jpg
+pictures/gloomspite/rockgut-troggoths/11.jpg
+pictures/gloomspite/rockgut-troggoths/12.jpg
+pictures/gloomspite/rockgut-troggoths/13.jpg
+pictures/gloomspite/rockgut-troggoths/14.jpg
+pictures/gloomspite/rockgut-troggoths/15.jpg
+pictures/gloomspite/rockgut-troggoths/16.jpg
+pictures/gloomspite/rockgut-troggoths/17.jpg
+pictures/gloomspite/rockgut-troggoths/18.jpg
+pictures/gloomspite/rockgut-troggoths/19.jpg
+pictures/gloomspite/rockgut-troggoths/20.jpg
+pictures/gloomspite/rockgut-troggoths/21.jpg
+pictures/gloomspite/rockgut-troggoths/22.jpg
+pictures/gloomspite/rockgut-troggoths/23.jpg
+pictures/gloomspite/rockgut-troggoths/24.jpg
+pictures/gloomspite/rockgut-troggoths/25.jpg
+pictures/gloomspite/rockgut-troggoths/26.jpg
+pictures/gloomspite/rockgut-troggoths/27.jpg
+pictures/gloomspite/rockgut-troggoths/28.jpg
+pictures/gloomspite/rockgut-troggoths/29.jpg
+pictures/gloomspite/rockgut-troggoths/30.jpg
 [/gallery]
 
 [paints title="Peau"]
