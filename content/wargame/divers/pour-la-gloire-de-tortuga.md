@@ -77,18 +77,16 @@ Le nombre de point d'expérience dépend de la taille du socle :
 <div id="all-quests"></div>
 
 ## Historique 
-[after date="2025/01/10"]
+
 ### Jour5 Construction des Pontons
 
-On reconstruit le quai numero 1 pour amarrer les barques
+On reconstruit le quai numero 1 pour amarrer les barques.
 
 <div id="quest-3"></div>
 
 [gallery]
 pictures/defis/tortuga-2025/map03.png
 [/gallery]
-
-[/after]
 
 ### Jour4 Excursion en foret pour collecter du Bois
 
