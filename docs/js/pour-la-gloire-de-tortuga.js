@@ -225,18 +225,21 @@ q(function() {
 
 	_BADGE.push(
 		new _badge("Coup final", "icon07.png", "Achever une quête"), // flag
-		new _badge("Populeux", "icon23.png", "Envoyer 10 petites figurines d'un coup"), // ra-double-team
+		new _badge("Populeux", "icon22.png", "Envoyer 10 petites figurines d'un coup"), // ra-double-team
 		new _badge("Bourrin", "icon03.png", "Envoyer 5 figurines moyenne d'un coup"), // ra-muscle-up
 		new _badge("Massif", "icon06.png", "Envoyer 2 grande figurines d'un coup"), // ra-muscle-fat
 		new _badge("Petit/Gros", "icon20.png", "Envoyer une petite figurine et une grande dans la même quête"),
 		new _badge("Petit/Moyen/Gros", "icon31.png", "Envoyer une figurine de chaque taille dans la même quête"),
 		new _badge("Mitraillette", "icon19.png", "Faire 3 contributions à la même quête"), // ra-arrow-cluster 
-		new _badge("Gatling", "icon32.png", "Faire 5 contributions à la même quête") // ra-cannon-shot 
+		new _badge("Gatling", "icon32.png", "Faire 5 contributions à la même quête"), // ra-cannon-shot 
+		new _badge("One shot", "icon01.png", "Accomplir une quête d'un seul coup"),
+		new _badge("Vague", "icon23.png", "Envoyer 20 figurine lors de la même quête")
 	);
 
 	
 	let angest = new _player("Angest", "pirate12.png");
 	let anuabi = new _player("Anuabi", "pirate12.png");
+	let hyasull = new _player("Hyasull", "pirate13.png");
 	let phylios = new _player("Phylios", "pirate07.png");
 	let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
 	let shionn = new _player("Shionn", "pirate02.png");
@@ -244,8 +247,7 @@ q(function() {
 	let whisp = new _player("Whisp", "pirate00.png");
 	whisp.captain = true;
 
-	let q1 =
-		new _quest("quest-1", "Collecter des vivres", "Peindre 10 figurine", 10)
+	let q1 = new _quest("quest-1", "Collecter des vivres", "Peindre 10 figurines", 10)
 			.progress("03/01/2025", angest, 1, "Suppressor", _MEDIUM)
 			.progress("03/01/2025", whisp, 1, "Statue de Ragryl", _MEDIUM)
 			.progress("03/01/2025", angest, 1, "Ork", _SMALL)
@@ -256,13 +258,19 @@ q(function() {
 			.addBadge("04/01/2025", angest, 0)
 			.render();
 
-	let q2 =
-		new _quest("quest-2", "Réapprovisionnement en matériaux", "Peindre 15 figurine", 15)
+	let q2 = new _quest("quest-2", "	Réapprovisionnement en matériaux", "Peindre 30 figurines", 30)
 //			.progress("04/01/2025", tony, 52, "Zombi", _SMALL)
+			.render();
+			
+	let q3 = new _quest("quest-3", "Construction des quai du port", "Peindre 30 figurines", 30)
 			.render();
 
 
-	_renderPlayers([angest, anuabi, phylios, rahanis, shionn, tony, whisp]);
-	_renderQuests([q1]);
+			
+		//			.progress("04/01/2025", anuabi, 1, "Gaunt", _SMALL)
+
+		
+	_renderPlayers([angest, anuabi, hyasull, phylios, rahanis, shionn, tony, whisp]);
+	_renderQuests([q1, q2]);
 
 });
