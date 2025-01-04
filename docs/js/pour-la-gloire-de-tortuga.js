@@ -57,7 +57,7 @@ q(function() {
 			return false;
 		}
 
-		this.grade = function() {
+		this.grade = function(lvl) {
 			if (this.captain) {
 				return _CAPTAIN_GRADES[this.lvl - 1];
 			}
@@ -92,7 +92,7 @@ q(function() {
 		this.description = function() {
 			switch (type) {
 				case _PAINT: return "peint " + value + " " + desc + " (+" + (value * xpFactor) + " xp)";
-				case _LVL_UP: return "passe " + player.grade();
+				case _LVL_UP: return "passe " + desc;
 				case _END_QUEST: return "fini la quete";
 				case _GAIN_BADGE: return "gagne le badge " + _BADGE[value].name;
 			}
@@ -138,7 +138,10 @@ q(function() {
 		this.progress = function(date, player, count, desc, xp_factor) {
 			this.history.push(new _history(_PAINT, date, player, count, desc, xp_factor));
 			if (player.gainXp(count, xp_factor)) {
-				this.history.push(new _history(_LVL_UP, date, player));
+				this.history.push(new _history(_LVL_UP, date, player, player.lvl, player.grade()));
+				while(player.gainXp(0,0)) {
+					this.history.push(new _history(_LVL_UP, date, player, player.lvl, player.grade()));
+				}
 			};
 			this.current = this.current + count, this.size;
 			if (this.isFinished()) {
@@ -259,10 +262,15 @@ q(function() {
 			.render();
 
 	let q2 = new _quest("quest-2", "	Réapprovisionnement en matériaux", "Peindre 30 figurines", 30)
-//			.progress("04/01/2025", tony, 52, "Zombi", _SMALL)
+			.progress("04/01/2025", tony, 30, "Zombi", _SMALL)
+			.addBadge("04/01/2025", tony, 1)
+			.addBadge("04/01/2025", tony, 8)
+			.addBadge("04/01/2025", tony, 9)
+			.addBadge("04/01/2025", tony, 0)
 			.render();
 			
 	let q3 = new _quest("quest-3", "Construction des quai du port", "Peindre 30 figurines", 30)
+			.progress("04/01/2025", tony, 22, "Zombi", _SMALL)
 			.render();
 
 
