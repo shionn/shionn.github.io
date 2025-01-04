@@ -224,7 +224,7 @@ q(function() {
 	};
 
 	_BADGE.push(
-		new _badge("Coup final", "icon07.png", "Achever une quete"), // flag
+		new _badge("Coup final", "icon07.png", "Achever une quête"), // flag
 		new _badge("Populeux", "icon23.png", "Envoyer 10 petites figurines d'un coup"), // ra-double-team
 		new _badge("Bourrin", "icon03.png", "Envoyer 5 figurines moyenne d'un coup"), // ra-muscle-up
 		new _badge("Massif", "icon06.png", "Envoyer 2 grande figurines d'un coup"), // ra-muscle-fat
