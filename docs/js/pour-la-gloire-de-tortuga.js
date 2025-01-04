@@ -236,6 +236,7 @@ q(function() {
 
 	
 	let angest = new _player("Angest", "pirate12.png");
+	let anuabi = new _player("Anuabi", "pirate12.png");
 	let phylios = new _player("Phylios", "pirate07.png");
 	let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
 	let shionn = new _player("Shionn", "pirate02.png");
@@ -261,7 +262,7 @@ q(function() {
 			.render();
 
 
-	_renderPlayers([angest, phylios, rahanis, shionn, tony, whisp]);
+	_renderPlayers([angest, anuabi, phylios, rahanis, shionn, tony, whisp]);
 	_renderQuests([q1]);
 
 });
