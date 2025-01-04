@@ -5,19 +5,19 @@ category/wargame	War Game
 		2024/armee-naine-cos	Nains (CoS)
 		2023/armee-nighthaunt	Nighthaunt
 		2023/armee-skaven	Skavens
-		2025/armee-gloomspite-gitz	Gloomspite Gitz	2025-02-11
+		2025/armee-gloomspite-gitz	Gloomspite Gitz	2025-02-21
 	2024/mes-armees	Warhammer Battle
 		2024/armee-elfes-noirs	Elfes Noirs
 	2024/mes-armees	Underworld
 		2024/underworld-dok	Fille de Khaine
 		2024/underworld-soulblight	Seigneurs Ruinemânes
-	2024/mes-armees	Warcry	2025-03-03
-		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-03-03
+	2024/mes-armees	Warcry	2025-03-13
+		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-03-13
 	tag/dungeon-and-laser	Dungeon and Laser
 		2024/dungeon-and-laser-encounters	Encounters
-	tag/d-cor	Décor	2025-04-12
-		2025/decor-skaventide	Décor Skaventide	2025-04-12
-		2025/decor-mortal-realms	Décor Mortal Realms	2025-05-22
+	tag/d-cor	Décor	2025-04-22
+		2025/decor-skaventide	Décor Skaventide	2025-04-22
+		2025/decor-mortal-realms	Décor Mortal Realms	2025-06-01
 	tag/peinture	Guide
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Tableau d'équivalence de peinture
@@ -25,8 +25,8 @@ category/wargame	War Game
 	tag/d-fi	Défi Peinture	2025-01-02
 		2025/annee-2024-defi-peinture	2024 une année de défi	2025-01-12
 		2025/pour-la-gloire-de-tortuga	Pour la Gloire de Tortuga	2025-01-02
-	tag/repaint	Repaint	2025-06-11
-		2025/repaint-bulma	Repaint d'une Bulma	2025-06-11
+	tag/repaint	Repaint	2025-02-01
+		2025/repaint-bulma	Repaint d'une Bulma	2025-02-01
 category/jdr	JdR
 	tag/whisperia	A tale of Whisperia
 		2024/whisperia-1-evasion-d-une-gaule	1: Évasion d'une gaule
@@ -35,13 +35,13 @@ category/linux	Linux
 	tag/server	Server
 		2024/docker-sur-debian	Installation Docker sur Debian
 		2024/nginx-proxy-manager	Installation Nginx proxy manager
-		2025/jellyfin-proxmox-hardware-encode	Jellyfin avec accélération matériel sur Proxmox	2025-02-21
+		2025/jellyfin-proxmox-hardware-encode	Jellyfin avec accélération matériel sur Proxmox	2025-03-23
 	tag/desktop	Desktop
 		2023/survivre-sur-debian	Kit de Survie sur Debian
-		2024/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille	2025-02-01
-		2025/openrgb-sur-debian	OpenRGB sur Débian	2025-04-22
-	tag/matos	Matos	2025-03-23
-		2025/homelab-processor	Processeur pour Homelab	2025-03-23
+		2024/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille	2025-02-11
+		2025/openrgb-sur-debian	OpenRGB sur Débian	2025-05-12
+	tag/matos	Matos	2025-04-12
+		2025/homelab-processor	Processeur pour Homelab	2025-04-12
 category/code	Code
 	tag/arduino	Arduino
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode
