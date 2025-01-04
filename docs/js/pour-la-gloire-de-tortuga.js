@@ -224,14 +224,14 @@ q(function() {
 	};
 
 	_BADGE.push(
-		new _badge("Coup final", "icon07.png", "Achever une quete"),
-		new _badge("Populeux", "icon23.png", "Envoyer 10 petites figurines d'un coup"),
-		new _badge("Bourrin", "icon03.png", "Envoyer 5 figurines moyenne d'un coup"),
-		new _badge("Massif", "icon06.png", "Envoyer 2 grande figurines d'un coup"),
+		new _badge("Coup final", "icon07.png", "Achever une quete"), // flag
+		new _badge("Populeux", "icon23.png", "Envoyer 10 petites figurines d'un coup"), // ra-double-team
+		new _badge("Bourrin", "icon03.png", "Envoyer 5 figurines moyenne d'un coup"), // ra-muscle-up
+		new _badge("Massif", "icon06.png", "Envoyer 2 grande figurines d'un coup"), // ra-muscle-fat
 		new _badge("Petit/Gros", "icon20.png", "Envoyer une petite figurine et une grande dans la même quête"),
 		new _badge("Petit/Moyen/Gros", "icon31.png", "Envoyer une figurine de chaque taille dans la même quête"),
-		new _badge("Mitraillette", "icon19.png", "Faire 3 contributions à la même quête"),
-		new _badge("Gatling", "icon32.png", "Faire 5 contributions à la même quête")
+		new _badge("Mitraillette", "icon19.png", "Faire 3 contributions à la même quête"), // ra-arrow-cluster 
+		new _badge("Gatling", "icon32.png", "Faire 5 contributions à la même quête") // ra-cannon-shot 
 	);
 
 	
@@ -247,7 +247,8 @@ q(function() {
 			.progress("03/01/2025", angest, 1, "Suppressor", _MEDIUM)
 			.progress("03/01/2025", whisp, 1, "Statue de Ragryl", _MEDIUM)
 			.progress("03/01/2025", angest, 1, "Ork", _SMALL)
-//			.addBadge("05/01/2025", shionn, 0)
+			.progress("04/01/2025", shionn, 6, "Trolls", _MEDIUM)
+//			.addBadge("04/01/2025", shionn, 2)
 			//			.progress("15/01/2025", shionn, 2, "Troll", _BIG)
 			.render();
 
