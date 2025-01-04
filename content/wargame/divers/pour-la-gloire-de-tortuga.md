@@ -68,6 +68,19 @@ Le nombre de point d'expérience dépend de la taille du socle :
 - un grand socle, supérieur strictement à 60mm, compte pour 5 points d'expérience.
 - dans le cas d'un socle rectangulaire ou ovale, c'est la plus grande des dimensions qui compte.
 
+### Badge
+
+En plus des niveau vous avez la possibilité de débloquer des badges, ceux-ci fonctionne comme des les achievements d'un jeu vidéo. cependant les objectif ne sont pas connu à l'avance et 
+seront révélé au fur et à mesure que les joueurs les accomplis. 
+
+Voici les badges actuellement connu : 
+
+- __Coup final:__ Achever une quête
+- __Populeux:__ Envoyer 10 petites figurines d'un coup
+- __Mitraillette:__ Faire 3 contributions à la même quête
+- __One shot:__ Accomplir une quête d'un seul coup
+- __Vague:__ Envoyer 20 figurine lors de la même quête
+
 ### Participant
 
 <div id="participants"></div>
