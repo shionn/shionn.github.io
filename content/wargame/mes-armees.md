@@ -13,13 +13,14 @@ Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes 
 ## Warhammer Battle
 
 - [Elfes Noirs](2024/armee-elfes-noirs.html)
+- _à venir Goblin de la Nuit_
 
 ## Underworld
 
 - [Filles de Khaine](2024/underworld-dok.html) _3 bandes_
 - [Seigneurs Ruinemânes](2024/underworld-soulblight.html) _2 bandes_
 
-[after date="2025/02/11"]
+[after date="2025/03/03"]
 ## Warcry
 
 - [Filles de Khaine](2025/warcry-dok.html) _Rodeur de l'ombre Khainites_
