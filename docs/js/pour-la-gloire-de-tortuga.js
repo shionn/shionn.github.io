@@ -250,7 +250,7 @@ q(function() {
 			.progress("03/01/2025", angest, 1, "Ork", _SMALL)
 			.progress("04/01/2025", shionn, 6, "Trolls", _MEDIUM)
 //			.addBadge("04/01/2025", shionn, 2)
-			.progress("04/01/2025", angest, 1, "Buste", _MEDIUM)
+			.progress("04/01/2025", angest, 1, "Buste Eliot", _MEDIUM)
 			.addBadge("04/01/2025", angest, 6)
 			.addBadge("04/01/2025", angest, 0)
 			.render();
