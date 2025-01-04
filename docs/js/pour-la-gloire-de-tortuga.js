@@ -269,16 +269,12 @@ q(function() {
 			.addBadge("04/01/2025", tony, 0)
 			.render();
 			
-	let q3 = new _quest("quest-3", "Construction des quai du port", "Peindre 30 figurines", 30)
+	let q3 = new _quest("quest-3", "Construction des quais du port", "Peindre 30 figurines", 30)
 			.progress("04/01/2025", tony, 22, "Zombi", _SMALL)
 			.progress("04/01/2025", anuabi, 1, "Tyranide", _SMALL)
 			.render();
 
 
-			
-		//			.progress("04/01/2025", anuabi, 1, "Gaunt", _SMALL)
-
-		
 	_renderPlayers([angest, anuabi, hyasull, phylios, rahanis, shionn, tony, whisp]);
 	_renderQuests([q1, q2, q3]);
 
