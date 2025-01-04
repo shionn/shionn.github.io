@@ -239,6 +239,7 @@ q(function() {
 	let phylios = new _player("Phylios", "pirate07.png");
 	let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
 	let shionn = new _player("Shionn", "pirate02.png");
+	let tony = new _player("Tony", "pirate14.png");
 	let whisp = new _player("Whisp", "pirate00.png");
 	whisp.captain = true;
 
@@ -249,15 +250,18 @@ q(function() {
 			.progress("03/01/2025", angest, 1, "Ork", _SMALL)
 			.progress("04/01/2025", shionn, 6, "Trolls", _MEDIUM)
 //			.addBadge("04/01/2025", shionn, 2)
-			//			.progress("15/01/2025", shionn, 2, "Troll", _BIG)
+			.progress("04/01/2025", angest, 1, "Buste", _MEDIUM)
+			.addBadge("04/01/2025", angest, 6)
+			.addBadge("04/01/2025", angest, 0)
 			.render();
 
 	let q2 =
 		new _quest("quest-2", "Réapprovisionnement en matériaux", "Peindre 15 figurine", 15)
+//			.progress("04/01/2025", tony, 52, "Zombi", _SMALL)
 			.render();
 
 
-	_renderPlayers([angest, phylios, rahanis, shionn, whisp]);
+	_renderPlayers([angest, phylios, rahanis, shionn, tony, whisp]);
 	_renderQuests([q1]);
 
 });
