@@ -272,6 +272,8 @@ q(function() {
 	let q3 = new _quest("quest-3", "Construction des quais du port", "Peindre 30 figurines", 30)
 			.progress("04/01/2025", tony, 22, "Zombi", _SMALL)
 			.progress("04/01/2025", anuabi, 1, "Tyranide", _SMALL)
+			.progress("05/01/2025", angest, 1, "Ork", _SMALL)
+			.progress("05/01/2025", angest, 1, "Gretchin", _SMALL)
 			.render();
 
 
