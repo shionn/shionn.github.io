@@ -1,10 +1,11 @@
 {
 	"type": "post",
 	"date": "2025/01/02",
+	"updated": "2025/01/05",
 	"title": "Pour la gloire de Tortuga",
 	"tags": ["War Game", "Défi"],
 	"category": "War Game",
 	"published": true,
 	"js" : [ "js/pour-la-gloire-de-tortuga.js" ],
-	"author": "Shionn"
+	"author": "Shionn & Whisp"
 }
