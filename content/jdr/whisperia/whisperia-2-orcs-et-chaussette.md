@@ -14,23 +14,23 @@ En effet les impôts sur les alcools sont réduits quand on est membre de la gui
 
 ### Statistique
 
-[table title="Statistique" cols="Stat,Valeur,Modificateur,Utilisation"]
+[table title="Statistique" cols="Stat,Valeur,Modificateur,Utilisation" class="pyjama"]
 Force	14	+2	Taper, Soulever, Casser
 Dex	9	-1	Lancer
 Consti	16	+3	Encaisser, Résister
-Intel	3	-4	
+Intel	3	-4	 
 Sagesse	13	+1	Fouille, Observer
 Cha	9	-1	Négocier
 [/table]
 
-[table title="Autre" cols="Cat,Valeur,Description"]
+[table title="Autre" cols="Cat,Valeur,Description" class="pyjama"]
 Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
 Armure	Broigne(+14)	CA : 14
 Maitrise	+2	???
-Alignement	Loyal Neutre
+Alignement	Loyal Neutre	 
 Passif	Second souffle	1 fois par jour, +1D10 pv.
-PV	7/13
-Or	176po
+PV	7/13	 
+Or	176po	 
 [/table]
 
 ## Précédemment...

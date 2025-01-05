@@ -890,6 +890,9 @@ table thead,
 table tbody {
   border: 1px solid #d8ae47;
 }
+table thead tr {
+  background-color: #e5ca86;
+}
 table td,
 table th {
   padding: 1px 3px;
@@ -911,6 +914,12 @@ table.boxed td, table.boxed th {
   border: 1px solid #d8ae47;
 }
 
+.paint-db tbody tr:nth-child(2n),
+.paint-guide tbody tr:nth-child(2n),
+.pyjama tbody tr:nth-child(2n) {
+  background-color: #f3e6c5;
+}
+
 .paint-db,
 .paint-guide {
   min-width: 780px;
@@ -922,10 +931,6 @@ table.boxed td, table.boxed th {
 .paint-db tr td:nth-child(2n),
 .paint-guide tr td:nth-child(2n) {
   border-right: 1px solid #d8ae47;
-}
-.paint-db tbody tr:nth-child(2n),
-.paint-guide tbody tr:nth-child(2n) {
-  background-color: #f3e6c5;
 }
 .paint-db td.color,
 .paint-guide td.color {
@@ -961,11 +966,6 @@ table.quest img,
 table.players img,
 table.all-quests img {
   max-width: unset;
-}
-table.quest thead tr,
-table.players thead tr,
-table.all-quests thead tr {
-  background-color: #e5ca86;
 }
 table.quest td.xp,
 table.players td.xp,
