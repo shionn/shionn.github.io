@@ -274,6 +274,7 @@ q(function() {
 			.progress("04/01/2025", anuabi, 1, "Tyranide", _SMALL)
 			.progress("05/01/2025", angest, 1, "Ork", _SMALL)
 			.progress("05/01/2025", angest, 1, "Gretchin", _SMALL)
+			.progress("06/01/2025", angest, 1, "Ork", _SMALL)
 			.render();
 
 
