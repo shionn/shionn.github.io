@@ -241,8 +241,8 @@ q(function() {
 
 	
 	let angest = new _player("Angest", "pirate12.png");
-	let anuabi = new _player("Anuabi", "pirate16.png");
-	let faran = new _player("Faran", "pirate12.png");
+	let anuabi = new _player("Anuabi", "pirate12.png");
+	let faran = new _player("Faran", "pirate16.png");
 	let hyasull = new _player("Hyasull", "pirate13.png");
 	let phylios = new _player("Phylios", "pirate07.png");
 	let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
