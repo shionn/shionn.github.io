@@ -277,6 +277,8 @@ q(function() {
 			.progress("05/01/2025", angest, 1, "Gretchin", _SMALL)
 			.progress("06/01/2025", angest, 1, "Ork", _SMALL)
 			.progress("06/01/2025", angest, 1, "Gretchin", _SMALL)
+			.progress("07/01/2025", angest, 1, "Ork", _SMALL)
+			.addBadge("07/01/2025", angest, 7)
 			.render();
 
 
