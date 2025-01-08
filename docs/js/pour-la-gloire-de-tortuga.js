@@ -247,6 +247,7 @@ q(function() {
 	let phylios = new _player("Phylios", "pirate07.png");
 	let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
 	let shionn = new _player("Shionn", "pirate02.png");
+	let tupad = new _player("Tupad_", "pirate07.png");
 	let tony = new _player("Tony", "pirate14.png");
 	let whisp = new _player("Whisp", "pirate00.png");
 	whisp.captain = true;
@@ -283,7 +284,7 @@ q(function() {
 			.render();
 
 
-	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, whisp]);
+	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
 	_renderQuests([q1, q2, q3]);
 
 });
