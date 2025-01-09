@@ -92,6 +92,17 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 10 Excursion en foret pour collecter du Bois 
+
+On doit reconstruire Tortuga, pour cela il nous faudra apporter du bois pour commencer à reconstruire la Taverne des Pirates, le Port etc...
+Il faut donc piller l’ile la plus proche. 
+Nous ne disposons que de quelques chaloupes et les places sont limitées il faudra 25 ressources quelconques pour atteindre cet objectif et avoir les ressources de fabriquer les baraquements pour s'abriter.
+
+[gallery]
+pictures/defis/tortuga-2025/map04.png
+[/gallery]
+
+
 ### Jour 5 Construction des Pontons
 
 On reconstruit le quai numero 1 pour amarrer les barques.

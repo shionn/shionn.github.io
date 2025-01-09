@@ -281,10 +281,14 @@ q(function() {
 			.progress("07/01/2025", angest, 1, "Ork", _SMALL)
 			.addBadge("07/01/2025", angest, 7)
 			.progress("08/01/2025", angest, 1, "Gretchin", _SMALL)
+			.progress("09/01/2025", tony, 1, "Orc", _SMALL)
 			.render();
+
+	let q4 = new _quest("quest-4", "Réapprovisionnement en matériaux", "Peindre 25 figurines", 25);
+//			.render();
 
 
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3]);
+	_renderQuests([q1, q2, q3, q4]);
 
 });
