@@ -284,8 +284,8 @@ q(function() {
 			.progress("09/01/2025", tony, 1, "Orc", _SMALL)
 			.render();
 
-	let q4 = new _quest("quest-4", "Réapprovisionnement en matériaux", "Peindre 25 figurines", 25);
-//			.render();
+	let q4 = new _quest("quest-4", "Réapprovisionnement en matériaux", "Peindre 25 figurines", 25)
+			.render();
 
 
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);

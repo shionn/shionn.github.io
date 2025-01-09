@@ -98,6 +98,8 @@ On doit reconstruire Tortuga, pour cela il nous faudra apporter du bois pour com
 Il faut donc piller l’ile la plus proche. 
 Nous ne disposons que de quelques chaloupes et les places sont limitées il faudra 25 ressources quelconques pour atteindre cet objectif et avoir les ressources de fabriquer les baraquements pour s'abriter.
 
+<div id="quest-4"></div>
+
 [gallery]
 pictures/defis/tortuga-2025/map04.png
 [/gallery]
