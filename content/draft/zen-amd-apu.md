@@ -1,14 +1,5 @@
 
-Les processeur AMD c'est pas mal le bordel. Leur nommage n'est pas vraiment constant, voici un petit tableau qui resume les informataion que j'ai trouvé sur les 
-
-[table cols="Nom,Coeur,Archi,Freq,Cache,CU,Archi,TDP,Ram,Console"]
-Steam Deck	4/8	Zen2	2.4-3.5Ghz	?	8Cu	Rdna2	?	LPDDR5	Steam Deck
-Z1 Extreme	8/16	Zen4	3.3-5.1Ghz	16Mb	12CU	Rdna3	9-30W	DDR5/LPDDR5X	?
-Z1  6(2+4c)/12  Zen4/c	3.2-4.9Ghz	16Mb	4CU	Rdna3	9-30W	DDR5/LPDDR5X	?
-Z2 Extreme	8(3+5c)/16	Zen5/c	??-5Ghz	24Mb	16CU	Rdna3.5	15-35W	?	?
-Z2	8(??)/16	Zen4	??-5.1Ghz	24Mb	12Cu	Rdna3	15-30W	?	?
-Z2 Go	4/8	Zen3+	??-4.3Ghz	10Mb	12Cu	Rdna2	15-30W	?	?
-[/table]
+Les processeurs AMD c'est pas mal le bordel. Leur nommage n'est pas vraiment constant, voici un petit tableau qui resume les informataion que j'ai trouvé sur les processeurs à destination des petits pc prtoable basse conssomation la serie des Z
 
 <table class="boxed">
 	<thead>
@@ -25,5 +16,15 @@ Z2 Go	4/8	Zen3+	??-4.3Ghz	10Mb	12Cu	Rdna2	15-30W	?	?
 			<th>Console</th>
 		</tr>
 	</thead>
+	<tbody>
+		<tr>
+			<td>Steam Deck</td><td>4/8</td><td>Zen2</td><td>2.4-3.5Ghz</td><td>?</td><td>8Cu</td><td>Rdna2</td><td>?</td><td>LPDDR5</td><td>Steam Deck</td>
+			<td>Z1 Extreme</td><td>8/16</td><td>Zen4</td><td>3.3-5.1Ghz</td><td>16Mb</td><td>12CU</td><td>Rdna3</td><td>9-30W</td><td>DDR5/LPDDR5X</td><td>?</td>
+			<td>Z1</td><td>6(2+4c)/12</td><td>Zen4/c</td><td>3.2-4.9Ghz</td><td>16Mb</td><td>4CU</td><td>Rdna3</td><td>9-30W</td><td>DDR5/LPDDR5X</td><td>?</td>
+			<td>Z2 Extreme</td><td>8(3+5c)/16</td><td>Zen5/c</td><td>??-5Ghz</td><td>24Mb</td><td>16CU</td><td>Rdna3.5</td><td>15-35W</td><td>?</td><td>?</td>
+			<td>Z2</td><td>8(??)/16</td><td>Zen4</td><td>??-5.1Ghz</td><td>24Mb</td><td>12Cu</td><td>Rdna3</td><td>15-30W</td><td>?</td><td>?</td>
+			<td>Z2 Go</td><td>4/8</td><td>Zen3+</td><td>??-4.3Ghz</td><td>10Mb</td><td>12Cu</td><td>Rdna2</td><td>15-30W</td><td>?</td><td>?</td>
+		</tr>
+	</tbody>
 </table>
 	
