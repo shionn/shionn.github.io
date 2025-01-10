@@ -10,3 +10,20 @@ Z2	8(??)/16	Zen4	??-5.1Ghz	24Mb	12Cu	Rdna3	15-30W	?	?
 Z2 Go	4/8	Zen3+	??-4.3Ghz	10Mb	12Cu	Rdna2	15-30W	?	?
 [/table]
 
+<table class="boxed">
+	<thead>
+		<tr>
+			<th>Nom</th>
+			<th>Coeur</th>
+			<th>Arch.</th>
+			<th>Freq</th>
+			<th>Cache</th>
+			<th>CU</th>
+			<th>Arch.</th>
+			<th>TDP</th>
+			<th>Ram</th>
+			<th>Console</th>
+		</tr>
+	</thead>
+</table>
+	
