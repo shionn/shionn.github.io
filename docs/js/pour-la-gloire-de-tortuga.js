@@ -286,6 +286,7 @@ q(function() {
 
 	let q4 = new _quest("quest-4", "Réapprovisionnement en matériaux", "Peindre 25 figurines", 25)
 			.progress("10/01/2025", angest, 1, "Groot", _BIG)
+			.progress("11/01/2025", angest, 1, "Void-Warped Basilisk", _MEDIUM)
 			.render();
 
 
