@@ -236,7 +236,9 @@ q(function() {
 		new _badge("Mitraillette", "icon19.png", "Faire 3 contributions à la même quête"), // ra-arrow-cluster 
 		new _badge("Gatling", "icon32.png", "Faire 5 contributions à la même quête"), // ra-cannon-shot 
 		new _badge("One shot", "icon01.png", "Accomplir une quête d'un seul coup"),
-		new _badge("Vague", "icon23.png", "Envoyer 20 figurine lors de la même quête")
+		new _badge("Vague", "icon23.png", "Envoyer 20 figurine lors de la même quête"),
+		new _badge("Gargantuesque", "icon02.png", "Peindre une très grosse figurine"),
+		new _badge("Gargantuesque", "icon04.png", "Peindre une très grosse figurine"),
 	);
 
 	
