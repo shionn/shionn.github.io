@@ -16,7 +16,7 @@ En effet les impôts sur les alcools sont réduits quand on est membre de la gui
 
 [table title="Statistique" cols="Stat,Valeur,Modificateur,Utilisation"]
 Force	14	+2	Taper, Soulever, Casser
-Dex	9	-1	Lancer
+Dex	9	-1	Lancer, Initiative
 Consti	16	+3	Encaisser, Résister
 Intel	3	-4	
 Sagesse	13	+1	Fouille, Observer
@@ -31,8 +31,9 @@ Maitrise	+2	???
 Alignement	Loyal Neutre
 Passif	Second souffle	1 fois par jour, +1D10 pv.
 Passif	Fougue	1 fois par jour, attaquer une seconde fois.
-PV	21/22
+PV	22/22
 Or	181po
+Richesse	1 rubi
 [/table]
 
 ## Précédemment...
@@ -40,8 +41,9 @@ Or	181po
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
 et nous nous somme retrouvé dans une prison dont nous avons réussi à nous échappé, nous avons combattu quelques Orcs et Trolls. 
 Nous sommes toujours dans le donjon de nos ravisseurs, nous ne sommes pas en sécurité. 
+Il parait que quelqu'un d'entre nous possederai une clef !
 
-Toute nos aventures dans les articles précédent :
+Toutes nos aventures dans les articles précédent :
 * [Évasion d'une gaule](2024/whisperia-1-evasion-d-une-gaule.html). 
 * [Des orcs](2024/whisperia-2-orcs-et-chaussette.html). 
 
