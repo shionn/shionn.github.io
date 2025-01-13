@@ -1,0 +1,10 @@
+{
+	"type": "post",
+	"date": "2025/07/01",
+	"title": "Un bot discord en Java",
+	"tags": ["Java", "Discord" ],
+	"category": "Code",
+	"published": true,
+	"js" : [ "js/hljs/highlight.min.js", "js/hljs/java.min.js", "js/hljs/bash.min.js", "js/hljs/xml.min.js" ],
+	"author": "Shionn"
+}
