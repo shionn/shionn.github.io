@@ -52,6 +52,7 @@ Nous barricadons la porte dont nous ne connaissons pas ce qu'il y a derrière av
 Nous récupérons nos pv et nos pouvoir. Je repasse à 13 et mon second souffle. 
 
 [gallery w=300 h=250]
+pictures/jdr/whisperia/012.png
 pictures/jdr/whisperia/013.png
 pictures/jdr/whisperia/014.png
 [/gallery]
