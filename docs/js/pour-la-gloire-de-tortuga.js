@@ -227,12 +227,12 @@ q(function() {
 	};
 
 	_BADGE.push(
-		new _badge("Coup final", "icon07.png", "Achever une quête"), // flag
-		new _badge("Populeux", "icon22.png", "Envoyer 10 petites figurines d'un coup"), // ra-double-team
-		new _badge("Bourrin", "icon03.png", "Envoyer 5 figurines moyenne d'un coup"), // ra-muscle-up
-		new _badge("Massif", "icon06.png", "Envoyer 2 grande figurines d'un coup"), // ra-muscle-fat
-		new _badge("Petit/Gros", "icon20.png", "Envoyer une petite figurine et une grande dans la même quête"),
-		new _badge("Petit/Moyen/Gros", "icon31.png", "Envoyer une figurine de chaque taille dans la même quête"),
+		new _badge("Coup final", "icon07.png", "Achever une quête"), // 0 flag
+		new _badge("Populeux", "icon22.png", "Envoyer 10 petites figurines d'un coup"), // 1 ra-double-team
+		new _badge("Bourrin", "icon03.png", "Envoyer 5 figurines moyenne d'un coup"), // 2 ra-muscle-up
+		new _badge("Massif", "icon06.png", "Envoyer 2 grande figurines d'un coup"), // 3 ra-muscle-fat
+		new _badge("Petit/Gros", "icon20.png", "Envoyer une petite figurine et une grande dans la même quête"), // 4
+		new _badge("Petit/Moyen/Gros", "icon31.png", "Envoyer une figurine de chaque taille dans la même quête"), // 5 
 		new _badge("Mitraillette", "icon19.png", "Faire 3 contributions à la même quête"), // ra-arrow-cluster 
 		new _badge("Gatling", "icon32.png", "Faire 5 contributions à la même quête"), // ra-cannon-shot 
 		new _badge("One shot", "icon01.png", "Accomplir une quête d'un seul coup"),
@@ -290,6 +290,8 @@ q(function() {
 			.progress("10/01/2025", angest, 1, "Groot", _BIG)
 			.progress("11/01/2025", angest, 1, "Void-Warped Basilisk", _MEDIUM)
 			.progress("13/01/2025", whisp, 1, "Vampire", _SMALL)
+			.progress("15/01/2025", angest, 1, "Shaco", _SMALL)
+			.addBadge("15/01/2025", angest, 5)
 			.render();
 
 
