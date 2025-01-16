@@ -294,6 +294,7 @@ q(function() {
 			.progress("15/01/2025", angest, 1, "Shaco", _SMALL)
 			.addBadge("15/01/2025", angest, 5)
 			.progress("16/01/2025", angest, 1, "Valrok", _SMALL)
+			.progress("16/01/2025", whisp, 1, "Totem SFB", _MEDIUM)
 			.render();
 
 
