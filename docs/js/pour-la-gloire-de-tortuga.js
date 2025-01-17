@@ -295,6 +295,8 @@ q(function() {
 			.addBadge("15/01/2025", angest, 5)
 			.progress("16/01/2025", angest, 1, "Valrok", _SMALL)
 			.progress("16/01/2025", whisp, 1, "Totem SFB", _MEDIUM)
+			.progress("17/01/2025", angest, 1, "Nobz Ork", _SMALL)
+						
 			.render();
 
 
