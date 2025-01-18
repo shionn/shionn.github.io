@@ -238,8 +238,9 @@ q(function() {
 		new _badge("One shot", "icon01.png", "Accomplir une quête d'un seul coup"), // 8
 		new _badge("Vague", "icon23.png", "Envoyer 20 figurine lors de la même quête"), // 9 
 		new _badge("Gargantuesque", "icon02.png", "Peindre une très grosse figurine"), // 10
-		new _badge("Collectionneur", "icon14.png", "Obtenir 7 badges"), // 11
-		new _badge("Gatha'em all", "icon04.png", "Obtenir tous les badge"), // 12
+		new _badge("Uzi", "icon11.png", "Faire 8 contributions à la même quête"), // 11 ra-cannon-shot 
+		new _badge("Collectionneur", "icon14.png", "Obtenir 8 badges"), // 12
+		new _badge("Gatha'em all", "icon04.png", "Obtenir tous les badge"), // 13
 	);
 
 	
@@ -296,7 +297,7 @@ q(function() {
 			.progress("16/01/2025", angest, 1, "Valrok", _SMALL)
 			.progress("16/01/2025", whisp, 1, "Totem SFB", _MEDIUM)
 			.progress("17/01/2025", angest, 1, "Nobz Ork", _SMALL)
-						
+			.progress("18/01/2025", angest, 1, "Lysere, Frost Window", _SMALL)
 			.render();
 
 
