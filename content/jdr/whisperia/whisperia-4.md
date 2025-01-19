@@ -14,16 +14,16 @@ En effet les impôts sur les alcools sont réduits quand on est membre de la gui
 
 ### Statistique
 
-[table title="Statistique" cols="Stat,Valeur,Modificateur,Utilisation"]
+[table title="Statistique" cols="Stat,Valeur,Modificateur,Utilisation" class="pyjama"]
 Force	14	+2	Taper, Soulever, Casser
 Dex	9	-1	Lancer, Initiative
 Consti	16	+3	Encaisser, Résister
-Intel	3	-4	
+Intel	3	-4	 
 Sagesse	13	+1	Fouille, Observer
 Cha	9	-1	Négocier
 [/table]
 
-[table title="Autre" cols="Cat,Valeur,Description"]
+[table title="Autre" cols="Cat,Valeur,Description" class="pyjama"]
 Niveau	2
 Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
 Armure	Broigne(+14)	CA : 14
@@ -31,9 +31,9 @@ Maitrise	+2	???
 Alignement	Loyal Neutre
 Passif	Second souffle	1 fois par jour, +1D10 pv.
 Passif	Fougue	1 fois par jour, attaquer une seconde fois.
-PV	22/22
-Or	181po
-Richesse	1 rubi
+PV	22/22	 
+Or	181po	 
+Richesse	1 rubi	 
 [/table]
 
 ## Précédemment...
@@ -41,7 +41,8 @@ Richesse	1 rubi
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
 et nous nous somme retrouvé dans une prison dont nous avons réussi à nous échappé, nous avons combattu quelques Orcs et Trolls. 
 Nous sommes toujours dans le donjon de nos ravisseurs, nous ne sommes pas en sécurité. 
-Il parait que quelqu'un d'entre nous possederai une clef !
+
+Nous avons trouver un perchemin, il nous faut refouiller le bureau.
 
 Toutes nos aventures dans les articles précédent :
 * [Évasion d'une gaule](2024/whisperia-1-evasion-d-une-gaule.html). 
@@ -49,7 +50,10 @@ Toutes nos aventures dans les articles précédent :
 
 ## Et maintenant la suite
 
-Cette partie s'est déroulée le 14 décembre 2024. Dont voici le replay :
+Cette partie s'est déroulée le XXX. Dont voici le replay :
 
 TODO insertion youtube
+
+### Chapitre 1
+
 
