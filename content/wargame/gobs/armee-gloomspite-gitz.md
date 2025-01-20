@@ -49,9 +49,13 @@ pictures/gloomspite/rockgut-troggoths/27.jpg
 ## Recette Peinture
 
 [paints title="Acier NMM"]
-Base	72045
-Éclaircissement	72042
-Éclaircissement	72036
+Base	72051
+Éclaircissement	72120
+Éclaircissement	72048
+Éclaircissement	72102
+Éclaircissement	72047
+Rehaut	72047
+Rehaut	72001
 [/paints]
 
 [paints title="Bois"]
