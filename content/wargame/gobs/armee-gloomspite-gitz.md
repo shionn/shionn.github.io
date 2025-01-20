@@ -48,27 +48,10 @@ pictures/gloomspite/rockgut-troggoths/27.jpg
 
 ## Recette Peinture
 
-[paints title="Peau Troll"]
-Base	72120
-Éclaircissement	72048
-Éclaircissement	72102
-Éclaircissement	72095
-Rehaut	72001
-[/paints]
-
-[paints title="Peau rocailleurse"]
-Base	72120
-Éclaircissement	72024
-Éclaircissement	72119
-Éclaircissement	72096
-Rehaut	72001
-[/paints]
-
-[paints title="Cuir"]
-Base	72124
-Éclaircissement	72115
+[paints title="Acier NMM"]
+Base	72045
 Éclaircissement	72042
-Rehaut	72110
+Éclaircissement	72036
 [/paints]
 
 [paints title="Bois"]
@@ -84,6 +67,13 @@ Base	72045
 Lavis	24-08
 [/paints]
 
+[paints title="Cuir"]
+Base	72124
+Éclaircissement	72115
+Éclaircissement	72042
+Rehaut	72110
+[/paints]
+
 [paints title="Grenat"]
 Base	72011
 Éclaircissement	72106
@@ -93,11 +83,27 @@ Rehaut	72110
 Rehaut	72001
 [/paints]
 
-[paints title="Toge des Troll"]
-Base	72145
-Ombrage	24-08
-Éclaircissement	72031
-Rehaut	72035
+[paints title="Peau Gobelin"]
+Base	72123
+Ombrage	72028
+Éclaircissement	72032
+Rehaut	72122
+[/paints]
+
+[paints title="Peau Troll"]
+Base	72120
+Éclaircissement	72048
+Éclaircissement	72102
+Éclaircissement	72095
+Rehaut	72001
+[/paints]
+
+[paints title="Peau Troll Rocailleurse"]
+Base	72120
+Éclaircissement	72024
+Éclaircissement	72119
+Éclaircissement	72096
+Rehaut	72001
 [/paints]
 
 [paints title="Robe du Gobelin"]
@@ -107,10 +113,10 @@ Ombrage	72116
 Rehaut	72114
 [/paints]
 
-[paints title="Peau du Gobelin"]
-Base	72123
-Ombrage	72028
-Éclaircissement	72032
-Rehaut	72122
+[paints title="Toge des Troll"]
+Base	72145
+Ombrage	24-08
+Éclaircissement	72031
+Rehaut	72035
 [/paints]
 
