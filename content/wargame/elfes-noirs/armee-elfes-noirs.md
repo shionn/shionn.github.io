@@ -51,6 +51,24 @@ pictures/dark-elves/malus-dark-blade/07.jpg
 [/gallery]
 [/after]
 
+[after date="2025/06/22"]
+### Morathi sur Pégase Noir
+
+Je l'ai acheté autour des années 2000, et elle est resté dans ma piule de la honte pendant presque 25 ans. 
+
+* Peinte en Janvier 2025
+* Environ 9h00
+* Soumise au défis __Janvier 2025 - Rio de Janvier de [CFM](https://taverne.colorfulminis.com/t/defi-janvier-2025-rio-de-janvier/5826)__ et à mon défis discord __début et fin__
+* Je voulais volontairement un aspect léger _mon petit poney_.
+
+[gallery w=200 h=200]
+pictures/dark-elves/morathi-pegase/01.jpg
+pictures/dark-elves/morathi-pegase/02.jpg
+pictures/dark-elves/morathi-pegase/03.jpg
+pictures/dark-elves/morathi-pegase/04.jpg
+[/gallery]
+[/after]
+
 ### Porteur de la grand bannière Elfes Noirs
 
 Il provient d'un lot que j'ai acheté, David si tu passes par là, encore merci. Je n'ai pas eu à le décaper.

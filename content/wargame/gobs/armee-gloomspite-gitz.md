@@ -114,13 +114,3 @@ Ombrage	72028
 Rehaut	72122
 [/paints]
 
-
-[after date="31/12/2025"]
-## idee socle : 
-
-- champigno
-- marai /  foret
-- sol sous -terrain
-- eau stagnante
-- crystaux
-[/after]
