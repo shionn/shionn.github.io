@@ -11,13 +11,13 @@ category/wargame	War Game
 	2024/mes-armees	Underworld
 		2024/underworld-dok	Fille de Khaine
 		2024/underworld-soulblight	Seigneurs Ruinemânes
-	2024/mes-armees	Warcry	2025-07-11
-		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-07-11
+	2024/mes-armees	Warcry	2025-06-13
+		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-06-13
 	tag/dungeon-and-laser	Dungeon and Laser
 		2024/dungeon-and-laser-encounters	Encounters
 	tag/d-cor	Décor	2025-04-11
 		2025/decor-skaventide	Décor Skaventide	2025-04-11
-		2025/decor-mortal-realms	Décor Mortal Realms	2025-06-01
+		2025/decor-mortal-realms	Décor Mortal Realms	2025-05-17
 	tag/peinture	Guide
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Tableau d'équivalence de peinture
@@ -40,14 +40,15 @@ category/linux	Linux
 	tag/desktop	Desktop
 		2023/survivre-sur-debian	Kit de Survie sur Debian
 		2024/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille	2025-02-16
-		2025/openrgb-sur-debian	OpenRGB sur Débian	2025-05-12
+		2025/openrgb-sur-debian	OpenRGB sur Débian	2025-04-29
 	tag/matos	Matos	2025-04-02
 		2025/homelab-processor	Processeur pour Homelab	2025-04-02
 category/code	Code
 	tag/arduino	Arduino
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode
-	tag/java	Java	2025-06-21
-		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX WebView	2025-06-21
+	tag/java	Java	2025-06-04
+		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX WebView	2025-06-04
+		2025/bot-discord-en-java	Bot discord en Java	2025-06-22
 https://web.archive.org/web/20210420064444/http://shionn.org/	Web Archive
 mailto:shionn@gmail.com	Contact
 	mailto:shionn@gmail.com	shionn@gmail.com

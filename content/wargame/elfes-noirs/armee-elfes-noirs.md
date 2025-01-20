@@ -142,7 +142,7 @@ Rehaut	72096
 Reste à faire :
 - Cavalier Noire
 
-[after date="2025/05/22"]
+[after date="2025/05/08"]
 ### Arbaletriers
 
 Voici mon premier pack de 12 arbaletriers elfe noir en plastique. 
@@ -222,7 +222,7 @@ Reste à faire :
 - Harpie
 - Ombre
 
-[after date="2025/06/11"]
+[after date="2025/05/26"]
 ### Cavalier sur Sang Froid
 
 Voici ma cavalerie lourde sur sang froid. 

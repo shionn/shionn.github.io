@@ -79,6 +79,8 @@ Pour ce faire éditer le fichier `/etc/default/grub` et modifier l'option `GRUB_
 
 Conclusion : n'acheter pas de carte mère Gigabyte, n'acheter pas de barrette de ram avec du RGB.
 
+J'ai d'aileurd changé pour une MSI, plus besoin d'ajouter l'option au noyau et les zone marche. 
+
 ## Pour aller plus loin
 
 Si comme moi vous voulez éteindre vos RAMs quand votre pc se met en veille alors il est possible de faire un script comme décris dans [cet article](2024/debian-execute-task-before-and-after-suspend.html). 
