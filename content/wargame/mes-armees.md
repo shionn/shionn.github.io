@@ -8,7 +8,7 @@ Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes 
 - [Nains (Citée de Simar)](2024/armee-naine-cos.html)
 - [Nighthaunt](2023/armee-nighthaunt.html)
 - [Skaven](2023/armee-skaven.html)
-[after date="2025/02/11"]
+[after date="2025/02/25"]
 - [Gloomspite Gitz](2025/armee-gloomspite-gitz/html)
 [/after]
 
@@ -22,7 +22,7 @@ Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes 
 - [Filles de Khaine](2024/underworld-dok.html) _3 bandes_
 - [Seigneurs Ruinemânes](2024/underworld-soulblight.html) _2 bandes_
 
-[after date="2025/03/13"]
+[after date="2025/07/11"]
 ## Warcry
 
 - [Filles de Khaine](2025/warcry-dok.html) _Rodeur de l'ombre Khainites_
