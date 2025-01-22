@@ -1,10 +1,17 @@
 {
 	"type": "page",
 	"date": "2030/01/01",
-	"title": "Un bot discord en Java",
-	"tags": ["Ressources" ],
+	"title": "Lien de Dev",
+	"tags": [
+		"Ressources"
+	],
 	"category": "Code",
 	"published": false,
-	"js" : [ "js/hljs/highlight.min.js", "js/hljs/java.min.js", "js/hljs/bash.min.js", "js/hljs/xml.min.js" ],
+	"js": [
+		"js/hljs/highlight.min.js",
+		"js/hljs/java.min.js",
+		"js/hljs/bash.min.js",
+		"js/hljs/xml.min.js"
+	],
 	"author": "Shionn"
 }
