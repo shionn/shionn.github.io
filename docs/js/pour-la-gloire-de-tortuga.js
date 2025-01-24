@@ -301,6 +301,7 @@ q(function() {
 			.progress("21/01/2025", tony, 1, "Docteur", _SMALL)
 			.progress("21/01/2025", angest, 1, "Inquisitrice Kyria Draxus", _SMALL)
 			.progress("23/01/2025", angest, 1, "Crimson Knight", _SMALL)
+			.progress("24/01/2025", anuabi, 1, "Termagant", _SMALL)
 			.render();
 
 
