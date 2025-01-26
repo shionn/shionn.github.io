@@ -92,6 +92,12 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 26 Construction des Baraquements
+
+Construction de quelques baraquements pour rester à l'abri du froid et de la pluie
+
+<div id="quest-5"></div>
+
 ### Jour 10 Excursion en foret pour collecter du Bois 
 
 On doit reconstruire Tortuga, pour cela il nous faudra apporter du bois pour commencer à reconstruire la Taverne des Pirates, le Port etc...
@@ -101,7 +107,7 @@ Nous ne disposons que de quelques chaloupes et les places sont limitées il faud
 <div id="quest-4"></div>
 
 [gallery]
-pictures/defis/tortuga-2025/map04.png
+pictures/defis/tortuga-2025/map05.png
 [/gallery]
 
 
@@ -112,7 +118,7 @@ On reconstruit le quai numero 1 pour amarrer les barques.
 <div id="quest-3"></div>
 
 [gallery]
-pictures/defis/tortuga-2025/map03.png
+pictures/defis/tortuga-2025/map04.png
 [/gallery]
 
 ### Jour 4 Excursion en foret pour collecter du Bois
@@ -122,7 +128,7 @@ On doit reconstruire Tortuga, pour cela il nous faudra apporter du bois pour com
 <div id="quest-2"></div>
 
 [gallery]
-pictures/defis/tortuga-2025/map02.png
+pictures/defis/tortuga-2025/map03.png
 [/gallery]
 
 ### Jour 1 découverte de notre nouvelle base
@@ -132,6 +138,10 @@ Les Seigneurs Whisp et Sparrow regarde du haut de leur postes de Capitaines, une
 Tandis qu'ils naviguent péniblement dans la zone du triangle les Bermudes, là où seul les braves et donc les Pirates osent s'aventurer, un épais brouillard les entoure... 
 Non sans un once d'inquiétude, ils continuent bravement droit devant, toutes voiles dehors. 
 Bientôt l'épais brouillard se dissipe et laisse entrevoir une  Petites île, oui une petite île en forme de tortue de mer avec une crique en son centre.
+
+[gallery]
+pictures/defis/tortuga-2025/map01.png
+[/gallery]
 
 C'est là, les Seigneurs se tournèrent l'un vers l'autre et ils se sont compris au premier regard!
 L'endroit est parfait de la forme à sa position dans une région isolée où personne n'osera s'aventurer.
@@ -145,7 +155,7 @@ Ce sera là votre premier Objectif!!!
 <div id="quest-1"></div>
 
 [gallery]
-pictures/defis/tortuga-2025/map01.png
+pictures/defis/tortuga-2025/map02.png
 [/gallery]
 
 ## Ressource 
@@ -154,3 +164,4 @@ pictures/defis/tortuga-2025/map01.png
 - [joueurs](https://opengameart.org/content/lpc-pirates)
 - [carte](https://opengameart.org/content/slates-32x32px-orthogonal-tileset-by-ivan-voirol)
 - [carte](https://opengameart.org/content/rpg-tiles-cobble-stone-paths-town-objects)
+

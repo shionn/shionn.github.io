@@ -308,11 +308,11 @@ q(function() {
 			.render();
 
 	let q5 = new _quest("quest-5", "Construction des baraquements", "Peindre 30 figurines", 30)
-//			.progress("26/01/2025", shionn, 27, "Gobelin de la Nuit", _SMALL)
-//			.addBadge("26/01/2025", shionn, 9)
+			.progress("26/01/2025", shionn, 27, "Gobelin de la Nuit", _SMALL)
+			.addBadge("26/01/2025", shionn, 9)
 			.render();
 
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4]);
+	_renderQuests([q1, q2, q3, q4, q5]);
 
 });
