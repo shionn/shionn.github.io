@@ -227,19 +227,19 @@ q(function() {
 	};
 
 	_BADGE.push(
-		new _badge("Coup Final", "icon07.png", "Achever une quête"), // 0 flag
-		new _badge("Populeux", "icon22.png", "Envoyer 10 petites figurines d'un coup"), // 1 ra-double-team
+		new _badge("Coup Final", "icon07.png", "Achever une quête"), // 0 flag : OK
+		new _badge("Populeux", "icon22.png", "Envoyer 10 petites figurines d'un coup"), // 1 ra-double-team : OK
 		new _badge("Bourrin", "icon03.png", "Envoyer 5 figurines moyenne d'un coup"), // 2 ra-muscle-up
 		new _badge("Massif", "icon06.png", "Envoyer 2 grande figurines d'un coup"), // 3 ra-muscle-fat
 		new _badge("Petit/Gros", "icon20.png", "Envoyer une petite figurine et une grande dans la même quête"), // 4
-		new _badge("Petit/Moyen/Gros", "icon31.png", "Envoyer une figurine de chaque taille dans la même quête"), // 5 
-		new _badge("Mitraillette", "icon19.png", "Faire 3 contributions à la même quête"), // 6 ra-arrow-cluster 
-		new _badge("Gatling", "icon32.png", "Faire 5 contributions à la même quête"), // 7 ra-cannon-shot 
-		new _badge("One shot", "icon01.png", "Accomplir une quête d'un seul coup"), // 8
-		new _badge("Vague", "icon23.png", "Envoyer 20 figurine lors de la même quête"), // 9 
+		new _badge("Petit/Moyen/Gros", "icon31.png", "Envoyer une figurine de chaque taille dans la même quête"), // 5 : OK
+		new _badge("Mitraillette", "icon19.png", "Faire 3 contributions à la même quête"), // 6 ra-arrow-cluster  : OK
+		new _badge("Gatling", "icon32.png", "Faire 5 contributions à la même quête"), // 7 ra-cannon-shot : OK
+		new _badge("One shot", "icon01.png", "Accomplir une quête d'un seul coup"), // 8 : OK
+		new _badge("Vague", "icon23.png", "Envoyer 20 figurine lors de la même quête"), // 9 : OK
 		new _badge("Gargantuesque", "icon02.png", "Peindre une très grosse figurine"), // 10
 		new _badge("Uzi", "icon11.png", "Faire 10 contributions à la même quête"), // 11 ra-cannon-shot 
-		new _badge("Collectionneur", "icon14.png", "Obtenir 8 badges"), // 12
+		new _badge("Collectionneur", "icon14.png", "Obtenir 7 badges"), // 12
 		new _badge("Gatha'em all", "icon04.png", "Obtenir tous les badge"), // 13
 	);
 
@@ -302,9 +302,15 @@ q(function() {
 			.progress("21/01/2025", angest, 1, "Inquisitrice Kyria Draxus", _SMALL)
 			.progress("23/01/2025", angest, 1, "Crimson Knight", _SMALL)
 			.progress("24/01/2025", anuabi, 1, "Termagant", _SMALL)
+			.progress("26/01/2025", shionn, 13, "Gobelin de la Nuit", _SMALL)
+			.addBadge("26/01/2025", shionn, 1)
+			.addBadge("26/01/2025", shionn, 0)
 			.render();
 
-	let q5 = new _quest("quest-5", "Construction des baraquements", "Peindre 30 figurines", 30);
+	let q5 = new _quest("quest-5", "Construction des baraquements", "Peindre 30 figurines", 30)
+//			.progress("26/01/2025", shionn, 27, "Gobelin de la Nuit", _SMALL)
+//			.addBadge("26/01/2025", shionn, 9)
+			.render();
 
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
 	_renderQuests([q1, q2, q3, q4]);
