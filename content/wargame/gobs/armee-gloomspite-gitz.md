@@ -92,6 +92,7 @@ Base	72123
 Ombrage	72028
 Éclaircissement	72032
 Rehaut	72122
+Glacie détail	72409
 [/paints]
 
 [paints title="Peau Troll"]
@@ -115,6 +116,24 @@ Base	72016
 Ombrage	72116
 Éclaircissement	72076
 Rehaut	72114
+[/paints]
+
+[paints title="Socle Marais Eau"]
+Base	27-26
+Tapotage	72028
+Tapotage	72029
+Tapotage	72032
+Glacie	24-08
+Glacie	72412
+Vernis	26235
+[/paints]
+
+[paints title="Socle Marais Terre"]
+Base	72062
+Brossage	72028
+Brossage	72029
+Brossage	72032
+Glacie	24-08
 [/paints]
 
 [paints title="Toge des Troll"]

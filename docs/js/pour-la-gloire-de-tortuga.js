@@ -304,6 +304,7 @@ q(function() {
 			.progress("24/01/2025", anuabi, 1, "Termagant", _SMALL)
 			.render();
 
+	let q5 = new _quest("quest-5", "Construction des baraquements", "Peindre 30 figurines")
 
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
 	_renderQuests([q1, q2, q3, q4]);

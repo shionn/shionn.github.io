@@ -1,4 +1,4 @@
-
+	
 Whisperia est une campagne de JDR sur DnD organisé par Whisp et RoiLugubre sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
@@ -33,7 +33,7 @@ Passif	Second souffle	1 fois par jour, +1D10 pv.
 Passif	Fougue	1 fois par jour, attaquer une seconde fois.
 PV	22/22	 
 Or	181po	 
-Richesse	1 rubi	 
+Richesse	1 rubi (20po), 2 jaspe & 1 pierre de lune (150po), 2 rubi jaunes (~20po)
 [/table]
 
 ## Précédemment...
@@ -50,10 +50,59 @@ Toutes nos aventures dans les articles précédent :
 
 ## Et maintenant la suite
 
-Cette partie s'est déroulée le XXX. Dont voici le replay :
+Cette partie s'est déroulée le 25 Janvier 2025. Dont voici le replay :
 
 TODO insertion youtube
 
-### Chapitre 1
+### Deux bureau
+
+Noue revenons dans le bureau de l'orc mais nous n'y trouvons rien et decidons de retourner vers les orte que nous n'avons pas encore ouverte. 
+
+Au fond du couloir à droite il y a une porte, je l'ouvre avec ma clef et nous rentrons et nous trouvon un second bureau dedans je fouille le bureau et je trouve 2 jaspe et 1 pierre de lune.
+
+Ariana recherche des trace de magie et peverel trouve un bracelet en or (25po) et un médaillon en or avec un portrait a l'efigie du chef de ce lieu (35po), des vetements en satin noble (25 po) et un colier magique d'adaptation (+1 save poison). Qui sera porté par hyazul. 
+
+PEverell trouve un parchemin de resurection qui ne marche que pendant la premiere minute de la mort. Ariana le recupere.
+
+### Levier et piege
+
+Nous trouvon un levier mais decidons de pas y touher pour l'isntant, nous essayons d'ouvrir l'uatre port e mais nous n'y arrivons pas nou actionnons levier et un passage se revelle derriere nous. 
+
+Hysul et moi partons devans. Une s'enfonce legerement sous mes pieds, je m'arrete immediatement et je recule un jet de flamme sort du mur la ou je me trouvais. J'essaie de lancer un fautezille ca fait rien. avec hyzul et peverell on prend une statue qu'on pose sur la dalle piege jusqu'a ce aqu ele feu s'epuise.
+
+Nous arrivons devons une pieces qui semble faire flipper arianna. 
+
+### deux gargouille
+
+Hyasul ouvre la porte, pendant qu nous l'encourageons de loin. Dans la piece il y a deux statue en forme de gargouille qui semble garder une porte. La poignée est dans le meme metal que la statue.
+
+Hyasul tente de casser une statue. Ariana lance la foudre dans la porte mais rien ne se passe. Anuabi ouvre la porte qui se referme imediatement et les deux statue s'anime, et nous attaque. Le combat commence. 
+
+Les coups s'enchaîne nous nous acharnons sur nos garouilles et nous en venons a bout assez facilement. Je prend deux rubis jaune et anuabi prend les deux autres. 
+
+### Tombeau
+
+Nous entrons dans une nouvelle piece rempli de tresor et d'un sarcophage, je n'arrive pas a me retenir et je me jete sur le reesor un spectre sort du sarcophage et se jete sur moi, j'arrive a esciver son attaque. 
+
+Il m'attaque une seconde fois et je prend un coup (17/22).
+
+Il invoque 3 squelette eet le combat s'engage. un squelette me tape et je prend un coup (15/22). Je m'acharne sur le meme squeltte que mes ami, et ariana envoie un gos sort de givre sur tous le monde. achevant le squelette devant moi.
+
+2 squelette tombe, rahanis tire une fleche dans le genoux de peverell et tombe au sol. 
+
+J'attaque le spectre mais ma masse le traverse avec un faible resistance. Arianna relance son blizzard et acheve le dernier squelette. 
+
+Peverell tombe au combat et nous venons a bout du spectre. La partie s'acheve ici. 
+
+
+## Pour conclure 
+
+J'ai gagné des pierres précieuse, je fini à 15/22 pv.
+
+
+
+
+
+
 
 

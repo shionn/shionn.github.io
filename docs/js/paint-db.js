@@ -71,6 +71,8 @@ let _cPnt = function(brand, id, name, hex = null, legacy = false) {
 	return p;
 }
 
+_cPnt(VJ, 26235, "Still Water", null);
+
 _cPnt(VJ, 72001, "Dead White", "#ffffff");
 _cPnt(VJ, 72002, "White Primer", null,  true);
 _cPnt(VJ, 72003, "Pale Flesh", "#c59f7d");
@@ -393,6 +395,7 @@ _cPnt(GW, "24-12", "Nuln Oil");
 _cPnt(GW, "24-22", "Coelia Greenshade");
 
 _cPnt(GW, "27-06", "Nihilakh Oxide");
+_cPnt(GW, "27-26", "Technical Stirland Mud");
 _cPnt(GW, "27-19", "Nighthaunt Gloom");
 
 _cPnt(GW, "28-09", "Deathworld Forest");
