@@ -10,10 +10,10 @@ L'idée que j'ai c'est de pouvoir jouer full troll en petit format.
 
 [gallery w=400 h=200]
 pictures/gloomspite/rockgut-troggoths/01.jpg
-[/gallery]
-[gallery w=170 h=200]
 pictures/gloomspite/rockgut-troggoths/02.jpg
 pictures/gloomspite/rockgut-troggoths/03.jpg
+[/gallery]
+[gallery w=170 h=200]
 pictures/gloomspite/rockgut-troggoths/04.jpg
 pictures/gloomspite/rockgut-troggoths/05.jpg
 pictures/gloomspite/rockgut-troggoths/06.jpg
@@ -31,15 +31,20 @@ pictures/gloomspite/rockgut-troggoths/17.jpg
 pictures/gloomspite/rockgut-troggoths/18.jpg
 pictures/gloomspite/rockgut-troggoths/19.jpg
 pictures/gloomspite/rockgut-troggoths/20.jpg
+pictures/gloomspite/rockgut-troggoths/21.jpg
 [/gallery]
 [gallery w=200 h=200]
-pictures/gloomspite/rockgut-troggoths/21.jpg
 pictures/gloomspite/rockgut-troggoths/22.jpg
 pictures/gloomspite/rockgut-troggoths/23.jpg
 pictures/gloomspite/rockgut-troggoths/24.jpg
 pictures/gloomspite/rockgut-troggoths/25.jpg
 pictures/gloomspite/rockgut-troggoths/26.jpg
 pictures/gloomspite/rockgut-troggoths/27.jpg
+pictures/gloomspite/rockgut-troggoths/28.jpg
+pictures/gloomspite/rockgut-troggoths/29.jpg
+pictures/gloomspite/rockgut-troggoths/30.jpg
+pictures/gloomspite/rockgut-troggoths/31.jpg
+pictures/gloomspite/rockgut-troggoths/32.jpg
 [/gallery]
 
 [paints title="Peau Troll"]

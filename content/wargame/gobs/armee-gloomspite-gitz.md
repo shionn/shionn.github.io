@@ -14,10 +14,10 @@ Voici mes trolls de pierre. Ils proviennent de la boite Dawnbringers qui contien
 
 [gallery w=400 h=200]
 pictures/gloomspite/rockgut-troggoths/01.jpg
-[/gallery]
-[gallery w=170 h=200]
 pictures/gloomspite/rockgut-troggoths/02.jpg
 pictures/gloomspite/rockgut-troggoths/03.jpg
+[/gallery]
+[gallery w=170 h=200]
 pictures/gloomspite/rockgut-troggoths/04.jpg
 pictures/gloomspite/rockgut-troggoths/05.jpg
 pictures/gloomspite/rockgut-troggoths/06.jpg
@@ -35,15 +35,20 @@ pictures/gloomspite/rockgut-troggoths/17.jpg
 pictures/gloomspite/rockgut-troggoths/18.jpg
 pictures/gloomspite/rockgut-troggoths/19.jpg
 pictures/gloomspite/rockgut-troggoths/20.jpg
+pictures/gloomspite/rockgut-troggoths/21.jpg
 [/gallery]
 [gallery w=200 h=200]
-pictures/gloomspite/rockgut-troggoths/21.jpg
 pictures/gloomspite/rockgut-troggoths/22.jpg
 pictures/gloomspite/rockgut-troggoths/23.jpg
 pictures/gloomspite/rockgut-troggoths/24.jpg
 pictures/gloomspite/rockgut-troggoths/25.jpg
 pictures/gloomspite/rockgut-troggoths/26.jpg
 pictures/gloomspite/rockgut-troggoths/27.jpg
+pictures/gloomspite/rockgut-troggoths/28.jpg
+pictures/gloomspite/rockgut-troggoths/29.jpg
+pictures/gloomspite/rockgut-troggoths/30.jpg
+pictures/gloomspite/rockgut-troggoths/31.jpg
+pictures/gloomspite/rockgut-troggoths/32.jpg
 [/gallery]
 
 ## Recette Peinture
@@ -85,6 +90,14 @@ Ombrage	72112
 Rehaut	72008
 Rehaut	72110
 Rehaut	72001
+[/paints]
+
+[paints title="Jaune"]
+Base	72038
+Éclaircissement	72007
+Éclaircissement	72006
+Éclaircissement	72005
+Rehaut	72109
 [/paints]
 
 [paints title="Peau Gobelin"]
