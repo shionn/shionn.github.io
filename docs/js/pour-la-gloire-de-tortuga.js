@@ -311,6 +311,7 @@ q(function() {
 			.progress("26/01/2025", shionn, 27, "Gobelin de la Nuit", _SMALL)
 			.addBadge("26/01/2025", shionn, 9)
 			.progress("27/01/2025", tony, 1, "Cauchemar", _SMALL)
+			.progress("28/01/2025", tony, 1, "Gandalf", _SMALL)
 			.render();
 
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
