@@ -319,6 +319,7 @@ q(function() {
 	let q6 = new _quest("quest-6", "Collecter des vivres", "Peindre 15 figurines", 15)
 		.progress("31/01/2025", whisp, 1, "Le fermier d'Heavenrir", _SMALL)
 		.progress("31/01/2025", phylios, 1, "Golem", _SMALL)
+		.progress("31/01/2025", angest, 1, "Hibours des neiges", _MEDIUM)
 		.render();
 			
 			
