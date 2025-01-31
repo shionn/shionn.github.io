@@ -98,6 +98,11 @@ Construction de quelques baraquements pour rester à l'abri du froid et de la pl
 
 <div id="quest-5"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map06.png
+[/gallery]
+
+
 ### Jour 10 Excursion en foret pour collecter du Bois 
 
 On doit reconstruire Tortuga, pour cela il nous faudra apporter du bois pour commencer à reconstruire la Taverne des Pirates, le Port etc...
