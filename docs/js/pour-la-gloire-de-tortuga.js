@@ -316,7 +316,12 @@ q(function() {
 			.addBadge("31/01/2025", whisp, 0)
 			.render();
 
+	let q6 = new _quest("quest-6", "Collecter des vivres", "Peindre 15 figurines", 15)
+		.progress("31/01/2025", whisp, 1, "Le fermier d'Heavenrir", _SMALL)
+		.render();
+			
+			
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5]);
+	_renderQuests([q1, q2, q3, q4, q5, q6]);
 
 });

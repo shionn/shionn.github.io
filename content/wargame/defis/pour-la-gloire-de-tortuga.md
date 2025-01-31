@@ -92,6 +92,12 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 31 Collecte de Vivres
+
+Ohé Pirates!! Vous avez bien travaillés nous avons un Ponton tout neuf et des Baraquements! Il nous faut reprendre des forces pour la suite! 15 Ressources seront nécessaires.
+
+<div id="quest-6"></div>
+
 ### Jour 26 Construction des Baraquements
 
 Construction de quelques baraquements pour rester à l'abri du froid et de la pluie
