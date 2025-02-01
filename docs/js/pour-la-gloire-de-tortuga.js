@@ -320,6 +320,7 @@ q(function() {
 		.progress("31/01/2025", whisp, 1, "Le fermier d'Heavenrir", _SMALL)
 		.progress("31/01/2025", phylios, 1, "Golem", _SMALL)
 		.progress("31/01/2025", angest, 1, "Hibours des neiges", _MEDIUM)
+		.progress("01/02/2025", whisp, 1, "Géant de Roi Lugubre", _BIG)
 		.render();
 			
 			
