@@ -132,6 +132,15 @@ Base	72120
 Rehaut	72001
 [/paints]
 
+[paints title="Peau Trugg"]
+Base	72108
+Ombrage	72410
+Éclaircissement	72107
+Éclaircissement	72100
+Rehaut	72003
+Glacie détails	72419
+[/paints]
+
 [paints title="Robe du Gobelin"]
 Base	72016
 Ombrage	72116
