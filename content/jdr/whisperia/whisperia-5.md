@@ -1,5 +1,5 @@
 	
-Whisperia est une campagne de JDR sur DnD organisé par Whisp et RoiLugubre sur Twitch et Discord. 
+Whisperia est une campagne de JDR sur DnD organisée par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
 ## Rurik Taillepierre.
@@ -27,32 +27,37 @@ Cha	9	-1	Négocier
 Niveau	2
 Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
 Armure	Broigne(+14)	CA : 14
-Maitrise	+2	???
+Maîtrise	+2	???
 Alignement	Loyal Neutre
 Passif	Second souffle	1 fois par jour, +1D10 pv.
 Passif	Fougue	1 fois par jour, attaquer une seconde fois.
-PV	22/22	 
+PV	15/22	 
 Or	181po	 
-Richesse	1 rubi (20po), 2 jaspe & 1 pierre de lune (150po), 2 rubi jaunes (~20po)
+Richesse	1 rubi	~20po
+	2 jaspes & 1 pierre de lune	~150po,
+	2 rubis jaunes	~20po
 [/table]
 
 ## Précédemment...
 
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
-et nous nous somme retrouvé dans une prison dont nous avons réussi à nous échappé, nous avons combattu quelques Orcs et Trolls. 
+et nous nous somme retrouvé dans une prison dont nous avons réussi à nous échapper. Nous avons combattu quelques Orcs et Trolls. 
 Nous sommes toujours dans le donjon de nos ravisseurs, nous ne sommes pas en sécurité. 
 
-Nous avons trouver un perchemin, il nous faut refouiller le bureau.
+Le paladin est tombé au combat ! Nous sommes toujours dans le donjon de nos ravisseurs, nous ne sommes pas en sécurité. 
 
 Toutes nos aventures dans les articles précédent :
 * [Évasion d'une gaule](2024/whisperia-1-evasion-d-une-gaule.html). 
 * [Des orcs](2024/whisperia-2-orcs-et-chaussette.html). 
+* [Zombies, coffre et rubis](2025/whisperia-3-zombis-coffres-rubis.html). 
 
 ## Et maintenant la suite
 
 Cette partie s'est déroulée le 25 Janvier 2025. Dont voici le replay :
 
 TODO insertion youtube
+
+*Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
 ### Deux bureau
 
@@ -97,7 +102,12 @@ Peverell tombe au combat et nous venons a bout du spectre. La partie s'acheve ic
 
 ## Pour conclure 
 
-J'ai gagné des pierres précieuse, je fini à 15/22 pv.
+J'ai gagné des pierres précieuses, on as tué un genre de liche, je fini à 15/22 pv.
+
+[gallery]
+pictures/jdr/whisperia/024.jpg
+[/gallery]
+
 
 
 

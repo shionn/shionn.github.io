@@ -40,7 +40,7 @@ Je commence la partie avec 13 pv.
 [table title="Autre" cols="Cat,Valeur,Description" class="pyjama"]
 Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
 Armure	Broigne(+14)	CA : 14
-Maitrise	+2	???
+Maîtrise	+2	???
 Alignement	Loyal Neutre	 
 Passif	Second souffle	1 fois par jour, +1D10 pv.
 PV	13/13	 
@@ -76,6 +76,8 @@ Rurik Taillepierre	Guerrier	Nain	Nul	Moi-même
 Cette partie s'est déroulée le 23 novembre 2024. Dont voici le replay : 
 
 [youtube video="Xvdr7lCRLm0?si=s0h6jTRLEWh5Ci4p"/]
+
+*Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
 ### Introduction
 

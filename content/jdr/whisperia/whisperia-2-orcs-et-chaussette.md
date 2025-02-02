@@ -47,6 +47,8 @@ Cette partie s'est déroulée le 14 décembre 2024. Dont voici le replay :
 
 [youtube video="U6zcgVMq1Uo?si=zvrC6wG30Dfsh-4m"/]
 
+*Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
+
 Nous commençons par faire le point sur notre situation, 
 Nous barricadons la porte dont nous ne connaissons pas ce qu'il y a derrière avec les cadavres de orc et du troll. Ceci dans le but de nous reposer.
 Nous récupérons nos pv et nos pouvoir. Je repasse à 13 et mon second souffle. 

@@ -1,5 +1,5 @@
 
-Whisperia est une campagne de JDR sur DnD organisé par Whisp et RoiLugubre sur Twitch et Discord. 
+Whisperia est une campagne de JDR sur DnD organisé par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
 ## Rurik Taillepierre.
@@ -27,7 +27,7 @@ Cha	9	-1	Négocier
 Niveau	2
 Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
 Armure	Broigne(+14)	CA : 14
-Maitrise	+2	???
+Maîtrise	+2	???
 Alignement	Loyal Neutre
 Passif	Second souffle	1 fois par jour, +1D10 pv.
 Passif	Fougue	1 fois par jour, attaquer une seconde fois.
@@ -52,6 +52,8 @@ Toutes nos aventures dans les articles précédent :
 Cette partie s'est déroulée le 11 janvier 2025. Dont voici le replay :
 
 [youtube video="VqNEBr0OdMY?si=ZUxs6uw-m6tzIdfQ"/]
+
+*Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
 ### Fouillage
 
