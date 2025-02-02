@@ -1,7 +1,13 @@
 
+Voici mon armée gloomspite gitz. C'est une armée qui me fait de l'oeil depuis longtemps. 
+Fin 2023, c'est la sortie de Trugg avec la boite eophore qui m'a lancé dessus. 
+Puis avec l'abonnement **Stormbringer** et quelque numéro que j'ai acheter en double j'ai eu de quoi faire une armée.Glacie
+
+Cette armée a été proposé au CDA organisé sur le Discord **Les Duelistes**.
+
 ## Troggoths
 
-J'ai volontairement pas mal de troll, l'idée que j'ai est de pouvoir jouer full troll en petit format. 
+J'ai volontairement pas mal de troll, l'idée que j'ai, est de pouvoir jouer full troll en petit format. 
 C'est clairement rendu possible grâce à Trugg.
 
 ### Rockgut Troggoths
@@ -50,6 +56,8 @@ pictures/gloomspite/rockgut-troggoths/30.jpg
 pictures/gloomspite/rockgut-troggoths/31.jpg
 pictures/gloomspite/rockgut-troggoths/32.jpg
 [/gallery]
+
+
 
 ## Recette Peinture
 

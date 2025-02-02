@@ -27,7 +27,7 @@ pictures/dark-elves/assassin/03.jpg
 [/gallery]
 [/after]
 
-[after date="2025/03/24"]
+[after date="2025/03/31"]
 ### Malus Dark Blade
 
 Voici mon malus dark blade en métal.
@@ -273,7 +273,6 @@ pictures/dark-elves/cavalier-sg-froid/08.jpg
 
 [/after]
 
-[after date="2025/01/29"]
 ### Char à Sang Froid
 
 Voici mon char à sang froid en métal et plastique, en effet les roues et sang froid sont en plastique.
@@ -290,7 +289,6 @@ pictures/dark-elves/char-sg-froid/3.jpg
 pictures/dark-elves/char-sg-froid/4.jpg
 pictures/dark-elves/char-sg-froid/5.jpg
 [/gallery]
-[/after]
 
 ### Exécuteurs de Har Ganeth
 

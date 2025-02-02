@@ -35,9 +35,17 @@
 			</div>
 		</div>
 		<div class="main" th:case="'draft'">
+			<p>Un article sur deux de peinture || Cycle visé : gob > autre peinture > Non peinture. || On intercalle whisperia quand il faut tans pis.</p>
 			<h2>Programmation auto :</h2>
 			<ul>
 				<li th:each="article : ${site.autoPublishedDrafts}">
+					<a th:text="${article.title}" th:href="${article.url}"></a>
+					<th:block th:text="${article.formatedDate}"/>
+				</li>
+			</ul>
+			<h2>Publié Récemment :</h2>
+			<ul>
+				<li th:each="article : ${site.getHomePageArticles(0)}">
 					<a th:text="${article.title}" th:href="${article.url}"></a>
 					<th:block th:text="${article.formatedDate}"/>
 				</li>
