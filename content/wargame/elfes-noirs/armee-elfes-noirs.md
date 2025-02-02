@@ -214,7 +214,7 @@ Base	72045
 Rehaut	72039
 [/paints]
 
-[after date="2025/03/06"]
+[after date="2025/03/07"]
 ### Lanciers
 
 Voici mon premier pack de 20 guerrier elfe noir en plastique. 

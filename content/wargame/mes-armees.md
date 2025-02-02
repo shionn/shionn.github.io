@@ -8,7 +8,7 @@ Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes 
 - [Nains (Citée de Simar)](2024/armee-naine-cos.html)
 - [Nighthaunt](2023/armee-nighthaunt.html)
 - [Skaven](2023/armee-skaven.html)
-[after date="2025/02/25"]
+[after date="2025/02/27"]
 - [Gloomspite Gitz](2025/armee-gloomspite-gitz/html)
 [/after]
 
