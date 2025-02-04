@@ -3,7 +3,7 @@
 ## List de framework CSS :
 
 - [Modern Normalize](https://github.com/sindresorhus/modern-normalize)
-- [MVP, _class-less_](https://andybrewer.github.io/mvp/) Ajouter ~&lt;html color-mode="user"&gt;~ pour le dark theme
+- [MVP, _class-less_](https://andybrewer.github.io/mvp/) Ajouter `&lt;html color-mode="user"&gt;` pour le dark theme
 - [Simple, _class-less_](https://simplecss.org/)
 - [Pure](https://pure-css.github.io/)
 - [Nes, _8bit_](https://nostalgic-css.github.io/NES.css/)
