@@ -166,6 +166,14 @@ Brossage	72032
 Glacie	24-08
 [/paints]
 
+[paints title="Stell de Trugg"]
+Base	72062
+Brossage	72063
+Brossage	72061
+Rehaut	72034
+Glacie (Terre)	72419
+[/paints]
+
 [paints title="Toge des Troll"]
 Base	72145
 Ombrage	24-08
