@@ -323,6 +323,7 @@ q(function() {
 		.progress("01/02/2025", whisp, 1, "Géant de Roi Lugubre", _BIG)
 		.progress("02/02/2025", angest, 1, "Slaad guerrier", _SMALL)
 		.progress("05/02/2025", tony, 1, "Lieutenant Primaris", _MEDIUM)
+		.progress("05/02/2025", angest, 1, "SM Primaris Infiltrator", _SMALL)
 		.render();
 			
 			
