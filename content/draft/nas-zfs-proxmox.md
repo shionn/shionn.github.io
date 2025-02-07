@@ -66,6 +66,7 @@ Il faut comprendre cette ligne **u 0 100000 1000** comme :
 
 Ainci on peu comprendre la premiere ligne comme : 
 > mapper les 1000 idenitifants de 0 à 999 du container vers 100000 à 100999 de l'hôte. 
+
 Puis la seconde ligne comme :
 > mapper les 100 identifiants de 1000 à 1099 du container vers 1000 à 1099 de l'hôte.
 
