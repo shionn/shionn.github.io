@@ -236,14 +236,17 @@ Dans beaucoup de cas cela ne nous convient pas. Mais c'est possible de twikker c
 <li>en partant de 1000 je dois mapper 100 identifiants vers 1000 à 1100</li>
 <li>en partant de 1100 je dois mapper 64435 identifiants vers 101100 à 165535</li>
 </ul>
+<p>Mais pour les group je soihaite également mapper le groupe 100 (users) vers 100 donc je le prendre en compte dans le mapping.</p>
 <table class=""><thead><tr><th colspan="2"></th></tr><tr><th>containeur</th><th>hôte</th></tr></thead><tbody><tr><td>0..999</td><td>100000..100999</td></tr><tr><td>1000..1099</td><td>1000..1099</td></tr><tr><td>1100..65535</td><td>101100..165535</td></tr></tbody></table>
 <p>Pour ce faire j'édite de nouveau  <code>/etc/pve/lxc/121.conf</code> et j'ajoute :</p>
 <pre class="bash"><code class="bash">lxc.idmap: u 0 100000 1000
-           g 0 100000 1000
-           u 1000 1000 100
-           g 1000 1000 100
-           u 1100 101100 64435
-           g 1100 101100 64435
+lxc.idmap: u 1000 1000 100
+lxc.idmap: u 1100 101100 64435
+lxc.idmap: g 0 100000 100
+lxc.idmap: g 100 100 1
+lxc.idmap: g 101 100101 899
+lxc.idmap: g 1000 1000 100
+lxc.idmap: g 1100 101100 64435
 </code></pre>
 <p>Il faut comprendre cette ligne <strong>u 0 100000 1000</strong> comme :</p>
 <ul>
@@ -259,6 +262,13 @@ Dans beaucoup de cas cela ne nous convient pas. Mais c'est possible de twikker c
 <p>Puis la seconde ligne comme :</p>
 <blockquote>
 <p>mapper les 100 identifiants de 1000 à 1099 du container vers 1000 à 1099 de l'hôte.</p>
+</blockquote>
+<p>Mais ca ne suffit pas il faut permttre un tel mapping cela se fait dans <code>/etc/subuid</code> et `/etc/subg en ajoutant :</p>
+<pre class="bash"><code class="bash">root:1000:100
+</code></pre>
+<p>Ce qui en gros signifit :</p>
+<blockquote>
+<p>permettre le mapping de 100 idifiant à partir de 1000</p>
 </blockquote>
 <h2>Source</h2>
 <ul>
