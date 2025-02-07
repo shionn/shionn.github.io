@@ -42,6 +42,8 @@ Pour ce conteneur (le nas), je souhaite que les id utilisateurs soit les mêmes 
 - en partant de 1000 je dois mapper 100 identifiants vers 1000 à 1100
 - en partant de 1100 je dois mapper 64435 identifiants vers 101100 à 165535
 
+Mais pour les group je soihaite également mapper le groupe 100 (users) vers 100 donc je le prendre en compte dans le mapping. 
+
 [table cols="containeur,hôte"]
 0..999	100000..100999
 1000..1099	1000..1099
@@ -53,7 +55,9 @@ Pour ce faire j'édite de nouveau  `/etc/pve/lxc/121.conf` et j'ajoute :
 lxc.idmap: u 0 100000 1000
 lxc.idmap: u 1000 1000 100
 lxc.idmap: u 1100 101100 64435
-lxc.idmap: g 0 100000 1000
+lxc.idmap: g 0 100000 100
+lxc.idmap: g 100 100 1
+lxc.idmap: g 101 100101 899
 lxc.idmap: g 1000 1000 100
 lxc.idmap: g 1100 101100 64435
 ~~~
