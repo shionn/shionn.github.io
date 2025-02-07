@@ -85,3 +85,4 @@ Ce qui en gros signifit :
 
 * https://www.youtube.com/watch?si=uNb3HVNwdK8xJMQQ&v=I7nfSCNKeck&feature=youtu.be
 * https://itsembedded.com/sysadmin/proxmox_bind_unprivileged_lxc/
+* https://forum.proxmox.com/threads/newuidmap-uid-range-1100-1101-1100-1101-not-allowed.73414/
