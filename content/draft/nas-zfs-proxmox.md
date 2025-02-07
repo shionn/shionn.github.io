@@ -51,11 +51,11 @@ Pour ce conteneur (le nas), je souhaite que les id utilisateurs soit les mêmes 
 Pour ce faire j'édite de nouveau  `/etc/pve/lxc/121.conf` et j'ajoute : 
 ~~~bash
 lxc.idmap: u 0 100000 1000
-           g 0 100000 1000
-           u 1000 1000 100
-           g 1000 1000 100
-           u 1100 101100 64435
-           g 1100 101100 64435
+lxc.idmap: u 1000 1000 100
+lxc.idmap: u 1100 101100 64435
+lxc.idmap: g 0 100000 1000
+lxc.idmap: g 1000 1000 100
+lxc.idmap: g 1100 101100 64435
 ~~~
 
 Il faut comprendre cette ligne **u 0 100000 1000** comme :
@@ -70,7 +70,12 @@ Ainci on peu comprendre la premiere ligne comme :
 Puis la seconde ligne comme :
 > mapper les 100 identifiants de 1000 à 1099 du container vers 1000 à 1099 de l'hôte.
 
-
+Mais ca ne suffit pas il faut permttre un tel mapping cela se fait dans `/etc/subuid` et `/etc/subg en ajoutant : 
+~~~bash
+root:1000:100
+~~~
+Ce qui en gros signifit : 
+> permettre le mapping de 100 idifiant à partir de 1000
 
 ## Source
 
