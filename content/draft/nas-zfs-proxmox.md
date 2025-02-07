@@ -21,12 +21,18 @@ Inserer screan :
 
 ### Partage du pool
 
-
+~~~bash
+mp0: /mnt/my-data-pool,mp=/mnt/host-data
+~~~
 
 ### Mapping des Users (Optionnel)
 
 Par defaut quand un disque est monté dans un container les id utilisateurs et groups ne sont pas les mêmes. Il faut ajouter 100000 à l'id de l'utisateur du guest pour avoir l'id de l'host. En gros pour simplifier `id guest=id host + 100 000`. 
-Dans beaucoup de cas cela ne nous convient pas. Dans mon cas je souhaites que les id utilisateur soit le même. Dans mon cas je souhaites que les id superieur à 1000 soit les meme entre le guest et l'host.
+Dans beaucoup de cas cela ne nous convient pas. Mais c'est possible de twikker cela.  Ainsi admettons que j'ai un conteneur qui se charge du telechargement de _distribution linux_ puisse les mettre à disposition d'un autre conteneur je peu m'assurer que les droit utilisateur soit toujours les bons. 
+
+Pour ce conteneur (le nas), je souhaite que les id utilisateurs soit le même. C'est à dire que les id de l'utilisateur 1000+ soit les meme sur proxmox que sur le nas. La suptilité c'est qu'il faut faire un mapping complet : 
+
+
 
 
 
