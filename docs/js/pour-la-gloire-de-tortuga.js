@@ -325,6 +325,7 @@ q(function() {
 		.progress("05/02/2025", tony, 1, "Lieutenant Primaris", _MEDIUM)
 		.progress("05/02/2025", angest, 1, "SM Primaris Infiltrator", _SMALL)
 		.progress("08/02/2025", angest, 1, "SM Infiltrator Halloween", _SMALL)
+		.progress("08/02/2025", anuabi, 1, "Dragon défi janvier", _MEDIUM)
 		.render();
 			
 			
