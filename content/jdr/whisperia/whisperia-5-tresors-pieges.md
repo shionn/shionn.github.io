@@ -50,7 +50,7 @@ Toutes nos aventures dans les articles précédent :
 * [Évasion d'une gaule](2024/whisperia-1-evasion-d-une-gaule.html). 
 * [Des orcs](2024/whisperia-2-orcs-et-chaussette.html). 
 * [Zombies, coffre et rubis](2025/whisperia-3-zombis-coffres-rubis.html). 
-* [Bureau et Liche](2025/2025/whisperia-4-bureau-liche.html). 
+* [Bureau et Liche](2025/whisperia-4-bureau-liche.html). 
 
 ## Et maintenant la suite
 
