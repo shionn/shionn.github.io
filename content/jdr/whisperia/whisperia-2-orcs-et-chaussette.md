@@ -151,9 +151,9 @@ La partie s'achève ici sur une :
 
 J'obtiens le passif fougue, une fois par jour je peu attaquer une deuxième fois.
 
-Je gagne 9 pv, je passe à 22pv.
+Je gagne 10 pv, je passe à 23pv.
 
-Je fini avec 181 po, et 21/22 pv.
+Je fini avec 181 po, et 22/23 pv.
 
 [gallery]
 pictures/jdr/whisperia/023.png
