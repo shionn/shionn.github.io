@@ -239,21 +239,23 @@ q(function() {
 		new _badge("Vague", "icon23.png", "Envoyer 20 figurine lors de la même quête"), // 9 : OK
 		new _badge("Gargantuesque", "icon02.png", "Peindre une très grosse figurine"), // 10
 		new _badge("Uzi", "icon11.png", "Faire 10 contributions à la même quête"), // 11 ra-cannon-shot 
-		new _badge("Collectionneur", "icon14.png", "Obtenir 7 badges"), // 12
-		new _badge("Gatha'em all", "icon04.png", "Obtenir tous les badge"), // 13
+		new _badge("Ten", "icon05.png", "Participer à 10 quête différente"), // 12 
+		new _badge("Twenty", "icon08.png", "Participer à 20 quête différente"), // 13 
+		new _badge("Collectionneur", "icon14.png", "Obtenir 7 badges"), // 14
+		new _badge("Gatha'em all", "icon04.png", "Obtenir tous les badge"), // 15
 	);
 
 	
-	let angest = new _player("Angest", "pirate12.png");
+	let angest = new _player("Angest", "pirate12.png"); // 0 5 6 7
 	let anuabi = new _player("Anuabi", "pirate12.png");
 	let faran = new _player("Faran", "pirate16.png");
 	let hyasull = new _player("Hyasull", "pirate13.png");
 	let phylios = new _player("Phylios", "pirate07.png");
 	let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
-	let shionn = new _player("Shionn", "pirate02.png");
+	let shionn = new _player("Shionn", "pirate02.png"); // 0 1 (2) 9
 	let tupad = new _player("Tupad_", "pirate07.png");
-	let tony = new _player("Tony", "pirate14.png");
-	let whisp = new _player("Whisp", "pirate00.png");
+	let tony = new _player("Tony", "pirate14.png"); // 0 1 8 9
+	let whisp = new _player("Whisp", "pirate00.png"); // 0
 	whisp.captain = true;
 
 	let q1 = new _quest("quest-1", "Collecter des vivres", "Peindre 10 figurines", 10)

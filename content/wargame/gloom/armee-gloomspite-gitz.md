@@ -111,6 +111,7 @@ Rehaut	72109
 [paints title="Peau Gobelin"]
 Base	72123
 Ombrage	72028
+Éclaircissement	72029
 Éclaircissement	72032
 Rehaut	72122
 Glacie détail	72409
@@ -154,7 +155,7 @@ Tapotage	72028
 Tapotage	72029
 Tapotage	72032
 Glacie	24-08
-Glacie	72412
+Glacie	72414
 Vernis	26235
 [/paints]
 
