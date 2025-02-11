@@ -93,7 +93,7 @@ Les échanges s'enchaînent, Ariana se cache sous l’autel et appelle anuabi. A
 
 ### Une seconde Chaussette ! 
 
-Je gagne 9 pv je passe à 20/32. Je deviens Champion, et dorenavant je fais un critique sur 19 et 20. A partir de maintenant nous utilisonserons la maitrise. C’est à dire que j’ai +2 pour touché et +2 sur mes jet de constitusion.
+Je gagne 9 pv je passe à 24/31. Je deviens Champion, et dorénavant les 19-20 font des critiques. A partir de maintenant nous utiliserons la maîtrise. C'est-à dire que j’ai +2 pour toucher et +2 sur mes jet de constitution.
 
 [gallery]
 pictures/jdr/whisperia/024.jpg
