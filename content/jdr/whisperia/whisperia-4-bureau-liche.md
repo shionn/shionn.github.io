@@ -31,7 +31,7 @@ Maîtrise	+2	???
 Alignement	Loyal Neutre
 Passif	Second souffle	1 fois par jour, +1D10 pv.
 	Fougue	1 fois par jour, attaquer une seconde fois.
-PV	22/22	 
+PV	23/23	
 Or	181po	 
 Richesse	1 rubi	~20po
 [/table]
@@ -125,14 +125,14 @@ Les yeux des gargouilles sont des rubis jaunes, les autres ne semble pas intére
 
 Nous entrons dans une nouvelle pièce remplie de trésor et d'un sarcophage, je n'arrive pas à me retenir et je me jette sur le trésor, un spectre sort du sarcophage et se jette sur moi, j'arrive à esquiver son attaque.
 
-Il m'attaque une seconde fois et je prend un coup (17/22).
+Il m'attaque une seconde fois et je prend un coup (18/23).
 
 [gallery w=300 h=250]
 pictures/jdr/whisperia/053.png
 pictures/jdr/whisperia/054.png
 [/gallery]
 
-Il invoque 3 squelettes et le combat s'engage. Un squelette me tape et je prend un coup (15/22).
+Il invoque 3 squelettes et le combat s'engage. Un squelette me tape et je prend un coup (16/23).
 Je m'acharne sur le même squelette que mes ami, et Ariana envoie un gros sort de givre sur tout le monde achevant le squelette devant moi.
 
 [gallery w=300 h=250]
@@ -154,7 +154,7 @@ pictures/jdr/whisperia/058.png
 
 ## Pour conclure 
 
-J'ai gagné des pierres précieuses, on as tué un genre de liche, je fini à 15/22 pv. Et le paladin semble mal barré...
+J'ai gagné des pierres précieuses, on as tué un genre de liche, je fini à 16/23 pv. Et le paladin semble mal barré...
 
 [gallery]
 pictures/jdr/whisperia/043.jpg
