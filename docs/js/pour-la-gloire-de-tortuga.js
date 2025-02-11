@@ -240,7 +240,7 @@ q(function() {
 		new _badge("Gargantuesque", "icon02.png", "Peindre une très grosse figurine"), // 10
 		new _badge("Uzi", "icon11.png", "Faire 10 contributions à la même quête"), // 11 ra-cannon-shot 
 		new _badge("Ten", "icon05.png", "Participer à 10 quête différente"), // 12 
-		new _badge("Twenty", "icon08.png", "Participer à 20 quête différente"), // 13 
+		new _badge("Twenty", "icon08&.png", "Participer à 20 quête différente"), // 13 
 		new _badge("Collectionneur", "icon14.png", "Obtenir 7 badges"), // 14
 		new _badge("Gatha'em all", "icon04.png", "Obtenir tous les badge"), // 15
 	);
@@ -328,6 +328,7 @@ q(function() {
 		.progress("05/02/2025", angest, 1, "SM Primaris Infiltrator", _SMALL)
 		.progress("08/02/2025", angest, 1, "SM Infiltrator Halloween", _SMALL)
 		.progress("08/02/2025", anuabi, 1, "Dragon défi janvier", _MEDIUM)
+		.progress("11/02/2025", angest, 1, "mini cyclope", _SMALL)
 		.render();
 			
 			
