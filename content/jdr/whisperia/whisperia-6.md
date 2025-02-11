@@ -22,7 +22,7 @@ Cha	9	-1	Négocier
 [/table]
 
 [table title="Autre" cols="Cat,Valeur,Description" class="pyjama"]
-Niveau	2
+Niveau	3
 Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
 Armure	Broigne(+14)	CA : 14
 	Bouclier(+2)	CA : 16
