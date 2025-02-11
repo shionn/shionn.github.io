@@ -30,7 +30,7 @@ Maîtrise	+2	???
 Alignement	Loyal Neutre
 Passif	Second souffle	1 fois par jour, +1D10 pv.
 Passif	Fougue	1 fois par jour, attaquer une seconde fois.
-PV	15/22	 
+PV	16/23	 
 Or	181po	 
 Richesse	1 rubi	~20po
 	2 jaspes & 1 pierre de lune	~150po,
@@ -62,15 +62,38 @@ Cette partie s'est déroulée le 8 fevrier 2025. Dont voici le replay :
 
 ### Fouille
 
+Peverell est mort, je récupère son bouclier. qui me donne +2 en CA. Les autres se répartissent son or je passe mon tour.
 
+Rahanis et Anuabi remarquent que le corps de Peverell s’enfonce dans le sol. Moi et Rahanis essayons de sortir le corp de la pièce mais il est trop lourd et son corps disparaît.
 
+Je fouille le trésor à la recherche de pierres, je trouve 5 rubis. Nous trouvons 50 po chacun dans le trésor, nous ne pouvons pas en prendre plus. Je trouve un trousseau avec 2 clés relativement basique.
 
+> deux clef ? comme deux coffre ?
 
+Nous retournons dans la pièce cachée des deux coffres et j’y essaye mes deux clefs. J’ouvre le coffre à côté de Anuabi. J’y trouve un sac sans fond d’un poids de 10kg me permettant de transporter jusqu’à 300kg. J’y trouve un anneau de protection qui donne +1 en CA. Le partage est important pour un nain, je donne le sac à Rahanis et je garde l’anneau de protection.
 
+> j'ai fais un cadeau à un elfe, nous allons voir si ce peuple sais être reconnaissant.
 
+### Porte et Pieges
 
+Nous retournons à la porte du bout du couloir à côté du bureau. 
+J’essaye de l’ouvrir et je n’y arrive pas, Anuabi essaye de la crocheté et elle nous explose à la tête. Moi et mes amis prenons 4 pv (12/23). La porte est désintégrée.
 
+Nous arrivons dans une pièce avec un livre sur un autel. Il y a une porte sur notre gauche et notre droite. Ariana pense que le livre est un livre de prière avec des sorts à la fin. Elle prend le livre et un clic se fait entendre. 
 
+Un voile commence à envahir la pièce, j'essaie de fuir par la porte la plus proche mais elle est fermée. Ariana lance une orb contre la porte et l’explose mais la sortie reste fermée. Le brouillard semble être empoisonné.
+
+J'essaie de remettre le livre sur l’autel mais rien n’y fait. Le brouillard est de plus en plus épais. Mes compagnons souffrent. Et soudain le spectre **Aménalion** revient. 
+
+### Porte et Pieges
+
+Le combat s’engage. Le spectre arrive a me taper et me fait 1 dégât (11/23).
+
+Les échanges s'enchaînent, Ariana se cache sous l’autel et appelle anuabi. Anuabi est mal en point mais rahanis la soigne. Anuabi rejoint Ariana et trouve le moyen d'arrêter le gaz. Après moult échanges, anuabi arrive à donner le coup de grâce.
+
+### Une seconde Chaussette ! 
+
+Je gagne 9 pv je passe à 20/32. Je deviens Champion, et dorenavant je fais un critique sur 19 et 20. A partir de maintenant nous utilisonserons la maitrise. C’est à dire que j’ai +2 pour touché et +2 sur mes jet de constitusion.
 
 [gallery]
 pictures/jdr/whisperia/024.jpg
