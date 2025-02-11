@@ -43,6 +43,7 @@ Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur plac
 et nous nous sommes retrouvés dans une prison dont nous avons réussi à nous échapper. Nous avons combattu quelques Orcs et Trolls.
 Nous sommes toujours dans le donjon de nos ravisseurs, nous ne sommes pas en sécurité.
 
+Nous avons battu la dernière fois **Aménalion**, le grand prêtre nécromancien de Éla. Nous sommes dans son tombeau.
 Le paladin est tombé au combat ! Nous sommes toujours dans le donjon de nos ravisseurs, nous ne sommes pas en sécurité.
 
 Toutes nos aventures dans les articles précédent :
@@ -55,11 +56,15 @@ Toutes nos aventures dans les articles précédent :
 
 Cette partie s'est déroulée le 8 fevrier 2025. Dont voici le replay :
 
-TODO insertion youtube
+[youtube video="MzbAK9KT9ww?si=TJiWlSTukeCe3oXl"/]
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### 
+### Fouille
+
+
+
+
 
 
 
