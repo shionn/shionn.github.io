@@ -31,7 +31,7 @@ Maîtrise	+2	???
 Alignement	Loyal Neutre
 Passif	Second souffle	1 fois par jour, +1D10 pv.
 Passif	Fougue	1 fois par jour, attaquer une seconde fois.
-PV	21/22	 
+PV	22/23	 
 Or	181po	 
 [/table]
 
