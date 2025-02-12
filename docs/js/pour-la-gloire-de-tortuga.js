@@ -328,9 +328,10 @@ q(function() {
 		.progress("05/02/2025", angest, 1, "SM Primaris Infiltrator", _SMALL)
 		.progress("08/02/2025", angest, 1, "SM Infiltrator Halloween", _SMALL)
 		.progress("08/02/2025", anuabi, 1, "Dragon défi janvier", _MEDIUM)
-		.progress("11/02/2025", angest, 1, "mini cyclope", _SMALL)
+		.progress("11/02/2025", angest, 1, "Mini cyclope", _SMALL)
+		.progress("11/02/2025", angest, 1, "Eliot, Icone du Vide", _SMALL)
 		.render();
-			
+		
 			
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
 	_renderQuests([q1, q2, q3, q4, q5, q6]);
