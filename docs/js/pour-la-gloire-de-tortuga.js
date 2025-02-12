@@ -330,6 +330,7 @@ q(function() {
 		.progress("08/02/2025", anuabi, 1, "Dragon défi janvier", _MEDIUM)
 		.progress("11/02/2025", angest, 1, "Mini cyclope", _SMALL)
 		.progress("11/02/2025", angest, 1, "Eliot, Icone du Vide", _SMALL)
+		.progress("12/02/2025", tony, 1, "Terminator", _MEDIUM)
 		.render();
 		
 			
