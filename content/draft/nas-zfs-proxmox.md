@@ -11,7 +11,8 @@ Mais en désavantage :
 ## Container
 ### Création du pool et dataset ZFS
 
-Ici ce pool est composé de 6 disque acheté d'occasion qui ont servi pour du minage de CHIA. **EVITER** de faire comme moi et ne prenez pas des disques douteux. J'ai acheté sur un coup de tête et mes disque sont des "Machin bidule" et c'est pas bon pour un nas. Dans mon cas mon pool s'appel `ST8000`.
+Ici ce pool est composé de 6 disque acheté d'occasion qui ont servi pour du minage de CHIA. **EVITER** de faire comme moi et ne prenez pas des disques douteux. 
+J'ai acheté sur un coup de tête et mes disque sont des "Machin bidule" et c'est pas bon pour un nas. Dans mon cas mon pool s'appel `ST8000`.
 
 Inserer screen creation ZFS. 
 

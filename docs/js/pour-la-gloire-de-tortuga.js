@@ -333,6 +333,7 @@ q(function() {
 		.progress("11/02/2025", angest, 1, "Eliot, Icone du Vide", _SMALL)
 		.progress("12/02/2025", tony, 1, "Terminator", _MEDIUM)
 		.addBadge("13/02/2025", phylios, 12)
+		.progress("14/02/2025", angest, 1, "Hugo th Huge", _SMALL)
 		.render();
 		
 			
