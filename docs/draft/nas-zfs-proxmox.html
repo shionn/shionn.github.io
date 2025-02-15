@@ -221,66 +221,77 @@ Mais en désavantage :</li>
 </ul>
 <h2>Container</h2>
 <h3>Création du pool et dataset ZFS</h3>
-<p>Ici ce pool est composé de 6 disque acheté d'occasion qui ont servi pour du minage de CHIA. <strong>EVITER</strong> de faire comme moi et ne prenez pas des disques douteux. J'ai acheté sur un coup de tête et mes disque sont des &quot;Machin bidule&quot; et c'est pas bon pour un nas. Dans mon cas mon pool s'appel <code>ST8000</code>.</p>
-<p>Inserer screen creation ZFS.</p>
-<p>Je souhaite faire un dataset <code>data</code> qui prenne toute ma grappe pour cela j'entre la commande : <code>zfs create ST800/data</code></p>
-<h3>Création du container</h3>
-<p>Inserer screan :</p>
+<p>Ici ce pool est composé de 6 disque acheté d'occasion qui ont servi pour du minage de CHIA. <strong>EVITER</strong> de faire comme moi et ne prenez pas des disques douteux.
+J'ai acheté sur un coup de tête et mes disque sont des &quot;SMR&quot; et c'est pas bon pour un nas. Pour cet exemple il s'appel <code>MonPool</code>.</p>
+<p>Je ne suis pas un grand spécialiste de ZFS Mais voici quelques information :</p>
 <ul>
-<li>telechargement de turnkey</li>
-<li>création du container</li>
+<li>ashift : c'est la taille des blocks, parait que c'est super important j'ai lus pas mal de litterature et finalement 12 c'est bien.</li>
+<li>compression : c'est gratuit on active</li>
 </ul>
+<div class="gallery"><a href="pictures/linux/proxmox-zfs-fileserver/01-create-pool.png"><img src="pictures/linux/proxmox-zfs-fileserver/01-create-pool.png"></a></div>
+<p>Je souhaite faire un dataset <code>data</code> qui prenne toute ma grappe pour cela, dans la console de mon serveur proxmox, j'entre la commande : <code>zfs create MonPool/data</code></p>
+<h3>Création du container</h3>
+<p>Ensuite il faut creer le containeur, ici j'utilise tunrkey file server. Ce n'est pas une distrib funky du genre de CasaOS, mais ca fait ce que j'ai besoin partager des dossiers sur mon reseau en Samba ou NFS. Commencons par télécharger la distrib depuis l'interface de proxmox. Dans votre disque proxomox (par défaut local) &gt; CT Tamplates &gt; Templates, faites une rechers <code>turnkey-fileserver</code>.</p>
+<div class="gallery"><a href="pictures/linux/proxmox-zfs-fileserver/02-dl-turnkey-fileserver.png"><img src="pictures/linux/proxmox-zfs-fileserver/02-dl-turnkey-fileserver.png"></a></div>
+<p>Puis on peu passer à la creation du container. il n'y a rien de particulier ici :</p>
+<ul>
+<li>2 coeur et 512M de ram et 8Go sont plus qu'assez.</li>
+<li>containeur non priviligier (par defaut).</li>
+<li>par habitude je désactive la SWAP mais vous pouvez la concerver, c'est peut être une bétise de ma part.</li>
+<li>ipv4 en DHCP et ipV6 en SLAAC, c'est ce qui marche le mieux avec mon router.</li>
+<li>ne pas lancer le container tous de suite, il y a d'autre configuration à faire.</li>
+</ul>
+<div class="gallery"><a href="pictures/linux/proxmox-zfs-fileserver/03-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/03-create-container-250-188.png" width="250" height="188"></a><a href="pictures/linux/proxmox-zfs-fileserver/04-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/04-create-container-250-188.png" width="250" height="188"></a><a href="pictures/linux/proxmox-zfs-fileserver/05-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/05-create-container-250-188.png" width="250" height="188"></a><a href="pictures/linux/proxmox-zfs-fileserver/06-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/06-create-container-250-188.png" width="250" height="188"></a><a href="pictures/linux/proxmox-zfs-fileserver/07-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/07-create-container-250-188.png" width="250" height="188"></a><a href="pictures/linux/proxmox-zfs-fileserver/08-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/08-create-container-250-188.png" width="250" height="188"></a><a href="pictures/linux/proxmox-zfs-fileserver/09-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/09-create-container-250-188.png" width="250" height="188"></a><a href="pictures/linux/proxmox-zfs-fileserver/10-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/10-create-container-250-188.png" width="250" height="188"></a></div>
 <h3>Partage du dataset</h3>
-<p>Je souhaite que le dataset <strong>/ST8000/data</strong> de mon hote soit monté dans mon container turnkey dans le dossier <strong>/mnt/data</strong>.
-Dans mon cas, mon containeur a l'identifiant 121.  Donc j'édite le fichier <code>/etc/pve/lxc/121.conf</code> et j'ajoute cette ligne :</p>
-<pre class="bash"><code class="bash">mp0: /ST800/data,mp=/mnt/data
+<p>Je souhaite que le dataset <strong>/MonPool/data</strong> de mon hote soit monté dans mon container turnkey dans le dossier <strong>/mnt/data</strong>.
+Dans mon cas, mon containeur a l'identifiant 121. Donc j'édite le fichier <code>/etc/pve/lxc/121.conf</code> et j'ajoute cette ligne :</p>
+<pre class="bash"><code class="bash">mp0: /MonPool/data,mp=/mnt/data
 </code></pre>
 <h3>Mapping des Users (Optionnel)</h3>
-<p>Par defaut quand un disque est monté dans un container les id utilisateurs et groups ne sont pas les mêmes. Il faut ajouter 100000 à l'id de l'utisateur du guest pour avoir l'id de l'host. En gros pour simplifier <code>id guest=id host + 100 000</code>.
-Dans beaucoup de cas cela ne nous convient pas. Mais c'est possible de twikker cela. Ainsi admettons que j'ai un conteneur qui se charge du telechargement des <em>distribution linux</em> puisse les mettres à disposition d'un autre conteneur je peu m'assurer que les droit utilisateur soit toujours les bons.</p>
-<p>Pour ce conteneur (le nas), je souhaite que les id utilisateurs soit les mêmes sur sur mon hôte. C'est à dire que les id de l'utilisateur 1000+ soit les meme sur proxmox que sur le nas. La subtilité c'est qu'il faut faire un mapping complet sur les 65535 identifiant user et groupe. Dans cette exemple je vais mapper les id 1000 à 1100. et laisser les autre comme tel. Je dois donc :</p>
+<p>Par defaut quand un disque est monté dans un container les id utilisateurs et groups ne sont pas les mêmes. Il faut ajouter 100000 à l'id de l'utisateur du guest pour avoir l'id de l'host. En gros pour simplifier <code>id guest=id host + 100 000</code>.</p>
+<p>Dans certain cas, notement quand plusieurs containeur accede au meme pool zfs, cela ne nous convient pas. Immaginons un cas hypotethique ou un containeur telechargerai des fichier bitorrent pour les mettre à disposition d'un autre container dans un dossier, ici on sera content d'avoir le même identifiants utilisateur.</p>
+<p>Pour ce conteneur (le nas), je souhaite que les id utilisateurs soit les mêmes sur sur mon hôte et l'invité. C'est à dire que les id de l'utilisateur 1000+ soit les meme sur proxmox que sur le nas. ~La subtilité c'est qu'il faut faire un mapping complet sur les 65535 identifiant user et groupe.~ Dans cette exemple je vais mapper les id 1000 à 3000 qui corresponde au identifiant utilisateur. et laisser les autre comme tel.</p>
+<p>La syntaxe n'est pas évidente à comprendre. Je dois donc :</p>
 <ul>
 <li>en partant de 0 je dois mapper 1000 identifiants vers 100000 à 101000</li>
-<li>en partant de 1000 je dois mapper 100 identifiants vers 1000 à 1100</li>
-<li>en partant de 1100 je dois mapper 64435 identifiants vers 101100 à 165535</li>
+<li>en partant de 1000 je dois mapper 2000 identifiants vers 1000 à 3000</li>
+<li><em>en partant de 3000 je dois mapper 62535 identifiants vers 103000 à 165535. Cela semble finalement optionnel.</em></li>
 </ul>
-<p>Mais pour les group je soihaite également mapper le groupe 100 (users) vers 100 donc je le prendre en compte dans le mapping.</p>
-<table class=""><thead><tr><th colspan="2"></th></tr><tr><th>containeur</th><th>hôte</th></tr></thead><tbody><tr><td>0..999</td><td>100000..100999</td></tr><tr><td>1000..1099</td><td>1000..1099</td></tr><tr><td>1100..65535</td><td>101100..165535</td></tr></tbody></table>
+<p>Pour les groupes c'est pareil à l'exeption du groupe 100 (users) qui doit être mapper vers le groupe 100.</p>
 <p>Pour ce faire j'édite de nouveau  <code>/etc/pve/lxc/121.conf</code> et j'ajoute :</p>
-<pre class="bash"><code class="bash">lxc.idmap: u 0 100000 1000
-lxc.idmap: u 1000 1000 100
-lxc.idmap: u 1100 101100 64435
+<pre class="bash"><code class="bash"># mapper les identifiants utilisateurs 0 à 999 vers 100000 à 100999
+lxc.idmap: u 0 100000 1000
+# mapper les identifiants utilisateurs 1000 à 2999 vers 1000 à 2999
+lxc.idmap: u 1000 1000 2000
+lxc.idmap: u 3000 103000 62535
 lxc.idmap: g 0 100000 100
 lxc.idmap: g 100 100 1
 lxc.idmap: g 101 100101 899
-lxc.idmap: g 1000 1000 100
-lxc.idmap: g 1100 101100 64435
+lxc.idmap: g 1000 1000 2000
+lxc.idmap: g 3000 103000 62535
 </code></pre>
-<p>Il faut comprendre cette ligne <strong>u 0 100000 1000</strong> comme :</p>
+<p>Il faut comprendre cette ligne <strong>u/g 0 100000 1000</strong> comme :</p>
 <ul>
-<li>u : utilisateur</li>
+<li>u/g : utilisateur / group</li>
 <li>0 : à partir de 0 sur le containeur</li>
 <li>100000 : mapper vers 100000 sur l'hôte</li>
-<li>1000 : mapper 1000 identifiant</li>
+<li>1000 : mapper 1000 identifiant donc de 0 à 999</li>
 </ul>
-<p>Ainci on peu comprendre la premiere ligne comme :</p>
-<blockquote>
-<p>mapper les 1000 idenitifants de 0 à 999 du container vers 100000 à 100999 de l'hôte.</p>
-</blockquote>
-<p>Puis la seconde ligne comme :</p>
-<blockquote>
-<p>mapper les 100 identifiants de 1000 à 1099 du container vers 1000 à 1099 de l'hôte.</p>
-</blockquote>
-<p>Mais ca ne suffit pas il faut permttre un tel mapping cela se fait dans <code>/etc/subuid</code> et `/etc/subg en ajoutant :</p>
-<pre class="bash"><code class="bash">root:1000:100
+<p>Mais ca ne suffit pas il faut permttre un tel mapping cela se fait dans <code>/etc/subuid</code> et <code>/etc/subgid</code> en ajoutant :</p>
+<pre class="bash"><code class="bash">root:1000:2000
 </code></pre>
 <p>Ce qui en gros signifit :</p>
 <blockquote>
-<p>permettre le mapping de 100 idifiant à partir de 1000</p>
+<p>Permettre le mapping de 2000 idifiant à partir de 1000.</p>
 </blockquote>
+<h2>Configuration de Turnkey Fileserver.</h2>
+<h3>Premier boot</h3>
+<p>On peu enfin lancer turnkey file server. Lancer le container et connecter vous en SSH ou via le shell de proxmox.</p>
+<p>Au premier boot turnkey file server vous demandera de configurer le mot de passe samba. Je skip les deux étapes suivantes Mais j'applique bien les patchs de sécurités à la derniere étape. Puis reboot mais juste avant cela vous affiche un récap de la configuration.</p>
+<div class="gallery"><a href="pictures/linux/proxmox-zfs-fileserver/11-turnkey-first-boot.png"><img src="pictures/linux/proxmox-zfs-fileserver/11-turnkey-first-boot-200-150.png" width="200" height="150"></a><a href="pictures/linux/proxmox-zfs-fileserver/12-turnkey-first-boot.png"><img src="pictures/linux/proxmox-zfs-fileserver/12-turnkey-first-boot-200-150.png" width="200" height="150"></a><a href="pictures/linux/proxmox-zfs-fileserver/13-turnkey-first-boot.png"><img src="pictures/linux/proxmox-zfs-fileserver/13-turnkey-first-boot-200-150.png" width="200" height="150"></a><a href="pictures/linux/proxmox-zfs-fileserver/14-turnkey-first-boot.png"><img src="pictures/linux/proxmox-zfs-fileserver/14-turnkey-first-boot-200-150.png" width="200" height="150"></a></div>
 <h2>Source</h2>
 <ul>
-<li>https://www.youtube.com/watch?si=uNb3HVNwdK8xJMQQ&amp;v=I7nfSCNKeck&amp;feature=youtu.be</li>
+<li><a href="https://www.youtube.com/watch?si=uNb3HVNwdK8xJMQQ&amp;v=I7nfSCNKeck&amp;feature=youtu.be" target="_blank">Host NAS inside LXC Container par MRP</a></li>
 <li>https://itsembedded.com/sysadmin/proxmox_bind_unprivileged_lxc/</li>
 <li>https://forum.proxmox.com/threads/newuidmap-uid-range-1100-1101-1100-1101-not-allowed.73414/</li>
 </ul>

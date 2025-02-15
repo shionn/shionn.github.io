@@ -239,7 +239,7 @@ q(function() {
 		new _badge("Vague", "icon23.png", "Envoyer 20 figurine lors de la même quête"), // 9 : OK
 		new _badge("Gargantuesque", "icon02.png", "Peindre une très grosse figurine"), // 10
 		new _badge("Uzi", "icon11.png", "Faire 10 contributions à la même quête"), // 11 ra-cannon-shot 
-		new _badge("Bon plan", "icon09.png", "Faire profiter la commu d'un bon plan"), // 12 
+		new _badge("Bon plan", "icon09.png", "Faire profiter la commu d'un bon plan"), // 12 OK
 		new _badge("Ten", "icon05.png", "Participer à 10 quête différente"), // 13 
 		new _badge("Twenty", "icon08.png", "Participer à 20 quête différente"), // 14 
 		new _badge("Collectionneur", "icon14.png", "Obtenir 7 badges"), // 15
@@ -324,6 +324,7 @@ q(function() {
 		.progress("31/01/2025", phylios, 1, "Golem", _SMALL)
 		.progress("31/01/2025", angest, 1, "Hibours des neiges", _MEDIUM)
 		.progress("01/02/2025", whisp, 1, "Géant de Roi Lugubre", _BIG)
+		 //.addBadge("01/02/2025", whisp, 4)
 		.progress("02/02/2025", angest, 1, "Slaad guerrier", _SMALL)
 		.progress("05/02/2025", tony, 1, "Lieutenant Primaris", _MEDIUM)
 		.progress("05/02/2025", angest, 1, "SM Primaris Infiltrator", _SMALL)
