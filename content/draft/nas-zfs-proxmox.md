@@ -117,6 +117,39 @@ pictures/linux/proxmox-zfs-fileserver/13-turnkey-first-boot.png
 pictures/linux/proxmox-zfs-fileserver/14-turnkey-first-boot.png
 [/gallery]
 
+### Création des utilisateurs unix
+
+Il faut commencer par creer un utilisateur linux pour chaque utilisateur sur samba qui accede à votre nas. Acceder en http sur le port 12321 à votre server puis connecter avec votre user root, en utilisant le mot de passe que vous avez choisi à la création du container. Puis dans **System > Users and Groups > Create a new user**. Ici je crais mon premier utilisateur **shionn** avec donc l'identifiant 1000, je laisse toute les autres option par defaut.
+
+[gallery]
+pictures/linux/proxmox-zfs-fileserver/15-create-unix-account.png
+[/gallery]
+
+Ensuite le truc c'est que le mot de passe samba et unix ne sont pas lié pour des raison de sécurité. Pour ca dans **Server > Samba Windows File Share > Convert Users** puis je selectionne mon user shionn et je définit sont mot de passe. 
+
+[gallery]
+pictures/linux/proxmox-zfs-fileserver/18-create-samba-account.png
+[/gallery]
+
+
+### Création d'un dossier à partager
+
+Admettons que je veillent partagé le dossier **/mnt/data/shionn** à l'utilisateur **shionn**. Je vais dans **Tools > File Manager** puis je navigue dans **/mnt/data** puis dans **File > Create new Directory**. Je séléctionne ce dossier nouvellement creer puis **Tools > Change ownership** et j'attribus **shionn:users** récursivement. Puis **Tools > Change Permissions** et j'applique 755 récursivement. 
+
+Bien sur tous ca est à adapter en fonction de vos besoin. 
+
+Pour que cela soit possible il vous faudrat dapater les droit d'acces dans le serveur proxmox. Dans mon cas j'ai fait un `chmod 777 /MonPool/data`.
+
+### Creation d'un premier partage Samba
+
+Toujours sur l'interface du serveur je vais dans **Servers > Samba Windows File Sharing.** Il y a par défaut 3 partages, homes cdrom et storage, dont je n'ai pas besoin, je les supprime. Puis sur **Create a new file share**. Et je crois mon partage comme suit. Puis je vais dans le partage nouvellement créer et dans **Security and Access Control**.
+
+[gallery]
+pictures/linux/proxmox-zfs-fileserver/16-create-file-share.png
+pictures/linux/proxmox-zfs-fileserver/17-create-file-share.png
+[/gallery]
+
+
 
 ## Source
 
