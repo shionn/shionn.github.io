@@ -350,8 +350,10 @@ q(function() {
 		.addBadge("16/02/2025", anuabi, 0)
 		.render();
 		
+	let q7 = new _quest("quest-7", "Pillage de la colonnie espagnole", "Peindre 30 figurines", 30)
+		.render();
 			
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7]);
 
 });
