@@ -98,6 +98,10 @@ Ohé Pirates!! Vous avez bien travaillés nous avons un Ponton tout neuf et des 
 
 <div id="quest-6"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map07.png
+[/gallery]
+
 ### Jour 26 Construction des Baraquements
 
 Construction de quelques baraquements pour rester à l'abri du froid et de la pluie
