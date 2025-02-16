@@ -228,27 +228,37 @@ q(function() {
 
 	_BADGE.push(
 		new _badge("Coup Final", "icon07.png", "Achever une quête"), // 0 flag : OK
+		
 		new _badge("Populeux", "icon22.png", "Envoyer 10 petites figurines d'un coup"), // 1 ra-double-team : OK
-		new _badge("Bourrin", "icon03.png", "Envoyer 5 figurines moyenne d'un coup"), // 2 ra-muscle-up
+		new _badge("Bourrin", "icon03.png", "Envoyer 5 figurines moyenne d'un coup"), // 2 ra-muscle-up : (OK)
 		new _badge("Massif", "icon06.png", "Envoyer 2 grande figurines d'un coup"), // 3 ra-muscle-fat
-		new _badge("Petit/Gros", "icon20.png", "Envoyer une petite figurine et une grande dans la même quête"), // 4
+
+		new _badge("Petit/Gros", "icon20.png", "Envoyer une petite figurine et une grande dans la même quête"), // 4 : OK
 		new _badge("Petit/Moyen/Gros", "icon31.png", "Envoyer une figurine de chaque taille dans la même quête"), // 5 : OK
+		
 		new _badge("Mitraillette", "icon19.png", "Faire 3 contributions à la même quête"), // 6 ra-arrow-cluster  : OK
 		new _badge("Gatling", "icon32.png", "Faire 5 contributions à la même quête"), // 7 ra-cannon-shot : OK
+		
 		new _badge("One shot", "icon01.png", "Accomplir une quête d'un seul coup"), // 8 : OK
+		
 		new _badge("Vague", "icon23.png", "Envoyer 20 figurine lors de la même quête"), // 9 : OK
+		
 		new _badge("Gargantuesque", "icon02.png", "Peindre une très grosse figurine"), // 10
+		
 		new _badge("Uzi", "icon11.png", "Faire 10 contributions à la même quête"), // 11 ra-cannon-shot 
+		
 		new _badge("Bon plan", "icon09.png", "Faire profiter la commu d'un bon plan"), // 12 OK
+		
 		new _badge("Ten", "icon05.png", "Participer à 10 quête différente"), // 13 
 		new _badge("Twenty", "icon08.png", "Participer à 20 quête différente"), // 14 
+		
 		new _badge("Collectionneur", "icon14.png", "Obtenir 7 badges"), // 15
 		new _badge("Gatha'em all", "icon04.png", "Obtenir tous les badge"), // 16
 	);
 
 	
 	let angest = new _player("Angest", "pirate12.png"); // 0 5 6 7
-	let anuabi = new _player("Anuabi", "pirate12.png");
+	let anuabi = new _player("Anuabi", "pirate12.png"); // 4
 	let faran = new _player("Faran", "pirate16.png");
 	let hyasull = new _player("Hyasull", "pirate13.png");
 	let phylios = new _player("Phylios", "pirate07.png"); // 12
@@ -256,7 +266,7 @@ q(function() {
 	let shionn = new _player("Shionn", "pirate02.png"); // 0 1 (2) 9
 	let tupad = new _player("Tupad_", "pirate07.png");
 	let tony = new _player("Tony", "pirate14.png"); // 0 1 8 9
-	let whisp = new _player("Whisp", "pirate00.png"); // 0
+	let whisp = new _player("Whisp", "pirate00.png"); // 0 4
 	whisp.captain = true;
 
 	let q1 = new _quest("quest-1", "Collecter des vivres", "Peindre 10 figurines", 10)
@@ -324,7 +334,7 @@ q(function() {
 		.progress("31/01/2025", phylios, 1, "Golem", _SMALL)
 		.progress("31/01/2025", angest, 1, "Hibours des neiges", _MEDIUM)
 		.progress("01/02/2025", whisp, 1, "Géant de Roi Lugubre", _BIG)
-		 //.addBadge("01/02/2025", whisp, 4)
+		.addBadge("01/02/2025", whisp, 4)
 		.progress("02/02/2025", angest, 1, "Slaad guerrier", _SMALL)
 		.progress("05/02/2025", tony, 1, "Lieutenant Primaris", _MEDIUM)
 		.progress("05/02/2025", angest, 1, "SM Primaris Infiltrator", _SMALL)
@@ -336,6 +346,8 @@ q(function() {
 		.addBadge("13/02/2025", phylios, 12)
 		.progress("14/02/2025", angest, 1, "Hugo the Huge", _SMALL)
 		.progress("16/02/2025", angest, 1, "Obsidian Reaper", _MEDIUM)
+		.progress("16/02/2025", anuabi, 1, "Termagaunt", _SMALL)
+		.addBadge("16/02/2025", anuabi, 0)
 		.render();
 		
 			
