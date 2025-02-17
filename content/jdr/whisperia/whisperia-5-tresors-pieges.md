@@ -54,9 +54,11 @@ Toutes nos aventures dans les articles précédent :
 
 ## Et maintenant la suite
 
-Cette partie s'est déroulée le 8 fevrier 2025. Dont voici le replay :
+Cette partie s'est déroulée le 8 fevrier 2025. Dont voici les replays en deux parties :
 
 [youtube video="MzbAK9KT9ww?si=TJiWlSTukeCe3oXl"/]
+
+[youtube video="c3_ZNAWBwLA?si=FnxIkdbZIKPYmta0"/]
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
@@ -70,20 +72,43 @@ Je fouille le trésor à la recherche de pierres, je trouve 5 rubis. Nous trouvo
 
 > deux clef ? comme deux coffre ?
 
+[gallery w=300 h=250]
+pictures/jdr/whisperia/059.png
+[/gallery]
+
 Nous retournons dans la pièce cachée des deux coffres et j’y essaye mes deux clefs. J’ouvre le coffre à côté de Anuabi. J’y trouve un sac sans fond d’un poids de 10kg me permettant de transporter jusqu’à 300kg. J’y trouve un anneau de protection qui donne +1 en CA. Le partage est important pour un nain, je donne le sac à Rahanis et je garde l’anneau de protection.
 
 > j'ai fais un cadeau à un elfe, nous allons voir si ce peuple sais être reconnaissant.
+
+[gallery w=300 h=250]
+pictures/jdr/whisperia/060.png
+pictures/jdr/whisperia/061.png
+[/gallery]
 
 ### Porte et Pieges
 
 Nous retournons à la porte du bout du couloir à côté du bureau. 
 J’essaye de l’ouvrir et je n’y arrive pas, Anuabi essaye de la crocheté et elle nous explose à la tête. Moi et mes amis prenons 4 pv (12/23). La porte est désintégrée.
 
+[gallery w=300 h=250]
+pictures/jdr/whisperia/062.png
+[/gallery]
+
 Nous arrivons dans une pièce avec un livre sur un autel. Il y a une porte sur notre gauche et notre droite. Ariana pense que le livre est un livre de prière avec des sorts à la fin. Elle prend le livre et un clic se fait entendre. 
+
+[gallery w=300 h=250]
+pictures/jdr/whisperia/063.png
+pictures/jdr/whisperia/064.png
+[/gallery]
+
 
 Un voile commence à envahir la pièce, j'essaie de fuir par la porte la plus proche mais elle est fermée. Ariana lance une orb contre la porte et l’explose mais la sortie reste fermée. Le brouillard semble être empoisonné.
 
 J'essaie de remettre le livre sur l’autel mais rien n’y fait. Le brouillard est de plus en plus épais. Mes compagnons souffrent. Et soudain le spectre **Aménalion** revient. 
+
+[gallery w=300 h=250]
+pictures/jdr/whisperia/065.png
+[/gallery]
 
 ### Porte et Pieges
 
@@ -91,12 +116,19 @@ Le combat s’engage. Le spectre arrive a me taper et me fait 1 dégât (11/23).
 
 Les échanges s'enchaînent, Ariana se cache sous l’autel et appelle anuabi. Anuabi est mal en point mais rahanis la soigne. Anuabi rejoint Ariana et trouve le moyen d'arrêter le gaz. Après moult échanges, anuabi arrive à donner le coup de grâce.
 
+[gallery w=300 h=250]
+pictures/jdr/whisperia/066.png
+pictures/jdr/whisperia/067.png
+[/gallery]
+
+
 ### Une seconde Chaussette ! 
 
 Je gagne 9 pv je passe à 24/31. Je deviens Champion, et dorénavant les 19-20 font des critiques. A partir de maintenant nous utiliserons la maîtrise. C'est-à dire que j’ai +2 pour toucher et +2 sur mes jet de constitution.
 
-[gallery]
-pictures/jdr/whisperia/024.jpg
+[gallery w=400 h=300]
+pictures/jdr/whisperia/068.jpg
+pictures/jdr/whisperia/069.jpg
 [/gallery]
 
 

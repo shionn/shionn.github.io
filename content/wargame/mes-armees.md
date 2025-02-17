@@ -6,16 +6,17 @@ Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes 
 - _à venir Fille de Khaine_
 - [Kruelboys](2024/kruelboyz-dominion.html)
 - [Nains (Citée de Simar)](2024/armee-naine-cos.html)
+- _à venir Noir Serment_
 - [Nighthaunt](2023/armee-nighthaunt.html)
 - [Skaven](2023/armee-skaven.html)
-[after date="2025/02/27"]
+[after date="2025/03/07"]
 - [Gloomspite Gitz](2025/armee-gloomspite-gitz.html)
 [/after]
 
 ## Warhammer Battle
 
 - [Elfes Noirs](2024/armee-elfes-noirs.html)
-[after date="2025/03/23"]
+[after date="2025/03/31"]
 - [Gobelin de la Nuit](2025/armee-gobs./html)
 [/after]
 

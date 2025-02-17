@@ -11,7 +11,7 @@ Il devrais y avoir à terme :
 - Lokhir Fellheart (Maitre d'arche noire)
 - Morathi
 
-[after date="2025/04/20"]
+[after date="2025/05/02"]
 ### Assassin
 
 Voici mon assassin en métal. J'ai acheté cette figurine il y a presque 25 ans.
@@ -27,7 +27,7 @@ pictures/dark-elves/assassin/03.jpg
 [/gallery]
 [/after]
 
-[after date="2025/03/31"]
+[after date="2025/04/08"]
 ### Malus Dark Blade
 
 Voici mon malus dark blade en métal.
@@ -51,7 +51,7 @@ pictures/dark-elves/malus-dark-blade/07.jpg
 [/gallery]
 [/after]
 
-[after date="2025/06/22"]
+[after date="2025/06/27"]
 ### Morathi sur Pégase Noir
 
 Je l'ai acheté autour des années 2000, et elle est resté dans ma piule de la honte pendant presque 25 ans. 
@@ -160,7 +160,7 @@ Rehaut	72096
 Reste à faire :
 - Cavalier Noire
 
-[after date="2025/05/08"]
+[after date="2025/05/18"]
 ### Arbaletriers
 
 Voici mon premier pack de 12 arbaletriers elfe noir en plastique. 
@@ -214,7 +214,7 @@ Base	72045
 Rehaut	72039
 [/paints]
 
-[after date="2025/03/07"]
+[after date="2025/03/15"]
 ### Lanciers
 
 Voici mon premier pack de 20 guerrier elfe noir en plastique. 
