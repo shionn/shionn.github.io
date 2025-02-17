@@ -352,6 +352,9 @@ q(function() {
 		
 	let q7 = new _quest("quest-7", "Pillage de la colonnie espagnole", "Peindre 30 figurines", 30)
 		.progress("16/02/2025", angest, 1, "Pyromant Keeper", _SMALL)
+		.progress("17/02/2025", shionn, 1, "Boss squig & BrutoSquig", _SMALL)
+		.progress("17/02/2025", shionn, 1, "Thos le Dragon", _MEDIUM)
+		.progress("17/02/2025", shionn, 1, "Trugg, roi des trolls", _BIG)
 		.render();
 			
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
