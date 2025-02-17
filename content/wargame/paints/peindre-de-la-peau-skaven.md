@@ -2,7 +2,7 @@ Un ami, sur un discord, il se reconnaîtra s' il passe par là, m'a demandé com
 Tant qu'à faire un tuto, autant le mettre sur le net. 
 Je vais ici montrer comment faire une peau rose de rat, mais je vais être un plus généraliste dans les explications et prendre mon skaven comme exemple.
 
-[gallery w=300]
+[gallery h=300 w=300]
 2023/peindre-de-la-peau-skaven/verminlord.jpg
 [/gallery]
 ## Théorie
@@ -11,7 +11,7 @@ Peindre de la peau c'est comme peindre n’importe quelle autre surface il faut 
 ## Choix des couleurs
 Avant tout, je choisis mon nuancié de couleur, voici celui de mes skavens.
 
-[gallery h=300]
+[gallery h=300 w=300]
 2023/peindre-de-la-peau-skaven/nuancier.jpg
 [/gallery]
 
@@ -37,7 +37,7 @@ Généralement on le fait en dégrader de noir / gris / blanc.
 Mais personnellement je préféré le faire avec des couleurs, cela ajoute de la profondeur à la peau. 
 Ici j'ai choisi de le faire avec des marrons et des brun.
 
-[gallery h=300]
+[gallery h=300 w=300]
 2023/peindre-de-la-peau-skaven/nuancier-grissaille.jpg
 [/gallery]
 
@@ -48,7 +48,7 @@ Comme je vais peindre par transparence, cela va ajouter de la profondeur à ma f
 Pour cela je fais deux brossage successif avec mes deux couleurs plus claire. 
 Le premier brossage étant plus appuyé.
 
-[gallery h=300]
+[gallery h=300 w=300]
 2023/peindre-de-la-peau-skaven/brossage-1.jpg
 2023/peindre-de-la-peau-skaven/brossage-2.jpg
 [/gallery]
@@ -68,7 +68,7 @@ Pour cela il faut diluer la peinture, mais pas avec de l'eau, dans mon cas je la
 Si on dilue avec de l'eau, la peinture perd de son homogénéité, les pigments iront trop dans les creux hors je souhaites avoir une couche uniforme. 
 J'aime les peinture vallejo (lien en fin d'article).
 
-[gallery h=300]
+[gallery h=300 w=300]
 2023/peindre-de-la-peau-skaven/glaze-medium.jpg
 [/gallery]
 
@@ -76,7 +76,7 @@ En prenant ma couleur de médiane que j'ai choisi, *72107 Anthea Skin*, dilué �
 j'applique une couche fine et uniforme sur toute ma peau. 
 Il est normal que les couleurs précédentes appliqué en grisaille remontent à travers cette couche.
 
-[gallery h=300]
+[gallery h=300 w=300]
 2023/peindre-de-la-peau-skaven/base-1.jpg
 2023/peindre-de-la-peau-skaven/base-2.jpg
 [/gallery]
@@ -97,7 +97,7 @@ Mais on peut ajouter une teinte verdâtre, bleuté, violacé en fonction de l'ef
 
 J'applique la couleur dans les creux, mais aussi sur les muscles si ceux-ci sont dans l'ombre.
 
-[gallery h=300]
+[gallery h=300 w=300]
 2023/peindre-de-la-peau-skaven/ombrage-1.jpg
 [/gallery]
 
@@ -105,7 +105,7 @@ Puis avec une couleur de peau encore plus sombre, ici *72044 Dark Fleshtone*, je
 C'est à dire que je vais faire un lining dans tous les creux, mais aussi faire le tour des pustules pour les rehausser. 
 Cela permet aussi de mieux dessiner les volumes et de mieux délimiter les éléments de la figurine.
 
-[gallery h=300]
+[gallery h=300 w=300]
 2023/peindre-de-la-peau-skaven/ombrage-2.jpg
 [/gallery]
 
@@ -115,13 +115,13 @@ je vais faire un premier éclaircissement en dessinant les muscles.
 Ici pour ajouter de la texture aux muscles, je fais plein de petits traits, dans le sens des fibres musculaires. 
 Cela peut paraître complexe, mais ce n'est pas le cas, c'est très simple.
 
-[gallery h=300]
+[gallery h=300 w=300]
 2023/peindre-de-la-peau-skaven/eclaircissement-1.jpg
 [/gallery]
 
 Enfin avec une couleur encore plus claire, ici le *72003 Pale Flesh*, je vais relever les bords des cicatrices, les pustules, et parfois les tendons et muscles.
 
-[gallery h=300]
+[gallery h=300 w=300]
 2023/peindre-de-la-peau-skaven/rehaut-1.jpg
 [/gallery]
 
@@ -136,7 +136,7 @@ Je cherche à avoir quelque chose de deux fois voir trois fois moins couvrant qu
 Par exemple, un druchi violet dilué à 1 pour 1 ou 1 pour 2 serait correct, mais je le déconseille, les shades de GW ont tendance à être légèrement brillantes. 
 Avec cela je fais des glacis sur les endroits qui m'intéressent. Je fais attention à tirer pigment vers l'endroit où je veux le plus de détails.
 
-[gallery h=300]
+[gallery h=300 w=300]
 2023/peindre-de-la-peau-skaven/couleur-glacie.jpg
 2023/peindre-de-la-peau-skaven/glacie-detail-1.jpg
 2023/peindre-de-la-peau-skaven/glacie-detail-2.jpg
