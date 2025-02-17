@@ -263,7 +263,7 @@ q(function() {
 	let hyasull = new _player("Hyasull", "pirate13.png");
 	let phylios = new _player("Phylios", "pirate07.png"); // 12
 	let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
-	let shionn = new _player("Shionn", "pirate02.png"); // 0 1 (2) 9
+	let shionn = new _player("Shionn", "pirate02.png"); // 0 1 (2) 5 9
 	let tupad = new _player("Tupad_", "pirate07.png");
 	let tony = new _player("Tony", "pirate14.png"); // 0 1 8 9
 	let whisp = new _player("Whisp", "pirate00.png"); // 0 4
@@ -355,6 +355,7 @@ q(function() {
 		.progress("17/02/2025", shionn, 1, "Boss squig & BrutoSquig", _SMALL)
 		.progress("17/02/2025", shionn, 1, "Thos le Dragon", _MEDIUM)
 		.progress("17/02/2025", shionn, 1, "Trugg, roi des trolls", _BIG)
+		.addBadge("17/02/2025", shionn, 5)
 		.render();
 			
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
