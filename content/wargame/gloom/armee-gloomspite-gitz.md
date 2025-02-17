@@ -57,7 +57,25 @@ pictures/gloomspite/rockgut-troggoths/31.jpg
 pictures/gloomspite/rockgut-troggoths/32.jpg
 [/gallery]
 
+[after date="2025/12/31"]
+### Trugg roi des troll
 
+>Trugg, depuis plusieurs génération il n'as pas bougé, il réflichit. Et un troll comme vous le savez ca réflechi rarement, et trés trés trés trés lentement.
+>
+>A tel point que les gobashion ont installé leurs campement à coter, pensant qu'il s'agissait d'une simple statue, probablement d'origine magique 
+>au vue de la lumiere qui en émane. Ce qui est bien pratique pour la culture des champignons !
+>
+>Bizarrement d'autre troll viennent souvent dans le camp, regarde la statue un moment, des fois plusieurs jour, voir des semaines ou des mois et repartent comme ils sont venu.
+>
+>Un jour, sans explication, il ai sortit de sa torpeur, il avait fini de réfléchir.
+>Mais à quoi Réflechir à quoi ? Nous ne le saurons jamais et il a probablement déjà oublié.
+>
+>Les trolls sont revenu, l'ont suivi, les gobashionn, ne pouvant pas vraiment se passer de lumiere qui donne un gout si particulier au champinion ont fait de même. 
+>Suivi vers ou ? est-ce lié à sa réflexion si longue ?
+>
+>Quelesoit la destination, je n'aimerai pas être sur leur route. Et si cela devais se produire, je prierai pour être mangé et surtout ne pas finir en engrais vivant à champignon.
+
+[/after]
 
 ## Recette Peinture
 

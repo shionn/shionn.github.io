@@ -4,8 +4,14 @@ On est loin d'avoir une armée complete il s'agit simplement de la partie gobeli
 
 ## Heros
 
-TODO
+[after date="2025/12/31"]
+### Bosssquig & BrutoSquig
 
+>_Rikk Chope-Squig_ commande l'elevage des squig une fois que le champignon devient un squig. 
+>
+>Il chasse regulierement les 
+
+[/after]
 ## Troupes
 
 ### Lanciers 
