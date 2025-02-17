@@ -356,7 +356,7 @@ q(function() {
 		.progress("17/02/2025", shionn, 1, "Thos le Dragon", _MEDIUM)
 		.progress("17/02/2025", shionn, 1, "Trugg, roi des trolls", _BIG)
 		.addBadge("17/02/2025", shionn, 5)
-		.progress("17/02/2025", whisp, 1, "Nevamore, Super Fantasy Brawl", _SMALL)
+		.progress("17/02/2025", whisp, 1, "Nevamore, Super Fantasy Brawl", _MEDIUM)
 		.render();
 			
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
