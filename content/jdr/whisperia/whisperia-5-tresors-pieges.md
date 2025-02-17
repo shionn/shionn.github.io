@@ -126,6 +126,8 @@ pictures/jdr/whisperia/067.png
 
 Je gagne 9 pv je passe à 24/31. Je deviens Champion, et dorénavant les 19-20 font des critiques. A partir de maintenant nous utiliserons la maîtrise. C'est-à dire que j’ai +2 pour toucher et +2 sur mes jet de constitution.
 
+J'ai gagné 5 rubis, un bouclier et un anneau de protection au cours de cette partie.
+
 [gallery w=400 h=300]
 pictures/jdr/whisperia/068.jpg
 pictures/jdr/whisperia/069.jpg
