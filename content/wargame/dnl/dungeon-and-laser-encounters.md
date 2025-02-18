@@ -239,6 +239,17 @@ pictures/dungeon-and-laser-encounters/ssg/tarrasque/2.jpg
 pictures/dungeon-and-laser-encounters/ssg/tarrasque/3.jpg
 [/gallery]
 
+### Thos le jeune Dragon 
+
+Cette figurine à été peinte pour mon défis discord de Fevrier 2025 **mort / purification / richesse**
+
+[gallery w=250 h=300]
+pictures/dungeon-and-laser-encounters/ssg/thos/01.jpg
+pictures/dungeon-and-laser-encounters/ssg/thos/02.jpg
+pictures/dungeon-and-laser-encounters/ssg/thos/03.jpg
+pictures/dungeon-and-laser-encounters/ssg/thos/04.jpg
+[/gallery]
+
 ### Tour de Guêt
 Cette figurine a été peinte pour le défi __Mars 2024 - Routine de construction 7 2 1 lancée  de [OOM](https://onemoremini.fr/topic/618/d%C3%A9fi-mars-2024-routine-de-construction-7-2-1-lanc%C3%A9e)__.
 
