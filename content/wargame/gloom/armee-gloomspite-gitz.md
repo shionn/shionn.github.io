@@ -5,6 +5,25 @@ Puis avec l'abonnement **Stormbringer** et quelque numéro que j'ai acheter en d
 
 Cette armée a été proposé au CDA organisé sur le Discord **Les Duelistes**.
 
+>Les **Gobashionns** vivent au plus profond d'un marrais au fond d'une vieille forêt. 
+>On ne sait pas vraiment dans quel royaume ils sont, et ça n'a pas d’importance pour eux. 
+>Pour des gobelins, ils sont relativement pacifique, enfin cela reste tous relatif. 
+>Comme tous les gobelins ils vouent un culte à la lune sinistre mais ce culte n'est pas aussi fort que la passion qu'il ont pour leurs champignons.
+>
+>Cultiver leurs champignons, se shooter avec, en faire des squigs voilà ce que veulent les Gobashionns. 
+>Parfois ils se tapent dessus, mais jamais sans s’être shooté avant. 
+>
+>Mais la culture des champignons n'est pas si simple. 
+>Les meilleurs champignons poussent sur les corps de leurs ennemis et si ceux-ci sont encore vivants c'est encore mieux.
+>Parfois ces champignons deviennent des squigs et plus les corps des victimes eéaient forts plus le squig sera fort.
+>
+>Les **Gobashionns** ne vivent donc que pour des choses simples :
+>- se shooter au champignons.
+>- taper sur tous ce qui passe, pour se marrer et nourrir les champignons, toujours en étant shouté au champignons.
+>- se taper dessus pour se marrer, mais en étant shouté au champignons.
+
+
+
 ## Troggoths
 
 J'ai volontairement pas mal de troll, l'idée que j'ai, est de pouvoir jouer full troll en petit format. 
@@ -58,22 +77,24 @@ pictures/gloomspite/rockgut-troggoths/32.jpg
 [/gallery]
 
 [after date="2025/12/31"]
+
 ### Trugg roi des troll
 
->Trugg, depuis plusieurs génération il n'as pas bougé, il réflichit. Et un troll comme vous le savez ca réflechi rarement, et trés trés trés trés lentement.
+>**Trugg**, depuis plusieurs générations n'as pas bougé, il réfléchit. 
+>Et un troll comme vous le savez ça réfléchit rarement, et trés trés trés trés lentement.
 >
->A tel point que les gobashion ont installé leurs campement à coter, pensant qu'il s'agissait d'une simple statue, probablement d'origine magique 
->au vue de la lumiere qui en émane. Ce qui est bien pratique pour la culture des champignons !
+>A tel point que les **Gobashionns** ont installé leurs campement à côté, pensant qu'il s'agit d'une simple statue, probablement d'origine magique au vue de la lumière qui en émane.
+>Ce qui est bien pratique pour la culture des champignons !
 >
->Bizarrement d'autre troll viennent souvent dans le camp, regarde la statue un moment, des fois plusieurs jour, voir des semaines ou des mois et repartent comme ils sont venu.
+>Bizarrement d'autres troll viennent souvent dans le camp, regardent la statue un moment, des fois plusieurs jours, voire des semaines ou des mois et repartent comme ils sont venus.
 >
->Un jour, sans explication, il ai sortit de sa torpeur, il avait fini de réfléchir.
->Mais à quoi Réflechir à quoi ? Nous ne le saurons jamais et il a probablement déjà oublié.
+>Un jour, sans explication, **Trugg** est sortit de sa torpeur, il avait fini de réfléchir. 
+>Mais réfléchir à quoi ? Nous ne le saurons jamais et il a probablement déjà oublié.
 >
->Les trolls sont revenu, l'ont suivi, les gobashionn, ne pouvant pas vraiment se passer de lumiere qui donne un gout si particulier au champinion ont fait de même. 
->Suivi vers ou ? est-ce lié à sa réflexion si longue ?
+>Les trolls sont revenu, l'ont suivi, les Gobashionns, ne pouvant pas vraiment se passer de lumière qui donne un goût si particulier au champignon ont fait de même.
+>Vers ou ? Je prie pour ne pas l'apprendre à mes dépens.
 >
->Quelesoit la destination, je n'aimerai pas être sur leur route. Et si cela devais se produire, je prierai pour être mangé et surtout ne pas finir en engrais vivant à champignon.
+>Quelque soit la destination, leurs victime vivante ou morte servirons à la culture des champignons ou des Squigs.
 
 [/after]
 

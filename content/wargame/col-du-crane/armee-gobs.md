@@ -7,16 +7,25 @@ On est loin d'avoir une armée complete il s'agit simplement de la partie gobeli
 [after date="2025/12/31"]
 ### Bosssquig & BrutoSquig
 
->_Rikk Chope-Squig_ commande l'elevage des squig une fois que le champignon devient un squig. 
+>**Rikk Chope-Squig** n'est pas le gobelin le plus fort du clan, ni le plus intelligent même pour un gobelin.
+>Mais **Rikk** a compris qu'il était plus simple pour lui de s'appuyer sur la force des squigs.
+>Aussi au sein du camp il est chargé de l'élevage des squig une fois que le champignon est devenu un squig.
+>Il laisse la culture des simples champignons aux chamans du clan.
 >
->Il organise regulierement des chasses au peuple osant s'aventurer non loin de leur marrecage.
-
+>Il organise régulièrement des raids sur les peuples vivant non loin des marécages, dans la forêt ou à ses abords.
+>Dans l'unique but de récolter de la nourriture pour les squigs.
+>Et par nourriture on entend les cadavres de ces peuples.
+>Et les squig ça mange beaucoup donc il organise beaucoup de raid.
+>
+>Mais pour organiser plus de raid faut plus de **Squig**, donc il faut élever plus de **Squig**, mais faut plus de nourriture pour les élever et donc faire plus de raid.
+>Mais **Rikk** n'a pas réfléchi jusque là.
+>Pour être fort faut des Squig, pour avoir des Squig faut de la nourriture donc on fait des raid. la logique de **Rikk** s'arrête la.
 [/after]
 ## Troupes
 
 ### Lanciers 
 
-Cs figurine mon servi de test de couleur pour amrée de gobelin à AoS.
+Ces figurine mon servi de test de couleur pour mon amrée de gobelin à AoS.
 
 * Peinte en Janvier 2025
 * En environ 45 heures
