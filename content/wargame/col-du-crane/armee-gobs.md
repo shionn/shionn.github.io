@@ -9,7 +9,7 @@ On est loin d'avoir une armée complete il s'agit simplement de la partie gobeli
 
 >_Rikk Chope-Squig_ commande l'elevage des squig une fois que le champignon devient un squig. 
 >
->Il chasse regulierement les 
+>Il organise regulierement des chasses au peuple osant s'aventurer non loin de leur marrecage.
 
 [/after]
 ## Troupes
