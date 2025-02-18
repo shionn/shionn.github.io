@@ -359,6 +359,7 @@ q(function() {
 		.progress("17/02/2025", whisp, 1, "Nevamore, Super Fantasy Brawl", _MEDIUM)
 		.progress("17/02/2025", shionn, 1, "Mercenaire hero nemessis", _SMALL)
 		.progress("17/02/2025", shionn, 1, "Psy hero nemessis", _SMALL)
+		.progress("18/02/2025", whisp, 1, "Pillier, Super Fantasy Brawl", _MEDIUM)
 		.render();
 			
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);

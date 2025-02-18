@@ -1,12 +1,11 @@
 {
 	"type": "post",
-	"date": "2024/01/27",
-	"updated": "2025/02/18",
-	"title": "Dungeon & Laser : Encounter",
-	"tags": ["War Game", "Dungeon and Laser", "Encounter", "JdR"],
+	"date": "2026/12/31",
+	"title": "Dungeon & Laser : Deuslair",
+	"tags": ["War Game", "Dungeon and Laser", "Deuslair", "JdR"],
 	"category": "War Game",
 	"logo": "pictures/titles/dungeon-and-laser-encounters.jpg",
-	"published": true,
+	"published": false,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"
 }
