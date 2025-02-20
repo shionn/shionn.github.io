@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/6f83ebc2-1cd0-4af4-9172-f0a493aafe80)	
 Whisperia est une campagne de JDR sur DnD organisée par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
