@@ -230,7 +230,7 @@ q(function() {
 		new _badge("Coup Final", "icon07.png", "Achever une quête"), // 0 flag : OK
 		
 		new _badge("Populeux", "icon22.png", "Envoyer 10 petites figurines d'un coup"), // 1 ra-double-team : OK
-		new _badge("Bourrin", "icon03.png", "Envoyer 5 figurines moyenne d'un coup"), // 2 ra-muscle-up : (OK)
+		new _badge("Bourrin", "icon03.png", "Envoyer 5 figurines moyenne d'un coup"), // 2 ra-muscle-up : (NOK)
 		new _badge("Massif", "icon06.png", "Envoyer 2 grande figurines d'un coup"), // 3 ra-muscle-fat
 
 		new _badge("Petit/Gros", "icon20.png", "Envoyer une petite figurine et une grande dans la même quête"), // 4 : OK
@@ -245,7 +245,7 @@ q(function() {
 		
 		new _badge("Gargantuesque", "icon02.png", "Peindre une très grosse figurine"), // 10
 		
-		new _badge("Uzi", "icon11.png", "Faire 10 contributions à la même quête"), // 11 ra-cannon-shot 
+		new _badge("Uzi", "icon11.png", "Faire 10 contributions à la même quête"), // 11 (NOK) 
 		
 		new _badge("Bon plan", "icon09.png", "Faire profiter la commu d'un bon plan"), // 12 OK
 		
@@ -263,7 +263,7 @@ q(function() {
 	let hyasull = new _player("Hyasull", "pirate13.png");
 	let phylios = new _player("Phylios", "pirate07.png"); // 12
 	let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
-	let shionn = new _player("Shionn", "pirate02.png"); // 0 1 (2) 5 9
+	let shionn = new _player("Shionn", "pirate02.png"); // 0 1 (2) 5 9 (11)
 	let tupad = new _player("Tupad_", "pirate07.png");
 	let tony = new _player("Tony", "pirate14.png"); // 0 1 8 9
 	let whisp = new _player("Whisp", "pirate00.png"); // 0 4
@@ -364,6 +364,8 @@ q(function() {
 		.progress("19/02/2025", shionn, 1, "Prisonnier hero nemessis", _SMALL)
 		.progress("19/02/2025", shionn, 1, "Android hero nemessis", _SMALL)
 		.progress("19/02/2025", shionn, 1, "Chien nemessis", _SMALL)
+		.progress("20/02/2025", shionn, 1, "D&L Dame à l'épée", _SMALL)
+//		.addBadge("20/02/2025", shionn, 11)
 		.render();
 
 //	let q8 = new _quest("quest-8", "Construction d'une echoppe pour les Pirates", "Peindre 40 figurines ou Décors", 40)
