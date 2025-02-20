@@ -25,6 +25,8 @@ article {
 	h2 {
 		font-size: 1.2em;
 		padding-left: 25px;
+		border-bottom: dashed 4px $theme-color;
+		padding-bottom: 10px;
 		@media (min-width: $min-sm) {
 			font-size: 1.5em;
 		}
@@ -33,6 +35,8 @@ article {
 	h3 {
 		font-size: 1.1em;
 		padding-left: 50px;
+		border-bottom: dashed 3px $theme-color;
+		padding-bottom: 10px;
 		@media (min-width: $min-sm) {
 			font-size: 1.2em;
 		}

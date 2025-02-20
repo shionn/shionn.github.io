@@ -241,7 +241,7 @@ pictures/dungeon-and-laser-encounters/ssg/tarrasque/3.jpg
 
 ### Thos le jeune Dragon 
 
-Cette figurine à été peinte pour mon défis discord de Fevrier 2025 **mort / purification / richesse**
+Cette figurine à été peinte pour mon défis discord de Fevrier 2025 **mort / purification / richesse**. Peinte en environ 7h.
 
 [gallery w=250 h=300]
 pictures/dungeon-and-laser-encounters/ssg/thos/01.jpg

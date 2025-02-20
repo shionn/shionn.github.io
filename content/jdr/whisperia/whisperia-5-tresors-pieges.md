@@ -1,4 +1,3 @@
-	
 Whisperia est une campagne de JDR sur DnD organisée par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
@@ -110,11 +109,13 @@ J'essaie de remettre le livre sur l’autel mais rien n’y fait. Le brouillard 
 pictures/jdr/whisperia/065.png
 [/gallery]
 
-### Porte et Pieges
+### Une connaissance
 
 Le combat s’engage. Le spectre arrive a me taper et me fait 1 dégât (11/23).
 
 Les échanges s'enchaînent, Ariana se cache sous l’autel et appelle anuabi. Anuabi est mal en point mais rahanis la soigne. Anuabi rejoint Ariana et trouve le moyen d'arrêter le gaz. Après moult échanges, anuabi arrive à donner le coup de grâce.
+
+>Éfficasse le chaton.
 
 [gallery w=300 h=250]
 pictures/jdr/whisperia/066.png

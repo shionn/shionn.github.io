@@ -25,7 +25,7 @@ En fevrier j'ai peint :
 * 6 Hero nemesis pour __TODO__ sur [OMM](TODO).
 
 [gallery w=250 h=250]
-pictures/dungeon-and-laser-encounters/ssg/thos/01.jpg 
+pictures/dungeon-and-laser-encounters/ssg/thos/01.jpg
 [/gallery]
 
 ## Mars 2025
