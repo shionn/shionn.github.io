@@ -9,11 +9,11 @@ voulais vraiment. Mais j'ai peint les décor que voici.
 - moins de 1h par pièce.
 
 [gallery  w=300 h=200]
-pictures/decor-skaventide/01.jpg
-pictures/decor-skaventide/02.jpg
-pictures/decor-skaventide/03.jpg
-pictures/decor-skaventide/04.jpg
-pictures/decor-skaventide/05.jpg
-pictures/decor-skaventide/06.jpg
-pictures/decor-skaventide/07.jpg
+pictures/decor/skaventide/01.jpg
+pictures/decor/skaventide/02.jpg
+pictures/decor/skaventide/03.jpg
+pictures/decor/skaventide/04.jpg
+pictures/decor/skaventide/05.jpg
+pictures/decor/skaventide/06.jpg
+pictures/decor/skaventide/07.jpg
 [/gallery]

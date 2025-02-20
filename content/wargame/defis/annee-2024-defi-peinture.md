@@ -20,9 +20,9 @@ En janvier j'ai peint :
 * Un ogre de _Dungeon and Laser_ pour mon défi chez __Karv__
 
 [gallery w=200 h=250]
-pictures/dungeon-and-laser-encounters/sg/cerbere/1.jpg
-pictures/decor-mortal-realms/statue-griffon/01.jpg
-pictures/dungeon-and-laser-encounters/sg/ogre/1.jpg
+pictures/dungeon-and-laser/encounters/sg/cerbere/1.jpg
+pictures/decor/mortal-realms/statue-griffon/01.jpg
+pictures/dungeon-and-laser/encounters/sg/ogre/1.jpg
 [/gallery]
 
 ## Février 2024
@@ -34,8 +34,8 @@ En février j'ai peint :
 * Un gyrobombardier pour mon défi chez __Karv__
 
 [gallery w=200 h=250]
-pictures/descent/act2/dragon/01.jpg
-pictures/dungeon-and-laser-encounters/sg/driade/1.jpg
+pictures/jeux/descent/act2/dragon/01.jpg
+pictures/dungeon-and-laser/encounters/sg/driade/1.jpg
 pictures/cos-duardin/maitre-des-runes/3.jpg
 pictures/cos-duardin/gyro/1.jpg
 [/gallery]
@@ -49,11 +49,11 @@ En mars j'ai peint :
 * Une dame dans la nature de _dungeon and laser_pour mon défi chez __Karv__
 
 [gallery w=200 h=250]
-pictures/dungeon-and-laser-encounters/ssg/entree-mine-naine/1.jpg
-pictures/dungeon-and-laser-encounters/ssg/tour-guet/1.jpg
-pictures/dungeon-and-laser-encounters/dragsa/tu-ur/2.jpg
+pictures/dungeon-and-laser/encounters/ssg/entree-mine-naine/1.jpg
+pictures/dungeon-and-laser/encounters/ssg/tour-guet/1.jpg
+pictures/dungeon-and-laser/encounters/dragsa/tu-ur/2.jpg
 pictures/dark-elves/corsair/01.jpg
-pictures/dungeon-and-laser-encounters/sg/beaute-nature/1.jpg
+pictures/dungeon-and-laser/encounters/sg/beaute-nature/1.jpg
 [/gallery]
 
 ## Avril 2024
@@ -66,7 +66,7 @@ En avril j'ai peint :
 
 [gallery w=200 h=250]
 pictures/dark-elves/sorciere-sg-froid/1.jpg
-pictures/dungeon-and-laser-encounters/sg/araignee/1.jpg
+pictures/dungeon-and-laser/encounters/sg/araignee/1.jpg
 pictures/dark-elves/balistes/1.jpg
 [/gallery]
 
@@ -78,7 +78,7 @@ En mai j'ai peint :
 * Un chaudron de sang pour mon défi chez __Karv__
 
 [gallery w=200 h=250]
-pictures/dungeon-and-laser-encounters/sg/crabes/1.jpg
+pictures/dungeon-and-laser/encounters/sg/crabes/1.jpg
 pictures/dark-elves/sorciere-supreme/1.jpg
 pictures/dark-elves/chaudron-de-sang/1.jpg
 [/gallery]
@@ -91,8 +91,8 @@ En juin j'ai peint :
 * Une hydre  elfe noir pour le __Fond de cale__ de __Whisp__
 
 [gallery w=200 h=250]
-pictures/dungeon-and-laser-encounters/sg/abomination/1.jpg
-pictures/dungeon-and-laser-encounters/sg/grenouilles/1.jpg
+pictures/dungeon-and-laser/encounters/sg/abomination/1.jpg
+pictures/dungeon-and-laser/encounters/sg/grenouilles/1.jpg
 pictures/dark-elves/hydre-de-guerre/01.jpg
 [/gallery]
 
@@ -129,7 +129,7 @@ En octobre j'ai peint :
 * Malus Dark Blade pour le __Fond de cale__ de __Whisp__
 
 [gallery w=200 h=250]
-pictures/dungeon-and-laser-encounters/ssg/ygrid/01.jpg
+pictures/dungeon-and-laser/encounters/ssg/ygrid/01.jpg
 pictures/dark-elves/malus-dark-blade/01.jpg
 [/gallery]
 
@@ -141,9 +141,9 @@ En novembre j'ai peint :
 * Un genre de Big Foot pour mon défi chez __Karv__
 
 [gallery w=200 h=250]
-pictures/dungeon-and-laser-encounters/ssg/caravanne/01.jpg
+pictures/dungeon-and-laser/encounters/ssg/caravanne/01.jpg
 pictures/dark-elves/assassin/02.jpg
-pictures/dungeon-and-laser-encounters/sg/big-foot/01.jpg
+pictures/dungeon-and-laser/encounters/sg/big-foot/01.jpg
 [/gallery]
 
 ## Decembre 2024
@@ -154,7 +154,7 @@ En décembre j'ai peint :
 * Une Bulma pour mon défi chez __Karv__
 
 [gallery w=200 h=250]
-pictures/decor-skaventide/06.jpg
+pictures/decor/skaventide/06.jpg
 pictures/repaint/bulma/01.jpg
 pictures/dark-elves/cavalier-sg-froid/01.jpg
 [/gallery]

@@ -22,10 +22,11 @@ pictures/bataille-col-crane/gobs/lanciers/15.jpg
 
 En fevrier j'ai peint :
 * Un dragon pour mon défis __mort / purification / richesse__.
-* 6 Hero nemesis pour __TODO__ sur [OMM](TODO).
+* 6 Hero nemesis pour Sci-Fi sur [OMM](https://onemoremini.fr/topic/662/d%C3%A9fi-f%C3%A9vrier-2025-sci-fi).
 
 [gallery w=250 h=250]
-pictures/dungeon-and-laser-encounters/ssg/thos/01.jpg
+pictures/dungeon-and-laser/encounters/ssg/thos/01.jpg
+pictures/jeux/nemesis/hero-ext-ks-1.jpg
 [/gallery]
 
 ## Mars 2025
