@@ -255,6 +255,17 @@ q(function() {
 		new _badge("Collectionneur", "icon14.png", "Obtenir 7 badges"), // 15
 		new _badge("Gatha'em all", "icon04.png", "Obtenir tous les badge"), // 16
 	);
+	
+	const _CoupFinal = 0;
+	const _Populeux = 1;
+	const _PetitGros = 4;
+	const _PetitMoyenGros = 5;
+	const _ContribTrois = 6;
+	const _ContribCinq = 7;
+	const _OneShot = 8;
+	const _20Fig = 9;
+//	const _ContribDix = 11;
+	const _BonPlan = 12;
 
 	
 	let angest = new _player("Angest", "pirate12.png"); // 0 5 6 7
@@ -263,7 +274,7 @@ q(function() {
 	let hyasull = new _player("Hyasull", "pirate13.png");
 	let phylios = new _player("Phylios", "pirate07.png"); // 12
 	let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
-	let shionn = new _player("Shionn", "pirate02.png"); // 0 1 (2) 5 9 (11)
+	let shionn = new _player("Shionn", "pirate02.png"); // 0 1 (2) 5 6 7 9 (11) (15)
 	let tupad = new _player("Tupad_", "pirate07.png");
 	let tony = new _player("Tony", "pirate14.png"); // 0 1 8 9
 	let whisp = new _player("Whisp", "pirate00.png"); // 0 4
@@ -276,16 +287,16 @@ q(function() {
 			.progress("04/01/2025", shionn, 6, "Trolls", _MEDIUM)
 //			.addBadge("04/01/2025", shionn, 2)
 			.progress("04/01/2025", angest, 1, "Buste Eliot", _MEDIUM)
-			.addBadge("04/01/2025", angest, 6)
-			.addBadge("04/01/2025", angest, 0)
+			.addBadge("04/01/2025", angest, _ContribTrois)
+			.addBadge("04/01/2025", angest, _CoupFinal)
 			.render();
 
 	let q2 = new _quest("quest-2", "	Réapprovisionnement en matériaux", "Peindre 30 figurines", 30)
 			.progress("04/01/2025", tony, 30, "Zombi", _SMALL)
-			.addBadge("04/01/2025", tony, 1)
-			.addBadge("04/01/2025", tony, 8)
-			.addBadge("04/01/2025", tony, 9)
-			.addBadge("04/01/2025", tony, 0)
+			.addBadge("04/01/2025", tony, _Populeux)
+			.addBadge("04/01/2025", tony, _OneShot)
+			.addBadge("04/01/2025", tony, _20Fig)
+			.addBadge("04/01/2025", tony, _CoupFinal)
 			.render();
 			
 	let q3 = new _quest("quest-3", "Construction des quais du port", "Peindre 30 figurines", 30)
@@ -296,7 +307,7 @@ q(function() {
 			.progress("06/01/2025", angest, 1, "Ork", _SMALL)
 			.progress("06/01/2025", angest, 1, "Gretchin", _SMALL)
 			.progress("07/01/2025", angest, 1, "Ork", _SMALL)
-			.addBadge("07/01/2025", angest, 7)
+			.addBadge("07/01/2025", angest, _ContribCinq)
 			.progress("08/01/2025", angest, 1, "Gretchin", _SMALL)
 			.progress("09/01/2025", tony, 1, "Orc", _MEDIUM)
 			.render();
@@ -306,7 +317,7 @@ q(function() {
 			.progress("11/01/2025", angest, 1, "Void-Warped Basilisk", _MEDIUM)
 			.progress("13/01/2025", whisp, 1, "Vampire", _SMALL)
 			.progress("15/01/2025", angest, 1, "Shaco", _SMALL)
-			.addBadge("15/01/2025", angest, 5)
+			.addBadge("15/01/2025", angest, _PetitMoyenGros)
 			.progress("16/01/2025", angest, 1, "Valrok", _SMALL)
 			.progress("16/01/2025", whisp, 1, "Totem SFB", _MEDIUM)
 			.progress("17/01/2025", angest, 1, "Nobz Ork", _SMALL)
@@ -316,17 +327,17 @@ q(function() {
 			.progress("23/01/2025", angest, 1, "Crimson Knight", _SMALL)
 			.progress("24/01/2025", anuabi, 1, "Termagant", _SMALL)
 			.progress("26/01/2025", shionn, 13, "Gobelin de la Nuit", _SMALL)
-			.addBadge("26/01/2025", shionn, 1)
-			.addBadge("26/01/2025", shionn, 0)
+			.addBadge("26/01/2025", shionn, _Populeux)
+			.addBadge("26/01/2025", shionn, _CoupFinal)
 			.render();
 
 	let q5 = new _quest("quest-5", "Construction des baraquements", "Peindre 30 figurines", 30)
 			.progress("26/01/2025", shionn, 27, "Gobelin de la Nuit", _SMALL)
-			.addBadge("26/01/2025", shionn, 9)
+			.addBadge("26/01/2025", shionn, _20Fig)
 			.progress("27/01/2025", tony, 1, "Cauchemar", _SMALL)
 			.progress("28/01/2025", tony, 1, "Gandalf", _SMALL)
 			.progress("31/01/2025", whisp, 1, "Le poissonnier d'Heavenrir", _SMALL)
-			.addBadge("31/01/2025", whisp, 0)
+			.addBadge("31/01/2025", whisp, _CoupFinal)
 			.render();
 
 	let q6 = new _quest("quest-6", "Collecter des vivres", "Peindre 15 figurines", 15)
@@ -334,7 +345,7 @@ q(function() {
 		.progress("31/01/2025", phylios, 1, "Golem", _SMALL)
 		.progress("31/01/2025", angest, 1, "Hibours des neiges", _MEDIUM)
 		.progress("01/02/2025", whisp, 1, "Géant de Roi Lugubre", _BIG)
-		.addBadge("01/02/2025", whisp, 4)
+		.addBadge("01/02/2025", whisp, _PetitGros)
 		.progress("02/02/2025", angest, 1, "Slaad guerrier", _SMALL)
 		.progress("05/02/2025", tony, 1, "Lieutenant Primaris", _MEDIUM)
 		.progress("05/02/2025", angest, 1, "SM Primaris Infiltrator", _SMALL)
@@ -343,11 +354,11 @@ q(function() {
 		.progress("11/02/2025", angest, 1, "Mini cyclope", _SMALL)
 		.progress("11/02/2025", angest, 1, "Eliot, Icone du Vide", _SMALL)
 		.progress("12/02/2025", tony, 1, "Terminator", _MEDIUM)
-		.addBadge("13/02/2025", phylios, 12)
+		.addBadge("13/02/2025", phylios, _BonPlan)
 		.progress("14/02/2025", angest, 1, "Hugo the Huge", _SMALL)
 		.progress("16/02/2025", angest, 1, "Obsidian Reaper", _MEDIUM)
 		.progress("16/02/2025", anuabi, 1, "Termagaunt", _SMALL)
-		.addBadge("16/02/2025", anuabi, 0)
+		.addBadge("16/02/2025", anuabi, _CoupFinal)
 		.render();
 		
 	let q7 = new _quest("quest-7", "Pillage de la colonnie espagnole", "Peindre 30 figurines", 30)
@@ -355,18 +366,21 @@ q(function() {
 		.progress("17/02/2025", shionn, 1, "Boss squig & BrutoSquig", _SMALL)
 		.progress("17/02/2025", shionn, 1, "Thos le Dragon", _MEDIUM)
 		.progress("17/02/2025", shionn, 1, "Trugg, roi des trolls", _BIG)
-		.addBadge("17/02/2025", shionn, 5)
+		.addBadge("17/02/2025", shionn, _PetitMoyenGros)
+		.addBadge("17/02/2025", shionn, _ContribTrois)
 		.progress("17/02/2025", whisp, 1, "Nevamore, Super Fantasy Brawl", _MEDIUM)
 		.progress("17/02/2025", shionn, 1, "Mercenaire hero nemessis", _SMALL)
 		.progress("17/02/2025", shionn, 1, "Psy hero nemessis", _SMALL)
+		.addBadge("17/02/2025", shionn, _ContribCinq)
 		.progress("18/02/2025", whisp, 1, "Pillier, Super Fantasy Brawl", _MEDIUM)
 		.progress("18/02/2025", shionn, 1, "Pdg hero nemessis", _SMALL)
 		.progress("19/02/2025", shionn, 1, "Prisonnier hero nemessis", _SMALL)
 		.progress("19/02/2025", shionn, 1, "Android hero nemessis", _SMALL)
 		.progress("19/02/2025", shionn, 1, "Chien nemessis", _SMALL)
 		.progress("20/02/2025", shionn, 1, "D&L Dame à l'épée", _SMALL)
-//		.addBadge("20/02/2025", shionn, 11)
+//		.addBadge("20/02/2025", shionn, _ContribDix)
 		.progress("21/02/2025", whisp, 1, "Vampire presque underworld", _SMALL)
+		.addBadge("21/02/2025", whisp, _ContribTrois)
 		.render();
 
 //	let q8 = new _quest("quest-8", "Construction d'une echoppe pour les Pirates", "Peindre 40 figurines ou Décors", 40)
