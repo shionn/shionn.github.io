@@ -2,9 +2,14 @@
 
 q(function() {
 
-	const _SMALL = 1;
-	const _MEDIUM = 2;
-	const _BIG = 5;
+	const _FIG = 1;
+	const _DECORD = 2;
+	const _SMALL = { xp: 1, type: _FIG };
+	const _MEDIUM = { xp: 2, type: _FIG };
+	const _BIG = { xp: 5, type: _FIG };
+	const _SMALL_DECOR = { xp: 1, type: _DECORD };
+	const _MEDIUM_DECOR = { xp: 2, type: _DECORD };
+	const _BIG_DECOR = { xp: 5, type: _DECORD };
 	const _GRADES = ["Mousse", "Pirate de pacotille", "Flibustiers", "Cannoniers", "Loups de mers", "Ecumeurs des mers", "Quartier maître", "Pirate émérite", "Terreur des mers", "Quartier maître en chef", "Second du capitaine"];
 	const _CAPTAIN_GRADES = ["Capitaine Déchu", "Capitaine Maudit", "Capitaine", "Capitaine Cendré", "Capitaine Tenebreux", "Capitaine Supreme"];
 	const _PAINT = 1;
@@ -87,17 +92,17 @@ q(function() {
 		}
 	};
 
-	let _history = function(type, date, player, value, desc, xpFactor) {
-		this.type = type;
+	let _history = function(event, date, player, value, desc, type) {
+		this.event = event;
 		this.date = date;
 		this.player = player;
 		this.value = value;
 		this.desc = desc;
-		this.xpFactor = xpFactor;
+		this.type = type;
 
 		this.description = function() {
-			switch (type) {
-				case _PAINT: return "peint " + value + " " + desc + " (+" + (value * xpFactor) + " xp)";
+			switch (event) {
+				case _PAINT: return "peint " + value + " " + desc + " (+" + (value * type.xp) + " xp)";
 				case _LVL_UP: return "passe " + desc;
 				case _END_QUEST: return "fini la quete";
 				case _GAIN_BADGE: return "gagne le badge " + _BADGE[value].name;
@@ -141,25 +146,27 @@ q(function() {
 			return this;
 		}
 
-		this.progress = function(date, player, count, desc, xp_factor) {
-			this.history.push(new _history(_PAINT, date, player, count, desc, xp_factor));
-			if (player.gainXp(count, xp_factor)) {
+		this.progress = function(date, player, count, desc, type) {
+			this.history.push(new _history(_PAINT, date, player, count, desc, type));
+			if (player.gainXp(count, type.xp)) {
 				this.history.push(new _history(_LVL_UP, date, player, player.lvl, player.grade()));
 				while(player.gainXp(0,0)) {
 					this.history.push(new _history(_LVL_UP, date, player, player.lvl, player.grade()));
 				}
 			};
-			if (count>=10 && xp_factor ===_SMALL) this.addBadge(date, player, 1); // 10 petite fig d'un coup
-			if (count>=5 && xp_factor ===_MEDIUM) this.addBadge(date, player, 2); // 5 fig moyenne d'un coup
-			if (count>=2 && xp_factor ===_BIG) this.addBadge(date, player, 3); // 2 grosse fig d'un coup
+			if (count>=10 && type ===_SMALL) this.addBadge(date, player, 1); // 10 petite fig d'un coup
+			if (count>=5 && type ===_MEDIUM) this.addBadge(date, player, 2); // 5 fig moyenne d'un coup
+			if (count>=2 && type ===_BIG) this.addBadge(date, player, 3); // 2 grosse fig d'un coup
 			if (this.hasSend(player, _SMALL) && this.hasSend(player, _MEDIUM) && this.hasSend(player, _BIG)) this.addBadge(date, player, 5); //petit/moyen/gros
 			if (this.countHistory(_PAINT, player) >= 3) this.addBadge(date, player, 6); // faire 3 contribution
 			if (this.countHistory(_PAINT, player) >= 5) this.addBadge(date, player, 7); // faire 5 contribution
 			if (this.current === 0 && count >= this.size) this.addBadge(date, player, 8); // one shot
-			if (this.sumHistory(_PAINT, player) >= 20) this.addBadge(date, player, 9); // envoyer 20 figurine
+			if (this.sumFigHistory(_PAINT, player, _FIG) >= 20) this.addBadge(date, player, 9); // envoyer 20 figurine
 			if (this.countHistory(_PAINT, player) >= 10) this.addBadge(date, player, 10); // faire 10 contribution
 			if (player.countQuest(this.id)>=10) this.addBadge(date, player, 13); // faire 10 quetes
 			if (player.countQuest(this.id)>=20) this.addBadge(date, player, 14); // faire 20 quetes
+			if (this.hasSend(player, _SMALL_DECOR) && this.hasSend(player, _MEDIUM_DECOR) && this.hasSend(player, _BIG_DECOR)) this.addBadge(date, player, 15); //petit/moyen/gros decors
+			if (this.sumFigHistory(_PAINT, player, _DECORD) >= 15) this.addBadge(date, player, 16); // envoyer 15 décors
 			this.current = this.current + count;
 			if (this.isFinished()) {
 				this.addBadge(date, player, 0); // coup final
@@ -169,24 +176,24 @@ q(function() {
 			return this;
 		};
 		
-		this.hasSend = function(player, xpFactor) {
-			return this.history.findIndex( (v) => v.player === player && v.xpFactor === xpFactor ) !== -1;
+		this.hasSend = function(player, type) {
+			return this.history.findIndex( (v) => v.player === player && v.type === type ) !== -1;
 		};
 		
-		this.countHistory = function(type, player) {
-			return this.history.filter((v)=>v.type === type && v.player === player).length;
+		this.countHistory = function(event, player) {
+			return this.history.filter((v)=>v.event === event && v.player === player).length;
 		};
 		
-		this.sumHistory = function(type, player) {
-			return this.history.filter((v)=>v.type === type && v.player === player).map(h=>h.value).reduce((a,b)=>a+b);
+		this.sumFigHistory = function(event, player, figType) {
+			return this.history.filter((v)=>v.event === event && v.player === player && v.type.type === figType).map(h=>h.value).reduce((a,b)=>a+b, 0);
 		};
 
 		this.addBadge = function(date, player, badge) {
 			if (player.addBadge(badge)) {
 				this.history.push(new _history(_GAIN_BADGE, date, player, badge));
 				_BADGE[badge].revealed = true;
-				if (player.badges.length >= 7) this.addBadge(date, player, 15);
-				if (player.badges.length >= _BADGE.length) this.addBadge(date, player, 16);
+				if (player.badges.length >= 8) this.addBadge(date, player, 17); // obtenir 8 badge
+				if (player.badges.length >= _BADGE.length) this.addBadge(date, player, 18); // obtenir tous les badge
 			}
 			return this;
 		};
@@ -280,7 +287,11 @@ q(function() {
 		new _badge("Ten", "icon05.png", "Participer à 10 quête différente", false), 
 		new _badge("Twenty", "icon08.png", "Participer à 20 quête différente", false),
 		
-		new _badge("Collectionneur", "icon14.png", "Obtenir 7 badges", false),
+		new _badge("Du cailloux à la Tour", "icon29.png", "Envoyer un décors de chaque taille dans la même quête", false), 
+		new _badge("Decorama", "icon28.png", "Envoyer 15 décors dans la même quête", false), 
+
+		
+		new _badge("Collectionneur", "icon14.png", "Obtenir 8 badges", false),
 		new _badge("Gatha'em all", "icon04.png", "Obtenir tous les badge", false),
 	);
 	
@@ -385,12 +396,12 @@ q(function() {
 		.render();
 
 //	let q8 = new _quest("quest-8", "Construction d'une echoppe pour les Pirates", "Peindre 40 figurines ou Décors", 40)
-//		.progress("19/02/2025", tupad, 2, "Tour d'ewok", _BIG)
-//		.progress("19/02/2025", tupad, 3, "Tour d'ewok", _MEDIUM)
-//		.progress("19/02/2025", tupad, 5, "Passerelle d'ewok", _BIG)
-//		.progress("19/02/2025", tupad, 8, "Buisson", _SMALL)
+//		.progress("19/02/2025", tupad, 2, "Tour d'ewok", _BIG_DECOR)
+//		.progress("19/02/2025", tupad, 3, "Tour d'ewok", _MEDIUM_DECOR)
+//		.progress("19/02/2025", tupad, 5, "Passerelle d'ewok", _BIG_DECOR)
+//		.progress("19/02/2025", tupad, 8, "Buisson", _SMALL_DECOR)
 //		.render();
-			
+//			
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
 	_renderQuests([q1, q2, q3, q4, q5, q6, q7]);
 
