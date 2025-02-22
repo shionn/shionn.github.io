@@ -976,12 +976,10 @@ table.players td.xp,
 table.all-quests td.xp {
   min-width: 150px;
 }
-table.quest td.badge img,
-table.players td.badge img,
-table.all-quests td.badge img {
-  max-height: 16px;
-  margin: 0 2px 0 0;
-  display: unset;
+table.quest td.badge i,
+table.players td.badge i,
+table.all-quests td.badge i {
+  margin-right: 1px;
 }
 table.quest span.progress,
 table.players span.progress,

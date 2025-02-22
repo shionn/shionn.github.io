@@ -121,10 +121,8 @@ table.all-quests {
 	}
 
 	td.badge {
-		img {
-			max-height: 16px;
-			margin: 0 2px 0 0;
-			display: unset;
+		i {
+			margin-right: 1px;
 		}
 	}
 

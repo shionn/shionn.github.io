@@ -5,3 +5,6 @@ target/
 site
 shionn.github.io
 .externalToolBuilders/
+node_modules/
+package-lock.json
+package.json

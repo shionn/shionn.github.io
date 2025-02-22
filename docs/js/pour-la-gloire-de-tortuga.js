@@ -105,7 +105,7 @@ q(function() {
 				case _PAINT: return "peint " + value + " " + desc + " (+" + (value * type.xp) + " xp)";
 				case _LVL_UP: return "passe " + desc;
 				case _END_QUEST: return "fini la quete";
-				case _GAIN_BADGE: return "gagne le badge " + _BADGE[value].name;
+				case _GAIN_BADGE: return "gagne le badge " + _BADGE[value].name+ " ";
 			}
 		}
 	};
@@ -135,10 +135,14 @@ q(function() {
 
 			body = q("<tbody>");
 			this.history.forEach(h => {
+				let desc = q("<td>").text(h.description());
+				if (h.event === _GAIN_BADGE) {
+					desc = desc.append(q("<i>").attr("class",_BADGE[h.value].icon))
+				}
 				let line = q("<tr>")
 					.append(q("<td>").text(h.date))
 					.append(q("<td>").text(h.player.name))
-					.append(q("<td>").text(h.description()));
+					.append(desc);
 				body.append(line)
 			});
 
@@ -236,7 +240,7 @@ q(function() {
 				.append(q("<td>").text(player.figurines + " figurines"));
 			let badge = q("<td>").addClass("badge");
 			player.badges.forEach(b => {
-				badge.append(q("<img>").attr("src", _BADGE[b].iconPath()));
+				badge.append(q("<i>").attr("class", _BADGE[b].icon));
 			});
 			lines[4]
 				.append(q("<td>").addClass("subtitle").text("Badges"))
@@ -251,7 +255,7 @@ q(function() {
 		}
 		_BADGE.forEach(b => {
 			if (b.revealed) {
-				body.append(q("<tr>").append(q("<td>").attr("colspan", 6).addClass("badge").append(q("<img>").attr("src", b.iconPath())).append(q("<strong>").text(b.name + ": " )).append(q("<span>").text(b.description))));
+				body.append(q("<tr>").append(q("<td>").attr("colspan", 6).addClass("badge").append(q("<i>").attr("class", b.icon)).append(q("<strong>").text(b.name + ": " )).append(q("<span>").text(b.description))));
 			}
 		});
 
@@ -272,29 +276,29 @@ q(function() {
 	};
 
 	_BADGE.push(
-		new _badge("Coup Final", "icon07.png", "Achever une quête", false), 
-		new _badge("Populeux", "icon22.png", "Envoyer 10 petites figurines d'un coup", false),
-		new _badge("Bourrin", "icon03.png", "Envoyer 5 figurines moyenne d'un coup", false), 
-		new _badge("Massif", "icon06.png", "Envoyer 2 grande figurines d'un coup", false), 
-		new _badge("Petit/Gros", "icon20.png", "Envoyer une petite figurine et une grande dans la même quête", true), // 4 
-		new _badge("Petit/Moyen/Gros", "icon31.png", "Envoyer une figurine de chaque taille dans la même quête", false), 
-		new _badge("Mitraillette", "icon19.png", "Faire 3 contributions à la même quête", false), 
-		new _badge("Gatling", "icon32.png", "Faire 5 contributions à la même quête", false), 
-		new _badge("One shot", "icon01.png", "Accomplir une quête d'un seul coup", false), 
-		new _badge("Vague", "icon23.png", "Envoyer 20 figurine lors de la même quête", false),
+		new _badge("Coup Final", "fa fa-flag", "Achever une quête", false), 
+		new _badge("Populeux", "ra ra-rabbit", "Envoyer 10 petites figurines d'un coup", false),
+		new _badge("Bourrin", "ra ra-octopus", "Envoyer 5 figurines moyenne d'un coup", true), 
+		new _badge("Massif", "ra ra-dragon", "Envoyer 2 grande figurines d'un coup", false), 
+		new _badge("Petit/Gros", "ra ra-two-dragons", "Envoyer une petite figurine et une grande dans la même quête", true), // 4 
+		new _badge("Petit/Moyen/Gros", "ra ra-hydra", "Envoyer une figurine de chaque taille dans la même quête", false), 
+		new _badge("Mitraillette", "ra ra-barbed-arrow", "Faire 3 contributions à la même quête", false), 
+		new _badge("Gatling", "ra ra-arrow-cluster", "Faire 5 contributions à la même quête", false), 
+		new _badge("One shot", "ra ra-lightning-storm", "Accomplir une quête d'un seul coup", false), 
+		new _badge("Vague", "ra ra-double-team ", "Envoyer 20 figurine lors de la même quête", false),
 		
-		new _badge("Uzi", "icon11.png", "Faire 10 contributions à la même quête", false),
-		new _badge("Gargantuesque", "icon02.png", "Peindre une très grosse figurine", false), // 11
-		new _badge("Bon plan", "icon09.png", "Faire profiter la commu d'un bon plan", true), // 12
-		new _badge("Ten", "icon05.png", "Participer à 10 quête différente", false), 
-		new _badge("Twenty", "icon08.png", "Participer à 20 quête différente", false),
-		new _badge("Du cailloux à la Tour", "icon29.png", "Envoyer un décors de chaque taille dans la même quête", false), 
-		new _badge("Decorama", "icon28.png", "Envoyer 15 décors dans la même quête", false), 
-		new _badge("Coup Final", "icon27.png", "Achever une quête avec un décor", false), 
-		new _badge("Collectionneur", "icon14.png", "Obtenir 8 badges", false),
-		new _badge("Presque tous", "icon24.png", "Obtenir presque tous les badges", false),
+		new _badge("Uzi", "ra ra-bullets", "Faire 10 contributions à la même quête", false),
+		new _badge("Gargantuesque", "ra ra-monster-skull", "Peindre une très grosse figurine", false), // 11
+		new _badge("Bon plan", "fa fa-thumbs-up", "Faire profiter la commu d'un bon plan", true), // 12
+		new _badge("Ten", "fa fa-battery-quarter", "Participer à 10 quête différente", false), 
+		new _badge("Twenty", "fa fa-fa-battery-half", "Participer à 20 quête différente", false),
+		new _badge("Du cailloux à la Tour", "ra ra-tower", "Envoyer un décors de chaque taille dans la même quête", false), 
+		new _badge("Decorama", "ra ra-castle-emblem", "Envoyer 15 décors dans la même quête", false), 
+		new _badge("Dernier clou", "ra ra-ankh", "Achever une quête avec un décor", false), 
+		new _badge("Collectionneur", "ra ra-player", "Obtenir 8 badges", false),
+		new _badge("Presque tous", "ra ra-muscle-up", "Obtenir presque tous les badges", false),
 		
-		new _badge("Gotha'em all", "icon04.png", "Obtenir tous les badge", false),
+		new _badge("Gotha'em all", "ra ra-queen-crown", "Obtenir tous les badge", false),
 	);
 	
 	const _PetitGros = 4;

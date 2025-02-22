@@ -76,15 +76,15 @@ seront révélé au fur et à mesure que les joueurs les accomplis.
 
 Voici les badges actuellement connu : 
 
-- **Coup final:** Achever une quête
-- **One shot:** Accomplir une quête d'un seul coup
-- **Mitraillette:** Faire 3 contributions à la même quête
-- **Gatling:** Faire 5 contributions à la même quête
-- **Populeux:** Envoyer 10 petites figurines d'un coup
-- **Vague:** Envoyer 20 figurine lors de la même quête
-- **Petit/Gros:** Envoyer une petite figurine et une grande dans la même quête
-- **Petit/Moyen/Gros:** Envoyer une figurine de chaque taille dans la même quête
-- **Bon plan:** Faire profiter la commu d'un bon plan
+- <i class="fa fa-flag"></i> **Coup final:** Achever une quête
+- <i class="ra ra-lightning-storm"></i>**One shot:** Accomplir une quête d'un seul coup
+- <i class="ra ra-barbed-arrow"></i> **Mitraillette:** Faire 3 contributions à la même quête
+- <i class="ra ra-arrow-cluster"></i> **Gatling:** Faire 5 contributions à la même quête
+- <i class="ra ra-rabbit"></i> **Populeux:** Envoyer 10 petites figurines d'un coup
+- <i class="ra ra-double-team"></i> **Vague:** Envoyer 20 figurine lors de la même quête
+- <i class="ra ra-two-dragons"></i> **Petit/Gros:** Envoyer une petite figurine et une grande dans la même quête
+- <i class="ra ra-hydra"></i> **Petit/Moyen/Gros:** Envoyer une figurine de chaque taille dans la même quête
+- <i class="fa fa-thumbs-up"></i> **Bon plan:** Faire profiter la commu d'un bon plan
 
 ### Participant
 
