@@ -157,19 +157,23 @@ q(function() {
 			if (count>=10 && type ===_SMALL) this.addBadge(date, player, 1); // 10 petite fig d'un coup
 			if (count>=5 && type ===_MEDIUM) this.addBadge(date, player, 2); // 5 fig moyenne d'un coup
 			if (count>=2 && type ===_BIG) this.addBadge(date, player, 3); // 2 grosse fig d'un coup
+			// 4 petit gros non auto
 			if (this.hasSend(player, _SMALL) && this.hasSend(player, _MEDIUM) && this.hasSend(player, _BIG)) this.addBadge(date, player, 5); //petit/moyen/gros
 			if (this.countHistory(_PAINT, player) >= 3) this.addBadge(date, player, 6); // faire 3 contribution
 			if (this.countHistory(_PAINT, player) >= 5) this.addBadge(date, player, 7); // faire 5 contribution
 			if (this.current === 0 && count >= this.size) this.addBadge(date, player, 8); // one shot
 			if (this.sumFigHistory(_PAINT, player, _FIG) >= 20) this.addBadge(date, player, 9); // envoyer 20 figurine
 			if (this.countHistory(_PAINT, player) >= 10) this.addBadge(date, player, 10); // faire 10 contribution
+			// 11 gargantuesque non auto
+			// 12 bon plan
 			if (player.countQuest(this.id)>=10) this.addBadge(date, player, 13); // faire 10 quetes
 			if (player.countQuest(this.id)>=20) this.addBadge(date, player, 14); // faire 20 quetes
 			if (this.hasSend(player, _SMALL_DECOR) && this.hasSend(player, _MEDIUM_DECOR) && this.hasSend(player, _BIG_DECOR)) this.addBadge(date, player, 15); //petit/moyen/gros decors
 			if (this.sumFigHistory(_PAINT, player, _DECORD) >= 15) this.addBadge(date, player, 16); // envoyer 15 décors
 			this.current = this.current + count;
 			if (this.isFinished()) {
-				this.addBadge(date, player, 0); // coup final
+				if (type.type === _FIG) this.addBadge(date, player, 0); // coup final fig
+				if (type.type === _DECORD) this.addBadge(date, player, 17); // coup final decor
 				this.current = this.size;
 				this.history.push(new _history(_END_QUEST, date, player));
 			}
@@ -192,8 +196,9 @@ q(function() {
 			if (player.addBadge(badge)) {
 				this.history.push(new _history(_GAIN_BADGE, date, player, badge));
 				_BADGE[badge].revealed = true;
-				if (player.badges.length >= 8) this.addBadge(date, player, 17); // obtenir 8 badge
-				if (player.badges.length >= _BADGE.length) this.addBadge(date, player, 18); // obtenir tous les badge
+				if (player.badges.length >= 8) this.addBadge(date, player, 18); // obtenir 8 badge
+				if (player.badges.length >= 15) this.addBadge(date, player, 19); // obtenir presque tous les badges
+				if (player.badges.length >= _BADGE.length) this.addBadge(date, player, 20); // obtenir tous les badge
 			}
 			return this;
 		};
@@ -271,44 +276,41 @@ q(function() {
 		new _badge("Populeux", "icon22.png", "Envoyer 10 petites figurines d'un coup", false),
 		new _badge("Bourrin", "icon03.png", "Envoyer 5 figurines moyenne d'un coup", false), 
 		new _badge("Massif", "icon06.png", "Envoyer 2 grande figurines d'un coup", false), 
-		
 		new _badge("Petit/Gros", "icon20.png", "Envoyer une petite figurine et une grande dans la même quête", true), // 4 
-
 		new _badge("Petit/Moyen/Gros", "icon31.png", "Envoyer une figurine de chaque taille dans la même quête", false), 
 		new _badge("Mitraillette", "icon19.png", "Faire 3 contributions à la même quête", false), 
 		new _badge("Gatling", "icon32.png", "Faire 5 contributions à la même quête", false), 
 		new _badge("One shot", "icon01.png", "Accomplir une quête d'un seul coup", false), 
 		new _badge("Vague", "icon23.png", "Envoyer 20 figurine lors de la même quête", false),
+		
 		new _badge("Uzi", "icon11.png", "Faire 10 contributions à la même quête", false),
-		
 		new _badge("Gargantuesque", "icon02.png", "Peindre une très grosse figurine", false), // 11
-		new _badge("Bon plan", "icon09.png", "Faire profiter la commu d'un bon plan", true), // 12 OK
-		
+		new _badge("Bon plan", "icon09.png", "Faire profiter la commu d'un bon plan", true), // 12
 		new _badge("Ten", "icon05.png", "Participer à 10 quête différente", false), 
 		new _badge("Twenty", "icon08.png", "Participer à 20 quête différente", false),
-		
 		new _badge("Du cailloux à la Tour", "icon29.png", "Envoyer un décors de chaque taille dans la même quête", false), 
 		new _badge("Decorama", "icon28.png", "Envoyer 15 décors dans la même quête", false), 
-
-		
+		new _badge("Coup Final", "icon27.png", "Achever une quête avec un décor", false), 
 		new _badge("Collectionneur", "icon14.png", "Obtenir 8 badges", false),
-		new _badge("Gatha'em all", "icon04.png", "Obtenir tous les badge", false),
+		new _badge("Presque tous", "icon24.png", "Obtenir presque tous les badges", false),
+		
+		new _badge("Gotha'em all", "icon04.png", "Obtenir tous les badge", false),
 	);
 	
 	const _PetitGros = 4;
 	const _BonPlan = 12;
 
 	
-	let angest = new _player("Angest", "pirate12.png"); // 0 5 6 7
-	let anuabi = new _player("Anuabi", "pirate12.png"); // 4
+	let angest = new _player("Angest", "pirate12.png"); 
+	let anuabi = new _player("Anuabi", "pirate12.png");
 	let faran = new _player("Faran", "pirate16.png");
 	let hyasull = new _player("Hyasull", "pirate13.png");
-	let phylios = new _player("Phylios", "pirate07.png"); // 12
+	let phylios = new _player("Phylios", "pirate07.png"); 
 	let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
-	let shionn = new _player("Shionn", "pirate02.png"); // 0 1 (2) 5 6 7 9 (11) (15)
+	let shionn = new _player("Shionn", "pirate02.png");
 	let tupad = new _player("Tupad_", "pirate07.png");
-	let tony = new _player("Tony", "pirate14.png"); // 0 1 8 9
-	let whisp = new _player("Whisp", "pirate00.png"); // 0 4
+	let tony = new _player("Tony", "pirate14.png");
+	let whisp = new _player("Whisp", "pirate00.png");
 	whisp.captain = true;
 
 	let q1 = new _quest("quest-1", "Collecter des vivres", "Peindre 10 figurines", 10)
