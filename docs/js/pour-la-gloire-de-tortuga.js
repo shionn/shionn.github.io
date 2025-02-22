@@ -288,7 +288,7 @@ q(function() {
 		new _badge("Vague", "ra ra-double-team ", "Envoyer 20 figurine lors de la même quête", false),
 		
 		new _badge("Uzi", "ra ra-bullets", "Faire 10 contributions à la même quête", false),
-		new _badge("Gargantuesque", "ra ra-monster-skull", "Peindre une très grosse figurine", false), // 11
+		new _badge("Gargantuesque", "ra ra-monster-skull", "Peindre une très grosse figurine (>=100mm)", false), // 11
 		new _badge("Bon plan", "fa fa-thumbs-up", "Faire profiter la commu d'un bon plan", true), // 12
 		new _badge("Ten", "fa fa-battery-quarter", "Participer à 10 quête différente", false), 
 		new _badge("Twenty", "fa fa-fa-battery-half", "Participer à 20 quête différente", false),
@@ -302,6 +302,7 @@ q(function() {
 	);
 	
 	const _PetitGros = 4;
+	const _Gargantuesque = 11;
 	const _BonPlan = 12;
 
 	
@@ -389,6 +390,7 @@ q(function() {
 		.progress("17/02/2025", shionn, 1, "Boss squig & BrutoSquig", _SMALL)
 		.progress("17/02/2025", shionn, 1, "Thos le Dragon", _MEDIUM)
 		.progress("17/02/2025", shionn, 1, "Trugg, roi des trolls", _BIG)
+		.addBadge("17/02/2025", shionn, _Gargantuesque)
 		.progress("17/02/2025", whisp, 1, "Nevamore, Super Fantasy Brawl", _MEDIUM)
 		.progress("17/02/2025", shionn, 1, "Mercenaire hero nemessis", _SMALL)
 		.progress("17/02/2025", shionn, 1, "Psy hero nemessis", _SMALL)
