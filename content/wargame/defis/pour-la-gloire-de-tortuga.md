@@ -96,7 +96,7 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
-## Jour 47 Pillage de la colonnie espagnole
+### Jour 47 Pillage de la colonnie espagnole
 
 Ohé Pirates!! Vous avez bien travaillés nous avons un ponton tout neuf et des baraquements! Il nous faut du matériel pour construire une petite échoppe afin d'arroser une bonne journée de pillage et saccage!! 30 ressources seront nécéssaires pour récolter suffisament de matériaux!
 

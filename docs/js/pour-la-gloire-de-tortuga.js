@@ -278,7 +278,7 @@ q(function() {
 	_BADGE.push(
 		new _badge("Coup Final", "fa fa-flag", "Achever une quête", false), 
 		new _badge("Populeux", "ra ra-rabbit", "Envoyer 10 petites figurines d'un coup", false),
-		new _badge("Bourrin", "ra ra-octopus", "Envoyer 5 figurines moyenne d'un coup", false), 
+		new _badge("Bourrin", "ra ra-octopus", "Envoyer 5 figurines moyenne d'un coup", false), // TODO true
 		new _badge("Massif", "ra ra-dragon", "Envoyer 2 grande figurines d'un coup", false), 
 		new _badge("Petit/Gros", "ra ra-two-dragons", "Envoyer une petite figurine et une grande dans la même quête", true), // 4 
 		new _badge("Petit/Moyen/Gros", "ra ra-hydra", "Envoyer une figurine de chaque taille dans la même quête", false), 
