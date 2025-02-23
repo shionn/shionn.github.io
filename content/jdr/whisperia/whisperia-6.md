@@ -56,10 +56,11 @@ Toutes nos aventures dans les articles précédent :
 
 ## Et maintenant la suite
 
-Cette partie s'est déroulée le XX fevrier 2025. Dont voici le replay :
+Cette partie s'est déroulée le 22 fevrier 2025. Dont voici le replay :
 
 [youtube video="MzbAK9KT9ww?si=TJiWlSTukeCe3oXl"/]
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
 ### TODO
+
