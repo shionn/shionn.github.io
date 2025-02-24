@@ -1079,6 +1079,33 @@ ul.tree li:not(.closed) > a[href="#"]:before, ul.tree ul li:not(.closed) > a[hre
   padding-right: 5px;
 }
 
+form.comments div {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 2px;
+}
+form.comments label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+}
+form.comments input, form.comments textarea {
+  border: solid 2px #d8ae47;
+  color: #222;
+}
+form.comments input:focus, form.comments textarea:focus {
+  outline: none;
+}
+form.comments textarea {
+  width: 80%;
+  height: 100px;
+}
+form.comments input[type="submit"] {
+  margin-left: 125px;
+  background-color: #222;
+  color: #F5F5F5;
+}
+
 .side > div {
   margin-top: 3em;
 }

@@ -127,10 +127,11 @@
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/gallery.js"></script>
 	<script type="text/javascript" src="js/tree.js"></script>
+	<script type="text/javascript" src="js/comment.js"></script>
 	<th:block th:each="script : ${scripts}">
 		<script type="text/javascript" th:src="${script}"></script>
 	</th:block>
 	<script type="text/javascript" src="js/table.js"></script>
-	<script type="text/javascript">if(hljs) {hljs.initHighlightingOnLoad();}</script>
+	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>

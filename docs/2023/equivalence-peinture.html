@@ -273,6 +273,24 @@ Je vous les propose aujourd'hui.</p>
 </section>
 	<footer>
 		<em class="author">par Shionn, le 15 juillet 2023<span>, derniére modification le 12 octobre 2024</span>.</em>
+		<h2>Commentaires</h2>
+		<div class="comments">
+			
+		</div>
+		<h2>Ajouter un commentaire</h2>
+		<form method="post" class="comments">
+			<div>
+				<label for="author">Votre pseudo</label>
+				<input type="text" name="author" required>
+			</div>
+			<div>
+				<label for="author">Votre message</label>
+				<textarea name="content" required></textarea>
+			</div>
+			<div>
+				<input type="submit" value="Commenter">
+			</div>
+		</form>
 	</footer>
 </article>
 		</div>
@@ -637,6 +655,7 @@ Je vous les propose aujourd'hui.</p>
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/gallery.js"></script>
 	<script type="text/javascript" src="js/tree.js"></script>
+	<script type="text/javascript" src="js/comment.js"></script>
 	
 		<script type="text/javascript" src="js/paint-db.js"></script>
 	
@@ -645,6 +664,6 @@ Je vous les propose aujourd'hui.</p>
 		<script type="text/javascript" src="js/paint-equivalence.js"></script>
 	
 	<script type="text/javascript" src="js/table.js"></script>
-	<script type="text/javascript">if(hljs) {hljs.initHighlightingOnLoad();}</script>
+	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>

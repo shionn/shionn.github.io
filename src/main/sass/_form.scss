@@ -1,0 +1,30 @@
+@import "_variables.scss";
+
+form.comments {
+	div {
+		display: flex;
+		gap: 5px;
+		margin-bottom: 2px;
+	}
+	label {
+		display: inline-block;
+		width: 120px;
+		text-align: right;
+	}
+	input, textarea {
+		border: solid 2px $theme-color;
+		color: $theme-black;
+		&:focus {
+			outline: none;
+		}
+	}
+	textarea {
+		width: 80%;
+		height: 100px;
+	}
+	input[type="submit"] {
+		margin-left: 125px;
+		background-color: $theme-black;
+		color: $theme-grey;
+	} 
+}

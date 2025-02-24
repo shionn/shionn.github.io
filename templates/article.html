@@ -31,6 +31,24 @@
 	<section th:utext="${article.fullContent}"></section>
 	<footer>
 		<em class="author">par <th:block th:text="${article.author}"/>, le <th:block th:text="${article.formatedDate}"/><span th:if="${article.updateDate}">, derniére modification le <th:block th:text="${article.formatedUpdateDate}"/></span>.</em>
+		<h2>Commentaires</h2>
+		<div class="comments">
+			
+		</div>
+		<h2>Ajouter un commentaire</h2>
+		<form method="post" class="comments">
+			<div>
+				<label for="author">Votre pseudo</label>
+				<input type="text" name="author" required>
+			</div>
+			<div>
+				<label for="author">Votre message</label>
+				<textarea name="content" required></textarea>
+			</div>
+			<div>
+				<input type="submit" value="Commenter">
+			</div>
+		</form>
 	</footer>
 </article>
 <div class="e404" th:fragment="404">

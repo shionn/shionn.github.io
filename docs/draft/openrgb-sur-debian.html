@@ -274,6 +274,24 @@ Pour ce faire éditer le fichier <code>/etc/default/grub</code> et modifier l'op
 </section>
 	<footer>
 		<em class="author">par Shionn, le 10 mai 2025.</em>
+		<h2>Commentaires</h2>
+		<div class="comments">
+			
+		</div>
+		<h2>Ajouter un commentaire</h2>
+		<form method="post" class="comments">
+			<div>
+				<label for="author">Votre pseudo</label>
+				<input type="text" name="author" required>
+			</div>
+			<div>
+				<label for="author">Votre message</label>
+				<textarea name="content" required></textarea>
+			</div>
+			<div>
+				<input type="submit" value="Commenter">
+			</div>
+		</form>
 	</footer>
 </article>
 		</div>
@@ -638,12 +656,13 @@ Pour ce faire éditer le fichier <code>/etc/default/grub</code> et modifier l'op
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/gallery.js"></script>
 	<script type="text/javascript" src="js/tree.js"></script>
+	<script type="text/javascript" src="js/comment.js"></script>
 	
 		<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
 	
 		<script type="text/javascript" src="js/hljs/bash.min.js"></script>
 	
 	<script type="text/javascript" src="js/table.js"></script>
-	<script type="text/javascript">if(hljs) {hljs.initHighlightingOnLoad();}</script>
+	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>

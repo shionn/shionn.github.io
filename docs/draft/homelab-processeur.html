@@ -492,6 +492,24 @@ vous avez forcement du vous perdre un peu avec les références de ces processeu
 </section>
 	<footer>
 		<em class="author">par Shionn, le 16 avril 2025.</em>
+		<h2>Commentaires</h2>
+		<div class="comments">
+			
+		</div>
+		<h2>Ajouter un commentaire</h2>
+		<form method="post" class="comments">
+			<div>
+				<label for="author">Votre pseudo</label>
+				<input type="text" name="author" required>
+			</div>
+			<div>
+				<label for="author">Votre message</label>
+				<textarea name="content" required></textarea>
+			</div>
+			<div>
+				<input type="submit" value="Commenter">
+			</div>
+		</form>
 	</footer>
 </article>
 		</div>
@@ -856,8 +874,9 @@ vous avez forcement du vous perdre un peu avec les références de ces processeu
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/gallery.js"></script>
 	<script type="text/javascript" src="js/tree.js"></script>
+	<script type="text/javascript" src="js/comment.js"></script>
 	
 	<script type="text/javascript" src="js/table.js"></script>
-	<script type="text/javascript">if(hljs) {hljs.initHighlightingOnLoad();}</script>
+	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>
