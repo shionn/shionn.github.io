@@ -165,11 +165,6 @@ _ajax.prototype.header = function(name, value) {
 	return this;
 };
 
-_ajax.prototype.body = function( value) {
-	this.req.send(value);
-	return this;
-};
-
 _ajax.prototype.success = function(success) {
 	this.req.onreadystatechange = function() {
 		if (this.readyState === XMLHttpRequest.DONE) {
@@ -196,8 +191,9 @@ _ajax.prototype.success = function(success) {
 	return this;
 };
 
-_ajax.prototype.process = function() {
-	this.req.send();
+_ajax.prototype.process = function(body) {
+	if (body) this.req.send(body);
+	else this.req.send();
 };
 
 q.ajax = function(url, method = "GET") {

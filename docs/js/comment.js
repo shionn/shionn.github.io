@@ -1,6 +1,7 @@
 
 q(function(){
-	const url = "http://localhost:8080/BlogDynamicApi/comment"
+//	const url = "http://localhost:8080/BlogDynamicApi/comment"
+	const url = "https://blog-dynamic.shionn.org/comment"
 	const page = window.location.toString().replace(q("base").attr("href"),"");
 	q.ajax(url,"GET").header("page", page).success(function(comments) {
 		comments.forEach(comment => {
@@ -12,9 +13,9 @@ q(function(){
 	
 	q("form.comments").on("submit", function(e) {
 		e.preventDefault();
-		q.ajax(url,"POST").header("author", this[0].value).body(this[1].value).header("page",page).success(function(){
+		q.ajax(url,"POST").header("author", this[0].value).header("page",page).success(function(){
 			window.location.reload();
-		}).process();
+		}).process(this[1].value);
 		return false;
 	})
 });

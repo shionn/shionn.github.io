@@ -127,6 +127,12 @@ article {
 				display: block;
 			}
 		}
+		
+		.comments {
+			div {
+				white-space: pre;
+			}
+		}
 	}
 
 	&.short {

@@ -24,7 +24,7 @@ a {
 	font-family: 'Press Start 2P';
 	font-weight: 400;
 	font-style: normal;
-	src: local('Press Start 2P'), local('Press-Start-2P-regular'), url('font/Press-Start-2P-regular.eot'), url('../font/Press-Start-2P-regular.woff2') format('woff2'), url('../font/Press-Start-2P-regular.woff') format('woff'), url('../font/Press-Start-2P-regular.ttf') format('truetype'), url('../font/Press-Start-2P-regular.svg') format('svg');
+	src: local('Press Start 2P'), local('Press-Start-2P-regular'), url('../font/Press-Start-2P-regular.eot') format('eot'), url('../font/Press-Start-2P-regular.woff2') format('woff2'), url('../font/Press-Start-2P-regular.woff') format('woff'), url('../font/Press-Start-2P-regular.ttf') format('truetype'), url('../font/Press-Start-2P-regular.svg') format('svg');
 }
 
 @import "_structure.scss";
