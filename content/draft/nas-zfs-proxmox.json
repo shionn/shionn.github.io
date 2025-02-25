@@ -6,5 +6,5 @@
 	"category": "Linux",
 	"published": false,
 	"author": "Shionn",
-	"js" : [ "js/hljs/highlight.min.js", "js/hljs/bash.min.js" ]
+	"js" : [ "js/hljs/bash.min.js" ]
 }

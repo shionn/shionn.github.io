@@ -8,7 +8,6 @@
 	"category": "Code",
 	"published": false,
 	"js": [
-		"js/hljs/highlight.min.js",
 		"js/hljs/java.min.js",
 		"js/hljs/bash.min.js",
 		"js/hljs/xml.min.js"

@@ -5,6 +5,6 @@
 	"tags": ["Java", "Discord" ],
 	"category": "Code",
 	"published": true,
-	"js" : [ "js/hljs/highlight.min.js", "js/hljs/java.min.js", "js/hljs/bash.min.js", "js/hljs/xml.min.js" ],
+	"js" : [ "js/hljs/java.min.js", "js/hljs/bash.min.js", "js/hljs/xml.min.js" ],
 	"author": "Shionn"
 }

@@ -8,5 +8,5 @@
 	"published": true,
 	"author": "Shionn",
 	"logo": "pictures/titles/nginx-debian.jpg",
-	"js" : [ "js/hljs/highlight.min.js", "js/hljs/bash.min.js" ]
+	"js" : [ "js/hljs/bash.min.js" ]
 }

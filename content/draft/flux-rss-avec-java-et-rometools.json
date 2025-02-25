@@ -5,6 +5,6 @@
 	"tags": ["Java", "RSS"],
 	"category": "Code",
 	"published": false,
-	"js" : [ "js/hljs/highlight.min.js", "js/hljs/java.min.js", "js/hljs/bash.min.js" ],
+	"js" : [ "js/hljs/java.min.js", "js/hljs/bash.min.js" ],
 	"author": "Shionn"
 }
