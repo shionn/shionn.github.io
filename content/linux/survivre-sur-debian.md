@@ -153,6 +153,10 @@ J'aime pas les tuto youtube mais celui la est bien [MRP](https://youtu.be/I7nfSC
 ACTION=="add|change", KERNEL=="sd[a-z]", ATTRS{queue/rotational}=="1", RUN+="/usr/bin/hdparm -B 127 /dev/%k"
 ~~~
 
+### Connaitre quel processus ecoute sur quel port
+
+on peu utilisé netstat : `apt instal` netstat puis `netstat -ltnp`
+
 ## file system
 ### Samba et fstab
 Créer un fichier _.smbcredentials_ dans votre /home :

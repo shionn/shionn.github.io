@@ -1,5 +1,5 @@
 'use strict';
-// version 1.7
+// version 1.8
 
 let _q = function(obj) {
 	this.obj = obj;
@@ -180,8 +180,11 @@ _ajax.prototype.success = function(success) {
 					console.log(error);
 					success(this.response);
 				}
+			} else if (this.status == 0) {
+				console.log("Ajax error 0");
 			} else {
-				document.write(this.response);
+				console.log(this.response);
+//				document.write(this.response);
 			}
 		}
 	};
