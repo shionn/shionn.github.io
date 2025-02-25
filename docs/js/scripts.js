@@ -165,6 +165,11 @@ _ajax.prototype.header = function(name, value) {
 	return this;
 };
 
+_ajax.prototype.body = function( value) {
+	this.req.send(value);
+	return this;
+};
+
 _ajax.prototype.success = function(success) {
 	this.req.onreadystatechange = function() {
 		if (this.readyState === XMLHttpRequest.DONE) {

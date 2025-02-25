@@ -12,7 +12,7 @@ q(function(){
 	
 	q("form.comments").on("submit", function(e) {
 		e.preventDefault();
-		q.ajax(url,"POST").header("author", this[0].value).header("content", this[1].value).success(function(){
+		q.ajax(url,"POST").header("author", this[0].value).body(this[1].value).header("page",page).success(function(){
 			window.location.reload();
 		}).process();
 		return false;
