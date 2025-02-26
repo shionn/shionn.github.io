@@ -1,6 +1,13 @@
 ## Installation de Jellyfin
 Sur votre proxmox créer un container à partir d'une Debian. 
 Puis connectez vous à ce container. 
+Je ne vais pas détailler en profondeur la creation de ce container. 
+Mais prévoir : 
+- 100 go d'espace disque (pour le transcodcage)
+- 4 coeur
+- 2 go de ram
+
+Mais prévcoir au moins 100go d'espace disque pour le transcodage.
 
 ### Ajout du dépo et installation
 
