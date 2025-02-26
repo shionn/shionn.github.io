@@ -215,7 +215,15 @@
 	</header>
 	<section><h2>Installation de Jellyfin</h2>
 <p>Sur votre proxmox créer un container à partir d'une Debian.
-Puis connectez vous à ce container.</p>
+Puis connectez vous à ce container.
+Je ne vais pas détailler en profondeur la creation de ce container.
+Mais prévoir :</p>
+<ul>
+<li>100 go d'espace disque (pour le transcodcage)</li>
+<li>4 coeur</li>
+<li>2 go de ram</li>
+</ul>
+<p>Mais prévcoir au moins 100go d'espace disque pour le transcodage.</p>
 <h3>Ajout du dépo et installation</h3>
 <p>En root :</p>
 <pre class="shell"><code class="shell">apt install extrepo
