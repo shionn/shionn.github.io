@@ -228,6 +228,12 @@ Mais prévoir :</p>
 </ul>
 <p>Mais prévcoir au moins 100go d'espace disque pour le transcodage.</p>
 <h3>Ajout du dépo et installation</h3>
+<p>En root :</p>
+<pre class="shell"><code class="shell">apt install extrepo
+extrepo enable jellyfin
+apt update
+apt install jellyfin
+</code></pre>
 </section>
 	<footer>
 		<a href="2025/jellyfin-proxmox-hardware-encode.html"><span class="fa fa-eye"></span> Lire la suite</a>
@@ -256,6 +262,11 @@ Mais prévoir :</p>
 <li>Permet de cacher les ports et chemin</li>
 </ul>
 <h3>Exemple</h3>
+<p>Par exemple admettons que que votre nom de domaine &quot;exemple.com&quot; tape sur votre serveur Nginx.
+Admettons également que vous avez deux serveur <strong>web1</strong> et <strong>web2</strong> dans votre réseau privé qui écoutent tous les deux sur le port 80.</p>
+<p>Vous souhaitez que web1 répond à <strong>https://web1.exemple.com</strong> et web2 répond à <strong>https://web2.exemple.com</strong>.
+Bon ben déjà vos serveur écoute sur le port 80 et non 443 et en plus seulement sur le réseau local.
+Ben un reverse proxy permet de résoudre tous cela.</p>
 </section>
 	<footer>
 		<a href="2024/nginx-proxy-manager.html"><span class="fa fa-eye"></span> Lire la suite</a>
@@ -281,6 +292,9 @@ Mais bon pour un autre projet j'en ai eu besoin.</p>
 Il ne faut pas installer ceux présent dans Debian qui ne sont pas les package officiel de docker.
 Il s'agit potentiellement de vieux build.</p>
 <p>Ajouter la clef de chiffrage :</p>
+<pre class="shell"><code class="shell">curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+</code></pre>
+<p>Ces dépendances peuvent être nécessaire :</p>
 </section>
 	<footer>
 		<a href="2024/docker-sur-debian.html"><span class="fa fa-eye"></span> Lire la suite</a>
