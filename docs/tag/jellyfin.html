@@ -144,6 +144,9 @@
 						<li>
 							<a href="2024/nginx-proxy-manager.html">Installation Nginx proxy manager</a>
 						</li>
+						<li>
+							<a href="2025/jellyfin-proxmox-hardware-encode.html">Jellyfin avec accélération matériel sur Proxmox</a>
+						</li>
 					</ul>
 				</li>
 				<li>
@@ -202,6 +205,35 @@
 		
 		<div class="main">
 			
+				<article class="short">
+	<header>
+		
+		<h1><a href="2025/jellyfin-proxmox-hardware-encode.html">Installation de Jellyfin avec accélération matériel sur Proxmox</a></h1>
+		<span class="date">27 février 2025</span>
+		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
+		<span class="tags">
+			<span class="fa fa-flag"></span>
+			<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/jellyfin.html">Jellyfin</a>
+		</span>
+	</header>
+	<section><h2>Installation de Jellyfin</h2>
+<p>Sur votre proxmox créer un container à partir d'une Debian.
+Puis connectez vous à ce container.
+Je ne vais pas détailler en profondeur la creation de ce container.
+Mais prévoir :</p>
+<ul>
+<li>100 go d'espace disque (pour le transcodcage)</li>
+<li>4 coeur</li>
+<li>2 go de ram</li>
+</ul>
+<p>Mais prévcoir au moins 100go d'espace disque pour le transcodage.</p>
+<h3>Ajout du dépo et installation</h3>
+</section>
+	<footer>
+		<a href="2025/jellyfin-proxmox-hardware-encode.html"><span class="fa fa-eye"></span> Lire la suite</a>
+	</footer>
+</article>
+			
 		</div>
 		
 		
@@ -228,7 +260,7 @@
 				</a><a href="tag/conversion.html">
 					Conversion&nbsp;(1)
 				</a><a href="tag/debian.html">
-					Debian&nbsp;(3)
+					Debian&nbsp;(4)
 				</a><a href="tag/desktop.html">
 					Desktop&nbsp;(1)
 				</a><a href="tag/developpement.html">
@@ -259,6 +291,8 @@
 					Java&nbsp;(1)
 				</a><a href="tag/jdr.html">
 					JdR&nbsp;(1)
+				</a><a href="tag/jellyfin.html">
+					Jellyfin&nbsp;(1)
 				</a><a href="tag/kit-survie.html">
 					Kit Survie&nbsp;(1)
 				</a><a href="tag/kit-bash.html">
@@ -266,7 +300,7 @@
 				</a><a href="tag/kruelboyz.html">
 					Kruelboyz&nbsp;(1)
 				</a><a href="tag/linux.html">
-					Linux&nbsp;(3)
+					Linux&nbsp;(4)
 				</a><a href="tag/metal.html">
 					Metal&nbsp;(11)
 				</a><a href="tag/nains.html">
@@ -279,12 +313,14 @@
 					Photo&nbsp;(1)
 				</a><a href="tag/platformio.html">
 					PlatformIO&nbsp;(1)
+				</a><a href="tag/proxmox.html">
+					Proxmox&nbsp;(1)
 				</a><a href="tag/repaint.html">
 					Repaint&nbsp;(1)
 				</a><a href="tag/seigneurs-ruinem-nes.html">
 					Seigneurs Ruinemânes&nbsp;(1)
 				</a><a href="tag/server.html">
-					Server&nbsp;(2)
+					Server&nbsp;(3)
 				</a><a href="tag/skaven.html">
 					Skaven&nbsp;(4)
 				</a><a href="tag/underworld.html">
@@ -308,7 +344,7 @@
 				</a><a href="category/jdr.html">
 					JDR&nbsp;(5)
 				</a><a href="category/linux.html">
-					Linux&nbsp;(3)
+					Linux&nbsp;(4)
 				</a><a href="category/repaint.html">
 					Repaint&nbsp;(1)
 				</a><a href="category/vie-du-blog.html">
@@ -321,11 +357,14 @@
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 				<ul class="tree">
 					<li>
-						<a href="#">2025 (7)</a>
+						<a href="#">2025 (8)</a>
 						<ul>
 							<li>
-								<a href="#">février (3)</a>
+								<a href="#">février (4)</a>
 								<ul>
+									<li>
+										<a href="2025/jellyfin-proxmox-hardware-encode.html">Installation de Jellyfin avec accélération matériel sur Proxmox</a>
+									</li>
 									<li>
 										<a href="2025/whisperia-5-tresors-pieges.html">Whisperia 5 : Trésors et Piège</a>
 									</li>
@@ -567,6 +606,8 @@
 	<script type="text/javascript" src="js/tree.js"></script>
 	<script type="text/javascript" src="js/comment.js"></script>
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
+	
+		<script type="text/javascript" src="js/hljs/bash.min.js"></script>
 	
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>

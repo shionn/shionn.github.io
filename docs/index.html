@@ -144,6 +144,9 @@
 						<li>
 							<a href="2024/nginx-proxy-manager.html">Installation Nginx proxy manager</a>
 						</li>
+						<li>
+							<a href="2025/jellyfin-proxmox-hardware-encode.html">Jellyfin avec accélération matériel sur Proxmox</a>
+						</li>
 					</ul>
 				</li>
 				<li>
@@ -199,6 +202,35 @@
 	</header>
 	<div class="container main">
 		<div class="main">
+			
+				<article class="short">
+	<header>
+		
+		<h1><a href="2025/jellyfin-proxmox-hardware-encode.html">Installation de Jellyfin avec accélération matériel sur Proxmox</a></h1>
+		<span class="date">27 février 2025</span>
+		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
+		<span class="tags">
+			<span class="fa fa-flag"></span>
+			<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/jellyfin.html">Jellyfin</a>
+		</span>
+	</header>
+	<section><h2>Installation de Jellyfin</h2>
+<p>Sur votre proxmox créer un container à partir d'une Debian.
+Puis connectez vous à ce container.
+Je ne vais pas détailler en profondeur la creation de ce container.
+Mais prévoir :</p>
+<ul>
+<li>100 go d'espace disque (pour le transcodcage)</li>
+<li>4 coeur</li>
+<li>2 go de ram</li>
+</ul>
+<p>Mais prévcoir au moins 100go d'espace disque pour le transcodage.</p>
+<h3>Ajout du dépo et installation</h3>
+</section>
+	<footer>
+		<a href="2025/jellyfin-proxmox-hardware-encode.html"><span class="fa fa-eye"></span> Lire la suite</a>
+	</footer>
+</article>
 			
 				<article class="short">
 	<header>
@@ -306,33 +338,6 @@ Je l'ai acheter sur Vinted, décapé, contre percé et repeint.</p>
 	</footer>
 </article>
 			
-				<article class="short">
-	<header>
-		<img src="pictures/titles/whisperia-3.png" title="Whisperia 3 : Zombies, coffre et rubis" alt="Whisperia 3 : Zombies, coffre et rubis" />
-		<h1><a href="2025/whisperia-3-zombis-coffres-rubis.html">Whisperia 3 : Zombies, coffre et rubis</a></h1>
-		<span class="date">18 janvier 2025</span>
-		<a class="category" href="category/jdr.html"><span class="fa fa-folder-open"></span> JDR</a>
-		<span class="tags">
-			<span class="fa fa-flag"></span>
-			<a href="tag/whisperia.html">Whisperia</a><a href="tag/dnd.html">DnD</a>
-		</span>
-	</header>
-	<section><p>Whisperia est une campagne de JDR sur DnD organisé par <strong>Whisp</strong> et <strong>RoiLugubre</strong> sur Twitch et Discord.
-J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.</p>
-<h2>Rurik Taillepierre.</h2>
-<p>Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans
-du haut de ces 1m12 pour 100kg pas grand chose lui fait peur.
-Il cherche à rejoindre la Guilde des aventuriers d'<strong>Heavenrir</strong> .</p>
-<p>Il souhaite rejoindre cette guilde car en étant un membre cela
-lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne.
-En effet les impôts sur les alcools sont réduits quand on est membre de la guilde.</p>
-<h3>Statistique</h3>
-</section>
-	<footer>
-		<a href="2025/whisperia-3-zombis-coffres-rubis.html"><span class="fa fa-eye"></span> Lire la suite</a>
-	</footer>
-</article>
-			
 			<div class="chaptering">
 				
 				
@@ -367,7 +372,7 @@ En effet les impôts sur les alcools sont réduits quand on est membre de la gui
 				</a><a href="tag/conversion.html">
 					Conversion&nbsp;(1)
 				</a><a href="tag/debian.html">
-					Debian&nbsp;(3)
+					Debian&nbsp;(4)
 				</a><a href="tag/desktop.html">
 					Desktop&nbsp;(1)
 				</a><a href="tag/developpement.html">
@@ -398,6 +403,8 @@ En effet les impôts sur les alcools sont réduits quand on est membre de la gui
 					Java&nbsp;(1)
 				</a><a href="tag/jdr.html">
 					JdR&nbsp;(1)
+				</a><a href="tag/jellyfin.html">
+					Jellyfin&nbsp;(1)
 				</a><a href="tag/kit-survie.html">
 					Kit Survie&nbsp;(1)
 				</a><a href="tag/kit-bash.html">
@@ -405,7 +412,7 @@ En effet les impôts sur les alcools sont réduits quand on est membre de la gui
 				</a><a href="tag/kruelboyz.html">
 					Kruelboyz&nbsp;(1)
 				</a><a href="tag/linux.html">
-					Linux&nbsp;(3)
+					Linux&nbsp;(4)
 				</a><a href="tag/metal.html">
 					Metal&nbsp;(11)
 				</a><a href="tag/nains.html">
@@ -418,12 +425,14 @@ En effet les impôts sur les alcools sont réduits quand on est membre de la gui
 					Photo&nbsp;(1)
 				</a><a href="tag/platformio.html">
 					PlatformIO&nbsp;(1)
+				</a><a href="tag/proxmox.html">
+					Proxmox&nbsp;(1)
 				</a><a href="tag/repaint.html">
 					Repaint&nbsp;(1)
 				</a><a href="tag/seigneurs-ruinem-nes.html">
 					Seigneurs Ruinemânes&nbsp;(1)
 				</a><a href="tag/server.html">
-					Server&nbsp;(2)
+					Server&nbsp;(3)
 				</a><a href="tag/skaven.html">
 					Skaven&nbsp;(4)
 				</a><a href="tag/underworld.html">
@@ -447,7 +456,7 @@ En effet les impôts sur les alcools sont réduits quand on est membre de la gui
 				</a><a href="category/jdr.html">
 					JDR&nbsp;(5)
 				</a><a href="category/linux.html">
-					Linux&nbsp;(3)
+					Linux&nbsp;(4)
 				</a><a href="category/repaint.html">
 					Repaint&nbsp;(1)
 				</a><a href="category/vie-du-blog.html">
@@ -460,11 +469,14 @@ En effet les impôts sur les alcools sont réduits quand on est membre de la gui
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 				<ul class="tree">
 					<li>
-						<a href="#">2025 (7)</a>
+						<a href="#">2025 (8)</a>
 						<ul>
 							<li>
-								<a href="#">février (3)</a>
+								<a href="#">février (4)</a>
 								<ul>
+									<li>
+										<a href="2025/jellyfin-proxmox-hardware-encode.html">Installation de Jellyfin avec accélération matériel sur Proxmox</a>
+									</li>
 									<li>
 										<a href="2025/whisperia-5-tresors-pieges.html">Whisperia 5 : Trésors et Piège</a>
 									</li>
