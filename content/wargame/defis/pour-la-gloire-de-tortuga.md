@@ -98,7 +98,7 @@ Voici les badges actuellement connu :
 
 ### Jour 59 Construction d'une echoppe pour les Pirates
 
-Ohé Pirates!! Vous avez durement travaillé et saccagé!! Il nous faut un lieu pour se mettre une bonne murge au RHUM!! Et pour cela on va construire une échoppe!! 40 Ressources seront nécéssaires.
+Ohé Pirates!! Vous avez durement travaillé et saccagé!! Il nous faut un lieu pour se mettre une bonne murge au RHUM!! Et pour cela on va construire une échoppe!! 50 Ressources seront nécéssaires.
 
 <div id="quest-8"></div>
 
