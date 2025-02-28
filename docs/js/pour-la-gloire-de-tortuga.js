@@ -410,14 +410,15 @@ q(function() {
 		.progress("28/02/2025", shionn, 5, "Ombres elfes noirs", _SMALL)
 		.render();
 
-//	let q8 = new _quest("quest-8", "Construction d'une echoppe pour les Pirates", "Peindre 40 figurines ou Décors", 40)
-//		.progress("19/02/2025", tupad, 2, "Tour d'ewok", _BIG_DECOR)
-//		.progress("19/02/2025", tupad, 3, "Tour d'ewok", _MEDIUM_DECOR)
-//		.progress("19/02/2025", tupad, 5, "Passerelle d'ewok", _BIG_DECOR)
-//		.progress("19/02/2025", tupad, 8, "Buisson", _SMALL_DECOR)
-//		.render();
+	let q8 = new _quest("quest-8", "Construction d'une echoppe pour les Pirates", "Peindre 50 figurines ou Décors", 50)
+		.progress("28/02/2025", tupad, 2, "Tour d'ewok", _BIG_DECOR)
+		.progress("28/02/2025", tupad, 3, "Tour d'ewok", _MEDIUM_DECOR)
+		.progress("28/02/2025", tupad, 5, "Passerelle d'ewok", _BIG_DECOR)
+		.progress("28/02/2025", tupad, 8, "Buisson", _SMALL_DECOR)
+		.progress("28/02/2025", shionn, 5, "Ombres elfes noirs", _SMALL)
+		.render();
 //			
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8]);
 
 });

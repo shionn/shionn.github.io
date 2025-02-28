@@ -96,6 +96,13 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 59 Construction d'une echoppe pour les Pirates
+
+Ohé Pirates!! Vous avez durement travaillé et saccagé!! Il nous faut un lieu pour se mettre une bonne murge au RHUM!! Et pour cela on va construire une échoppe!! 40 Ressources seront nécéssaires.
+
+<div id="quest-8"></div>
+
+
 ### Jour 47 Pillage de la colonnie espagnole
 
 Ohé Pirates!! Vous avez bien travaillés nous avons un ponton tout neuf et des baraquements! Il nous faut du matériel pour construire une petite échoppe afin d'arroser une bonne journée de pillage et saccage!! 30 ressources seront nécéssaires pour récolter suffisament de matériaux!
