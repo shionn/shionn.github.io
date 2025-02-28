@@ -416,6 +416,7 @@ q(function() {
 		.progress("28/02/2025", tupad, 5, "Passerelle d'ewok", _BIG_DECOR)
 		.progress("28/02/2025", tupad, 8, "Buisson", _SMALL_DECOR)
 		.progress("28/02/2025", shionn, 5, "Ombres elfes noirs", _SMALL)
+		.progress("28/02/2025", whisp, 1, "Coffre", _SMALL)
 		.render();
 //			
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
