@@ -4,8 +4,9 @@ Puis connectez vous à ce container.
 Je ne vais pas détailler en profondeur la creation de ce container. 
 Mais prévoir : 
 - 100 go d'espace disque (pour le transcodcage)
-- 4 coeur
+- 4 coeurs
 - 2 go de ram
+- non privilégié
 
 Mais prévcoir au moins 100go d'espace disque pour le transcodage.
 

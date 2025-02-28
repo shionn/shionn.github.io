@@ -407,6 +407,7 @@ q(function() {
 		.progress("26/02/2025", tony, 1, "Troll Histoire de Peluche", _SMALL)
 		.progress("27/02/2025", whisp, 1, "Vampire presque underworld", _SMALL)
 		.progress("28/02/2025", angest, 1, "Soeur de Bataille", _SMALL)
+		.progress("28/02/2025", shionn, 5, "Ombres elfes noirs", _SMALL)
 		.render();
 
 //	let q8 = new _quest("quest-8", "Construction d'une echoppe pour les Pirates", "Peindre 40 figurines ou Décors", 40)
