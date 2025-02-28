@@ -102,6 +102,9 @@ Ohé Pirates!! Vous avez bien travaillés nous avons un ponton tout neuf et des 
 
 <div id="quest-7"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map08.png
+[/gallery]
 
 ### Jour 31 Collecte de Vivres
 
