@@ -276,24 +276,24 @@ q(function() {
 	};
 
 	_BADGE.push(
-		new _badge("Coup Final", "fa fa-flag", "Achever une quête", false), 
-		new _badge("Populeux", "ra ra-rabbit", "Envoyer 10 petites figurines d'un coup", false),
+		new _badge("Coup Final", "fa fa-flag", "Achever une quête", true), 
+		new _badge("Populeux", "ra ra-rabbit", "Envoyer 10 petites figurines d'un coup", true),
 		new _badge("Bourrin", "ra ra-octopus", "Envoyer 5 figurines moyenne d'un coup", false), // TODO true
-		new _badge("Massif", "ra ra-dragon", "Envoyer 2 grande figurines d'un coup", false), 
+		new _badge("Massif", "ra ra-dragon", "Envoyer 2 grande figurines d'un coup", true), 
 		new _badge("Petit/Gros", "ra ra-two-dragons", "Envoyer une petite figurine et une grande dans la même quête", true), // 4 
-		new _badge("Petit/Moyen/Gros", "ra ra-hydra", "Envoyer une figurine de chaque taille dans la même quête", false), 
-		new _badge("Mitraillette", "ra ra-barbed-arrow", "Faire 3 contributions à la même quête", false), 
-		new _badge("Gatling", "ra ra-arrow-cluster", "Faire 5 contributions à la même quête", false), 
-		new _badge("One shot", "ra ra-lightning-storm", "Accomplir une quête d'un seul coup", false), 
-		new _badge("Vague", "ra ra-double-team ", "Envoyer 20 figurine lors de la même quête", false),
+		new _badge("Petit/Moyen/Gros", "ra ra-hydra", "Envoyer une figurine de chaque taille dans la même quête", true), 
+		new _badge("Mitraillette", "ra ra-barbed-arrow", "Faire 3 contributions à la même quête", true), 
+		new _badge("Gatling", "ra ra-arrow-cluster", "Faire 5 contributions à la même quête", true), 
+		new _badge("One shot", "ra ra-lightning-storm", "Accomplir une quête d'un seul coup", true), 
+		new _badge("Vague", "ra ra-double-team ", "Envoyer 20 figurine lors de la même quête", true),
 		
 		new _badge("Uzi", "ra ra-bullets", "Faire 10 contributions à la même quête", false),
 		new _badge("Gargantuesque", "ra ra-monster-skull", "Peindre une très grosse figurine (>=100mm)", false), // 11
 		new _badge("Bon plan", "fa fa-thumbs-up", "Faire profiter la commu d'un bon plan", true), // 12
 		new _badge("Ten", "fa fa-battery-quarter", "Participer à 10 quête différente", false), 
 		new _badge("Twenty", "fa fa-fa-battery-half", "Participer à 20 quête différente", false),
-		new _badge("Du cailloux à la Tour", "ra ra-tower", "Envoyer un décors de chaque taille dans la même quête", false), 
-		new _badge("Decorama", "ra ra-castle-emblem", "Envoyer 15 décors dans la même quête", false), 
+		new _badge("Du cailloux à la Tour", "ra ra-tower", "Envoyer un décors de chaque taille dans la même quête", true), 
+		new _badge("Decorama", "ra ra-castle-emblem", "Envoyer 15 décors dans la même quête", true), 
 		new _badge("Dernier clou", "ra ra-ankh", "Achever une quête avec un décor", false), 
 		new _badge("Collectionneur", "ra ra-player", "Obtenir 8 badges", false),
 		new _badge("Presque tous", "ra ra-muscle-up", "Obtenir presque tous les badges", false),
@@ -416,11 +416,13 @@ q(function() {
 		.progress("28/02/2025", tupad, 5, "Passerelle d'ewok", _BIG_DECOR)
 		.progress("28/02/2025", tupad, 8, "Buisson", _SMALL_DECOR)
 		.progress("28/02/2025", shionn, 5, "Ombres elfes noirs", _SMALL)
-		.progress("28/02/2025", whisp, 1, "Coffre", _SMALL)
+		.progress("28/02/2025", whisp, 1, "Coffre", _SMALL_DECOR)
 		.progress("28/02/2025", whisp, 1, "Grotte de Snoopy", _BIG_DECOR)
 		.progress("28/02/2025", whisp, 1, "Jeu de tuile d'exterieur", _BIG_DECOR)
 		.progress("28/02/2025", whisp, 1, "Cité d'Heavenrir", _BIG_DECOR)
 		.progress("28/02/2025", angest, 2, "Persée et Méduse", _BIG)
+		.progress("02/03/2025", shionn, 1, "Cage D&L", _SMALL_DECOR)
+		.progress("02/03/2025", shionn, 2, "Hutte D&L", _SMALL_DECOR)
 		.render();
 //			
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
