@@ -11,7 +11,7 @@ Il devrais y avoir à terme :
 - Lokhir Fellheart (Maitre d'arche noire)
 - Morathi
 
-[after date="2025/05/02"]
+[after date="2025/05/18"]
 ### Assassin
 
 Voici mon assassin en métal. J'ai acheté cette figurine il y a presque 25 ans.
@@ -51,7 +51,7 @@ pictures/dark-elves/malus-dark-blade/07.jpg
 [/gallery]
 [/after]
 
-[after date="2025/06/27"]
+[after date="2025/07/21"]
 ### Morathi sur Pégase Noir
 
 Je l'ai acheté autour des années 2000, et elle est resté dans ma piule de la honte pendant presque 25 ans. 
@@ -160,7 +160,7 @@ Rehaut	72096
 Reste à faire :
 - Cavalier Noire
 
-[after date="2025/05/18"]
+[after date="2025/06/03"]
 ### Arbaletriers
 
 Voici mon premier pack de 12 arbaletriers elfe noir en plastique. 
@@ -238,9 +238,8 @@ pictures/dark-elves/garde-noir/06.jpg
 
 Reste à faire :
 - Harpie
-- Ombre
 
-[after date="2025/05/26"]
+[after date="2025/06/27"]
 ### Cavalier sur Sang Froid
 
 Voici ma cavalerie lourde sur sang froid. 
@@ -359,6 +358,31 @@ Ombrage 2	72051
 Glacis	24-22
 Rehaut	72052
 [/paints]
+
+[after date="2025/08/14"]
+### Ombres
+
+Voici mes ombres elfes noir en métal. Certaines de ces figurines proviennent de mon ancienne armée et d'autre de celle que j'ai racheté. 
+J'ai décapé et gardé seulement 10 figurines pour en avoir deux de chaque modele.
+
+* Peinte en Fevrier 2025
+* Environ 14h00 de peinture
+
+[gallery w=500 h=200]
+pictures/dark-elves/ombres/01.jpg
+[/gallery]
+[gallery w=220 h=200]
+pictures/dark-elves/ombres/02.jpg
+pictures/dark-elves/ombres/03.jpg
+pictures/dark-elves/ombres/04.jpg
+pictures/dark-elves/ombres/05.jpg
+pictures/dark-elves/ombres/06.jpg
+[/gallery]
+[gallery w=500 h=200]
+pictures/dark-elves/ombres/07.jpg
+pictures/dark-elves/ombres/08.jpg
+[/gallery]
+[/after]
 
 ## Rares
 
