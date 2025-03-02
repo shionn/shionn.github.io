@@ -418,7 +418,7 @@ q(function() {
 		.progress("28/02/2025", shionn, 5, "Ombres elfes noirs", _SMALL)
 		.progress("28/02/2025", whisp, 1, "Coffre", _SMALL_DECOR)
 		.progress("28/02/2025", whisp, 1, "Grotte de Snoopy", _BIG_DECOR)
-		.progress("28/02/2025", whisp, 1, "Jeu de tuile d'exterieur", _BIG_DECOR)
+		.progress("28/02/2025", whisp, 15, "Jeu de tuile d'exterieur", _MEDIUM_DECOR)
 		.progress("28/02/2025", whisp, 1, "Cité d'Heavenrir", _BIG_DECOR)
 		.progress("28/02/2025", angest, 2, "Persée et Méduse", _BIG)
 		.progress("02/03/2025", shionn, 1, "Cage D&L", _SMALL_DECOR)
