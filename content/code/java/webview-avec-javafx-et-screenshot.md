@@ -121,6 +121,7 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 
     @Override
     public void changed(ObservableValue<? extends State> observable, State oldState, State newState) {
+        // Le site est chargé
         if (newState == Worker.State.SUCCEEDED) {
             waitInStandartThread();
         }
