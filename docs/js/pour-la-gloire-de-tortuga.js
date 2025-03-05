@@ -423,6 +423,7 @@ q(function() {
 		.progress("28/02/2025", angest, 2, "Persée et Méduse", _BIG)
 		.progress("02/03/2025", shionn, 1, "Cage D&L", _SMALL_DECOR)
 		.progress("02/03/2025", shionn, 2, "Hutte D&L", _SMALL_DECOR)
+		.progress("05/03/2025", angest, 1, "Dead King", _BIG)
 		.render();
 //			
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
