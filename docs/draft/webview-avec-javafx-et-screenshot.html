@@ -310,6 +310,7 @@ J'ai même envisagé d'installer un serveur avec un outil comme cypress, mais <s
 
     @Override
     public void changed(ObservableValue&lt;? extends State&gt; observable, State oldState, State newState) {
+        // Le site est chargé
         if (newState == Worker.State.SUCCEEDED) {
             waitInStandartThread();
         }
