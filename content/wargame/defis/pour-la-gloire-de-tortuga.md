@@ -98,7 +98,7 @@ Voici les badges actuellement connu :
 
 ### Jour 65 Collecte de vivres
 
-Ohé Pirates!! Vous avez bien travaillés nous avons un Ponton tout neuf et des Baraquements et une échoppe toute neuve! Il nous faure reprendre des forces et trouver du RHUM pour la suite! 15 Ressources seront necessaires
+Ohé Pirates!! Vous avez bien travaillés nous avons un Ponton tout neuf et des Baraquements et une échoppe toute neuve! Il nous faure reprendre des forces et trouver du RHUM pour la suite! 20 Ressources seront necessaires.
 
 <div id="quest-9"></div>
 
