@@ -100,6 +100,7 @@ Voici les badges actuellement connu :
 
 Ohé Pirates!! Vous avez bien travaillés nous avons un Ponton tout neuf et des Baraquements et une échoppe toute neuve! Il nous faure reprendre des forces et trouver du RHUM pour la suite! 15 Ressources seront necessaires
 
+<div id="quest-9"></div>
 
 ### Jour 59 Construction d'une echoppe pour les Pirates
 
