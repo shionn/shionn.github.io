@@ -96,12 +96,20 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 65 Collecte de vivres
+
+Ohé Pirates!! Vous avez bien travaillés nous avons un Ponton tout neuf et des Baraquements et une échoppe toute neuve! Il nous faure reprendre des forces et trouver du RHUM pour la suite! 15 Ressources seront necessaires
+
+
 ### Jour 59 Construction d'une echoppe pour les Pirates
 
 Ohé Pirates!! Vous avez durement travaillé et saccagé!! Il nous faut un lieu pour se mettre une bonne murge au RHUM!! Et pour cela on va construire une échoppe!! 50 Ressources seront nécéssaires.
 
 <div id="quest-8"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map09.png
+[/gallery]
 
 ### Jour 47 Pillage de la colonnie espagnole
 
