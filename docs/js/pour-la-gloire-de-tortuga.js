@@ -424,9 +424,15 @@ q(function() {
 		.progress("02/03/2025", shionn, 1, "Cage D&L", _SMALL_DECOR)
 		.progress("02/03/2025", shionn, 2, "Hutte D&L", _SMALL_DECOR)
 		.progress("05/03/2025", angest, 1, "Dead King", _BIG)
+		.progress("06/03/2025", tony, 3, "Gretchin", _SMALL)
 		.render();
+	
+	let q9 = new _quest("quest-9", "Collecter des vivres", "Peindre 20 figurines", 20)
+		.progress("06/03/2025", tony, 3, "Gretchin", _SMALL)
+		.render();
+
 //			
 	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9]);
 
 });
