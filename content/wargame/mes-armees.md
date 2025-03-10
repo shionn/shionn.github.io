@@ -14,7 +14,7 @@ Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes 
 ## Warhammer Battle
 
 - [Elfes Noirs](2024/armee-elfes-noirs.html)
-[after date="2025/04/08"]
+[after date="2025/06/11"]
 - [Gobelin de la Nuit](2025/armee-gobs./html)
 [/after]
 
@@ -23,7 +23,7 @@ Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes 
 - [Filles de Khaine](2024/underworld-dok.html) _3 bandes_
 - [Seigneurs Ruinemânes](2024/underworld-soulblight.html) _2 bandes_
 
-[after date="2025/06/13"]
+[after date="2025/08/17"]
 ## Warcry
 
 - [Filles de Khaine](2025/warcry-dok.html) _Rodeur de l'ombre Khainites_

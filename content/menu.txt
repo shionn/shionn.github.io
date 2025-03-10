@@ -5,20 +5,20 @@ category/wargame	War Game
 		2024/armee-naine-cos	Nains (CoS)
 		2023/armee-nighthaunt	Nighthaunt
 		2023/armee-skaven	Skavens
-		2025/armee-gloomspite-gitz	Gloomspite Gitz	2025-03-07
+		2025/armee-gloomspite-gitz	Gloomspite Gitz
 	2024/mes-armees	Warhammer Battle
 		2024/armee-elfes-noirs	Elfes Noirs
-		2025/armee-gobs	Gobelin de la Nuit	2025-04-08
+		2025/armee-gobs	Gobelin de la Nuit	2025-06-11
 	2024/mes-armees	Underworld
 		2024/underworld-dok	Fille de Khaine
 		2024/underworld-soulblight	Seigneurs Ruinemânes
-	2024/mes-armees	Warcry	2025-06-19
-		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-06-19
+	2024/mes-armees	Warcry	2025-10-17
+		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-10-17
 	tag/dungeon-and-laser	Dungeon and Laser
 		2024/dungeon-and-laser-encounters	Encounters
-	tag/d-cor	Décor	2025-05-02
-		2025/decor-skaventide	Décor Skaventide	2025-05-02
-		2025/decor-mortal-realms	Décor Mortal Realms	2025-05-26
+	tag/d-cor	Décor	2025-07-13
+		2025/decor-skaventide	Décor Skaventide	2025-07-13
+		2025/decor-mortal-realms	Décor Mortal Realms	2025-08-06
 	tag/peinture	Guide
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Tableau d'équivalence de peinture
@@ -43,10 +43,10 @@ category/linux	Linux
 		2025/jellyfin-proxmox-hardware-encode	Jellyfin avec accélération matériel sur Proxmox
 	tag/desktop	Desktop
 		2023/survivre-sur-debian	Kit de Survie sur Debian
-		2024/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille	2025-03-31
-		2025/openrgb-sur-debian	OpenRGB sur Débian	2025-05-10
+		2024/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille	2025-04-08
+		2025/openrgb-sur-debian	OpenRGB sur Débian	2025-07-21
 	tag/matos	Matos	2025-04-16
-		2025/homelab-processor	Processeur pour Homelab	2025-04-16
+		2025/homelab-processor	Processeur pour Homelab	2025-04-24
 category/code	Code
 	tag/arduino	Arduino
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode

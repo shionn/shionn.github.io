@@ -1,1 +1,0 @@
-<div id="quest-7"></div>
