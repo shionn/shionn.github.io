@@ -27,7 +27,7 @@ pictures/dark-elves/assassin/03.jpg
 [/gallery]
 [/after]
 
-[after date="2025/04/08"]
+[after date="2025/04/16"]
 ### Malus Dark Blade
 
 Voici mon malus dark blade en métal.
@@ -214,7 +214,7 @@ Base	72045
 Rehaut	72039
 [/paints]
 
-[after date="2025/03/15"]
+[after date="2025/03/23"]
 ### Lanciers
 
 Voici mon premier pack de 20 guerrier elfe noir en plastique. 

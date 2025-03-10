@@ -8,7 +8,7 @@ category/wargame	War Game
 		2025/armee-gloomspite-gitz	Gloomspite Gitz	2025-03-07
 	2024/mes-armees	Warhammer Battle
 		2024/armee-elfes-noirs	Elfes Noirs
-		2025/armee-gobs	Gobelin de la Nuit	2025-03-31
+		2025/armee-gobs	Gobelin de la Nuit	2025-04-08
 	2024/mes-armees	Underworld
 		2024/underworld-dok	Fille de Khaine
 		2024/underworld-soulblight	Seigneurs Ruinemânes
@@ -34,15 +34,16 @@ category/jdr	JdR
 		2024/whisperia-2-orcs-et-chaussette	2: Orcs et Chaussette
 		2025/whisperia-3-zombis-coffres-rubis	3: Zombies, coffre et rubis
 		2025/whisperia-4-bureau-liche	4: Bureau et liche
-		2025/whisperia-5-tresors-pieges	5: Trésors et Piège	2025-02-19
+		2025/whisperia-5-tresors-pieges	5: Trésors et Piège
+		2025/whisperia-6-gorgul-snoopy	6: Gorgul et Snoopy	2025-03-15
 category/linux	Linux
 	tag/server	Server
 		2024/docker-sur-debian	Installation Docker sur Debian
 		2024/nginx-proxy-manager	Installation Nginx proxy manager
-		2025/jellyfin-proxmox-hardware-encode	Jellyfin avec accélération matériel sur Proxmox	2025-02-27
+		2025/jellyfin-proxmox-hardware-encode	Jellyfin avec accélération matériel sur Proxmox
 	tag/desktop	Desktop
 		2023/survivre-sur-debian	Kit de Survie sur Debian
-		2024/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille	2025-03-23
+		2024/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille	2025-03-31
 		2025/openrgb-sur-debian	OpenRGB sur Débian	2025-05-10
 	tag/matos	Matos	2025-04-16
 		2025/homelab-processor	Processeur pour Homelab	2025-04-16

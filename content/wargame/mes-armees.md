@@ -9,14 +9,12 @@ Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes 
 - _à venir Noir Serment_
 - [Nighthaunt](2023/armee-nighthaunt.html)
 - [Skaven](2023/armee-skaven.html)
-[after date="2025/03/07"]
 - [Gloomspite Gitz](2025/armee-gloomspite-gitz.html)
-[/after]
 
 ## Warhammer Battle
 
 - [Elfes Noirs](2024/armee-elfes-noirs.html)
-[after date="2025/03/31"]
+[after date="2025/04/08"]
 - [Gobelin de la Nuit](2025/armee-gobs./html)
 [/after]
 

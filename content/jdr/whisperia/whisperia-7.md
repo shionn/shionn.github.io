@@ -23,15 +23,15 @@ Autres
 Niveau	3	Chausette
 Alignement	Loyal Neutre	 
 Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
+	Hache en Os Givré	à une main, 1D8+force. Sur crit +1D6
 Armure	Broigne(+14)	CA : 14
-	Bouclier(+2)	CA : 16
 	Anneau de protection (+1)	CA : 17
-Passif	Second souffle	1 fois par jour, +1D10 pv.
+Capacitées	Second souffle	1 fois par jour, +1D10 pv.
 	Fougue	1 fois par jour, attaquer une seconde fois.
 	Champion	Crit sur 19-20
 Maîtrise	+2	Pour toucher et pour la constitution
-PV	20/32	 
-Or	231po	 
+PV	32/32	 
+Or	241po	 
 Richesse	1 rubi	~20po
 	2 jaspes & 1 pierre de lune	~150po
 	2 rubis jaunes	~20po
@@ -41,11 +41,8 @@ Richesse	1 rubi	~20po
 ## Précédemment...
 
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
-et nous nous sommes retrouvés dans une prison dont nous avons réussi à nous échapper. Nous avons combattu quelques Orcs et Trolls.
-Nous sommes toujours dans le donjon de nos ravisseurs, nous ne sommes pas en sécurité.
-
-Nous avons battu **Aménalion**, un sorcier nécromencien maitre de ces lieux. Le paladin est tombé au combat !
-Nous sommes toujours dans le donjon, nous ne sommes pas en sécurité.
+et nous nous sommes retrouvés dans un tombeau. 
+Apres moulte combat contre des orcs et mort vivant nous avons reussi à en sortir et nous sommes arrivé à Heavenrir.
 
 Toutes nos aventures dans les articles précédent :
 * [Évasion d'une gaule](2024/whisperia-1-evasion-d-une-gaule.html). 
@@ -53,14 +50,16 @@ Toutes nos aventures dans les articles précédent :
 * [Zombies, coffre et rubis](2025/whisperia-3-zombis-coffres-rubis.html). 
 * [Bureau et Liche](2025/whisperia-4-bureau-liche.html). 
 * [Trésors et Pieges](2025/whisperia-5-tresors-pieges.html). 
+* [Gargul & Snoupy](2025/whisperia-6-gargul-snoopy.html). 
 
 ## Et maintenant la suite
 
-Cette partie s'est déroulée le 22 fevrier 2025. Dont voici le replay :
+Cette partie s'est déroulée le 15 mars 2025. Dont voici le replay :
 
-[youtube video="MzbAK9KT9ww?si=TJiWlSTukeCe3oXl"/]
+[youtube video="c3_ZNAWBwLA"/]
+
+[youtube video="vd1fBQB1N0E"/]
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
 ### TODO
-
