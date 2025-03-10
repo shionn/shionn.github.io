@@ -310,6 +310,7 @@ q(function() {
 	let anuabi = new _player("Anuabi", "pirate12.png");
 	let faran = new _player("Faran", "pirate16.png");
 	let hyasull = new _player("Hyasull", "pirate13.png");
+	let ludovic5799 = new _player("Ludovic5799", "pirate01.png");
 	let phylios = new _player("Phylios", "pirate07.png"); 
 	let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
 	let shionn = new _player("Shionn", "pirate02.png");
@@ -432,7 +433,7 @@ q(function() {
 		.render();
 
 //			
-	_renderPlayers([angest, anuabi, faran, hyasull, phylios, rahanis, shionn, tony, tupad, whisp]);
+	_renderPlayers([angest, anuabi, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
 	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9]);
 
 });
