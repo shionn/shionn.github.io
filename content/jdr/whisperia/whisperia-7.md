@@ -25,7 +25,7 @@ Alignement	Loyal Neutre
 Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
 	Hache en Os Givré	à une main, 1D8+force. Sur crit +1D6
 Armure	Broigne(+14)	CA : 14
-	Anneau de protection (+1)	CA : 17
+	Anneau de protection (+1)	CA : 15
 Capacitées	Second souffle	1 fois par jour, +1D10 pv.
 	Fougue	1 fois par jour, attaquer une seconde fois.
 	Champion	Crit sur 19-20
