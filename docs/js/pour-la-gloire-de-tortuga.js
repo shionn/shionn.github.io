@@ -430,6 +430,7 @@ q(function() {
 	
 	let q9 = new _quest("quest-9", "Collecter des vivres", "Peindre 20 figurines", 20)
 		.progress("06/03/2025", tony, 3, "Gretchin", _SMALL)
+		.progress("10/03/2025", angest, 3, "Space Machin", _SMALL)
 		.render();
 
 //			
