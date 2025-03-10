@@ -1,6 +1,10 @@
 package blog;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -15,10 +19,6 @@ import org.apache.commons.io.filefilter.SuffixFileFilter;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 import org.apache.commons.lang3.tuple.Pair;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import blog.model.Metadata;
-
 public class DecaleDate {
 
 	private static String[] aftersFiles = { "wargame/elfes-noirs/armee-elfes-noirs.md" };
@@ -27,31 +27,44 @@ public class DecaleDate {
 	private static DateFormat menuFormat = new SimpleDateFormat("yyyy-MM-dd");
 
 	public static void main(String[] args) throws ParseException, IOException {
-		new DecaleDate().start(jsonFormat.parse("2025/01/02"), 10);
+		new DecaleDate().start(jsonFormat.parse("2025/03/31"), 8);
 	}
 
 	private void start(Date date, int nbDays) throws IOException {
 		List<Pair<Date, Date>> dates = buildTranslationDates(date, nbDays);
 		for (Pair<Date, Date> translation : dates) {
 			System.out.println("try replace " + translation.getKey() + " > " + translation.getValue());
-			for (File file : FileUtils.listFiles(new File("content"), new SuffixFileFilter("json"),
-					TrueFileFilter.INSTANCE)) {
-//				System.out.println("try replace in " + file);
-				Metadata metadata = new ObjectMapper().readValue(file, Metadata.class);
-//				System.out.println("compare " + metadata.getDate() + "<>" + translation.getKey());
-				if (metadata.getDate().compareTo(translation.getKey()) == 0) {
-					System.out.println(
-							"replace " + metadata.getDate() + " with " + translation.getValue() + " in " + file);
-//					metadata.setDate(date);
-//					DefaultPrettyPrinter.Indenter indenter = new DefaultIndenter("\t", DefaultIndenter.SYS_LF);
-//					DefaultPrettyPrinter printer = new DefaultPrettyPrinter();
-//					printer.indentObjectsWith(indenter);
-//					printer.indentArraysWith(indenter);
-//					new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT).writer(printer).writeValue(file,
-//							metadata);
-				}
+			String original = jsonFormat.format(translation.getKey());
+			String target = jsonFormat.format(translation.getValue());
+			for (File file : FileUtils
+					.listFiles(new File("content"), new SuffixFileFilter("json"), TrueFileFilter.INSTANCE)) {
+				replace(original, target, file);
 			}
+			for (File file : FileUtils
+					.listFiles(new File("content"), new SuffixFileFilter("md"), TrueFileFilter.INSTANCE)) {
+				replace(original, target, file);
+			}
+			original = menuFormat.format(translation.getKey());
+			target = menuFormat.format(translation.getValue());
+			replace(original, target, new File("content/menu.txt"));
 		}
+	}
+
+	private void replace(String original, String target, File file) {
+		File targetFile = new File(file.getAbsolutePath().concat(".new"));
+		try (BufferedReader reader = new BufferedReader(new FileReader(file));
+				BufferedWriter writer = new BufferedWriter(new FileWriter(targetFile))) {
+			String line;
+			while ((line = reader.readLine()) != null) {
+				line = line.replaceAll(original, target);
+				writer.write(line);
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		file.delete();
+		targetFile.renameTo(file);
+		
 	}
 
 	private List<Pair<Date, Date>> buildTranslationDates(Date date, int nbDays) {
