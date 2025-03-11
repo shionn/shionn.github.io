@@ -15,7 +15,7 @@ Traduction du post :
 - Aller sur la page d'installation [HA website](https://www.home-assistant.io/installation/alternative)
 - Copier le lien **KVM/Proxmox**
 - Dans votre console proxmox faites un wget pour la télécharger
-- puis decompress
+- Puis decompress
 
 ~~~shell
 wget <ADDRESS>
@@ -24,7 +24,7 @@ unxz </path/to/file.qcow2.xz>
 
 #### Création de la VM
 
-General:
+Général :
 - Select your VM name and ID
 - Select 'start at boot'
 
@@ -49,27 +49,21 @@ Memory:
 Network:
 - Leave default unless you have special requirements (static, VLAN, etc)
 
-
 Confirm and finish. Do not start the VM yet.
 
 Add the image to the VM
 
 - In your node's console, use the following command to import the image from the host to the VM
 
-Bash:
-
-~~~
+~~~shell
 qm importdisk <VM ID> </path/to/file.qcow2> <EFI location>
-~~
-
-For example,
-
-Bash:
-
 ~~~
+
+Par Exemple 
+
+~~~shell
 qm importdisk 205 /home/user/haos_ova-12.0.qcow2 local-lvm
 ~~~
-
 
 - Close the node's console and select your HA VM
 - Go to the 'Hardware' tab
@@ -79,7 +73,7 @@ qm importdisk 205 /home/user/haos_ova-12.0.qcow2 local-lvm
 - Select 'Boot Order' and hit 'Edit'
 - Check the newly created drive (likely scsi0) and uncheck everything else
 
-Finish Up
+### Finish Up
 
 - Start the VM
 - Check the shell of the VM. If it booted up correctly, you should be greeted with the link to access the Web UI.
