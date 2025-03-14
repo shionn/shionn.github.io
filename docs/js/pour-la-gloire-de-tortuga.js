@@ -434,6 +434,7 @@ q(function() {
 		.progress("11/03/2025", whisp, 5, "Orcs sur Wargs", _SMALL)
 		.progress("13/03/2025", whisp, 1, "Draculus D&L", _MEDIUM)
 		.progress("14/03/2025", whisp, 1, "Elfe", _SMALL)
+		.progress("15/03/2025", angest, 1, "Slug, the Snail God", _BIG)
 		.render();
 
 //			
