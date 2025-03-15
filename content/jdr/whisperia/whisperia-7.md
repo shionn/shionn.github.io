@@ -43,6 +43,7 @@ Richesse	1 rubi	~20po
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
 et nous nous sommes retrouvés dans un tombeau. 
 Apres moulte combat contre des orcs et mort vivant nous avons reussi à en sortir et nous sommes arrivé à Heavenrir.
+Nous avons combatu Amenalion et Gorgul.
 
 Toutes nos aventures dans les articles précédent :
 * [Évasion d'une gaule](2024/whisperia-1-evasion-d-une-gaule.html). 
@@ -50,7 +51,7 @@ Toutes nos aventures dans les articles précédent :
 * [Zombies, coffre et rubis](2025/whisperia-3-zombis-coffres-rubis.html). 
 * [Bureau et Liche](2025/whisperia-4-bureau-liche.html). 
 * [Trésors et Pieges](2025/whisperia-5-tresors-pieges.html). 
-* [Gargul & Snoupy](2025/whisperia-6-gargul-snoopy.html). 
+* [Gargul & Snoupy](2025/whisperia-6-gorgul-snoopy.html). 
 
 ## Et maintenant la suite
 
