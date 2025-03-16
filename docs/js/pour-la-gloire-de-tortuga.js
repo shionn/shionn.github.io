@@ -441,7 +441,7 @@ q(function() {
 		.progress("16/03/2025", ludovic5799, 1, "Equipage Ratling Gun", _SMALL)
 		.render();
 
-//	let q10 = new _quest("quest-10", "Collecter des vivres", "Peindre 20 figurines", 20)
+//	let q10 = new _quest("quest-10", "Réparer nos embarquations de fortune", "Peindre 30 figurines", 30)
 //		.progress("16/03/2025", ludovic5799, 3, "Equipage Ratling Gun", _SMALL)
 //		.progress("16/03/2025", ludovic5799, 1, "Griffarque sur Rongebete", _BIG)
 //		.render();

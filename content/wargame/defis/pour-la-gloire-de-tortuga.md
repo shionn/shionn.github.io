@@ -96,11 +96,19 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 75 Collecte de Bois
+
+Ohé Pirates!! Avec tout ça nos pauvres chalouppes sont en train de couler il faut du bois pour les réparer!! 30 ressources seront nécéssaires car elles sont trés abimées.
+
 ### Jour 65 Collecte de vivres
 
 Ohé Pirates!! Vous avez bien travaillés nous avons un Ponton tout neuf et des Baraquements et une échoppe toute neuve! Il nous faure reprendre des forces et trouver du RHUM pour la suite! 20 Ressources seront necessaires.
 
 <div id="quest-9"></div>
+
+[gallery]
+pictures/defis/tortuga-2025/map10.png
+[/gallery]
 
 ### Jour 59 Construction d'une echoppe pour les Pirates
 
