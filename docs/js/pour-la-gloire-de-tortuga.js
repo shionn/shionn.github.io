@@ -435,16 +435,18 @@ q(function() {
 		.progress("13/03/2025", whisp, 1, "Draculus D&L", _MEDIUM)
 		.progress("14/03/2025", whisp, 1, "Elfe", _SMALL)
 		.progress("15/03/2025", angest, 1, "Slug, the Snail God", _BIG)
+		.addBadge("15/03/2025", angest, _PetitGros) // not Auto
 		.progress("16/03/2025", whisp, 1, "Anuabi après opération", _SMALL)
 		.progress("16/03/2025", ludovic5799, 3, "Rat Ogre", _MEDIUM)
 		.progress("16/03/2025", ludovic5799, 1, "Ratling gun", _BIG)
 		.progress("16/03/2025", ludovic5799, 1, "Equipage Ratling Gun", _SMALL)
 		.render();
 
-//	let q10 = new _quest("quest-10", "Réparer nos embarquations de fortune", "Peindre 30 figurines", 30)
-//		.progress("16/03/2025", ludovic5799, 3, "Equipage Ratling Gun", _SMALL)
-//		.progress("16/03/2025", ludovic5799, 1, "Griffarque sur Rongebete", _BIG)
-//		.render();
+	let q10 = new _quest("quest-10", "Réparer nos embarquations de fortune", "Peindre 30 figurines", 30)
+		.progress("16/03/2025", ludovic5799, 3, "Equipage Ratling Gun", _SMALL)
+		.progress("16/03/2025", ludovic5799, 1, "Griffarque sur Rongebete", _BIG)
+		.addBadge("16/03/2025", ludovic5799, _PetitGros) // not Auto
+		.render();
 
 //			
 	_renderPlayers([angest, anuabi, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);

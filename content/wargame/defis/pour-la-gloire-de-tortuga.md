@@ -100,6 +100,8 @@ Voici les badges actuellement connu :
 
 Ohé Pirates!! Avec tout ça nos pauvres chalouppes sont en train de couler il faut du bois pour les réparer!! 30 ressources seront nécéssaires car elles sont trés abimées.
 
+<div id="quest-10"></div>
+
 ### Jour 65 Collecte de vivres
 
 Ohé Pirates!! Vous avez bien travaillés nous avons un Ponton tout neuf et des Baraquements et une échoppe toute neuve! Il nous faure reprendre des forces et trouver du RHUM pour la suite! 20 Ressources seront necessaires.
