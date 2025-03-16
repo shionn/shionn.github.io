@@ -450,6 +450,6 @@ q(function() {
 
 //			
 	_renderPlayers([angest, anuabi, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]);
 
 });
