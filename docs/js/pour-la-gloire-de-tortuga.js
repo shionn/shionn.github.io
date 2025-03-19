@@ -288,7 +288,7 @@ q(function() {
 		new _badge("Vague", "ra ra-double-team ", "Envoyer 20 figurine lors de la même quête", true),
 		
 		new _badge("Uzi", "ra ra-bullets", "Faire 10 contributions à la même quête", false),
-		new _badge("Gargantuesque", "ra ra-monster-skull", "Peindre une très grosse figurine (>=100mm)", false), // 11
+		new _badge("Gargantuesque", "ra ra-monster-skull", "Peindre une très grosse figurine (>=100mm)", false), // 11 TODO true
 		new _badge("Bon plan", "fa fa-thumbs-up", "Faire profiter la commu d'un bon plan", true), // 12
 		new _badge("Ten", "fa fa-battery-quarter", "Participer à 10 quête différente", false), 
 		new _badge("Twenty", "fa fa-fa-battery-half", "Participer à 20 quête différente", false),
@@ -446,6 +446,8 @@ q(function() {
 		.progress("16/03/2025", ludovic5799, 3, "Equipage Ratling Gun", _SMALL)
 		.progress("16/03/2025", ludovic5799, 1, "Griffarque sur Rongebete", _BIG)
 		.addBadge("16/03/2025", ludovic5799, _PetitGros) // not Auto
+		.progress("15/03/2025", angest, 1, "Slug, the Snail God", _BIG)
+		.progress("19/03/2025", angest, 1, "Infernal Sanctifier", _BIG)
 		.render();
 
 //			
