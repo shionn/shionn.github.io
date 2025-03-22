@@ -35,7 +35,8 @@ category/jdr	JdR
 		2025/whisperia-3-zombis-coffres-rubis	3: Zombies, coffre et rubis
 		2025/whisperia-4-bureau-liche	4: Bureau et liche
 		2025/whisperia-5-tresors-pieges	5: Trésors et Piège
-		2025/whisperia-6-gorgul-snoopy	6: Gorgul et Snoopy	2025-03-15
+		2025/whisperia-6-gorgul-snoopy	6: Gorgul et Snoopy
+		2025/whisperia-7-repos	7: Repos	2025-03-32
 category/linux	Linux
 	tag/server	Server
 		2024/docker-sur-debian	Installation Docker sur Debian
