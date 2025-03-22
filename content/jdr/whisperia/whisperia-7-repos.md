@@ -12,13 +12,34 @@ En effet, les impôts sur les alcools sont réduits quand on est membre de la gu
 
 ### Statistique
 
+A partir de cet soirée nos MJs nous ajoute plus de rgele et donc mon personnage evolu. Comme Rurik est un nains il gagne 2 en force et constitution.
+
 [table title="Statistique" cols="Stat,Valeur,Utilisation" class="pyjama"]
-Force	14 (+2)	Taper, Soulever, Casser
+Force	16 (+3)	Taper, Soulever, Casser
 Dex	9 (-1)	Lancer, Initiative
-Consti	16 (+3)	Encaisser, Résister (Maîtrise)
+Consti	18 (+4)	Encaisser, Résister (Maîtrise)
 Intel	3 (-4)	 
 Sagesse	13 (+1)	Fouille, Observer
 Cha	9 (-1)	Négocier
+Compétence
+Arcanes	-1	Dex
+Acrobatie	-4	Int	
+Athlétisme	+5	For + Maîtrise
+Discrétion	-1	Dex	
+Dressage	+1	Sag	
+Escamotage	-1	Dex	
+Histoire	-4	Int	
+Intimidation	+1	Cha + Maîtrise
+Intuition	+3	Sag + Maîtrise
+Investigation	-4	Int
+Médecine	+1	Sag
+Nature	-4	Int
+Perception	+1	Sag
+Persuasion	+1	Cha + Maîtrise
+Religion	-4	Int
+Représentation	-1	Cha
+Survie	+1	Sag
+Tromperie	-1	Cha
 Autres
 Niveau	3	Chausette
 Alignement	Loyal Neutre	 
@@ -26,11 +47,11 @@ Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
 	Hache en Os Givré	à une main, 1D8+force. Sur crit +1D6
 Armure	Broigne(+14)	CA : 14
 	Anneau de protection (+1)	CA : 15
-Capacitées	Second souffle	1 fois par jour, +1D10 pv.
-	Fougue	1 fois par jour, attaquer une seconde fois.
+Capacitées	Second souffle	1 fois par jour, +1D10+lvl pv.
+	Fougue	1 fois par jour, +1 action
 	Champion	Crit sur 19-20
 Maîtrise	+2	Pour toucher et pour la constitution
-PV	32/32	 
+PV	34/34	 
 Or	241po	 
 Richesse	1 rubi	~20po
 	2 jaspes & 1 pierre de lune	~150po
@@ -41,9 +62,8 @@ Richesse	1 rubi	~20po
 ## Précédemment...
 
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
-et nous nous sommes retrouvés dans un tombeau. 
-Apres moulte combat contre des orcs et mort vivant nous avons reussi à en sortir et nous sommes arrivé à Heavenrir.
-Nous avons combatu Amenalion et Gorgul.
+et nous nous sommes retrouvés dans un tombeau dans les ruines de Ragnord. 
+Apres moulte combat contre des orcs et mort vivant nous avons reussi à en sortir apres avoir vaincu Amenalion et Gorgul et nous sommes arrivé à Heavenrir.
 
 Toutes nos aventures dans les articles précédent :
 * [Évasion d'une gaule](2024/whisperia-1-evasion-d-une-gaule.html). 
@@ -57,10 +77,28 @@ Toutes nos aventures dans les articles précédent :
 
 Cette partie s'est déroulée le 15 mars 2025. Dont voici le replay :
 
-[youtube video="c3_ZNAWBwLA"/]
+[youtube video="61ybeezFrjA"/]
 
 [youtube video="vd1fBQB1N0E"/]
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### TODO
+### Arrivé en ville
+
+Snoopy nous a laissés non loin de la cité. C’est le début de la soirée quand nous passons enfin les portes de la cité.
+
+[gallery w=300 h=250]
+pictures/jdr/whisperia/086.jpg
+pictures/jdr/whisperia/087.jpg
+[/gallery]
+
+Dans la ville, les rues sont vides, mais il y a clairement des signes de vie. Anuabi saute dans la fontaine. 
+Nous décidons d’aller à l’auberge. 
+
+[gallery w=300 h=250]
+pictures/jdr/whisperia/088.jpg
+pictures/jdr/whisperia/089.jpg
+[/gallery]
+
+Le gérant **Goldric** nous accueil, nous décidons de manger et d’y passer la nuit (-6po). 
+Nous lui racontons, enfin surtout moi tout seul, lui raconte toutes nos aventures. 
