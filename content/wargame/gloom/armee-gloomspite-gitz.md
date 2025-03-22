@@ -5,6 +5,8 @@ Puis avec l'abonnement **Stormbringer** et quelque numéro que j'ai acheter en d
 
 Cette armée a été proposé au CDA organisé sur le Discord **Les Duelistes**.
 
+Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+
 >Les **Gobashionns** vivent au plus profond d'un marrais au fond d'une vieille forêt. 
 >On ne sait pas vraiment dans quel royaume ils sont, et ça n'a pas d’importance pour eux. 
 >Pour des gobelins, ils sont relativement pacifique, enfin cela reste tous relatif. 
@@ -35,7 +37,6 @@ Voici mes trolls de pierre. Ils proviennent de la boite Dawnbringers qui contien
 
 * Peinte en Janvier 2025
 * En environ 35 heures
-* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=400 h=200]
 pictures/gloomspite/rockgut-troggoths/01.jpg
@@ -95,6 +96,42 @@ pictures/gloomspite/rockgut-troggoths/32.jpg
 >Vers ou ? Je prie pour ne pas l'apprendre à mes dépens.
 >
 >Quelque soit la destination, leurs victime vivante ou morte servirons à la culture des champignons ou des Squigs.
+
+[/after]
+
+[after date="2025/06/03"]
+
+## Gobs
+
+### Stabbas
+
+Proviennent de l'abonnement Stormbringer.
+
+* Peinte en Mars 2025
+* En environ 24 heures
+
+[gallery w=400 h=200]
+pictures/gloomspite/stabbas/01.jpg
+pictures/gloomspite/stabbas/02.jpg
+pictures/gloomspite/stabbas/03.jpg
+pictures/gloomspite/stabbas/04.jpg
+pictures/gloomspite/stabbas/05.jpg
+[/gallery]
+
+### Shootas
+
+Proviennent de l'abonnement Stormbringer. J'ai doublé le numéro des Stabbas.
+
+* Peinte en Mars 2025
+* En environ 24 heures
+
+[gallery w=400 h=200]
+pictures/gloomspite/shootas/01.jpg
+pictures/gloomspite/shootas/02.jpg
+pictures/gloomspite/shootas/03.jpg
+pictures/gloomspite/shootas/04.jpg
+pictures/gloomspite/shootas/05.jpg
+[/gallery]
 
 [/after]
 
