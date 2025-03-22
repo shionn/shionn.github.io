@@ -54,7 +54,7 @@ Maîtrise	+2	Pour toucher et pour la constitution
 PV	34/34	 
 Inventaire	1 Popo majeur	8D4+4
 	2 Popo moyenne	4D4+4
-Richesse	Or	143po
+Richesse	Or	141po
 	1 rubi	~20po
 	2 jaspes ~50po
 	1 rubis jaunes	~10po
