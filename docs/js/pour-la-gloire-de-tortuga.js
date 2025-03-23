@@ -451,11 +451,15 @@ q(function() {
 		.progress("21/03/2025", angest, 1, "Batman", _MEDIUM)
 		.progress("23/03/2025", angest, 1, "Nurgle des profondeurs", _MEDIUM)
 		.progress("23/03/2025", shionn, 20, "Stabbas", _SMALL)
-		.progress("23/03/2025", shionn, 2, "Stabbas", _SMALL)
+		.progress("23/03/2025", shionn, 2, "Shootas", _SMALL)
+		.render();
+
+	let q11 = new _quest("quest-11", "S'emparer d'un navire", "Peindre 50 figurines ou Décors", 50)
+		.progress("23/03/2025", shionn, 18, "Shootas", _SMALL)
 		.render();
 
 //			
 	_renderPlayers([angest, anuabi, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11]);
 
 });

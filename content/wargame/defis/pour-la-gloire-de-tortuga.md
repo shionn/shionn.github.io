@@ -96,11 +96,22 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 82 Requisition
+
+Ohé Pirates!! les chaloupes sont réparées mais elles ne tiendrons plus longtemps à ce rythme là! 
+Il nous faut inflitrer une colonnie et leur subtiliser un Navire! Cela va être très difficile et dangereux, 50 ressources figurines ou décors sont nécessaires!
+
+<div id="quest-11"></div>
+
 ### Jour 75 Collecte de Bois
 
 Ohé Pirates!! Avec tout ça nos pauvres chalouppes sont en train de couler il faut du bois pour les réparer!! 30 ressources seront nécéssaires car elles sont trés abimées.
 
 <div id="quest-10"></div>
+
+[gallery]
+pictures/defis/tortuga-2025/map11.png
+[/gallery]
 
 ### Jour 65 Collecte de vivres
 
