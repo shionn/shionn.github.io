@@ -449,6 +449,7 @@ q(function() {
 		.progress("15/03/2025", angest, 1, "Slug, the Snail God", _BIG)
 		.progress("19/03/2025", angest, 1, "Infernal Sanctifier", _BIG)
 		.progress("21/03/2025", angest, 1, "Batman", _MEDIUM)
+		.progress("23/03/2025", angest, 1, "Nurgle des profondeurs", _MEDIUM)
 		.render();
 
 //			
