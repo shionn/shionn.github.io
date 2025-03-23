@@ -450,6 +450,8 @@ q(function() {
 		.progress("19/03/2025", angest, 1, "Infernal Sanctifier", _BIG)
 		.progress("21/03/2025", angest, 1, "Batman", _MEDIUM)
 		.progress("23/03/2025", angest, 1, "Nurgle des profondeurs", _MEDIUM)
+		.progress("23/03/2025", shionn, 20, "Stabbas", _SMALL)
+		.progress("23/03/2025", shionn, 2, "Stabbas", _SMALL)
 		.render();
 
 //			
