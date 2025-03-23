@@ -213,7 +213,6 @@ Base	72045
 Rehaut	72039
 [/paints]
 
-[after date="2025/03/31"]
 ### Lanciers
 
 Voici mon premier pack de 20 guerrier elfe noir en plastique. 
@@ -231,7 +230,6 @@ pictures/dark-elves/garde-noir/04.jpg
 pictures/dark-elves/garde-noir/05.jpg
 pictures/dark-elves/garde-noir/06.jpg
 [/gallery]
-[/after]
 
 ## Unités Spéciales
 
