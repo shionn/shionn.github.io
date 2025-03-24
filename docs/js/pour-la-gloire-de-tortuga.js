@@ -457,6 +457,7 @@ q(function() {
 	let q11 = new _quest("quest-11", "S'emparer d'un navire", "Peindre 50 figurines ou Décors", 50)
 		.progress("23/03/2025", shionn, 18, "Shootas", _SMALL)
 		.progress("24/03/2025", tony, 1, "Une cahouette de l'espace", _SMALL_DECOR)
+		.progress("24/03/2025", whisp, 1, "Un personnage avec un turban", _SMALL)
 		.render();
 
 //			
