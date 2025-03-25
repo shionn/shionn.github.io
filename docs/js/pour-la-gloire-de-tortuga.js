@@ -459,6 +459,7 @@ q(function() {
 		.progress("24/03/2025", tony, 1, "Une cahouette de l'espace", _SMALL_DECOR)
 		.progress("24/03/2025", whisp, 1, "Un personnage avec un turban", _SMALL)
 		.progress("25/03/2025", whisp, 1, "Une serveuse", _SMALL)
+		.progress("25/03/2025", whisp, 1, "Une villageois", _SMALL)
 		.render();
 
 //			
