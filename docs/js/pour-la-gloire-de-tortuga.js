@@ -463,6 +463,8 @@ q(function() {
 		.progress("25/03/2025", whisp, 1, "Une villageoise", _SMALL)
 		.progress("25/03/2025", shionn, 7, "Gardes de Dragsta", _SMALL)
 		.progress("25/03/2025", shionn, 4, "Serpents et Fourmis", _SMALL)
+		.progress("25/03/2025", shionn, 4, "Serpents et Fourmis", _SMALL)
+		.progress("27/03/2025", angest, 1, "Harker, Crimson Blade", _SMALL)
 		.render();
 
 //			
