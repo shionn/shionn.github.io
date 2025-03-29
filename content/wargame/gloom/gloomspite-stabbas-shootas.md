@@ -7,6 +7,7 @@ Voici une unitée de 20 Shootas et 20 Stabbas.
 * Peinte en Mars 2025
 * En environ 48 heures
 * Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Le QG à été présenté au défi **L'Art de la Guerre** sur [OMM](https://onemoremini.fr/topic/667/d%C3%A9fi-mars-2025-l-art-de-la-guerre).
 
 [gallery w=400 h=200]
 pictures/gloomspite/stabbas/01.jpg

@@ -31,6 +31,16 @@ pictures/jeux/nemesis/hero-ext-ks-1.jpg
 
 ## Mars 2025
 
+En mars j'ai peint :
+* Un garde de dragsta pour mon défis __Jeunesse et/ou Guerrier__.
+* Un QG gobelin pour L'Art de la Guerre sur [OMM](https://onemoremini.fr/topic/667/d%C3%A9fi-mars-2025-l-art-de-la-guerre).
+
+[gallery w=250 h=250]
+/pictures/gloomspite/stabbas/04.jpg
+/pictures/dungeon-and-laser/deuslair/core/dragsta/guards/4.jpg
+[/gallery]
+
+
 ## Avril 2025
 
 ## Mai 2025

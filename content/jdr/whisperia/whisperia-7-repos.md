@@ -14,7 +14,7 @@ En effet, les impôts sur les alcools sont réduits quand on est membre de la gu
 
 A partir de cet soirée nos MJs nous ajoute plus de rgele et donc mon personnage evolu. Comme Rurik est un nains il gagne 2 en force et constitution.
 
-[table title="Statistique" cols="Stat,Valeur,Utilisation" class="pyjama"]
+[table title="Fiche personnage" cols="Stat,Valeur,Utilisation" class="pyjama"]
 Force	16 (+3)	Taper, Soulever, Casser
 Dex	9 (-1)	Lancer, Initiative
 Consti	18 (+4)	Encaisser, Résister (Maîtrise)
@@ -22,6 +22,7 @@ Intel	3 (-4)
 Sagesse	13 (+1)	Fouille, Observer
 Cha	9 (-1)	Négocier
 PV	34/34	 
+Maîtrise	+2	Pour toucher et pour la constitution
 Compétence
 Arcanes	-1	Dex
 Acrobatie	-4	Int	
@@ -51,7 +52,6 @@ Armure	Broigne(+14)	CA : 14
 Capacitées	Second souffle	1 fois par jour, +1D10+lvl pv.
 	Fougue	1 fois par jour, +1 action
 	Champion	Crit sur 19-20
-Maîtrise	+2	Pour toucher et pour la constitution
 Richesse	Or	241po
 	1 rubi	~20po
 	2 jaspes & 1 pierre de lune	~150po

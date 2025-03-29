@@ -21,6 +21,8 @@ Consti	18 (+4)	Encaisser, Résister (Maîtrise)
 Intel	3 (-4)	 
 Sagesse	13 (+1)	Fouille, Observer
 Cha	9 (-1)	Négocier
+PV	34/34	 
+Maîtrise	+2	Pour toucher et pour la constitution
 Compétence
 Arcanes	-1	Dex
 Acrobatie	-4	Int	
@@ -47,11 +49,10 @@ Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
 	Hache en Os Givré	à une main, 1D8+force. Sur crit +1D6
 Armure	Broigne(+14)	CA : 14
 	Anneau de protection (+1)	CA : 15
+	Ecu (+2)	CA : 17
 Capacitées	Second souffle	1 fois par jour, +1D10+lvl pv.
 	Fougue	1 fois par jour, +1 action
 	Champion	Crit sur 19-20
-Maîtrise	+2	Pour toucher et pour la constitution
-PV	34/34	 
 Inventaire	1 Popo majeur	8D4+4
 	2 Popo moyenne	4D4+4
 Richesse	Or	141po

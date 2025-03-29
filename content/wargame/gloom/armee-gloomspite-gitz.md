@@ -109,6 +109,7 @@ Proviennent de l'abonnement Stormbringer.
 
 * Peinte en Mars 2025
 * En environ 24 heures
+* Le QG à été présenté au défi **L'Art de la Guerre** sur [OMM](https://onemoremini.fr/topic/667/d%C3%A9fi-mars-2025-l-art-de-la-guerre).
 
 [gallery w=400 h=200]
 pictures/gloomspite/stabbas/01.jpg
