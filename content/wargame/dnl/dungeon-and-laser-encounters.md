@@ -133,6 +133,17 @@ pictures/dungeon-and-laser/encounters/sg/driade/2.jpg
 pictures/dungeon-and-laser/encounters/sg/driade/3.jpg
 [/gallery]
 
+### Fourmis
+
+- Peinte en mars 20205
+- 1 h de peinture
+
+[gallery h=200 w=400]
+pictures/dungeon-and-laser/encounters/sg/fourmi/1.jpg
+pictures/dungeon-and-laser/encounters/sg/fourmi/2.jpg
+[/gallery]
+
+
 ### Grenouilles
 Ces figurines ont été peintes pour le défi __Juin 2024 - Petit et/ou mignon [CFM](https://taverne.colorfulminis.com/t/defi-juin-2024-petit-et-ou-mignon/5535)__.
 [gallery h=200 w=250]
@@ -149,6 +160,18 @@ J'ai essayé de faire 3 ombrages de couleur différente sur la peau, jade / turq
 pictures/dungeon-and-laser/encounters/sg/harpies/1.jpg
 pictures/dungeon-and-laser/encounters/sg/harpies/2.jpg
 pictures/dungeon-and-laser/encounters/sg/harpies/3.jpg
+[/gallery]
+
+### Serpents
+
+- Peinte en mars 20205
+- 20 mminutes pour les petits serpents
+- 3 h pour le gros.
+
+[gallery h=200 w=250]
+pictures/dungeon-and-laser/encounters/sg/serpents/1.jpg
+pictures/dungeon-and-laser/encounters/sg/serpents/2.jpg
+pictures/dungeon-and-laser/encounters/sg/serpents/3.jpg
 [/gallery]
 
 ### Soren le Troll
@@ -170,6 +193,16 @@ Glacis Détail	72409
 Glacis Ombre	72415
 [/paints]
 
+
+### Wendigo
+
+- Peinte en mars 20205
+- 1 h de peinture
+
+[gallery h=250 w=250]
+pictures/dungeon-and-laser/encounters/sg/wendigo/1.jpg
+pictures/dungeon-and-laser/encounters/sg/wendigo/2.jpg
+[/gallery]
 
 ### Décorts
 [gallery h=250 w=250]
