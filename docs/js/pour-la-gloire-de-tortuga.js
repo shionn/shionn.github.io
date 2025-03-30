@@ -467,6 +467,8 @@ q(function() {
 		.progress("27/03/2025", whisp, 4, "Coffres", _SMALL_DECOR)
 		.progress("27/03/2025", whisp, 1, "rivière et pont", _BIG_DECOR)
 		.progress("30/03/2025", angest, 1, "Orc Grossache", _SMALL)
+		.progress("30/03/2025", shionn, 1, "Hutte Champignon D&L", _MEDIUM_DECOR)
+		.progress("30/03/2025", shionn, 1, "Hutte Marais D&L", _MEDIUM_DECOR)
 		.render();
 
 //			
