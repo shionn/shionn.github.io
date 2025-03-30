@@ -466,6 +466,7 @@ q(function() {
 		.progress("27/03/2025", angest, 1, "Harker, Crimson Blade", _SMALL)
 		.progress("27/03/2025", whisp, 4, "Coffres", _SMALL_DECOR)
 		.progress("27/03/2025", whisp, 1, "rivière et pont", _BIG_DECOR)
+		.progress("30/03/2025", angest, 1, "Orc Grossache", _SMALL)
 		.render();
 
 //			
