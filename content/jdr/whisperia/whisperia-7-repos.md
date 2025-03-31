@@ -12,7 +12,7 @@ En effet, les impôts sur les alcools sont réduits quand on est membre de la gu
 
 ### Statistique
 
-A partir de cet soirée nos MJs nous ajoute plus de rgele et donc mon personnage evolu. Comme Rurik est un nains il gagne 2 en force et constitution.
+A partir de cet soirée nos MJs nous ajoute plus de régle et donc mon personnage évolu. Comme Rurik est un nains il gagne 2 en force et constitution.
 
 [table title="Fiche personnage" cols="Stat,Valeur,Utilisation" class="pyjama"]
 Force	16 (+3)	Taper, Soulever, Casser
@@ -117,7 +117,7 @@ pictures/jdr/whisperia/088.jpg
 pictures/jdr/whisperia/089.jpg
 [/gallery]
 
-Le gérant **Goldric** nous accueil, nous décidons de manger et d’y passer la nuit (-6po). 
+Le gérant **Goldric** nous accueil, nous décidons de manger et d’y passer la nuit (-5po). 
 Nous lui racontons, enfin surtout moi tout seul, lui raconte toutes nos aventures. 
 
 Goldric nous explique qu’il y a un souci d'approvisionnement de la ville, cela fait plusieurs jours que la ville n'a reçu aucune livraison.
