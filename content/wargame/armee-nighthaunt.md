@@ -170,5 +170,23 @@ Si j'ai bien compris, ces figurine servent de garde du corps à lady Olynder, j'
 pictures/nighthaunt/spirit-hosts/1.jpg
 [/gallery]
 
+## Peinture utilisé. 
 
+[paints title="Fantomatique"]
+Aplat	72023
+Rehaut	27-06
+Brossage	72095
+Brossage	72001
+[/paints]
 
+[paints title="Cuir"]
+Aplat	72045
+Rehaut	72043
+Rehaut	72039
+[/paints]
+
+[paints title="Rose"]
+Aplat	72015
+Rehaut	72014
+Rehaut/brossage	72013
+[/paints]

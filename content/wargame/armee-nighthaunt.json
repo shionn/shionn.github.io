@@ -7,5 +7,6 @@
 	"category": "War Game",
 	"logo": "pictures/titles/armee-nighthaunt.jpg",
 	"published": true,
+	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"
 }
