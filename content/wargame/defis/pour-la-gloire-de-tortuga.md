@@ -103,6 +103,10 @@ Il nous faut inflitrer une colonnie et leur subtiliser un Navire! Cela va être 
 
 <div id="quest-11"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map12.png
+[/gallery]
+
 ### Jour 75 Collecte de Bois
 
 Ohé Pirates!! Avec tout ça nos pauvres chalouppes sont en train de couler il faut du bois pour les réparer!! 30 ressources seront nécéssaires car elles sont trés abimées.
