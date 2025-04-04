@@ -96,6 +96,12 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 94 la bataille
+
+Ohé Pirates!! Vous avez inflitré la colonnie, subtilisé le navire et pris le large avec succès!! Mais nous sommes maintenant attaqué par les mercenaires des félons!! Tous à vos postes de combats et montrons leur la puissance des Pirates de Whisp The Cusred 30 ressources sont necessaires dans un délai de 15 jours maximum!
+
+<div id="quest-12"></div>
+
 ### Jour 82 Requisition
 
 Ohé Pirates!! les chaloupes sont réparées mais elles ne tiendrons plus longtemps à ce rythme là! 

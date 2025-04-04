@@ -473,9 +473,13 @@ q(function() {
 		.progress("03/04/2025", whisp, 2, "Coffre", _SMALL_DECOR)
 		.progress("04/04/2025", whisp, 4, "Mur Modulaire", _SMALL_DECOR)
 		.render();
+		
+	let q12 = new _quest("quest-12", "La Premiere Bataille", "Peindre 30 figurines en 15 jours", 30)
+		.render();
+
 
 //			
 	_renderPlayers([angest, anuabi, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12]);
 
 });
