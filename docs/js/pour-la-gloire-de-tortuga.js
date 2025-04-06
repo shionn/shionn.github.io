@@ -477,6 +477,7 @@ q(function() {
 	let q12 = new _quest("quest-12", "La Premiere Bataille", "Peindre 30 figurines en 15 jours", 30)
 		.progress("06/04/2025", shionn, 1, "Serpent", _MEDIUM)
 		.progress("06/04/2025", shionn, 1, "Wendigo", _SMALL)
+		.progress("06/04/2025", anuabi, 1, "Orc", _SMALL)
 		.render();
 
 
