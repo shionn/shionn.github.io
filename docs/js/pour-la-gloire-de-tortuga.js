@@ -480,6 +480,7 @@ q(function() {
 		.progress("06/04/2025", anuabi, 1, "Orc", _SMALL)
 		.progress("06/04/2025", tupad, 2, "Fille et lion", _SMALL)
 		.progress("06/04/2025", tupad, 2, "Vaisseau Eldar", _BIG)
+		.progress("10/04/2025", shionn, 9, "Gitz de Zarbag", _SMALL)
 		.render();
 
 
