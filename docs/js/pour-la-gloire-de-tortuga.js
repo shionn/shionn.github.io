@@ -290,12 +290,12 @@ q(function() {
 		new _badge("Uzi", "ra ra-bullets", "Faire 10 contributions à la même quête", false),
 		new _badge("Gargantuesque", "ra ra-monster-skull", "Peindre une très grosse figurine (>=100mm)", false), // 11 TODO true
 		new _badge("Bon plan", "fa fa-thumbs-up", "Faire profiter la commu d'un bon plan", true), // 12
-		new _badge("Ten", "fa fa-battery-quarter", "Participer à 10 quête différente", false), 
+		new _badge("Ten", "fa fa-battery-quarter", "Participer à 10 quête différente", true), 
 		new _badge("Twenty", "fa fa-fa-battery-half", "Participer à 20 quête différente", false),
 		new _badge("Du cailloux à la Tour", "ra ra-tower", "Envoyer un décors de chaque taille dans la même quête", true), 
 		new _badge("Decorama", "ra ra-castle-emblem", "Envoyer 15 décors dans la même quête", true), 
-		new _badge("Dernier clou", "ra ra-ankh", "Achever une quête avec un décor", false), 
-		new _badge("Collectionneur", "ra ra-player", "Obtenir 8 badges", false),
+		new _badge("Dernier clou", "ra ra-ankh", "Achever une quête avec un décor", true), 
+		new _badge("Collectionneur", "ra ra-player", "Obtenir 8 badges", true),
 		new _badge("Presque tous", "ra ra-muscle-up", "Obtenir presque tous les badges", false),
 		
 		new _badge("Gotha'em all", "ra ra-queen-crown", "Obtenir tous les badge", false),
