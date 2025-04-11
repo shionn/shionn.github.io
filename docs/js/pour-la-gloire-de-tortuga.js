@@ -88,7 +88,7 @@ q(function() {
 		
 		this.countQuest = function(quest) {
 			if (this.quests.indexOf(quest) === -1) this.quests.push(quest);
-			return this.quests.lenght;
+			return this.quests.length;
 		}
 	};
 
