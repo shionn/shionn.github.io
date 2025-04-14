@@ -43,6 +43,14 @@ En mars j'ai peint :
 
 ## Avril 2025
 
+En mars j'ai peint :
+* TODO
+* Deux sirènes pour poisson d'avril sur [OMM](https://onemoremini.fr/topic/673/d%C3%A9fi-avril-2025-poisson-d-avril).
+
+[gallery w=250 h=250]
+/pictures/dungeon-and-laser/encounters/sg/sirenes/1.jpg
+[/gallery]
+
 ## Mai 2025
 
 ## Juin 2025

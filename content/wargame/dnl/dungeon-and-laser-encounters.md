@@ -119,6 +119,17 @@ pictures/dungeon-and-laser/encounters/sg/crabes/1.jpg
 pictures/dungeon-and-laser/encounters/sg/crabes/2.jpg
 [/gallery]
 
+### Druide
+
+- Peinte en mars 2025
+- en 1h30.
+
+[gallery h=250 w=150]
+pictures/dungeon-and-laser/encounters/sg/druid/1.jpg
+pictures/dungeon-and-laser/encounters/sg/druid/2.jpg
+pictures/dungeon-and-laser/encounters/sg/druid/3.jpg
+[/gallery]
+
 ### Dame à l'épée
 Peinte pour le plaisir en 1h20. 
 [gallery h=300 w=150]
@@ -156,7 +167,7 @@ pictures/dungeon-and-laser/encounters/sg/grenouilles/4.jpg
 ### Harpie
 Ces figurines ont été peintes pour le défi __Septembre 2023 - Vole petit oiseau de [OOM](https://onemoremini.fr/topic/563/d%C3%A9fi-septembre-2023-vole-petit-oiseau)__.
 J'ai essayé de faire 3 ombrages de couleur différente sur la peau, jade / turquoise / violet.
-[gallery h=300 w=250]
+[gallery h=200 w=300]
 pictures/dungeon-and-laser/encounters/sg/harpies/1.jpg
 pictures/dungeon-and-laser/encounters/sg/harpies/2.jpg
 pictures/dungeon-and-laser/encounters/sg/harpies/3.jpg
@@ -164,7 +175,7 @@ pictures/dungeon-and-laser/encounters/sg/harpies/3.jpg
 
 ### Serpents
 
-- Peinte en mars 20205
+- Peinte en mars 2025
 - 20 mminutes pour les petits serpents
 - 3 h pour le gros.
 
@@ -172,6 +183,18 @@ pictures/dungeon-and-laser/encounters/sg/harpies/3.jpg
 pictures/dungeon-and-laser/encounters/sg/serpents/1.jpg
 pictures/dungeon-and-laser/encounters/sg/serpents/2.jpg
 pictures/dungeon-and-laser/encounters/sg/serpents/3.jpg
+[/gallery]
+
+### Sirènes
+
+Ces figurines ont été peinte pour le défi __Avril 2025 - Poisson d'avril de [OMM](https://onemoremini.fr/topic/673/d%C3%A9fi-avril-2025-poisson-d-avril)__.
+
+- Peinte en avril 2025
+- 3h pour les deux
+
+[gallery h=200 w=250]
+pictures/dungeon-and-laser/encounters/sg/sirenes/1.jpg
+pictures/dungeon-and-laser/encounters/sg/sirenes/2.jpg
 [/gallery]
 
 ### Soren le Troll
@@ -279,6 +302,26 @@ pictures/dungeon-and-laser/encounters/ssg/entree-mine-naine/2.jpg
 ### Hute
 [gallery h=200 w=350]
 pictures/dungeon-and-laser/encounters/ssg/hute.jpg
+[/gallery]
+
+### Hute champignon
+
+- Peinte en mars 2025
+- 4h30 de peinture
+
+[gallery h=250 w=250]
+pictures/dungeon-and-laser/encounters/ssg/hute-champignon/1.jpg
+pictures/dungeon-and-laser/encounters/ssg/hute-champignon/2.jpg
+pictures/dungeon-and-laser/encounters/ssg/hute-champignon/3.jpg
+[/gallery]
+
+### Hute des marais
+
+- Peinte en mars 2025
+- 1 h de peinture
+
+[gallery h=250 w=250]
+pictures/dungeon-and-laser/encounters/ssg/hute-marais.jpg
 [/gallery]
 
 ### Tarrasque
