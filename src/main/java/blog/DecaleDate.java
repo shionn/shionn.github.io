@@ -58,6 +58,7 @@ public class DecaleDate {
 			while ((line = reader.readLine()) != null) {
 				line = line.replaceAll(original, target);
 				writer.write(line);
+				writer.newLine();
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
