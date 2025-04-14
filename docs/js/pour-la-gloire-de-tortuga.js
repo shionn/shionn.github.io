@@ -88,7 +88,7 @@ q(function() {
 		
 		this.countQuest = function(quest) {
 			if (this.quests.indexOf(quest) === -1) this.quests.push(quest);
-			return this.quests.lenght;
+			return this.quests.length;
 		}
 	};
 
@@ -290,12 +290,12 @@ q(function() {
 		new _badge("Uzi", "ra ra-bullets", "Faire 10 contributions à la même quête", false),
 		new _badge("Gargantuesque", "ra ra-monster-skull", "Peindre une très grosse figurine (>=100mm)", false), // 11 TODO true
 		new _badge("Bon plan", "fa fa-thumbs-up", "Faire profiter la commu d'un bon plan", true), // 12
-		new _badge("Ten", "fa fa-battery-quarter", "Participer à 10 quête différente", false), 
+		new _badge("Ten", "fa fa-battery-quarter", "Participer à 10 quête différente", true), 
 		new _badge("Twenty", "fa fa-fa-battery-half", "Participer à 20 quête différente", false),
 		new _badge("Du cailloux à la Tour", "ra ra-tower", "Envoyer un décors de chaque taille dans la même quête", true), 
 		new _badge("Decorama", "ra ra-castle-emblem", "Envoyer 15 décors dans la même quête", true), 
-		new _badge("Dernier clou", "ra ra-ankh", "Achever une quête avec un décor", false), 
-		new _badge("Collectionneur", "ra ra-player", "Obtenir 8 badges", false),
+		new _badge("Dernier clou", "ra ra-ankh", "Achever une quête avec un décor", true), 
+		new _badge("Collectionneur", "ra ra-player", "Obtenir 8 badges", true),
 		new _badge("Presque tous", "ra ra-muscle-up", "Obtenir presque tous les badges", false),
 		
 		new _badge("Gotha'em all", "ra ra-queen-crown", "Obtenir tous les badge", false),
@@ -480,7 +480,9 @@ q(function() {
 		.progress("06/04/2025", anuabi, 1, "Orc", _SMALL)
 		.progress("06/04/2025", tupad, 2, "Fille et lion", _SMALL)
 		.progress("06/04/2025", tupad, 2, "Vaisseau Eldar", _BIG)
+		//.addBadge("06/04/2025", tupad, _PetitGros) // not Auto
 		.progress("10/04/2025", shionn, 9, "Gitz de Zarbag", _SMALL)
+		.progress("10/04/2025", angest, 10, "Sirene, Flageleur et Villageois", _SMALL)
 		.render();
 
 
