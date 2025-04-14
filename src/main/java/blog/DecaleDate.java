@@ -27,7 +27,7 @@ public class DecaleDate {
 	private static DateFormat menuFormat = new SimpleDateFormat("yyyy-MM-dd");
 
 	public static void main(String[] args) throws ParseException, IOException {
-		new DecaleDate().start(jsonFormat.parse("2025/03/31"), 8);
+		new DecaleDate().start(jsonFormat.parse("2025/04/16"), 8);
 	}
 
 	private void start(Date date, int nbDays) throws IOException {
@@ -51,6 +51,7 @@ public class DecaleDate {
 	}
 
 	private void replace(String original, String target, File file) {
+		System.out.println(original + " > " + target + " into " + file);
 		File targetFile = new File(file.getAbsolutePath().concat(".new"));
 		try (BufferedReader reader = new BufferedReader(new FileReader(file));
 				BufferedWriter writer = new BufferedWriter(new FileWriter(targetFile))) {

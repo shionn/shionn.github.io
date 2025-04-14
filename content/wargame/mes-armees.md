@@ -14,7 +14,7 @@ Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes 
 ## Warhammer Battle
 
 - [Elfes Noirs](2024/armee-elfes-noirs.html)
-[after date="2025/06/11"]
+[after date="2025/06/19"]
 - [Gobelin de la Nuit](2025/armee-gobs./html)
 [/after]
 

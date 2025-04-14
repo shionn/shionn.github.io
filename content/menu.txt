@@ -8,17 +8,17 @@ category/wargame	War Game
 		2025/armee-gloomspite-gitz	Gloomspite Gitz
 	2024/mes-armees	Warhammer Battle
 		2024/armee-elfes-noirs	Elfes Noirs
-		2025/armee-gobs	Gobelin de la Nuit	2025-04-16
+		2025/armee-gobs	Gobelin de la Nuit	2025-04-24
 	2024/mes-armees	Underworld
 		2024/underworld-dok	Fille de Khaine
 		2024/underworld-soulblight	Seigneurs Ruinemânes
-	2024/mes-armees	Warcry	2025-08-22
-		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-08-22
+	2024/mes-armees	Warcry	2025-08-30
+		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-08-30
 	tag/dungeon-and-laser	Dungeon and Laser
 		2024/dungeon-and-laser-encounters	Encounters
-	tag/d-cor	Décor	2025-05-18
-		2025/decor-skaventide	Décor Skaventide	2025-05-18
-		2025/decor-mortal-realms	Décor Mortal Realms	2025-08-06
+	tag/d-cor	Décor	2025-05-26
+		2025/decor-skaventide	Décor Skaventide	2025-05-26
+		2025/decor-mortal-realms	Décor Mortal Realms	2025-08-14
 	tag/peinture	Guide
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Tableau d'équivalence de peinture
@@ -36,7 +36,8 @@ category/jdr	JdR
 		2025/whisperia-4-bureau-liche	4: Bureau et liche
 		2025/whisperia-5-tresors-pieges	5: Trésors et Piège
 		2025/whisperia-6-gorgul-snoopy	6: Gorgul et Snoopy
-		2025/whisperia-7-repos	7: Repos	2025-03-32
+		2025/whisperia-7-repos	7: Repos
+		2025/whisperia-8-noratu	8: Noratu	2025-04-16
 category/linux	Linux
 	tag/server	Server
 		2024/docker-sur-debian	Installation Docker sur Debian
@@ -45,15 +46,15 @@ category/linux	Linux
 	tag/desktop	Desktop
 		2023/survivre-sur-debian	Kit de Survie sur Debian
 		2024/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille	2025-04-08
-		2025/openrgb-sur-debian	OpenRGB sur Débian	2025-05-26
-	tag/matos	Matos	2025-05-02
-		2025/homelab-processor	Processeur pour Homelab	2025-05-02
+		2025/openrgb-sur-debian	OpenRGB sur Débian	2025-06-03
+	tag/matos	Matos	2025-05-10
+		2025/homelab-processor	Processeur pour Homelab	2025-05-10
 category/code	Code
 	tag/arduino	Arduino
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode
-	tag/java	Java	2025-06-19
-		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX WebView	2025-06-19
-		2025/bot-discord-en-java	Bot discord en Java	2025-07-13
+	tag/java	Java	2025-06-27
+		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX WebView	2025-06-27
+		2025/bot-discord-en-java	Bot discord en Java	2025-07-21
 https://web.archive.org/web/20210420064444/http://shionn.org/	Web Archive
 mailto:shionn@gmail.com	Contact
 	mailto:shionn@gmail.com	shionn@gmail.com

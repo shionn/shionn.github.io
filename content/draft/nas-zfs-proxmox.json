@@ -1,6 +1,6 @@
 {
 	"type": "post",
-	"date": "2025/12/12",
+	"date": "2025/12/20",
 	"title": "Nas ZFS sur Proxmox",
 	"tags": ["Linux", "Proxmox", "Debian", "Server", "Nas", "Zfs"],
 	"category": "Linux",
