@@ -1,6 +1,5 @@
 
-Voici mes bandes Underworld affilié aux Daughter of Khaine. 
-J'ai des bandes mais je n'y joue pas.
+Voici ma premiere bande underworld affilié aux Gloomspite Gitz. Ils proviennent de l'abonnement Stormbringer.
 
 - Peinte en Avril 2025
 - 15h de peinture
