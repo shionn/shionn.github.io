@@ -12,8 +12,6 @@ En effet, les impôts sur les alcools sont réduits quand on est membre de la gu
 
 ### Statistique
 
-A partir de cet soirée nos MJs nous ajoute plus de rgele et donc mon personnage evolu. Comme Rurik est un nains il gagne 2 en force et constitution.
-
 [table title="Statistique" cols="Stat,Valeur,Utilisation" class="pyjama"]
 Force	16 (+3)	Taper, Soulever, Casser
 Dex	9 (-1)	Lancer, Initiative
@@ -49,7 +47,7 @@ Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
 	Hache en Os Givré	à une main, 1D8+force. Sur crit +1D6
 Armure	Broigne(+14)	CA : 14
 	Anneau de protection (+1)	CA : 15
-	Ecu (+2)	CA : 17
+	Ecu (+3)	CA : 18
 Capacitées	Second souffle	1 fois par jour, +1D10+lvl pv.
 	Fougue	1 fois par jour, +1 action
 	Champion	Crit sur 19-20
@@ -57,7 +55,7 @@ Inventaire	1 Popo majeur	8D4+4
 	2 Popo moyenne	4D4+4
 Richesse	Or	142po
 	1 rubi	~20po
-	2 jaspes ~50po
+	2 jaspes	~50po
 	1 rubis jaunes	~10po
 	5 rubis	~100po
 [/table]
@@ -93,12 +91,112 @@ Toutes nos aventures dans les articles précédent :
 
 ## Et maintenant la suite
 
-Cette partie s'est déroulée le 15 mars 2025. Dont voici le replay :
+Cette partie s'est déroulée le 29 mars 2025. Dont voici les replay :
 
-[youtube video="61ybeezFrjA"/]
+[youtube video="qkuSDQ9H7cE"/]
 
-[youtube video="tui1PQKu0nM"/]
+[youtube video="8JAYJUkJj-Y"/]
+
+[youtube video="rcW8cm3_vTI"/]
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### TODO
+### A la recherche de Noratu
+
+Nous ne trouvons pas de piste pour retrouver Naruto. Comme il semblait jouer avec des chats, Annabi imite le cri d’un chat mais elle n'attire qu’un chien.
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/100.jpg
+pictures/jdr/whisperia/101.jpg
+[/gallery]
+
+### Une dispute à la taverne
+
+Nous retournons à la taverne pour y apprendre que la milice n’est pas revenue, on demande le chemin de la caravane pour aller à sa rencontre. Il nous faut prendre la route du sud est.
+
+A la taverne nous entendons une dispute entre 2 personnes qui semble être des frères “le bourrée” et “je bois trop”, une histoire d‘épée perdue... Hyasull va discuter avec eux. Une histoire de gobelin, d'épée perdue vers l’est à deux jours de marche.
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/102.jpg
+pictures/jdr/whisperia/103.jpg
+[/gallery]
+
+### Andréas ....
+
+Nous avons une discussion dénué d'interêt avec Andréas l'épicier
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/104.jpg
+[/gallery]
+
+### Retour à l'auberge
+
+Retour à l’auberge, l’aubergiste nous propose un package complet pour 5 po par personne. Je lui donne une jaspe et un rubi jaune en echange. 
+>oui je paie pour tous le monde.
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/105.jpg
+[/gallery]
+
+### Recherche de Noratu
+
+Nous retournons voir le père de Noratu mais nous n’avons pas plus de piste. Par désespoir nous commençons à fouiller la ville un peu au hasard des 4 coins de la ville. 
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/106.jpg
+[/gallery]
+
+Hyasul et moi tombons sur un coffre je le force et j’y trouve un parchemin. Ce parchemin contient “trouver le coffre suivant”. 
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/107.jpg
+[/gallery]
+
+Dans l’angle de la ville suivante, je trouve 2 pièces d’or. Je vais au coin de la ville suivante près de l’echoppe du magicien. 
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/108.jpg
+pictures/jdr/whisperia/109.jpg
+[/gallery]
+
+Anuabi essaye de se faufiler entre les murs mais n’arrive à rien. Je fouille les coins de la ville, le puits je ne trouve rien. 
+
+### Enfin
+
+Mais proche du puits j’entend un bruit. Anuabi descend dans le puits, elle trouve le petit avec un chaton. Moi et Hyasul tirons sur la corde pour le remonter. Nous ramenons le petit à son père, et nous retournons à l’auberge.
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/110.jpg
+pictures/jdr/whisperia/111.jpg
+[/gallery]
+
+Goldric nous remet notre paquetage **bitos du donjon** :
+- Couverture
+- Sac de couchage
+- Ration 1
+- Vêtements communs
+- Torche*2
+- Gourde d’eau
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/112.jpg
+[/gallery]
+
+### Banque
+
+Nous allons à la banque et achetons un coffre de grande taille pour une jaspe et 30 pièces d’or (payé par anuabi). J'y dépose : mes pierres et 100 po.
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/113.jpg
+pictures/jdr/whisperia/114.jpg
+[/gallery]
+
+## Conclusion
+
+Nous sortons de la ville 
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/115.jpg
+[/gallery]
+
+

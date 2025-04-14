@@ -153,7 +153,9 @@ Nous allons voir le magicien Heinsendorale il nous raconte son histoire. Nous ap
 C’est lui qui a fait qu’on trouve le parchemin qui nous à fait passer l'épreuve des catacombes pour nous tester.
 > j'ai envie de lui coller ma hache entre les deux yeux.
 
-Et il me redonne le bouclier de Peverell. Et nous donne une potion de soin majeur (8D4+8) à chacun. J'achète deux potions moyennes (4d4+4) pour 100 po et deux antipoison pour 10po.
+Le magicien nous explique qu’il y a d'autres équipes de héros qui cherchent aussi à accomplir la prophétie.
+
+Et il me redonne le bouclier de Peverell (qui est un eco +3). Et nous donne une potion de soin majeur (8D4+8) à chacun. J'achète deux potions moyennes (4d4+4) pour 100 po et deux antipoison pour 10po.
 
 [gallery w=300 h=250]
 pictures/jdr/whisperia/095.jpg
