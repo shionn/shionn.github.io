@@ -483,6 +483,7 @@ q(function() {
 		//.addBadge("06/04/2025", tupad, _PetitGros) // not Auto
 		.progress("10/04/2025", shionn, 9, "Gitz de Zarbag", _SMALL)
 		.progress("10/04/2025", angest, 10, "Sirene, Flageleur et Villageois", _SMALL)
+		.progress("14/04/2025", anuabi, 1, "Gundam strike", _BIG)
 		.render();
 
 
