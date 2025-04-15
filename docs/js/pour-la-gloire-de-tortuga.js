@@ -480,11 +480,12 @@ q(function() {
 		.progress("06/04/2025", anuabi, 1, "Orc", _SMALL)
 		.progress("06/04/2025", tupad, 2, "Fille et lion", _SMALL)
 		.progress("06/04/2025", tupad, 2, "Vaisseau Eldar", _BIG)
-		//.addBadge("06/04/2025", tupad, _PetitGros) // not Auto
+		.addBadge("06/04/2025", tupad, _PetitGros) // not Auto
 		.progress("10/04/2025", shionn, 9, "Gitz de Zarbag", _SMALL)
 		.progress("10/04/2025", angest, 10, "Sirene, Flageleur et Villageois", _SMALL)
 		.progress("14/04/2025", anuabi, 1, "Gundam strike", _BIG)
 		.progress("15/04/2025", whisp, 1, "Ours hibou", _MEDIUM)
+		.progress("15/04/2025", whisp, 2, "Zombi", _SMALL)
 		.render();
 
 
