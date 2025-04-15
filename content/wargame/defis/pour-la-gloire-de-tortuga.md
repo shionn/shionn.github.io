@@ -102,6 +102,10 @@ Ohé Pirates!! Vous avez inflitré la colonnie, subtilisé le navire et pris le 
 
 <div id="quest-12"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map13.png
+[/gallery]
+
 ### Jour 82 Requisition
 
 Ohé Pirates!! les chaloupes sont réparées mais elles ne tiendrons plus longtemps à ce rythme là! 
