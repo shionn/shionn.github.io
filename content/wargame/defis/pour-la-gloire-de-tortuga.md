@@ -96,6 +96,13 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 105 creation d'une capitainerie
+
+Ohé Pirates!! Vous avez repoussé les félons avec succès!! Il nous faut  maintenant créer une Capitainerie pour gerer le nouveau port des Pirates de Whisp The Cursed!! 50 ressources figurines ou décors sont necessaires pour monter la structure!
+
+<div id="quest-13"></div>
+
+
 ### Jour 95 la bataille
 
 Ohé Pirates!! Vous avez inflitré la colonnie, subtilisé le navire et pris le large avec succès!! Mais nous sommes maintenant attaqué par les mercenaires des félons!! Tous à vos postes de combats et montrons leur la puissance des Pirates de Whisp The Cusred 30 ressources sont necessaires dans un délai de 15 jours maximum!

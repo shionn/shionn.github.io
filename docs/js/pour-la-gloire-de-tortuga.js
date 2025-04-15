@@ -489,15 +489,16 @@ q(function() {
 		.render();
 
 
-//	let q13 = new _quest("quest-13", "LTODO", "Peindre 50 figurines ou Décors", 50)
-//		.progress("03/04/2025", whisp, 2, "Porte modulaire", _SMALL_DECOR)
-//		.progress("03/04/2025", whisp, 3, "Dalle modulaire", _SMALL_DECOR)
-//		.progress("03/04/2025", whisp, 3, "Long mur modulaire", _MEDIUM_DECOR)
-//		.render();
+	let q13 = new _quest("quest-13", "Creation d'une Capitainerie", "Peindre 50 figurines ou Décors", 50)
+		.progress("15/04/2025", whisp, 2, "Porte modulaire", _SMALL_DECOR)
+		.progress("15/04/2025", whisp, 3, "Dalle modulaire", _SMALL_DECOR)
+		.progress("15/04/2025", whisp, 3, "Long mur modulaire", _MEDIUM_DECOR)
+		.progress("15/04/2025", whisp, 4, "Zombi", _SMALL)
+		.render();
 
 		
 //			
 	_renderPlayers([angest, anuabi, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13]);
 
 });
