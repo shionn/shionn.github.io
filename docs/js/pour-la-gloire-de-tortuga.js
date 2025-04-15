@@ -484,6 +484,7 @@ q(function() {
 		.progress("10/04/2025", shionn, 9, "Gitz de Zarbag", _SMALL)
 		.progress("10/04/2025", angest, 10, "Sirene, Flageleur et Villageois", _SMALL)
 		.progress("14/04/2025", anuabi, 1, "Gundam strike", _BIG)
+		.progress("15/04/2025", whisp, 1, "Ours hibou", _MEDIUM)
 		.render();
 
 
