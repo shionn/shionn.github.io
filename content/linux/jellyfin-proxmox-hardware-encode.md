@@ -8,8 +8,6 @@ Mais prévoir :
 - 2 go de ram
 - non privilégié
 
-Mais prévcoir au moins 100go d'espace disque pour le transcodage.
-
 ### Ajout du dépo et installation
 
 En root : 
