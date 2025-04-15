@@ -494,6 +494,7 @@ q(function() {
 		.progress("15/04/2025", whisp, 3, "Dalle modulaire", _SMALL_DECOR)
 		.progress("15/04/2025", whisp, 3, "Long mur modulaire", _MEDIUM_DECOR)
 		.progress("15/04/2025", whisp, 4, "Zombi", _SMALL)
+		.progress("15/04/2025", shionn, 1, "Druid", _SMALL)
 		.render();
 
 		
