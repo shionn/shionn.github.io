@@ -502,6 +502,7 @@ q(function() {
 		.progress("16/04/2025", whisp, 1, "Dalle 6x9", _SMALL_DECOR)
 		.progress("16/04/2025", whisp, 5, "Dalle 3x12", _MEDIUM_DECOR)
 		.progress("16/04/2025", whisp, 5, "Dalle 12x12", _BIG_DECOR)
+		.progress("16/04/2025", angest, 1, "Dark Vadore", _MEDIUM)
 		.render();
 
 		
