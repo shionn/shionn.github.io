@@ -287,7 +287,7 @@ q(function() {
 		new _badge("One shot", "ra ra-lightning-storm", "Accomplir une quête d'un seul coup", true), 
 		new _badge("Vague", "ra ra-double-team ", "Envoyer 20 figurine lors de la même quête", true),
 		
-		new _badge("Uzi", "ra ra-bullets", "Faire 10 contributions à la même quête", false),
+		new _badge("Uzi", "ra ra-bullets", "Faire 10 contributions à la même quête", true),
 		new _badge("Gargantuesque", "ra ra-monster-skull", "Peindre une très grosse figurine (>=100mm)", false), // 11 TODO true
 		new _badge("Bon plan", "fa fa-thumbs-up", "Faire profiter la commu d'un bon plan", true), // 12
 		new _badge("Ten", "fa fa-battery-quarter", "Participer à 10 quête différente", true), 
