@@ -495,6 +495,10 @@ q(function() {
 		.progress("15/04/2025", whisp, 3, "Long mur modulaire", _MEDIUM_DECOR)
 		.progress("15/04/2025", whisp, 4, "Zombi", _SMALL)
 		.progress("15/04/2025", shionn, 1, "Druid", _SMALL)
+		.progress("16/04/2025", whisp, 1, "Dalle 9x15", _BIG_DECOR)
+		.progress("16/04/2025", whisp, 1, "Dalle 6x12", _MEDIUM_DECOR)
+		.progress("16/04/2025", whisp, 3, "Dalle 9x12", _MEDIUM_DECOR)
+		.progress("16/04/2025", whisp, 10, "Dalle 9x9", _SMALL_DECOR)
 		.render();
 
 		
