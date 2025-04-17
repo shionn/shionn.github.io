@@ -508,6 +508,7 @@ q(function() {
 		.render();
 
 	let q14 = new _quest("quest-14", "création d'une brasserie", "Peindre 50 figurines ou Décors", 50)
+		.progress("17/04/2025", shionn, 2, "Sirène", _SMALL)
 		.render();
 		
 //			
