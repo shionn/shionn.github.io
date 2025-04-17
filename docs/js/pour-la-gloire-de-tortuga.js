@@ -507,9 +507,11 @@ q(function() {
 		.progress("17/04/2025", whisp, 8, "Dalle 12x12", _MEDIUM_DECOR)
 		.render();
 
+	let q14 = new _quest("quest-14", "création d'une brasserie", "Peindre 50 figurines ou Décors", 50)
+		.render();
 		
 //			
 	_renderPlayers([angest, anuabi, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14]);
 
 });

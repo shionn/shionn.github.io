@@ -96,11 +96,21 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
-### Jour 105 creation d'une capitainerie
+### Jour 108 création d'une brasserie
+
+Ohé Pirates!! Vous avez construit un belle Capitainerie!! Maintenant nous pouvons attaquer la construction d'une Brasserie afin de fabriquer nous même nos doux brevages et qui sait peut être en revendre à d'autres pirates!! 50 ressources figurines ou décors sont necessaires pour monter la structure!
+
+<div id="quest-14"></div>
+
+### Jour 105 création d'une capitainerie
 
 Ohé Pirates!! Vous avez repoussé les félons avec succès!! Il nous faut  maintenant créer une Capitainerie pour gerer le nouveau port des Pirates de Whisp The Cursed!! 50 ressources figurines ou décors sont necessaires pour monter la structure!
 
 <div id="quest-13"></div>
+
+[gallery]
+pictures/defis/tortuga-2025/map14.png
+[/gallery]
 
 
 ### Jour 95 la bataille
