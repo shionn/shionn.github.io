@@ -511,6 +511,7 @@ q(function() {
 		.progress("17/04/2025", shionn, 2, "Sirène", _SMALL)
 		.progress("18/04/2025", tony, 1, "Gladiateur", _SMALL)
 		.progress("18/04/2025", tupad, 1, "Seigneur Fantom", _MEDIUM)
+		.progress("19/04/2025", whisp, 4, "Dale exterieur", _MEDIUM_DECOR)
 		.render();
 		
 //			
