@@ -507,7 +507,7 @@ q(function() {
 		.progress("17/04/2025", whisp, 8, "Dalle 12x12", _MEDIUM_DECOR)
 		.render();
 
-	let q14 = new _quest("quest-14", "création d'une brasserie", "Peindre 50 figurines ou Décors", 50)
+	let q14 = new _quest("quest-14", "Création d'une brasserie", "Peindre 50 figurines ou Décors", 50)
 		.progress("17/04/2025", shionn, 2, "Sirène", _SMALL)
 		.progress("18/04/2025", tony, 1, "Gladiateur", _SMALL)
 		.progress("18/04/2025", tupad, 1, "Seigneur Fantom", _MEDIUM)
