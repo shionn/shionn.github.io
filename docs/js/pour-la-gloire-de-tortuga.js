@@ -272,7 +272,7 @@ q(function() {
 		body.append(q("<tr>")
 			.append(q("<td>").attr("colspan", 2).addClass("subtitle").text("Total Figurines"))
 			.append(q("<td>").text(figurines))
-			.append(q("<td>").attr("colspan", 2).addClass("subtitle").text("Total Décorts"))
+			.append(q("<td>").attr("colspan", 2).addClass("subtitle").text("Total Décors"))
 			.append(q("<td>").text(decorts)));
 		
 		q("#participants").append(table.append(body));
