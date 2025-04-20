@@ -43,13 +43,18 @@ q(function() {
 		this.lvl = 1;
 		this.xp = 0;
 		this.figurines = 0;
+		this.decorts = 0;
 		this.captain = false;
 		this.badges = [];
 		this.quests = [];
 
-		this.gainXp = function(count, xpFactor) {
-			this.figurines += count;
-			this.xp += count * xpFactor;
+		this.gainXp = function(count, type) {
+			if (type.type == _FIG) {
+				this.figurines += count;
+			} else {
+				this.decorts += count;
+			}
+			this.xp += count * type.xp;
 			let target = this.xpTarget()
 			if (this.xp >= target) {
 				this.xp -= target;
@@ -152,9 +157,9 @@ q(function() {
 
 		this.progress = function(date, player, count, desc, type) {
 			this.history.push(new _history(_PAINT, date, player, count, desc, type));
-			if (player.gainXp(count, type.xp)) {
+			if (player.gainXp(count, type)) {
 				this.history.push(new _history(_LVL_UP, date, player, player.lvl, player.grade()));
-				while(player.gainXp(0,0)) {
+				while(player.gainXp(0, type)) {
 					this.history.push(new _history(_LVL_UP, date, player, player.lvl, player.grade()));
 				}
 			};
@@ -220,6 +225,8 @@ q(function() {
 		let body = q("<tbody>");
 
 		let lines = [];
+		let figurines = 0;
+		let decorts = 0;
 		players.forEach((player, index) => {
 			if (index % 2 === 0) {
 				lines = [q("<tr>"), q("<tr>"), q("<tr>"), q("<tr>"), q("<tr>")];
@@ -237,7 +244,7 @@ q(function() {
 				.append(q("<td>").addClass("xp").append(_progressBar(player.xp, player.xpTarget())));
 			lines[3]
 				.append(q("<td>").addClass("subtitle").text("Contrib."))
-				.append(q("<td>").text(player.figurines + " figurines"));
+				.append(q("<td>").text(player.figurines + " figs / " + player.decorts + " decs"));
 			let badge = q("<td>").addClass("badge");
 			player.badges.forEach(b => {
 				badge.append(q("<i>").attr("class", _BADGE[b].icon));
@@ -249,6 +256,9 @@ q(function() {
 			if (index % 2 === 1) {
 				lines = [];
 			}
+			
+			figurines += player.figurines;
+			decorts += player.decorts;
 		});
 		if (lines.length) {
 			lines[0].append(q("<td>").addClass("subtitle").attr("rowspan", 5).attr("colspan", 3));
@@ -259,6 +269,12 @@ q(function() {
 			}
 		});
 
+		body.append(q("<tr>")
+			.append(q("<td>").attr("colspan", 2).addClass("subtitle").text("Total Figurines"))
+			.append(q("<td>").text(figurines))
+			.append(q("<td>").attr("colspan", 2).addClass("subtitle").text("Total Décorts"))
+			.append(q("<td>").text(decorts)));
+		
 		q("#participants").append(table.append(body));
 	};
 
