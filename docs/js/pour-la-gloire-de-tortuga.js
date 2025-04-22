@@ -532,6 +532,7 @@ q(function() {
 		.progress("20/04/2025", phylios, 1, "Goku", _MEDIUM)
 		.progress("20/04/2025", phylios, 1, "Goku", _MEDIUM)
 		.progress("20/04/2025", anuabi, 1, "Orcette", _SMALL)
+		.progress("22/04/2025", whisp, 1, "Ours Hibou", _MEDIUM)
 		.render();
 		
 //			
