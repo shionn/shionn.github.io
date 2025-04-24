@@ -534,6 +534,8 @@ q(function() {
 		.progress("20/04/2025", anuabi, 1, "Orcette", _SMALL)
 		.progress("22/04/2025", whisp, 1, "Ours Hibou", _MEDIUM)
 		.progress("24/04/2025", whisp, 1, "Grace", _MEDIUM)
+		.progress("24/04/2025", shionn, 1, "Princesse K'erudo", _SMALL)
+		.progress("24/04/2025", shionn, 5, "Church of Order", _SMALL)
 		.render();
 		
 //			
