@@ -536,6 +536,7 @@ q(function() {
 		.progress("24/04/2025", whisp, 1, "Grace", _MEDIUM)
 		.progress("24/04/2025", shionn, 1, "Princesse K'erudo", _SMALL)
 		.progress("24/04/2025", shionn, 5, "Church of Order", _SMALL)
+		.progress("25/04/2025", angest, 1, "Alpha Cloaker", _BIG)
 		.render();
 		
 //			
