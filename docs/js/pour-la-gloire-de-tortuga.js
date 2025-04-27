@@ -538,6 +538,7 @@ q(function() {
 		.progress("24/04/2025", shionn, 5, "Church of Order", _SMALL)
 		.progress("25/04/2025", angest, 1, "Alpha Cloaker", _BIG)
 		.progress("26/04/2025", angest, 1, "Skarn The Rat Lord", _SMALL)
+		.progress("27/04/2025", anuabi, 8, "Médaillon et Crâne", _SMALL_DECOR)
 		.render();
 		
 //			
