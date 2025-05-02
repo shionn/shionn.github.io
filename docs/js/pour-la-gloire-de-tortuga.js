@@ -540,6 +540,7 @@ q(function() {
 		.progress("26/04/2025", angest, 1, "Skarn The Rat Lord", _SMALL)
 		.progress("27/04/2025", anuabi, 8, "Médaillon et Crâne", _SMALL_DECOR)
 		.progress("28/04/2025", angest, 1, "Drone T'au", _SMALL)
+		.progress("02/05/2025", whisp, 4, "dark knights et spectres", _SMALL)
 		.render();
 		
 //			
