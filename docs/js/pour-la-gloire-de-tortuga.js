@@ -542,6 +542,7 @@ q(function() {
 		.progress("28/04/2025", angest, 1, "Drone T'au", _SMALL)
 		.progress("02/05/2025", whisp, 4, "dark knights et spectres", _SMALL)
 		.progress("03/05/2025", angest, 1, "Poulpi", _MEDIUM)
+		.progress("03/05/2025", shionn, 5, "Marteau lanceur de Gobelin", _SMALL)
 		.render();
 		
 //			
