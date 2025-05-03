@@ -1,1 +1,2 @@
-- les gitz de zarbags
+- les fanatique
+- le core set dragsta
