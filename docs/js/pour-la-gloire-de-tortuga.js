@@ -547,9 +547,14 @@ q(function() {
 		.progress("04/05/2025", shionn, 1, "Ballon (fiston)", _SMALL_DECOR)
 		.progress("04/05/2025", anuabi, 7, "Médaillon, crâne, dés", _SMALL_DECOR)
 		.render();
+
+	let q15 = new _quest("quest-15", "Qui nous a volé?", "Peindre 40 figurines en 15 jours", 40)
+		.progress("04/05/2025", shionn, 1, "Nounours (fiston)", _SMALL)
+		.progress("04/05/2025", anuabi, 1, "Tyrannide", _SMALL)
+		.render();
 		
 //			
 	_renderPlayers([angest, anuabi, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15]);
 
 });
