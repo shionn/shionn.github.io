@@ -544,6 +544,8 @@ q(function() {
 		.progress("03/05/2025", angest, 1, "Poulpi", _MEDIUM)
 		.progress("03/05/2025", shionn, 5, "Marteau lanceur de Gobelin", _SMALL)
 		.progress("04/05/2025", angest, 1, "Gnoll", _SMALL)
+		.progress("04/05/2025", shionn, 1, "Ballon (fiston)", _SMALL_DECOR)
+		.progress("04/05/2025", anuabi, 7, "Médaillon, crâne, dés", _SMALL_DECOR)
 		.render();
 		
 //			
