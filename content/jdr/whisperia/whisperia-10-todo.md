@@ -19,7 +19,7 @@ Consti	18 (+4)	Encaisser, Résister (Maîtrise)
 Intel	3 (-4)	 
 Sagesse	13 (+1)	Fouille, Observer
 Cha	9 (-1)	Négocier
-PV	34/34	 
+PV	31/34	 
 Maîtrise	+2	Pour toucher et pour la constitution
 Compétence
 Arcanes	-1	Dex
@@ -95,15 +95,18 @@ Toutes nos aventures dans les articles précédent :
 * [Trésors et Pieges](2025/whisperia-5-tresors-pieges.html). 
 * [Gargul & Snoupy](2025/whisperia-6-gorgul-snoopy.html). 
 * [Repos](2025/whisperia-7-repos.html). 
+* [Noratu](2025/whisperia-8-noratu.html). 
+* [Noratu](2025/whisperia-9-balade-en-foret.html). 
 
 ## Et maintenant la suite
 
-Cette partie s'est déroulée le 15 mars 2025. Dont voici le replay :
+Cette partie s'est déroulée le 10 mai 2025. Dont voici les replay :
 
-[youtube video="61ybeezFrjA"/]
+[youtube video="99RJI8vq67M"/]
 
 [youtube video="tui1PQKu0nM"/]
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
 ### TODO
+
