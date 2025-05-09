@@ -20,7 +20,7 @@ Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes 
 
 - [Filles de Khaine](2024/underworld-dok.html) _3 bandes_
 - [Seigneurs Ruinemânes](2024/underworld-soulblight.html) _2 bandes_
-[after date="2025/07/05"]
+[after date="2025/07/13"]
 - [Gloomspite Gitz](2025/underworld-gloom-gitz-zarbags.html) _1 bandes_
 [/after]
 

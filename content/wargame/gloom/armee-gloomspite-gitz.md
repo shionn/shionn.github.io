@@ -77,7 +77,7 @@ pictures/gloomspite/rockgut-troggoths/31.jpg
 pictures/gloomspite/rockgut-troggoths/32.jpg
 [/gallery]
 
-[after date="2025/05/18"]
+[after date="2025/05/26"]
 
 ### Trugg roi des troll
 
@@ -99,7 +99,7 @@ pictures/gloomspite/rockgut-troggoths/32.jpg
 
 [/after]
 
-[after date="2025/06/11"]
+[after date="2025/06/19"]
 
 ## Gobs
 

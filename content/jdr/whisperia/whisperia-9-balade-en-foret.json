@@ -1,11 +1,11 @@
 {
 	"type": "post",
-	"date": "2025/04/24",
+	"date": "2025/05/10",
 	"title": "Whisperia 9 : Balade en Forêt",
 	"tags": ["Whisperia", "DnD"],
 	"logo" : "pictures/titles/whisperia-9.png",
 	"category": "JDR",
-	"published": false,
+	"published": true,
 	"author": "Shionn",
 	"js" : [ ]
 }
