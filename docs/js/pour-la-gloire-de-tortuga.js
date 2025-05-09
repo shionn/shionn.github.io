@@ -552,6 +552,7 @@ q(function() {
 		.progress("04/05/2025", shionn, 1, "Nounours (fiston)", _SMALL)
 		.progress("04/05/2025", anuabi, 1, "Tyrannide", _SMALL)
 		.progress("09/05/2025", angest, 1, "Manticore", _MEDIUM)
+		.progress("09/05/2025", anuabi, 1, "Petit Nounours", _BIG)
 		.render();
 		
 //			
