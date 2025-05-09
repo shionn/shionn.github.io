@@ -1,6 +1,6 @@
 
-En 2025 j'ai eu envie de peindre des gobelins. Et ca tombe bien l'abonnement Stormbringer en possede. 
-Il m'asssuffit de doublé quelque numéro stratégioque pour completer l'armée à ma guise. 
+En 2025 j'ai eu envie de peindre des gobelins. Et ça tombe bien l'abonnement Stormbringer en possède.
+Il m'a suffit de doubler quelques numéros stratégique pour compléter l'armée à ma guise.
 
 Voici une unitée de 20 Shootas et 20 Stabbas.
 

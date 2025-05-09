@@ -103,6 +103,41 @@ pictures/gloomspite/rockgut-troggoths/32.jpg
 
 ## Gobs
 
+[/after]
+
+[after date="2025/08/06"]
+
+### Fanatiques
+
+Proviennent de l'abonnement Stormbringer.
+
+* Peinte en Avril 2025
+* En environ 8h30 heures
+
+[gallery w=400 h=200]
+pictures/gloomspite/fanatiques/01.jpg
+pictures/gloomspite/fanatiques/02.jpg
+[/gallery]
+[gallery w=250 h=200]
+pictures/gloomspite/fanatiques/03.jpg
+pictures/gloomspite/fanatiques/04.jpg
+pictures/gloomspite/fanatiques/05.jpg
+pictures/gloomspite/fanatiques/06.jpg
+pictures/gloomspite/fanatiques/07.jpg
+pictures/gloomspite/fanatiques/08.jpg
+pictures/gloomspite/fanatiques/09.jpg
+pictures/gloomspite/fanatiques/10.jpg
+pictures/gloomspite/fanatiques/11.jpg
+pictures/gloomspite/fanatiques/12.jpg
+pictures/gloomspite/fanatiques/13.jpg
+pictures/gloomspite/fanatiques/14.jpg
+pictures/gloomspite/fanatiques/15.jpg
+[/gallery]
+
+[/after]
+
+[after date="2025/06/19"]
+
 ### Stabbas
 
 Proviennent de l'abonnement Stormbringer.
