@@ -39,7 +39,7 @@ Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur plac
 et nous nous somme retrouvé dans une prison dont nous avons réussi à nous échappé, nous avons combattu quelques Orcs et Trolls. 
 Nous sommes toujours dans le donjon de nos ravisseurs, nous ne sommes pas en sécurité. 
 
-Notre aventure précédente dans l'[article dédié](2024/whisperia-1-evasion-d-une-gaule.html). 
+Notre aventure précédente dans l'[article dédié](2024/whisperia-1x01-evasion-d-une-gaule.html). 
 
 ## Et maintenant la suite
 

@@ -48,10 +48,10 @@ Nous avons battu **Aménalion**, un sorcier nécromencien maitre de ces lieux. L
 Nous sommes toujours dans le donjon, nous ne sommes pas en sécurité.
 
 Toutes nos aventures dans les articles précédent :
-* [Évasion d'une gaule](2024/whisperia-1-evasion-d-une-gaule.html). 
-* [Des orcs](2024/whisperia-2-orcs-et-chaussette.html). 
-* [Zombies, coffre et rubis](2025/whisperia-3-zombis-coffres-rubis.html). 
-* [Bureau et Liche](2025/whisperia-4-bureau-liche.html). 
+* [Évasion d'une gaule](2024/whisperia-1x01-evasion-d-une-gaule.html). 
+* [Des orcs](2024/whisperia-1x02-orcs-et-chaussette.html). 
+* [Zombies, coffre et rubis](2025/whisperia-1x03-zombis-coffres-rubis.html). 
+* [Bureau et Liche](2025/whisperia-1x04-bureau-liche.html). 
 * [Trésors et Pieges](2025/whisperia-5-tresors-pieges.html). 
 
 ## Et maintenant la suite

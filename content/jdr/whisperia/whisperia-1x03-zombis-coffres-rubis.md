@@ -44,8 +44,8 @@ Nous sommes toujours dans le donjon de nos ravisseurs, nous ne sommes pas en sé
 Nous avons essayé d'ouvrir une porte mais nous n'avons pas réussi à l'ouvrir, ni la forcer. Il parait que quelqu'un d'entre nous posséderai une clef !
 
 Toutes nos aventures dans les articles précédent :
-* [Évasion d'une gaule](2024/whisperia-1-evasion-d-une-gaule.html). 
-* [Des orcs](2024/whisperia-2-orcs-et-chaussette.html). 
+* [Évasion d'une gaule](2024/whisperia-1x01-evasion-d-une-gaule.html). 
+* [Des orcs](2024/whisperia-1x02-orcs-et-chaussette.html). 
 
 ## Et maintenant la suite
 

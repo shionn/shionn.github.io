@@ -46,10 +46,10 @@ Nous avons battu la dernière fois **Aménalion**, le grand prêtre nécromancie
 Le paladin est tombé au combat ! Nous sommes toujours dans le donjon de nos ravisseurs, nous ne sommes pas en sécurité.
 
 Toutes nos aventures dans les articles précédent :
-* [Évasion d'une gaule](2024/whisperia-1-evasion-d-une-gaule.html). 
-* [Des orcs](2024/whisperia-2-orcs-et-chaussette.html). 
-* [Zombies, coffre et rubis](2025/whisperia-3-zombis-coffres-rubis.html). 
-* [Bureau et Liche](2025/whisperia-4-bureau-liche.html). 
+* [Évasion d'une gaule](2024/whisperia-1x01-evasion-d-une-gaule.html). 
+* [Des orcs](2024/whisperia-1x02-orcs-et-chaussette.html). 
+* [Zombies, coffre et rubis](2025/whisperia-1x03-zombis-coffres-rubis.html). 
+* [Bureau et Liche](2025/whisperia-1x04-bureau-liche.html). 
 
 ## Et maintenant la suite
 

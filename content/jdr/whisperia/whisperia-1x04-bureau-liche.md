@@ -45,9 +45,9 @@ Nous sommes toujours dans le donjon de nos ravisseurs, nous ne sommes pas en sé
 Nous avons trouver un parchemin, il nous faut refouiller le bureau.
 
 Toutes nos aventures dans les articles précédent :
-* [Évasion d'une gaule](2024/whisperia-1-evasion-d-une-gaule.html). 
-* [Des orcs](2024/whisperia-2-orcs-et-chaussette.html). 
-* [Zombies, coffre et rubis](2025/whisperia-3-zombis-coffres-rubis.html). 
+* [Évasion d'une gaule](2024/whisperia-1x01-evasion-d-une-gaule.html). 
+* [Des orcs](2024/whisperia-1x02-orcs-et-chaussette.html). 
+* [Zombies, coffre et rubis](2025/whisperia-1x03-zombis-coffres-rubis.html). 
 
 ## Et maintenant la suite
 
