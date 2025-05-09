@@ -551,6 +551,7 @@ q(function() {
 	let q15 = new _quest("quest-15", "Qui nous a volé?", "Peindre 40 figurines en 15 jours", 40)
 		.progress("04/05/2025", shionn, 1, "Nounours (fiston)", _SMALL)
 		.progress("04/05/2025", anuabi, 1, "Tyrannide", _SMALL)
+		.progress("09/05/2025", angest, 1, "Manticore", _MEDIUM)
 		.render();
 		
 //			
