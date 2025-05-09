@@ -5,7 +5,7 @@
 	"logo": "pictures/titles/gloom-fanatiques.jpg",
 	"tags": ["War Game", "Figurine", "Gloomspite Gitz", "AoS", "Gobelin"],
 	"category": "War Game",
-	"published": false,
+	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"
 }
