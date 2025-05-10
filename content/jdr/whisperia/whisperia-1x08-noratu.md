@@ -51,7 +51,7 @@ Armure	Broigne(+14)	CA : 14
 Capacitées	Second souffle	1 fois par jour, +1D10+lvl pv.
 	Fougue	1 fois par jour, +1 action
 	Champion	Crit sur 19-20
-Inventaire	1 Popo majeur	8D4+4
+Inventaire	1 Popo majeur	8D4+8
 	2 Popo moyenne	4D4+4
 Richesse	Or	142po
 	1 rubi	~20po
