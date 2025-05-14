@@ -555,6 +555,7 @@ q(function() {
 		.progress("09/05/2025", angest, 1, "Manticore", _MEDIUM)
 		.progress("09/05/2025", anuabi, 1, "Petit Nounours", _BIG)
 		.progress("14/05/2025", ben, 1, "Silvertower", _SMALL)
+		.progress("14/05/2025", anuabi, 1, "Tyrannide", _SMALL)
 		.render();
 		
 //			
