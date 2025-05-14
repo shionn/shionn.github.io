@@ -324,6 +324,7 @@ q(function() {
 	
 	let angest = new _player("Angest", "pirate12.png"); 
 	let anuabi = new _player("Anuabi", "pirate12.png");
+	let ben = new _player("Ben illustrateur", "pirate07.png");
 	let faran = new _player("Faran", "pirate16.png");
 	let hyasull = new _player("Hyasull", "pirate13.png");
 	let ludovic5799 = new _player("Ludovic5799", "pirate01.png");
@@ -553,10 +554,11 @@ q(function() {
 		.progress("04/05/2025", anuabi, 1, "Tyrannide", _SMALL)
 		.progress("09/05/2025", angest, 1, "Manticore", _MEDIUM)
 		.progress("09/05/2025", anuabi, 1, "Petit Nounours", _BIG)
+		.progress("14/05/2025", ben, 1, "Silvertower", _SMALL)
 		.render();
 		
 //			
-	_renderPlayers([angest, anuabi, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
+	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
 	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15]);
 
 });
