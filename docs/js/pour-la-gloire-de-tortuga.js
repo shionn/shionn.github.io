@@ -558,12 +558,21 @@ q(function() {
 		.progress("15/05/2025", angest, 8, "Gretching", _SMALL)
 		.progress("16/05/2025", whisp, 1, "T-Rex", _BIG)
 		.progress("16/05/2025", whisp, 3, "Araigné", _MEDIUM)
-		.progress("07/05/2025", shionn, 1, "Aracknarock", _BIG)
-		.addBadge("07/05/2025", shionn, _Gargantuesque) // not Auto
-		.addBadge("07/05/2025", shionn, _PetitGros) // not Auto
-		.progress("07/05/2025", shionn, 5, "Ingénieurs", _SMALL)
+		.progress("17/05/2025", shionn, 1, "Aracknarock", _BIG)
+		.addBadge("17/05/2025", shionn, _Gargantuesque) // not Auto
+		.addBadge("17/05/2025", shionn, _PetitGros) // not Auto
+		.progress("17/05/2025", shionn, 5, "Ingénieurs", _SMALL)
+		.progress("17/05/2025", angest, 1, "Dragon abomination", _MEDIUM)
 		.render();
-		
+	
+//	let q16 = new _quest("quest-16", "XXX", "Peindre 50 figurines ou Décors", 50)
+//		.progress("17/05/2025", _whisp, 50, "Squelette", _SMALL_DECOR)
+//		.render();
+
+//	let q17 = new _quest("quest-17", "XXX", "Peindre 50 figurines ou Décors", 50)
+//		.progress("17/05/2025", _whisp, 1, "Squelette", _SMALL_DECOR)
+//		.render();
+			
 //			
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
 	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15]);
