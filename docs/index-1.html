@@ -179,6 +179,14 @@
 						</li>
 					</ul>
 				</li>
+				<li>
+					<a href="tag/matos.html">Matos</a>
+					<ul>
+						<li>
+							<a href="2025/homelab-processor.html">Processeur pour Homelab</a>
+						</li>
+					</ul>
+				</li>
 			</ul>
 		</li>
 		<li>
@@ -224,6 +232,34 @@
 	</header>
 	<div class="container main">
 		<div class="main">
+			
+				<article class="short">
+	<header>
+		
+		<h1><a href="2025/debian-execute-task-before-and-after-suspend.html">Exécuter un script avant et après la mise en veille</a></h1>
+		<span class="date">08 avril 2025</span>
+		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
+		<span class="tags">
+			<span class="fa fa-flag"></span>
+			<a href="tag/debian.html">Debian</a><a href="tag/script.html">Script</a><a href="tag/systemd.html">Systemd</a><a href="tag/desktop.html">Desktop</a>
+		</span>
+	</header>
+	<section><p>Pendant longtemps j'ai cherché à exécuter des scripts avant et/ou après la mise en veille de mon pc.</p>
+<p>Actuellement je m'en sers sur mon pc principal pour éteindre le RGB quand il rentre en veille, et le rallumer quand il sort de cette veille.</p>
+<h2>Comment qu'on fait</h2>
+<p>Si on fait un <code>man systemd-suspend.service</code> on y apprend que tous les exécutables
+dans <strong>/usr/lib/systemd/system-sleep/</strong> sont exécuté avant et après une mise en veille avec deux argument :</p>
+<ul>
+<li>'pre' ou 'post' suivant si il rentre en veille ou si il en sort.</li>
+<li>les types de mise en veille 'suspend' ou 'hibernate' ...</li>
+</ul>
+<p>Donc on craies le dossier <strong>/usr/lib/systemd/system-sleep/</strong> si il n'existe pas.</p>
+<p>Et maintenant on peu y faire notre script :</p>
+</section>
+	<footer>
+		<a href="2025/debian-execute-task-before-and-after-suspend.html"><span class="fa fa-eye"></span> Lire la suite</a>
+	</footer>
+</article>
 			
 				<article class="short">
 	<header>
@@ -333,42 +369,6 @@ Voici mes trolls de pierre. Ils proviennent de la boite Dawnbringers qui contien
 	</footer>
 </article>
 			
-				<article class="short">
-	<header>
-		
-		<h1><a href="2025/jellyfin-proxmox-hardware-encode.html">Installation de Jellyfin avec accélération matériel sur Proxmox</a></h1>
-		<span class="date">27 février 2025</span>
-		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
-		<span class="tags">
-			<span class="fa fa-flag"></span>
-			<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/jellyfin.html">Jellyfin</a>
-		</span>
-	</header>
-	<section><h2>Installation de Jellyfin</h2>
-<p>Sur votre proxmox créer un container à partir d'une Debian.
-Puis connectez vous à ce container.
-Je ne vais pas détailler en profondeur la creation de ce container.
-Mais prévoir :</p>
-<ul>
-<li>100 go d'espace disque (pour le transcodcage)</li>
-<li>4 coeurs</li>
-<li>2 go de ram</li>
-<li>non privilégié</li>
-</ul>
-<h3>Ajout du dépo et installation</h3>
-<p>En root :</p>
-<pre class="shell"><code class="shell">apt install extrepo
-extrepo enable jellyfin
-apt update
-apt install jellyfin
-</code></pre>
-<p>Je ne sais plus pour quelle raison mais j'ai installé :</p>
-</section>
-	<footer>
-		<a href="2025/jellyfin-proxmox-hardware-encode.html"><span class="fa fa-eye"></span> Lire la suite</a>
-	</footer>
-</article>
-			
 			<div class="chaptering">
 				<a href="index.html">&lt;</a>
 				
@@ -450,6 +450,8 @@ apt install jellyfin
 					Kruelboyz&nbsp;(1)
 				</a><a href="tag/linux.html">
 					Linux&nbsp;(4)
+				</a><a href="tag/matos.html">
+					Matos&nbsp;(1)
 				</a><a href="tag/metal.html">
 					Metal&nbsp;(12)
 				</a><a href="tag/nains.html">
@@ -471,7 +473,7 @@ apt install jellyfin
 				</a><a href="tag/seigneurs-ruinem-nes.html">
 					Seigneurs Ruinemânes&nbsp;(1)
 				</a><a href="tag/server.html">
-					Server&nbsp;(3)
+					Server&nbsp;(4)
 				</a><a href="tag/skaven.html">
 					Skaven&nbsp;(4)
 				</a><a href="tag/systemd.html">
@@ -499,7 +501,7 @@ apt install jellyfin
 				</a><a href="category/jdr.html">
 					JDR&nbsp;(9)
 				</a><a href="category/linux.html">
-					Linux&nbsp;(5)
+					Linux&nbsp;(6)
 				</a><a href="category/repaint.html">
 					Repaint&nbsp;(1)
 				</a><a href="category/vie-du-blog.html">
@@ -512,11 +514,14 @@ apt install jellyfin
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 				<ul class="tree">
 					<li>
-						<a href="#">2025 (17)</a>
+						<a href="#">2025 (18)</a>
 						<ul>
 							<li>
-								<a href="#">mai (2)</a>
+								<a href="#">mai (3)</a>
 								<ul>
+									<li>
+										<a href="2025/homelab-processeur.html">Processeur pour HomeLab</a>
+									</li>
 									<li>
 										<a href="2025/whisperia-1x09-balade-en-foret.html">Whisperia 9 : Balade en Forêt</a>
 									</li>
