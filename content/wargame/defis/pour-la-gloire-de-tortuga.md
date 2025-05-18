@@ -102,6 +102,10 @@ Nos réserves d'or sont vide! Non seulement nous avons construit une capitaineri
 
 <div id="quest-15"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map16.png
+[/gallery]
+
 ### Jour 108 création d'une brasserie
 
 Ohé Pirates!! Vous avez construit un belle Capitainerie!! Maintenant nous pouvons attaquer la construction d'une Brasserie afin de fabriquer nous même nos doux brevages et qui sait peut être en revendre à d'autres pirates!! 50 ressources figurines ou décors sont necessaires pour monter la structure!

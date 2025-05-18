@@ -564,6 +564,7 @@ q(function() {
 		.progress("17/05/2025", shionn, 5, "Ingénieurs", _SMALL)
 		.progress("17/05/2025", angest, 1, "Dragon abomination", _MEDIUM)
 		.progress("18/05/2025", whisp, 1, "Draw", _SMALL)
+		.progress("18/05/2025", shionn, 4, "Gobs sur Araignée", _SMALL)
 		.render();
 	
 //	let q16 = new _quest("quest-16", "XXX", "Peindre 50 figurines ou Décors", 50)
@@ -572,6 +573,7 @@ q(function() {
 
 //	let q17 = new _quest("quest-17", "XXX", "Peindre 50 figurines ou Décors", 50)
 //		.progress("17/05/2025", _whisp, 1, "Squelette", _SMALL_DECOR)
+//		.progress("18/05/2025", shionn, 4, "Gobs sur Araignée", _SMALL)
 //		.render();
 			
 //			
