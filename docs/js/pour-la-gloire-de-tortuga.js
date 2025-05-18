@@ -563,6 +563,7 @@ q(function() {
 		.addBadge("17/05/2025", shionn, _PetitGros) // not Auto
 		.progress("17/05/2025", shionn, 5, "Ingénieurs", _SMALL)
 		.progress("17/05/2025", angest, 1, "Dragon abomination", _MEDIUM)
+		.progress("18/05/2025", whisp, 1, "Draw", _SMALL)
 		.render();
 	
 //	let q16 = new _quest("quest-16", "XXX", "Peindre 50 figurines ou Décors", 50)
