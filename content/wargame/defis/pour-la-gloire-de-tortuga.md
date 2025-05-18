@@ -96,7 +96,7 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
-### Jour 138 Restauration de nos quai 
+### Jour 138 Restauration des quais 
 
 Nos quais commence à fatigué il nous faut construire de nouveau quai plus spacieux et pluss resistant.
 
