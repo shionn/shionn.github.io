@@ -567,17 +567,17 @@ q(function() {
 		.progress("18/05/2025", shionn, 4, "Gobs sur Araignée", _SMALL)
 		.render();
 	
-//	let q16 = new _quest("quest-16", "XXX", "Peindre 50 figurines ou Décors", 50)
-//		.progress("17/05/2025", _whisp, 50, "Squelette", _SMALL_DECOR)
-//		.render();
+	let q16 = new _quest("quest-16", "XXX", "Peindre 35 figurines ou Décors", 35)
+		.progress("17/05/2025", whisp, 35, "Squelette", _SMALL_DECOR)
+		.render();
 
 //	let q17 = new _quest("quest-17", "XXX", "Peindre 50 figurines ou Décors", 50)
-//		.progress("17/05/2025", _whisp, 1, "Squelette", _SMALL_DECOR)
+//		.progress("17/05/2025", _whisp, 16, "Squelette", _SMALL_DECOR)
 //		.progress("18/05/2025", shionn, 4, "Gobs sur Araignée", _SMALL)
 //		.render();
 			
 //			
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16]);
 
 });

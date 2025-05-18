@@ -96,6 +96,17 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 138 Restauration de nos quai 
+
+Nos quais commence à fatigué il nous faut construire de nouveau quai plus spacieux et pluss resistant.
+
+<div id="quest-16"></div>
+
+[gallery]
+pictures/defis/tortuga-2025/map17.png
+[/gallery]
+
+
 ### Jour 125 Qui nous a volé?
 
 Nos réserves d'or sont vide! Non seulement nous avons construit une capitainerie et une brasserie mais en plus nous avons été volé ! un comble ! Nous devons repartir au combat pour reconstitué nos réserves. 
