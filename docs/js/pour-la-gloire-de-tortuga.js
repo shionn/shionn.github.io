@@ -567,7 +567,7 @@ q(function() {
 		.progress("18/05/2025", shionn, 4, "Gobs sur Araignée", _SMALL)
 		.render();
 	
-	let q16 = new _quest("quest-16", "XXX", "Peindre 35 figurines ou Décors", 35)
+	let q16 = new _quest("quest-16", "Restauration des Quais", "Peindre 35 figurines ou Décors", 35)
 		.progress("18/05/2025", whisp, 35, "Squelette", _SMALL_DECOR)
 		.render();
 
