@@ -439,7 +439,7 @@ q(function() {
 		.progress("28/02/2025", whisp, 1, "Cité d'Heavenrir", _BIG_DECOR)
 		.progress("28/02/2025", angest, 2, "Persée et Méduse", _BIG)
 		.progress("02/03/2025", shionn, 1, "Cage D&L", _SMALL_DECOR)
-		.progress("02/03/2025", shionn, 2, "Hutte D&L", _SMALL_DECOR)
+		.progress("02/03/2025", shionn, 2, "Hutte D&L", _MEDIUM_DECOR)
 		.progress("05/03/2025", angest, 1, "Dead King", _BIG)
 		.progress("06/03/2025", tony, 3, "Gretchin", _SMALL)
 		.render();
