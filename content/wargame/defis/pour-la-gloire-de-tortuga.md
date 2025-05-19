@@ -96,6 +96,13 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 139 Construction de contrefort 
+
+Ohé Pirates!! Visiblement des cafards en veulent à nos richesses durement gagnées!! Mais pour qui se prennent ils enfin! Nous devons limiter les attaques et renforcer notre base pour qu'ils ne puissent pas venir en nombre et surtout qu'on les envois par le fonds sapristi!! il nou faudra construire des renforts qui les tiendrosn à distance pendant qu'on les coulera!!  AAAHAHAHHA 40 ressources sont necessaires pour cela! Allez hop au boulot bandes de fénéants!
+
+<div id="quest-17"></div>
+
+
 ### Jour 138 Restauration des quais 
 
 Nos quais commence à fatigué il nous faut construire de nouveau quai plus spacieux et pluss resistant.
@@ -105,7 +112,6 @@ Nos quais commence à fatigué il nous faut construire de nouveau quai plus spac
 [gallery]
 pictures/defis/tortuga-2025/map17.png
 [/gallery]
-
 
 ### Jour 125 Qui nous a volé?
 
