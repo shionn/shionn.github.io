@@ -548,7 +548,7 @@ q(function() {
 		.progress("04/05/2025", anuabi, 7, "Médaillon, crâne, dés", _SMALL_DECOR)
 		.render();
 
-	let q15 = new _quest("quest-15", "Qui nous a volé?", "Peindre 40 figurines en 15 jours", 30)
+	let q15 = new _quest("quest-15", "Qui nous a volé?", "Peindre 30 figurines en 15 jours", 30)
 		.progress("04/05/2025", shionn, 1, "Nounours (fiston)", _SMALL)
 		.progress("04/05/2025", anuabi, 1, "Tyrannide", _SMALL)
 		.progress("09/05/2025", angest, 1, "Manticore", _MEDIUM)
@@ -579,7 +579,8 @@ q(function() {
 		.progress("21/05/2025", whisp, 8, "Mur 6cm", _SMALL_DECOR)
 		.render();
 
-//	let q18 = new _quest("quest-17", "Nous sommes attaqué !", "Peindre 50 figurines ou Décors", 50)
+//	let q18 = new _quest("quest-18", "Nous sommes attaqué !", "Peindre 20 figurines en 15 jours", 30)
+//		.render();
 
 
 //	let q19 = new _quest("quest-19", "TODO", "Peindre 50 figurines ou Décors", 50)
