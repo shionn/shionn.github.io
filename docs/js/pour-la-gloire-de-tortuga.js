@@ -575,8 +575,20 @@ q(function() {
 		.progress("19/05/2025", whisp, 16, "Squelette", _SMALL_DECOR)
 		.progress("19/05/2025", shionn, 4, "Gobs sur Araignée", _SMALL)
 		.progress("19/05/2025", whisp, 3, "Araigné", _MEDIUM)
+		.progress("21/05/2025", whisp, 19, "Mur 9cm", _MEDIUM_DECOR)
+		.progress("21/05/2025", whisp, 8, "Mur 6cm", _SMALL_DECOR)
 		.render();
-			
+
+//	let q18 = new _quest("quest-17", "Nous sommes attaqué !", "Peindre 50 figurines ou Décors", 50)
+
+
+//	let q19 = new _quest("quest-19", "TODO", "Peindre 50 figurines ou Décors", 50)
+//		.progress("21/05/2025", whisp, 2, "Mur 6cm", _SMALL_DECOR)
+//		.progress("21/05/2025", whisp, 2, "Mur 16cm", _BIG_DECOR)
+//		.progress("21/05/2025", whisp, 2, "Mur 14cm", _BIG_DECOR)
+//		.progress("21/05/2025", whisp, 2, "Rocher", _SMALL_DECOR)
+//		.render();
+					
 //			
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
 	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17]);
