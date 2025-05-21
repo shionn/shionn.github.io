@@ -579,8 +579,8 @@ q(function() {
 		.progress("21/05/2025", whisp, 8, "Mur 6cm", _SMALL_DECOR)
 		.render();
 
-//	let q18 = new _quest("quest-18", "Nous sommes attaqué !", "Peindre 20 figurines en 15 jours", 30)
-//		.render();
+	let q18 = new _quest("quest-18", "Nous sommes attaqué !", "Peindre 20 figurines en 15 jours", 30)
+		.render();
 
 
 //	let q19 = new _quest("quest-19", "TODO", "Peindre 50 figurines ou Décors", 50)
@@ -592,6 +592,6 @@ q(function() {
 					
 //			
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18]);
 
 });
