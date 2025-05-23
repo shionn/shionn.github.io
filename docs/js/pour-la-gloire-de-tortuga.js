@@ -582,6 +582,7 @@ q(function() {
 	let q18 = new _quest("quest-18", "Nous sommes attaqué !", "Peindre 20 figurines en 15 jours", 30)
 		.progress("22/05/2025", angest, 1, "Seldana sand sorcerer", _SMALL)
 		.progress("22/05/2025", shionn, 1, "chaman tisseur", _SMALL)
+		.progress("23/05/2025", whisp, 1, "Dragon d'or", _MEDIUM)
 		.render();
 
 
