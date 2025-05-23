@@ -11,7 +11,7 @@ q(function() {
 	const _MEDIUM_DECOR = { xp: 2, type: _DECORD };
 	const _BIG_DECOR = { xp: 5, type: _DECORD };
 	const _GRADES = ["Mousse", "Pirate de pacotille", "Flibustiers", "Cannoniers", "Loups de mers", "Ecumeurs des mers", "Quartier maître", "Pirate émérite", "Terreur des mers", "Quartier maître en chef", "Second du capitaine"];
-	const _CAPTAIN_GRADES = ["Capitaine Déchu", "Capitaine Maudit", "Capitaine", "Capitaine Cendré", "Capitaine Tenebreux", "Capitaine Supreme"];
+	const _CAPTAIN_GRADES = ["Capitaine Déchu", "Capitaine Maudit", "Capitaine", "Capitaine Cendré", "Capitaine Tenebreux", "Capitaine Supreme", "Amiral Maudit", "Amiral", "Amiral Cendré", "Amiral Tenebreux", "Amiral Supreme",];
 	const _PAINT = 1;
 	const _LVL_UP = 2;
 	const _END_QUEST = 3;
