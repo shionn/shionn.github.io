@@ -65,20 +65,21 @@ Coffre	Or	100po
 	5 rubis	~100po
 [/table]
 
-[table title="Personnage et lieu connu" cols="Nom,Description" class="pyjama"]
-Heavenrir	Ville central de Whisperia
-Goldric	Aubergiste de Heavenrir
-Noratu	Enfant disparu de Heavenrir
-Fenric	Rodeur de Heavenrir
-Heinsendorale	Mage de Heavenrir
-Talendrick	Forgeron de Heavenrir
-Balgrim	Banque de guilde
-Andreas	Epicier d'Heavenrir
-Ragnord	Ruines dans lequel nous avons été fait prisonnier
+[table title="Personnages" cols="Nom,Description" class="pyjama"]
 Amenalion	Necromancien raignant sur les catacombes
+Andreas	Epicier d'Heavenrir
+Balgrim	Banque de guilde
+Fenric	Rodeur de Heavenrir
+Goldric	Aubergiste de Heavenrir
 Gorgul	L'orc que nous avons combatu a la sorti du tombeau
+Heinsendorale	Mage de Heavenrir
+Noratu	Enfant disparu de Heavenrir
 Snoopy	Le géant qui nous a raccomppagné à Heavenrir
+Talendrick	Forgeron de Heavenrir
 Zeférion	Demon de l'ancien temps qui cherche à détruire le monde
+Lieux connus
+Heavenrir	Ville central de Whisperia
+Ragnord	Ruines dans lequel nous avons été fait prisonnier
 [/table]
 
 ## Précédemment...
@@ -96,17 +97,66 @@ Toutes nos aventures dans les articles précédent :
 * [Gargul & Snoupy](2025/whisperia-1x06-gorgul-snoopy.html). 
 * [Repos](2025/whisperia-1x07-repos.html). 
 * [Noratu](2025/whisperia-1x08-noratu.html). 
-* [Noratu](2025/whisperia-1x09-balade-en-foret.html). 
+* [Balade en Forêt](2025/whisperia-1x09-balade-en-foret.html). 
 
 ## Et maintenant la suite
 
 Cette partie s'est déroulée le 10 mai 2025. Dont voici les replay :
 
-[youtube video="99RJI8vq67M"/]
+[youtube video="nAhl7lu9zm8"/]
 
-[youtube video="tui1PQKu0nM"/]
+[youtube video="zYO2kEP8FHM"/]
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### TODO
+### Fenric
+
+Au loin une silhouette se fait deviner. Anuabi le reconnais, il s’agit de Fenric. Nous nous approchons de lui, il cherche la cargaison. Il est tombé sur une meute qui s'est dispersée afin de nous encercler pour nous chasser. 
+Ces loups sont dirigés par un loup garou **Tord Boyau**. 
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/124.jpg
+pictures/jdr/whisperia/125.jpg
+[/gallery]
+
+Il nous raconte plein de merde que j’ai rien ecouté, et bien evidement on fait un bordel incroyable donc c’est certain que les loup savent ou nous sommes. Il nous dit que la cargaison est pas si loin et qu’il nous faut la défendre avant l’attaque des loups qui va pas tarder...
+
+### Et des loups...
+
+Sur le chemin qui mène à cette cargaison les buissons bougent et 5 loups en sortent. Le combat s’engage. 
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/126.jpg
+pictures/jdr/whisperia/127.jpg
+[/gallery]
+
+On en vient à bout sans mal. 
+
+### Une caleche
+
+Nous reprenons la route et nous arrivons à la cargaison. 
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/128.jpg
+pictures/jdr/whisperia/129.jpg
+[/gallery]
+
+Anuabi pose des pièges et Fenric part chercher des renforts. Rahanis voit arriver des loups, et des orcs. Le combat s’engage. Un loup arrive a me faire 7 pt de dégâts (24/34) puis un autre me fait 8 pt de dégâts (16/34). Hyasull trouve le moyen de s'évanouir avec 2 potions dans sa sacoche.
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/130.jpg
+pictures/jdr/whisperia/131.jpg
+[/gallery]
+
+Nous gagnons le combat. Anuabi trouve un médaillon qui repousse les loups. Je me fais un premier soin, je regagne 10 (26/34). Fenric arrive enfin avec 12 gardes de la ville d’Heavenrir. 
+
+> Ca veut dire que la ville est sans défense ? Espèce d’humain….
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/132.jpg
+[/gallery]
+
+Nous retournons à Heavenrir. En arrivant à Heavenrir, la ville a été attaquée, par un dragon, celui-ci à enlevé deux personnes Noratu et un veil homme.
+
+
 
