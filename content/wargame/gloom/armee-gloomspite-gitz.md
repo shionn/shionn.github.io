@@ -171,6 +171,48 @@ pictures/gloomspite/shootas/05.jpg
 
 [/after]
 
+[after date="2025/08/30"]
+
+## Araignée
+
+### Arachnarock
+
+Cette Arachnarock à été acheté neuve chez mon [dealer local](https://www.mondes-fantastiques.com/).
+
+Cette figurine peu paraitre veille mais pourtant elle as beaucoup de charme et n'as pas à rougir face aux nouvelles figurines. 
+L'équipage est entierment magnétisé pour me permetre de jouer avec la configuration que je souhaite. 
+
+* Peinte en Mai 2025
+* En environ 10h30 heures pour l'araigné et son socle
+* En environ 13 heures pour le reste
+
+[gallery w=300 h=200]
+pictures/gloomspite/arachnarock/01.jpg
+pictures/gloomspite/arachnarock/02.jpg
+pictures/gloomspite/arachnarock/03.jpg
+pictures/gloomspite/arachnarock/04.jpg
+pictures/gloomspite/arachnarock/05.jpg
+pictures/gloomspite/arachnarock/06.jpg
+[/gallery]
+[gallery w=150 h=200]
+pictures/gloomspite/arachnarock/07.jpg
+pictures/gloomspite/arachnarock/08.jpg
+[/gallery]
+
+### Chaman tisseur
+
+Le chaman-tisseur est magnétisé et peu être joué à pied ou sur l'Arachnarock.
+
+* Peinte en Mai 2025
+* En même temps que l'équipage de l'arachnarock
+
+[gallery w=150 h=200]
+pictures/gloomspite/shaman-tisseur/01.jpg
+pictures/gloomspite/shaman-tisseur/02.jpg
+[/gallery]
+
+[/after]
+
 ## Recette Peinture
 
 [paints title="Acier NMM"]

@@ -1,8 +1,12 @@
 - le core set dragsta
-- aracknarock
+
 - installation xrdp / lxc / 
 	https://forum.proxmox.com/threads/how-to-create-a-template-for-lxc-ubuntu-desktop-with-sound.73695/
 	https://askubuntu.com/questions/412755/xrdp-how-to-change-keyboard-layout
+
+- decouverte openscad
+
+https://spolearninglab.com/curriculum/lessonPlans/hacking/resources/software/3d/openscad_intro.html#
 
 
 # seed
@@ -41,3 +45,7 @@ https://www.youtube.com/watch?v=l3CcSO79tag
 https://www.printables.com/model/1161229-lenovo-thinkcentre-m920qm720q-asrock-rx-6400-mount/files
 
 https://www.thingiverse.com/thing:6053961
+
+Possedant déjà plusieurs lenovo thinkcenter, pour un usage bureautique, serveur ou reseau, j'adore ces petit formats, ils sont performants, conssoment rien, évolutif. 
+
+Suite une vidéeo de [ETG Gear](https://www.youtube.com/watch?v=jrzvkyytwts), je me dis mais oui

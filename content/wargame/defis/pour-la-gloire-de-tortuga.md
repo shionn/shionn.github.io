@@ -98,7 +98,7 @@ Voici les badges actuellement connu :
 
 ### Jour 141 Nous sommes attaqué ! 
 
-Ohé Pirates!! Pendant que nous étions occupé et affairé à améliorer notre nid douillé des saboins d'Espagnols osent venir nous attaquer pétextant que nous devons payer une taxe à la compagnie. Une Taxe on mais une TAXE!!! Nous ont ils seulement regardé ces mécréants? Allons Viles gredins, allons trancher de l'Espagnol et nous arborerons leur cranes encore chaud sur des piquets à l'entrée de Tortuga pour ceux qui oseraient venir défier les Pirates de WHISP The Cursed!!!! AAAAAAAAAAHAHAHAHAHAHAAAAAAA!!!!
+Ohé Pirates!! Pendant que nous étions occupé et affairé à améliorer notre nid douillé des sagoins d'Espagnols osent venir nous attaquer prétextant que nous devons payer une taxe à la compagnie. Une taxe on mais une TAXE!!! Nous ont ils seulement regardé ces mécréants? Allons viles gredins, allons trancher de l'Espagnol et nous arborerons leur cranes encore chaud sur des piquets à l'entrée de Tortuga pour ceux qui oseraient venir défier les Pirates de WHISP The Cursed!!!! AAAAAAAAAAHAHAHAHAHAHAAAAAAA!!!!
 
 <div id="quest-18"></div>
 
