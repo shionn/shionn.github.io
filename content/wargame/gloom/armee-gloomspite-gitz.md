@@ -77,7 +77,7 @@ pictures/gloomspite/rockgut-troggoths/31.jpg
 pictures/gloomspite/rockgut-troggoths/32.jpg
 [/gallery]
 
-[after date="2025/05/26"]
+[after date="2025/06/03"]
 
 ### Trugg roi des troll
 
@@ -99,13 +99,13 @@ pictures/gloomspite/rockgut-troggoths/32.jpg
 
 [/after]
 
-[after date="2025/06/19"]
+[after date="2025/06/27"]
 
 ## Gobs
 
 [/after]
 
-[after date="2025/08/06"]
+[after date="2025/08/14"]
 
 ### Fanatiques
 
@@ -136,7 +136,7 @@ pictures/gloomspite/fanatiques/15.jpg
 
 [/after]
 
-[after date="2025/06/19"]
+[after date="2025/06/27"]
 
 ### Stabbas
 
@@ -171,7 +171,7 @@ pictures/gloomspite/shootas/05.jpg
 
 [/after]
 
-[after date="2025/08/30"]
+[after date="2025/09/07"]
 
 ## Araignée
 

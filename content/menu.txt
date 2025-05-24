@@ -12,13 +12,13 @@ category/wargame	War Game
 	2024/mes-armees	Underworld
 		2024/underworld-dok	Fille de Khaine
 		2024/underworld-soulblight	Seigneurs Ruinemânes
-	2024/mes-armees	Warcry	2025-09-07
-		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-09-07
+	2024/mes-armees	Warcry	2025-09-15
+		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-09-15
 	tag/dungeon-and-laser	Dungeon and Laser
 		2024/dungeon-and-laser-encounters	Encounters
-	tag/d-cor	Décor	2025-06-03
-		2025/decor-skaventide	Décor Skaventide	2025-06-03
-		2025/decor-mortal-realms	Décor Mortal Realms	2025-08-22
+	tag/d-cor	Décor	2025-06-11
+		2025/decor-skaventide	Décor Skaventide	2025-06-11
+		2025/decor-mortal-realms	Décor Mortal Realms	2025-08-30
 	tag/peinture	Guide
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Tableau d'équivalence de peinture
@@ -38,7 +38,8 @@ category/jdr	JdR
 		2025/whisperia-1x06-gorgul-snoopy	6: Gorgul et Snoopy
 		2025/whisperia-1x07-repos	7: Repos
 		2025/whisperia-1x08-noratu	8: Noratu
-		2025/whisperia-1x09-balade-en-foret	9: Balade en Forêt	2025-05-10
+		2025/whisperia-1x09-balade-en-foret	9: Balade en Forêt
+		2025/whisperia-1x10-caleche-loup	10: Calèche & Loups	2025-05-26
 category/linux	Linux
 	tag/server	Server
 		2024/docker-sur-debian	Installation Docker sur Debian
@@ -47,15 +48,15 @@ category/linux	Linux
 	tag/desktop	Desktop
 		2023/survivre-sur-debian	Kit de Survie sur Debian
 		2025/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille	2025-04-08
-		2025/openrgb-sur-debian	OpenRGB sur Débian	2025-06-11
+		2025/openrgb-sur-debian	OpenRGB sur Débian	2025-06-19
 	tag/matos	Matos	2025-05-18
 		2025/homelab-processor	Processeur pour Homelab	2025-05-18
 category/code	Code
 	tag/arduino	Arduino
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode
-	tag/java	Java	2025-07-05
-		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX WebView	2025-07-05
-		2025/bot-discord-en-java	Bot discord en Java	2025-07-29
+	tag/java	Java	2025-07-13
+		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX WebView	2025-07-13
+		2025/bot-discord-en-java	Bot discord en Java	2025-08-06
 https://web.archive.org/web/20210420064444/http://shionn.org/	Web Archive
 mailto:shionn@gmail.com	Contact
 	mailto:shionn@gmail.com	shionn@gmail.com
