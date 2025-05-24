@@ -41,11 +41,3 @@ https://www.youtube.com/watch?v=l3CcSO79tag
 - 1. 8120000002348945110
 
 
-# m720 q
-https://www.printables.com/model/1161229-lenovo-thinkcentre-m920qm720q-asrock-rx-6400-mount/files
-
-https://www.thingiverse.com/thing:6053961
-
-Possedant déjà plusieurs lenovo thinkcenter, pour un usage bureautique, serveur ou reseau, j'adore ces petit formats, ils sont performants, conssoment rien, évolutif. 
-
-Suite une vidéeo de [ETG Gear](https://www.youtube.com/watch?v=jrzvkyytwts), je me dis mais oui
