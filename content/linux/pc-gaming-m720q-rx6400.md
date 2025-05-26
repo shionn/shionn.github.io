@@ -94,6 +94,21 @@ pictures/linux/m720q-rx6400/16.png
 
 ## Benchmark
 
+J'ai commencer par installer "bazzite". J'ai immediatement detesté. J'ai donc vite remis une debian et j'ai mon installation habituel. Bien évidement je ne cherche pas à lancé des jeu en 4k. Je me focalise sur le 1080p.
+
+[table cols="Jeu,Profil,Proton,Fps,Chutte,FSR"] 
+Control	Minimal	9	20	10	Oui
+Cyberpunk 2077	Steam Deck	HotFix	35	12	Oui
+Horizon Zero Dawn	Original	9	45	10	Non
+
+[/table]
+
+Autre cas que j'ai testé sans benchmark : 
+- Hogward Legacy : injouable moins de 5fps, meme en low avec un upscaling depuis le 720p.
+-  : 20fps chute a 10 en detail minimal avec un upscaling depuis le 720p.
+
+Pourtant de ce que j'ai vu sur le net, cette RX6400 est capable de mieux. Notement dans les %low, j'en conclu que la limitation du pci-e 3.0 4X est trop importante, il faudrait donc au moins du 3.0 en 8x ou du 4.0 en 4x.
+
 ## Conclusion 
 
 Franchement j'ai aimé construire ce pc. Comme j'ai dis j'adore ce type d'ordinateur. J'avais besoin 

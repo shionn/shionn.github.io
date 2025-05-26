@@ -583,6 +583,7 @@ q(function() {
 		.progress("22/05/2025", angest, 1, "Seldana sand sorcerer", _SMALL)
 		.progress("22/05/2025", shionn, 1, "chaman tisseur", _SMALL)
 		.progress("23/05/2025", whisp, 1, "Dragon d'or", _MEDIUM)
+		.progress("26/05/2025", angest, 3, "Gobelin", _SMALL)
 		.render();
 
 
