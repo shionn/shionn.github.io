@@ -523,14 +523,14 @@ q(function() {
 		.progress("17/04/2025", whisp, 8, "Dalle 12x12", _MEDIUM_DECOR)
 		.render();
 
-	let q14 = new _quest("quest-14", "Création d'une brasserie", "Peindre 50 figurines ou Décors", 50)
+	let q14 = new _quest("quest-14", "Création d'une brasserie", "Peindre 50 figurines ou Décors", 49)
 		.progress("17/04/2025", shionn, 2, "Sirène", _SMALL)
 		.progress("18/04/2025", tony, 1, "Gladiateur", _SMALL)
 		.progress("18/04/2025", tupad, 1, "Seigneur Fantom", _MEDIUM)
 		.progress("19/04/2025", whisp, 4, "Dale exterieur", _MEDIUM_DECOR)
 		.progress("19/04/2025", angest, 1, "Illwyn the Fox", _MEDIUM)
 		.progress("20/04/2025", phylios, 1, "Goku", _MEDIUM)
-		.progress("20/04/2025", phylios, 1, "Goku", _MEDIUM)
+//		.progress("20/04/2025", phylios, 1, "Goku", _MEDIUM) //  erreur
 		.progress("20/04/2025", anuabi, 1, "Orcette", _SMALL)
 		.progress("22/04/2025", whisp, 1, "Ours Hibou", _MEDIUM)
 		.progress("24/04/2025", whisp, 1, "Grace", _MEDIUM)
