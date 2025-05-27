@@ -586,6 +586,7 @@ q(function() {
 		.progress("26/05/2025", angest, 3, "Gobelin", _SMALL)
 		.progress("26/05/2025", angest, 2, "Gobelin", _SMALL)
 		.progress("27/05/2025", phylios, 1, "Buste rubick's cube", _SMALL)
+		.progress("27/05/2025", whisp, 4, "Momies", _SMALL)
 		.render();
 
 
