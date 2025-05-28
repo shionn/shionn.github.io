@@ -85,6 +85,12 @@ Puis installation de Steam :
 sudo apt install steam
 ~~~
 
+### cyberpunk qui block sur l'ecran titre 
+
+~~~shell
+WINEDLLOVERRIDES="winmm,version=n,b" %command% --launcher-skip
+~~~
+
 ### Jeux comme au ralenti (Horizon Zero Dawn)
 Ajouter l'option **tsc=reliable** aux noyaux.
 
