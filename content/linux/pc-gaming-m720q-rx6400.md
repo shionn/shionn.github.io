@@ -97,13 +97,15 @@ pictures/linux/m720q-rx6400/16.png
 J'ai commencer par installer "bazzite". J'ai immediatement detesté. J'ai donc vite remis une debian et j'ai mon installation habituel. Bien évidement je ne cherche pas à lancé des jeu en 4k. Je me focalise sur le 1080p.
 
 [table cols="Jeu,Profil,Fps"] 
-Control	Minimal	20
 Cyberpunk 2077	Low	44
-Horizon Zero Dawn	Original	45
+Horizon Zero Dawn	Original	31
+Shadow of the Tomb Raider	Very Low	57
 [/table]
 
 [gallery w=350 h=200]
 pictures/linux/m720q-rx6400/17.png
+pictures/linux/m720q-rx6400/18.png
+pictures/linux/m720q-rx6400/19.png
 [/gallery]
 
 
