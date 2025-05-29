@@ -74,16 +74,16 @@ Sur ma carte mère Gigabyte le contrôle des zones ne marche pas.
 
 ## Limite 
 
-Avec pratiquement toutes les cartes mère Gigabyte, pour contrôler les RAMs il vous faut ajouter l'option suivant à votre grub. 
+Avec pratiquement toutes les cartes mère Gigabyte, pour contrôler les RAMs il vous faut ajouter l'option suivante à votre grub. 
 Pour ce faire éditer le fichier `/etc/default/grub` et modifier l'option `GRUB_CMDLINE_LINUX=` en ajoutant `acpi_enforce_resources=lax`. Puis faite un `sudo update-grub`.
 
-Conclusion : n'acheter pas de carte mère Gigabyte, n'acheter pas de barrette de ram avec du RGB.
+Conclusion : n'achetez pas de carte mère Gigabyte, n'achetez pas de barrette de ram avec du RGB.
 
-J'ai d'aileurd changé pour une MSI, plus besoin d'ajouter l'option au noyau et les zone marche. 
+J'ai d'aileurd changé pour une MSI, plus besoin d'ajouter l'option au noyau et les zones fonctionnent. 
 
 ## Pour aller plus loin
 
-Si comme moi vous voulez éteindre vos RAMs quand votre pc se met en veille alors il est possible de faire un script comme décris dans [cet article](2024/debian-execute-task-before-and-after-suspend.html). 
+Si comme moi vous voulez éteindre vos RAMs quand votre pc se met en veille alors il est possible de faire un script comme décris dans [cet article](2025/debian-execute-task-before-and-after-suspend.html). 
 
 Et si vous voulez initialiser votre RGBs au démarrage de votre machine vous pouvez utiliser une crontab : 
 

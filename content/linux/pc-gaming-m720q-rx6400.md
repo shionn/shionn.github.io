@@ -33,7 +33,7 @@ pictures/linux/m720q-rx6400/05.jpg
 
 ### Une RX 6400
 
-J'avais pas de modèle de préférence. Aussi grâce à un bon plan j’ai réussi à me procurer une RX6400 de Sapphire neuve pour 89 €.
+Je n'avais pas de modèle de préférence. Aussi grâce à un bon plan j’ai réussi à me procurer une RX6400 de Sapphire neuve pour 89 €.
 
 [gallery w=400 h=200]
 pictures/linux/m720q-rx6400/09.jpg
@@ -84,7 +84,7 @@ pictures/linux/m720q-rx6400/14.jpg
 
 Malheureusement les ressources que j'ai trouvé sur le net, n'étaient pas du tout adaptées, ca forcait sur la carte et j'aimais pas du tout. Donc j'ai eu l'idée de faire un boîtier avec un trou ou tout le radiateur de la carte ressortirait par ce trou.
 
-J'ai utilisé openscad pour modéliser le boîtier. Je ne connaissais pas cet outil, c'était la première fois que je m'en servais. J'adore le concept, on doit coder la forme que l'on veut. Les modèles que j'ai utilisé sont disponible à la fin de l'article.
+J'ai utilisé [OpenScad](https://openscad.org/) pour modéliser le boîtier. Je ne connaissais pas cet outil, c'était la première fois que je m'en servais. J'adore le concept, on doit coder la forme que l'on veut. Les modèles que j'ai utilisé sont disponible à la fin de l'article.
 
 [gallery w=350 h=200]
 pictures/linux/m720q-rx6400/16.png
@@ -94,6 +94,8 @@ pictures/linux/m720q-rx6400/16.png
 
 ## Benchmark
 
+### En jeu
+
 J'ai commencer par installer "bazzite". J'ai immediatement detesté. J'ai donc vite remis une debian et j'ai mon installation habituel. Bien évidement je ne cherche pas à lancé des jeu en 4k. Je me focalise sur le 1080p.
 
 [table cols="Jeu,Profil,Fps"] 
@@ -102,22 +104,36 @@ Horizon Zero Dawn	Original	31
 Shadow of the Tomb Raider	Very Low	57
 [/table]
 
+J'ai également testé hogward legacy mais celui-ci est injouable. Et je pense que des jeux plus moderne ne se lancerons simplement pas. 
+
 [gallery w=350 h=200]
 pictures/linux/m720q-rx6400/17.png
 pictures/linux/m720q-rx6400/18.png
 pictures/linux/m720q-rx6400/19.png
 [/gallery]
 
+Pourtant de ce que j'ai vu sur le net, cette RX6400 est capable de mieux, notement dans les %low.
+Je vois 2 points de bridage potentiel : 
+- la limitation du pci-e 3.0 en 4X est trop importante il faudrait donc prendre un model plus recent pour avoir le pci-e 4.0. 
+- le processeur monte pas assez en fréquence, il parait que certain arrive à y mettre des processeurs non T de 65W. Mais mon seul processeur compatible est un 8700K ce qui est bien trop. 
 
-Autre cas que j'ai testé sans benchmark : 
-- Hogward Legacy : injouable moins de 5fps, meme en low avec un upscaling depuis le 720p.
--  : 20fps chute a 10 en detail minimal avec un upscaling depuis le 720p.
+### Pour le reste
 
-Pourtant de ce que j'ai vu sur le net, cette RX6400 est capable de mieux. Notement dans les %low, j'en conclu que la limitation du pci-e 3.0 4X est trop importante, il faudrait donc au moins du 3.0 en 8x ou du 4.0 en 4x.
+Ras, dessus j'ai pu faire ce que j'ai besoin tous les jours. Hormis de la navigation web j'ai pu faire : 
+- du dev sur eclipse et vscode
+- du gimp 
+- de la modelisation 3D sur open scad et blender
+- de l'export d'impression sur cura
+
+Donc dans les faits, hormis en jeu, cette machine pourrai remplacer totalement ma machine.
+
+### Niveau bruit
+
+La RX6400 se fait totalement oublié, malgres le fait que le ventillo est exposé à l'exterieur. En revanche mon ventillateur CPU fait un sale bruit il faudrait que je le change. La référence de celui-ci est **BAZA0817R2U** mais je trouve cela trop cher. 
 
 ## Conclusion 
 
-Franchement j'ai aimé construire ce pc. Comme j'ai dis j'adore ce type d'ordinateur. J'avais besoin 
+Franchement j'ai aimé construire ce pc. Comme j'ai dis j'adore ce type d'ordinateur. J'ai besoin d'u pc de secours quand je suis en train de modifier mon pc principal, et celui-ci est parfait pour cela. 
 
 Si vous voulez faire pareil, ne faites pas comme moi, ne prenez pas une Sapphire, 
 mais priviligier la XFX ou Asorck.
@@ -137,4 +153,4 @@ Total	224 €
 
 ### Ressources
 
-Vous trouverez toute les ressource que j'ai utilisé sur ce [github](https://github.com/shionn/LenovoM720Q)
+Vous trouverez toutes les ressources que j'ai utilisé et crée sur ce [github](https://github.com/shionn/LenovoM720Q)

@@ -298,12 +298,12 @@ $ sudo openrgb -d &quot;B550 AORUS ELITE AX V2&quot; -z &quot;Motherboard&quot; 
 </code></pre>
 <p>Sur ma carte mère Gigabyte le contrôle des zones ne marche pas.</p>
 <h2>Limite</h2>
-<p>Avec pratiquement toutes les cartes mère Gigabyte, pour contrôler les RAMs il vous faut ajouter l'option suivant à votre grub.
+<p>Avec pratiquement toutes les cartes mère Gigabyte, pour contrôler les RAMs il vous faut ajouter l'option suivante à votre grub.
 Pour ce faire éditer le fichier <code>/etc/default/grub</code> et modifier l'option <code>GRUB_CMDLINE_LINUX=</code> en ajoutant <code>acpi_enforce_resources=lax</code>. Puis faite un <code>sudo update-grub</code>.</p>
-<p>Conclusion : n'acheter pas de carte mère Gigabyte, n'acheter pas de barrette de ram avec du RGB.</p>
-<p>J'ai d'aileurd changé pour une MSI, plus besoin d'ajouter l'option au noyau et les zone marche.</p>
+<p>Conclusion : n'achetez pas de carte mère Gigabyte, n'achetez pas de barrette de ram avec du RGB.</p>
+<p>J'ai d'aileurd changé pour une MSI, plus besoin d'ajouter l'option au noyau et les zones fonctionnent.</p>
 <h2>Pour aller plus loin</h2>
-<p>Si comme moi vous voulez éteindre vos RAMs quand votre pc se met en veille alors il est possible de faire un script comme décris dans <a href="2024/debian-execute-task-before-and-after-suspend.html">cet article</a>.</p>
+<p>Si comme moi vous voulez éteindre vos RAMs quand votre pc se met en veille alors il est possible de faire un script comme décris dans <a href="2025/debian-execute-task-before-and-after-suspend.html">cet article</a>.</p>
 <p>Et si vous voulez initialiser votre RGBs au démarrage de votre machine vous pouvez utiliser une crontab :</p>
 <pre class="shell"><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
 </code></pre>
