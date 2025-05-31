@@ -1,11 +1,11 @@
 {
 	"type": "post",
-	"date": "2026/12/31",
+	"date": "2025/12/20",
 	"title": "Dungeon & Laser : Deuslair : Dragsta Core",
 	"tags": ["War Game", "Dungeon and Laser", "Deuslair", "JdR"],
 	"category": "War Game",
 	"logo": "pictures/titles/dungeon-and-laser-deuslair.jpg",
-	"published": false,
+	"published": true,
 	"js" : [ ],
 	"author": "Shionn"
 }

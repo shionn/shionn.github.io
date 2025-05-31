@@ -1,5 +1,6 @@
 
-Voici la premiere partie des figurines provbenant du pledge [World of Deuslair](https://gamefound.com/projects/archon-studio/deuslair) de [Archon studio](https://archon-studio.com/). Ici je vous proposent les figurines du core set de la faction **Forterresse de Dragsta**.
+Voici la premiere partie des figurines provenant du pledge 
+[World of Deuslair](https://gamefound.com/projects/archon-studio/deuslair) de [Archon studio](https://archon-studio.com/). Ici je vous proposent les figurines du core set de la faction **Forterresse de Dragsta**.
 
 ## Forteresse de Dragsta
 
@@ -83,6 +84,8 @@ pictures/dungeon-and-laser/encounters/dragsa/tu-ur/2.jpg
 pictures/dungeon-and-laser/encounters/dragsa/tu-ur/3.jpg
 pictures/dungeon-and-laser/encounters/dragsa/tu-ur/4.jpg
 [/gallery]
+
+Toutes les figurines de Deuslair que j'ai peinte sur [la page dediée](2025/dungeon-and-laser-deuslair.html)
 
 
 
