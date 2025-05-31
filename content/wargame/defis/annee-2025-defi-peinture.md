@@ -44,14 +44,17 @@ En mars j'ai peint :
 ## Avril 2025
 
 En mars j'ai peint :
-* TODO
+* La princesse Ker'udo pour mon défis __Amour / Séduction / Beauté féminine__.
 * Deux sirènes pour poisson d'avril sur [OMM](https://onemoremini.fr/topic/673/d%C3%A9fi-avril-2025-poisson-d-avril).
 
 [gallery w=250 h=250]
+/pictures/dungeon-and-laser/deuslair/core/dragsta/princess-kerubo/1.jpg
 /pictures/dungeon-and-laser/encounters/sg/sirenes/1.jpg
 [/gallery]
 
 ## Mai 2025
+
+// TODO Arachnarock pour __Nature / Croissance__. 
 
 ## Juin 2025
 
