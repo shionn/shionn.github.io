@@ -587,6 +587,10 @@ q(function() {
 		.progress("26/05/2025", angest, 2, "Gobelin", _SMALL)
 		.progress("27/05/2025", phylios, 1, "Buste rubick's cube", _SMALL)
 		.progress("27/05/2025", whisp, 4, "Momies", _SMALL)
+		.progress("01/06/2025", shionn, 1, "Court Forerunner", _SMALL)
+		.progress("01/06/2025", shionn, 1, "Ca'arak", _SMALL)
+		.progress("01/06/2025", shionn, 1, "Morgu", _SMALL)
+		.progress("01/06/2025", angest, 1, "Sniper Infiltrator", _MEDIUM)
 		.render();
 
 
