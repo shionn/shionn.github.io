@@ -1,4 +1,4 @@
-Voici ma petite liste de truc est astuce sur Debian.
+Voici ma petite liste de truc et astuce sur Debian.
 
 
 ## Audio 
