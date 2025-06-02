@@ -250,11 +250,43 @@
 		</span>
 	</header>
 	<section><p>Voici ma petite liste de truc est astuce sur Debian.</p>
-<h2>Gnome</h2>
+<h2>Audio</h2>
 <h3>Pavucontrol</h3>
 <p>Outil pour mieux contrôler les périphériques audio</p>
 <pre class="shell"><code class="shell">apt install pavucontrol
 </code></pre>
+<h3>audio qui crack</h3>
+<p>Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire resout le probleme.</p>
+<pre class="shell"><code class="shell">systemctl --user restart pipewire.service
+</code></pre>
+<h2>Cron</h2>
+<h3>Cron au boot</h3>
+<p>Créer un dossier <code>/etc/crton.reboot</code> puis ajouter cela au fichier <code>/etc/crontab</code></p>
+<pre class="shell"><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
+</code></pre>
+<h2>Eclipse</h2>
+<h3>Eclipse erreur ouverture markdown</h3>
+<p>Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.</p>
+<pre class="shell"><code class="shell">sudo apt install libwebkit2gtk-4.0-37
+</code></pre>
+<h3>Eclipse wayland</h3>
+<pre class="shell"><code class="shell">#/bin/bash
+export WEBKIT_DISABLE_COMPOSITING_MODE=1
+/path/to/eclipse/eclipse
+</code></pre>
+<h2>File system</h2>
+<h3>Samba et fstab</h3>
+<p>Créer un fichier <em>.smbcredentials</em> dans votre /home :</p>
+<pre class="shell"><code class="shell">username=votre user
+password=votre mot de pass
+domaine=WORKGROUP
+</code></pre>
+<p>Installer le package <em>cifs-utils</em>.</p>
+<p>Éditer votre fichier fstab comme suit :</p>
+<pre class="shell"><code class="shell">//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
+</code></pre>
+<p>Puis recharger la configuration comme suit : <code>sudo systemctl daemon-reload</code></p>
+<h2>Gnome</h2>
 <h3>ALT-F5 qui fait nimp</h3>
 <p>Dans dconf-editor modifier la clef <code>unmaximise</code> dans le dossier : <code>org.gnome.desktop.wm.keybindings</code></p>
 <h3>Desactiver pasword apres sleep</h3>
@@ -276,30 +308,21 @@
 <pre class="shell"><code class="shell">method return time=1728730410.581488 sender=:1.28 -&gt; destination=:1.304 serial=2482 reply_serial=2
    string &quot;firefox&quot;
 </code></pre>
-<h2>Vim</h2>
-<h3>Désactiver le mode visual</h3>
-<pre class="shell"><code class="shell">echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
-</code></pre>
-<h3>Pas de coloration syntaxique</h3>
-<pre class="shell"><code class="shell">echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
-</code></pre>
-<h2>Cron</h2>
-<h3>Cron au boot</h3>
-<pre class="shell"><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
-</code></pre>
-<h2>journalctl</h2>
-<h3>i2c-designware-pci 0000:09:00.3: Refused to change power state from D0 to D3hot</h3>
-<p>J'ai un spam de ce log. Il semblerai qu'ajouter l'option suivante la grub resolve le probleme :</p>
-<pre class="shell"><code class="shell">GRUB_CMDLINE_LINUX=&quot;pcie_port_pm=off&quot;
-</code></pre>
 <h2>Jeux</h2>
-<h3>Installer Steam</h3>
-<p>Il faut ajouter les dépôts <em>non-free</em> puis Ajouter des l'architecture i386 :</p>
+<h3>Installation de Steam</h3>
+<p>Il faut ajouter les dépôts <em>non-free</em> puis Ajouter des l'architecture i386, mettre à jour les depot puis installer steam :</p>
 <pre class="shell"><code class="shell">sudo dpkg --add-architecture i386
+sudo apt update
+sudo apt install steam
 </code></pre>
-<p>Puis installation de Steam :</p>
-<pre class="shell"><code class="shell">sudo apt install steam
-</code></pre>
+<h3>Steam Deck</h3>
+<p>Pour calibrer les joystick : <code>thumbstick_cal</code></p>
+<p>Pour unlock le system : <code>sudo steamos-readonly disable</code></p>
+<h3>Utilitaire</h3>
+<ul>
+<li>Mangohud et Goverlay pour la config</li>
+<li>Gamemoderun</li>
+</ul>
 <h3>cyberpunk qui block sur l'ecran titre</h3>
 <pre class="shell"><code class="shell">WINEDLLOVERRIDES=&quot;winmm,version=n,b&quot; %command% --launcher-skip
 </code></pre>
@@ -307,29 +330,24 @@
 <p>Ajouter l'option <strong>tsc=reliable</strong> aux noyaux.</p>
 <h3>Son qui sature (Horizon Zero Dawn)</h3>
 <p>Ajouter ̀<code>PULSE_LATENCY_MSEC=60 DRI_PRIME=1</code> à la commande de lancement</p>
-<h3>Utilitaire</h3>
-<ul>
-<li>Mangohud et Goverlay pour la config</li>
-<li>Gamemoderun</li>
-</ul>
+<h2>Journalctl</h2>
+<h3>Log qui spam</h3>
+<p>J'ai un spam de ce log.</p>
+<pre class="shell"><code class="shell">i2c-designware-pci 0000:09:00.3: Refused to change power state from D0 to D3hot
+</code></pre>
+<p>Il semblerai qu'ajouter l'option suivante la grub resolve le probleme :</p>
+<pre class="shell"><code class="shell">GRUB_CMDLINE_LINUX=&quot;pcie_port_pm=off&quot;
+</code></pre>
 <h2>Vidéo</h2>
 <h3>OBS pas de Vaapi</h3>
 <pre class="shell"><code class="shell">apt instal mesa-va-drivers
 </code></pre>
-<h2>Steam Deck</h2>
-<h3>Calibrer les joystick</h3>
-<p>thumbstick_cal</p>
-<h3>débloquer / bloquer</h3>
-<p>sudo steamos-readonly disable</p>
-<h2>Eclipse</h2>
-<h3>Eclipse erreur ouverture markdown</h3>
-<p>Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.</p>
-<pre class="shell"><code class="shell">sudo apt install libwebkit2gtk-4.0-37
+<h2>Vim</h2>
+<p>Configuration de vim, désactiver le mode de séléction à la souris :</p>
+<pre class="shell"><code class="shell">echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
 </code></pre>
-<h3>eclipse wayland</h3>
-<pre class="shell"><code class="shell">#/bin/bash
-export WEBKIT_DISABLE_COMPOSITING_MODE=1
-/path/to/eclipse/eclipse
+<p>Ajouter la coloration syntaxic :</p>
+<pre class="shell"><code class="shell">echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
 </code></pre>
 <h2>Seveur</h2>
 <h3>Initialisation</h3>
@@ -353,34 +371,9 @@ ACTION==&quot;add|change&quot;, KERNEL==&quot;sd[a-z]&quot;, ATTRS{queue/rotatio
 </code></pre>
 <h3>Connaitre quel processus ecoute sur quel port</h3>
 <p>on peu utilisé netstat : <code>apt instal</code> netstat puis <code>netstat -ltnp</code></p>
-<h2>file system</h2>
-<h3>Samba et fstab</h3>
-<p>Créer un fichier <em>.smbcredentials</em> dans votre /home :</p>
-<pre class="shell"><code class="shell">username=votre user
-password=votre mot de pass
-domaine=WORKGROUP
-</code></pre>
-<p>Installer le package <em>cifs-utils</em>.</p>
-<p>Éditer votre fichier votre fichier fstab comme suit :</p>
-<pre class="shell"><code class="shell">//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
-</code></pre>
-<p>Puis recharger la configuration comme suit :</p>
-<pre class="shell"><code class="shell">sudo systemctl daemon-reload
-</code></pre>
-<h2>Ma config desktop</h2>
-<pre class="shell"><code class="shell">apt install bash-completion vim
-apt remove nano
-apt install gnome-shell gnome-terminal dconf-editor 
-apt install cifs-utils npt
-apt install gimp firefox thunar thunar-archive-plugin geany blender gimage-reader
-apt install lutris steam gamemode mangohud
-apt install git openjdk-17-jdk openjdk-17-source
-apt remove firefox-esr
-apt remove gnome-software
-</code></pre>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 07 décembre 2024</span>.</em>
+		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 02 juin 2025</span>.</em>
 		<h2>Commentaires</h2>
 		<div class="comments">
 			
