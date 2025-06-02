@@ -1,6 +1,7 @@
 Voici ma petite liste de truc est astuce sur Debian.
 
-## Gnome
+
+## Audio 
 ### Pavucontrol
 Outil pour mieux contrôler les périphériques audio
 
@@ -8,6 +9,61 @@ Outil pour mieux contrôler les périphériques audio
 apt install pavucontrol
 ~~~
 
+### audio qui crack
+Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire resout le probleme. 
+
+~~~shell
+systemctl --user restart pipewire.service
+~~~
+
+## Cron
+### Cron au boot
+
+Créer un dossier `/etc/crton.reboot` puis ajouter cela au fichier `/etc/crontab`
+
+~~~shell
+@reboot		root	cd / && run-parts --report /etc/cron.reboot
+~~~
+
+## Eclipse
+### Eclipse erreur ouverture markdown
+Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.
+
+~~~shell
+sudo apt install libwebkit2gtk-4.0-37
+~~~
+
+### Eclipse wayland
+~~~shell
+#/bin/bash
+export WEBKIT_DISABLE_COMPOSITING_MODE=1
+/path/to/eclipse/eclipse
+~~~
+
+## File system
+
+### Samba et fstab
+
+Créer un fichier _.smbcredentials_ dans votre /home :
+
+~~~shell
+username=votre user
+password=votre mot de pass
+domaine=WORKGROUP
+~~~
+
+Installer le package _cifs-utils_. 
+
+Éditer votre fichier fstab comme suit :
+
+~~~shell
+//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
+~~~
+
+Puis recharger la configuration comme suit : `sudo systemctl daemon-reload`
+
+
+## Gnome
 ### ALT-F5 qui fait nimp
 Dans dconf-editor modifier la clef `unmaximise` dans le dossier : `org.gnome.desktop.wm.keybindings`
 
@@ -43,47 +99,24 @@ method return time=1728730410.581488 sender=:1.28 -> destination=:1.304 serial=2
    string "firefox"
 ~~~
 
-## Vim
-### Désactiver le mode visual
-
-~~~shell
-echo "set mouse-=a" >> ~/.vimrc
-~~~
-
-### Pas de coloration syntaxique
-
-~~~shell
-echo "syntax on" >> ~/.vimrc
-~~~
-
-## Cron
-### Cron au boot
-~~~shell
-@reboot		root	cd / && run-parts --report /etc/cron.reboot
-~~~
-
-## journalctl
-### i2c-designware-pci 0000:09:00.3: Refused to change power state from D0 to D3hot
-J'ai un spam de ce log. Il semblerai qu'ajouter l'option suivante la grub resolve le probleme : 
-
-~~~shell
-GRUB_CMDLINE_LINUX="pcie_port_pm=off"
-~~~
-
-
 ## Jeux
-### Installer Steam
-Il faut ajouter les dépôts _non-free_ puis Ajouter des l'architecture i386 :
+### Installation de Steam
+Il faut ajouter les dépôts _non-free_ puis Ajouter des l'architecture i386, mettre à jour les depot puis installer steam :
 
 ~~~shell
 sudo dpkg --add-architecture i386
-~~~
-
-Puis installation de Steam :
-
-~~~shell
+sudo apt update
 sudo apt install steam
 ~~~
+
+###  Steam Deck
+Pour calibrer les joystick : `thumbstick_cal`
+
+Pour unlock le system : `sudo steamos-readonly disable`
+
+### Utilitaire
+- Mangohud et Goverlay pour la config
+- Gamemoderun
 
 ### cyberpunk qui block sur l'ecran titre 
 
@@ -92,14 +125,27 @@ WINEDLLOVERRIDES="winmm,version=n,b" %command% --launcher-skip
 ~~~
 
 ### Jeux comme au ralenti (Horizon Zero Dawn)
+
 Ajouter l'option **tsc=reliable** aux noyaux.
 
 ### Son qui sature (Horizon Zero Dawn)
+
 Ajouter ̀`PULSE_LATENCY_MSEC=60 DRI_PRIME=1` à la commande de lancement
 
-### Utilitaire
-- Mangohud et Goverlay pour la config
-- Gamemoderun
+## Journalctl
+### Log qui spam
+
+J'ai un spam de ce log. 
+
+~~~shell
+i2c-designware-pci 0000:09:00.3: Refused to change power state from D0 to D3hot
+~~~
+
+Il semblerai qu'ajouter l'option suivante la grub resolve le probleme : 
+
+~~~shell
+GRUB_CMDLINE_LINUX="pcie_port_pm=off"
+~~~
 
 ## Vidéo
 ### OBS pas de Vaapi
@@ -107,27 +153,21 @@ Ajouter ̀`PULSE_LATENCY_MSEC=60 DRI_PRIME=1` à la commande de lancement
 apt instal mesa-va-drivers
 ~~~
 
-## Steam Deck
-### Calibrer les joystick
-thumbstick_cal
 
-### débloquer / bloquer
-sudo steamos-readonly disable
+## Vim
 
-## Eclipse
-### Eclipse erreur ouverture markdown
-Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.
+Configuration de vim, désactiver le mode de séléction à la souris : 
 
 ~~~shell
-sudo apt install libwebkit2gtk-4.0-37
+echo "set mouse-=a" >> ~/.vimrc
 ~~~
 
-### eclipse wayland
+Ajouter la coloration syntaxic : 
+
 ~~~shell
-#/bin/bash
-export WEBKIT_DISABLE_COMPOSITING_MODE=1
-/path/to/eclipse/eclipse
+echo "syntax on" >> ~/.vimrc
 ~~~
+
 
 ## Seveur
 ### Initialisation
@@ -163,37 +203,3 @@ ACTION=="add|change", KERNEL=="sd[a-z]", ATTRS{queue/rotational}=="1", RUN+="/us
 
 on peu utilisé netstat : `apt instal` netstat puis `netstat -ltnp`
 
-## file system
-### Samba et fstab
-Créer un fichier _.smbcredentials_ dans votre /home :
-~~~shell
-username=votre user
-password=votre mot de pass
-domaine=WORKGROUP
-~~~
-
-Installer le package _cifs-utils_. 
-
-Éditer votre fichier votre fichier fstab comme suit :
-~~~shell
-//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
-~~~
-
-Puis recharger la configuration comme suit : 
-
-~~~shell
-sudo systemctl daemon-reload
-~~~
-
-## Ma config desktop
-~~~shell
-apt install bash-completion vim
-apt remove nano
-apt install gnome-shell gnome-terminal dconf-editor 
-apt install cifs-utils npt
-apt install gimp firefox thunar thunar-archive-plugin geany blender gimage-reader
-apt install lutris steam gamemode mangohud
-apt install git openjdk-17-jdk openjdk-17-source
-apt remove firefox-esr
-apt remove gnome-software
-~~~
