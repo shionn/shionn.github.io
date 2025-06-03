@@ -77,8 +77,6 @@ pictures/gloomspite/rockgut-troggoths/31.jpg
 pictures/gloomspite/rockgut-troggoths/32.jpg
 [/gallery]
 
-[after date="2025/06/03"]
-
 ### Trugg roi des troll
 
 >**Trugg**, depuis plusieurs générations n'as pas bougé, il réfléchit. 
@@ -97,7 +95,24 @@ pictures/gloomspite/rockgut-troggoths/32.jpg
 >
 >Quelque soit la destination, leurs victime vivante ou morte servirons à la culture des champignons ou des Squigs.
 
-[/after]
+* Peinte en Fevrier 2025
+* En environ 25 heures
+* Le socle est très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+
+[gallery w=150 h=200]
+pictures/gloomspite/trugg/01.jpg
+pictures/gloomspite/trugg/02.jpg
+pictures/gloomspite/trugg/03.jpg
+pictures/gloomspite/trugg/04.jpg
+pictures/gloomspite/trugg/05.jpg
+pictures/gloomspite/trugg/06.jpg
+[/gallery]
+[gallery w=200 h=200]
+pictures/gloomspite/trugg/07.jpg
+pictures/gloomspite/trugg/08.jpg
+pictures/gloomspite/trugg/09.jpg
+pictures/gloomspite/trugg/10.jpg
+[/gallery]
 
 [after date="2025/06/27"]
 
