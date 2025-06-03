@@ -592,6 +592,7 @@ q(function() {
 		.progress("01/06/2025", shionn, 1, "Morgu", _SMALL)
 		.progress("01/06/2025", angest, 1, "Sniper Infiltrator", _MEDIUM)
 		.progress("01/06/2025", phylios, 1, "Buste Petite fille à nounours", _SMALL)
+		.progress("02/06/2025", phylios, 1, "Necron", _SMALL)
 		.render();
 
 //	let q19 = new _quest("quest-19", "TODO", "Peindre 50 figurines ou Décors", 50)
