@@ -601,6 +601,7 @@ q(function() {
 		.progress("05/06/2025", whisp, 2, "Mur 16cm", _BIG_DECOR)
 		.progress("05/06/2025", whisp, 2, "Mur 14cm", _BIG_DECOR)
 		.progress("05/06/2025", whisp, 2, "Rocher", _SMALL_DECOR)
+		.progress("05/06/2025", whisp, 14, "Rocher", _SMALL_DECOR)
 		.render();
 					
 //			
