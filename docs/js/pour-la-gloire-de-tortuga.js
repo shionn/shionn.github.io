@@ -596,15 +596,15 @@ q(function() {
 		.progress("04/06/2025", angest, 1, "Treasure Carrier", _MEDIUM)
 		.render();
 
-//	let q19 = new _quest("quest-19", "TODO", "Peindre 50 figurines ou Décors", 50)
-//		.progress("21/05/2025", whisp, 2, "Mur 6cm", _SMALL_DECOR)
-//		.progress("21/05/2025", whisp, 2, "Mur 16cm", _BIG_DECOR)
-//		.progress("21/05/2025", whisp, 2, "Mur 14cm", _BIG_DECOR)
-//		.progress("21/05/2025", whisp, 2, "Rocher", _SMALL_DECOR)
-//		.render();
+	let q19 = new _quest("quest-19", "Création d'un coffre fort fortifié", "Peindre 50 figurines ou Décors", 50)
+		.progress("05/06/2025", whisp, 2, "Mur 6cm", _SMALL_DECOR)
+		.progress("05/06/2025", whisp, 2, "Mur 16cm", _BIG_DECOR)
+		.progress("05/06/2025", whisp, 2, "Mur 14cm", _BIG_DECOR)
+		.progress("05/06/2025", whisp, 2, "Rocher", _SMALL_DECOR)
+		.render();
 					
 //			
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19]);
 
 });

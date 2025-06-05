@@ -96,12 +96,21 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 156 Création d'un coffre fort fortifié
+
+Ohé Pirates!! La Brasserie a fier allure et la production a démarré! Des Confrères Pirates ont pris gout à notre production qui va nous rapporter de l'or, ajouté à cela nos récents butins il faut vite mettre ça dans un abri protégé! Nous allons fabriquer un coffre Fort Fortifié pour protéger nos gains!! 50 ressources sont necessaires pour monter la structure!
+
+<div id="quest-19"></div>
+
 ### Jour 141 Nous sommes attaqué ! 
 
 Ohé Pirates!! Pendant que nous étions occupé et affairé à améliorer notre nid douillé des sagoins d'Espagnols osent venir nous attaquer prétextant que nous devons payer une taxe à la compagnie. Une taxe on mais une TAXE!!! Nous ont ils seulement regardé ces mécréants? Allons viles gredins, allons trancher de l'Espagnol et nous arborerons leur cranes encore chaud sur des piquets à l'entrée de Tortuga pour ceux qui oseraient venir défier les Pirates de WHISP The Cursed!!!! AAAAAAAAAAHAHAHAHAHAHAAAAAAA!!!!
 
 <div id="quest-18"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map18.png
+[/gallery]
 
 ### Jour 139 Construction de contrefort 
 
