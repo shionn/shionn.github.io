@@ -602,7 +602,7 @@ q(function() {
 		.progress("05/06/2025", whisp, 2, "Mur 14cm", _BIG_DECOR)
 		.progress("05/06/2025", whisp, 2, "Rocher", _SMALL_DECOR)
 		.progress("05/06/2025", whisp, 14, "Portes", _SMALL_DECOR)
-		.progress("06/06/2025", whisp, 12, "Portes ouvertes", _SMALL_DECOR)
+		.progress("06/06/2025", whisp, 15, "Portes ouvertes", _SMALL_DECOR)
 		.render();
 					
 //			
