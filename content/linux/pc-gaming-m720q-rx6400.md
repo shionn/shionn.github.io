@@ -89,14 +89,20 @@ J'ai utilisé [OpenScad](https://openscad.org/) pour modéliser le boîtier. Je 
 [gallery w=350 h=200]
 pictures/linux/m720q-rx6400/16.png
 [/gallery]
-
-// a partir de la j'ai pas corriger l'orthographe
+[gallery w=300 h=400]
+pictures/linux/m720q-rx6400/20.jpg
+pictures/linux/m720q-rx6400/21.jpg
+[/gallery]
 
 ## Benchmark
 
 ### En jeu
 
-J'ai commencer par installer "bazzite". J'ai immediatement detesté. J'ai donc vite remis une debian et j'ai mon installation habituel. Bien évidement je ne cherche pas à lancé des jeu en 4k. Je me focalise sur le 1080p.
+J'ai commencé par installer "bazzite". J'ai immédiatement détesté. 
+Puis j'ai essayé Catchy, que j'ai aussi immédiatement détesté. 
+J'ai donc vite remis une debian et mon installation habituelle. 
+Bien évidemment je ne cherche pas à lancer des jeux en 4k. 
+Je me focalise sur le 1080p.
 
 [table cols="Jeu,Profil,Fps"] 
 Cyberpunk 2077	Low	44
@@ -104,7 +110,7 @@ Horizon Zero Dawn	Original	31
 Shadow of the Tomb Raider	Very Low	57
 [/table]
 
-J'ai également testé hogward legacy mais celui-ci est injouable. Et je pense que des jeux plus moderne ne se lancerons simplement pas. 
+J'ai également testé hogward legacy mais celui-ci est injouable. Et je pense que des jeux plus moderne ne se lanceront simplement pas. 
 
 [gallery w=350 h=200]
 pictures/linux/m720q-rx6400/17.png
@@ -122,21 +128,23 @@ Je vois 2 points de bridage potentiel :
 Ras, dessus j'ai pu faire ce que j'ai besoin tous les jours. Hormis de la navigation web j'ai pu faire : 
 - du dev sur eclipse et vscode
 - du gimp 
-- de la modelisation 3D sur open scad et blender
+- de la modélisation 3D sur openscad et blender
 - de l'export d'impression sur cura
 
-Donc dans les faits, hormis en jeu, cette machine pourrai remplacer totalement ma machine.
+Donc dans les faits, hormis en jeu, cette machine pourrait remplacer totalement ma machine.
 
 ### Niveau bruit
 
-La RX6400 se fait totalement oublié, malgres le fait que le ventillo est exposé à l'exterieur. En revanche mon ventillateur CPU fait un sale bruit il faudrait que je le change. La référence de celui-ci est **BAZA0817R2U** mais je trouve cela trop cher. 
+La RX6400 se fait totalement oublier, malgré le fait que le ventillo est exposé à l'extérieur. 
+En revanche mon ventilateur CPU fait un sale bruit il faudrait que je le change. 
+La référence de celui-ci est **BAZA0817R2U** mais je trouve cela trop cher. 
 
 ## Conclusion 
 
-Franchement j'ai aimé construire ce pc. Comme j'ai dis j'adore ce type d'ordinateur. J'ai besoin d'u pc de secours quand je suis en train de modifier mon pc principal, et celui-ci est parfait pour cela. 
+Franchement j'ai aimé construire ce pc. Comme j'ai dis j'adore ce type d'ordinateur. 
+J'ai besoin d'un pc de secours quand je suis en train de modifier mon pc principal, ou quand j'ai des soucis avec, et celui-ci est parfait pour cela. 
 
-Si vous voulez faire pareil, ne faites pas comme moi, ne prenez pas une Sapphire, 
-mais priviligier la XFX ou Asorck.
+Si vous voulez faire pareil, ne faites pas comme moi, ne prenez pas une Sapphire, mais privilégiez la XFX ou Asrock. Mais ne le faites pas, on peut faire mieux pour moins cher. 
 
 Grâce à ce projet j'ai aussi découvert [OpenScad](https://openscad.org/) et j'adore. 
 
@@ -153,4 +161,4 @@ Total	224 €
 
 ### Ressources
 
-Vous trouverez toutes les ressources que j'ai utilisé et crée sur ce [github](https://github.com/shionn/LenovoM720Q)
+Vous trouverez toutes les ressources que j'ai utilisé et crée sur ce [github](https://github.com/shionn/LenovoM720Q).
