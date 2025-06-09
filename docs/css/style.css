@@ -573,8 +573,14 @@ nav.main-menu ul li {
   float: left;
   text-align: left;
 }
-nav.main-menu ul li.open ul {
-  display: block;
+nav.main-menu ul li.open > ul {
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+nav.main-menu ul li.open > ul ul {
   opacity: 1;
   visibility: visible;
 }
@@ -671,7 +677,7 @@ nav.main-menu ul ul ul li:hover {
   nav.main-menu > ul {
     display: none;
   }
-  nav.main-menu.open > ul {
+  nav.main-menu.open ul {
     display: block;
   }
   nav.main-menu ul li {

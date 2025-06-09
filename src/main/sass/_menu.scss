@@ -36,10 +36,16 @@ nav.main-menu {
 		li {
 			float: left;
 			text-align: left;
-			&.open ul {
-				display: block;
+			&.open  > ul {
 				opacity:1;
 				visibility: visible;
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				ul {
+					opacity:1;
+					visibility: visible;
+				}
 			}
 
 			&.active > a {
@@ -142,7 +148,7 @@ nav.main-menu {
 			display : none;
 		}
 
-		&.open > ul {
+		&.open ul {
 			display : block;
 		}
 
