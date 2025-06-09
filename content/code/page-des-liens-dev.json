@@ -1,12 +1,12 @@
 {
 	"type": "page",
-	"date": "2030/01/01",
-	"title": "Lien de Dev",
+	"date": "2025/06/09",
+	"title": "Annuaire lien Dev",
 	"tags": [
-		"Ressources"
+		"Ressources", "Kit Survie", "Annuaire"
 	],
 	"category": "Code",
-	"published": false,
+	"published": true,
 	"js": [
 		"js/hljs/java.min.js",
 		"js/hljs/bash.min.js",

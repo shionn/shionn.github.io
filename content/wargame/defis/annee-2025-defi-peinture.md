@@ -54,7 +54,13 @@ En mars j'ai peint :
 
 ## Mai 2025
 
-// TODO Arachnarock pour __Nature / Croissance__. 
+En Mai j'ai peint :
+* Mon arachnarock pour mon défis __Maia : Nature / Croissance__.
+* Je n'ai pas participé au défis sur OMM. 
+
+[gallery w=250 h=250]
+pictures/gloomspite/arachnarock/01.jpg
+[/gallery]
 
 ## Juin 2025
 

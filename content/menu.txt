@@ -58,9 +58,13 @@ category/code	Code
 	tag/java	Java	2025-07-13
 		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX WebView	2025-07-13
 		2025/bot-discord-en-java	Bot discord en Java	2025-08-06
-https://web.archive.org/web/20210420064444/http://shionn.org/	Web Archive
-mailto:shionn@gmail.com	Contact
-	mailto:shionn@gmail.com	shionn@gmail.com
-	https://github.com/shionn	Github
-	https://www.facebook.com/shionn	Facebook
-	https://twitter.com/shionn	Twitter @shionn
+mailto:shionn@gmail.com	Contact & Lien
+	mailto:shionn@gmail.com	Me contacter
+		mailto:shionn@gmail.com	Shionn@gmail.com
+		https://github.com/shionn	Github
+		https://www.facebook.com/shionn	Facebook
+		https://twitter.com/shionn	Twitter @shionn
+		https://web.archive.org/web/20210420064444/http://shionn.org/	Ancienne version du site
+	tag/annuaire	Annuaire de Lien
+		2025/page-des-liens-linux	Liens Linux
+		2025/page-des-liens-dev	Liens Dev
