@@ -1,7 +1,6 @@
 @import "_variables.scss";
 
 article {
-	margin-top: 3em;
 	&.category , &.tag {
 		h1 {
 			text-align: center;
@@ -138,6 +137,7 @@ article {
 	&.short {
 		footer {
 			text-align: center;
+			margin-bottom: 3em;
 			a {
 				font-size: larger;
 			}
