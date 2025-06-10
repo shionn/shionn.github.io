@@ -294,7 +294,7 @@ q(function() {
 	_BADGE.push(
 		new _badge("Coup Final", "fa fa-flag", "Achever une quête", true), 
 		new _badge("Populeux", "ra ra-rabbit", "Envoyer 10 petites figurines d'un coup", true),
-		new _badge("Bourrin", "ra ra-octopus", "Envoyer 5 figurines moyenne d'un coup", false), // TODO true
+		new _badge("Bourrin", "ra ra-octopus", "Envoyer 5 figurines moyenne d'un coup", true),
 		new _badge("Massif", "ra ra-dragon", "Envoyer 2 grande figurines d'un coup", true), 
 		new _badge("Petit/Gros", "ra ra-two-dragons", "Envoyer une petite figurine et une grande dans la même quête", true), // 4 
 		new _badge("Petit/Moyen/Gros", "ra ra-hydra", "Envoyer une figurine de chaque taille dans la même quête", true), 
@@ -609,7 +609,7 @@ q(function() {
 	let q20 = new _quest("quest-20", "Remplir les Coffres", "Peindre 20 figurines en 15 jours", 20)
 //		.progress("10/06/2025", tupad, 2, "wraithblades", _MEDIUM)
 //		.progress("10/06/2025", tupad, 5, "wraithguards", _MEDIUM)
-//		.progress("10/06/2025", tupad, 4, "blindés eldars", _MEDIUM)
+//		.progress("10/06/2025", tupad, 4, "blindés eldars", _BIG)
 		.render();
 					
 //			
