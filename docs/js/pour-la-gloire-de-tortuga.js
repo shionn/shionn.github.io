@@ -603,7 +603,11 @@ q(function() {
 		.progress("05/06/2025", whisp, 2, "Rocher", _SMALL_DECOR)
 		.progress("05/06/2025", whisp, 14, "Portes", _SMALL_DECOR)
 		.progress("06/06/2025", whisp, 15, "Portes ouvertes", _SMALL_DECOR)
+		.progress("10/06/2025", tupad, 13, "wraithblades", _MEDIUM)
 		.render();
+
+	let q20 = new _quest("quest-20", "Remplir les Coffres", "Peindre 20 figurines en 15 jours", 20)
+		.renbder();
 					
 //			
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);

@@ -102,6 +102,10 @@ Ohé Pirates!! La Brasserie a fier allure et la production a démarré! Des Conf
 
 <div id="quest-19"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map19.png
+[/gallery]
+
 ### Jour 141 Nous sommes attaqué ! 
 
 Ohé Pirates!! Pendant que nous étions occupé et affairé à améliorer notre nid douillé des sagoins d'Espagnols osent venir nous attaquer prétextant que nous devons payer une taxe à la compagnie. Une taxe on mais une TAXE!!! Nous ont ils seulement regardé ces mécréants? Allons viles gredins, allons trancher de l'Espagnol et nous arborerons leur cranes encore chaud sur des piquets à l'entrée de Tortuga pour ceux qui oseraient venir défier les Pirates de WHISP The Cursed!!!! AAAAAAAAAAHAHAHAHAHAHAAAAAAA!!!!
