@@ -607,7 +607,10 @@ q(function() {
 		.render();
 
 	let q20 = new _quest("quest-20", "Remplir les Coffres", "Peindre 20 figurines en 15 jours", 20)
-		.renbder();
+//		.progress("10/06/2025", tupad, 2, "wraithblades", _MEDIUM)
+//		.progress("10/06/2025", tupad, 5, "wraithguards", _MEDIUM)
+//		.progress("10/06/2025", tupad, 4, "blindés eldars", _MEDIUM)
+		.render();
 					
 //			
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
