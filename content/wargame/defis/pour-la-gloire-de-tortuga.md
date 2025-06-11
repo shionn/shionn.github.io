@@ -96,6 +96,13 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 162 Remplir les coffre
+
+Ohé Les Pirates !! Nous nous agrandissont vite et nous avons eu la main lourde !! Très lourde, nos reserves d'or se sont raréfiées !! Mille millions de Krakens maudits!! Un Pirate ne peut rester sans OR c'est inconcevable!
+Mais oui bien sur nous pouvons piller les navires marchands ou encore les iles voisines espagnoles! TOUS à vos postes de combat bande de tire au flant, bardez les voiles et plus vite que ça, les coffres ne vont pas se remplir tout seuls! AAAAhhAHAHAHAHAHAHAAAAAAA!! 20 Ressources en 15j seulement seront nécessaires!
+
+<div id="quest-20"></div>
+
 ### Jour 156 Création d'un coffre fort fortifié
 
 Ohé Pirates!! La Brasserie a fier allure et la production a démarré! Des Confrères Pirates ont pris gout à notre production qui va nous rapporter de l'or, ajouté à cela nos récents butins il faut vite mettre ça dans un abri protégé! Nous allons fabriquer un coffre Fort Fortifié pour protéger nos gains!! 50 ressources sont necessaires pour monter la structure!

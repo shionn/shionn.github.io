@@ -607,13 +607,13 @@ q(function() {
 		.render();
 
 	let q20 = new _quest("quest-20", "Remplir les Coffres", "Peindre 20 figurines en 15 jours", 20)
-//		.progress("10/06/2025", tupad, 2, "wraithblades", _MEDIUM)
-//		.progress("10/06/2025", tupad, 5, "wraithguards", _MEDIUM)
-//		.progress("10/06/2025", tupad, 4, "blindés eldars", _BIG)
+		.progress("10/06/2025", tupad, 2, "wraithblades", _MEDIUM)
+		.progress("10/06/2025", tupad, 5, "wraithguards", _MEDIUM)
+		.progress("10/06/2025", tupad, 4, "blindés eldars", _BIG)
 		.render();
 					
 //			
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20]);
 
 });
