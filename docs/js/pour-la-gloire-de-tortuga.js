@@ -610,6 +610,7 @@ q(function() {
 		.progress("11/06/2025", tupad, 2, "wraithblades", _MEDIUM)
 		.progress("11/06/2025", tupad, 5, "wraithguards", _MEDIUM)
 		.progress("11/06/2025", tupad, 4, "blindés eldars", _BIG)
+		.progress("12/06/2025", angest, 1, "Quarantine Warden", _MEDIUM)
 		.render();
 					
 //			

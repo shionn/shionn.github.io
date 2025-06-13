@@ -147,6 +147,18 @@ Il semblerai qu'ajouter l'option suivante la grub resolve le probleme :
 GRUB_CMDLINE_LINUX="pcie_port_pm=off"
 ~~~
 
+## Meteriel
+### Faire un smart profond
+
+~~~shell
+# lancer le test
+sudo smartctl -t long /dev/nvme0
+# voir la progress
+sudo smartctl -a /dev/nvme0 | grep -i progress
+# voir les resultat
+sudo smartctl -a /dev/nvme0
+~~~
+
 ## Vidéo
 ### OBS pas de Vaapi
 ~~~shell
