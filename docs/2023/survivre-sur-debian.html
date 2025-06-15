@@ -102,6 +102,14 @@
 					</ul>
 				</li>
 				<li>
+					<a href="tag/repaint.html">Repaint</a>
+					<ul>
+						<li>
+							<a href="2025/repaint-bulma.html">Repaint d&#39;une Bulma</a>
+						</li>
+					</ul>
+				</li>
+				<li>
 					<a href="tag/d-fi.html">Défi Peinture</a>
 					<ul>
 						<li>
@@ -109,14 +117,6 @@
 						</li>
 						<li>
 							<a href="2025/pour-la-gloire-de-tortuga.html">Pour la Gloire de Tortuga</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="tag/repaint.html">Repaint</a>
-					<ul>
-						<li>
-							<a href="2025/repaint-bulma.html">Repaint d&#39;une Bulma</a>
 						</li>
 					</ul>
 				</li>
@@ -356,6 +356,15 @@ sudo apt install steam
 </code></pre>
 <p>Il semblerai qu'ajouter l'option suivante la grub resolve le probleme :</p>
 <pre class="shell"><code class="shell">GRUB_CMDLINE_LINUX=&quot;pcie_port_pm=off&quot;
+</code></pre>
+<h2>Meteriel</h2>
+<h3>Faire un smart profond</h3>
+<pre class="shell"><code class="shell"># lancer le test
+sudo smartctl -t long /dev/nvme0
+# voir la progress
+sudo smartctl -a /dev/nvme0 | grep -i progress
+# voir les resultat
+sudo smartctl -a /dev/nvme0
 </code></pre>
 <h2>Vidéo</h2>
 <h3>OBS pas de Vaapi</h3>
