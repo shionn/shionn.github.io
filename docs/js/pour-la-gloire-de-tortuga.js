@@ -611,8 +611,14 @@ q(function() {
 		.progress("11/06/2025", tupad, 5, "wraithguards", _MEDIUM)
 		.progress("11/06/2025", tupad, 4, "blindés eldars", _BIG)
 		.progress("12/06/2025", angest, 1, "Quarantine Warden", _MEDIUM)
+		.progress("15/06/2025", whisp, 1, "Storn Mains-Agiles", _SMALL)
+		.progress("15/06/2025", faran, 7, "Griffe Sanglante", _MEDIUM)
 		.render();
-					
+
+	let q21 = new _quest("quest-21", "TODO", "TODO", 40)
+		.progress("15/06/2025", faran, 2, "Griffe Sanglante", _MEDIUM)
+		.render();
+							
 //			
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
 	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20]);
