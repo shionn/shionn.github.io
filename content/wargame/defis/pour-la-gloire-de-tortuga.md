@@ -103,6 +103,10 @@ Mais oui bien sur nous pouvons piller les navires marchands ou encore les iles v
 
 <div id="quest-20"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map20.png
+[/gallery]
+
 ### Jour 156 Création d'un coffre fort fortifié
 
 Ohé Pirates!! La Brasserie a fier allure et la production a démarré! Des Confrères Pirates ont pris gout à notre production qui va nous rapporter de l'or, ajouté à cela nos récents butins il faut vite mettre ça dans un abri protégé! Nous allons fabriquer un coffre Fort Fortifié pour protéger nos gains!! 50 ressources sont necessaires pour monter la structure!
