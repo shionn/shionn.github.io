@@ -618,6 +618,7 @@ q(function() {
 	let q21 = new _quest("quest-21", "Agrandir les dortoirs", "Peindre 40 figurines ou Décors", 40)
 		.progress("16/06/2025", faran, 2, "Griffe Sanglante", _MEDIUM)
 		.progress("16/06/2025", whisp, 1, "Nain Super Fantasy Brawl", _MEDIUM)
+		.progress("16/06/2025", whisp, 1, "Cheminé hero quest", _SMALL_DECOR)
 		.render();
 							
 //			
