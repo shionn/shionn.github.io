@@ -3,9 +3,9 @@ Avec Whisp on organise un défi annuel sous la forme d'un jeu. L'idée est de pe
 
 ## Introduction
 
-> Lors de la tenue du grand Conseil des Pirates les Seigneurs Pirates Whisp et Sparrow ont été mis au fait du saccage de leur tant adorée île de Tortuga par les félons de la nouvelle Angleterre !! Cette nouvelle les a abattu mais mis dans une colère noire !! Ils n’auront pas de répit tant que cet affront ne sera pas lavé et l’île rebattie en mieux. Tout est à refaire, La Taverne, les Docs, tout, Les navires sont même endommagés !!
+> Lors de la tenue du grand Conseil des Pirates les Seigneurs Pirates Whisp et Sparrow ont été mis au fait du saccage de leur tant adorée île de Tortuga par les félons de la nouvelle Angleterre ! Cette nouvelle les a abattu mais mis dans une colère noire ! Ils n’auront pas de répit tant que cet affront ne sera pas lavé et l’île rebattie en mieux. Tout est à refaire, La Taverne, les Docs, tout, Les navires sont même endommagés !
 > C’est alors que le Seigneur Whisp convoqua tous ses meilleurs hommes ! Leur mission? Piller, couler, saccager, détruire les navires des colons et leurs colonies pour rebâtir Tortuga et venger l’honneur des Pirates ! 
-- __DEVENEZ LE MEILLEUR DES PIRATES__ : Vous n'avez peut-être pas la nature d'un grand pirate, mais nous vous donnons les moyens de devenir le MEILLEUR des pirates. En plaçant le plus de figurines pour le mois gagnez votre réputation et remportez le titre de Quartier Maitre du mois pour devenir le second du Seigneur des Pirates – le redoutable WHISP. Celui qui aura occupé ce poste le plus de fois dans l’année remportera une Commission peinture offerte par le Seigneur Pirate Lui-même !!
+- __DEVENEZ LE MEILLEUR DES PIRATES__ : Vous n'avez peut-être pas la nature d'un grand pirate, mais nous vous donnons les moyens de devenir le MEILLEUR des pirates. En plaçant le plus de figurines pour le mois gagnez votre réputation et remportez le titre de Quartier Maitre du mois pour devenir le second du Seigneur des Pirates – le redoutable WHISP. Celui qui aura occupé ce poste le plus de fois dans l’année remportera une Commission peinture offerte par le Seigneur Pirate Lui-même !
 - __PILLEZ ET VOGUEZ SUR LA MER DES CARAÏBES__ : Les Caraïbes du 17e siècle sont dominées par les quatre puissances coloniales de l'Ancien Monde. Être un pirate c'est votre responsabilité et votre devoir consiste à aider les colonies espagnoles, hollandaises, françaises et anglaises à ne pas se noyer dans leurs richesses. Mais attention ! Aventurez-vous au-delà de votre port d'origine seulement lorsque vous pensez être en mesure d'engloutir vos adversaires, lancez l’assaut avec autant de figurines nécessaires seul ou avec vos compagnons Pirates pour saborder l’ennemi et remportez la bataille ! Chaque victoire permettra la reconstruction d’un élément prédéfini de lu port de l’ile de Tortuga !.
 - __LANCEZ DES BATAILLES NAVALES TACTIQUES__ : Votre navire sera certes en sécurité au port, mais ce n'est pas à ça que servent les navires. Battez-vous lors de batailles navales tactiques en tour par tour et ramener votre butin pour développer votre Navire, améliorer votre flotte ou l’antre Pirate !
 - __AMÉLIOREZ VOTRE FLOTTE__ : Votre rôle vous incombe d'entretenir et améliorer votre formidable flotte pour faire face à la pluie de boulets de canon que vous réservent les navires de guerre arpentant les mers. Utilisez les améliorations uniques de l'équipement de base de votre navire, tel que l'armement, la coque, le gréement ou la figure de proue.
@@ -96,10 +96,18 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 167 Agrandir les dortoirs
+
+Ohé Pirates! Toutes ces émotions nous ont bien fatigués mais nos dortoirs ne sont pas assez douillais! Nous allons les améliorer pour nous garantir un meilleur repos! Sans compter qu'avec les nouveaux il nous fait aussi plus de lits!
+
+<div id="quest-21"></div>
+
+
+
 ### Jour 162 Remplir les coffre
 
-Ohé Les Pirates !! Nous nous agrandissont vite et nous avons eu la main lourde !! Très lourde, nos reserves d'or se sont raréfiées !! Mille millions de Krakens maudits!! Un Pirate ne peut rester sans OR c'est inconcevable!
-Mais oui bien sur nous pouvons piller les navires marchands ou encore les iles voisines espagnoles! TOUS à vos postes de combat bande de tire au flant, bardez les voiles et plus vite que ça, les coffres ne vont pas se remplir tout seuls! AAAAhhAHAHAHAHAHAHAAAAAAA!! 20 Ressources en 15j seulement seront nécessaires!
+Ohé Les Pirates ! Nous nous agrandissont vite et nous avons eu la main lourde ! Très lourde, nos reserves d'or se sont raréfiées ! Mille millions de Krakens maudits! Un Pirate ne peut rester sans OR c'est inconcevable!
+Mais oui bien sur nous pouvons piller les navires marchands ou encore les iles voisines espagnoles! TOUS à vos postes de combat bande de tire au flant, bardez les voiles et plus vite que ça, les coffres ne vont pas se remplir tout seuls! AAAAhhAHAHAHAHAHAHAAAAAAA! 
 
 <div id="quest-20"></div>
 
@@ -109,7 +117,7 @@ pictures/defis/tortuga-2025/map20.png
 
 ### Jour 156 Création d'un coffre fort fortifié
 
-Ohé Pirates!! La Brasserie a fier allure et la production a démarré! Des Confrères Pirates ont pris gout à notre production qui va nous rapporter de l'or, ajouté à cela nos récents butins il faut vite mettre ça dans un abri protégé! Nous allons fabriquer un coffre Fort Fortifié pour protéger nos gains!! 50 ressources sont necessaires pour monter la structure!
+Ohé Pirates! La Brasserie a fier allure et la production a démarré! Des Confrères Pirates ont pris gout à notre production qui va nous rapporter de l'or, ajouté à cela nos récents butins il faut vite mettre ça dans un abri protégé! Nous allons fabriquer un coffre Fort Fortifié pour protéger nos gains!
 
 <div id="quest-19"></div>
 
@@ -119,7 +127,7 @@ pictures/defis/tortuga-2025/map19.png
 
 ### Jour 141 Nous sommes attaqué ! 
 
-Ohé Pirates!! Pendant que nous étions occupé et affairé à améliorer notre nid douillé des sagoins d'Espagnols osent venir nous attaquer prétextant que nous devons payer une taxe à la compagnie. Une taxe on mais une TAXE!!! Nous ont ils seulement regardé ces mécréants? Allons viles gredins, allons trancher de l'Espagnol et nous arborerons leur cranes encore chaud sur des piquets à l'entrée de Tortuga pour ceux qui oseraient venir défier les Pirates de WHISP The Cursed!!!! AAAAAAAAAAHAHAHAHAHAHAAAAAAA!!!!
+Ohé Pirates! Pendant que nous étions occupé et affairé à améliorer notre nid douillé des sagoins d'Espagnols osent venir nous attaquer prétextant que nous devons payer une taxe à la compagnie. Une taxe on mais une TAXE! Nous ont ils seulement regardé ces mécréants? Allons viles gredins, allons trancher de l'Espagnol et nous arborerons leur cranes encore chaud sur des piquets à l'entrée de Tortuga pour ceux qui oseraient venir défier les Pirates de WHISP The Cursed! AAAAAAAAAAHAHAHAHAHAHAAAAAAA!
 
 <div id="quest-18"></div>
 
@@ -129,7 +137,7 @@ pictures/defis/tortuga-2025/map18.png
 
 ### Jour 139 Construction de contrefort 
 
-Ohé Pirates!! Visiblement des cafards en veulent à nos richesses durement gagnées!! Mais pour qui se prennent ils enfin! Nous devons limiter les attaques et renforcer notre base pour qu'ils ne puissent pas venir en nombre et surtout qu'on les envois par le fonds sapristi!! il nou faudra construire des renforts qui les tiendrosn à distance pendant qu'on les coulera!!  AAAHAHAHHA 40 ressources sont necessaires pour cela! Allez hop au boulot bandes de fénéants!
+Ohé Pirates! Visiblement des cafards en veulent à nos richesses durement gagnées! Mais pour qui se prennent ils enfin! Nous devons limiter les attaques et renforcer notre base pour qu'ils ne puissent pas venir en nombre et surtout qu'on les envois par le fonds sapristi! il nou faudra construire des renforts qui les tiendrosn à distance pendant qu'on les coulera!  AAAHAHAHHA 40 ressources sont necessaires pour cela! Allez hop au boulot bandes de fénéants!
 
 <div id="quest-17"></div>
 
@@ -160,7 +168,7 @@ pictures/defis/tortuga-2025/map16.png
 
 ### Jour 108 création d'une brasserie
 
-Ohé Pirates!! Vous avez construit un belle Capitainerie!! Maintenant nous pouvons attaquer la construction d'une Brasserie afin de fabriquer nous même nos doux brevages et qui sait peut être en revendre à d'autres pirates!! 50 ressources figurines ou décors sont necessaires pour monter la structure!
+Ohé Pirates! Vous avez construit un belle Capitainerie! Maintenant nous pouvons attaquer la construction d'une Brasserie afin de fabriquer nous même nos doux brevages et qui sait peut être en revendre à d'autres pirates! 50 ressources figurines ou décors sont necessaires pour monter la structure!
 
 <div id="quest-14"></div>
 
@@ -170,7 +178,7 @@ pictures/defis/tortuga-2025/map15.png
 
 ### Jour 105 création d'une capitainerie
 
-Ohé Pirates!! Vous avez repoussé les félons avec succès!! Il nous faut  maintenant créer une Capitainerie pour gerer le nouveau port des Pirates de Whisp The Cursed!! 50 ressources figurines ou décors sont necessaires pour monter la structure!
+Ohé Pirates! Vous avez repoussé les félons avec succès! Il nous faut  maintenant créer une Capitainerie pour gerer le nouveau port des Pirates de Whisp The Cursed! 50 ressources figurines ou décors sont necessaires pour monter la structure!
 
 <div id="quest-13"></div>
 
@@ -181,7 +189,7 @@ pictures/defis/tortuga-2025/map14.png
 
 ### Jour 95 la bataille
 
-Ohé Pirates!! Vous avez inflitré la colonnie, subtilisé le navire et pris le large avec succès!! Mais nous sommes maintenant attaqué par les mercenaires des félons!! Tous à vos postes de combats et montrons leur la puissance des Pirates de Whisp The Cusred 30 ressources sont necessaires dans un délai de 15 jours maximum!
+Ohé Pirates! Vous avez inflitré la colonnie, subtilisé le navire et pris le large avec succès! Mais nous sommes maintenant attaqué par les mercenaires des félons! Tous à vos postes de combats et montrons leur la puissance des Pirates de Whisp The Cusred 30 ressources sont necessaires dans un délai de 15 jours maximum!
 
 <div id="quest-12"></div>
 
@@ -191,7 +199,7 @@ pictures/defis/tortuga-2025/map13.png
 
 ### Jour 82 Requisition
 
-Ohé Pirates!! les chaloupes sont réparées mais elles ne tiendrons plus longtemps à ce rythme là! 
+Ohé Pirates! les chaloupes sont réparées mais elles ne tiendrons plus longtemps à ce rythme là! 
 Il nous faut inflitrer une colonnie et leur subtiliser un Navire! Cela va être très difficile et dangereux, 50 ressources figurines ou décors sont nécessaires!
 
 <div id="quest-11"></div>
@@ -202,7 +210,7 @@ pictures/defis/tortuga-2025/map12.png
 
 ### Jour 75 Collecte de Bois
 
-Ohé Pirates!! Avec tout ça nos pauvres chalouppes sont en train de couler il faut du bois pour les réparer!! 30 ressources seront nécéssaires car elles sont trés abimées.
+Ohé Pirates! Avec tout ça nos pauvres chalouppes sont en train de couler il faut du bois pour les réparer! 30 ressources seront nécéssaires car elles sont trés abimées.
 
 <div id="quest-10"></div>
 
@@ -212,7 +220,7 @@ pictures/defis/tortuga-2025/map11.png
 
 ### Jour 65 Collecte de vivres
 
-Ohé Pirates!! Vous avez bien travaillés nous avons un Ponton tout neuf et des Baraquements et une échoppe toute neuve! Il nous faure reprendre des forces et trouver du RHUM pour la suite! 20 Ressources seront necessaires.
+Ohé Pirates! Vous avez bien travaillés nous avons un Ponton tout neuf et des Baraquements et une échoppe toute neuve! Il nous faure reprendre des forces et trouver du RHUM pour la suite! 20 Ressources seront necessaires.
 
 <div id="quest-9"></div>
 
@@ -222,7 +230,7 @@ pictures/defis/tortuga-2025/map10.png
 
 ### Jour 59 Construction d'une echoppe pour les Pirates
 
-Ohé Pirates!! Vous avez durement travaillé et saccagé!! Il nous faut un lieu pour se mettre une bonne murge au RHUM!! Et pour cela on va construire une échoppe!! 50 Ressources seront nécéssaires.
+Ohé Pirates! Vous avez durement travaillé et saccagé! Il nous faut un lieu pour se mettre une bonne murge au RHUM! Et pour cela on va construire une échoppe! 50 Ressources seront nécéssaires.
 
 <div id="quest-8"></div>
 
@@ -232,7 +240,7 @@ pictures/defis/tortuga-2025/map09.png
 
 ### Jour 47 Pillage de la colonnie espagnole
 
-Ohé Pirates!! Vous avez bien travaillés nous avons un ponton tout neuf et des baraquements! Il nous faut du matériel pour construire une petite échoppe afin d'arroser une bonne journée de pillage et saccage!! 30 ressources seront nécéssaires pour récolter suffisament de matériaux!
+Ohé Pirates! Vous avez bien travaillés nous avons un ponton tout neuf et des baraquements! Il nous faut du matériel pour construire une petite échoppe afin d'arroser une bonne journée de pillage et saccage! 30 ressources seront nécéssaires pour récolter suffisament de matériaux!
 
 <div id="quest-7"></div>
 
@@ -242,7 +250,7 @@ pictures/defis/tortuga-2025/map08.png
 
 ### Jour 31 Collecte de Vivres
 
-Ohé Pirates!! Vous avez bien travaillés nous avons un Ponton tout neuf et des Baraquements! Il nous faut reprendre des forces pour la suite! 15 Ressources seront nécessaires.
+Ohé Pirates! Vous avez bien travaillés nous avons un Ponton tout neuf et des Baraquements! Il nous faut reprendre des forces pour la suite! 15 Ressources seront nécessaires.
 
 <div id="quest-6"></div>
 
@@ -313,7 +321,7 @@ Les Pirates accostèrent et posèrent le pieds sur ce qui allait être la nouvel
 Il fallait maintenant reconstruire mais la route a été longue et pénible et il leur fallait se restaurer et un bon repos avant d'attaquer la reconstruction.
 Les vivres sont malheureusement épuisés il va falloir un dernier effort aux Pirates pour s'accommoder devant un repas digne!
 
-Ce sera là votre premier Objectif!!! 
+Ce sera là votre premier Objectif! 
 
 <div id="quest-1"></div>
 
