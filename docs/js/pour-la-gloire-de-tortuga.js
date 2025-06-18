@@ -620,6 +620,7 @@ q(function() {
 		.progress("16/06/2025", whisp, 1, "Nain Super Fantasy Brawl", _MEDIUM)
 		.progress("16/06/2025", whisp, 1, "Cheminé hero quest", _SMALL_DECOR)
 		.progress("16/06/2025", phylios, 1, "Chevaliere", _SMALL)
+		.progress("18/06/2025", whisp, 1, "Mage hero quest", _SMALL)
 		.render();
 							
 //			

@@ -104,7 +104,7 @@ Ohé Pirates! Toutes ces émotions nous ont bien fatigués mais nos dortoirs ne 
 
 
 
-### Jour 162 Remplir les coffre
+### Jour 162 Remplir les coffres
 
 Ohé Les Pirates ! Nous nous agrandissont vite et nous avons eu la main lourde ! Très lourde, nos reserves d'or se sont raréfiées ! Mille millions de Krakens maudits! Un Pirate ne peut rester sans OR c'est inconcevable!
 Mais oui bien sur nous pouvons piller les navires marchands ou encore les iles voisines espagnoles! TOUS à vos postes de combat bande de tire au flant, bardez les voiles et plus vite que ça, les coffres ne vont pas se remplir tout seuls! AAAAhhAHAHAHAHAHAHAAAAAAA! 
