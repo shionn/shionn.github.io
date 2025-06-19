@@ -188,6 +188,9 @@
 						<li>
 							<a href="2025/debian-execute-task-before-and-after-suspend.html">Exécuter un script avant et après la mise en veille</a>
 						</li>
+						<li>
+							<a href="2025/openrgb-sur-debian.html">OpenRGB sur Débian</a>
+						</li>
 					</ul>
 				</li>
 				<li>
@@ -253,103 +256,54 @@
 		</nav>
 	</header>
 	<div class="container main">
-		
-		
-		
 		<div class="main">
-			<article>
+			
+				<article class="short">
 	<header>
 		
-		<h1><a href="draft/openrgb-sur-debian.html">Openrgb sur Debian</a></h1>
-		<span class="date">19 juin 2025</span>
-		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
+		<h1><a href="2023/reouverture.html">Réouverture sur Github.io. Apprendre de nos erreurs.</a></h1>
+		<span class="date">30 mai 2023</span>
+		<a class="category" href="category/vie-du-blog.html"><span class="fa fa-folder-open"></span> Vie du Blog</a>
 		<span class="tags">
 			<span class="fa fa-flag"></span>
-			<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/openrgb.html">OpenRGB</a><a href="tag/desktop.html">Desktop</a>
+			<a href="tag/blog.html">Blog</a><a href="tag/developpement.html">Developpement</a><a href="tag/geek.html">Geek</a><a href="tag/java.html">Java</a>
 		</span>
 	</header>
-	<section><p>Vous êtes sous Linux, vous avez des truc en RGB et vous ne savez comment les contrôler ? OpenRGB peu le faire pour vous mais attention il y a parfois des contraintes.</p>
-<p>Vous n'êtes pas sous Linux et vous avez plein de RGB de marque différente ? et vous voudriez tous centraliser ?  C'est aussi possible mais je n'en parlerai pas.</p>
-<h2>Instalation (sous débian)</h2>
-<p>Télé-charger OpenRGB sur le <a href="https://openrgb.org/#downloads" target="_blank">site officiel</a>. Puis installer le :</p>
-<pre class="shell"><code class="shell">sudo apt install openrgb_0.9_amd64_bookworm_b5f46e3.deb
-</code></pre>
-<p>Pour certain périphérique il faut le module i2c :</p>
-<pre class="shell"><code class="shell">sudo apt install i2c-tools 
-sudo modprobe i2c-dev
-</code></pre>
-<h2>Controler vos truc RGB</h2>
-<h3>Par GUI</h3>
-<p>OpenRGB fourni un gui pour contrôler vos RGB. Personnellement je n'aime pas.</p>
-<div class="gallery"><a href="pictures/linux/openrgb/gui.png"><img src="pictures/linux/openrgb/gui.png"></a></div>
-<h3>Par script</h3>
-<p>Bien évidement je vais pas faire un article uniquement pour un simple <code>apt install</code>. Ma méthode préférée pour contrôler mes LED c'est via des scripts.
-Ça semble complexe, mais au final c'est bien plus léger ! (hein corsair !)</p>
-<p>Voici quelques commandes et des exemples de réponse avec mon matériel :</p>
-<h4>Lister les périphériques</h4>
-<p>D'abord il faut lister vos périphérique pour les identifier et savoir ce qu'il peuvent faire.</p>
-<pre class="shell"><code class="shell">$ sudo openrgb -l 
-$ 0: ENE DRAM
-  Type:           DRAM
-  Description:    ENE SMBus Device
-  Version:        AUDA0-E6K5-0101
-  Location:       I2C: /dev/i2c-0, address 0x70
-  Modes: Direct Off Static Breathing Flashing 'Spectrum Cycle' Rainbow 'Chase Fade' Chase ['Random Flicker']
-  Zones: DRAM
-  LEDs: 'DRAM LED 1' 'DRAM LED 2' 'DRAM LED 3' 'DRAM LED 4' 'DRAM LED 5' 'DRAM LED 6' 'DRAM LED 7' 'DRAM LED 8'
-  1: ...
-  5: B550 AORUS ELITE AX V2
-  Type:           Motherboard
-  Description:    IT5702-GIGABYTE V2.0.10.0
-  Version:        0x000A0002
-  Location:       HID: /dev/hidraw7
-  Serial:         0x57020100
-  Modes: [Direct] Static Breathing Blinking 'Color Cycle' Flashing
-  Zones: 'D_LED1 Bottom' 'D_LED2 Top' Motherboard
-  LEDs: 'Name for Led 1' 'Name for Led 2' 'Name for Led 3' 'Name for Led 4' 'Name for Led 5' 'Name for Led 6' 'Name for Led 7' 'Name for Led 8'
-  6: ...
-</code></pre>
-<h4>Quelques exemples</h4>
-<pre class="shell"><code class="shell"># changer mes rams
-$ sudo openrgb -d &quot;ENE DRAM&quot; -m &quot;Breathing&quot; -c FF8000
-# changer juste une zone de ma carte mere
-$ sudo openrgb -d &quot;B550 AORUS ELITE AX V2&quot; -z &quot;Motherboard&quot; -m &quot;Breathing&quot; -c FF8000
-</code></pre>
-<p>Sur ma carte mère Gigabyte le contrôle des zones ne marche pas.</p>
-<h2>Limite</h2>
-<p>Avec pratiquement toutes les cartes mère Gigabyte, pour contrôler les RAMs il vous faut ajouter l'option suivante à votre grub.
-Pour ce faire éditer le fichier <code>/etc/default/grub</code> et modifier l'option <code>GRUB_CMDLINE_LINUX=</code> en ajoutant <code>acpi_enforce_resources=lax</code>. Puis faite un <code>sudo update-grub</code>.</p>
-<p>Conclusion : n'achetez pas de carte mère Gigabyte, n'achetez pas de barrette de ram avec du RGB.</p>
-<p>J'ai d'aileurd changé pour une MSI, plus besoin d'ajouter l'option au noyau et les zones fonctionnent.</p>
-<h2>Pour aller plus loin</h2>
-<p>Si comme moi vous voulez éteindre vos RAMs quand votre pc se met en veille alors il est possible de faire un script comme décris dans <a href="2025/debian-execute-task-before-and-after-suspend.html">cet article</a>.</p>
-<p>Et si vous voulez initialiser votre RGBs au démarrage de votre machine vous pouvez utiliser une crontab :</p>
-<pre class="shell"><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
-</code></pre>
+	<section><p>Bonjour,</p>
+<p>Un jour j'ai choisi de redémarrer mon serveur sur OVH. Il n'as pas redémarrer.
+J'ai perdu ma BDD.
+Et bien sur mon serveur de backup personnel n'était plus en ligne depuis longtemps.
+Du coup plus d'OVH, j'ai choisi de refaire le blog mais en statique sur github.io.
+Donc plus de commentaire, désoler.</p>
+<p>Bien évidement je pourrai prendre un millier de générateur de site statique existant,
+mais pourquoi pas le faire soit même.
+Mais il semblerait que je préfère redécouvrir la roue.
+Donc j'ai fait mon propre générateur de site statique que vous retrouverez dans mon github (section contact).
+Ce moteur utilise les technologie suivante :</p>
+<ul>
+<li>Java</li>
+<li>Template en Thymeleaf</li>
+<li>Lib JS maison qui remplace rapidement Jquery</li>
+<li>FontAwesome</li>
+</ul>
+<p>Il va me falloir beaucoup de temps pour reprendre tous le contenu depuis web archive.
+Surtout que j'ai perdu beaucoup d'image dans l'opération.</p>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 19 juin 2025.</em>
-		<h2>Commentaires</h2>
-		<div class="comments">
-			
-		</div>
-		<h3>Ajouter un commentaire</h3>
-		<form method="post" class="comments">
-			<div>
-				<label for="author">Votre pseudo</label>
-				<input type="text" name="author" required>
-			</div>
-			<div>
-				<label for="author">Votre message</label>
-				<textarea name="content" required></textarea>
-			</div>
-			<div>
-				<input type="submit" value="Commenter">
-			</div>
-		</form>
+		<a href="2023/reouverture.html"><span class="fa fa-eye"></span> Lire la suite</a>
 	</footer>
 </article>
+			
+			<div class="chaptering">
+				
+				<a href="index-9.html">&lt;</a>
+				10 / 10 
+				
+			</div>
 		</div>
+		
+		
+		
 		
 
 		<div class="side">
@@ -378,9 +332,9 @@ Pour ce faire éditer le fichier <code>/etc/default/grub</code> et modifier l'op
 				</a><a href="tag/conversion.html">
 					Conversion&nbsp;(1)
 				</a><a href="tag/debian.html">
-					Debian&nbsp;(5)
+					Debian&nbsp;(6)
 				</a><a href="tag/desktop.html">
-					Desktop&nbsp;(2)
+					Desktop&nbsp;(3)
 				</a><a href="tag/developpement.html">
 					Developpement&nbsp;(1)
 				</a><a href="tag/dnd.html">
@@ -424,7 +378,7 @@ Pour ce faire éditer le fichier <code>/etc/default/grub</code> et modifier l'op
 				</a><a href="tag/kruelboyz.html">
 					Kruelboyz&nbsp;(1)
 				</a><a href="tag/linux.html">
-					Linux&nbsp;(5)
+					Linux&nbsp;(6)
 				</a><a href="tag/matos.html">
 					Matos&nbsp;(1)
 				</a><a href="tag/metal.html">
@@ -433,6 +387,8 @@ Pour ce faire éditer le fichier <code>/etc/default/grub</code> et modifier l'op
 					Nains&nbsp;(1)
 				</a><a href="tag/nightaunt.html">
 					Nightaunt&nbsp;(1)
+				</a><a href="tag/openrgb.html">
+					OpenRGB&nbsp;(1)
 				</a><a href="tag/peinture.html">
 					Peinture&nbsp;(3)
 				</a><a href="tag/photo.html">
@@ -480,7 +436,7 @@ Pour ce faire éditer le fichier <code>/etc/default/grub</code> et modifier l'op
 				</a><a href="category/jdr.html">
 					JDR&nbsp;(10)
 				</a><a href="category/linux.html">
-					Linux&nbsp;(7)
+					Linux&nbsp;(8)
 				</a><a href="category/repaint.html">
 					Repaint&nbsp;(1)
 				</a><a href="category/vie-du-blog.html">
@@ -493,11 +449,14 @@ Pour ce faire éditer le fichier <code>/etc/default/grub</code> et modifier l'op
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 				<ul class="tree">
 					<li>
-						<a href="#">2025 (21)</a>
+						<a href="#">2025 (22)</a>
 						<ul>
 							<li>
-								<a href="#">juin (2)</a>
+								<a href="#">juin (3)</a>
 								<ul>
+									<li>
+										<a href="2025/openrgb-sur-debian.html">Openrgb sur Debian</a>
+									</li>
 									<li>
 										<a href="2025/decor-skaventide.html">Décor issu de Skaventide</a>
 									</li>
@@ -803,6 +762,22 @@ Pour ce faire éditer le fichier <code>/etc/default/grub</code> et modifier l'op
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
 	
 		<script type="text/javascript" src="js/hljs/bash.min.js"></script>
+	
+		<script type="text/javascript" src="js/hljs/cpp.min.js"></script>
+	
+		<script type="text/javascript" src="js/hljs/java.min.js"></script>
+	
+		<script type="text/javascript" src="js/hljs/xml.min.js"></script>
+	
+		<script type="text/javascript" src="js/paint-db.js"></script>
+	
+		<script type="text/javascript" src="js/paint-equivalence-db.js"></script>
+	
+		<script type="text/javascript" src="js/paint-equivalence.js"></script>
+	
+		<script type="text/javascript" src="js/paint-guide.js"></script>
+	
+		<script type="text/javascript" src="js/pour-la-gloire-de-tortuga.js"></script>
 	
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
