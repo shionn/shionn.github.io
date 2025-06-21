@@ -345,13 +345,18 @@ sudo apt install steam
 <li>Mangohud et Goverlay pour la config</li>
 <li>Gamemoderun</li>
 </ul>
-<h3>cyberpunk qui block sur l'ecran titre</h3>
+<h3>Cyberpunk qui block sur l'ecran titre</h3>
 <pre class="shell"><code class="shell">WINEDLLOVERRIDES=&quot;winmm,version=n,b&quot; %command% --launcher-skip
 </code></pre>
 <h3>Jeux comme au ralenti (Horizon Zero Dawn)</h3>
 <p>Ajouter l'option <strong>tsc=reliable</strong> aux noyaux.</p>
 <h3>Son qui sature (Horizon Zero Dawn)</h3>
 <p>Ajouter ̀<code>PULSE_LATENCY_MSEC=60 DRI_PRIME=1</code> à la commande de lancement</p>
+<h3>Son qui crack (station to station)</h3>
+<p>Confirmer les erreurs avec <code>pw-top</code>. puis dans /etc/pipewire/pipewire.conf.d/pipefire.conf :</p>
+<pre class="shell"><code class="shell">echo &quot;context.properties = {default.clock.min-quantum = 1024}&quot; | sudo tee pipewire.conf 
+</code></pre>
+<p><a href="https://www.reddit.com/r/linux_gaming/comments/1gy347h/newbie_here_ive_tried_almost_all_fixes_theres/" target="_blank">Source reddit</a></p>
 <h2>Journalctl</h2>
 <h3>Log qui spam</h3>
 <p>J'ai un spam de ce log.</p>
