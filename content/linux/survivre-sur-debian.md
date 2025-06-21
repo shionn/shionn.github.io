@@ -132,6 +132,15 @@ Ajouter l'option **tsc=reliable** aux noyaux.
 
 Ajouter ̀`PULSE_LATENCY_MSEC=60 DRI_PRIME=1` à la commande de lancement
 
+### Son qui crack (station to station)
+
+Dans /etc/pipewire/pipewire.conf.d/pipefire.conf
+
+~~~shell
+echo "context.properties = {default.clock.min-quantum = 1024}" | sudo tee pipewire.conf 
+~~~
+[Source reddit](https://www.reddit.com/r/linux_gaming/comments/1gy347h/newbie_here_ive_tried_almost_all_fixes_theres/)
+
 ## Journalctl
 ### Log qui spam
 
