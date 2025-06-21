@@ -118,7 +118,7 @@ Pour unlock le system : `sudo steamos-readonly disable`
 - Mangohud et Goverlay pour la config
 - Gamemoderun
 
-### cyberpunk qui block sur l'ecran titre 
+### Cyberpunk qui block sur l'ecran titre 
 
 ~~~shell
 WINEDLLOVERRIDES="winmm,version=n,b" %command% --launcher-skip
@@ -134,7 +134,7 @@ Ajouter ̀`PULSE_LATENCY_MSEC=60 DRI_PRIME=1` à la commande de lancement
 
 ### Son qui crack (station to station)
 
-Dans /etc/pipewire/pipewire.conf.d/pipefire.conf
+Confirmer les erreurs avec `pw-top`. puis dans /etc/pipewire/pipewire.conf.d/pipefire.conf :
 
 ~~~shell
 echo "context.properties = {default.clock.min-quantum = 1024}" | sudo tee pipewire.conf 
