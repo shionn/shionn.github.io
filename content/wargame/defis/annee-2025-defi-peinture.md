@@ -64,6 +64,15 @@ pictures/gloomspite/arachnarock/01.jpg
 
 ## Juin 2025
 
+En Juin j'ai peint :
+* Un goku avec Shenron pour mon défis __Junon : Mariage / Fécondité__.
+* Je n'ai pas participé au défis sur OMM. 
+
+[gallery w=250 h=250]
+pictures/manga/goku-shenron/01.jpg
+[/gallery]
+
+
 ## Juillet / Aout 2025
 
 ## Septembre 2025

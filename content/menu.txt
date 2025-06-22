@@ -24,8 +24,9 @@ category/wargame	War Game
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Tableau d'équivalence de peinture
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
-	tag/repaint	Repaint
+	category/manga	Manga
 		2025/repaint-bulma	Repaint d'une Bulma
+		2026/shenron-goku-nomnom	Shenron et Sangoku	2026-01-13
 	tag/d-fi	Défi Peinture
 		2025/annee-2024-defi-peinture	2024 une année de défi
 		2025/pour-la-gloire-de-tortuga	Pour la Gloire de Tortuga

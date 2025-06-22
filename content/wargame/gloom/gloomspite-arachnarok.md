@@ -11,6 +11,7 @@ Le chaman-tisseur peu être joué à pied.
 * En environ 10h30 heures pour l'araigné et son socle
 * En environ 13 heures pour le reste
 * Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Soumise à mon défis discord __Maia : Nature / Croissance__
 
 [gallery w=300 h=200]
 pictures/gloomspite/arachnarock/01.jpg
