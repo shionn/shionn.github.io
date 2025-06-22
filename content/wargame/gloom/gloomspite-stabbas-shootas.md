@@ -22,6 +22,22 @@ pictures/gloomspite/stabbas/02.jpg
 pictures/gloomspite/shootas/05.jpg
 [/gallery]
 
+Dans un second temps j'ai peint encore 20 lanciers. 
+
+* Peinte en Juin 2025
+* En environ 17h30 heures
+
+[gallery w=450 h=200]
+pictures/gloomspite/stabbas/10.jpg
+[/gallery]
+[gallery w=400 h=200]
+pictures/gloomspite/stabbas/11.jpg
+pictures/gloomspite/stabbas/12.jpg
+pictures/gloomspite/stabbas/13.jpg
+pictures/gloomspite/stabbas/14.jpg
+[/gallery]
+
+
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
 sur la page dédiée à [Mon armée Gloomspite](2025/armee-gloomspite-gitz.html).
 

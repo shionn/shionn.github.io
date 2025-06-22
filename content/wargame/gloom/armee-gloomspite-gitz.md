@@ -169,6 +169,23 @@ pictures/gloomspite/stabbas/04.jpg
 pictures/gloomspite/stabbas/05.jpg
 [/gallery]
 
+### Stabbas bis
+
+Proviennent de l'abonnement Stormbringer.
+
+* Peinte en Juin 2025
+* En environ 17h30 heures
+
+[gallery w=450 h=200]
+pictures/gloomspite/stabbas/10.jpg
+[/gallery]
+[gallery w=400 h=200]
+pictures/gloomspite/stabbas/11.jpg
+pictures/gloomspite/stabbas/12.jpg
+pictures/gloomspite/stabbas/13.jpg
+pictures/gloomspite/stabbas/14.jpg
+[/gallery]
+
 ### Shootas
 
 Proviennent de l'abonnement Stormbringer. J'ai doublé le numéro des Stabbas.
