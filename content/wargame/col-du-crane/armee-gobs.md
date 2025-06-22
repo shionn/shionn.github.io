@@ -4,7 +4,7 @@ On est loin d'avoir une armée complete il s'agit simplement de la partie gobeli
 
 ## Heros
 
-[after date="2025/12/31"]
+[after date="2025/10/01"]
 ### Bosssquig & BrutoSquig
 
 >**Rikk Chope-Squig** n'est pas le gobelin le plus fort du clan, ni le plus intelligent même pour un gobelin.
@@ -20,6 +20,32 @@ On est loin d'avoir une armée complete il s'agit simplement de la partie gobeli
 >Mais pour organiser plus de raid faut plus de **Squig**, donc il faut élever plus de **Squig**, mais faut plus de nourriture pour les élever et donc faire plus de raid.
 >Mais **Rikk** n'a pas réfléchi jusque là.
 >Pour être fort faut des Squig, pour avoir des Squig faut de la nourriture donc on fait des raid. la logique de **Rikk** s'arrête la.
+
+* Peinte en Fevrier 2025.
+* En environ 2h30.
+* Avec un socle adapteteur pour AoS
+
+[gallery w=150 h=200]
+pictures/bataille-col-crane/gobs/bosssquig/01.jpg
+pictures/bataille-col-crane/gobs/bosssquig/02.jpg
+pictures/bataille-col-crane/gobs/bosssquig/03.jpg
+[/gallery]
+[gallery w=300 h=200]
+pictures/bataille-col-crane/gobs/bosssquig/04.jpg
+[/gallery]
+
+### Chaman
+
+* Peinte en Juin 2025.
+* En environ 1h30.
+* Avec un socle adapteteur pour AoS
+
+[gallery w=150 h=200]
+pictures/bataille-col-crane/gobs/shaman/01.jpg
+pictures/bataille-col-crane/gobs/shaman/02.jpg
+pictures/bataille-col-crane/gobs/shaman/03.jpg
+[/gallery]
+
 [/after]
 ## Troupes
 
@@ -55,9 +81,19 @@ pictures/bataille-col-crane/gobs/lanciers/14.jpg
 
 TODO
 
+[after date="2025/10/01"]
 ### Troll
 
-TODO
+* Peinte en Fevrier 2025.
+* En environ 4 heures.
+
+[gallery w=150 h=200]
+pictures/bataille-col-crane/gobs/troll/01.jpg
+pictures/bataille-col-crane/gobs/troll/02.jpg
+pictures/bataille-col-crane/gobs/troll/03.jpg
+pictures/bataille-col-crane/gobs/troll/04.jpg
+[/gallery]
+[/after]
 
 ## Décors
 

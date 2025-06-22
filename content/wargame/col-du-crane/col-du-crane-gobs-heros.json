@@ -1,11 +1,11 @@
 {
 	"type": "post",
-	"date": "2025/04/24",
-	"title": "Lancier Gobelin de la Nuit",
-	"logo": "pictures/titles/gobs-lancier.jpg",
+	"date": "2025/10/01",
+	"title": "Heros Gobelin de la Nuit",
+	"logo": "pictures/titles/gobs-heros.jpg",
 	"tags": ["War Game", "Figurine", "Gobelin", "Col du Crâne", "Warhammer Battle"],
 	"category": "War Game",
 	"published": true,
-	"js" : [ ],
+	"js" : [  ],
 	"author": "Shionn"
 }
