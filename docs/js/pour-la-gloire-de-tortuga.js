@@ -624,6 +624,7 @@ q(function() {
 		.progress("20/06/2025", angest, 1, "Dragonborn Zealor", _MEDIUM)
 		.progress("22/06/2025", shionn, 1, "Dragon shenron", _MEDIUM)
 		.progress("22/06/2025", shionn, 1, "Goku", _SMALL)
+		.progress("23/06/2025", shionn, 1, "Chaman col du crâne", _SMALL)
 		.render();
 							
 //			
