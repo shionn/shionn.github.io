@@ -625,6 +625,9 @@ q(function() {
 		.progress("22/06/2025", shionn, 1, "Dragon shenron", _MEDIUM)
 		.progress("22/06/2025", shionn, 1, "Goku", _SMALL)
 		.progress("23/06/2025", shionn, 1, "Chaman col du crâne", _SMALL)
+		.progress("24/06/2025", faran, 1, "Sergent griffes sanglante", _MEDIUM)
+		.progress("26/06/2025", phylios, 2, "Coffres", _SMALL_DECOR)
+		.progress("26/06/2025", angest, 1, "Rothan, Hexed Apothecary", _MEDIUM)
 		.render();
 							
 //			
