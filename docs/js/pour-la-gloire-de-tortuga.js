@@ -628,6 +628,8 @@ q(function() {
 		.progress("24/06/2025", faran, 1, "Sergent griffes sanglante", _MEDIUM)
 		.progress("26/06/2025", phylios, 2, "Coffres", _SMALL_DECOR)
 		.progress("26/06/2025", angest, 1, "Rothan, Hexed Apothecary", _MEDIUM)
+		.progress("27/06/2025", tupad, 5, "Gardes fantômes", _MEDIUM)
+		.progress("27/06/2025", tupad, 11, "Faucheurs noirs", _SMALL)
 		.render();
 							
 //			
