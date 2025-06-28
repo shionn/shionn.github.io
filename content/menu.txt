@@ -17,16 +17,16 @@ category/wargame	War Game
 	tag/dungeon-and-laser	Dungeon and Laser
 		2024/dungeon-and-laser-encounters	Encounters
 		2025/dungeon-and-laser-deuslair	Deuslair	2025-12-20
-	tag/d-cor	Décor	2025-06-11
-		2025/decor-skaventide	Décor Skaventide	2025-06-11
-		2025/decor-mortal-realms	Décor Mortal Realms	2025-08-30
+	tag/d-cor	Décor
+		2025/decor-skaventide	Décor Skaventide
+		2026/decor-mortal-realms	Décor Mortal Realms	2026-01-13
 	tag/peinture	Guide
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Tableau d'équivalence de peinture
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
 	category/manga	Manga
 		2025/repaint-bulma	Repaint d'une Bulma
-		2026/shenron-goku-nomnom	Shenron et Sangoku	2026-01-13
+		2025/shenron-goku-nomnom	Shenron et Sangoku	2025-08-30
 		2026/mononokee-nomnom	Princesse Mononokee	2026-02-06
 	tag/d-fi	Défi Peinture
 		2025/annee-2024-defi-peinture	2024 une année de défi

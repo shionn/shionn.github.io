@@ -87,9 +87,10 @@ nav.main-menu {
 			//.auto-width (li , 5);
 			z-index: 1;
 			li {
-				display: inline-block;
-				vertical-align: top;
+//				display: inline-block;
+//				vertical-align: top;
 				padding: 10px 1px;
+				width: 20%;
 				a {
 					color: $theme-black;
 					font-size: 1.3em;
@@ -150,6 +151,14 @@ nav.main-menu {
 
 		&.open ul {
 			display : block;
+			& > li {
+				ul {
+					display : none;
+				}
+				&.open ul {
+					display : block;
+				}
+			}
 		}
 
 		ul li {
@@ -165,6 +174,11 @@ nav.main-menu {
 				width: 100% ! important;
 				display: block;
 				padding: 0;
+			}
+			ul {
+				a {
+					text-transform: unset;
+				}
 			}
 		}
 	}

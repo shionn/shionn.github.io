@@ -622,9 +622,8 @@ nav.main-menu ul ul {
   z-index: 1;
 }
 nav.main-menu ul ul li {
-  display: inline-block;
-  vertical-align: top;
   padding: 10px 1px;
+  width: 20%;
 }
 nav.main-menu ul ul li a {
   color: #222;
@@ -680,6 +679,12 @@ nav.main-menu ul ul ul li:hover {
   nav.main-menu.open ul {
     display: block;
   }
+  nav.main-menu.open ul > li ul {
+    display: none;
+  }
+  nav.main-menu.open ul > li.open ul {
+    display: block;
+  }
   nav.main-menu ul li {
     float: none;
   }
@@ -693,6 +698,9 @@ nav.main-menu ul ul ul li:hover {
     width: 100% !important;
     display: block;
     padding: 0;
+  }
+  nav.main-menu ul ul ul a {
+    text-transform: unset;
   }
 }
 

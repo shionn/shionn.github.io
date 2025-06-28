@@ -630,6 +630,7 @@ q(function() {
 		.progress("26/06/2025", angest, 1, "Rothan, Hexed Apothecary", _MEDIUM)
 		.progress("27/06/2025", tupad, 5, "Gardes fantômes", _MEDIUM)
 		.progress("27/06/2025", tupad, 11, "Faucheurs noirs", _SMALL)
+		.progress("28/06/2025", shionn, 1, "Princesse Mononokée", _BIG)
 		.render();
 							
 //			
