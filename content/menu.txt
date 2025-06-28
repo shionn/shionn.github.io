@@ -27,6 +27,7 @@ category/wargame	War Game
 	category/manga	Manga
 		2025/repaint-bulma	Repaint d'une Bulma
 		2026/shenron-goku-nomnom	Shenron et Sangoku	2026-01-13
+		2026/mononokee-nomnom	Princesse Mononokee	2026-02-06
 	tag/d-fi	Défi Peinture
 		2025/annee-2024-defi-peinture	2024 une année de défi
 		2025/pour-la-gloire-de-tortuga	Pour la Gloire de Tortuga
