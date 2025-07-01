@@ -633,9 +633,14 @@ q(function() {
 		.progress("28/06/2025", shionn, 1, "Princesse Mononokée", _BIG)
 		.progress("01/07/2025", shionn, 9, "Stabbas && Shootas", _SMALL)
 		.render();
+
+	let q22 = new _quest("quest-22", "Culture", "Peindre 30 figurines ou Décors", 30)
+		.progress("01/07/2025", shionn, 30, "Stabbas && Shootas", _SMALL)
+		.render();
+
 							
 //			
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22]);
 
 });

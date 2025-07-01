@@ -96,12 +96,27 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 182 Culture
+
+Ohé Pirates! Nous nous agrandissont et acceuillons de nouveaux membres parmis nos rangs! 
+Nous avons besoin de plus de ressources pour nous nourrir, bien sur nous pouvons piller les navires marchands mais c'est long et cela nous demande beaucoup plus de ressources. 
+Essayons nous à developper nos cultures en plus des pillages!
+
+<div id="quest-22"></div>
+
+[gallery]
+pictures/defis/tortuga-2025/map22.png
+[/gallery]
+
 ### Jour 167 Agrandir les dortoirs
 
 Ohé Pirates! Toutes ces émotions nous ont bien fatigués mais nos dortoirs ne sont pas assez douillais! Nous allons les améliorer pour nous garantir un meilleur repos! Sans compter qu'avec les nouveaux il nous fait aussi plus de lits!
 
 <div id="quest-21"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map21.png
+[/gallery]
 
 
 ### Jour 162 Remplir les coffres
@@ -137,7 +152,7 @@ pictures/defis/tortuga-2025/map18.png
 
 ### Jour 139 Construction de contrefort 
 
-Ohé Pirates! Visiblement des cafards en veulent à nos richesses durement gagnées! Mais pour qui se prennent ils enfin! Nous devons limiter les attaques et renforcer notre base pour qu'ils ne puissent pas venir en nombre et surtout qu'on les envois par le fonds sapristi! il nou faudra construire des renforts qui les tiendrosn à distance pendant qu'on les coulera!  AAAHAHAHHA 40 ressources sont necessaires pour cela! Allez hop au boulot bandes de fénéants!
+Ohé Pirates! Visiblement des cafards en veulent à nos richesses durement gagnées! Mais pour qui se prennent ils enfin! Nous devons limiter les attaques et renforcer notre base pour qu'ils ne puissent pas venir en nombre et surtout qu'on les envois par le fonds sapristi! il nou faudra construire des renforts qui les tiendrosn à distance pendant qu'on les coulera! AAAHAHAHHA 40 ressources sont necessaires pour cela! Allez hop au boulot bandes de fénéants!
 
 <div id="quest-17"></div>
 
@@ -178,7 +193,7 @@ pictures/defis/tortuga-2025/map15.png
 
 ### Jour 105 création d'une capitainerie
 
-Ohé Pirates! Vous avez repoussé les félons avec succès! Il nous faut  maintenant créer une Capitainerie pour gerer le nouveau port des Pirates de Whisp The Cursed! 50 ressources figurines ou décors sont necessaires pour monter la structure!
+Ohé Pirates! Vous avez repoussé les félons avec succès! Il nous faut maintenant créer une Capitainerie pour gerer le nouveau port des Pirates de Whisp The Cursed! 50 ressources figurines ou décors sont necessaires pour monter la structure!
 
 <div id="quest-13"></div>
 
@@ -308,7 +323,7 @@ C'est le premier jour, vous regardez tristement l'ancien repaire de Tortuga dét
 Les Seigneurs Whisp et Sparrow regarde du haut de leur postes de Capitaines, une lueur ténébreuse dans leur regard! Les félons vont bientôt goûter au fer des Pirates! 
 Tandis qu'ils naviguent péniblement dans la zone du triangle les Bermudes, là où seul les braves et donc les Pirates osent s'aventurer, un épais brouillard les entoure... 
 Non sans un once d'inquiétude, ils continuent bravement droit devant, toutes voiles dehors. 
-Bientôt l'épais brouillard se dissipe et laisse entrevoir une  Petites île, oui une petite île en forme de tortue de mer avec une crique en son centre.
+Bientôt l'épais brouillard se dissipe et laisse entrevoir une Petites île, oui une petite île en forme de tortue de mer avec une crique en son centre.
 
 [gallery]
 pictures/defis/tortuga-2025/map01.png
