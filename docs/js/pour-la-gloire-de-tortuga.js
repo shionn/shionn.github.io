@@ -631,6 +631,7 @@ q(function() {
 		.progress("27/06/2025", tupad, 5, "Gardes fantômes", _MEDIUM)
 		.progress("27/06/2025", tupad, 11, "Faucheurs noirs", _SMALL)
 		.progress("28/06/2025", shionn, 1, "Princesse Mononokée", _BIG)
+		.progress("01/07/2025", shionn, 9, "Stabbas && Shootas", _SMALL)
 		.render();
 							
 //			
