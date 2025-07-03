@@ -96,6 +96,12 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 184 Évolution de l'échoppe
+
+Ohé Pirates! L'échoppe commence à être petite et il nous faut développer les divertissements de l'équipage! Nous allons faire évoluer l'échoppe en taverne pour accueillir tout le monde dans un établissement plus vaste avec plus de tables! 40 ressources sont nécessaires pour monter la structure!
+
+<div id="quest-23"></div>
+
 ### Jour 182 Culture
 
 Ohé Pirates! Nous nous agrandissont et acceuillons de nouveaux membres parmis nos rangs! 
