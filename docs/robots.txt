@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
 Disallow:
+Sitemap: https://shionn.github.io/sitemap.xml
+Sitemap: https://shionn.github.io/sitemap.txt
