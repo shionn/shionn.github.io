@@ -1,0 +1,10 @@
+{
+	"type": "post",
+	"date": "2025/09/23",
+	"title": "Pattern Singleton en Java",
+	"tags": ["Java", "Pattern", "Singleton" ],
+	"category": "Code",
+	"published": true,
+	"js" : [ "js/hljs/java.min.js", "js/hljs/bash.min.js", "js/hljs/xml.min.js" ],
+	"author": "Shionn"
+}
