@@ -94,6 +94,8 @@ nav.main-menu {
 				a {
 					color: $theme-black;
 					font-size: 1.3em;
+					white-space: nowrap;
+
 					@media all and (min-width: $min-sm) {
 						line-height: 20px;
 					}
@@ -119,6 +121,7 @@ nav.main-menu {
 					}
 
 					a {
+						white-space: nowrap;
 						@media all and (min-width: $min-sm) {
 							font-size: 1em;
 							text-transform: none;

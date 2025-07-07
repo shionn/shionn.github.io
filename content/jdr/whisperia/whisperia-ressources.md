@@ -1,13 +1,22 @@
 Whisperia est une campagne de JDR sur DnD organisée par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
+## Whisperia
+
+Whisperia est à la fois le nom de la campagne et le nom du monde. Il est sous l'influence de deux divinités :
+- Whisp le protecteur et le créateur. 
+- RoiLugubre plutôt destructeur dis le _tisseur de la destinée_.
+
+[gallery]
+pictures/jdr/whisperia/carte.jpg
+[/gallery]
+
 ## Rurik Taillepierre.
 
 Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans du haut de ces 1m12 pour 100kg pas grand chose lui fait peur. 
 Il cherche à rejoindre la Guilde des aventuriers d'__Heavenrir__ .
 
-Il souhaite rejoindre cette guilde car en étant un membre cela
-lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne.
+Il souhaite rejoindre cette guilde car en étant un membre cela lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne.
 En effet, les impôts sur les alcools sont réduits quand on est membre de la guilde.
 
 ### Statistique
@@ -19,7 +28,7 @@ Consti	18 (+4)	Encaisser, Résister (Maîtrise)
 Intel	3 (-4)	 
 Sagesse	13 (+1)	Fouille, Observer
 Cha	9 (-1)	Négocier
-PV	26/34	 
+PV	34	 
 Maîtrise	+2	Pour toucher et pour la constitution
 Compétence
 Arcanes	-1	Dex
@@ -65,7 +74,34 @@ Coffre	Or	100po
 	5 rubis	~100po
 [/table]
 
+## Notre groupe
+
+Nous n'en sommes pas à notre premier rodéo. 
+Nous avons déjà vécu quelques aventures ensembles.
+
+[table title="notre groupe" cols="Nom,Classe,Race,Talent,Joueur" class="pyjama"]
+Anuabi	Roublard	Catfolk	Ne partage pas	Audrey du Jura
+Ariana	Magicienne	Elfe	Essaye de lancer des sort	Tupad
+Hyasull	Barbare	Humain	Tape	Doudou39320
+Peverell le juste	Paladin	Humain	Soigne	Whisp & le chat
+Rahanis Sylvéclat	Rodeur	Elfe	Touche parfois sa cible	Loukilouk04
+Rurik Taillepierre	Guerrier	Nain	Nul	Moi-même
+[/table]
+
+>**Anuabi** : _catfolk **chat**pardeur surtout dans les tavernes, souhaite traîner dans ma taverne afin de faire les poches de mes clients._
+>
+>**Ariana** : _Haut elfe à tendance elfe **noir**, magicienne, parcourt le monde à la rencontre de ces habitants qui semble bien étrange._
+>
+>**Hyasull** : _dis le **pourfendeur**, vis au grès des voyages, des rencontres, se contente de combat et de boustifaille._
+>
+>**Peverell** : _dis le **juste**, paladin de l'ordre de palatine, voue sa vie à lutter contre la noirceur pour faire briller la justice._
+>
+>**Rahanis** : _Rodeur de métier, parle peu, solitaire, parcourt le monde ou la chasse le porte, suivant les préceptes de **Solonor Thelandira**, dieu de la chasse._ 
+
+## Lieux et personnage connu
+
 [table title="Personnages" cols="Nom,Description" class="pyjama"]
+Aldia	Druide d'Heavenrir
 Amenalion	Necromancien raignant sur les catacombes
 Andreas	Epicier d'Heavenrir
 Balgrim	Banque de guilde
@@ -83,33 +119,4 @@ Heavenrir	Ville central de Whisperia
 Ragnord	Ruines dans lequel nous avons été fait prisonnier
 [/table]
 
-## Précédemment...
-
-Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
-et nous nous sommes retrouvés dans un tombeau dans les ruines de Ragnord. 
-Apres moulte combat contre des orcs et mort vivant nous avons reussi à en sortir apres avoir vaincu Amenalion et Gorgul et nous sommes arrivé à Heavenrir.
-
-Toutes nos aventures dans les articles précédent :
-* [Évasion d'une gaule](2024/whisperia-1x01-evasion-d-une-gaule.html). 
-* [Des orcs](2024/whisperia-1x02-orcs-et-chaussette.html). 
-* [Zombies, coffre et rubis](2025/whisperia-1x03-zombis-coffres-rubis.html). 
-* [Bureau et Liche](2025/whisperia-1x04-bureau-liche.html). 
-* [Trésors et Pieges](2025/whisperia-1x05-tresors-pieges.html). 
-* [Gargul & Snoupy](2025/whisperia-1x06-gorgul-snoopy.html). 
-* [Repos](2025/whisperia-1x07-repos.html). 
-* [Noratu](2025/whisperia-1x08-noratu.html). 
-* [Balade en Forêt](2025/whisperia-1x09-balade-en-foret.html). 
-* [Caleche et Loup](2025/whisperia-1x10-caleche-loup.html). 
-
-## Et maintenant la suite
-
-Cette partie s'est déroulée le 31 mai 2025. Dont voici les replay :
-
-[youtube video="SqRtqEi8diM"/]
-
-[youtube video="fLStDXXQoRc"/]
-
-*Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
-
-### TODO
 

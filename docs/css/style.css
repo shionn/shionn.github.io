@@ -628,6 +628,7 @@ nav.main-menu ul ul li {
 nav.main-menu ul ul li a {
   color: #222;
   font-size: 1.3em;
+  white-space: nowrap;
 }
 @media all and (min-width: 768px) {
   nav.main-menu ul ul li a {
@@ -651,6 +652,9 @@ nav.main-menu ul ul ul li {
 }
 nav.main-menu ul ul ul li:hover {
   padding-left: 15px;
+}
+nav.main-menu ul ul ul li a {
+  white-space: nowrap;
 }
 @media all and (min-width: 768px) {
   nav.main-menu ul ul ul li a {
