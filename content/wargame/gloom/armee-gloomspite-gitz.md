@@ -257,6 +257,14 @@ Rehaut	72047
 Rehaut	72001
 [/paints]
 
+[paints title="Corp Araignée"]
+Base	72124
+Zénital	72115
+Éclaircissement	72009
+Éclaircissement	72008
+Rehaut	72110
+[/paints]
+
 [paints title="Bois"]
 Base	72045
 Éclaircissement	72042
