@@ -641,6 +641,7 @@ q(function() {
 	let q23 = new _quest("quest-23", "Évolution de l'échoppe", "Peindre 40 figurines ou Décors", 40)
 		.progress("03/07/2025", shionn, 1, "Stabbas && Shootas", _SMALL)
 		.progress("04/07/2025", faran, 1, "Garde Loup", _MEDIUM)
+		.progress("08/07/2025", faran, 1, "Garde Loup", _MEDIUM)
 		.render();
 							
 //			
