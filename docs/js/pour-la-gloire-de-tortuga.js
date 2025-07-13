@@ -642,6 +642,11 @@ q(function() {
 		.progress("03/07/2025", shionn, 1, "Stabbas && Shootas", _SMALL)
 		.progress("04/07/2025", faran, 1, "Garde Loup", _MEDIUM)
 		.progress("08/07/2025", faran, 1, "Garde Loup", _MEDIUM)
+		.progress("12/07/2025", angest, 1, "Buste Zombi", _MEDIUM)
+		.progress("12/07/2025", angest, 1, "Guerrier", _MEDIUM)
+		.progress("12/07/2025", angest, 1, "Buste Veille", _MEDIUM)
+		.progress("12/07/2025", angest, 1, "Magicien", _SMALL)
+		.progress("12/07/2025", angest, 1, "Cerf zombi", _MEDIUM)
 		.render();
 							
 //			
