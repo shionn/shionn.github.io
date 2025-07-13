@@ -61,6 +61,7 @@ https://shionn.github.io/2025/page-des-liens-dev.html
 https://shionn.github.io/2025/page-des-liens-linux.html
 https://shionn.github.io/2025/pour-la-gloire-de-tortuga.html
 https://shionn.github.io/2025/repaint-bulma.html
+https://shionn.github.io/2025/webview-avec-javafx-et-screenshot.html
 https://shionn.github.io/2025/whisperia-1x03-zombis-coffres-rubis.html
 https://shionn.github.io/2025/whisperia-1x04-bureau-liche.html
 https://shionn.github.io/2025/whisperia-1x05-tresors-pieges.html
@@ -105,6 +106,7 @@ https://shionn.github.io/tag/gloomspite-gitz.html
 https://shionn.github.io/tag/gobelin.html
 https://shionn.github.io/tag/guide.html
 https://shionn.github.io/tag/java.html
+https://shionn.github.io/tag/javafx.html
 https://shionn.github.io/tag/jdr.html
 https://shionn.github.io/tag/jellyfin.html
 https://shionn.github.io/tag/kit-bash.html
@@ -124,6 +126,7 @@ https://shionn.github.io/tag/platformio.html
 https://shionn.github.io/tag/proxmox.html
 https://shionn.github.io/tag/repaint.html
 https://shionn.github.io/tag/ressources.html
+https://shionn.github.io/tag/screenshost.html
 https://shionn.github.io/tag/script.html
 https://shionn.github.io/tag/seigneurs-ruinem-nes.html
 https://shionn.github.io/tag/server.html
@@ -135,4 +138,5 @@ https://shionn.github.io/tag/underworld.html
 https://shionn.github.io/tag/vscode.html
 https://shionn.github.io/tag/war-game.html
 https://shionn.github.io/tag/warhammer-battle.html
+https://shionn.github.io/tag/webview.html
 https://shionn.github.io/tag/whisperia.html
