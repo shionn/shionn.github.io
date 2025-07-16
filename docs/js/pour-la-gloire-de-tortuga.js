@@ -647,6 +647,7 @@ q(function() {
 		.progress("12/07/2025", angest, 1, "Buste Veille", _MEDIUM)
 		.progress("12/07/2025", angest, 1, "Magicien", _SMALL)
 		.progress("12/07/2025", angest, 1, "Cerf zombi", _MEDIUM)
+		.progress("16/07/2025", shionn, 10, "Chevaucheur d'araigné", _MEDIUM)
 		.render();
 							
 //			
