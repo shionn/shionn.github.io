@@ -6,6 +6,7 @@ pre {
 	background: $theme-grey;
 	color: $theme-black;
 	white-space: pre-wrap;
+	tab-size: 4;
 	
 	code.java, code.shell {
 
@@ -32,23 +33,29 @@ pre {
 	
 	code.cpp {
 		.hljs-meta {
-			color: #da70d6;
-			.hljs-string {
-				color: #c98e76;
+			color: #0000ff;
+			.hljs-keyword {
+				color: #af00db;
 			}
 		}
+		.hljs-string {
+			color: #a31515;
+		}
 		.hljs-type {
-			color: #569cd6;
+			color: #0000ff;
 		}
 		
 		.hljs-title, .hljs-built_in {
-			color: #d4d4a4;
+			color: #795e26;
 		}
-		.hljs-params {
-			color: #da70d6;
+		.hljs-params, .hljs-keyword {
+			color: #af00db;
 		}
 		.hljs-number {
-			color: #fad301;
+			color: #098658;
+		}
+		.hljs-comment {
+			color: #6a9955;
 		}
 	}
 	
