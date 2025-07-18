@@ -148,7 +148,7 @@ pictures/jdr/whisperia/130.jpg
 pictures/jdr/whisperia/131.jpg
 [/gallery]
 
-Nous gagnons le combat. Anuabi trouve un médaillon qui repousse les loups. Je me fais un premier soin, je regagne 10 (26/34). Fenric arrive enfin avec 12 gardes de la ville d’Heavenrir. 
+Nous gagnons le combat. Anuabi trouve un médaillon qui repousse les loups. Je me fais un premier soin, je regagne 10 (26/34). Fenric arrive enfin avec 12 gardes de la ville d’Heavenrir. Sur les corps des orcs nous trouvons 42 pieces d'or, j'en récupère 8.
 
 > Ca veut dire que la ville est sans défense ? Espèce d’humain….
 

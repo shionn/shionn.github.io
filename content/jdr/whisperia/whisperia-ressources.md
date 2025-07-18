@@ -67,7 +67,7 @@ Inventaire	1 Popo majeur	8D4+8
 	Ration	1
 	Gourde d’eau	 
 	Torche	2
-Richesse	Or	44po
+Richesse	Or	52po
 Coffre	Or	100po
 	1 rubi	~20po
 	1 jaspes	~25po

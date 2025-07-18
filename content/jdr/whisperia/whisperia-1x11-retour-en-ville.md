@@ -58,7 +58,7 @@ Inventaire	1 Popo majeur	8D4+8
 	Ration	1
 	Gourde d’eau	 
 	Torche	2
-Richesse	Or	44po
+Richesse	Or	52po
 Coffre	Or	100po
 	1 rubi	~20po
 	1 jaspes	~25po
@@ -111,5 +111,68 @@ Cette partie s'est déroulée le 31 mai 2025. Dont voici les replay :
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### TODO
+### Retour en ville
 
+Sur le retour vers Heavenrir, anuabi et le rôdeur fenric parle lessive, puis parle du bruit des cricket, anuabi n’aimant pas cela, puis discute de cuisine à base de cricket. 
+
+Nous arrivons enfin a Heavenrir, Goldric et Balgrim sont agités, ils ont l’air d’avoir combattu. Il nous demande si nous l’avons vu ? 
+
+> quoi ta mère ou ta soeur ? 
+
+Ils se sont fait attaquer par un gros dragon qui est parti vers l’est. Fenric avec les gardes partent à sa recherche. Je voulais les suivre mais les MJ ne veulent pas. 
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/133.jpg
+[/gallery]
+
+### Dans l'auberge
+
+Nous allons à l’auberge, et nous donnons la viande de biche que nous avons chasser pour offrir un repas à tout le monde. Pour nous remercier d’avoir ramené la cargaison, Goldric nous offre les frais d’auberge pour 1 mois. Pendant que nous festoyons, le père de Noratu entre en larme, et nous dit que le Noratu et “Euh” un vieux mystérieux ont été enlevé par le dragon :) Le dragon semblait vouloir Noratu et personne d’autre. Le dragon est violet. 
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/134.jpg
+pictures/jdr/whisperia/135.jpg
+[/gallery]
+
+Je propose qu’on questionne Heinsendorale mais il ne semble pas la. Je souhaites demander à Kurasa (femme de Jiraya le pere de Noratu) si Noratu à quelque chose de special de part son ascendance. Et rien. Choux blanc.
+
+Un dragon violet est un dragon associé à la magie de la nécromancie et il est attiré par la magie. Moi je vais dormir. 
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/136.jpg
+[/gallery]
+
+### Au matin
+
+Le lendemain, Godric nous invite à aller voir Aldia, un droit au nord de la ville. Il nous donne deux rations. 
+
+Un portail apparaît, Ulrian, le mage de seconde zone, (le disciple de Hasendoral), et commence à s’entretenir avec Goldric, et raconte des choses sur Heasendoral.  Ils ont chassé le dragon, Heasendoral est au conseil des sages, et ils parlemente sur la décision qu’ils doivent prendre.
+
+Nous sortons de la ville et nous nous mettons en route vers le nord-est. 
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/137.jpg
+pictures/jdr/whisperia/138.jpg
+[/gallery]
+
+### Gobelin et controle mental
+
+Sur la route nous voyons des buissons bouger…
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/139.jpg
+[/gallery]
+
+D’un seul coup hyasul voulant taper le buisson, tape Rahanis. Hyasul se réveille, il tape dans le buisson et un gobelin en sort, Rahanis et Hyasul  achève le premier gobelin.
+
+> Le combat s’engage
+
+J’assomme le gobelin qui semble être un magicien. Un gobelin arrive à me faire 3 points de dégât (31/34). Nous gagnons le combat. 
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/140.jpg
+[/gallery]
+
+Moi et Ariana interrogeons le gobelin que nous avons assommé, je le réveille en lui plongeant la tête dans l’eau. Il insulte Ariania je le tape, Arianah l’interroge et nous apprenons qu’il a été envoyé par le sorcier le l’est.  (a confirmer avec la redif) puis il insulte de nouveau Ariana et lui colle un dernier pain. 
+
+Nous reprenons notre route. en direction du nord qui est à l'est.
