@@ -59,6 +59,7 @@ category/linux	Linux
 category/code	Code
 	tag/arduino	Arduino
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode
+		2025/connexion-wifi-esp32	Connexion WiFi su ESP32	2025-10-17
 	tag/java	Java	2025-07-13
 		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX WebView	2025-07-13
 		2025/bot-discord-en-java	Bot discord en Java	2025-08-06
