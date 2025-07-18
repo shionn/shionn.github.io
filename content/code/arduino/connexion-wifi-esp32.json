@@ -5,6 +5,7 @@
 	"tags": ["Arduino", "VSCode", "PlatformIO", "CPP", "ESP32", "Espressif", "ESP8266", "WiFi"],
 	"category": "Code",
 	"published": true,
+	"logo": "pictures/titles/esp32-wifi-connection.png",
 	"js" : [ "js/hljs/cpp.min.js", "js/hljs/bash.min.js" ],
 	"author": "Shionn"
 }
