@@ -51,7 +51,7 @@ pictures/dark-elves/malus-dark-blade/07.jpg
 [/gallery]
 [/after]
 
-[after date="2025/11/02"]
+[after date="2025/11/10"]
 ### Morathi sur Pégase Noir
 
 Je l'ai acheté autour des années 2000, et elle est resté dans ma piule de la honte pendant presque 25 ans. 
@@ -159,7 +159,7 @@ Rehaut	72096
 Reste à faire :
 - Cavalier Noire
 
-[after date="2025/08/22"]
+[after date="2025/08/30"]
 ### Arbaletriers
 
 Voici mon premier pack de 12 arbaletriers elfe noir en plastique. 
@@ -236,7 +236,7 @@ pictures/dark-elves/lanciers/06.jpg
 Reste à faire :
 - Harpie
 
-[after date="2025/12/04"]
+[after date="2025/12/12"]
 ### Cavalier sur Sang Froid
 
 Voici ma cavalerie lourde sur sang froid. 
@@ -356,7 +356,7 @@ Glacis	24-22
 Rehaut	72052
 [/paints]
 
-[after date="2025/11/26"]
+[after date="2025/12/04"]
 ### Ombres
 
 Voici mes ombres elfes noir en métal. Certaines de ces figurines proviennent de mon ancienne armée et d'autre de celle que j'ai racheté. 

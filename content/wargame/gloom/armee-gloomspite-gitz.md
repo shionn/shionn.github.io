@@ -120,7 +120,7 @@ pictures/gloomspite/trugg/10.jpg
 
 [/after]
 
-[after date="2025/08/14"]
+[after date="2025/08/22"]
 
 ### Fanatiques
 
@@ -203,7 +203,7 @@ pictures/gloomspite/shootas/05.jpg
 
 [/after]
 
-[after date="2025/09/07"]
+[after date="2025/09/15"]
 
 ## Araignée
 

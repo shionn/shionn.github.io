@@ -4,7 +4,7 @@ On est loin d'avoir une armée complete il s'agit simplement de la partie gobeli
 
 ## Heros
 
-[after date="2025/10/01"]
+[after date="2025/10/09"]
 ### Bosssquig & BrutoSquig
 
 >**Rikk Chope-Squig** n'est pas le gobelin le plus fort du clan, ni le plus intelligent même pour un gobelin.
@@ -81,7 +81,7 @@ pictures/bataille-col-crane/gobs/lanciers/14.jpg
 
 TODO
 
-[after date="2025/10/01"]
+[after date="2025/10/09"]
 ### Troll
 
 * Peinte en Fevrier 2025.

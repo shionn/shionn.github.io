@@ -12,22 +12,22 @@ category/wargame	War Game
 	2024/mes-armees	Underworld
 		2024/underworld-dok	Fille de Khaine
 		2024/underworld-soulblight	Seigneurs Ruinemânes
-	2024/mes-armees	Warcry	2025-09-15
-		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-09-15
+	2024/mes-armees	Warcry	2025-09-23
+		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-09-23
 	tag/dungeon-and-laser	Dungeon and Laser
 		2024/dungeon-and-laser-encounters	Encounters
-		2025/dungeon-and-laser-deuslair	Deuslair	2025-12-20
+		2025/dungeon-and-laser-deuslair	Deuslair	2025-12-28
 	tag/d-cor	Décor
 		2025/decor-skaventide	Décor Skaventide
-		2026/decor-mortal-realms	Décor Mortal Realms	2026-01-13
+		2026/decor-mortal-realms	Décor Mortal Realms	2026-01-21
 	tag/peinture	Guide
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Tableau d'équivalence de peinture
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
 	category/manga	Manga
 		2025/repaint-bulma	Repaint d'une Bulma
-		2025/shenron-goku-nomnom	Shenron et Sangoku	2025-08-30
-		2026/mononokee-nomnom	Princesse Mononokee	2026-02-06
+		2025/shenron-goku-nomnom	Shenron et Sangoku	2025-09-07
+		2026/mononokee-nomnom	Princesse Mononokee	2026-02-14
 	tag/d-fi	Défi Peinture
 		2025/annee-2024-defi-peinture	2024 une année de défi
 		2025/pour-la-gloire-de-tortuga	Pour la Gloire de Tortuga
@@ -43,6 +43,7 @@ category/jdr	JdR
 		2025/whisperia-1x08-noratu	8: Noratu
 		2025/whisperia-1x09-balade-en-foret	9: Balade en Forêt
 		2025/whisperia-1x10-caleche-loup	10: Calèche & Loups
+		2025/whisperia-1x11-retourn-en-ville	11 : Retour en Ville	2025-07-21
 	tag/whisperia	Donnée sur Whisperia
 		2025/whisperia-ressources	Ressources
 category/linux	Linux
@@ -59,12 +60,12 @@ category/linux	Linux
 category/code	Code
 	tag/arduino	Arduino
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode
-		2025/connexion-wifi-esp32	Connexion WiFi su ESP32	2025-10-17
-		2025/ntp-esp32	Synchronisation horloge ntp sur ESP32	2025-11-10
+		2025/connexion-wifi-esp32	Connexion WiFi su ESP32	2025-10-25
+		2025/ntp-esp32	Synchronisation horloge ntp sur ESP32	2025-11-18
 	tag/java	Java	2025-07-13
 		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX WebView	2025-07-13
-		2025/bot-discord-en-java	Bot discord en Java	2025-08-06
-		2025/pattern-singleton-java	Pattern Singleton en Java	2025-09-23
+		2025/bot-discord-en-java	Bot discord en Java	2025-08-14
+		2025/pattern-singleton-java	Pattern Singleton en Java	2025-10-01
 mailto:shionn@gmail.com	Contact & Lien
 	mailto:shionn@gmail.com	Me contacter
 		mailto:shionn@gmail.com	Shionn@gmail.com
