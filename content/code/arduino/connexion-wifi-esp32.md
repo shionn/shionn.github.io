@@ -1,9 +1,9 @@
 Bonjour.
-Voici petit tuto simple sur la gestion de la connexion wifi avec le framework arduino sur un ESP32 mais cela fonctionne aussi avec un ESP8266 et probablement d'autre carte. 
+Voici un petit tuto simple sur la gestion de la connexion wifi avec le framework arduino sur un ESP32 mais cela fonctionne aussi avec un ESP8266 et probablement d'autre carte. 
 
 ## Connexion
 
-La connexion se faire avec la bibliotheque "Wifi" qui est incluse des qu'on configure notre projet pour utiliser une carte ESP32. 
+La connexion se fait avec la bibliothèque Wifi qui est incluse dès qu'on configure notre projet pour utiliser une carte ESP32. 
 
 ~~~cpp
 #include <Arduino.h>
@@ -44,12 +44,12 @@ void loop() {
 
 ### Probleme avec certain router et l'ESP8266
 
-J'ai souvent eu le soucis que mes ESP8266 avait beaucoup de mal à se connecter à mon reseau wifi. 
-Il faut fouiller dans votre rooter, sur la configuration du reseau 2.4Ghz, et trouver une option s'appellant **mode sans fil** qui est peut être regler sur "N Only" et passer cette option à "legacy".
+J'ai souvent eu le souci que mes ESP8266 avaient beaucoup de mal à se connecter à mon réseau wifi. 
+Il faut fouiller dans votre routeur, sur la configuration du réseau 2.4Ghz, et trouver une option s'appellant **mode sans fil** qui est peut être regler sur "N Only" et passer cette option à "legacy".
 
 ## Bonus appeler un serveur
 
-Et voici un exemple qui appel un serveur en faisant un GET sur une adresse.
+Et voici un exemple qui appelle un serveur en faisant un GET sur une adresse.
 
 ~~~cpp
 // pour un esp32
@@ -89,10 +89,10 @@ void loop() {
 }
 ~~~
 
-### et en https ? 
+### Et en https ? 
 
-Je ne vais pas présenter ici comment faire un appel en https, car personnelement je pense qu'il est mieux de rester sur un reseau local. 
-Mais une solution un peu crade est d'ignoré la verification ssl.
+Je ne vais pas présenter ici comment faire un appel en https, car personnellement je pense qu'il est mieux de rester sur un réseau local. 
+Mais une solution un peu crade est d'ignorer la vérification ssl.
 
 ~~~cpp
 // ajouter cet import
