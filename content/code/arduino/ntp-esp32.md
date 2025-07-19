@@ -44,6 +44,7 @@ NTPClient timeClient(udp, NTP_SERVER, TIME_ZONE_IN_SECOND, REFRESH_INTERVAL_IN_M
 
 void setup() {
 	// connexion au reseau (non détaillé ici)
+	timeClient.begin();
 }
 
 void loop() {
@@ -56,6 +57,50 @@ void loop() {
 	delay(1000);
 }
 ~~~
+
+### Et avec le changement d'heure ?
+
+Cela se fait facilement avec la lib (TimeZone)[https://github.com/JChristensen/Timezone]. 
+
+~~~
+lib_deps = 
+	arduino-libraries/NTPClient@^3.2.1
+	jchristensen/Timezone@^1.2.5
+~~~
+
+Ensuite il faut initialisé NtpClient sur la timezone UTC. Puis definir notre time zone. Voici un exemple avec mon cas personnel c'est dire CET/CEST. 
+
+~~~
+// autre import
+#include <Timezone.h>
+
+// declaration du client ntp en UTC
+NTPClient ntpClient(udp, NTP_SERVER, 0, REFRESH_INTERVAL_IN_MS);
+// CEST : commence le dernier dimanche de mars à 2 heure du matin avec un décalage de 120 minutes
+TimeChangeRule cest = { "CEST", Last, Sun, Mar, 2, 120 };
+// CET : commence le dernier dimanche d'octobre à 3 heure du matin avec un décalage de 60 minutes
+TimeChangeRule cet = { "CET", Last, Sun, Oct, 3, 60 };
+// construction de notre timezone.
+Timezone timezone(cest, cet);
+
+void setup() {
+	// pas de changement
+}
+
+void loop() {
+	ntpClient.update();
+	// récupération de l'heure en UTC
+	time_t utcTime = ntpClient.getEpochTime();
+	// convertion en locale
+	time_t localTime = timezone.toLocal(utcTime);
+
+	Serial.print("Heure : ");
+	Serial.println(ctime(&localTime));
+
+	delay(1000);
+}
+~~~
+
 
 
 
