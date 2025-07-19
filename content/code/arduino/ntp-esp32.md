@@ -60,7 +60,7 @@ void loop() {
 
 ### Et avec le changement d'heure ?
 
-Cela se fait facilement avec la lib (TimeZone)[https://github.com/JChristensen/Timezone]. 
+Cela se fait facilement avec la lib [TimeZone(https://github.com/JChristensen/Timezone). 
 
 ~~~
 lib_deps = 
