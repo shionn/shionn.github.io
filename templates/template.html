@@ -74,15 +74,15 @@
 
 		<div class="side">
 			<div class="tagclood">
-				<h1><span class="fa fa-flag"></span> Tags</h1>
-				<a th:each="tag:${site.tags}" th:href="${tag.url}">
-					<th:block th:text="${tag.name}"/>&nbsp;(<th:block th:text="${tag.size}"/>)
-				</a>
-			</div>
-			<div class="tagclood">
 				<h1><span class="fa fa-folder-open"></span> Catégories</h1>
 				<a th:each="cat:${site.categories}" th:href="${cat.url}">
 					<th:block th:text="${cat.name}"/>&nbsp;(<th:block th:text="${cat.size}"/>)
+				</a>
+			</div>
+			<div class="tagclood">
+				<h1><span class="fa fa-flag"></span> Tags</h1>
+				<a th:each="tag:${site.tags}" th:href="${tag.url}">
+					<th:block th:text="${tag.name}"/>&nbsp;(<th:block th:text="${tag.size}"/>)
 				</a>
 			</div>
 			<div class="calendar">
