@@ -1,11 +1,11 @@
 {
 	"type": "post",
-	"date": "2025/11/02",
-	"title": "Heros Gobelin de la Nuit",
-	"logo": "pictures/titles/gobs-heros.jpg",
+	"date": "2025/10/09",
+	"title": "Chevaucheur d'araignée Gobelin",
+	"logo": "pictures/titles/gobs-araignee.jpg",
 	"tags": ["War Game", "Figurine", "Gobelin", "Col du Crâne", "Warhammer Battle"],
 	"category": "War Game",
 	"published": true,
-	"js" : [  ],
+	"js" : [ ],
 	"author": "Shionn"
 }

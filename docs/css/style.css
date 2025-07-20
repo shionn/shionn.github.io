@@ -759,6 +759,9 @@ pre code.cpp .hljs-number {
 pre code.cpp .hljs-comment {
   color: #6a9955;
 }
+pre code.cpp .hljs-type {
+  color: #0d0dff;
+}
 pre code.xml {
   color: #6d9ae3;
 }
