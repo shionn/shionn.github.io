@@ -9,6 +9,7 @@ https://shionn.github.io/index-7.html
 https://shionn.github.io/index-8.html
 https://shionn.github.io/index-9.html
 https://shionn.github.io/index-10.html
+https://shionn.github.io/index-11.html
 https://shionn.github.io/2023/armee-nighthaunt.html
 https://shionn.github.io/2023/armee-skaven.html
 https://shionn.github.io/2023/equivalence-peinture.html
@@ -61,6 +62,7 @@ https://shionn.github.io/2025/page-des-liens-dev.html
 https://shionn.github.io/2025/page-des-liens-linux.html
 https://shionn.github.io/2025/pour-la-gloire-de-tortuga.html
 https://shionn.github.io/2025/repaint-bulma.html
+https://shionn.github.io/2025/underworld-gloom-gitz-zarbags.html
 https://shionn.github.io/2025/webview-avec-javafx-et-screenshot.html
 https://shionn.github.io/2025/whisperia-1x03-zombis-coffres-rubis.html
 https://shionn.github.io/2025/whisperia-1x04-bureau-liche.html
