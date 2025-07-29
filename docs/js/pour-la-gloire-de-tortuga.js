@@ -653,6 +653,7 @@ q(function() {
 		.progress("20/07/2025", shionn, 4, "Djinn", _SMALL)
 		.progress("27/07/2025", angest, 1, "Persephone", _BIG)
 		.progress("28/07/2025", whisp, 1, "Zmobar", _SMALL)
+		.progress("29/07/2025", tony, 1, "Orc", _MEDIUM)
 		
 		.render();
 							
