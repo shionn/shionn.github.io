@@ -654,7 +654,7 @@ q(function() {
 		.progress("27/07/2025", angest, 1, "Persephone", _BIG)
 		.progress("28/07/2025", whisp, 1, "Zmobar", _SMALL)
 		.progress("29/07/2025", tony, 1, "Orc", _MEDIUM)
-		
+		.progress("01/08/2025", angest, 1, "Tsathoggua", _BIG)
 		.render();
 							
 //			
