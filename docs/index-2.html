@@ -282,6 +282,120 @@
 			
 				<article class="short">
 	<header>
+		
+		<h1><a href="2025/homelab-processeur.html">Processeur pour HomeLab</a></h1>
+		<span class="date">18 mai 2025</span>
+		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
+		<span class="tags">
+			<span class="fa fa-flag"></span>
+			<a href="tag/matos.html">Matos</a><a href="tag/server.html">Server</a>
+		</span>
+	</header>
+	<section><p>Si comme moi vous avez un homelab, ou si vous aimer simplement le matos informatique beaucoup trop cher,
+vous avez forcement du vous perdre un peu avec les références de ces processeurs.</p>
+<p>Je vais lister ici les diverses gammes de processeurs <strong>&quot;achetable&quot;</strong> que l'ont trouve sur le marché d'occasion (et chinois).</p>
+<h2>Processeur Intel Xeon</h2>
+<table class="boxed">
+	<thead>
+		<tr>
+			<th>Famille</th>
+			<th>Reference</th>
+			<th>Micro Arch.</th>
+			<th>Gravure</th>
+			<th>Socket</th>
+			<th>Chipset</th>
+			<th>Memoire</th>
+			<th>Pcie</th>
+			<th>Année</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td rowspan="4">Xeon E5</td>
+			<td>E5-x600-v1</td>
+			<td>Sandy Bridge</td>
+			<td>32 nm</td>
+			<td rowspan="2">LGA2011</td>
+			<td rowspan="2">X79/C602</td>
+			<td rowspan="2">DDR3</td>
+			<td rowspan="4">40x 3.0</td>
+			<td>2011</td>
+		</tr>
+		<tr>
+			<td>E5-x600-v2</td>
+			<td>Ivy Bridge</td>
+			<td rowspan="2">22 nm</td>
+			<td>2013</td>
+		</tr>
+		<tr>
+			<td>E5-x600-v3</td>
+			<td>Haswell</td>
+			<td rowspan="2">LGA2011-3</td>
+			<td rowspan="2">X99/C612</td>
+			<td>DDR3 / DRR4</td>
+			<td>2014</td>
+		</tr>
+		<tr>
+			<td>E5-x600-v4</td>
+			<td>Broadwell</td>
+			<td rowspan="3">14 nm</td>
+			<td rowspan="3">DRR4</td>
+			<td>2016</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Xeon W</td>
+			<td>W-x100</td>
+			<td>Skylake</td>
+			<td rowspan="2">LGA3647</td>
+			<td rowspan="2">X11/C621/C622</td>
+			<td rowspan="2">44x 3.0</td>
+			<td>2017</td>
+		</tr>
+		<tr>
+			<td>W-x200</td>
+			<td>Cascade Lake</td>
+			<td>2019</td>
+		</tr>
+	</tbody>
+</table>
+<h3>Xeon E5</h3>
+<p>Décodage d'une référence : <strong>E5-2650L v4</strong></p>
+<ul>
+<li>E5 : Gamme, il existe également E3 et E7.
+<ul>
+<li>E3 : est orienté <em>workstation</em></li>
+<li>E5 : serveur</li>
+<li>E7 : Serveur haut de gamme.</li>
+</ul>
+</li>
+<li>1/2/4 : nombre de socket maximal</li>
+<li>4/6 : desktop / serveur
+<ul>
+<li>4 socket desktop (à confirmé)</li>
+<li>6 socket serveur</li>
+</ul>
+</li>
+<li>50 : SKU, influe sur le nombre de coeur / frequence.</li>
+<li>L : Suffix
+<ul>
+<li>L : processeur basse consso</li>
+<li>? : je ne connais pas d'autre suffix</li>
+</ul>
+</li>
+<li>v4 : Architecture (cf tableau)
+<ul>
+<li>v1 : est generalement homis</li>
+</ul>
+</li>
+</ul>
+</section>
+	<footer>
+		<a href="2025/homelab-processeur.html"><span class="fa fa-eye"></span> Lire la suite</a>
+	</footer>
+</article>
+			
+				<article class="short">
+	<header>
 		<img src="pictures/titles/whisperia-1x09.png" title="Whisperia 9 : Balade en Forêt" alt="Whisperia 9 : Balade en Forêt" />
 		<h1><a href="2025/whisperia-1x09-balade-en-foret.html">Whisperia 9 : Balade en Forêt</a></h1>
 		<span class="date">10 mai 2025</span>
@@ -389,34 +503,6 @@ En effet, les impôts sur les alcools sont réduits quand on est membre de la gu
 	</footer>
 </article>
 			
-				<article class="short">
-	<header>
-		
-		<h1><a href="2025/debian-execute-task-before-and-after-suspend.html">Exécuter un script avant et après la mise en veille</a></h1>
-		<span class="date">08 avril 2025</span>
-		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
-		<span class="tags">
-			<span class="fa fa-flag"></span>
-			<a href="tag/debian.html">Debian</a><a href="tag/script.html">Script</a><a href="tag/systemd.html">Systemd</a><a href="tag/desktop.html">Desktop</a>
-		</span>
-	</header>
-	<section><p>Pendant longtemps j'ai cherché à exécuter des scripts avant et/ou après la mise en veille de mon pc.</p>
-<p>Actuellement je m'en sers sur mon pc principal pour éteindre le RGB quand il rentre en veille, et le rallumer quand il sort de cette veille.</p>
-<h2>Comment qu'on fait</h2>
-<p>Si on fait un <code>man systemd-suspend.service</code> on y apprend que tous les exécutables
-dans <strong>/usr/lib/systemd/system-sleep/</strong> sont exécuté avant et après une mise en veille avec deux argument :</p>
-<ul>
-<li>'pre' ou 'post' suivant si il rentre en veille ou si il en sort.</li>
-<li>les types de mise en veille 'suspend' ou 'hibernate' ...</li>
-</ul>
-<p>Donc on craies le dossier <strong>/usr/lib/systemd/system-sleep/</strong> si il n'existe pas.</p>
-<p>Et maintenant on peu y faire notre script :</p>
-</section>
-	<footer>
-		<a href="2025/debian-execute-task-before-and-after-suspend.html"><span class="fa fa-eye"></span> Lire la suite</a>
-	</footer>
-</article>
-			
 			<div class="chaptering">
 				
 				<a href="index-1.html">&lt;</a>
@@ -439,7 +525,7 @@ dans <strong>/usr/lib/systemd/system-sleep/</strong> sont exécuté avant et apr
 				</a><a href="category/linux.html">
 					Linux&nbsp;(8)
 				</a><a href="category/manga.html">
-					Manga&nbsp;(1)
+					Manga&nbsp;(2)
 				</a><a href="category/vie-du-blog.html">
 					Vie du Blog&nbsp;(1)
 				</a><a href="category/war-game.html">
@@ -483,7 +569,7 @@ dans <strong>/usr/lib/systemd/system-sleep/</strong> sont exécuté avant et apr
 				</a><a href="tag/docker.html">
 					Docker&nbsp;(1)
 				</a><a href="tag/dragon-ball.html">
-					Dragon Ball&nbsp;(1)
+					Dragon Ball&nbsp;(2)
 				</a><a href="tag/dungeon-and-laser.html">
 					Dungeon and Laser&nbsp;(1)
 				</a><a href="tag/d-cor.html">
@@ -521,7 +607,7 @@ dans <strong>/usr/lib/systemd/system-sleep/</strong> sont exécuté avant et apr
 				</a><a href="tag/linux.html">
 					Linux&nbsp;(6)
 				</a><a href="tag/manga.html">
-					Manga&nbsp;(1)
+					Manga&nbsp;(2)
 				</a><a href="tag/matos.html">
 					Matos&nbsp;(1)
 				</a><a href="tag/metal.html">
@@ -530,6 +616,8 @@ dans <strong>/usr/lib/systemd/system-sleep/</strong> sont exécuté avant et apr
 					Nains&nbsp;(1)
 				</a><a href="tag/nightaunt.html">
 					Nightaunt&nbsp;(1)
+				</a><a href="tag/nomnom-miniature.html">
+					NomNom Miniature&nbsp;(1)
 				</a><a href="tag/openrgb.html">
 					OpenRGB&nbsp;(1)
 				</a><a href="tag/peinture.html">
@@ -541,9 +629,11 @@ dans <strong>/usr/lib/systemd/system-sleep/</strong> sont exécuté avant et apr
 				</a><a href="tag/proxmox.html">
 					Proxmox&nbsp;(2)
 				</a><a href="tag/repaint.html">
-					Repaint&nbsp;(1)
+					Repaint&nbsp;(2)
 				</a><a href="tag/ressources.html">
 					Ressources&nbsp;(3)
+				</a><a href="tag/sangoku.html">
+					Sangoku&nbsp;(1)
 				</a><a href="tag/screenshost.html">
 					Screenshost&nbsp;(1)
 				</a><a href="tag/script.html">
@@ -552,6 +642,8 @@ dans <strong>/usr/lib/systemd/system-sleep/</strong> sont exécuté avant et apr
 					Seigneurs Ruinemânes&nbsp;(1)
 				</a><a href="tag/server.html">
 					Server&nbsp;(5)
+				</a><a href="tag/shenron.html">
+					Shenron&nbsp;(1)
 				</a><a href="tag/skaven.html">
 					Skaven&nbsp;(4)
 				</a><a href="tag/skaventide.html">
@@ -580,8 +672,16 @@ dans <strong>/usr/lib/systemd/system-sleep/</strong> sont exécuté avant et apr
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 				<ul class="tree">
 					<li>
-						<a href="#">2025 (27)</a>
+						<a href="#">2025 (28)</a>
 						<ul>
+							<li>
+								<a href="#">août (1)</a>
+								<ul>
+									<li>
+										<a href="2025/shenron-goku-nomnom.html">Shenron et Sangoku</a>
+									</li>
+								</ul>
+							</li>
 							<li>
 								<a href="#">juillet (4)</a>
 								<ul>
