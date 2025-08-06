@@ -27,7 +27,7 @@ category/wargame	War Game
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
 	category/manga	Manga
 		2025/repaint-bulma	Repaint d'une Bulma
-		2025/shenron-goku-nomnom	Shenron et Sangoku	2025-09-07
+		2025/shenron-goku-nomnom	Shenron et Sangoku
 		2026/mononokee-nomnom	Princesse Mononokee	2026-02-14
 	tag/d-fi	Défi Peinture
 		2025/annee-2024-defi-peinture	2024 une année de défi
