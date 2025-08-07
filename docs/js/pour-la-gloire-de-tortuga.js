@@ -658,6 +658,7 @@ q(function() {
 		.progress("01/08/2025", whisp, 1, "Catfolk", _SMALL)
 		.progress("03/08/2025", shionn, 5, "Moto Gasland", _MEDIUM)
 		.progress("06/08/2025", tony, 1, "Dragon mignon", _MEDIUM)
+		.progress("07/08/2025", angest, 1, "Duplolas", _MEDIUM)
 		.render();
 							
 //			
