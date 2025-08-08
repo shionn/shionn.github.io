@@ -16,6 +16,7 @@ Voici quelques tuto trouvé sur le net que j'ai utilisé avec succes.
 - [Template LXC avec desktop](https://forum.proxmox.com/threads/how-to-create-a-template-for-lxc-ubuntu-desktop-with-sound.73695/)
 - [Installation de Home Assistant](https://forum.proxmox.com/threads/guide-install-home-assistant-os-in-a-vm.143251/)
 - [Nas ZFS en container LXC](https://www.youtube.com/watch?si=uNb3HVNwdK8xJMQQ&v=I7nfSCNKeck&feature=youtu.be)
+- [Le Wiki de Linuxon](https://wiki.julien68.fr/)
 
 ## Chaines Youtube
 
