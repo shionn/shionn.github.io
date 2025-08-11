@@ -667,6 +667,7 @@ q(function() {
 	let q24 = new _quest("quest-20", "Remplir les Coffres", "Peindre 25 figurines en 15 jours", 20)
 		.progress("10/08/2025", angest, 1, "Protecteur", _SMALL)
 		.progress("10/08/2025", shionn, 9, "Yv'anda - Dryad Observers", _SMALL)
+		.progress("10/08/2025", angest, 1, "Protecteur", _SMALL)
 		.render();
 	
 							

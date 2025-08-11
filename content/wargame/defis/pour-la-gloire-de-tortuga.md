@@ -98,6 +98,7 @@ Voici les badges actuellement connu :
 
 ### Jour 222 Remplir les caisses
 
+<div id="quest-24"></div>
 
 [gallery]
 pictures/defis/tortuga-2025/map23.png
