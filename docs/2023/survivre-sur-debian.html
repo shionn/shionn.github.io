@@ -382,6 +382,13 @@ sudo apt install steam
 <pre class="shell"><code class="shell">echo &quot;context.properties = {default.clock.min-quantum = 1024}&quot; | sudo tee pipewire.conf 
 </code></pre>
 <p><a href="https://www.reddit.com/r/linux_gaming/comments/1gy347h/newbie_here_ive_tried_almost_all_fixes_theres/" target="_blank">Source reddit</a></p>
+<h3>jeu qui crashe avec bcp de sacade (hogward legacy)</h3>
+<p>Parfois c'est du manque de nmap. Le jeux crash avec une erreur <code>MAPPING_ERROR: 0x0</code>. Faire un <code>cat /proc/sys/vm/max_map_count</code> et voir la valeur pour la doubler, dans mon cas 1048576. On double la valeur.</p>
+<p>Doubler la valeur de maniere temporaire : <code>sudo sysctl -w vm.max_map_count=2097152</code></p>
+<p>De maniere définitive :</p>
+<pre class="bash"><code class="bash">echo &quot;vm.max_map_count=2097152&quot; | sudo tee -a /etc/sysctl.conf
+sudo sysctl -p
+</code></pre>
 <h2>Journalctl</h2>
 <h3>Log qui spam</h3>
 <p>J'ai un spam de ce log.</p>
