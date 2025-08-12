@@ -668,6 +668,8 @@ q(function() {
 		.progress("10/08/2025", angest, 1, "Protecteur", _SMALL)
 		.progress("10/08/2025", shionn, 9, "Yv'anda - Dryad Observers", _SMALL)
 		.progress("10/08/2025", angest, 1, "Protecteur", _SMALL)
+		.progress("12/08/2025", angest, 1, "Furet Rôdeur", _SMALL)
+		.progress("13/08/2025", angest, 1, "Furet Rôdeur", _SMALL)
 		.render();
 	
 							

@@ -315,18 +315,19 @@ J'aime faire ce dossier caché, mais rien ne vous y oblige.</p>
 <pre class="bash"><code class="bash">python3 -m venv .venv
 </code></pre>
 <p>Puis il faut activer l'envirronement, pour cela entrer la commande suivante.
-Cela va changer votre invite de commance en passant de cela <code>user@host:path$</code> à cela <code>(.venv) user@host:path$</code></p>
+Cela va changer votre invite de commance en passant de cela <code>user@host:path$</code> à cela <code>(.venv) user@host:path$</code>.</p>
 <pre class="bash"><code class="bash">source .venv/bin/activate
 </code></pre>
 <h2>Dépendance</h2>
 <p>Dans le dossier de votre projet, creer un fichier <code>requirements.txt</code> et dedans ajouter les lignes :</p>
-<pre class="java"><code class="java">flask&gt;=2.3.2
-flask-sqlalchemy&gt;=3.0.3
-waitress&gt;=3.0.2
+<pre class="java"><code class="java">flask
+flask-sqlalchemy
+waitress
 </code></pre>
 <p>Puis dans le dossier du projet, avec le venv d'activer, faites cela pour installer les dépendances en locales :</p>
 <pre class="bash"><code class="bash">pip install -r requirements.txt
 </code></pre>
+<h2>Préparation des répertoires</h2>
 <p>sqlitebrowser</p>
 </section>
 	<footer>
@@ -851,7 +852,7 @@ waitress&gt;=3.0.2
 	<script type="text/javascript" src="js/comment.js"></script>
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
 	
-		<script type="text/javascript" src="js/hljs/java.min.js"></script>
+		<script type="text/javascript" src="js/hljs/python.min.js"></script>
 	
 		<script type="text/javascript" src="js/hljs/bash.min.js"></script>
 	

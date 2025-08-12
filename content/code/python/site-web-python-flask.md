@@ -28,7 +28,7 @@ python3 -m venv .venv
 ~~~
 
 Puis il faut activer l'envirronement, pour cela entrer la commande suivante. 
-Cela va changer votre invite de commance en passant de cela `user@host:path$` à cela `(.venv) user@host:path$`
+Cela va changer votre invite de commance en passant de cela `user@host:path$` à cela `(.venv) user@host:path$`.
 
 ~~~bash
 source .venv/bin/activate
@@ -39,9 +39,9 @@ source .venv/bin/activate
 Dans le dossier de votre projet, creer un fichier `requirements.txt` et dedans ajouter les lignes : 
 
 ~~~
-flask>=2.3.2
-flask-sqlalchemy>=3.0.3
-waitress>=3.0.2
+flask
+flask-sqlalchemy
+waitress
 ~~~
 
 Puis dans le dossier du projet, avec le venv d'activer, faites cela pour installer les dépendances en locales :
@@ -49,5 +49,12 @@ Puis dans le dossier du projet, avec le venv d'activer, faites cela pour install
 ~~~bash
 pip install -r requirements.txt
 ~~~
+
+## Préparation des répertoires
+
+
+
+
+
 
 sqlitebrowser
