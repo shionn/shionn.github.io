@@ -141,6 +141,20 @@ echo "context.properties = {default.clock.min-quantum = 1024}" | sudo tee pipewi
 ~~~
 [Source reddit](https://www.reddit.com/r/linux_gaming/comments/1gy347h/newbie_here_ive_tried_almost_all_fixes_theres/)
 
+### jeu qui crashe avec bcp de sacade (hogward legacy)
+
+Parfois c'est du manque de nmap. Le jeux crash avec une erreur `MAPPING_ERROR: 0x0`. Faire un `cat /proc/sys/vm/max_map_count` et voir la valeur pour la doubler, dans mon cas 1048576. On double la valeur. 
+
+Doubler la valeur de maniere temporaire : `sudo sysctl -w vm.max_map_count=2097152`
+
+De maniere définitive : 
+
+~~~bash
+echo "vm.max_map_count=2097152" | sudo tee -a /etc/sysctl.conf
+sudo sysctl -p
+~~~
+
+
 ## Journalctl
 ### Log qui spam
 
