@@ -1,0 +1,10 @@
+{
+	"type": "post",
+	"date": "2025/12/12",
+	"title": "Un site web en Python avec Flask",
+	"tags": ["Python", "Web" ],
+	"category": "Code",
+	"published": false,
+	"js" : [ "js/hljs/java.min.js", "js/hljs/bash.min.js", "js/hljs/xml.min.js" ],
+	"author": "Shionn"
+}

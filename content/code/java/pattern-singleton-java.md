@@ -1,6 +1,6 @@
-## Pattern conseillé
-
 J'ai écris cet article il y a une dixaine d'année au travail, mon chef m'as donné l'autorisation de partager cela sur mon blog. 
+
+## Pattern conseillé
 
 Généralement lorsque l'on souhait faire un singleton chargé au dernier moment (Lazy Instance) on conseille d’utiliser ce pattern :
 
