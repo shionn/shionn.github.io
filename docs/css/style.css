@@ -735,6 +735,10 @@ pre code.java .hljs-string, pre code.shell .hljs-string {
 pre code.java .hljs-meta, pre code.shell .hljs-meta {
   color: #646464;
 }
+pre code.bash .hljs-built_in {
+  font-weight: bold;
+  color: #00007f;
+}
 pre code.cpp .hljs-meta {
   color: #0000ff;
 }
@@ -762,12 +766,64 @@ pre code.cpp .hljs-comment {
 pre code.cpp .hljs-type {
   color: #0d0dff;
 }
-pre code.xml {
-  color: #6d9ae3;
+pre code.python .hljs-comment {
+  color: #d00000;
 }
-pre code.xml .hljs-literal {
-  color: #7f005f;
+pre code.python .hljs-built_in {
   font-weight: bold;
+  color: #991111;
+}
+pre code.python .hljs-keyword {
+  font-weight: bold;
+  color: #00007f;
+}
+pre code.python .hljs-meta {
+  color: #ff8000;
+}
+pre code.python .hljs-params {
+  color: #381919;
+}
+pre code.python .hljs-string {
+  color: #ff952b;
+}
+pre code.python .hljs-title {
+  font-weight: bold;
+  color: #00007f;
+}
+pre code.sql .hljs-comment {
+  color: #d00000;
+}
+pre code.sql .hljs-keyword {
+  font-weight: bold;
+  color: #00007f;
+}
+pre code.sql .hljs-number {
+  color: #007f00;
+}
+pre code.sql .hljs-type {
+  font-weight: bold;
+  color: #00007f;
+}
+pre code.xml .hljs-attr {
+  font-weight: normal;
+  color: #00007f;
+}
+pre code.xml .hljs-comment {
+  color: #d00000;
+}
+pre code.xml .hljs-keyword {
+  color: #00007f;
+}
+pre code.xml .hljs-meta {
+  color: #007f00;
+}
+pre code.xml .hljs-string {
+  font-weight: normal;
+  color: #008000;
+}
+pre code.xml .hljs-tag {
+  font-weight: bold;
+  color: #0000d0;
 }
 
 article.category h1, article.tag h1 {
@@ -790,6 +846,7 @@ article h1 {
 article h2 {
   font-size: 1.2em;
   padding-left: 25px;
+  padding-top: 55px;
   border-bottom: dashed 4px #d8ae47;
   padding-bottom: 10px;
 }
@@ -801,6 +858,7 @@ article h2 {
 article h3 {
   font-size: 1.1em;
   padding-left: 50px;
+  padding-top: 45px;
   border-bottom: dashed 3px #d8ae47;
   padding-bottom: 10px;
 }
@@ -869,7 +927,7 @@ article header .tags a:not(:last-child)::after {
   content: ", ";
 }
 article footer {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 article footer .author {
   font-size: larger;

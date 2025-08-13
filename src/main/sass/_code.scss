@@ -31,6 +31,14 @@ pre {
 		}
 	}
 	
+	// couleur de je me demerde
+	code.bash {
+		.hljs-built_in {
+			font-weight: bold;
+			color: #00007f;
+		}
+	}
+	
 	code.cpp {
 		.hljs-meta {
 			color: #0000ff;
@@ -62,11 +70,76 @@ pre {
 		}
 	}
 	
-	code.xml {
-		color: #6d9ae3;
-		.hljs-literal {
-			color: rgb(127, 0, 95);
-			font-weight: bold;
+	// couleur de geany
+	code.python {
+		.hljs-comment {
+			color: #d00000;
 		}
+		.hljs-built_in {
+			font-weight: bold;
+			color: #991111;
+		}
+		.hljs-keyword {
+			font-weight: bold;
+			color: #00007f;
+		}
+		.hljs-meta {
+			color: #ff8000;
+		}
+		.hljs-params {
+			color: #381919;
+		}
+		.hljs-string {
+			color: #ff952b;
+		}
+		.hljs-title {
+			font-weight: bold;
+			color: #00007f;
+		}
+		
+	}
+	
+	// couleur de geany
+	code.sql {
+		.hljs-comment {
+			color: #d00000;
+		}
+		.hljs-keyword {
+			font-weight: bold;
+			color: #00007f;
+		}
+		.hljs-number {
+			color: #007f00;
+		}
+		.hljs-type {
+			font-weight: bold;
+			color: #00007f;
+		}
+	}
+	
+	// couleur de geany
+	code.xml {
+		.hljs-attr {
+			font-weight: normal;
+			color: #00007f;
+		}
+		.hljs-comment {
+			color: #d00000;
+		}
+		.hljs-keyword {
+			color: #00007f;
+		}
+		.hljs-meta {
+			color: #007f00;
+		}
+		.hljs-string {
+			font-weight: normal;
+			color: #008000;
+		}
+		.hljs-tag {
+			font-weight: bold;
+			color: #0000d0;
+		}
+		
 	}
 }
