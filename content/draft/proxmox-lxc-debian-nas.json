@@ -1,0 +1,11 @@
+{
+	"type": "post",
+	"date": "2025/01/01",
+	"title": "Nas ZFS sur Proxmox via Webmin",
+	"tags": ["Linux", "Proxmox", "Debian", "Server", "Nas", "Zfs"],
+	"category": "Linux",
+	"published": false,
+	"logo" : "pictures/titles/linux-proxmox-samba-nfs-webmin-debian.jpg",
+	"author": "Shionn",
+	"js" : [ "js/hljs/bash.min.js" ]
+}
