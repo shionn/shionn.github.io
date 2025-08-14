@@ -45,6 +45,7 @@ https://shionn.github.io/2024/whisperia-1x02-orcs-et-chaussette.html
 https://shionn.github.io/2025/annee-2024-defi-peinture.html
 https://shionn.github.io/2025/armee-gloomspite-gitz.html
 https://shionn.github.io/2025/armee-gobs.html
+https://shionn.github.io/2025/bot-discord-en-java.html
 https://shionn.github.io/2025/col-du-crane-gobs-lanciers.html
 https://shionn.github.io/2025/debian-execute-task-before-and-after-suspend.html
 https://shionn.github.io/2025/decor-skaventide.html
@@ -97,6 +98,7 @@ https://shionn.github.io/tag/d-fi.html
 https://shionn.github.io/tag/debian.html
 https://shionn.github.io/tag/desktop.html
 https://shionn.github.io/tag/developpement.html
+https://shionn.github.io/tag/discord.html
 https://shionn.github.io/tag/dnd.html
 https://shionn.github.io/tag/docker.html
 https://shionn.github.io/tag/dok.html
