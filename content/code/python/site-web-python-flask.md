@@ -1,5 +1,5 @@
 
-Pendant l'été 2025 j'ai aider la commu discord de (STEvE)[https://www.youtube.com/channel/UCzhfRQKiMlcRR-xFh-jvDeQ] 
+Pendant l'été 2025 j'ai aider la commu discord de [STEvE](https://www.youtube.com/channel/UCzhfRQKiMlcRR-xFh-jvDeQ) 
 à faire un bot pour discord avec une interface web avec Flask. Je ne suis pas un dev python experimenté, 
 je suis débutant en python donc je pense que j'ai pas tous fait dans les regle de l'art.
 
@@ -334,5 +334,5 @@ J'espere que mon code ne fera pas mal aux yeux au expert du python, mais si vous
 
 Enfin si vous tombez sur ce tuto j'espere qu'il vous aidera
 
-### ressource
-- [le code sur github]()
+### Ressource
+- [le code sur github](https://github.com/shionn/FlaskBookTuto)
