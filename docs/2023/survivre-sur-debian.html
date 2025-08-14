@@ -400,7 +400,7 @@ sudo sysctl -p
 <p>Il semblerai qu'ajouter l'option suivante la grub resolve le probleme :</p>
 <pre class="shell"><code class="shell">GRUB_CMDLINE_LINUX=&quot;pcie_port_pm=off&quot;
 </code></pre>
-<h2>Meteriel</h2>
+<h2>Materiel</h2>
 <h3>Faire un smart profond</h3>
 <pre class="shell"><code class="shell"># lancer le test
 sudo smartctl -t long /dev/nvme0
@@ -408,6 +408,10 @@ sudo smartctl -t long /dev/nvme0
 sudo smartctl -a /dev/nvme0 | grep -i progress
 # voir les resultat
 sudo smartctl -a /dev/nvme0
+</code></pre>
+<h2>Proxmox</h2>
+<h3>changer le hostname d'un container</h3>
+<pre class="shell"><code class="shell">pct set &lt;VMID&gt; --hostname &lt;newname&gt;
 </code></pre>
 <h2>Vidéo</h2>
 <h3>OBS pas de Vaapi</h3>
