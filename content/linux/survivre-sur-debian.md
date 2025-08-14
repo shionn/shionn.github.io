@@ -170,7 +170,7 @@ Il semblerai qu'ajouter l'option suivante la grub resolve le probleme :
 GRUB_CMDLINE_LINUX="pcie_port_pm=off"
 ~~~
 
-## Meteriel
+## Materiel
 ### Faire un smart profond
 
 ~~~shell
@@ -180,6 +180,13 @@ sudo smartctl -t long /dev/nvme0
 sudo smartctl -a /dev/nvme0 | grep -i progress
 # voir les resultat
 sudo smartctl -a /dev/nvme0
+~~~
+
+## Proxmox
+### changer le hostname d'un container
+
+~~~shell
+pct set <VMID> --hostname <newname>
 ~~~
 
 ## Vidéo
