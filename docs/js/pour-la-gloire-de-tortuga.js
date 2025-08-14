@@ -670,6 +670,7 @@ q(function() {
 		.progress("10/08/2025", angest, 1, "Protecteur", _SMALL)
 		.progress("12/08/2025", angest, 1, "Furet Rôdeur", _SMALL)
 		.progress("13/08/2025", angest, 1, "Furet Rôdeur", _SMALL)
+		.progress("14/08/2025", angest, 1, "Protecteur", _SMALL)
 		.render();
 	
 							

@@ -12,6 +12,7 @@ Apres avoir installer un container debian avec ces options :
 - 8go de Disk
 - 2 cpu
 - 1024Mo de ram
+- features nesting=1
 
 ### Montage des pool ZFS
 
