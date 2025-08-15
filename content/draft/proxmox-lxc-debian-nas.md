@@ -29,7 +29,7 @@ Installation des composants :
 apt install samba nfs-kernel-server curl psmisc
 ~~~
 
-Sur votre serveuir proxmox il faut également installer nfs-kernel-server
+Sur votre serveur proxmox il faut également installer nfs-kernel-server
 
 Installation de webmin : 
 
