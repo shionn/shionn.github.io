@@ -1,41 +1,41 @@
 
-Pendant l'été 2025 j'ai aider la commu discord de [STEvE](https://www.youtube.com/channel/UCzhfRQKiMlcRR-xFh-jvDeQ) 
-à faire un bot pour discord avec une interface web avec Flask. Je ne suis pas un dev python experimenté, 
-je suis débutant en python donc je pense que j'ai pas tous fait dans les regle de l'art.
+Pendant l'été 2025 j'ai aidé la communauté Discord de [STEvE](https://www.youtube.com/channel/UCzhfRQKiMlcRR-xFh-jvDeQ) 
+à faire un bot pour Discord avec une interface web avec Flask. Je ne suis pas un dev python expérimenté, 
+je suis débutant en python donc je pense que j'ai pas tous fait dans les règles de l'art.
 
 ## Environnement Python
 
 C'est mon tous premier tuto avec python, aussi voici comment configurer un environnement de dev. 
-Creer un dossier qui contiendra votre dossier, pour cet exemple `FlaskBookTuto`. 
+Créer un dossier qui contiendra votre dossier, pour cet exemple `FlaskBookTuto`. 
 
 ### Installer les dépendances
 
-Sous debian, j'installe les dépendance suivante. 
+Sous Debian, j'installe les dépendances suivantes. 
 
 ~~~bash
 apt install python3 python3-pip python3-venv
 ~~~
 
-Je code avec vccode avec l'extenssion [ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python). 
-J'utilise sqlitebrowser si j'ai besoin de parcourir la bdd avec un outil.
+Je code avec vscode avec l'extension [ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python). 
+J'utilise SqliteBrowser si j'ai besoin de parcourir la bdd avec un outil.
 
 ### Environnement local python
 
 Python, niveau version et dépendance c'est pas mal de la merde. 
-Il est poréférable de creer ce qu'on appel un *venv* 
-c'est à dire comme un genre d'envirronement python local dans lequel on installe 
-les dépendences de notre projet et on ne touche pas au lib du python du system. 
+Il est préférable de créer ce qu'on appel un *venv* 
+c'est à dire comme un genre d'environnement python local dans lequel on installe 
+les dépendances de notre projet et on ne touche pas au lib python du system d'exploitation. 
 
 Pour cela dans le dossier du projet, entrer cette commande, 
-ca crais un dossier dans lequel s'install les dependances pythons avec les stript d'activation utile.
-J'aime faire ce dossier caché que j'appel **.venv**, mais rien ne vous y oblige. 
+cela craies un dossier dans lequel s'installe les dépendances pythons avec les scripts d'activation utile.
+J'aime faire ce dossier caché que j'appelle **.venv**, mais rien ne vous y oblige. 
 
 ~~~bash
 python3 -m venv .venv
 ~~~
 
-Puis il faut activer l'envirronement, pour cela entrer la commande suivante. 
-Cela va changer votre invite de commance en passant de cela `user@host:path$` à cela `(.venv) user@host:path$`.
+Puis il faut activer l'environnement, pour cela entrer la commande suivante. 
+Cela va changer votre invite de commande en passant de cela `user@host:path$` à cela `(.venv) user@host:path$`.
 
 ~~~bash
 source .venv/bin/activate
@@ -43,7 +43,7 @@ source .venv/bin/activate
 
 ## Dépendance
 
-Dans le dossier de votre projet, creer un fichier `requirements.txt` et dedans ajouter les lignes : 
+Dans le dossier de votre projet, créer un fichier `requirements.txt` et dedans ajouter les lignes : 
 
 ~~~
 # pour le site web
@@ -54,7 +54,7 @@ flask-sqlalchemy>=3.1
 waitress>=3.0
 ~~~
 
-Puis dans le dossier du projet, avec le venv d'activer, faites cela pour installer les dépendances en locales :
+Puis dans le dossier du projet, avec le venv d'activé, faites cela pour installer les dépendances en locales :
 
 ~~~bash
 pip install -r requirements.txt
@@ -62,12 +62,12 @@ pip install -r requirements.txt
 
 ## Code
 
-Dans cette exemple, nous allons faire un site qui gere une bibliothe de livre (manga ou BD). 
+Dans cette exemple, nous allons faire un site qui gère une bibliothèque de livre (manga ou BD). 
 
-Voici les fonctionnalité : 
+Voici les fonctionnalités : 
 - Afficher la liste des livres
 - Ajouter une entrée
-- Modifier et supprimer une entrée
+- Supprimer une entrée
 
 ### Organisation
 
@@ -87,7 +87,7 @@ FlaskBookTuto
 |-- schema.sql # contiendra la structure de la bdd
 ~~~
 
-### Page d'acceuil
+### Page d'accueil
 
 Pour l'instant nous allons faire un simple hello world.
 
@@ -117,9 +117,9 @@ if __name__ == '__main__':
 
 Flask utilise jinja2 pour le templating html. 
 Ici je propose de faire un fichier **template.html** qui contiendrais la structure générale du site 
-et les fichiers html definirai uniquement ce qui change de page en page. 
+et les fichiers html définirai uniquement ce qui change de page en page. 
 
-Pour le CSS je vais utiliser un framework que j'aime particulierement [mvp.css](https://andybrewer.github.io/mvp/) que je vais mettre dans /webapp/static. 
+Pour le CSS je vais utiliser un framework que j'aime particulièrement [mvp.css](https://andybrewer.github.io/mvp/) que je vais mettre dans /webapp/static. 
 J'ajoute aussi un favicon mais je ne m'attarde pas dessus.
 
 ~~~xml
@@ -202,7 +202,7 @@ webapp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 db = SQLAlchemy(webapp)
 
 # initialisation de la BDD une fois que la webapp est lancer
-# importer et executer le fichier schema.sql
+# importer et exécuter le fichier schema.sql
 with webapp.app_context():
 	with open('schema.sql', 'r') as f:
 		sql = f.read()
@@ -251,7 +251,7 @@ def submitAddBook():
 	book = Book(name=request.form.get('name'))
 	db.session.add(book)
 	db.session.commit()
-	#url_for prend en parametre le nom de la methode
+	#url_for prend en paramètre le nom de la méthode
 	return redirect(url_for('index'))
 
 @webapp.route('/remove/<id>')
@@ -261,7 +261,7 @@ def removeBook(id):
 	return redirect(url_for('index'))
 ~~~
 
-Et les fichiers HTML qui en decoulent : 
+Et les fichiers HTML qui en découlent : 
 
 ~~~xml
 <!-- fichier webapp/templates/index.html -->
@@ -330,9 +330,9 @@ if __name__ == '__main__':
 ## Conclusion
 
 Je voulais apprendre à faire un peu de python depuis un moment. 
-J'espere que mon code ne fera pas mal aux yeux au expert du python, mais si vous l'êtes, que faites vous la ? 
+J'espère que mon code ne fera pas mal aux yeux au expert du python, mais si vous l'êtes, que faites vous la ? 
 
-Enfin si vous tombez sur ce tuto j'espere qu'il vous aidera
+Enfin si vous tombez sur ce tuto j'espère qu'il vous aidera.
 
 ### Ressource
 - [le code sur github](https://github.com/shionn/FlaskBookTuto)
