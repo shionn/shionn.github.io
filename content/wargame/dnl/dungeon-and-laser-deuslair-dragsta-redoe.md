@@ -7,7 +7,22 @@ Ici je vous proposent les figurines du core set de la faction **Alliance de Redo
 
 ### Harrat Wing
 
-TODO
+- Peinte en Aout 2025
+- En 8 heure environ.
+
+[gallery w=450 h=200]
+pictures/dungeon-and-laser/deuslair/core/redoe/harrat-wing/01.jpg
+[/gallery]
+[gallery w=450 h=200]
+pictures/dungeon-and-laser/deuslair/core/redoe/harrat-wing/02.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/harrat-wing/03.jpg
+[/gallery]
+[gallery w=150 h=200]
+pictures/dungeon-and-laser/deuslair/core/redoe/harrat-wing/04.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/harrat-wing/05.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/harrat-wing/06.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/harrat-wing/07.jpg
+[/gallery]
 
 ### Jannah
 
@@ -26,6 +41,8 @@ pictures/dungeon-and-laser/deuslair/core/redoe/jannah/2.jpg
 
 [gallery w=450 h=200]
 pictures/dungeon-and-laser/deuslair/core/redoe/yvanda/1.jpg
+[/gallery]
+[gallery w=450 h=200]
 pictures/dungeon-and-laser/deuslair/core/redoe/yvanda/2.jpg
 pictures/dungeon-and-laser/deuslair/core/redoe/yvanda/3.jpg
 pictures/dungeon-and-laser/deuslair/core/redoe/yvanda/4.jpg
@@ -39,7 +56,24 @@ pictures/dungeon-and-laser/deuslair/core/redoe/yvanda/8.jpg
 
 ### Knights of Tidor
 
-TODO
+- Peinte en Aout 2025
+- En 5 heure environ.
+
+[gallery w=500 h=200]
+pictures/dungeon-and-laser/deuslair/core/redoe/knights-tidor/01.jpg
+[/gallery]
+[gallery w=150 h=200]
+pictures/dungeon-and-laser/deuslair/core/redoe/knights-tidor/02.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/knights-tidor/03.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/knights-tidor/04.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/knights-tidor/05.jpg
+[/gallery]
+[gallery w=400 h=200]
+pictures/dungeon-and-laser/deuslair/core/redoe/knights-tidor/06.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/knights-tidor/07.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/knights-tidor/08.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/knights-tidor/09.jpg
+[/gallery]
 
 ### Ancient Protectors
 
