@@ -1,0 +1,11 @@
+{
+	"type": "post",
+	"date": "2026/01/05",
+	"title": "Bot twitch en Python",
+	"logo" : "pictures/titles/code-python-twitch.jpg",
+	"tags": ["Python", "Twitch" ],
+	"category": "Code",
+	"published": true,
+	"js" : [ "js/hljs/python.min.js", "js/hljs/bash.min.js"],
+	"author": "Shionn"
+}

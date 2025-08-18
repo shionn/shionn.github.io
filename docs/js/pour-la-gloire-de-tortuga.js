@@ -676,6 +676,7 @@ q(function() {
 		.progress("16/08/2025", angest, 1, "Abomination", _MEDIUM)
 		.progress("16/08/2025", angest, 1, "ogre blood bowl", _MEDIUM)
 		.progress("17/08/2025", angest, 1, "ogre blood bowl", _MEDIUM)
+		.progress("17/08/2025", angest, 1, "Troll de Bloodbowl", _MEDIUM)
 		.render();
 	
 							

@@ -290,41 +290,85 @@
 		<div class="main">
 			<article>
 	<header>
-		
-		<h1><a href="2024/mes-armees.html">Mes Armées</a></h1>
-		<span class="date">28 février 2024</span>
-		<a class="category" href="category/war-game.html"><span class="fa fa-folder-open"></span> War Game</a>
+		<img src="pictures/titles/code-python-twitch.jpg" title="Bot twitch en Python" alt="Bot twitch en Python" />
+		<h1><a href="draft/bot-twitch-python.html">Bot twitch en Python</a></h1>
+		<span class="date">05 janvier 2026</span>
+		<a class="category" href="category/code.html"><span class="fa fa-folder-open"></span> Code</a>
 		<span class="tags">
 			<span class="fa fa-flag"></span>
-			<a href="tag/war-game.html">War Game</a><a href="tag/arm-e.html">Armée</a>
+			<a href="tag/python.html">Python</a><a href="tag/twitch.html">Twitch</a>
 		</span>
 	</header>
-	<section><p>Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes photos de mes armée sur instagram, j'ai décidé de ne pas l'écouter et de le faire ici.</p>
-<h2>Age of Sigmar</h2>
+	<section><p>Dans ce tuto je vais essayé de vous montrer comment créer un chat bot en python pour twitch.</p>
+<h2>Procedure configuration de Twitch</h2>
+<p>Rendez vous sur <a href="https://dev.twitch.tv/console" target="_blank">la console d'application twitch</a> et ajouter une application. Renseigner :</p>
 <ul>
-<li><em>à venir Fille de Khaine</em></li>
-<li><a href="2024/kruelboyz-dominion.html">Kruelboys</a></li>
-<li><a href="2024/armee-naine-cos.html">Nains (Citée de Simar)</a></li>
-<li><em>à venir Noir Serment</em></li>
-<li><a href="2023/armee-nighthaunt.html">Nighthaunt</a></li>
-<li><a href="2023/armee-skaven.html">Skaven</a></li>
-<li><a href="2025/armee-gloomspite-gitz.html">Gloomspite Gitz</a></li>
+<li>url de redirection : https://twitchtokengenerator.com</li>
+<li>catégorie : Chat Bot</li>
 </ul>
-<h2>Warhammer Battle</h2>
+<div class="gallery"><a href="/pictures/code/python/twitch/02.jpg"><img src="/pictures/code/python/twitch/02.jpg"></a></div>
+<p>Creer le bot. Puis de retour à la liste, editer le en cliquant sur Gérer.
+Puis cliquer sur <strong>Nouveau Secret</strong>. Vous trouvez ici le <strong>Client ID</strong> et <strong>Client Secret</strong>.</p>
+<div class="gallery"><a href="/pictures/code/python/twitch/03.jpg"><img src="/pictures/code/python/twitch/03.jpg"></a></div>
+<p>Ensuite rendez vous sur <a href="https://twitchtokengenerator.com/" target="_blank">twitchtokengenerator.com</a> et selectionner
+<strong>Custum Scope Target</strong>. Dans la section <strong>Use My Client Secret and Client ID</strong>, renseigner les deux champs.</p>
+<div class="gallery"><a href="/pictures/code/python/twitch/04.jpg"><img src="/pictures/code/python/twitch/04.jpg"></a></div>
+<p>Ensuite dans la section <strong>Available Token Scopes</strong>, cocher <em>chat:read</em> et <em>chat:edit</em>.
+Puis, dans la même section, cliquer sur <strong>Generate token</strong>.</p>
+<div class="gallery"><a href="/pictures/code/python/twitch/05.jpg"><img src="/pictures/code/python/twitch/05.jpg"></a></div>
+<p>Suivez la procédure et vous avez votre <strong>Access Token</strong> et <strong>Refresh Token</strong>.</p>
+<div class="gallery"><a href="/pictures/code/python/twitch/06.jpg"><img src="/pictures/code/python/twitch/06.jpg"></a></div>
+<h2>Code</h2>
+<p>J'utilise la lib python <a href="https://pypi.org/project/twitchAPI/" target="_blank">twitchAPI</a>.</p>
+<pre class="bash"><code class="bash">pip install twitchAPI
+</code></pre>
+<p>Je passe pas trop de temps sur le code c'est surtout les clefs d'api qui sont chiante à avoir.</p>
+<pre class="python"><code class="python">import asyncio
+
+from twitchAPI.twitch import Twitch
+from twitchAPI.type import AuthScope, ChatEvent
+from twitchAPI.chat import Chat, ChatEvent, ChatMessage, EventData
+
+
+CLIENT_ID='&lt;Votre Client ID&gt;'
+CLIENT_SECRET='&lt;Votre Client Secret&gt;'
+ACCESS_TOKEN='&lt;Votre Access Token&gt;'
+REFRESH_TOKEN='&lt;Votre Refresh Token&gt;'
+
+SCOPES = [AuthScope.CHAT_READ, AuthScope.CHAT_EDIT]
+
+CHANNEL='#&lt;Canal twitch à rejoindre&gt;'
+
+async def on_ready(ready_event: EventData):
+	print('Le bot est connecté au chat')
+	await ready_event.chat.join_room(CHANNEL)
+
+async def on_message(msg: ChatMessage):
+	print(f'{msg.user.name} dis: {msg.text}')
+
+async def hello_command(cmd: ChatMessage):
+	await cmd.reply(f'Bonjour {cmd.user.name}')
+
+async def start() : 
+	twitch = await Twitch(CLIENT_ID, CLIENT_SECRET)
+	await twitch.set_user_authentication(ACCESS_TOKEN, SCOPES, REFRESH_TOKEN)
+	chat = await Chat(twitch)
+	chat.register_event(ChatEvent.READY, on_ready)
+	chat.register_event(ChatEvent.MESSAGE, on_message)
+	chat.register_command('hello', hello_command)
+	chat.start()
+
+if __name__ == &quot;__main__&quot;:
+	asyncio.run(start())
+</code></pre>
+<h2>Ressources</h2>
 <ul>
-<li><a href="2024/armee-elfes-noirs.html">Elfes Noirs</a></li>
-<li><a href="2025/armee-gobs.html">Gobelin de la Nuit</a></li>
+<li><a href="https://pypi.org/project/twitchAPI" target="_blank">https://pypi.org/project/twitchAPI</a></li>
+<li><a href="https://twitchtokengenerator.com" target="_blank">https://twitchtokengenerator.com</a></li>
 </ul>
-<h2>Underworld</h2>
-<ul>
-<li><a href="2024/underworld-dok.html">Filles de Khaine</a> <em>3 bandes</em></li>
-<li><a href="2024/underworld-soulblight.html">Seigneurs Ruinemânes</a> <em>2 bandes</em></li>
-<li><a href="2025/underworld-gloom-gitz-zarbags.html">Gloomspite Gitz</a> <em>1 bandes</em></li>
-</ul>
-<p>Pas d'insta, pas d'insta, pas d'insta.</p>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 28 février 2024<span>, derniére modification le 17 août 2025</span>.</em>
+		<em class="author">par Shionn, le 05 janvier 2026.</em>
 		<h2>Commentaires</h2>
 		<div class="comments">
 			
@@ -849,6 +893,10 @@
 	<script type="text/javascript" src="js/tree.js"></script>
 	<script type="text/javascript" src="js/comment.js"></script>
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
+	
+		<script type="text/javascript" src="js/hljs/python.min.js"></script>
+	
+		<script type="text/javascript" src="js/hljs/bash.min.js"></script>
 	
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
