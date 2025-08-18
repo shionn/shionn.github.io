@@ -678,10 +678,13 @@ q(function() {
 		.progress("17/08/2025", angest, 1, "ogre blood bowl", _MEDIUM)
 		.progress("17/08/2025", angest, 1, "Troll de Bloodbowl", _MEDIUM)
 		.render();
+
+	let q25 = new _quest("quest-25", "On requisitionne ce batiment", "Peindre 40 figurines ou Décors", 40)
+		.render();
 	
 							
 //			
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25]);
 
 });

@@ -96,6 +96,12 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 230 On requisitionne ce batiment
+
+Ohé Pirates! Nous avons besoin d'agrandir notre flotte pour faire face à nos riveaux et à l'armada Espagnole grandissante! Il nous faudra 40 ressources.
+
+<div id="quest-25"></div>
+
 ### Jour 222 Remplir les caisses
 
 <div id="quest-24"></div>
