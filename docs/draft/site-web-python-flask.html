@@ -299,34 +299,34 @@
 			<a href="tag/python.html">Python</a><a href="tag/web.html">Web</a><a href="tag/sqlite.html">sqlite</a>
 		</span>
 	</header>
-	<section><p>Pendant l'été 2025 j'ai aider la commu discord de <a href="https://www.youtube.com/channel/UCzhfRQKiMlcRR-xFh-jvDeQ" target="_blank">STEvE</a>
-à faire un bot pour discord avec une interface web avec Flask. Je ne suis pas un dev python experimenté,
-je suis débutant en python donc je pense que j'ai pas tous fait dans les regle de l'art.</p>
+	<section><p>Pendant l'été 2025 j'ai aidé la communauté Discord de <a href="https://www.youtube.com/channel/UCzhfRQKiMlcRR-xFh-jvDeQ" target="_blank">STEvE</a>
+à faire un bot pour Discord avec une interface web avec Flask. Je ne suis pas un dev python expérimenté,
+je suis débutant en python donc je pense que j'ai pas tous fait dans les règles de l'art.</p>
 <h2>Environnement Python</h2>
 <p>C'est mon tous premier tuto avec python, aussi voici comment configurer un environnement de dev.
-Creer un dossier qui contiendra votre dossier, pour cet exemple <code>FlaskBookTuto</code>.</p>
+Créer un dossier qui contiendra votre dossier, pour cet exemple <code>FlaskBookTuto</code>.</p>
 <h3>Installer les dépendances</h3>
-<p>Sous debian, j'installe les dépendance suivante.</p>
+<p>Sous Debian, j'installe les dépendances suivantes.</p>
 <pre class="bash"><code class="bash">apt install python3 python3-pip python3-venv
 </code></pre>
-<p>Je code avec vccode avec l'extenssion <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python" target="_blank">ms-python.python</a>.
-J'utilise sqlitebrowser si j'ai besoin de parcourir la bdd avec un outil.</p>
+<p>Je code avec vscode avec l'extension <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python" target="_blank">ms-python.python</a>.
+J'utilise SqliteBrowser si j'ai besoin de parcourir la bdd avec un outil.</p>
 <h3>Environnement local python</h3>
 <p>Python, niveau version et dépendance c'est pas mal de la merde.
-Il est poréférable de creer ce qu'on appel un <em>venv</em>
-c'est à dire comme un genre d'envirronement python local dans lequel on installe
-les dépendences de notre projet et on ne touche pas au lib du python du system.</p>
+Il est préférable de créer ce qu'on appel un <em>venv</em>
+c'est à dire comme un genre d'environnement python local dans lequel on installe
+les dépendances de notre projet et on ne touche pas au lib python du system d'exploitation.</p>
 <p>Pour cela dans le dossier du projet, entrer cette commande,
-ca crais un dossier dans lequel s'install les dependances pythons avec les stript d'activation utile.
-J'aime faire ce dossier caché que j'appel <strong>.venv</strong>, mais rien ne vous y oblige.</p>
+cela craies un dossier dans lequel s'installe les dépendances pythons avec les scripts d'activation utile.
+J'aime faire ce dossier caché que j'appelle <strong>.venv</strong>, mais rien ne vous y oblige.</p>
 <pre class="bash"><code class="bash">python3 -m venv .venv
 </code></pre>
-<p>Puis il faut activer l'envirronement, pour cela entrer la commande suivante.
-Cela va changer votre invite de commance en passant de cela <code>user@host:path$</code> à cela <code>(.venv) user@host:path$</code>.</p>
+<p>Puis il faut activer l'environnement, pour cela entrer la commande suivante.
+Cela va changer votre invite de commande en passant de cela <code>user@host:path$</code> à cela <code>(.venv) user@host:path$</code>.</p>
 <pre class="bash"><code class="bash">source .venv/bin/activate
 </code></pre>
 <h2>Dépendance</h2>
-<p>Dans le dossier de votre projet, creer un fichier <code>requirements.txt</code> et dedans ajouter les lignes :</p>
+<p>Dans le dossier de votre projet, créer un fichier <code>requirements.txt</code> et dedans ajouter les lignes :</p>
 <pre class="java"><code class="java"># pour le site web
 flask&gt;=3.1
 # pour la bdd
@@ -334,16 +334,16 @@ flask-sqlalchemy&gt;=3.1
 # pour le passage en production
 waitress&gt;=3.0
 </code></pre>
-<p>Puis dans le dossier du projet, avec le venv d'activer, faites cela pour installer les dépendances en locales :</p>
+<p>Puis dans le dossier du projet, avec le venv d'activé, faites cela pour installer les dépendances en locales :</p>
 <pre class="bash"><code class="bash">pip install -r requirements.txt
 </code></pre>
 <h2>Code</h2>
-<p>Dans cette exemple, nous allons faire un site qui gere une bibliothe de livre (manga ou BD).</p>
-<p>Voici les fonctionnalité :</p>
+<p>Dans cette exemple, nous allons faire un site qui gère une bibliothèque de livre (manga ou BD).</p>
+<p>Voici les fonctionnalités :</p>
 <ul>
 <li>Afficher la liste des livres</li>
 <li>Ajouter une entrée</li>
-<li>Modifier et supprimer une entrée</li>
+<li>Supprimer une entrée</li>
 </ul>
 <h3>Organisation</h3>
 <pre class="java"><code class="java">FlaskBookTuto
@@ -360,7 +360,7 @@ waitress&gt;=3.0
 |-- run.py
 |-- schema.sql # contiendra la structure de la bdd
 </code></pre>
-<h3>Page d'acceuil</h3>
+<h3>Page d'accueil</h3>
 <p>Pour l'instant nous allons faire un simple hello world.</p>
 <pre class="python"><code class="python"># fichier webapp/__init__.py
 from flask import Flask
@@ -386,8 +386,8 @@ if __name__ == '__main__':
 </code></pre>
 <p>Flask utilise jinja2 pour le templating html.
 Ici je propose de faire un fichier <strong>template.html</strong> qui contiendrais la structure générale du site
-et les fichiers html definirai uniquement ce qui change de page en page.</p>
-<p>Pour le CSS je vais utiliser un framework que j'aime particulierement <a href="https://andybrewer.github.io/mvp/" target="_blank">mvp.css</a> que je vais mettre dans /webapp/static.
+et les fichiers html définirai uniquement ce qui change de page en page.</p>
+<p>Pour le CSS je vais utiliser un framework que j'aime particulièrement <a href="https://andybrewer.github.io/mvp/" target="_blank">mvp.css</a> que je vais mettre dans /webapp/static.
 J'ajoute aussi un favicon mais je ne m'attarde pas dessus.</p>
 <pre class="xml"><code class="xml">&lt;!-- fichier webapp/templates/template.html --&gt;
 
@@ -454,7 +454,7 @@ webapp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 db = SQLAlchemy(webapp)
 
 # initialisation de la BDD une fois que la webapp est lancer
-# importer et executer le fichier schema.sql
+# importer et exécuter le fichier schema.sql
 with webapp.app_context():
 	with open('schema.sql', 'r') as f:
 		sql = f.read()
@@ -500,7 +500,7 @@ def submitAddBook():
 	book = Book(name=request.form.get('name'))
 	db.session.add(book)
 	db.session.commit()
-	#url_for prend en parametre le nom de la methode
+	#url_for prend en paramètre le nom de la méthode
 	return redirect(url_for('index'))
 
 @webapp.route('/remove/&lt;id&gt;')
@@ -509,7 +509,7 @@ def removeBook(id):
 	db.session.commit()
 	return redirect(url_for('index'))
 </code></pre>
-<p>Et les fichiers HTML qui en decoulent :</p>
+<p>Et les fichiers HTML qui en découlent :</p>
 <pre class="xml"><code class="xml">&lt;!-- fichier webapp/templates/index.html --&gt;
 {% extends &quot;template.html&quot; %}
 
@@ -562,8 +562,8 @@ if __name__ == '__main__':
 </code></pre>
 <h2>Conclusion</h2>
 <p>Je voulais apprendre à faire un peu de python depuis un moment.
-J'espere que mon code ne fera pas mal aux yeux au expert du python, mais si vous l'êtes, que faites vous la ?</p>
-<p>Enfin si vous tombez sur ce tuto j'espere qu'il vous aidera</p>
+J'espère que mon code ne fera pas mal aux yeux au expert du python, mais si vous l'êtes, que faites vous la ?</p>
+<p>Enfin si vous tombez sur ce tuto j'espère qu'il vous aidera.</p>
 <h3>Ressource</h3>
 <ul>
 <li><a href="https://github.com/shionn/FlaskBookTuto" target="_blank">le code sur github</a></li>
