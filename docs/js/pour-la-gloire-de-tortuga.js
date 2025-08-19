@@ -307,7 +307,7 @@ q(function() {
 		new _badge("Gargantuesque", "ra ra-monster-skull", "Peindre une très grosse figurine (>=120mm)", false), // 11 TODO true
 		new _badge("Bon plan", "fa fa-thumbs-up", "Faire profiter la commu d'un bon plan", true), // 12
 		new _badge("Ten", "fa fa-battery-quarter", "Participer à 10 quête différente", true), 
-		new _badge("Twenty", "fa fa-fa-battery-half", "Participer à 20 quête différente", false),
+		new _badge("Twenty", "fa fa-battery-half", "Participer à 20 quête différente", true),
 		new _badge("Du cailloux à la Tour", "ra ra-tower", "Envoyer un décors de chaque taille dans la même quête", true), 
 		new _badge("Decorama", "ra ra-castle-emblem", "Envoyer 15 décors dans la même quête", true), 
 		new _badge("Dernier clou", "ra ra-ankh", "Achever une quête avec un décor", true), 
@@ -681,6 +681,7 @@ q(function() {
 
 	let q25 = new _quest("quest-25", "On requisitionne ce batiment", "Peindre 40 figurines ou Décors", 40)
 		.progress("18/08/2025", shionn, 1, "Loon Boss", _SMALL)
+		.progress("19/08/2025", whisp, 1, "Magicien", _SMALL)
 		.render();
 	
 							
