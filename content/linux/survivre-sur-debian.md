@@ -117,6 +117,7 @@ Pour unlock le system : `sudo steamos-readonly disable`
 ### Utilitaire
 - Mangohud et Goverlay pour la config
 - Gamemoderun
+- Gamescope
 
 ### Cyberpunk qui block sur l'ecran titre 
 
@@ -160,7 +161,7 @@ sudo sysctl -p
 
 ~~~bash
 # Options de démarrage du noyau (à ajouter dans /etc/default/grub)
-amdgpu.vm_fragment_size=9 amdgpu.vm_max_fragment_size=9
+amdgpu.vm_fragment_size=9 amdgpu.vm_max_fragment_size=9 amdgpu.gttsize=1024 amdgpu.noretry=0
 # Optiopn de lancement
 RADV_PERFTEST=rt 
 RADV_PERFTEST=rt,gpl 

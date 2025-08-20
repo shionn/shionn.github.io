@@ -17,6 +17,7 @@ Voici quelques tuto trouvé sur le net que j'ai utilisé avec succes.
 - [Installation de Home Assistant](https://forum.proxmox.com/threads/guide-install-home-assistant-os-in-a-vm.143251/)
 - [Nas ZFS en container LXC](https://www.youtube.com/watch?si=uNb3HVNwdK8xJMQQ&v=I7nfSCNKeck&feature=youtu.be)
 - [Le Wiki de Linuxon](https://wiki.julien68.fr/)
+- [backup fichier de configuration proxmox](https://blog.johnsonpremier.net/backup_restore_proxmox_config_/)
 
 ## Chaines Youtube
 

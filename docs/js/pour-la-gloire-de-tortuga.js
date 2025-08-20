@@ -682,6 +682,8 @@ q(function() {
 	let q25 = new _quest("quest-25", "On requisitionne ce batiment", "Peindre 40 figurines ou Décors", 40)
 		.progress("18/08/2025", shionn, 1, "Loon Boss", _SMALL)
 		.progress("19/08/2025", whisp, 1, "Magicien", _SMALL)
+		.progress("19/08/2025", shionn, 1, "Centaur", _MEDIUM)
+		.progress("19/08/2025", shionn, 4, "Centaur", _SMALL)
 		.render();
 	
 							
