@@ -684,6 +684,7 @@ q(function() {
 		.progress("19/08/2025", whisp, 1, "Magicien", _SMALL)
 		.progress("19/08/2025", shionn, 1, "Centaur", _MEDIUM)
 		.progress("19/08/2025", shionn, 4, "Centaur", _SMALL)
+		.progress("20/08/2025", whisp, 2, "Raptors", _SMALL)
 		.render();
 	
 							

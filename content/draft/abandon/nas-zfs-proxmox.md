@@ -76,6 +76,7 @@ La syntaxe n'est pas évidente à comprendre. Je dois donc :
 Pour les groupes c'est pareil à l'exeption du groupe 100 (users) qui doit être mapper vers le groupe 100. 
 
 Pour ce faire j'édite de nouveau  `/etc/pve/lxc/121.conf` et j'ajoute : 
+
 ~~~bash
 # mapper les identifiants utilisateurs 0 à 999 vers 100000 à 100999
 lxc.idmap: u 0 100000 1000
