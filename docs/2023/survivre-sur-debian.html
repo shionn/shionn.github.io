@@ -372,6 +372,7 @@ sudo apt install steam
 <ul>
 <li>Mangohud et Goverlay pour la config</li>
 <li>Gamemoderun</li>
+<li>Gamescope</li>
 </ul>
 <h3>Cyberpunk qui block sur l'ecran titre</h3>
 <pre class="shell"><code class="shell">WINEDLLOVERRIDES=&quot;winmm,version=n,b&quot; %command% --launcher-skip
@@ -396,7 +397,7 @@ sudo sysctl -p
 </code></pre>
 <h3>Autre truc</h3>
 <pre class="bash"><code class="bash"># Options de démarrage du noyau (à ajouter dans /etc/default/grub)
-amdgpu.vm_fragment_size=9 amdgpu.vm_max_fragment_size=9
+amdgpu.vm_fragment_size=9 amdgpu.vm_max_fragment_size=9 amdgpu.gttsize=1024 amdgpu.noretry=0
 # Optiopn de lancement
 RADV_PERFTEST=rt 
 RADV_PERFTEST=rt,gpl 
