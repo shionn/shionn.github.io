@@ -365,6 +365,14 @@ domaine=WORKGROUP
 sudo apt update
 sudo apt install steam
 </code></pre>
+<h3>Installation Proton GE</h3>
+<p>Créer le dossier compatibilitytools.d dans steam si inexistant :</p>
+<pre class="bash"><code class="bash">mkdir -p ~/.steam/debian-installation/compatibilitytools.d
+</code></pre>
+<p>Télécharger la dernière version <a href="https://github.com/GloriousEggroll/proton-ge-custom/releases" target="_blank">ici</a>.</p>
+<p>Extraire l'archive</p>
+<pre class="bash"><code class="bash">tar -xvf &quot;la derniere archive&quot;.tar.gz -C ~/.steam/debian-installation/compatibilitytools.d/
+</code></pre>
 <h3>Steam Deck</h3>
 <p>Pour calibrer les joystick : <code>thumbstick_cal</code></p>
 <p>Pour unlock le system : <code>sudo steamos-readonly disable</code></p>
