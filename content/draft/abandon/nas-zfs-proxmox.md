@@ -97,6 +97,7 @@ Il faut comprendre cette ligne **u/g 0 100000 1000** comme :
 - 1000 : mapper 1000 identifiant donc de 0 à 999
 
 Mais ca ne suffit pas il faut permttre un tel mapping cela se fait dans `/etc/subuid` et `/etc/subgid` en ajoutant : 
+
 ~~~bash
 root:1000:2000
 ~~~
