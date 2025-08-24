@@ -52,6 +52,7 @@ category/linux	Linux
 		2024/docker-sur-debian	Installation Docker sur Debian
 		2024/nginx-proxy-manager	Installation Nginx proxy manager
 		2025/jellyfin-proxmox-hardware-encode	Jellyfin avec accélération matériel sur Proxmox
+		2026/nvidia-proxmox-lxc-passthrought-ollama	Ollama Nvidia Passthrought LXC	2026-01-29
 	tag/desktop	Desktop
 		2023/survivre-sur-debian	Kit de Survie sur Debian
 		2025/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille
