@@ -286,187 +286,162 @@
 	<div class="container main">
 		
 		
+		
 		<div class="main">
-			
-				<article class="short">
+			<article>
 	<header>
-		
-		<h1><a href="2025/openrgb-sur-debian.html">Openrgb sur Debian</a></h1>
-		<span class="date">19 juin 2025</span>
+		<img src="pictures/titles/server/proxmox-nvidia-passthrought.jpg" title="Proxmox Passthrought Nvidia dans LXC" alt="Proxmox Passthrought Nvidia dans LXC" />
+		<h1><a href="draft/nvidia-proxmox-lxc-passthrought-ollama.html">Proxmox Passthrought Nvidia dans LXC</a></h1>
+		<span class="date">29 janvier 2026</span>
 		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
 		<span class="tags">
 			<span class="fa fa-flag"></span>
-			<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/openrgb.html">OpenRGB</a><a href="tag/desktop.html">Desktop</a>
+			<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/nvidia.html">Nvidia</a><a href="tag/ollama.html">Ollama</a>
 		</span>
 	</header>
-	<section><p>Vous êtes sous Linux, vous avez des truc en RGB et vous ne savez comment les contrôler ? OpenRGB peu le faire pour vous mais attention il y a parfois des contraintes.</p>
-<p>Vous n'êtes pas sous Linux et vous avez plein de RGB de marque différente ? et vous voudriez tous centraliser ?  C'est aussi possible mais je n'en parlerai pas.</p>
-<h2>Instalation (sous débian)</h2>
-<p>Télé-charger OpenRGB sur le <a href="https://openrgb.org/#downloads" target="_blank">site officiel</a>. Puis installer le :</p>
-<pre class="shell"><code class="shell">sudo apt install openrgb_0.9_amd64_bookworm_b5f46e3.deb
+	<section><p>Ce tuto s'intérresse surtout à la procédure à suivre pour installer une carte graphique NVIDIA sur votre Proxmox avec un pass-through dans un conteneur.
+Cette solution n'utilise pas les drivers pro qui permettent de découper une carte en plusieurs. En effet, avec la containment LXC, une même carte peut être partagée entre plusieurs conteneurs.</p>
+<h2>Installation des driver Nvidia</h2>
+<h3>Nvidia sur proxmox</h3>
+<p>Il faut commencer par installer les driver nvidia sur votre proxmox.
+Commencer par le mettre à jour :</p>
+<pre class="bash"><code class="bash">apt update &amp;&amp; apt upgrade
 </code></pre>
-<p>Pour certain périphérique il faut le module i2c :</p>
-<pre class="shell"><code class="shell">sudo apt install i2c-tools 
-sudo modprobe i2c-dev
+<p>Ensuite il vous faudrat ces outils :</p>
+<pre class="bash"><code class="bash">apt install pve-nvidia-vgpu-helper nvtop pve-headers build-essential
 </code></pre>
-</section>
-	<footer>
-		<a href="2025/openrgb-sur-debian.html"><span class="fa fa-eye"></span> Lire la suite</a>
-	</footer>
-</article>
-			
-				<article class="short">
-	<header>
-		
-		<h1><a href="2025/debian-execute-task-before-and-after-suspend.html">Exécuter un script avant et après la mise en veille</a></h1>
-		<span class="date">08 avril 2025</span>
-		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
-		<span class="tags">
-			<span class="fa fa-flag"></span>
-			<a href="tag/debian.html">Debian</a><a href="tag/script.html">Script</a><a href="tag/systemd.html">Systemd</a><a href="tag/desktop.html">Desktop</a>
-		</span>
-	</header>
-	<section><p>Pendant longtemps j'ai cherché à exécuter des scripts avant et/ou après la mise en veille de mon pc.</p>
-<p>Actuellement je m'en sers sur mon pc principal pour éteindre le RGB quand il rentre en veille, et le rallumer quand il sort de cette veille.</p>
-<h2>Comment qu'on fait</h2>
-<p>Si on fait un <code>man systemd-suspend.service</code> on y apprend que tous les exécutables
-dans <strong>/usr/lib/systemd/system-sleep/</strong> sont exécuté avant et après une mise en veille avec deux argument :</p>
-<ul>
-<li>'pre' ou 'post' suivant si il rentre en veille ou si il en sort.</li>
-<li>les types de mise en veille 'suspend' ou 'hibernate' ...</li>
-</ul>
-<p>Donc on craies le dossier <strong>/usr/lib/systemd/system-sleep/</strong> si il n'existe pas.</p>
-<p>Et maintenant on peu y faire notre script :</p>
-</section>
-	<footer>
-		<a href="2025/debian-execute-task-before-and-after-suspend.html"><span class="fa fa-eye"></span> Lire la suite</a>
-	</footer>
-</article>
-			
-				<article class="short">
-	<header>
-		
-		<h1><a href="2025/jellyfin-proxmox-hardware-encode.html">Installation de Jellyfin avec accélération matériel sur Proxmox</a></h1>
-		<span class="date">27 février 2025</span>
-		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
-		<span class="tags">
-			<span class="fa fa-flag"></span>
-			<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/jellyfin.html">Jellyfin</a>
-		</span>
-	</header>
-	<section><h2>Installation de Jellyfin</h2>
-<p>Sur votre proxmox créer un container à partir d'une Debian.
-Puis connectez vous à ce container.
-Je ne vais pas détailler en profondeur la creation de ce container.
-Mais prévoir :</p>
-<ul>
-<li>100 go d'espace disque (pour le transcodcage)</li>
-<li>4 coeurs</li>
-<li>2 go de ram</li>
-<li>non privilégié</li>
-</ul>
-<h3>Ajout du dépo et installation</h3>
-<p>En root :</p>
-<pre class="shell"><code class="shell">apt install extrepo
-extrepo enable jellyfin
+<p>Ensuite proxmox propose un outil pour préconfigurer votre systeme à l'installation des driver nvidia.
+Cela passe les drivers nouveau en blacklist et install quelques packet nécéssaire.</p>
+<pre class="bash"><code class="bash">pve-nvidia-vgpu-helper setup
+</code></pre>
+<p>Ensuite il ne vous reste plus qu'à installer les paquets du driver nvidia.</p>
+<pre class="bash"><code class="bash">wget https://developer.download.nvidia.com/compute/cuda/repos/debian12/x86_64/cuda-keyring_1.1-1_all.deb
+apt install ./cuda-keyring_1.1-1_all.deb
 apt update
-apt install jellyfin
+apt upgrade
+apt install nvidia-driver-cuda
 </code></pre>
-<p>Je ne sais plus pour quelle raison mais j'ai installé :</p>
-</section>
-	<footer>
-		<a href="2025/jellyfin-proxmox-hardware-encode.html"><span class="fa fa-eye"></span> Lire la suite</a>
-	</footer>
-</article>
-			
-				<article class="short">
-	<header>
-		<img src="pictures/titles/server/nginx-debian.jpg" title="Installation de nginx proxy manager sur Debian" alt="Installation de nginx proxy manager sur Debian" />
-		<h1><a href="2024/nginx-proxy-manager.html">Installation de nginx proxy manager sur Debian</a></h1>
-		<span class="date">30 juin 2024</span>
-		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
-		<span class="tags">
-			<span class="fa fa-flag"></span>
-			<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/nginx.html">nginx</a>
-		</span>
-	</header>
-	<section><h2>nginx Kesako ?</h2>
-<p>Nginx est un reverse proxy.</p>
-<p>Un reverse proxy permet pas mal de choses entres autres :</p>
+<p>Vérifiez que vous n'avez aucune erreur. Si vous avez la moindre erreur faite cela pour annuler l'installation des drivers.
+Et malheureusement je ne pourrai pas vous aider à la corriger :[</p>
+<pre class="bash"><code class="bash">apt remove nvidia-driver-cuda &amp;&amp; apt autoremove
+</code></pre>
+<p>Si vous n'avez aucune erreur, vous pouvez reboot, après le reboot faite un nvidia-smi et normalement vous avez quelques chose comme cela :</p>
+<pre class="bash"><code class="bash">$ nvidia-smi 
+Sat Aug 23 10:52:17 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.65.06              Driver Version: 580.65.06      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce GTX 1070        On  |   00000000:81:00.0 Off |                  N/A |
+| 28%   57C    P8             10W /  230W |       3MiB /   8192MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+</code></pre>
+<h3>Nvidia dans le Container LXC</h3>
+<p>Votre container n'as pas besoin d'option particulière, il n'as pas besoin d'être privilégié.
+configuration, sur l'hôte faites un ls <code>/dev/nvi*</code> et vous devriez avoir quelque chose comme cela :</p>
+<pre class="bash"><code class="bash">root@MaxiMox:~# ls -l /dev/nvi*
+crw-rw-rw- 1 root root 195,   0 Aug 23 10:52 /dev/nvidia0
+crw-rw-rw- 1 root root 195, 255 Aug 23 10:52 /dev/nvidiactl
+crw-rw-rw- 1 root root 195, 254 Aug 23 10:52 /dev/nvidia-modeset
+crw-rw-rw- 1 root root 508,   0 Aug 23 10:52 /dev/nvidia-uvm
+crw-rw-rw- 1 root root 508,   1 Aug 23 10:52 /dev/nvidia-uvm-tools
+
+/dev/nvidia-caps:
+total 0
+cr-------- 1 root root 234, 1 Aug 23 10:52 nvidia-cap1
+cr--r--r-- 1 root root 234, 2 Aug 23 10:52 nvidia-cap2
+</code></pre>
+<p>Il fait passthrought tous ces dossiers au container. Cela se fait dans l'interface de votre proxmox.</p>
+<div class="gallery"><a href="/pictures/linux/proxmox-lxc-nvidia/add-devices-menu.jpg"><img src="/pictures/linux/proxmox-lxc-nvidia/add-devices-menu.jpg"></a><a href="/pictures/linux/proxmox-lxc-nvidia/add-devices.jpg"><img src="/pictures/linux/proxmox-lxc-nvidia/add-devices.jpg"></a></div>
+<p>Et vous devriez avoiir quelque chose comme ca :</p>
+<div class="gallery"><a href="/pictures/linux/proxmox-lxc-nvidia/devices-list.jpg"><img src="/pictures/linux/proxmox-lxc-nvidia/devices-list.jpg"></a></div>
+<p>Ensuite il ne vous reste plus qu'a installer les drivers nvidia et la suite l'ogiciel cuda sur votre container, la procédure est semblable à celle de l'hote.</p>
+<pre class="bash"><code class="bash">wget https://developer.download.nvidia.com/compute/cuda/repos/debian12/x86_64/cuda-keyring_1.1-1_all.deb
+apt install ./cuda-keyring_1.1-1_all.deb
+apt update
+apt install cuda-toolkit
+apt install nvidia-driver-cuda
+</code></pre>
+<p>Vous pouver faire un nvdia-smi pour confirmer que la carte est disponible et fonctionnel sur votre container.</p>
+<h2>Exemple une IA avec Ollama</h2>
+<h3>Ollama</h3>
+<p>Pour tester cette nouvelle carte, je vous propose d'installer ollama qui est un group d'IA opensource.</p>
+<pre class="bash"><code class="bash"># L'installateur à besoin de lspci
+apt install pciutils
+wget https://ollama.com/install.sh
+./install.sh
+</code></pre>
+<p>Et normalement vous devriez avoir une sortie console ressemblant à :</p>
+<pre class="bash"><code class="bash">./install.sh 
+&gt;&gt;&gt; Cleaning up old version at /usr/local/lib/ollama
+&gt;&gt;&gt; Installing ollama to /usr/local
+&gt;&gt;&gt; Downloading Linux amd64 bundle
+################################################# 100.0%
+&gt;&gt;&gt; Adding ollama user to render group...
+&gt;&gt;&gt; Adding ollama user to video group...
+&gt;&gt;&gt; Adding current user to ollama group...
+&gt;&gt;&gt; Creating ollama systemd service...
+&gt;&gt;&gt; Enabling and starting ollama service...
+&gt;&gt;&gt; NVIDIA GPU installed.
+</code></pre>
+<p>Puis faire un essaie en console.</p>
+<pre class="bash"><code class="bash">ollama run qwen2.5-coder:7b
+</code></pre>
+<h3>Open web UI</h3>
+<p>Ajoutons une interface graphique à notre IA.
+Pour installer openweb ui, sur votre machine vous avez besoin :</p>
+<pre class="bash"><code class="bash">apt install python3-pip python3-venv
+</code></pre>
+<p>Dans mon cas je l'ai installer dans /root. Puis rentrer les commandes suivante :</p>
+<pre class="bash"><code class="bash">python3 -m venv open-webui
+source open-webui/bin/activate
+pip install open-webui
+open-webui serve
+</code></pre>
+<p>Render vous sur le port 5000 de votre container :)</p>
+<h2>Ressource</h2>
+<p>J'ai réussi à faire cela en m'appuyant sur ces documentations :</p>
 <ul>
-<li>Servir de point d'entrée à l'ensemble de vos serveur</li>
-<li>Permet d'ajouter des headers</li>
-<li>Permet d'ajouter une basic auth</li>
-<li>Permet d'ajouter du HTTPS</li>
-<li>Permet de cacher les ports et chemin</li>
+<li><a href="https://www.nasmaster.com/how-to-set-up-a-nvidia-gpu-with-open-webui-and-ollama-on-proxmox" target="_blank">How to set up a NVIDIA GPU with Open WebUI and Ollama on Proxmox</a></li>
+<li><a href="https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#network-repo-installation-for-debian" target="_blank">CUDA Installation Guide for Linux</a></li>
+<li><a href="https://pve.proxmox.com/wiki/NVIDIA_vGPU_on_Proxmox_VE" target="_blank">NVIDIA vGPU on Proxmox VE</a></li>
 </ul>
-<h3>Exemple</h3>
-<p>Par exemple admettons que que votre nom de domaine &quot;exemple.com&quot; tape sur votre serveur Nginx.
-Admettons également que vous avez deux serveur <strong>web1</strong> et <strong>web2</strong> dans votre réseau privé qui écoutent tous les deux sur le port 80.</p>
-<p>Vous souhaitez que web1 répond à <strong>https://web1.exemple.com</strong> et web2 répond à <strong>https://web2.exemple.com</strong>.
-Bon ben déjà vos serveur écoute sur le port 80 et non 443 et en plus seulement sur le réseau local.
-Ben un reverse proxy permet de résoudre tous cela.</p>
 </section>
 	<footer>
-		<a href="2024/nginx-proxy-manager.html"><span class="fa fa-eye"></span> Lire la suite</a>
-	</footer>
-</article>
-			
-				<article class="short">
-	<header>
-		<img src="pictures/titles/server/docker-debian.jpg" title="Installation Docker sur Debian" alt="Installation Docker sur Debian" />
-		<h1><a href="2024/docker-sur-debian.html">Installation Docker sur Debian</a></h1>
-		<span class="date">31 mai 2024</span>
-		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
-		<span class="tags">
-			<span class="fa fa-flag"></span>
-			<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/docker.html">Docker</a><a href="tag/server.html">Server</a>
-		</span>
-	</header>
-	<section><p>Je n'aime  pas particulièrement docker, je préfère passer par LXC en temps normal.
-Mais bon pour un autre projet j'en ai eu besoin.</p>
-<h2>Installation</h2>
-<h3>Ajout du repo</h3>
-<p>Ajout des packages pour docker.
-Il ne faut pas installer ceux présent dans Debian qui ne sont pas les package officiel de docker.
-Il s'agit potentiellement de vieux build.</p>
-<p>Ajouter la clef de chiffrage :</p>
-<pre class="shell"><code class="shell">curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
-</code></pre>
-<p>Ces dépendances peuvent être nécessaire :</p>
-</section>
-	<footer>
-		<a href="2024/docker-sur-debian.html"><span class="fa fa-eye"></span> Lire la suite</a>
-	</footer>
-</article>
-			
-				<article class="short">
-	<header>
-		
-		<h1><a href="2023/survivre-sur-debian.html">Kit de Survie sur Debian</a></h1>
-		<span class="date">22 novembre 2023</span>
-		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
-		<span class="tags">
-			<span class="fa fa-flag"></span>
-			<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/desktop.html">Desktop</a><a href="tag/kit-survie.html">Kit Survie</a>
-		</span>
-	</header>
-	<section><p>Voici ma petite liste de truc et astuce sur Debian.</p>
-<h2>Audio</h2>
-<h3>Pavucontrol</h3>
-<p>Outil pour mieux contrôler les périphériques audio</p>
-<pre class="shell"><code class="shell">apt install pavucontrol
-</code></pre>
-<h3>audio qui crack</h3>
-<p>Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire resout le probleme.</p>
-</section>
-	<footer>
-		<a href="2023/survivre-sur-debian.html"><span class="fa fa-eye"></span> Lire la suite</a>
-	</footer>
-</article>
+		<em class="author">par Shionn, le 29 janvier 2026.</em>
+		<h2>Commentaires</h2>
+		<div class="comments">
 			
 		</div>
-		
+		<h3>Ajouter un commentaire</h3>
+		<form method="post" class="comments">
+			<div>
+				<label for="author">Votre pseudo</label>
+				<input type="text" name="author" required>
+			</div>
+			<div>
+				<label for="author">Votre message</label>
+				<textarea name="content" required></textarea>
+			</div>
+			<div>
+				<input type="submit" value="Commenter">
+			</div>
+		</form>
+	</footer>
+</article>
+		</div>
 		
 
 		<div class="side">

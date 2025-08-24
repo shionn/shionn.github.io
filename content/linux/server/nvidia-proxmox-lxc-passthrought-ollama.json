@@ -1,0 +1,11 @@
+{
+	"type": "post",
+	"date": "2026/01/29",
+	"title": "Proxmox Passthrought Nvidia dans LXC",
+	"tags": ["Linux", "Proxmox", "Debian", "Server", "Nvidia", "Ollama"],
+	"category": "Linux",
+	"published": true,
+	"author": "Shionn",
+	"logo": "pictures/titles/server/proxmox-nvidia-passthrought.jpg",
+	"js" : [ "js/hljs/bash.min.js" ]
+}
