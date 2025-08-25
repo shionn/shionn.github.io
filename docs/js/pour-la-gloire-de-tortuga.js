@@ -686,9 +686,12 @@ q(function() {
 		.progress("19/08/2025", shionn, 4, "Centaur", _SMALL)
 		.progress("20/08/2025", whisp, 2, "Raptors", _SMALL)
 		.progress("21/08/2025", tony, 1, "Lord of plagues", _SMALL)
-		.progress("24/08/2025", tupad, 1, "Char eldar", _BIG)
-		.progress("24/08/2025", tupad, 1, "Fantom eldar", _BIG)
+		.progress("24/08/2025", tupad, 1, "Scorpion", _BIG)
+		.progress("24/08/2025", tupad, 1, "Chevalier fantome", _BIG)
 		.progress("24/08/2025", tupad, 5, "Troupe rapide eldar", _BIG)
+		.progress("25/08/2025", angest, 2, "Guerrier Nécron", _SMALL)
+		.progress("25/08/2025", angest, 1, "Technomancien", _MEDIUM)
+		.progress("25/08/2025", tony, 1, "Pataud", _SMALL)
 		.render();
 	
 							
