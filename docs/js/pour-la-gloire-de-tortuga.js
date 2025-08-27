@@ -692,6 +692,9 @@ q(function() {
 		.progress("25/08/2025", angest, 2, "Guerrier Nécron", _SMALL)
 		.progress("25/08/2025", angest, 1, "Technomancien", _MEDIUM)
 		.progress("25/08/2025", tony, 1, "Pataud", _SMALL)
+		.progress("27/08/2025", whisp, 4, "Loups Funests", _MEDIUM)
+		.progress("27/08/2025", whisp, 1, "Loups garou", _MEDIUM)
+		.progress("27/08/2025", whisp, 3, "squelettes fantomatiques", _SMALL)
 		.render();
 	
 							
