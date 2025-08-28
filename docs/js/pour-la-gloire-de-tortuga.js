@@ -695,7 +695,8 @@ q(function() {
 		.progress("27/08/2025", whisp, 4, "Loups Funests", _MEDIUM)
 		.progress("27/08/2025", whisp, 1, "Loups garou", _MEDIUM)
 		.progress("27/08/2025", whisp, 3, "squelettes fantomatiques", _SMALL)
-		.progress("19/08/2025", shionn, 5, "Knights Tidor", _SMALL)
+		.progress("27/08/2025", shionn, 5, "Knights Tidor", _SMALL)
+		.progress("28/08/2025", whisp, 1, "Pirate", _SMALL)
 		.render();
 	
 							
