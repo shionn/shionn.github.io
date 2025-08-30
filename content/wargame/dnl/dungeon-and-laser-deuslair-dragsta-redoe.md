@@ -8,7 +8,7 @@ Ici je vous proposent les figurines du core set de la faction **Alliance de Redo
 ### Harrat Wing
 
 - Peinte en Aout 2025
-- En 8 heure environ.
+- En 8 heures environ.
 
 [gallery w=450 h=200]
 pictures/dungeon-and-laser/deuslair/core/redoe/harrat-wing/01.jpg
@@ -57,7 +57,7 @@ pictures/dungeon-and-laser/deuslair/core/redoe/yvanda/8.jpg
 ### Knights of Tidor
 
 - Peinte en Aout 2025
-- En 5 heure environ.
+- En 5 heures environ.
 
 [gallery w=500 h=200]
 pictures/dungeon-and-laser/deuslair/core/redoe/knights-tidor/01.jpg
@@ -77,11 +77,36 @@ pictures/dungeon-and-laser/deuslair/core/redoe/knights-tidor/09.jpg
 
 ### Ancient Protectors
 
-TODO
+- Peinte en Aout 2025
+- En 10 heures environ.
+
+[gallery w=500 h=200]
+pictures/dungeon-and-laser/deuslair/core/redoe/ancient-protectors/01.jpg
+[/gallery]
+[gallery w=200 h=200]
+pictures/dungeon-and-laser/deuslair/core/redoe/ancient-protectors/02.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/ancient-protectors/03.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/ancient-protectors/04.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/ancient-protectors/05.jpg
+[/gallery]
+
 
 ### Rookery of Kril
 
-TODO
+- Peinte en Aout 2025
+- En 6h30 environ.
+
+[gallery w=500 h=200]
+pictures/dungeon-and-laser/deuslair/core/redoe/rookery-of-kril/01.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/rookery-of-kril/02.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/rookery-of-kril/03.jpg
+[/gallery]
+[gallery w=180 h=200]
+pictures/dungeon-and-laser/deuslair/core/redoe/rookery-of-kril/04.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/rookery-of-kril/05.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/rookery-of-kril/06.jpg
+pictures/dungeon-and-laser/deuslair/core/redoe/rookery-of-kril/07.jpg
+[/gallery]
 
 ### Rashers from the Scareguards
 
