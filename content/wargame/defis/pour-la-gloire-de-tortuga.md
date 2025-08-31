@@ -102,6 +102,11 @@ Ohé Pirates! Nous avons besoin d'agrandir notre flotte pour faire face à nos r
 
 <div id="quest-25"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map25.png
+[/gallery]
+
+
 ### Jour 222 Remplir les caisses
 
 <div id="quest-24"></div>
