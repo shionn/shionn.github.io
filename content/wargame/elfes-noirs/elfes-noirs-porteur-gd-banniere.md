@@ -13,10 +13,10 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 * Le glyphe sur l'étendard représente la grande bannière de Naggarith.
 
 [gallery w=150 h=250]
-pictures/dark-elves/porteur-gd-banniere/1.jpg
-pictures/dark-elves/porteur-gd-banniere/2.jpg
-pictures/dark-elves/porteur-gd-banniere/3.jpg
-pictures/dark-elves/porteur-gd-banniere/4.jpg
+pictures/battle/dark-elves/porteur-gd-banniere/1.jpg
+pictures/battle/dark-elves/porteur-gd-banniere/2.jpg
+pictures/battle/dark-elves/porteur-gd-banniere/3.jpg
+pictures/battle/dark-elves/porteur-gd-banniere/4.jpg
 [/gallery]
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées

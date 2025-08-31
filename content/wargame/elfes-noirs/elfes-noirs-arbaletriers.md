@@ -8,12 +8,12 @@ Je les ai décapé, décollé et recollé. Il y a eu de la perte :p
 * Environ 8h30h
 
 [gallery w=250 h=200]
-pictures/dark-elves/arbaletriers/01.jpg
-pictures/dark-elves/arbaletriers/02.jpg
-pictures/dark-elves/arbaletriers/03.jpg
-pictures/dark-elves/arbaletriers/04.jpg
-pictures/dark-elves/arbaletriers/05.jpg
-pictures/dark-elves/arbaletriers/06.jpg
+pictures/battle/dark-elves/arbaletriers/01.jpg
+pictures/battle/dark-elves/arbaletriers/02.jpg
+pictures/battle/dark-elves/arbaletriers/03.jpg
+pictures/battle/dark-elves/arbaletriers/04.jpg
+pictures/battle/dark-elves/arbaletriers/05.jpg
+pictures/battle/dark-elves/arbaletriers/06.jpg
 [/gallery]
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées

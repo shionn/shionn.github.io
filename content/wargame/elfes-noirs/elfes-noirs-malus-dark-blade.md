@@ -9,15 +9,15 @@ Le corps du sang froid est en plastique mais la tête est en métal.
 * Soumise au défis __FDC - case personnage légendaire - de Whisp__.
 
 [gallery w=200 h=200]
-pictures/dark-elves/malus-dark-blade/01.jpg
-pictures/dark-elves/malus-dark-blade/02.jpg
-pictures/dark-elves/malus-dark-blade/03.jpg
+pictures/battle/dark-elves/malus-dark-blade/01.jpg
+pictures/battle/dark-elves/malus-dark-blade/02.jpg
+pictures/battle/dark-elves/malus-dark-blade/03.jpg
 [/gallery]
 [gallery w=250 h=200]
-pictures/dark-elves/malus-dark-blade/04.jpg
-pictures/dark-elves/malus-dark-blade/05.jpg
-pictures/dark-elves/malus-dark-blade/06.jpg
-pictures/dark-elves/malus-dark-blade/07.jpg
+pictures/battle/dark-elves/malus-dark-blade/04.jpg
+pictures/battle/dark-elves/malus-dark-blade/05.jpg
+pictures/battle/dark-elves/malus-dark-blade/06.jpg
+pictures/battle/dark-elves/malus-dark-blade/07.jpg
 [/gallery]
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées

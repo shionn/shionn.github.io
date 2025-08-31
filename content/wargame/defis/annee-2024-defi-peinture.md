@@ -52,7 +52,7 @@ En mars j'ai peint :
 pictures/dungeon-and-laser/encounters/ssg/entree-mine-naine/1.jpg
 pictures/dungeon-and-laser/encounters/ssg/tour-guet/1.jpg
 pictures/dungeon-and-laser/encounters/dragsa/tu-ur/2.jpg
-pictures/dark-elves/corsair/01.jpg
+pictures/battle/dark-elves/corsair/01.jpg
 pictures/dungeon-and-laser/encounters/sg/beaute-nature/1.jpg
 [/gallery]
 
@@ -65,9 +65,9 @@ En avril j'ai peint :
 * Les servants de balistes à répétition pour mon défi chez __Karv__
 
 [gallery w=200 h=250]
-pictures/dark-elves/sorciere-sg-froid/1.jpg
+pictures/battle/dark-elves/sorciere-sg-froid/1.jpg
 pictures/dungeon-and-laser/encounters/sg/araignee/1.jpg
-pictures/dark-elves/balistes/1.jpg
+pictures/battle/dark-elves/balistes/1.jpg
 [/gallery]
 
 ## Mai 2024
@@ -79,8 +79,8 @@ En mai j'ai peint :
 
 [gallery w=200 h=250]
 pictures/dungeon-and-laser/encounters/sg/crabes/1.jpg
-pictures/dark-elves/sorciere-supreme/1.jpg
-pictures/dark-elves/chaudron-de-sang/1.jpg
+pictures/battle/dark-elves/sorciere-supreme/1.jpg
+pictures/battle/dark-elves/chaudron-de-sang/1.jpg
 [/gallery]
 
 ## Juin 2024
@@ -93,7 +93,7 @@ En juin j'ai peint :
 [gallery w=200 h=250]
 pictures/dungeon-and-laser/encounters/sg/abomination/1.jpg
 pictures/dungeon-and-laser/encounters/sg/grenouilles/1.jpg
-pictures/dark-elves/hydre-de-guerre/01.jpg
+pictures/battle/dark-elves/hydre-de-guerre/01.jpg
 [/gallery]
 
 ## Juillet / Aout 2024
@@ -105,8 +105,8 @@ Pendant les vacances d'été j'ai peint :
 
 [gallery w=200 h=250]
 pictures/aos/chaos/prince-demon/01.jpg
-pictures/dark-elves/executeurs/01.jpg
-pictures/dark-elves/porteur-gd-banniere/1.jpg
+pictures/battle/dark-elves/executeurs/01.jpg
+pictures/battle/dark-elves/porteur-gd-banniere/1.jpg
 [/gallery]
 
 ## Septembre 2024
@@ -118,7 +118,7 @@ En septembre j'ai peint :
 
 [gallery w=200 h=250]
 pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/05.jpg
-pictures/dark-elves/char-sg-froid/1.jpg
+pictures/battle/dark-elves/char-sg-froid/1.jpg
 pictures/underworld/death/les-morts-en-exil/01.jpg
 [/gallery]
 
@@ -130,7 +130,7 @@ En octobre j'ai peint :
 
 [gallery w=200 h=250]
 pictures/dungeon-and-laser/encounters/ssg/ygrid/01.jpg
-pictures/dark-elves/malus-dark-blade/01.jpg
+pictures/battle/dark-elves/malus-dark-blade/01.jpg
 [/gallery]
 
 ## Novembre 2024
@@ -142,7 +142,7 @@ En novembre j'ai peint :
 
 [gallery w=200 h=250]
 pictures/dungeon-and-laser/encounters/ssg/caravanne/01.jpg
-pictures/dark-elves/assassin/02.jpg
+pictures/battle/dark-elves/assassin/02.jpg
 pictures/dungeon-and-laser/encounters/sg/big-foot/01.jpg
 [/gallery]
 
@@ -156,5 +156,5 @@ En décembre j'ai peint :
 [gallery w=200 h=250]
 pictures/decor/skaventide/06.jpg
 pictures/manga/bulma/01.jpg
-pictures/dark-elves/cavalier-sg-froid/01.jpg
+pictures/battle/dark-elves/cavalier-sg-froid/01.jpg
 [/gallery]

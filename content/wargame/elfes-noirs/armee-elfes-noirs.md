@@ -21,9 +21,9 @@ Voici mon assassin en métal. J'ai acheté cette figurine il y a presque 25 ans.
 * Soumise au défis __FDC - case héros ou personnage - de Whisp__.
 
 [gallery w=200 h=200]
-pictures/dark-elves/assassin/01.jpg
-pictures/dark-elves/assassin/02.jpg
-pictures/dark-elves/assassin/03.jpg
+pictures/battle/dark-elves/assassin/01.jpg
+pictures/battle/dark-elves/assassin/02.jpg
+pictures/battle/dark-elves/assassin/03.jpg
 [/gallery]
 [/after]
 
@@ -39,15 +39,15 @@ Le corps du sang froid est en plastique mais la tête est en métal.
 * Soumise au défis __FDC - case personnage légendaire - de Whisp__.
 
 [gallery w=200 h=200]
-pictures/dark-elves/malus-dark-blade/01.jpg
-pictures/dark-elves/malus-dark-blade/02.jpg
-pictures/dark-elves/malus-dark-blade/03.jpg
+pictures/battle/dark-elves/malus-dark-blade/01.jpg
+pictures/battle/dark-elves/malus-dark-blade/02.jpg
+pictures/battle/dark-elves/malus-dark-blade/03.jpg
 [/gallery]
 [gallery w=250 h=200]
-pictures/dark-elves/malus-dark-blade/04.jpg
-pictures/dark-elves/malus-dark-blade/05.jpg
-pictures/dark-elves/malus-dark-blade/06.jpg
-pictures/dark-elves/malus-dark-blade/07.jpg
+pictures/battle/dark-elves/malus-dark-blade/04.jpg
+pictures/battle/dark-elves/malus-dark-blade/05.jpg
+pictures/battle/dark-elves/malus-dark-blade/06.jpg
+pictures/battle/dark-elves/malus-dark-blade/07.jpg
 [/gallery]
 [/after]
 
@@ -62,10 +62,10 @@ Je l'ai acheté autour des années 2000, et elle est resté dans ma piule de la 
 * Je voulais volontairement un aspect léger _mon petit poney_.
 
 [gallery w=200 h=200]
-pictures/dark-elves/morathi-pegase/01.jpg
-pictures/dark-elves/morathi-pegase/02.jpg
-pictures/dark-elves/morathi-pegase/03.jpg
-pictures/dark-elves/morathi-pegase/04.jpg
+pictures/battle/dark-elves/morathi-pegase/01.jpg
+pictures/battle/dark-elves/morathi-pegase/02.jpg
+pictures/battle/dark-elves/morathi-pegase/03.jpg
+pictures/battle/dark-elves/morathi-pegase/04.jpg
 [/gallery]
 [/after]
 
@@ -80,10 +80,10 @@ Il provient d'un lot que j'ai acheté, David si tu passes par là, encore merci.
 - Le glyphe sur l'étendard représente la grande bannière de Naggarith.
 
 [gallery w=150 h=250]
-pictures/dark-elves/porteur-gd-banniere/1.jpg
-pictures/dark-elves/porteur-gd-banniere/2.jpg
-pictures/dark-elves/porteur-gd-banniere/3.jpg
-pictures/dark-elves/porteur-gd-banniere/4.jpg
+pictures/battle/dark-elves/porteur-gd-banniere/1.jpg
+pictures/battle/dark-elves/porteur-gd-banniere/2.jpg
+pictures/battle/dark-elves/porteur-gd-banniere/3.jpg
+pictures/battle/dark-elves/porteur-gd-banniere/4.jpg
 [/gallery]
 
 ### Sorcière suprême
@@ -97,12 +97,12 @@ Je possède toujours celle que j'avais ado mais j'ai préféré ne pas la décap
 * Soumise au défis __FDC - case héro ou personnage - de Whisp__.
 
 [gallery w=150 h=250]
-pictures/dark-elves/sorciere-supreme/1.jpg
-pictures/dark-elves/sorciere-supreme/2.jpg
-pictures/dark-elves/sorciere-supreme/3.jpg
-pictures/dark-elves/sorciere-supreme/4.jpg
-pictures/dark-elves/sorciere-supreme/5.jpg
-pictures/dark-elves/sorciere-supreme/6.jpg
+pictures/battle/dark-elves/sorciere-supreme/1.jpg
+pictures/battle/dark-elves/sorciere-supreme/2.jpg
+pictures/battle/dark-elves/sorciere-supreme/3.jpg
+pictures/battle/dark-elves/sorciere-supreme/4.jpg
+pictures/battle/dark-elves/sorciere-supreme/5.jpg
+pictures/battle/dark-elves/sorciere-supreme/6.jpg
 [/gallery]
 
 [paints title="Tissu violet froid"]
@@ -129,10 +129,10 @@ Parmi toute les versions de sang froid qui existe c'est clairement celle que j'a
 Quoique j'aime encore moins les sang froid actuelle des Séraphons.
 
 [gallery w=200 h=250]
-pictures/dark-elves/sorciere-sg-froid/1.jpg
-pictures/dark-elves/sorciere-sg-froid/2.jpg
-pictures/dark-elves/sorciere-sg-froid/3.jpg
-pictures/dark-elves/sorciere-sg-froid/4.jpg
+pictures/battle/dark-elves/sorciere-sg-froid/1.jpg
+pictures/battle/dark-elves/sorciere-sg-froid/2.jpg
+pictures/battle/dark-elves/sorciere-sg-froid/3.jpg
+pictures/battle/dark-elves/sorciere-sg-froid/4.jpg
 [/gallery]
 
 * Peinte en Mai 2024.
@@ -170,12 +170,12 @@ Je les ai décapé, décollé et recollé. Il y a eu de la perte :p
 * Environ 8h30h
 
 [gallery w=250 h=200]
-pictures/dark-elves/arbaletriers/01.jpg
-pictures/dark-elves/arbaletriers/02.jpg
-pictures/dark-elves/arbaletriers/03.jpg
-pictures/dark-elves/arbaletriers/04.jpg
-pictures/dark-elves/arbaletriers/05.jpg
-pictures/dark-elves/arbaletriers/06.jpg
+pictures/battle/dark-elves/arbaletriers/01.jpg
+pictures/battle/dark-elves/arbaletriers/02.jpg
+pictures/battle/dark-elves/arbaletriers/03.jpg
+pictures/battle/dark-elves/arbaletriers/04.jpg
+pictures/battle/dark-elves/arbaletriers/05.jpg
+pictures/battle/dark-elves/arbaletriers/06.jpg
 [/gallery]
 [/after]
 
@@ -188,16 +188,16 @@ J'ai acheté ces figurines étant gamin, cela fait donc plus de 20 ans que ces f
 - Soumise au défis __FDC - case unité - de Whisp__.
 
 [gallery w=250 h=200]
-pictures/dark-elves/corsair/01.jpg
-pictures/dark-elves/corsair/02.jpg
-pictures/dark-elves/corsair/03.jpg
-pictures/dark-elves/corsair/04.jpg
+pictures/battle/dark-elves/corsair/01.jpg
+pictures/battle/dark-elves/corsair/02.jpg
+pictures/battle/dark-elves/corsair/03.jpg
+pictures/battle/dark-elves/corsair/04.jpg
 [/gallery]
 [gallery w=250 h=125]
-pictures/dark-elves/corsair/05.jpg
-pictures/dark-elves/corsair/06.jpg
-pictures/dark-elves/corsair/07.jpg
-pictures/dark-elves/corsair/08.jpg
+pictures/battle/dark-elves/corsair/05.jpg
+pictures/battle/dark-elves/corsair/06.jpg
+pictures/battle/dark-elves/corsair/07.jpg
+pictures/battle/dark-elves/corsair/08.jpg
 [/gallery]
 
 [paints title="Ecaille cape"]
@@ -223,12 +223,12 @@ Je les ai décapé, décollé et recollé. Il y a eu de la perte :p
 * Environ 20h
 
 [gallery w=250 h=200]
-pictures/dark-elves/lanciers/01.jpg
-pictures/dark-elves/lanciers/02.jpg
-pictures/dark-elves/lanciers/03.jpg
-pictures/dark-elves/lanciers/04.jpg
-pictures/dark-elves/lanciers/05.jpg
-pictures/dark-elves/lanciers/06.jpg
+pictures/battle/dark-elves/lanciers/01.jpg
+pictures/battle/dark-elves/lanciers/02.jpg
+pictures/battle/dark-elves/lanciers/03.jpg
+pictures/battle/dark-elves/lanciers/04.jpg
+pictures/battle/dark-elves/lanciers/05.jpg
+pictures/battle/dark-elves/lanciers/06.jpg
 [/gallery]
 
 ## Unités Spéciales
@@ -248,14 +248,14 @@ Je les ai décapées et repeintes.
 * Soumis au défis __Décembre 2024 - Chevalier de [CFM](https://taverne.colorfulminis.com/t/defi-decembre-2024-chevalier/5777)__.
 
 [gallery w=250 h=200]
-pictures/dark-elves/cavalier-sg-froid/01.jpg
-pictures/dark-elves/cavalier-sg-froid/02.jpg
-pictures/dark-elves/cavalier-sg-froid/03.jpg
+pictures/battle/dark-elves/cavalier-sg-froid/01.jpg
+pictures/battle/dark-elves/cavalier-sg-froid/02.jpg
+pictures/battle/dark-elves/cavalier-sg-froid/03.jpg
 [/gallery]
 [gallery w=300 h=200]
-pictures/dark-elves/cavalier-sg-froid/04.jpg
-pictures/dark-elves/cavalier-sg-froid/05.jpg
-pictures/dark-elves/cavalier-sg-froid/06.jpg
+pictures/battle/dark-elves/cavalier-sg-froid/04.jpg
+pictures/battle/dark-elves/cavalier-sg-froid/05.jpg
+pictures/battle/dark-elves/cavalier-sg-froid/06.jpg
 [/gallery]
 
 Le plateau de mouvement est volontairement pour 10 figurines si je souhaite y ajouté 
@@ -263,8 +263,8 @@ ma [sorciere](2024/elfes-noirs-sorciere-metal-sang-froid.html)
 et mon [malus darkblade](2025/elfes-noirs-malus-dark-blade.html).
 
 [gallery w=250 h=200]
-pictures/dark-elves/cavalier-sg-froid/07.jpg
-pictures/dark-elves/cavalier-sg-froid/08.jpg
+pictures/battle/dark-elves/cavalier-sg-froid/07.jpg
+pictures/battle/dark-elves/cavalier-sg-froid/08.jpg
 [/gallery]
 
 [/after]
@@ -279,11 +279,11 @@ Je l'ai acheter sur Vinted, décapé, contre percé et repeint.
 * Soumise au défis __FDC - case unité lourde - de Whisp__.
 
 [gallery w=300 h=200]
-pictures/dark-elves/char-sg-froid/1.jpg
-pictures/dark-elves/char-sg-froid/2.jpg
-pictures/dark-elves/char-sg-froid/3.jpg
-pictures/dark-elves/char-sg-froid/4.jpg
-pictures/dark-elves/char-sg-froid/5.jpg
+pictures/battle/dark-elves/char-sg-froid/1.jpg
+pictures/battle/dark-elves/char-sg-froid/2.jpg
+pictures/battle/dark-elves/char-sg-froid/3.jpg
+pictures/battle/dark-elves/char-sg-froid/4.jpg
+pictures/battle/dark-elves/char-sg-froid/5.jpg
 [/gallery]
 
 ### Exécuteurs de Har Ganeth
@@ -296,15 +296,15 @@ Certains m'ont été offerts (merci Ardien si tu passe par la) quand aux autres 
 * Le glyphe sur le port étendard représente la cité de Har Ganeth
 
 [gallery w=250 h=200]
-pictures/dark-elves/executeurs/01.jpg
-pictures/dark-elves/executeurs/02.jpg
-pictures/dark-elves/executeurs/03.jpg
-pictures/dark-elves/executeurs/04.jpg
-pictures/dark-elves/executeurs/05.jpg
-pictures/dark-elves/executeurs/06.jpg
-pictures/dark-elves/executeurs/07.jpg
-pictures/dark-elves/executeurs/08.jpg
-pictures/dark-elves/executeurs/09.jpg
+pictures/battle/dark-elves/executeurs/01.jpg
+pictures/battle/dark-elves/executeurs/02.jpg
+pictures/battle/dark-elves/executeurs/03.jpg
+pictures/battle/dark-elves/executeurs/04.jpg
+pictures/battle/dark-elves/executeurs/05.jpg
+pictures/battle/dark-elves/executeurs/06.jpg
+pictures/battle/dark-elves/executeurs/07.jpg
+pictures/battle/dark-elves/executeurs/08.jpg
+pictures/battle/dark-elves/executeurs/09.jpg
 [/gallery]
 
 ### Furies de Khaine
@@ -317,26 +317,26 @@ J'**adore** les furies, j'ai versé une larme quand j'ai commencé leur peinture
 - Environ 43h.
 
 [gallery w=250 h=200]
-pictures/dark-elves/furies/01.jpg
-pictures/dark-elves/furies/02.jpg
-pictures/dark-elves/furies/03.jpg
-pictures/dark-elves/furies/04.jpg
-pictures/dark-elves/furies/05.jpg
-pictures/dark-elves/furies/06.jpg
-pictures/dark-elves/furies/07.jpg
-pictures/dark-elves/furies/08.jpg
+pictures/battle/dark-elves/furies/01.jpg
+pictures/battle/dark-elves/furies/02.jpg
+pictures/battle/dark-elves/furies/03.jpg
+pictures/battle/dark-elves/furies/04.jpg
+pictures/battle/dark-elves/furies/05.jpg
+pictures/battle/dark-elves/furies/06.jpg
+pictures/battle/dark-elves/furies/07.jpg
+pictures/battle/dark-elves/furies/08.jpg
 [/gallery]
 [gallery w=200 h=250]
-pictures/dark-elves/furies/10.jpg
-pictures/dark-elves/furies/11.jpg
-pictures/dark-elves/furies/12.jpg
-pictures/dark-elves/furies/13.jpg
-pictures/dark-elves/furies/14.jpg
-pictures/dark-elves/furies/15.jpg
-pictures/dark-elves/furies/16.jpg
-pictures/dark-elves/furies/17.jpg
-pictures/dark-elves/furies/18.jpg
-pictures/dark-elves/furies/19.jpg
+pictures/battle/dark-elves/furies/10.jpg
+pictures/battle/dark-elves/furies/11.jpg
+pictures/battle/dark-elves/furies/12.jpg
+pictures/battle/dark-elves/furies/13.jpg
+pictures/battle/dark-elves/furies/14.jpg
+pictures/battle/dark-elves/furies/15.jpg
+pictures/battle/dark-elves/furies/16.jpg
+pictures/battle/dark-elves/furies/17.jpg
+pictures/battle/dark-elves/furies/18.jpg
+pictures/battle/dark-elves/furies/19.jpg
 [/gallery]
 
 [paints title="Peau femme"]
@@ -366,18 +366,18 @@ J'ai décapé et gardé seulement 10 figurines pour en avoir deux de chaque mode
 * Environ 14h00 de peinture
 
 [gallery w=500 h=200]
-pictures/dark-elves/ombres/01.jpg
+pictures/battle/dark-elves/ombres/01.jpg
 [/gallery]
 [gallery w=220 h=200]
-pictures/dark-elves/ombres/02.jpg
-pictures/dark-elves/ombres/03.jpg
-pictures/dark-elves/ombres/04.jpg
-pictures/dark-elves/ombres/05.jpg
-pictures/dark-elves/ombres/06.jpg
+pictures/battle/dark-elves/ombres/02.jpg
+pictures/battle/dark-elves/ombres/03.jpg
+pictures/battle/dark-elves/ombres/04.jpg
+pictures/battle/dark-elves/ombres/05.jpg
+pictures/battle/dark-elves/ombres/06.jpg
 [/gallery]
 [gallery w=500 h=200]
-pictures/dark-elves/ombres/07.jpg
-pictures/dark-elves/ombres/08.jpg
+pictures/battle/dark-elves/ombres/07.jpg
+pictures/battle/dark-elves/ombres/08.jpg
 [/gallery]
 [/after]
 
@@ -394,17 +394,17 @@ Je les ai décaper pour les repeindre avec mon schéma et niveau actuel.
 * Peinte pour le défis __Avril 2024 - Ne te découvre pas d'un fil - de Karv__.
 
 [gallery w=500 h=200]
-pictures/dark-elves/balistes/1.jpg
+pictures/battle/dark-elves/balistes/1.jpg
 [/gallery]
 [gallery w=250 h=200]
-pictures/dark-elves/balistes/2.jpg
-pictures/dark-elves/balistes/3.jpg
-pictures/dark-elves/balistes/4.jpg
-pictures/dark-elves/balistes/5.jpg
+pictures/battle/dark-elves/balistes/2.jpg
+pictures/battle/dark-elves/balistes/3.jpg
+pictures/battle/dark-elves/balistes/4.jpg
+pictures/battle/dark-elves/balistes/5.jpg
 [/gallery]
 [gallery w=450 h=200]
-pictures/dark-elves/balistes/6.jpg
-pictures/dark-elves/balistes/7.jpg
+pictures/battle/dark-elves/balistes/6.jpg
+pictures/battle/dark-elves/balistes/7.jpg
 [/gallery]
 
 [paints title="Parchemin / Crane"]
@@ -426,15 +426,15 @@ Qu'est ce que je voulais cet fig étant petit.
 * Peinte pour le défis __Mai 2024 - Fait ce qu'il te plaît - de Karv__.
 
 [gallery w=180 h=200]
-pictures/dark-elves/chaudron-de-sang/1.jpg
-pictures/dark-elves/chaudron-de-sang/2.jpg
-pictures/dark-elves/chaudron-de-sang/3.jpg
-pictures/dark-elves/chaudron-de-sang/4.jpg
-pictures/dark-elves/chaudron-de-sang/5.jpg
+pictures/battle/dark-elves/chaudron-de-sang/1.jpg
+pictures/battle/dark-elves/chaudron-de-sang/2.jpg
+pictures/battle/dark-elves/chaudron-de-sang/3.jpg
+pictures/battle/dark-elves/chaudron-de-sang/4.jpg
+pictures/battle/dark-elves/chaudron-de-sang/5.jpg
 [/gallery]
 [gallery w=400 h=200]
-pictures/dark-elves/chaudron-de-sang/6.jpg
-pictures/dark-elves/chaudron-de-sang/7.jpg
+pictures/battle/dark-elves/chaudron-de-sang/6.jpg
+pictures/battle/dark-elves/chaudron-de-sang/7.jpg
 [/gallery]
 
 [paints title="Jade"]
@@ -453,14 +453,14 @@ Voici mes Gardes Noir de Naggarond en métal. J'ai peiné à les regrouper, je l
 * Figurine de 2000.
 
 [gallery w=250 h=200]
-pictures/dark-elves/garde-noir/01.jpg
-pictures/dark-elves/garde-noir/02.jpg
-pictures/dark-elves/garde-noir/03.jpg
-pictures/dark-elves/garde-noir/04.jpg
-pictures/dark-elves/garde-noir/05.jpg
-pictures/dark-elves/garde-noir/06.jpg
-pictures/dark-elves/garde-noir/07.jpg
-pictures/dark-elves/garde-noir/08.jpg
+pictures/battle/dark-elves/garde-noir/01.jpg
+pictures/battle/dark-elves/garde-noir/02.jpg
+pictures/battle/dark-elves/garde-noir/03.jpg
+pictures/battle/dark-elves/garde-noir/04.jpg
+pictures/battle/dark-elves/garde-noir/05.jpg
+pictures/battle/dark-elves/garde-noir/06.jpg
+pictures/battle/dark-elves/garde-noir/07.jpg
+pictures/battle/dark-elves/garde-noir/08.jpg
 [/gallery]
 
 ### Hydre de Guerre
@@ -475,13 +475,13 @@ Je me suis inspiré de la peinture du sang froid de l'a sorcière suprême.
 * Figurine de 2000.
 
 [gallery w=250 h=200]
-pictures/dark-elves/hydre-de-guerre/01.jpg
-pictures/dark-elves/hydre-de-guerre/02.jpg
-pictures/dark-elves/hydre-de-guerre/03.jpg
-pictures/dark-elves/hydre-de-guerre/04.jpg
-pictures/dark-elves/hydre-de-guerre/05.jpg
-pictures/dark-elves/hydre-de-guerre/06.jpg
-pictures/dark-elves/hydre-de-guerre/07.jpg
+pictures/battle/dark-elves/hydre-de-guerre/01.jpg
+pictures/battle/dark-elves/hydre-de-guerre/02.jpg
+pictures/battle/dark-elves/hydre-de-guerre/03.jpg
+pictures/battle/dark-elves/hydre-de-guerre/04.jpg
+pictures/battle/dark-elves/hydre-de-guerre/05.jpg
+pictures/battle/dark-elves/hydre-de-guerre/06.jpg
+pictures/battle/dark-elves/hydre-de-guerre/07.jpg
 [/gallery]
 
 [paints title="Ecaille Orange"]

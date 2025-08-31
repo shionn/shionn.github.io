@@ -11,16 +11,16 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 * Soumise au défis __FDC - case unité - de Whisp__.
 
 [gallery w=250 h=200]
-pictures/dark-elves/corsair/01.jpg
-pictures/dark-elves/corsair/02.jpg
-pictures/dark-elves/corsair/03.jpg
-pictures/dark-elves/corsair/04.jpg
+pictures/battle/dark-elves/corsair/01.jpg
+pictures/battle/dark-elves/corsair/02.jpg
+pictures/battle/dark-elves/corsair/03.jpg
+pictures/battle/dark-elves/corsair/04.jpg
 [/gallery]
 [gallery w=250 h=125]
-pictures/dark-elves/corsair/05.jpg
-pictures/dark-elves/corsair/06.jpg
-pictures/dark-elves/corsair/07.jpg
-pictures/dark-elves/corsair/08.jpg
+pictures/battle/dark-elves/corsair/05.jpg
+pictures/battle/dark-elves/corsair/06.jpg
+pictures/battle/dark-elves/corsair/07.jpg
+pictures/battle/dark-elves/corsair/08.jpg
 [/gallery]
 
 [paints title="Interieur cape"]

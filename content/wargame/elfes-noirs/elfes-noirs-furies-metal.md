@@ -11,26 +11,26 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 * Environ 43h.
 
 [gallery w=250 h=200]
-pictures/dark-elves/furies/01.jpg
-pictures/dark-elves/furies/02.jpg
-pictures/dark-elves/furies/03.jpg
-pictures/dark-elves/furies/04.jpg
-pictures/dark-elves/furies/05.jpg
-pictures/dark-elves/furies/06.jpg
-pictures/dark-elves/furies/07.jpg
-pictures/dark-elves/furies/08.jpg
+pictures/battle/dark-elves/furies/01.jpg
+pictures/battle/dark-elves/furies/02.jpg
+pictures/battle/dark-elves/furies/03.jpg
+pictures/battle/dark-elves/furies/04.jpg
+pictures/battle/dark-elves/furies/05.jpg
+pictures/battle/dark-elves/furies/06.jpg
+pictures/battle/dark-elves/furies/07.jpg
+pictures/battle/dark-elves/furies/08.jpg
 [/gallery]
 [gallery w=200 h=250]
-pictures/dark-elves/furies/10.jpg
-pictures/dark-elves/furies/11.jpg
-pictures/dark-elves/furies/12.jpg
-pictures/dark-elves/furies/13.jpg
-pictures/dark-elves/furies/14.jpg
-pictures/dark-elves/furies/15.jpg
-pictures/dark-elves/furies/16.jpg
-pictures/dark-elves/furies/17.jpg
-pictures/dark-elves/furies/18.jpg
-pictures/dark-elves/furies/19.jpg
+pictures/battle/dark-elves/furies/10.jpg
+pictures/battle/dark-elves/furies/11.jpg
+pictures/battle/dark-elves/furies/12.jpg
+pictures/battle/dark-elves/furies/13.jpg
+pictures/battle/dark-elves/furies/14.jpg
+pictures/battle/dark-elves/furies/15.jpg
+pictures/battle/dark-elves/furies/16.jpg
+pictures/battle/dark-elves/furies/17.jpg
+pictures/battle/dark-elves/furies/18.jpg
+pictures/battle/dark-elves/furies/19.jpg
 [/gallery]
 
 [paints title="Peau femme"]

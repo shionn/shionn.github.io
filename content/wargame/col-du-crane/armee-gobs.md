@@ -26,12 +26,12 @@ On est loin d'avoir une armée complete il s'agit simplement de la partie gobeli
 * Avec un socle adapteteur pour AoS
 
 [gallery w=150 h=200]
-pictures/bataille-col-crane/gobs/bosssquig/01.jpg
-pictures/bataille-col-crane/gobs/bosssquig/02.jpg
-pictures/bataille-col-crane/gobs/bosssquig/03.jpg
+pictures/battle/bataille-col-crane/gobs/bosssquig/01.jpg
+pictures/battle/bataille-col-crane/gobs/bosssquig/02.jpg
+pictures/battle/bataille-col-crane/gobs/bosssquig/03.jpg
 [/gallery]
 [gallery w=300 h=200]
-pictures/bataille-col-crane/gobs/bosssquig/04.jpg
+pictures/battle/bataille-col-crane/gobs/bosssquig/04.jpg
 [/gallery]
 
 ### Chaman
@@ -41,9 +41,9 @@ pictures/bataille-col-crane/gobs/bosssquig/04.jpg
 * Avec un socle adapteteur pour AoS
 
 [gallery w=150 h=200]
-pictures/bataille-col-crane/gobs/shaman/01.jpg
-pictures/bataille-col-crane/gobs/shaman/02.jpg
-pictures/bataille-col-crane/gobs/shaman/03.jpg
+pictures/battle/bataille-col-crane/gobs/shaman/01.jpg
+pictures/battle/bataille-col-crane/gobs/shaman/02.jpg
+pictures/battle/bataille-col-crane/gobs/shaman/03.jpg
 [/gallery]
 
 [/after]
@@ -59,22 +59,22 @@ Ces figurine mon servi de test de couleur pour mon amrée de gobelin à AoS.
 * Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=300 h=200]
-pictures/bataille-col-crane/gobs/lanciers/01.jpg
-pictures/bataille-col-crane/gobs/lanciers/02.jpg
-pictures/bataille-col-crane/gobs/lanciers/03.jpg
-pictures/bataille-col-crane/gobs/lanciers/04.jpg
-pictures/bataille-col-crane/gobs/lanciers/05.jpg
-pictures/bataille-col-crane/gobs/lanciers/06.jpg
-pictures/bataille-col-crane/gobs/lanciers/07.jpg
-pictures/bataille-col-crane/gobs/lanciers/08.jpg
-pictures/bataille-col-crane/gobs/lanciers/09.jpg
-pictures/bataille-col-crane/gobs/lanciers/10.jpg
-pictures/bataille-col-crane/gobs/lanciers/11.jpg
-pictures/bataille-col-crane/gobs/lanciers/12.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/01.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/02.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/03.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/04.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/05.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/06.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/07.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/08.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/09.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/10.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/11.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/12.jpg
 [/gallery]
 [gallery w=450 h=200]
-pictures/bataille-col-crane/gobs/lanciers/13.jpg
-pictures/bataille-col-crane/gobs/lanciers/14.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/13.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/14.jpg
 [/gallery]
 
 [after date="2025/10/09"]
@@ -84,10 +84,10 @@ pictures/bataille-col-crane/gobs/lanciers/14.jpg
 * En environ 14 heures
 
 [gallery w=300 h=200]
-pictures/bataille-col-crane/gobs/chevaucheur-araignee/01.jpg
-pictures/bataille-col-crane/gobs/chevaucheur-araignee/02.jpg
-pictures/bataille-col-crane/gobs/chevaucheur-araignee/03.jpg
-pictures/bataille-col-crane/gobs/chevaucheur-araignee/04.jpg
+pictures/battle/bataille-col-crane/gobs/chevaucheur-araignee/01.jpg
+pictures/battle/bataille-col-crane/gobs/chevaucheur-araignee/02.jpg
+pictures/battle/bataille-col-crane/gobs/chevaucheur-araignee/03.jpg
+pictures/battle/bataille-col-crane/gobs/chevaucheur-araignee/04.jpg
 [/gallery]
 
 [/after]
@@ -99,10 +99,10 @@ pictures/bataille-col-crane/gobs/chevaucheur-araignee/04.jpg
 * En environ 4 heures.
 
 [gallery w=150 h=200]
-pictures/bataille-col-crane/gobs/troll/01.jpg
-pictures/bataille-col-crane/gobs/troll/02.jpg
-pictures/bataille-col-crane/gobs/troll/03.jpg
-pictures/bataille-col-crane/gobs/troll/04.jpg
+pictures/battle/bataille-col-crane/gobs/troll/01.jpg
+pictures/battle/bataille-col-crane/gobs/troll/02.jpg
+pictures/battle/bataille-col-crane/gobs/troll/03.jpg
+pictures/battle/bataille-col-crane/gobs/troll/04.jpg
 [/gallery]
 [/after]
 

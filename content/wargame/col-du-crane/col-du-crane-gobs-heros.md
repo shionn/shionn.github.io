@@ -10,12 +10,12 @@ Voici aujourd'hui les figurines individueles.
 * Avec un socle adapteteur pour AoS
 
 [gallery w=150 h=200]
-pictures/bataille-col-crane/gobs/bosssquig/01.jpg
-pictures/bataille-col-crane/gobs/bosssquig/02.jpg
-pictures/bataille-col-crane/gobs/bosssquig/03.jpg
+pictures/battle/bataille-col-crane/gobs/bosssquig/01.jpg
+pictures/battle/bataille-col-crane/gobs/bosssquig/02.jpg
+pictures/battle/bataille-col-crane/gobs/bosssquig/03.jpg
 [/gallery]
 [gallery w=300 h=200]
-pictures/bataille-col-crane/gobs/bosssquig/04.jpg
+pictures/battle/bataille-col-crane/gobs/bosssquig/04.jpg
 [/gallery]
 
 ## Chaman
@@ -25,9 +25,9 @@ pictures/bataille-col-crane/gobs/bosssquig/04.jpg
 * Avec un socle adapteteur pour AoS
 
 [gallery w=150 h=200]
-pictures/bataille-col-crane/gobs/shaman/01.jpg
-pictures/bataille-col-crane/gobs/shaman/02.jpg
-pictures/bataille-col-crane/gobs/shaman/03.jpg
+pictures/battle/bataille-col-crane/gobs/shaman/01.jpg
+pictures/battle/bataille-col-crane/gobs/shaman/02.jpg
+pictures/battle/bataille-col-crane/gobs/shaman/03.jpg
 [/gallery]
 
 ## Troll
@@ -36,10 +36,10 @@ pictures/bataille-col-crane/gobs/shaman/03.jpg
 * En environ 4 heures.
 
 [gallery w=150 h=200]
-pictures/bataille-col-crane/gobs/troll/01.jpg
-pictures/bataille-col-crane/gobs/troll/02.jpg
-pictures/bataille-col-crane/gobs/troll/03.jpg
-pictures/bataille-col-crane/gobs/troll/04.jpg
+pictures/battle/bataille-col-crane/gobs/troll/01.jpg
+pictures/battle/bataille-col-crane/gobs/troll/02.jpg
+pictures/battle/bataille-col-crane/gobs/troll/03.jpg
+pictures/battle/bataille-col-crane/gobs/troll/04.jpg
 [/gallery]
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées

@@ -7,9 +7,9 @@ Voici mon assassin en métal. J'ai acheté cette figurine il y a presque 25 ans.
 * Soumise au défis __FDC - case héros ou personnage - de Whisp__.
 
 [gallery w=200 h=200]
-pictures/dark-elves/assassin/01.jpg
-pictures/dark-elves/assassin/02.jpg
-pictures/dark-elves/assassin/03.jpg
+pictures/battle/dark-elves/assassin/01.jpg
+pictures/battle/dark-elves/assassin/02.jpg
+pictures/battle/dark-elves/assassin/03.jpg
 [/gallery]
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées

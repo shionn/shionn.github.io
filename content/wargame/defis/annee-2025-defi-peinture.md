@@ -14,8 +14,8 @@ En janvier j'ai peint :
 * Deux porte étendart gobs pour __Pimp my Flag__ sur [OMM](https://onemoremini.fr/topic/653/d%C3%A9fi-janvier-2025-pimp-my-flag).
 
 [gallery w=250 h=250]
-pictures/dark-elves/morathi-pegase/01.jpg
-pictures/bataille-col-crane/gobs/lanciers/15.jpg
+pictures/battle/dark-elves/morathi-pegase/01.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/15.jpg
 [/gallery]
 
 ## Février 2025

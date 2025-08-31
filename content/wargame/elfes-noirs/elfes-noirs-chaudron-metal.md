@@ -14,15 +14,15 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 * J'ai mis des aimants qui permettent de jouer la reine et les furie à manière de la V6 ou V8.
 
 [gallery w=180 h=200]
-pictures/dark-elves/chaudron-de-sang/1.jpg
-pictures/dark-elves/chaudron-de-sang/2.jpg
-pictures/dark-elves/chaudron-de-sang/3.jpg
-pictures/dark-elves/chaudron-de-sang/4.jpg
-pictures/dark-elves/chaudron-de-sang/5.jpg
+pictures/battle/dark-elves/chaudron-de-sang/1.jpg
+pictures/battle/dark-elves/chaudron-de-sang/2.jpg
+pictures/battle/dark-elves/chaudron-de-sang/3.jpg
+pictures/battle/dark-elves/chaudron-de-sang/4.jpg
+pictures/battle/dark-elves/chaudron-de-sang/5.jpg
 [/gallery]
 [gallery w=400 h=200]
-pictures/dark-elves/chaudron-de-sang/6.jpg
-pictures/dark-elves/chaudron-de-sang/7.jpg
+pictures/battle/dark-elves/chaudron-de-sang/6.jpg
+pictures/battle/dark-elves/chaudron-de-sang/7.jpg
 [/gallery]
 
 [paints title="Jade"]

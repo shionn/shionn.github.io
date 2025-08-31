@@ -8,18 +8,18 @@ J'ai décapé et gardé seulement 10 figurines pour en avoir deux de chaque mode
 * Environ 14h00 de peinture
 
 [gallery w=500 h=200]
-pictures/dark-elves/ombres/01.jpg
+pictures/battle/dark-elves/ombres/01.jpg
 [/gallery]
 [gallery w=220 h=200]
-pictures/dark-elves/ombres/02.jpg
-pictures/dark-elves/ombres/03.jpg
-pictures/dark-elves/ombres/04.jpg
-pictures/dark-elves/ombres/05.jpg
-pictures/dark-elves/ombres/06.jpg
+pictures/battle/dark-elves/ombres/02.jpg
+pictures/battle/dark-elves/ombres/03.jpg
+pictures/battle/dark-elves/ombres/04.jpg
+pictures/battle/dark-elves/ombres/05.jpg
+pictures/battle/dark-elves/ombres/06.jpg
 [/gallery]
 [gallery w=500 h=200]
-pictures/dark-elves/ombres/07.jpg
-pictures/dark-elves/ombres/08.jpg
+pictures/battle/dark-elves/ombres/07.jpg
+pictures/battle/dark-elves/ombres/08.jpg
 [/gallery]
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées

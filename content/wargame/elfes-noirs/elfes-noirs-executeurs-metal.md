@@ -11,15 +11,15 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 * Le glyphe sur le port étendard représente la cité de Har Ganeth
 
 [gallery w=250 h=200]
-pictures/dark-elves/executeurs/01.jpg
-pictures/dark-elves/executeurs/02.jpg
-pictures/dark-elves/executeurs/03.jpg
-pictures/dark-elves/executeurs/04.jpg
-pictures/dark-elves/executeurs/05.jpg
-pictures/dark-elves/executeurs/06.jpg
-pictures/dark-elves/executeurs/07.jpg
-pictures/dark-elves/executeurs/08.jpg
-pictures/dark-elves/executeurs/09.jpg
+pictures/battle/dark-elves/executeurs/01.jpg
+pictures/battle/dark-elves/executeurs/02.jpg
+pictures/battle/dark-elves/executeurs/03.jpg
+pictures/battle/dark-elves/executeurs/04.jpg
+pictures/battle/dark-elves/executeurs/05.jpg
+pictures/battle/dark-elves/executeurs/06.jpg
+pictures/battle/dark-elves/executeurs/07.jpg
+pictures/battle/dark-elves/executeurs/08.jpg
+pictures/battle/dark-elves/executeurs/09.jpg
 [/gallery]
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées

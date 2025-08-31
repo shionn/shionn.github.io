@@ -10,14 +10,14 @@ Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un pr
 * Figurine de 2000.
 
 [gallery w=250 h=200]
-pictures/dark-elves/garde-noir/01.jpg
-pictures/dark-elves/garde-noir/02.jpg
-pictures/dark-elves/garde-noir/03.jpg
-pictures/dark-elves/garde-noir/04.jpg
-pictures/dark-elves/garde-noir/05.jpg
-pictures/dark-elves/garde-noir/06.jpg
-pictures/dark-elves/garde-noir/07.jpg
-pictures/dark-elves/garde-noir/08.jpg
+pictures/battle/dark-elves/garde-noir/01.jpg
+pictures/battle/dark-elves/garde-noir/02.jpg
+pictures/battle/dark-elves/garde-noir/03.jpg
+pictures/battle/dark-elves/garde-noir/04.jpg
+pictures/battle/dark-elves/garde-noir/05.jpg
+pictures/battle/dark-elves/garde-noir/06.jpg
+pictures/battle/dark-elves/garde-noir/07.jpg
+pictures/battle/dark-elves/garde-noir/08.jpg
 [/gallery]
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées

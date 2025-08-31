@@ -9,10 +9,10 @@ Je l'ai acheté autour des années 2000, et elle est resté dans ma piule de la 
 * Je voulais volontairement un aspect léger _mon petit poney_.
 
 [gallery w=200 h=200]
-pictures/dark-elves/morathi-pegase/01.jpg
-pictures/dark-elves/morathi-pegase/02.jpg
-pictures/dark-elves/morathi-pegase/03.jpg
-pictures/dark-elves/morathi-pegase/04.jpg
+pictures/battle/dark-elves/morathi-pegase/01.jpg
+pictures/battle/dark-elves/morathi-pegase/02.jpg
+pictures/battle/dark-elves/morathi-pegase/03.jpg
+pictures/battle/dark-elves/morathi-pegase/04.jpg
 [/gallery]
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
