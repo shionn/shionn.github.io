@@ -5,7 +5,7 @@
 	"title": "Lanciers Elfes Noirs",
 	"tags": ["War Game", "Figurine", "Elfes Noirs", "Warhammer Battle"],
 	"category": "War Game",
-	"logo": "pictures/titles/elfe-noir-lanciers.jpg",
+	"logo": "pictures/titles/elfe-noir/lanciers.jpg",
 	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"

@@ -5,7 +5,7 @@
 	"title": "Corsair Elfes Noirs",
 	"tags": ["War Game", "Figurine", "Elfes Noirs", "Warhammer Battle", "Metal"],
 	"category": "War Game",
-	"logo": "pictures/titles/elfe-noir-corsair-metal.jpg",
+	"logo": "pictures/titles/elfe-noir/corsair-metal.jpg",
 	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"
