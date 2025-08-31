@@ -701,6 +701,10 @@ q(function() {
 		.progress("30/08/2025", whisp, 1, "Roi Nain", _SMALL)
 		.render();
 	
+	let q26 = new _quest("quest-26", "???", "???", 40)
+		.progress("31/08/2025", tony, 1, "Space Marine", _SMALL)
+		.render();
+		
 							
 //			
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
