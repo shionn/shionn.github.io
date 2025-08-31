@@ -26,18 +26,18 @@ J'ai essayer de faire un peu brossage la ca s'y pretais.
 * Le socle est très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=150 h=200]
-pictures/gloomspite/trugg/01.jpg
-pictures/gloomspite/trugg/02.jpg
-pictures/gloomspite/trugg/03.jpg
-pictures/gloomspite/trugg/04.jpg
-pictures/gloomspite/trugg/05.jpg
-pictures/gloomspite/trugg/06.jpg
+pictures/aos/gloomspite/trugg/01.jpg
+pictures/aos/gloomspite/trugg/02.jpg
+pictures/aos/gloomspite/trugg/03.jpg
+pictures/aos/gloomspite/trugg/04.jpg
+pictures/aos/gloomspite/trugg/05.jpg
+pictures/aos/gloomspite/trugg/06.jpg
 [/gallery]
 [gallery w=200 h=200]
-pictures/gloomspite/trugg/07.jpg
-pictures/gloomspite/trugg/08.jpg
-pictures/gloomspite/trugg/09.jpg
-pictures/gloomspite/trugg/10.jpg
+pictures/aos/gloomspite/trugg/07.jpg
+pictures/aos/gloomspite/trugg/08.jpg
+pictures/aos/gloomspite/trugg/09.jpg
+pictures/aos/gloomspite/trugg/10.jpg
 [/gallery]
 
 [paints title="Peau Trugg"]

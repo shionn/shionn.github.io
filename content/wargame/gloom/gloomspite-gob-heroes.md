@@ -11,11 +11,11 @@ Je vous présente aujourd'hui les petits héros gobelin.
 * Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=140 h=200]
-pictures/gloomspite/loufboss/01.jpg
-pictures/gloomspite/loufboss/02.jpg
-pictures/gloomspite/loufboss/03.jpg
-pictures/gloomspite/loufboss/04.jpg
-pictures/gloomspite/loufboss/05.jpg
+pictures/aos/gloomspite/loufboss/01.jpg
+pictures/aos/gloomspite/loufboss/02.jpg
+pictures/aos/gloomspite/loufboss/03.jpg
+pictures/aos/gloomspite/loufboss/04.jpg
+pictures/aos/gloomspite/loufboss/05.jpg
 [/gallery]
 
 ## Chamane Fongoide 

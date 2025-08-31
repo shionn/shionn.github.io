@@ -14,18 +14,18 @@ Le chaman-tisseur peu être joué à pied.
 * Soumise à mon défis discord __Maia : Nature / Croissance__
 
 [gallery w=300 h=200]
-pictures/gloomspite/arachnarock/01.jpg
-pictures/gloomspite/arachnarock/02.jpg
-pictures/gloomspite/arachnarock/03.jpg
-pictures/gloomspite/arachnarock/04.jpg
-pictures/gloomspite/arachnarock/05.jpg
-pictures/gloomspite/arachnarock/06.jpg
+pictures/aos/gloomspite/arachnarock/01.jpg
+pictures/aos/gloomspite/arachnarock/02.jpg
+pictures/aos/gloomspite/arachnarock/03.jpg
+pictures/aos/gloomspite/arachnarock/04.jpg
+pictures/aos/gloomspite/arachnarock/05.jpg
+pictures/aos/gloomspite/arachnarock/06.jpg
 [/gallery]
 [gallery w=150 h=200]
-pictures/gloomspite/arachnarock/07.jpg
-pictures/gloomspite/arachnarock/08.jpg
-pictures/gloomspite/shaman-tisseur/01.jpg
-pictures/gloomspite/shaman-tisseur/02.jpg
+pictures/aos/gloomspite/arachnarock/07.jpg
+pictures/aos/gloomspite/arachnarock/08.jpg
+pictures/aos/gloomspite/shaman-tisseur/01.jpg
+pictures/aos/gloomspite/shaman-tisseur/02.jpg
 [/gallery]
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées

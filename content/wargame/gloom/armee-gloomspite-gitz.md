@@ -39,42 +39,42 @@ Voici mes trolls de pierre. Ils proviennent de la boite Dawnbringers qui contien
 * En environ 35 heures
 
 [gallery w=400 h=200]
-pictures/gloomspite/rockgut-troggoths/01.jpg
-pictures/gloomspite/rockgut-troggoths/02.jpg
-pictures/gloomspite/rockgut-troggoths/03.jpg
+pictures/aos/gloomspite/rockgut-troggoths/01.jpg
+pictures/aos/gloomspite/rockgut-troggoths/02.jpg
+pictures/aos/gloomspite/rockgut-troggoths/03.jpg
 [/gallery]
 [gallery w=170 h=200]
-pictures/gloomspite/rockgut-troggoths/04.jpg
-pictures/gloomspite/rockgut-troggoths/05.jpg
-pictures/gloomspite/rockgut-troggoths/06.jpg
-pictures/gloomspite/rockgut-troggoths/07.jpg
-pictures/gloomspite/rockgut-troggoths/08.jpg
-pictures/gloomspite/rockgut-troggoths/09.jpg
-pictures/gloomspite/rockgut-troggoths/10.jpg
-pictures/gloomspite/rockgut-troggoths/11.jpg
-pictures/gloomspite/rockgut-troggoths/12.jpg
-pictures/gloomspite/rockgut-troggoths/13.jpg
-pictures/gloomspite/rockgut-troggoths/14.jpg
-pictures/gloomspite/rockgut-troggoths/15.jpg
-pictures/gloomspite/rockgut-troggoths/16.jpg
-pictures/gloomspite/rockgut-troggoths/17.jpg
-pictures/gloomspite/rockgut-troggoths/18.jpg
-pictures/gloomspite/rockgut-troggoths/19.jpg
-pictures/gloomspite/rockgut-troggoths/20.jpg
-pictures/gloomspite/rockgut-troggoths/21.jpg
+pictures/aos/gloomspite/rockgut-troggoths/04.jpg
+pictures/aos/gloomspite/rockgut-troggoths/05.jpg
+pictures/aos/gloomspite/rockgut-troggoths/06.jpg
+pictures/aos/gloomspite/rockgut-troggoths/07.jpg
+pictures/aos/gloomspite/rockgut-troggoths/08.jpg
+pictures/aos/gloomspite/rockgut-troggoths/09.jpg
+pictures/aos/gloomspite/rockgut-troggoths/10.jpg
+pictures/aos/gloomspite/rockgut-troggoths/11.jpg
+pictures/aos/gloomspite/rockgut-troggoths/12.jpg
+pictures/aos/gloomspite/rockgut-troggoths/13.jpg
+pictures/aos/gloomspite/rockgut-troggoths/14.jpg
+pictures/aos/gloomspite/rockgut-troggoths/15.jpg
+pictures/aos/gloomspite/rockgut-troggoths/16.jpg
+pictures/aos/gloomspite/rockgut-troggoths/17.jpg
+pictures/aos/gloomspite/rockgut-troggoths/18.jpg
+pictures/aos/gloomspite/rockgut-troggoths/19.jpg
+pictures/aos/gloomspite/rockgut-troggoths/20.jpg
+pictures/aos/gloomspite/rockgut-troggoths/21.jpg
 [/gallery]
 [gallery w=200 h=200]
-pictures/gloomspite/rockgut-troggoths/22.jpg
-pictures/gloomspite/rockgut-troggoths/23.jpg
-pictures/gloomspite/rockgut-troggoths/24.jpg
-pictures/gloomspite/rockgut-troggoths/25.jpg
-pictures/gloomspite/rockgut-troggoths/26.jpg
-pictures/gloomspite/rockgut-troggoths/27.jpg
-pictures/gloomspite/rockgut-troggoths/28.jpg
-pictures/gloomspite/rockgut-troggoths/29.jpg
-pictures/gloomspite/rockgut-troggoths/30.jpg
-pictures/gloomspite/rockgut-troggoths/31.jpg
-pictures/gloomspite/rockgut-troggoths/32.jpg
+pictures/aos/gloomspite/rockgut-troggoths/22.jpg
+pictures/aos/gloomspite/rockgut-troggoths/23.jpg
+pictures/aos/gloomspite/rockgut-troggoths/24.jpg
+pictures/aos/gloomspite/rockgut-troggoths/25.jpg
+pictures/aos/gloomspite/rockgut-troggoths/26.jpg
+pictures/aos/gloomspite/rockgut-troggoths/27.jpg
+pictures/aos/gloomspite/rockgut-troggoths/28.jpg
+pictures/aos/gloomspite/rockgut-troggoths/29.jpg
+pictures/aos/gloomspite/rockgut-troggoths/30.jpg
+pictures/aos/gloomspite/rockgut-troggoths/31.jpg
+pictures/aos/gloomspite/rockgut-troggoths/32.jpg
 [/gallery]
 
 ### Trugg roi des troll
@@ -100,27 +100,21 @@ pictures/gloomspite/rockgut-troggoths/32.jpg
 * Le socle est très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=150 h=200]
-pictures/gloomspite/trugg/01.jpg
-pictures/gloomspite/trugg/02.jpg
-pictures/gloomspite/trugg/03.jpg
-pictures/gloomspite/trugg/04.jpg
-pictures/gloomspite/trugg/05.jpg
-pictures/gloomspite/trugg/06.jpg
+pictures/aos/gloomspite/trugg/01.jpg
+pictures/aos/gloomspite/trugg/02.jpg
+pictures/aos/gloomspite/trugg/03.jpg
+pictures/aos/gloomspite/trugg/04.jpg
+pictures/aos/gloomspite/trugg/05.jpg
+pictures/aos/gloomspite/trugg/06.jpg
 [/gallery]
 [gallery w=200 h=200]
-pictures/gloomspite/trugg/07.jpg
-pictures/gloomspite/trugg/08.jpg
-pictures/gloomspite/trugg/09.jpg
-pictures/gloomspite/trugg/10.jpg
+pictures/aos/gloomspite/trugg/07.jpg
+pictures/aos/gloomspite/trugg/08.jpg
+pictures/aos/gloomspite/trugg/09.jpg
+pictures/aos/gloomspite/trugg/10.jpg
 [/gallery]
 
-[after date="2025/06/27"]
-
 ## Gobs
-
-[/after]
-
-[after date="2025/08/22"]
 
 ### Fanatiques
 
@@ -130,28 +124,24 @@ Proviennent de l'abonnement Stormbringer.
 * En environ 8h30 heures
 
 [gallery w=400 h=200]
-pictures/gloomspite/fanatiques/01.jpg
-pictures/gloomspite/fanatiques/02.jpg
+pictures/aos/gloomspite/fanatiques/01.jpg
+pictures/aos/gloomspite/fanatiques/02.jpg
 [/gallery]
 [gallery w=250 h=200]
-pictures/gloomspite/fanatiques/03.jpg
-pictures/gloomspite/fanatiques/04.jpg
-pictures/gloomspite/fanatiques/05.jpg
-pictures/gloomspite/fanatiques/06.jpg
-pictures/gloomspite/fanatiques/07.jpg
-pictures/gloomspite/fanatiques/08.jpg
-pictures/gloomspite/fanatiques/09.jpg
-pictures/gloomspite/fanatiques/10.jpg
-pictures/gloomspite/fanatiques/11.jpg
-pictures/gloomspite/fanatiques/12.jpg
-pictures/gloomspite/fanatiques/13.jpg
-pictures/gloomspite/fanatiques/14.jpg
-pictures/gloomspite/fanatiques/15.jpg
+pictures/aos/gloomspite/fanatiques/03.jpg
+pictures/aos/gloomspite/fanatiques/04.jpg
+pictures/aos/gloomspite/fanatiques/05.jpg
+pictures/aos/gloomspite/fanatiques/06.jpg
+pictures/aos/gloomspite/fanatiques/07.jpg
+pictures/aos/gloomspite/fanatiques/08.jpg
+pictures/aos/gloomspite/fanatiques/09.jpg
+pictures/aos/gloomspite/fanatiques/10.jpg
+pictures/aos/gloomspite/fanatiques/11.jpg
+pictures/aos/gloomspite/fanatiques/12.jpg
+pictures/aos/gloomspite/fanatiques/13.jpg
+pictures/aos/gloomspite/fanatiques/14.jpg
+pictures/aos/gloomspite/fanatiques/15.jpg
 [/gallery]
-
-[/after]
-
-[after date="2025/06/27"]
 
 ### Stabbas
 
@@ -162,11 +152,11 @@ Proviennent de l'abonnement Stormbringer.
 * Le QG à été présenté au défi **L'Art de la Guerre** sur [OMM](https://onemoremini.fr/topic/667/d%C3%A9fi-mars-2025-l-art-de-la-guerre).
 
 [gallery w=400 h=200]
-pictures/gloomspite/stabbas/01.jpg
-pictures/gloomspite/stabbas/02.jpg
-pictures/gloomspite/stabbas/03.jpg
-pictures/gloomspite/stabbas/04.jpg
-pictures/gloomspite/stabbas/05.jpg
+pictures/aos/gloomspite/stabbas/01.jpg
+pictures/aos/gloomspite/stabbas/02.jpg
+pictures/aos/gloomspite/stabbas/03.jpg
+pictures/aos/gloomspite/stabbas/04.jpg
+pictures/aos/gloomspite/stabbas/05.jpg
 [/gallery]
 
 ### Stabbas bis
@@ -177,13 +167,13 @@ Proviennent de l'abonnement Stormbringer.
 * En environ 17h30 heures
 
 [gallery w=450 h=200]
-pictures/gloomspite/stabbas/10.jpg
+pictures/aos/gloomspite/stabbas/10.jpg
 [/gallery]
 [gallery w=400 h=200]
-pictures/gloomspite/stabbas/11.jpg
-pictures/gloomspite/stabbas/12.jpg
-pictures/gloomspite/stabbas/13.jpg
-pictures/gloomspite/stabbas/14.jpg
+pictures/aos/gloomspite/stabbas/11.jpg
+pictures/aos/gloomspite/stabbas/12.jpg
+pictures/aos/gloomspite/stabbas/13.jpg
+pictures/aos/gloomspite/stabbas/14.jpg
 [/gallery]
 
 ### Shootas
@@ -194,14 +184,12 @@ Proviennent de l'abonnement Stormbringer. J'ai doublé le numéro des Stabbas.
 * En environ 24 heures
 
 [gallery w=400 h=200]
-pictures/gloomspite/shootas/01.jpg
-pictures/gloomspite/shootas/02.jpg
-pictures/gloomspite/shootas/03.jpg
-pictures/gloomspite/shootas/04.jpg
-pictures/gloomspite/shootas/05.jpg
+pictures/aos/gloomspite/shootas/01.jpg
+pictures/aos/gloomspite/shootas/02.jpg
+pictures/aos/gloomspite/shootas/03.jpg
+pictures/aos/gloomspite/shootas/04.jpg
+pictures/aos/gloomspite/shootas/05.jpg
 [/gallery]
-
-[/after]
 
 [after date="2025/09/15"]
 
@@ -219,16 +207,16 @@ L'équipage est entierment magnétisé pour me permetre de jouer avec la configu
 * En environ 13 heures pour le reste
 
 [gallery w=300 h=200]
-pictures/gloomspite/arachnarock/01.jpg
-pictures/gloomspite/arachnarock/02.jpg
-pictures/gloomspite/arachnarock/03.jpg
-pictures/gloomspite/arachnarock/04.jpg
-pictures/gloomspite/arachnarock/05.jpg
-pictures/gloomspite/arachnarock/06.jpg
+pictures/aos/gloomspite/arachnarock/01.jpg
+pictures/aos/gloomspite/arachnarock/02.jpg
+pictures/aos/gloomspite/arachnarock/03.jpg
+pictures/aos/gloomspite/arachnarock/04.jpg
+pictures/aos/gloomspite/arachnarock/05.jpg
+pictures/aos/gloomspite/arachnarock/06.jpg
 [/gallery]
 [gallery w=150 h=200]
-pictures/gloomspite/arachnarock/07.jpg
-pictures/gloomspite/arachnarock/08.jpg
+pictures/aos/gloomspite/arachnarock/07.jpg
+pictures/aos/gloomspite/arachnarock/08.jpg
 [/gallery]
 
 ### Chaman tisseur
@@ -239,8 +227,8 @@ Le chaman-tisseur est magnétisé et peu être joué à pied ou sur l'Arachnaroc
 * En même temps que l'équipage de l'arachnarock
 
 [gallery w=150 h=200]
-pictures/gloomspite/shaman-tisseur/01.jpg
-pictures/gloomspite/shaman-tisseur/02.jpg
+pictures/aos/gloomspite/shaman-tisseur/01.jpg
+pictures/aos/gloomspite/shaman-tisseur/02.jpg
 [/gallery]
 
 [/after]

@@ -9,42 +9,42 @@ L'idée que j'ai c'est de pouvoir jouer full troll en petit format.
 * Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=400 h=200]
-pictures/gloomspite/rockgut-troggoths/01.jpg
-pictures/gloomspite/rockgut-troggoths/02.jpg
-pictures/gloomspite/rockgut-troggoths/03.jpg
+pictures/aos/gloomspite/rockgut-troggoths/01.jpg
+pictures/aos/gloomspite/rockgut-troggoths/02.jpg
+pictures/aos/gloomspite/rockgut-troggoths/03.jpg
 [/gallery]
 [gallery w=170 h=200]
-pictures/gloomspite/rockgut-troggoths/04.jpg
-pictures/gloomspite/rockgut-troggoths/05.jpg
-pictures/gloomspite/rockgut-troggoths/06.jpg
-pictures/gloomspite/rockgut-troggoths/07.jpg
-pictures/gloomspite/rockgut-troggoths/08.jpg
-pictures/gloomspite/rockgut-troggoths/09.jpg
-pictures/gloomspite/rockgut-troggoths/10.jpg
-pictures/gloomspite/rockgut-troggoths/11.jpg
-pictures/gloomspite/rockgut-troggoths/12.jpg
-pictures/gloomspite/rockgut-troggoths/13.jpg
-pictures/gloomspite/rockgut-troggoths/14.jpg
-pictures/gloomspite/rockgut-troggoths/15.jpg
-pictures/gloomspite/rockgut-troggoths/16.jpg
-pictures/gloomspite/rockgut-troggoths/17.jpg
-pictures/gloomspite/rockgut-troggoths/18.jpg
-pictures/gloomspite/rockgut-troggoths/19.jpg
-pictures/gloomspite/rockgut-troggoths/20.jpg
-pictures/gloomspite/rockgut-troggoths/21.jpg
+pictures/aos/gloomspite/rockgut-troggoths/04.jpg
+pictures/aos/gloomspite/rockgut-troggoths/05.jpg
+pictures/aos/gloomspite/rockgut-troggoths/06.jpg
+pictures/aos/gloomspite/rockgut-troggoths/07.jpg
+pictures/aos/gloomspite/rockgut-troggoths/08.jpg
+pictures/aos/gloomspite/rockgut-troggoths/09.jpg
+pictures/aos/gloomspite/rockgut-troggoths/10.jpg
+pictures/aos/gloomspite/rockgut-troggoths/11.jpg
+pictures/aos/gloomspite/rockgut-troggoths/12.jpg
+pictures/aos/gloomspite/rockgut-troggoths/13.jpg
+pictures/aos/gloomspite/rockgut-troggoths/14.jpg
+pictures/aos/gloomspite/rockgut-troggoths/15.jpg
+pictures/aos/gloomspite/rockgut-troggoths/16.jpg
+pictures/aos/gloomspite/rockgut-troggoths/17.jpg
+pictures/aos/gloomspite/rockgut-troggoths/18.jpg
+pictures/aos/gloomspite/rockgut-troggoths/19.jpg
+pictures/aos/gloomspite/rockgut-troggoths/20.jpg
+pictures/aos/gloomspite/rockgut-troggoths/21.jpg
 [/gallery]
 [gallery w=200 h=200]
-pictures/gloomspite/rockgut-troggoths/22.jpg
-pictures/gloomspite/rockgut-troggoths/23.jpg
-pictures/gloomspite/rockgut-troggoths/24.jpg
-pictures/gloomspite/rockgut-troggoths/25.jpg
-pictures/gloomspite/rockgut-troggoths/26.jpg
-pictures/gloomspite/rockgut-troggoths/27.jpg
-pictures/gloomspite/rockgut-troggoths/28.jpg
-pictures/gloomspite/rockgut-troggoths/29.jpg
-pictures/gloomspite/rockgut-troggoths/30.jpg
-pictures/gloomspite/rockgut-troggoths/31.jpg
-pictures/gloomspite/rockgut-troggoths/32.jpg
+pictures/aos/gloomspite/rockgut-troggoths/22.jpg
+pictures/aos/gloomspite/rockgut-troggoths/23.jpg
+pictures/aos/gloomspite/rockgut-troggoths/24.jpg
+pictures/aos/gloomspite/rockgut-troggoths/25.jpg
+pictures/aos/gloomspite/rockgut-troggoths/26.jpg
+pictures/aos/gloomspite/rockgut-troggoths/27.jpg
+pictures/aos/gloomspite/rockgut-troggoths/28.jpg
+pictures/aos/gloomspite/rockgut-troggoths/29.jpg
+pictures/aos/gloomspite/rockgut-troggoths/30.jpg
+pictures/aos/gloomspite/rockgut-troggoths/31.jpg
+pictures/aos/gloomspite/rockgut-troggoths/32.jpg
 [/gallery]
 
 [paints title="Peau Troll"]

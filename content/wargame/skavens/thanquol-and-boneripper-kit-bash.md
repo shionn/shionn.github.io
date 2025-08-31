@@ -2,7 +2,7 @@
 Cela fait un moment que je voulais ma propre version de Thanquol and Boneripper. 
 Mais pas la version moderne, je voulais la veille version. C'est à dire celle la : 
 [gallery w=400 h=300]
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/thanquol-boneripper-classic.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/thanquol-boneripper-classic.jpg
 [/gallery]
 
 Mais je voulais également qu'il y ai une inspiration du Thanquol moderne, c'est à dire que le prophète gris soit monté sur le rat ogre. 
@@ -18,7 +18,7 @@ J'ai donc récupère les pièces du rat ogre et prophète gris que je n'avais pa
 j'ai ajouter un canon à malfoudre provenant des colosses de chocs. 
 
 [gallery w=300 h=300]
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/cloche-hurlante.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/cloche-hurlante.jpg
 [/gallery]
 
 ET VOILA. 
@@ -28,25 +28,25 @@ ET VOILA.
 * Environ 4h00 pour le prophète gris.
 
 [gallery w=200 h=200]
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/01.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/02.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/03.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/04.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/05.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/01.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/02.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/03.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/04.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/05.jpg
 [/gallery]
 
 [gallery w=200 h=200]
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/06.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/07.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/08.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/09.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/10.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/06.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/07.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/08.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/09.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/10.jpg
 [/gallery]
 
 [gallery w=200 h=200]
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/11.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/12.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/13.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/11.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/12.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/13.jpg
 [/gallery]
 
 [Toute mon armée skaven présenté ici](2023/armee-skaven.html)

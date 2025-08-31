@@ -36,7 +36,7 @@ En mars j'ai peint :
 * Un QG gobelin pour L'Art de la Guerre sur [OMM](https://onemoremini.fr/topic/667/d%C3%A9fi-mars-2025-l-art-de-la-guerre).
 
 [gallery w=250 h=250]
-/pictures/gloomspite/stabbas/04.jpg
+/pictures/aos/gloomspite/stabbas/04.jpg
 /pictures/dungeon-and-laser/deuslair/core/dragsta/guards/4.jpg
 [/gallery]
 
@@ -59,7 +59,7 @@ En Mai j'ai peint :
 * Je n'ai pas participé au défis sur OMM. 
 
 [gallery w=250 h=250]
-pictures/gloomspite/arachnarock/01.jpg
+pictures/aos/gloomspite/arachnarock/01.jpg
 [/gallery]
 
 ## Juin 2025
@@ -74,6 +74,10 @@ pictures/manga/goku-shenron/01.jpg
 
 
 ## Juillet / Aout 2025
+
+* Tous mes Redoe Alliance pour le [Défi Summer Days 2025](https://onemoremini.fr/topic/679/d%C3%A9fi-summer-days-2025-juillet-aout)
+
+TODO
 
 ## Septembre 2025
 

@@ -9,10 +9,10 @@ Cette figurine provient de ma boite **Vanguard**.
 * Peinte en février 2023
 * ~ 9h30 de peinture
 [gallery h=300 w=250]
-pictures/skaven/prophete/1.jpg
-pictures/skaven/prophete/2.jpg
-pictures/skaven/prophete/3.jpg
-pictures/skaven/prophete/4.jpg
+pictures/aos/skaven/prophete/1.jpg
+pictures/aos/skaven/prophete/2.jpg
+pictures/aos/skaven/prophete/3.jpg
+pictures/aos/skaven/prophete/4.jpg
 [/gallery]
 
 [paints title="Toge Grise"]
@@ -27,9 +27,9 @@ Cette figurine provient de ma boite **Échos de la ruine**.
 * Peinte en avril 2023
 * ~ 14 heures de peinture
 [gallery h=300 w=250]
-pictures/skaven/cloche/1.jpg
-pictures/skaven/cloche/2.jpg
-pictures/skaven/cloche/3.jpg
+pictures/aos/skaven/cloche/1.jpg
+pictures/aos/skaven/cloche/2.jpg
+pictures/aos/skaven/cloche/3.jpg
 [/gallery]
 
 [paints title="Toge Violette"]
@@ -44,7 +44,7 @@ Rehaut	72013
 Cela fait un moment que je voulais ma propre version de Thanquol and Boneripper. 
 Mais pas la version moderne, je voulais la veille version. C'est à dire celle la : 
 [gallery w=400 h=300]
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/thanquol-boneripper-classic.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/thanquol-boneripper-classic.jpg
 [/gallery]
 
 Avec la V4 de AOS, les rat ogres sont devenue jouable par 3 et non plus par 2. 
@@ -58,7 +58,7 @@ J'ai donc récupère les pièces du rat ogre et prophète gris que je n'avais pa
 j'ai ajouter un canon à malfoudre provenant des colosses de chocs. 
 
 [gallery w=300 h=300]
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/cloche-hurlante.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/cloche-hurlante.jpg
 [/gallery]
 
 ET VOILA. 
@@ -68,25 +68,25 @@ ET VOILA.
 * Environ 4h00 pour le prophète gris.
 
 [gallery w=200 h=200]
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/01.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/02.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/03.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/04.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/05.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/01.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/02.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/03.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/04.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/05.jpg
 [/gallery]
 
 [gallery w=200 h=200]
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/06.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/07.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/08.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/09.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/10.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/06.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/07.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/08.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/09.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/10.jpg
 [/gallery]
 
 [gallery w=200 h=200]
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/11.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/12.jpg
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/13.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/11.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/12.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/13.jpg
 [/gallery]
 
 [/after]
@@ -98,14 +98,14 @@ Son bras droit est magnétisé pour le changer et en faire un Belliciste.
 * Peinte en mai 2023
 * ~ 30 heures de peinture
 [gallery h=300 w=250]
-pictures/skaven/verminarque/1.jpg
-pictures/skaven/verminarque/2.jpg
-pictures/skaven/verminarque/3.jpg
-pictures/skaven/verminarque/4.jpg
-pictures/skaven/verminarque/5.jpg
-pictures/skaven/verminarque/6.jpg
-pictures/skaven/verminarque/7.jpg
-pictures/skaven/verminarque/8.jpg
+pictures/aos/skaven/verminarque/1.jpg
+pictures/aos/skaven/verminarque/2.jpg
+pictures/aos/skaven/verminarque/3.jpg
+pictures/aos/skaven/verminarque/4.jpg
+pictures/aos/skaven/verminarque/5.jpg
+pictures/aos/skaven/verminarque/6.jpg
+pictures/aos/skaven/verminarque/7.jpg
+pictures/aos/skaven/verminarque/8.jpg
 [/gallery]
 
 [paints title="Peau rosé"]
@@ -123,11 +123,11 @@ Cette figurine proviens de ma boite **Île de Sang**.
 * Peinte en janvier 2023
 * ~ 6h30 de peinture
 [gallery h=300 w=250]
-pictures/skaven/griffarque/1.jpg
-pictures/skaven/griffarque/2.jpg
-pictures/skaven/griffarque/3.jpg
-pictures/skaven/griffarque/4.jpg	right
-pictures/skaven/griffarque/5.jpg	left
+pictures/aos/skaven/griffarque/1.jpg
+pictures/aos/skaven/griffarque/2.jpg
+pictures/aos/skaven/griffarque/3.jpg
+pictures/aos/skaven/griffarque/4.jpg	right
+pictures/aos/skaven/griffarque/5.jpg	left
 [/gallery]
 
 [paints title="Acier TMP"]
@@ -144,8 +144,8 @@ ce qui est surprenant car ces figurines sont vendu par 20, mais se joue bien par
 * Peinte en avril 2023
 * ~ 19 heures de peinture
 [gallery h=250 w=400]
-pictures/skaven/vermines-de-choc/1.jpg
-pictures/skaven/vermines-de-choc/2.jpg
+pictures/aos/skaven/vermines-de-choc/1.jpg
+pictures/aos/skaven/vermines-de-choc/2.jpg
 [/gallery]
 
 ### Rats des Clans
@@ -155,16 +155,16 @@ Ces figurines proviennent de diverse boites.
 * Peinte en janvier, février, mars et juin 2023.
 * ~ 85 heures de peinture
 [gallery h=300 w=250]
-pictures/skaven/rats-des-clans/1.jpg
-pictures/skaven/rats-des-clans/2.jpg
-pictures/skaven/rats-des-clans/3.jpg
-pictures/skaven/rats-des-clans/4.jpg
-pictures/skaven/rats-des-clans/5.jpg
-pictures/skaven/rats-des-clans/6.jpg
-pictures/skaven/rats-des-clans/7.jpg
-pictures/skaven/rats-des-clans/8.jpg
-pictures/skaven/rats-des-clans/9.jpg
-pictures/skaven/rats-des-clans/10.jpg
+pictures/aos/skaven/rats-des-clans/1.jpg
+pictures/aos/skaven/rats-des-clans/2.jpg
+pictures/aos/skaven/rats-des-clans/3.jpg
+pictures/aos/skaven/rats-des-clans/4.jpg
+pictures/aos/skaven/rats-des-clans/5.jpg
+pictures/aos/skaven/rats-des-clans/6.jpg
+pictures/aos/skaven/rats-des-clans/7.jpg
+pictures/aos/skaven/rats-des-clans/8.jpg
+pictures/aos/skaven/rats-des-clans/9.jpg
+pictures/aos/skaven/rats-des-clans/10.jpg
 [/gallery]
 
 [paints title="Toge Rouge"]
@@ -181,9 +181,9 @@ Cette figurine proviens de ma boite **Île de Sang**.
 * Peinte en mars 2023
 * ~ 6h30 de peinture
 [gallery h=300 w=250]
-pictures/skaven/ingenieur/1.jpg
-pictures/skaven/ingenieur/2.jpg
-pictures/skaven/ingenieur/3.jpg
+pictures/aos/skaven/ingenieur/1.jpg
+pictures/aos/skaven/ingenieur/2.jpg
+pictures/aos/skaven/ingenieur/3.jpg
 [/gallery]
 
 ### Ingénieur Technomage (Game Day)
@@ -192,10 +192,10 @@ C'est très plaisant de peindre ces figurines.
 * Peinte en août 2023
 * ~ 4h30 de peinture
 [gallery h=300 w=250]
-pictures/skaven/ingenieur-2/1.jpg
-pictures/skaven/ingenieur-2/2.jpg
-pictures/skaven/ingenieur-2/3.jpg
-pictures/skaven/ingenieur-2/4.jpg
+pictures/aos/skaven/ingenieur-2/1.jpg
+pictures/aos/skaven/ingenieur-2/2.jpg
+pictures/aos/skaven/ingenieur-2/3.jpg
+pictures/aos/skaven/ingenieur-2/4.jpg
 [/gallery]
 
 ### Saboteur Techomage
@@ -203,9 +203,9 @@ J'ai acheté cette figurine avant la précédente, si j'avais su je pense que je
 * Peinte en août 2023
 * ~ 4h30 de peinture
 [gallery h=300 w=250]
-pictures/skaven/saboteur/1.jpg
-pictures/skaven/saboteur/2.jpg
-pictures/skaven/saboteur/3.jpg
+pictures/aos/skaven/saboteur/1.jpg
+pictures/aos/skaven/saboteur/2.jpg
+pictures/aos/skaven/saboteur/3.jpg
 [/gallery]
 
 ### Canon à malefoudre
@@ -213,11 +213,11 @@ Cette figurine proviens de ma boite **Vanguard**.
 * Peinte en avril 2023
 * ~ 9 heures de peinture
 [gallery h=300 w=250]
-pictures/skaven/canon/1.jpg
-pictures/skaven/canon/2.jpg
-pictures/skaven/canon/3.jpg
-pictures/skaven/canon/4.jpg
-pictures/skaven/canon/5.jpg
+pictures/aos/skaven/canon/1.jpg
+pictures/aos/skaven/canon/2.jpg
+pictures/aos/skaven/canon/3.jpg
+pictures/aos/skaven/canon/4.jpg
+pictures/aos/skaven/canon/5.jpg
 [/gallery]
 
 [paints title="Bois"]
@@ -231,11 +231,11 @@ Je ne comptais pas avoir de roue infernale, et puis il faut reconnaître que c'e
 * Peinte en août 2023
 * ~ 10 heures de peinture
 [gallery h=300 w=400]
-pictures/skaven/roue-infernale/1.jpg
-pictures/skaven/roue-infernale/2.jpg
-pictures/skaven/roue-infernale/3.jpg
-pictures/skaven/roue-infernale/4.jpg
-pictures/skaven/roue-infernale/5.jpg
+pictures/aos/skaven/roue-infernale/1.jpg
+pictures/aos/skaven/roue-infernale/2.jpg
+pictures/aos/skaven/roue-infernale/3.jpg
+pictures/aos/skaven/roue-infernale/4.jpg
+pictures/aos/skaven/roue-infernale/5.jpg
 [/gallery]
 
 ### Lance-feu
@@ -243,8 +243,8 @@ Cette figurine proviens de ma boite **Îlede Sang**.
 * Peinte en avril 2023
 * ~ 4 heures de peinture
 [gallery h=250 w=400]
-pictures/skaven/lance-feu/1.jpg
-pictures/skaven/lance-feu/2.jpg
+pictures/aos/skaven/lance-feu/1.jpg
+pictures/aos/skaven/lance-feu/2.jpg
 [/gallery]
 
 ### Mortier à Globe toxique
@@ -253,8 +253,8 @@ Malheureusement cette figurine n'est pas jouable à AoS :[
 * Peinte en avril 2023
 * ~ 4 heures de peinture
 [gallery h=250 w=400]
-pictures/skaven/mortier/1.jpg
-pictures/skaven/mortier/2.jpg
+pictures/aos/skaven/mortier/1.jpg
+pictures/aos/skaven/mortier/2.jpg
 [/gallery]
 
 [paints title="Toge Beige"]
@@ -269,8 +269,8 @@ Ces figurine provienne de ma boite **Vanguard**. J'ai déteste peindre ces figur
 * Peinte en mars 2023
 * ~ 24 heures de peinture
 [gallery h=250 w=400]
-pictures/skaven/colosse/1.jpg
-pictures/skaven/colosse/2.jpg
+pictures/aos/skaven/colosse/1.jpg
+pictures/aos/skaven/colosse/2.jpg
 [/gallery]
 
 [paints title="Armure Noir"]
@@ -288,8 +288,8 @@ Cette figurine proviens de ma boite **Île de Sang**.
 * Peinte en mai 2023
 * ~ 2h30 de peinture
 [gallery h=250 w=400]
-pictures/skaven/maitre-moulder/1.jpg	left
-pictures/skaven/maitre-moulder/2.jpg	right
+pictures/aos/skaven/maitre-moulder/1.jpg	left
+pictures/aos/skaven/maitre-moulder/2.jpg	right
 [/gallery]
 
 [paints title="Malepierre"]
@@ -305,9 +305,9 @@ Au début je ne pensais pas les joué, et finalement c'est une de mes unités pr
 * Peinte en mai 2023
 * ~ 7 heures de peinture
 [gallery h=300 w=250]
-pictures/skaven/rat-ogre/1.jpg
-pictures/skaven/rat-ogre/2.jpg
-pictures/skaven/rat-ogre/3.jpg
+pictures/aos/skaven/rat-ogre/1.jpg
+pictures/aos/skaven/rat-ogre/2.jpg
+pictures/aos/skaven/rat-ogre/3.jpg
 [/gallery]
 
 [paints title="Poils"]
@@ -326,14 +326,14 @@ Et finalement je ne regrette absolument pas la fig est vraiment belle.
 * Je n'ai pas compté mon nombre d'heure sur cette fig. Cependant on dois bien être à 15~20h.
 
 [gallery w=300 h=250]
-pictures/skaven/monica/1.jpg
-pictures/skaven/monica/2.jpg
-pictures/skaven/monica/3.jpg
-pictures/skaven/monica/4.jpg
-pictures/skaven/monica/5.jpg
-pictures/skaven/monica/6.jpg
-pictures/skaven/monica/7.jpg
-pictures/skaven/monica/8.jpg
+pictures/aos/skaven/monica/1.jpg
+pictures/aos/skaven/monica/2.jpg
+pictures/aos/skaven/monica/3.jpg
+pictures/aos/skaven/monica/4.jpg
+pictures/aos/skaven/monica/5.jpg
+pictures/aos/skaven/monica/6.jpg
+pictures/aos/skaven/monica/7.jpg
+pictures/aos/skaven/monica/8.jpg
 [/gallery]
 
 [paints title="Peau"]
@@ -354,8 +354,8 @@ Normalement il se monte sur un creuset, mais je l'ai aimanté pour le mettre dir
 * Peinte en Juin 2023
 * ~ 2h30 de peinture
 [gallery h=300 w=250]
-pictures/skaven/pretre/1.jpg
-pictures/skaven/pretre/2.jpg
+pictures/aos/skaven/pretre/1.jpg
+pictures/aos/skaven/pretre/2.jpg
 [/gallery]
 
 [paints title="Toge Verte"]
@@ -370,9 +370,9 @@ Cette figurine proviens d'un vieux **Start Collecting**. Je profite que le prêt
 * Peinte en Juillet 2023
 * ~ 10 heures de peinture
 [gallery h=300 w=250]
-pictures/skaven/creuset/1.jpg
-pictures/skaven/creuset/2.jpg
-pictures/skaven/creuset/3.jpg
+pictures/aos/skaven/creuset/1.jpg
+pictures/aos/skaven/creuset/2.jpg
+pictures/aos/skaven/creuset/3.jpg
 [/gallery]
 
 ### Catapulte de la peste
@@ -380,10 +380,10 @@ Cette figurine proviens d'un vieux **Start Collecting**.
 * Peinte en Juillet 2023
 * ~ 7h30 de peinture
 [gallery h=300 w=250]
-pictures/skaven/catapulte/1.jpg
-pictures/skaven/catapulte/2.jpg
-pictures/skaven/catapulte/3.jpg
-pictures/skaven/catapulte/4.jpg
+pictures/aos/skaven/catapulte/1.jpg
+pictures/aos/skaven/catapulte/2.jpg
+pictures/aos/skaven/catapulte/3.jpg
+pictures/aos/skaven/catapulte/4.jpg
 [/gallery]
 [paints title="Maladie"]
 Aplat	72028
@@ -397,11 +397,11 @@ Ces figurines proviennent d'un **Start Collecting**.
 * Peinte en Juin 2023
 * ~ 20 heures de peinture
 [gallery h=300 w=250]
-pictures/skaven/moine/1.jpg
-pictures/skaven/moine/2.jpg
-pictures/skaven/moine/3.jpg
-pictures/skaven/moine/4.jpg
-pictures/skaven/moine/5.jpg
+pictures/aos/skaven/moine/1.jpg
+pictures/aos/skaven/moine/2.jpg
+pictures/aos/skaven/moine/3.jpg
+pictures/aos/skaven/moine/4.jpg
+pictures/aos/skaven/moine/5.jpg
 [/gallery]
 
 ## Clans Eshin
@@ -410,10 +410,10 @@ Cette figurine proviens de la boite **Échos de la ruine**.
 * Peinte en juillet 2023
 * ~ 5 heures de peinture
 [gallery h=300 w=250]
-pictures/skaven/maitre-mort/1.jpg
-pictures/skaven/maitre-mort/2.jpg
-pictures/skaven/maitre-mort/3.jpg
-pictures/skaven/maitre-mort/4.jpg
+pictures/aos/skaven/maitre-mort/1.jpg
+pictures/aos/skaven/maitre-mort/2.jpg
+pictures/aos/skaven/maitre-mort/3.jpg
+pictures/aos/skaven/maitre-mort/4.jpg
 [/gallery]
 
 ## Divers
@@ -422,7 +422,7 @@ J'ai choisi de ne pas assembler les poutres de bois et de corde au dessus des tr
 * Peinte en mars 2023
 * ~ 1h30 de peinture
 [gallery h=300 w=400]
-pictures/skaven/trou/1.jpg
+pictures/aos/skaven/trou/1.jpg
 [/gallery]
 
 [paints title="Pierre"]
@@ -435,5 +435,5 @@ Brossage	72047
 * Peinte en juillet 2023
 * ~ 5 heures de peinture
 [gallery h=300 w=500]
-pictures/skaven/sort/1.jpg
+pictures/aos/skaven/sort/1.jpg
 [/gallery]

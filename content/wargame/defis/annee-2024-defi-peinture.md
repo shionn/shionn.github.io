@@ -36,8 +36,8 @@ En février j'ai peint :
 [gallery w=200 h=250]
 pictures/jeux/descent/act2/dragon/01.jpg
 pictures/dungeon-and-laser/encounters/sg/driade/1.jpg
-pictures/cos-duardin/maitre-des-runes/3.jpg
-pictures/cos-duardin/gyro/1.jpg
+pictures/aos/cos-duardin/maitre-des-runes/3.jpg
+pictures/aos/cos-duardin/gyro/1.jpg
 [/gallery]
 
 ## Mars 2024
@@ -104,7 +104,7 @@ Pendant les vacances d'été j'ai peint :
 * Un porteur de la grande bannière elfe noir pour le __Fond de cale__ de __Whisp__
 
 [gallery w=200 h=250]
-pictures/chaos/prince-demon/01.jpg
+pictures/aos/chaos/prince-demon/01.jpg
 pictures/dark-elves/executeurs/01.jpg
 pictures/dark-elves/porteur-gd-banniere/1.jpg
 [/gallery]
@@ -117,7 +117,7 @@ En septembre j'ai peint :
 * Une bande underworld pour mon défi chez __Karv__
 
 [gallery w=200 h=250]
-pictures/skaven/rat-ogre-prophete-gris-kit-bash/05.jpg
+pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/05.jpg
 pictures/dark-elves/char-sg-froid/1.jpg
 pictures/underworld/death/les-morts-en-exil/01.jpg
 [/gallery]

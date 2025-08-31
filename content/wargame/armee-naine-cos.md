@@ -13,9 +13,9 @@ Tous les socles ont été fait en moins de 10 minutes, j'ai simplement tapoté d
 - 3h30
 
 [gallery w=300 h=350]
-pictures/cos-duardin/king/1.jpg
-pictures/cos-duardin/king/2.jpg
-pictures/cos-duardin/king/3.jpg
+pictures/aos/cos-duardin/king/1.jpg
+pictures/aos/cos-duardin/king/2.jpg
+pictures/aos/cos-duardin/king/3.jpg
 [/gallery]
 
 ### Forgerouage
@@ -24,9 +24,9 @@ Il as une pipe !
 - Peinte en janvier 2024
 - 2h30
 [gallery w=300 h=350]
-pictures/cos-duardin/cogsmith/1.jpg
-pictures/cos-duardin/cogsmith/2.jpg
-pictures/cos-duardin/cogsmith/3.jpg
+pictures/aos/cos-duardin/cogsmith/1.jpg
+pictures/aos/cos-duardin/cogsmith/2.jpg
+pictures/aos/cos-duardin/cogsmith/3.jpg
 [/gallery]
 
 ### Seigneur des Runes
@@ -35,8 +35,8 @@ pictures/cos-duardin/cogsmith/3.jpg
 - 4h30
 
 [gallery w=300 h=350]
-pictures/cos-duardin/maitre-des-runes/1.jpg
-pictures/cos-duardin/maitre-des-runes/2.jpg
+pictures/aos/cos-duardin/maitre-des-runes/1.jpg
+pictures/aos/cos-duardin/maitre-des-runes/2.jpg
 [/gallery]
 
 ### Seigneur des Runes (Conversion)
@@ -47,8 +47,8 @@ J'ai simplement remplacer sa tête par celle d'un cogsmith, comme ca, il a une p
 - Soumise au défis __FDC - case conversion - de Whisp__.
 
 [gallery w=300 h=350]
-pictures/cos-duardin/maitre-des-runes/3.jpg
-pictures/cos-duardin/maitre-des-runes/4.jpg
+pictures/aos/cos-duardin/maitre-des-runes/3.jpg
+pictures/aos/cos-duardin/maitre-des-runes/4.jpg
 [/gallery]
 
 ## Troupe
@@ -61,9 +61,9 @@ A moins d'une heure par fig je suis satisfait du résultat.
 - 9h45
 
 [gallery w=350 h=300]
-pictures/cos-duardin/dracs-de-fer/1.jpg
-pictures/cos-duardin/dracs-de-fer/2.jpg
-pictures/cos-duardin/dracs-de-fer/3.jpg
+pictures/aos/cos-duardin/dracs-de-fer/1.jpg
+pictures/aos/cos-duardin/dracs-de-fer/2.jpg
+pictures/aos/cos-duardin/dracs-de-fer/3.jpg
 [/gallery]
 
 ### Brise-Fer
@@ -74,12 +74,12 @@ Des nains, qui ressemble à de nains, avec bouclier et marteau ce que je voulais
 - 14h50
 
 [gallery w=350 h=300]
-pictures/cos-duardin/brise-fer/1.jpg
-pictures/cos-duardin/brise-fer/2.jpg
-pictures/cos-duardin/brise-fer/3.jpg
-pictures/cos-duardin/brise-fer/4.jpg
-pictures/cos-duardin/brise-fer/5.jpg
-pictures/cos-duardin/brise-fer/6.jpg
+pictures/aos/cos-duardin/brise-fer/1.jpg
+pictures/aos/cos-duardin/brise-fer/2.jpg
+pictures/aos/cos-duardin/brise-fer/3.jpg
+pictures/aos/cos-duardin/brise-fer/4.jpg
+pictures/aos/cos-duardin/brise-fer/5.jpg
+pictures/aos/cos-duardin/brise-fer/6.jpg
 [/gallery]
 
 ## Elite
@@ -90,9 +90,9 @@ J'ai choisi de faire 10 langue barbe et 10 marteler pour la variation, mais dans
 - 6h35
 
 [gallery w=350 h=300]
-pictures/cos-duardin/longue-barbe/1.jpg
-pictures/cos-duardin/longue-barbe/2.jpg
-pictures/cos-duardin/longue-barbe/3.jpg
+pictures/aos/cos-duardin/longue-barbe/1.jpg
+pictures/aos/cos-duardin/longue-barbe/2.jpg
+pictures/aos/cos-duardin/longue-barbe/3.jpg
 [/gallery]
 
 ### Marteler
@@ -100,9 +100,9 @@ pictures/cos-duardin/longue-barbe/3.jpg
 - 6h35
 
 [gallery w=350 h=300]
-pictures/cos-duardin/martelier/1.jpg
-pictures/cos-duardin/martelier/2.jpg
-pictures/cos-duardin/martelier/3.jpg
+pictures/aos/cos-duardin/martelier/1.jpg
+pictures/aos/cos-duardin/martelier/2.jpg
+pictures/aos/cos-duardin/martelier/3.jpg
 [/gallery]
 
 ## Truc
@@ -115,8 +115,8 @@ Je déteste toujours autant peindre des véhicules.
 
 
 [gallery w=350 h=300]
-pictures/cos-duardin/gyro/1.jpg
-pictures/cos-duardin/gyro/2.jpg
+pictures/aos/cos-duardin/gyro/1.jpg
+pictures/aos/cos-duardin/gyro/2.jpg
 [/gallery]
 
 ### Gyrocoptères
@@ -126,8 +126,8 @@ La terrible technique du tapotage !
 - 2h30
 
 [gallery w=350 h=300]
-pictures/cos-duardin/gyro/3.jpg
-pictures/cos-duardin/gyro/4.jpg
+pictures/aos/cos-duardin/gyro/3.jpg
+pictures/aos/cos-duardin/gyro/4.jpg
 [/gallery]
 
 

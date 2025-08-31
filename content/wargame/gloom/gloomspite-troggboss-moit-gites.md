@@ -7,14 +7,14 @@ Voici mon Troggboss des Moit'gîtes, Il proviens de l'abonnement hachette Stormb
 * Le socle est très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=180 h=200]
-pictures/gloomspite/troggboss/01.jpg
-pictures/gloomspite/troggboss/02.jpg
-pictures/gloomspite/troggboss/03.jpg
-pictures/gloomspite/troggboss/04.jpg
+pictures/aos/gloomspite/troggboss/01.jpg
+pictures/aos/gloomspite/troggboss/02.jpg
+pictures/aos/gloomspite/troggboss/03.jpg
+pictures/aos/gloomspite/troggboss/04.jpg
 [/gallery]
 [gallery w=200 h=200]
-pictures/gloomspite/troggboss/05.jpg
-pictures/gloomspite/troggboss/06.jpg
+pictures/aos/gloomspite/troggboss/05.jpg
+pictures/aos/gloomspite/troggboss/06.jpg
 [/gallery]
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
