@@ -96,6 +96,14 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 244 Construction d'une armurerie
+
+Ohé Pirates! Il nous faut également une armurerie digne de ce nom! Et bien gardée, on ne veut pas être dépouillé de notre 
+poudre noir et nos tromblons, sinon comment allons envoyer nos ennemis par les fonds? hein? Haha 30 ressources seront déployées pour ça! 
+
+<div id="quest-26"></div>
+
+
 ### Jour 230 On requisitionne ce batiment
 
 Ohé Pirates! Nous avons besoin d'agrandir notre flotte pour faire face à nos riveaux et à l'armada Espagnole grandissante! Il nous faudra 40 ressources.

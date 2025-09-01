@@ -701,13 +701,13 @@ q(function() {
 		.progress("30/08/2025", whisp, 1, "Roi Nain", _SMALL)
 		.render();
 	
-	let q26 = new _quest("quest-26", "???", "???", 40)
+	let q26 = new _quest("quest-26", "Construction d'une armurerie", "Peindre 30 figurines ou Décors??", 30)
 		.progress("31/08/2025", tony, 1, "Space Marine", _SMALL)
 		.render();
 		
 							
 //			
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26]);
 
 });
