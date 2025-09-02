@@ -3,7 +3,7 @@ J'adore les mini pc professionnels. Tout particulièrement les Lenovo Thinkcente
 
 ## Les composants
 
-Je commence par faire des recherches sur ce que je veux. Idéalement je cherche un Lenovo M720Q ou M920Q ou M70Q avec au moins un I5. La quantité de ram ou de disque m'importe peu. Je prendrais dans mon stock si il n’y en as pas assez.
+Je commence par faire des recherches sur ce que je veux. Idéalement je cherche un Lenovo M720Q ou M920Q ou M70Q avec au moins un I5. La quantité de ram ou de disque m'importe peu. Je prendrais dans mon stock si il n’y en as pas assez. Il faut également que je fasse attention à la puissance de la brique d'alimentation fourni avec, en effet si une 65W suffit emplement pour la carte mere et le cpou, si j'ajoute une petite carte graphique ca sera pas assez. Je pars sur un minimum de 90W.
 
 Puis une RX6400, je cherche d'occasion. J'ai pas de modèle de préférence, mais il me faut du simple slot en low profile. Spoiler je n'ai strictement rien trouvé sur le marché de l'occasion.
 
@@ -16,7 +16,7 @@ Le M720Q peut être équipé de processeur intel de 8ème ou 9ème génération 
 Donc comme à mon habitude j'ai squatté leboncoin à la recherche d'un lenovo jusqu'à trouver le modèle qui me convenait avec un prix correcte et j'ai fini par trouver cette configuration :
 
 - M720Q
-- CPU I5 8400T
+- I5 8400T
 - 16go (2x8) de ram
 - NVME de 256Go
 - SSD de 256Go (bonus agréable)
