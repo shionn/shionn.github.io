@@ -703,7 +703,7 @@ q(function() {
 	
 	let q26 = new _quest("quest-26", "Construction d'une armurerie", "Peindre 30 figurines ou Décors??", 30)
 		.progress("31/08/2025", tony, 1, "Space Marine", _SMALL)
-		.progress("02/09/2025", whisp, 1, "Gargouille", _SMALL)
+		.progress("02/09/2025", whisp, 3, "Gargouille", _SMALL)
 		.render();
 		
 							
