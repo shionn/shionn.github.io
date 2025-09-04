@@ -411,12 +411,18 @@ pip install open-webui
 open-webui serve
 </code></pre>
 <p>Render vous sur le port 5000 de votre container :)</p>
+<h3>Changer le port d'écoute de ollama :</h3>
+<pre class="bash"><code class="bash">systemctl edit ollama.service
+# ajouter dans la serction    [Service]
+Environment=&quot;OLLAMA_HOST=0.0.0.0:11434&quot;
+</code></pre>
 <h2>Ressource</h2>
 <p>J'ai réussi à faire cela en m'appuyant sur ces documentations :</p>
 <ul>
 <li><a href="https://www.nasmaster.com/how-to-set-up-a-nvidia-gpu-with-open-webui-and-ollama-on-proxmox" target="_blank">How to set up a NVIDIA GPU with Open WebUI and Ollama on Proxmox</a></li>
 <li><a href="https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#network-repo-installation-for-debian" target="_blank">CUDA Installation Guide for Linux</a></li>
 <li><a href="https://pve.proxmox.com/wiki/NVIDIA_vGPU_on_Proxmox_VE" target="_blank">NVIDIA vGPU on Proxmox VE</a></li>
+<li><a href="https://atlassc.net/2024/10/24/how-to-share-ollama-server-through-ip-address-and-port" target="_blank">Port and nick on ollama</a></li>
 </ul>
 </section>
 	<footer>
