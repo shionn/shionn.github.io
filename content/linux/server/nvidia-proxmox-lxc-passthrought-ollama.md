@@ -168,6 +168,14 @@ open-webui serve
 
 Render vous sur le port 5000 de votre container :)
 
+### Changer le port d'écoute de ollama : 
+
+~~~bash
+systemctl edit ollama.service
+# ajouter dans la serction    [Service]
+Environment="OLLAMA_HOST=0.0.0.0:11434"
+~~~
+
 
 ## Ressource
 
@@ -175,4 +183,5 @@ J'ai réussi à faire cela en m'appuyant sur ces documentations :
 - [How to set up a NVIDIA GPU with Open WebUI and Ollama on Proxmox](https://www.nasmaster.com/how-to-set-up-a-nvidia-gpu-with-open-webui-and-ollama-on-proxmox)
 - [CUDA Installation Guide for Linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#network-repo-installation-for-debian)
 - [NVIDIA vGPU on Proxmox VE](https://pve.proxmox.com/wiki/NVIDIA_vGPU_on_Proxmox_VE)
+- [Port and nick on ollama](https://atlassc.net/2024/10/24/how-to-share-ollama-server-through-ip-address-and-port)
 
