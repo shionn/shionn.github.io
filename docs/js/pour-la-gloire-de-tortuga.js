@@ -717,6 +717,7 @@ q(function() {
 		.progress("05/09/2025", angest, 1, "Garde Royal", _SMALL)
 		.progress("05/09/2025", angest, 1, "Chronomancien", _MEDIUM)
 		.progress("05/09/2025", angest, 1, "Spectre Canoptek", _MEDIUM)
+		.progress("05/09/2025", angest, 1, "Chevalier Arcanum", _MEDIUM)
 		.render();
 		
 							
