@@ -715,8 +715,8 @@ q(function() {
 		.progress("05/09/2025", angest, 1, "Deathmark", _SMALL)
 		.progress("05/09/2025", angest, 1, "Immortel", _SMALL)
 		.progress("05/09/2025", angest, 1, "Garde Royal", _SMALL)
-		.progress("05/09/2025", angest, 1, "Chronomancien", _SMALL)
-		.progress("05/09/2025", angest, 1, "Spectre Canoptek", _SMALL)
+		.progress("05/09/2025", angest, 1, "Chronomancien", _MEDIUM)
+		.progress("05/09/2025", angest, 1, "Spectre Canoptek", _MEDIUM)
 		.render();
 		
 							
