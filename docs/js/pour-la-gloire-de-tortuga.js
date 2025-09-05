@@ -711,6 +711,12 @@ q(function() {
 		.progress("04/09/2025", whisp, 2, "Pancartes", _SMALL_DECOR)
 		.progress("04/09/2025", whisp, 8, "Portes de donjon", _SMALL_DECOR)
 		.progress("05/09/2025", transfopaper, 1, "Squelette", _SMALL)
+		.progress("05/09/2025", angest, 3, "Guerrier Necron", _SMALL)
+		.progress("05/09/2025", angest, 1, "Deathmark", _SMALL)
+		.progress("05/09/2025", angest, 1, "Immortel", _SMALL)
+		.progress("05/09/2025", angest, 1, "Garde Royal", _SMALL)
+		.progress("05/09/2025", angest, 1, "Chronomancien", _SMALL)
+		.progress("05/09/2025", angest, 1, "Spectre Canoptek", _SMALL)
 		.render();
 		
 							
