@@ -709,8 +709,8 @@ q(function() {
 		.progress("04/09/2025", whisp, 1, "Cheminée", _SMALL_DECOR)
 		.progress("04/09/2025", whisp, 2, "Poteaux de direction", _SMALL_DECOR)
 		.progress("04/09/2025", whisp, 2, "Pancartes", _SMALL_DECOR)
-		.progress("04/09/2025", whisp, 1, "Cheminée", _SMALL_DECOR)
 		.progress("04/09/2025", whisp, 8, "Portes de donjon", _SMALL_DECOR)
+		.progress("05/09/2025", transfopaper, 1, "Quelette", _SMALL)
 		.render();
 		
 							
