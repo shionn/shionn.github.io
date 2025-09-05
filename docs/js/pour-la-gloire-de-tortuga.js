@@ -333,7 +333,7 @@ q(function() {
 	let shionn = new _player("Shionn", "pirate02.png");
 	let tupad = new _player("Tupad_", "pirate07.png");
 	let tony = new _player("Tony", "pirate14.png");
-	let transfopaper = new _Player("Transfopaper", "pirate09.png")
+	let transfopaper = new _player("Transfopaper", "pirate09.png")
 	let whisp = new _player("Whisp", "pirate00.png");
 	whisp.captain = true;
 
@@ -710,7 +710,7 @@ q(function() {
 		.progress("04/09/2025", whisp, 2, "Poteaux de direction", _SMALL_DECOR)
 		.progress("04/09/2025", whisp, 2, "Pancartes", _SMALL_DECOR)
 		.progress("04/09/2025", whisp, 8, "Portes de donjon", _SMALL_DECOR)
-		.progress("05/09/2025", transfopaper, 1, "Quelette", _SMALL)
+		.progress("05/09/2025", transfopaper, 1, "Squelette", _SMALL)
 		.render();
 		
 							
