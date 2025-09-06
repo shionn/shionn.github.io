@@ -96,6 +96,13 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 249 Brasserie deviendra grande
+
+Nous nous agrandissons, Encore! AAAAAHHH Plus de Bière, plus de Rhum, plus de femmes! La brasserie doit s'agrandir 30 Ressources seront déployées pour ça! 
+
+<div id="quest-27"></div>
+
+
 ### Jour 244 Construction d'une armurerie
 
 Ohé Pirates! Il nous faut également une armurerie digne de ce nom! Et bien gardée, on ne veut pas être dépouillé de notre 
@@ -103,6 +110,9 @@ poudre noir et nos tromblons, sinon comment allons envoyer nos ennemis par les f
 
 <div id="quest-26"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map26.png
+[/gallery]
 
 ### Jour 230 On requisitionne ce batiment
 
@@ -113,7 +123,6 @@ Ohé Pirates! Nous avons besoin d'agrandir notre flotte pour faire face à nos r
 [gallery]
 pictures/defis/tortuga-2025/map25.png
 [/gallery]
-
 
 ### Jour 222 Remplir les caisses
 
