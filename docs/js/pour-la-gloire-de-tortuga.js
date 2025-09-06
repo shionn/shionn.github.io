@@ -721,6 +721,8 @@ q(function() {
 		.render();
 
 	let q27 = new _quest("quest-27", "Brasserie deviendra grande", "Peindre 30 figurines ou Décors", 30)
+		.progress("06/09/2025", shionn, 4, "Rookery of Kril", _SMALL)
+		.progress("06/09/2025", shionn, 1, "Rookery of Kril", _MEDIUM)
 		.render();
 		
 							
