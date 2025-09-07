@@ -10,6 +10,7 @@ https://shionn.github.io/index-8.html
 https://shionn.github.io/index-9.html
 https://shionn.github.io/index-10.html
 https://shionn.github.io/index-11.html
+https://shionn.github.io/index-12.html
 https://shionn.github.io/2023/armee-nighthaunt.html
 https://shionn.github.io/2023/armee-skaven.html
 https://shionn.github.io/2023/equivalence-peinture.html
@@ -63,6 +64,7 @@ https://shionn.github.io/2025/jellyfin-proxmox-hardware-encode.html
 https://shionn.github.io/2025/openrgb-sur-debian.html
 https://shionn.github.io/2025/page-des-liens-dev.html
 https://shionn.github.io/2025/page-des-liens-linux.html
+https://shionn.github.io/2025/pc-gaming-m720q-rx6400.html
 https://shionn.github.io/2025/pour-la-gloire-de-tortuga.html
 https://shionn.github.io/2025/repaint-bulma.html
 https://shionn.github.io/2025/shenron-goku-nomnom.html
@@ -109,6 +111,7 @@ https://shionn.github.io/tag/dungeon-and-laser.html
 https://shionn.github.io/tag/elfes-noirs.html
 https://shionn.github.io/tag/encounter.html
 https://shionn.github.io/tag/figurine.html
+https://shionn.github.io/tag/gaming.html
 https://shionn.github.io/tag/geek.html
 https://shionn.github.io/tag/gloomspite-gitz.html
 https://shionn.github.io/tag/gobelin.html
@@ -144,6 +147,7 @@ https://shionn.github.io/tag/shenron.html
 https://shionn.github.io/tag/skaven.html
 https://shionn.github.io/tag/skaventide.html
 https://shionn.github.io/tag/systemd.html
+https://shionn.github.io/tag/thinkcenter.html
 https://shionn.github.io/tag/troll.html
 https://shionn.github.io/tag/underworld.html
 https://shionn.github.io/tag/vscode.html
