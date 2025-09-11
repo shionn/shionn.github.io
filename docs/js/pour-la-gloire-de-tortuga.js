@@ -724,7 +724,7 @@ q(function() {
 		.progress("06/09/2025", shionn, 4, "Rookery of Kril", _SMALL)
 		.progress("06/09/2025", shionn, 1, "Rookery of Kril", _MEDIUM)
 		.progress("08/09/2025", tony, 1, "Tau", _SMALL)
-		.progress("11/09/2025", whisp, 1, "Calleghe", _MEDIUM_DECOR)
+		.progress("11/09/2025", whisp, 1, "Calleche", _MEDIUM_DECOR)
 		.render();
 		
 							
