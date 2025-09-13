@@ -165,7 +165,7 @@
 							<a href="2025/whisperia-1x10-caleche-loup.html">10: Calèche &amp; Loups</a>
 						</li>
 						<li>
-							<a href="2025/whisperia-1x11-retourn-en-ville.html">11 : Retour en Ville</a>
+							<a href="2025/whisperia-1x11-retour-en-ville.html">11 : Retour en Ville</a>
 						</li>
 					</ul>
 				</li>
@@ -470,6 +470,29 @@ ACTION==&quot;add|change&quot;, KERNEL==&quot;sd[a-z]&quot;, ATTRS{queue/rotatio
 </code></pre>
 <h3>Connaitre quel processus ecoute sur quel port</h3>
 <p>on peu utilisé netstat : <code>apt instal</code> netstat puis <code>netstat -ltnp</code></p>
+<h3>creer un service</h3>
+<p>Par exemple : <strong>/etc/systemd/system/MonService.service</strong></p>
+<pre class="bash"><code class="bash">[Unit]
+Description=NOM DU SERVICE
+After=syslog.target network.target
+
+[Service]
+SuccessExitStatus=143
+User=root
+Group=root
+Type=simple
+Environment=&quot;FOO=BAR&quot;
+WorkingDirectory=/root
+ExecStart=/absolut/path/truc.sh
+ExecStop=/bin/kill $MAINPID
+
+[Install]
+WantedBy=multi-user.target
+</code></pre>
+<p>Puis :</p>
+<pre class="bash"><code class="bash">sudo systemctl daemon-reload
+sudo systemctl enable MonService.service
+</code></pre>
 </section>
 	<footer>
 		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 02 juin 2025</span>.</em>
