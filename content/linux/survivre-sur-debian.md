@@ -280,3 +280,34 @@ ACTION=="add|change", KERNEL=="sd[a-z]", ATTRS{queue/rotational}=="1", RUN+="/us
 
 on peu utilisé netstat : `apt instal` netstat puis `netstat -ltnp`
 
+### creer un service
+
+Par exemple : **/etc/systemd/system/MonService.service**
+
+~~~bash
+[Unit]
+Description=NOM DU SERVICE
+After=syslog.target network.target
+
+[Service]
+SuccessExitStatus=143
+User=root
+Group=root
+Type=simple
+Environment="FOO=BAR"
+WorkingDirectory=/root
+ExecStart=/absolut/path/truc.sh
+ExecStop=/bin/kill $MAINPID
+
+[Install]
+WantedBy=multi-user.target
+~~~
+
+Puis :
+
+~~~bash
+sudo systemctl daemon-reload
+sudo systemctl enable MonService.service
+~~~
+
+

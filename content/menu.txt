@@ -44,7 +44,7 @@ category/jdr	JdR
 		2025/whisperia-1x08-noratu	8: Noratu
 		2025/whisperia-1x09-balade-en-foret	9: Balade en Forêt
 		2025/whisperia-1x10-caleche-loup	10: Calèche & Loups
-		2025/whisperia-1x11-retourn-en-ville	11 : Retour en Ville	2025-07-21
+		2025/whisperia-1x11-retour-en-ville	11 : Retour en Ville	2025-07-21
 	tag/whisperia	Donnée sur Whisperia
 		2025/whisperia-ressources	Ressources
 category/linux	Linux
