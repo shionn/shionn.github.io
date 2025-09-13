@@ -64,7 +64,7 @@ Inventaire	1 Popo majeur	8D4+8
 	2 Popo moyenne	4D4+4
 	Couverture & Sac de couchage	 
 	Vêtements communs	 
-	Ration	1
+	Ration	3
 	Gourde d’eau	 
 	Torche	2
 Richesse	Or	52po
