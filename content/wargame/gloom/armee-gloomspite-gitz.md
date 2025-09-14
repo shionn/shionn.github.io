@@ -24,8 +24,6 @@ Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch
 >- taper sur tous ce qui passe, pour se marrer et nourrir les champignons, toujours en étant shouté au champignons.
 >- se taper dessus pour se marrer, mais en étant shouté au champignons.
 
-
-
 ## Troggoths
 
 J'ai volontairement pas mal de troll, l'idée que j'ai, est de pouvoir jouer full troll en petit format. 
@@ -143,6 +141,24 @@ pictures/aos/gloomspite/fanatiques/14.jpg
 pictures/aos/gloomspite/fanatiques/15.jpg
 [/gallery]
 
+[after date="2025/12/20"]
+
+### Sournifleur.
+
+Proviennent de l'abonnement Stormbringer.
+
+* Peinte en Septembre 2025
+* En environ 12 heures
+* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+
+[gallery w=400 h=200]
+pictures/aos/gloomspite/sournifleur/01.jpg
+pictures/aos/gloomspite/sournifleur/02.jpg
+pictures/aos/gloomspite/sournifleur/03.jpg
+[/gallery]
+
+[/after]
+
 ### Stabbas
 
 Proviennent de l'abonnement Stormbringer.
@@ -229,6 +245,36 @@ Le chaman-tisseur est magnétisé et peu être joué à pied ou sur l'Arachnaroc
 [gallery w=150 h=200]
 pictures/aos/gloomspite/shaman-tisseur/01.jpg
 pictures/aos/gloomspite/shaman-tisseur/02.jpg
+[/gallery]
+
+[/after]
+
+[after date="2026/01/13"]
+
+## Autre
+
+### Louftuaire de la Mauvaise Lune
+
+Je ne voulais pas acheté le decort de faction officiel, 
+j'ai pris l'empreinte au sol du decord d'un ami et 
+j'ai fabriquer mon propre décort dessus cette empeinte.
+
+* Peinte en Septembre 2025
+* En environ 6 heures
+* Les éléments sont détachable pour marquer des objectifs.
+
+J'ai utilisé des éléments de décort provenant de divers source : 
+
+- Le tipee provient de la boite col du crane
+- Les champinions proviennent de la boite de props mini d'archon studio
+- Et d'autre bits qui trainais. 
+
+[gallery w=250 h=200]
+pictures/aos/gloomspite/decort-faction/01.jpg
+pictures/aos/gloomspite/decort-faction/02.jpg
+[/gallery]
+[gallery w=400 h=200]
+pictures/aos/gloomspite/decort-faction/03.jpg
 [/gallery]
 
 [/after]
