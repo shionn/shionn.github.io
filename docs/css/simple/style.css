@@ -1,0 +1,109 @@
+header nav {
+  max-width: min(45rem, 90%);
+  margin: 0 auto;
+}
+header nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+header nav > ul > li > ul {
+  display: none;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  margin: 0 -10px;
+  width: calc(100% + 20px);
+  background-color: var(--accent-bg);
+  border: var(--border-width) solid var(--border);
+  border-radius: var(--standard-border-radius);
+  z-index: 1;
+  line-height: 1.5;
+}
+header nav > ul > li > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  width: 33%;
+}
+@media (max-width: 720px) {
+  header nav > ul > li > ul > li {
+    width: 100%;
+  }
+}
+header nav > ul > li > ul > li a {
+  padding: 0;
+  margin: 0;
+}
+header nav > ul > li > ul > li ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+header nav > ul > li > ul > li ul li {
+  text-align: left;
+}
+header nav > ul > li > ul > li ul li a {
+  padding: 0;
+  margin: 0;
+}
+header nav > ul > li > ul a {
+  border: none;
+}
+header nav > ul > li.open > ul {
+  display: flex;
+}
+
+div.gallery {
+  text-align: center;
+}
+div.gallery a {
+  padding: 5px;
+}
+div.gallery img {
+  display: inline-block;
+  border: 1px solid var(--border);
+  border-radius: var(--standard-border-radius);
+  object-fit: cover;
+  height: revert-layer;
+}
+
+.gallery-view {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+.gallery-view.fade .content {
+  animation-name: fadeAnmimation;
+  animation-duration: 0.4s;
+}
+.gallery-view img {
+  max-height: 90%;
+  max-width: 90%;
+  opacity: 1;
+}
+
+@keyframes fadeAnmimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

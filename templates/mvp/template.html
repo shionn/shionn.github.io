@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org"  color-mode="user">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="google-site-verification" content="bndNmsijLUjiDTR7rakeFRNHdS1KlfkOZ_eMydXsTEA" />
+<base th:href="${site.base}">
+<link rel="stylesheet" href="css/mvp.css" />
+<link rel="stylesheet" href="css/fa-4.7/font-awesome.css" />
+<!-- <link rel="stylesheet" href="css/rpg-fa/rpg-awesome.css" /> -->
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="#">Shionn::Blog()<span class="fa fa-2 fa-bars"></span></a>
+			<ul th:replace="~{menu :: menu}"></ul>
+		</nav>
+	
+		<h1>
+			<a href="index.html">Shionn::Blog()</a>
+		</h1>
+		<h2>Pourquoi ? Pourquoi pas ?</h2>
+	</header>
+	<main class="container main" th:switch="${mode}">
+		<div class="main" th:case="'index'">
+			<th:block th:each="article : ${site.getHomePageArticles(page)}">
+				<article th:replace="~{article :: articleshort (${article})}"></article>
+			</th:block>
+			<div class="chaptering">
+				<a th:if="${page == 1}" th:href="index.html">&lt;</a>
+				<a th:with="prev=${page -1}" th:if="${page > 1}" th:href="'index-'+${prev}+'.html'">&lt;</a>
+				<th:block th:text="${page}"/> / <th:block th:text="${site.homePageCount}"/> 
+				<a th:with="next=${page + 1}" th:if="${page < site.homePageCount}" th:href="'index-'+${next}+'.html'">&gt;</a>
+			</div>
+		</div>
+		<div class="main" th:case="'draft'">
+			<p>Un article sur deux de peinture || Cycle visé : gob > autre peinture > Non peinture. || On intercalle whisperia quand il faut tans pis.</p>
+			<h2>Programmation auto :</h2>
+			<ul>
+				<li th:each="article : ${site.autoPublishedDrafts}">
+					<a th:text="${article.title}" th:href="${article.url}"></a>
+					<th:block th:text="${article.formatedDate}"/>
+				</li>
+			</ul>
+			<h2>Publié Récemment :</h2>
+			<ul>
+				<li th:each="article : ${site.getHomePageArticles(0)}">
+					<a th:text="${article.title}" th:href="${article.url}"></a>
+					<th:block th:text="${article.formatedDate}"/>
+				</li>
+			</ul>
+			<h2>Non programmé</h2>
+			<ul>
+				<li th:each="article : ${site.drafts}">
+					<a th:text="${article.title}" th:href="${article.url}"></a>
+					<th:block th:text="${article.formatedDate}"/>
+				</li>
+			</ul>
+		</div>
+		<div class="main" th:case="'group'">
+			<th:block th:each="article : ${group.articles}">
+				<article th:replace="~{article :: articleshort (${article})}"></article>
+			</th:block>
+		</div>
+		<div class="main" th:case="'article'">
+			<article th:replace="~{article :: articlefull (${article})}"></article>
+		</div>
+		<div class="main" th:case="'404'">
+			<article th:replace="~{article :: 404}"></article>
+		</div>
+
+		<div class="side">
+			<div class="tagclood">
+				<h1><span class="fa fa-folder-open"></span> Catégories</h1>
+				<a th:each="cat:${site.categories}" th:href="${cat.url}">
+					<th:block th:text="${cat.name}"/>&nbsp;(<th:block th:text="${cat.size}"/>)
+				</a>
+			</div>
+			<div class="tagclood">
+				<h1><span class="fa fa-flag"></span> Tags</h1>
+				<a th:each="tag:${site.tags}" th:href="${tag.url}">
+					<th:block th:text="${tag.name}"/>&nbsp;(<th:block th:text="${tag.size}"/>)
+				</a>
+			</div>
+			<div class="calendar">
+				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
+				<ul class="tree">
+					<li th:each="year:${site.treePost}">
+						<a href="#"><th:block th:text="${year.name}"/> (<th:block th:text="${year.size}"/>)</a>
+						<ul>
+							<li th:each="month:${year.subGroups}">
+								<a href="#"><th:block th:text="${month.name}"/> (<th:block th:text="${month.size}"/>)</a>
+								<ul>
+									<li th:each="a:${month.subArticles}">
+										<a th:href="${a.url}" th:text="${a.title}"></a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<span>Blog propulsé par un moteur maison en java.</span>
+			<span>
+				<a href="mailto:shionn@gmail.com" title="Contact"><i class="fa fa-envelope" aria-hidden="true"></i></a> |
+				<a href="https://github.com/shionn" target="_blank" title="Github"><i class="fa fa-github"></i></a> |
+				<a href="https://www.thymeleaf.org/" target="_blank" title="Thymeleaf"><i class="fa fa-leaf"></i></a> |
+				<a href="https://fontawesome.com/v4/icons/" target="_blank" title="FontAwesome"><i class="fa fa-font-awesome"></i></a> |
+				<a href="http://commonmark.org/" target="_blank" title="CommonMark">M<i class="fa fa-long-arrow-down"></i></a> |
+				<a href="https://highlightjs.org/download" target="_blanck" title="highlightjs"><i class="fa fa-header"></i>js</a>
+			</span>
+			<span>
+				<a href="draft.html" title="Draft">Draft</a>
+			</span>
+		</div>
+	</footer>
+	<div class="gallery-view" tabindex="-1" role="dialog">
+		<img class="content">
+	</div>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/gallery.js"></script>
+	<script type="text/javascript" src="js/tree.js"></script>
+	<script type="text/javascript" src="js/comment.js"></script>
+	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
+	<th:block th:each="script : ${scripts}">
+		<script type="text/javascript" th:src="${script}"></script>
+	</th:block>
+	<script type="text/javascript" src="js/table.js"></script>
+	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
+</body>
+</html>
