@@ -1,0 +1,12 @@
+{
+	"type": "post",
+	"date": "2027/01/01",
+	"updated": "2025/03/29",
+	"title": "Dungeon & Laser : Mine Props",
+	"tags": ["War Game", "Dungeon and Laser", "Encounter", "JdR"],
+	"category": "War Game",
+	"logo": "pictures/titles/todo.jpg",
+	"published": false,
+	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
+	"author": "Shionn"
+}
