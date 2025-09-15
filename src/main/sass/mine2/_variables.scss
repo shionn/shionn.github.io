@@ -1,0 +1,29 @@
+
+:root {
+	//https://colorhunt.co/palette/32012f524c42e2dfd0f97300œ
+	
+	--orange: #d8ae47;
+	--violet: #32012F;
+	--lgrey: #E2DFD0;
+	--dgrey: #524C42;
+	
+	
+	--color-bg: #fff;
+	--color-text: #000;
+	--color-link: var(--orange);
+	--color-accent: var(--orange);
+	--color-text-accent: var(#fff);
+	
+	
+	--width-content: 1080px;
+	--width-padding: 10px;
+	--width-border-radius: 5px;
+
+	
+	@media (prefers-color-scheme: dark) {
+		--color-bg: #333;
+		--color-text: #f7f7f7;
+
+	}
+
+}

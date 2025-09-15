@@ -1,0 +1,94 @@
+:root {
+  --orange: #d8ae47;
+  --violet: #32012F;
+  --lgrey: #E2DFD0;
+  --dgrey: #524C42;
+  --color-bg: #fff;
+  --color-text: #000;
+  --color-link: var(--orange);
+  --color-accent: var(--orange);
+  --color-text-accent: var(#fff);
+  --width-content: 1080px;
+  --width-padding: 10px;
+  --width-border-radius: 5px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #333;
+    --color-text: #f7f7f7;
+  }
+}
+
+@font-face {
+  font-family: 'Press Start 2P';
+  font-weight: 400;
+  font-style: normal;
+  src: local("Press Start 2P"), local("Press-Start-2P-regular"), url("../../font/Press-Start-2P-regular.eot") format("eot"), url("../../font/Press-Start-2P-regular.woff2") format("woff2"), url("../../font/Press-Start-2P-regular.woff") format("woff"), url("../../font/Press-Start-2P-regular.ttf") format("truetype"), url("../../font/Press-Start-2P-regular.svg") format("svg");
+}
+html {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font: 1em/1.25em "Source Sans Pro", Helvetica, sans-serif;
+}
+html a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+body > header {
+  background-color: var(--color-accent);
+}
+body > header a {
+  color: var(--color-text-accent);
+}
+body > header nav,
+body > header h1 {
+  max-width: var(--width-content);
+  margin: 0 auto;
+}
+body > header h1 {
+  display: none;
+}
+body > header nav {
+  padding: var(--width-padding);
+}
+body > header nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body > header nav > a {
+  font-size: 1.2em;
+  display: block;
+  font-family: 'Press Start 2P';
+}
+body > header nav > a span {
+  float: right;
+}
+body > header nav > ul {
+  display: none;
+}
+body > header nav > ul.open {
+  display: block;
+}
+body > header nav > ul > li {
+  margin-top: var(--width-padding);
+}
+body > header nav > ul > li.open > ul {
+  display: block;
+}
+body > header nav > ul > li > ul {
+  display: none;
+}
+body > header nav > ul > li > ul > li > a {
+  padding-left: 20px;
+}
+body > header nav > ul > li > ul > li > ul > li > a {
+  padding-left: 40px;
+}
+body > main {
+  max-width: var(--width-content);
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */

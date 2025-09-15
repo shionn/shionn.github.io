@@ -1,0 +1,103 @@
+@import "_variables.scss";
+
+@import "_menu.scss";
+@import "_gallery.scss";
+
+@font-face {
+	font-family: 'Press Start 2P';
+	font-weight: 400;
+	font-style: normal;
+	src: local('Press Start 2P'), local('Press-Start-2P-regular'), url('../../font/Press-Start-2P-regular.eot') format('eot'), url('../../font/Press-Start-2P-regular.woff2') format('woff2'), url('../../font/Press-Start-2P-regular.woff') format('woff'), url('../../font/Press-Start-2P-regular.ttf') format('truetype'), url('../../font/Press-Start-2P-regular.svg') format('svg');
+}
+
+html {
+	background-color: var(--color-bg);
+	color: var(--color-text);
+	font: 1em/1.25em "Source Sans Pro", Helvetica, sans-serif;
+
+	a {
+		color: var(--color-link);
+		text-decoration: none;
+	}
+
+}
+
+body {
+
+	&>header {
+		background-color: var(--color-accent);
+
+		a {
+			color: var(--color-text-accent);
+		}
+
+		nav,
+		h1 {
+			max-width: var(--width-content);
+			margin: 0 auto;
+		}
+
+		h1 {
+			display: none;
+		}
+
+		nav {
+			padding: var(--width-padding);
+
+			ul {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+			}
+
+			&>a {
+				font-size: 1.2em;
+				display: block;
+				font-family: 'Press Start 2P';
+
+				span {
+					float: right;
+				}
+			}
+
+			&>ul {
+				&.open {
+					display: block;
+				}
+
+				display: none;
+
+				&>li {
+					margin-top: var(--width-padding);
+
+					&.open>ul {
+						display: block;
+					}
+
+					&>ul {
+						display: none;
+
+						&>li {
+							&>a {
+								padding-left: 20px;
+							}
+
+							&>ul>li {
+								&>a {
+									padding-left: 40px;
+								}
+
+							}
+						}
+					}
+				}
+			}
+
+		}
+	}
+
+	&>main {
+		max-width: var(--width-content);
+		margin: 0 auto;
+	}
+}

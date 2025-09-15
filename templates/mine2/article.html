@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<article class="short" th:fragment="articleshort (article)">
+	<header>
+		<img th:if="${!#strings.isEmpty(article.logo)}" th:attr="src=${article.logo},title=${article.title},alt=${article.title}" />
+		<h1><a th:text="${article.title}" th:href="${article.url}"></a></h1>
+		<span class="date" th:text="${article.formatedDate}"></span>
+		<a class="category" th:href="${article.category.url}"><span class="fa fa-folder-open"></span> <th:block th:text="${article.category.name}"/></a>
+		<span class="tags">
+			<span class="fa fa-flag"></span>
+			<a th:each="tag:${article.tags}" th:text="${tag.name}" th:href="${tag.url}"></a>
+		</span>
+	</header>
+	<section th:utext="${article.shortContent}"></section>
+	<footer>
+		<a th:href="${article.url}"><span class="fa fa-eye"></span> Lire la suite</a>
+	</footer>
+</article>
+<article th:fragment="articlefull (article)">
+	<header>
+		<img th:if="${!#strings.isEmpty(article.logo)}" th:attr="src=${article.logo},title=${article.title},alt=${article.title}" />
+		<h1><a th:text="${article.title}" th:href="${article.url}"></a></h1>
+		<span class="date" th:text="${article.formatedDate}"></span>
+		<a class="category" th:href="${article.category.url}"><span class="fa fa-folder-open"></span> <th:block th:text="${article.category.name}"></th:block></a>
+		<span class="tags">
+			<span class="fa fa-flag"></span>
+			<a th:each="tag:${article.tags}" th:text="${tag.name}" th:href="${tag.url}"></a>
+		</span>
+	</header>
+	<section th:utext="${article.fullContent}"></section>
+	<footer>
+		<em class="author">par <th:block th:text="${article.author}"/>, le <th:block th:text="${article.formatedDate}"/><span th:if="${article.updateDate}">, derniére modification le <th:block th:text="${article.formatedUpdateDate}"/></span>.</em>
+		<h2>Commentaires</h2>
+		<div class="comments">
+			
+		</div>
+		<h3>Ajouter un commentaire</h3>
+		<form method="post" class="comments">
+			<div>
+				<label for="author">Votre pseudo</label>
+				<input type="text" name="author" required>
+			</div>
+			<div>
+				<label for="author">Votre message</label>
+				<textarea name="content" required></textarea>
+			</div>
+			<div>
+				<input type="submit" value="Commenter">
+			</div>
+		</form>
+	</footer>
+</article>
+<div class="e404" th:fragment="404">
+	<div class="e404">
+		<p><em>Mince alors !</em> Cette page n'existe pas (ou plus).</p>
+		<p>essayer de revenir à la page d'<a href="index.html">Accueil</a></p>
+		<h1>404</h1>
+	</div>
+</div>
+</body>
+</html>
