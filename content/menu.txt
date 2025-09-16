@@ -58,7 +58,7 @@ category/linux	Linux
 		2025/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille
 		2025/openrgb-sur-debian	OpenRGB sur Débian
 	tag/matos	Matos
-		2025/homelab-processor	Processeur pour Homelab
+		2025/homelab-processeur	Processeur pour Homelab
 category/code	Code
 	tag/arduino	Arduino
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode

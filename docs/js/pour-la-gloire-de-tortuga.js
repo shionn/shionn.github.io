@@ -725,6 +725,10 @@ q(function() {
 		.progress("06/09/2025", shionn, 1, "Rookery of Kril", _MEDIUM)
 		.progress("08/09/2025", tony, 1, "Tau", _SMALL)
 		.progress("11/09/2025", whisp, 1, "Calleche", _MEDIUM_DECOR)
+		.progress("14/09/2025", shionn, 6, "Sournifleur", _MEDIUM)
+		.progress("16/09/2025", angest, 1, "Troll BB", _MEDIUM)
+		.progress("16/09/2025", angest, 1, "Minotaure BB", _MEDIUM)
+		.progress("16/09/2025", angest, 4, "Rat des Clans", _SMALL)
 		.render();
 		
 							
