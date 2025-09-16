@@ -3,26 +3,29 @@
 	//https://colorhunt.co/palette/32012f524c42e2dfd0f97300œ
 	
 	--orange: #d8ae47;
+	--black: #222;
+	--white: #FFF;
+	--lgrey: #DDD;
 //	--violet: #32012F;
 //	--lgrey: #E2DFD0;
 //	--dgrey: #524C42;
 	
 	//https://www.shecodes.io/palettes/460
 //	--orange: #e8751a;
-	--orange-alt: #fda403;
-	--pink: #c51350;
-	--violet: #8a1253;
+//	--orange-alt: #fda403;
+//	--pink: #c51350;
+//	--violet: #8a1253;
+//	
 	
-	
-	--color-bg: #fff;
+	--color-bg:var(--white);
 	--color-accent: var(--orange);
-	--color-alternative: var(--violet);
+//	--color-alternative: var(--violet);
 
 	--color-text: #000;
 	--color-link: var(--orange);
 	--color-link-hover: var(--lgrey);
-	--color-text-accent: #333;
-	--color-text-accent-hover: #fff;
+	--color-text-accent: var(--black);
+	--color-text-accent-hover: var(--white);
 	
 	
 	--width-content: 1080px;
@@ -31,8 +34,8 @@
 
 	
 	@media (prefers-color-scheme: dark) {
-		--color-bg: #333;
-		--color-text: #f7f7f7;
+		--color-bg: var(--black);
+		--color-text: var(--white);
 
 	}
 

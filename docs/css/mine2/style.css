@@ -1,24 +1,23 @@
 :root {
   --orange: #d8ae47;
-  --orange-alt: #fda403;
-  --pink: #c51350;
-  --violet: #8a1253;
-  --color-bg: #fff;
+  --black: #222;
+  --white: #FFF;
+  --lgrey: #DDD;
+  --color-bg:var(--white);
   --color-accent: var(--orange);
-  --color-alternative: var(--violet);
   --color-text: #000;
   --color-link: var(--orange);
   --color-link-hover: var(--lgrey);
-  --color-text-accent: #333;
-  --color-text-accent-hover: #fff;
+  --color-text-accent: var(--black);
+  --color-text-accent-hover: var(--white);
   --width-content: 1080px;
   --border-radius: 5px;
   --padding: 10px;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-bg: #333;
-    --color-text: #f7f7f7;
+    --color-bg: var(--black);
+    --color-text: var(--white);
   }
 }
 
