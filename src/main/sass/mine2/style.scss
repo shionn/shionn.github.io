@@ -18,84 +18,17 @@ html {
 	a {
 		color: var(--color-link);
 		text-decoration: none;
+		&:hover {
+			color: var(--color-link-hover);
+		}
 	}
 
 }
 
+@import "_header.scss";
+
 body {
-
-	&>header {
-		background-color: var(--color-accent);
-
-		a {
-			color: var(--color-text-accent);
-		}
-
-		nav,
-		h1 {
-			max-width: var(--width-content);
-			margin: 0 auto;
-		}
-
-		h1 {
-			display: none;
-		}
-
-		nav {
-			padding: var(--width-padding);
-
-			ul {
-				padding: 0;
-				margin: 0;
-				list-style: none;
-			}
-
-			&>a {
-				font-size: 1.2em;
-				display: block;
-				font-family: 'Press Start 2P';
-
-				span {
-					float: right;
-				}
-			}
-
-			&>ul {
-				&.open {
-					display: block;
-				}
-
-				display: none;
-
-				&>li {
-					margin-top: var(--width-padding);
-
-					&.open>ul {
-						display: block;
-					}
-
-					&>ul {
-						display: none;
-
-						&>li {
-							&>a {
-								padding-left: 20px;
-							}
-
-							&>ul>li {
-								&>a {
-									padding-left: 40px;
-								}
-
-							}
-						}
-					}
-				}
-			}
-
-		}
-	}
-
+	
 	&>main {
 		max-width: var(--width-content);
 		margin: 0 auto;

@@ -6,8 +6,10 @@
   --color-bg: #fff;
   --color-text: #000;
   --color-link: var(--orange);
+  --color-link-hover: var(--lgrey);
   --color-accent: var(--orange);
   --color-text-accent: var(#fff);
+  --color-text-accent-hover: #000;
   --width-content: 1080px;
   --width-padding: 10px;
   --width-border-radius: 5px;
@@ -34,12 +36,18 @@ html a {
   color: var(--color-link);
   text-decoration: none;
 }
+html a:hover {
+  color: var(--color-link-hover);
+}
 
 body > header {
   background-color: var(--color-accent);
 }
 body > header a {
   color: var(--color-text-accent);
+}
+body > header a:hover {
+  color: var(--color-text-accent-hover);
 }
 body > header nav,
 body > header h1 {
@@ -48,6 +56,14 @@ body > header h1 {
 }
 body > header h1 {
   display: none;
+  font: 2em 'Press Start 2P';
+  text-align: center;
+  padding: 10px 0 0 0;
+}
+@media all and (min-width: 720px) {
+  body > header h1 {
+    display: block;
+  }
 }
 body > header nav {
   padding: var(--width-padding);
@@ -86,6 +102,20 @@ body > header nav > ul > li > ul > li > a {
 body > header nav > ul > li > ul > li > ul > li > a {
   padding-left: 40px;
 }
+@media all and (min-width: 720px) {
+  body > header nav > a {
+    display: none;
+  }
+  body > header nav > ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  body > header nav > ul > li > a {
+    font-size: 1.5em;
+  }
+}
+
 body > main {
   max-width: var(--width-content);
   margin: 0 auto;

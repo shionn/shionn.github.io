@@ -1,0 +1,100 @@
+body>header {
+	background-color: var(--color-accent);
+
+	a {
+		color: var(--color-text-accent);
+		&:hover {
+			color: var(--color-text-accent-hover);
+		}
+	}
+
+	nav,
+	h1 {
+		max-width: var(--width-content);
+		margin: 0 auto;
+	}
+
+
+	h1 {
+		display: none;
+		font: 2em 'Press Start 2P';
+		text-align: center;
+		padding: 10px 0 0 0;
+		@media all and (min-width: 720px) {
+			display: block;
+		}
+	}
+
+	nav {
+		padding: var(--width-padding);
+
+		ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+
+		&>a {
+			font-size: 1.2em;
+			display: block;
+			font-family: 'Press Start 2P';
+
+			span {
+				float: right;
+			}
+
+		}
+
+		&>ul {
+			display: none;
+
+			&.open {
+				display: block;
+			}
+
+			&>li {
+				margin-top: var(--width-padding);
+
+				&.open>ul {
+					display: block;
+				}
+
+				&>ul {
+					display: none;
+
+					&>li {
+						&>a {
+							padding-left: 20px;
+						}
+
+						&>ul>li {
+							&>a {
+								padding-left: 40px;
+							}
+
+						}
+					}
+				}
+			}
+		}
+		
+		@media all and (min-width: 720px) {
+			& > a {
+				display: none;
+			}
+			
+			&>ul {
+				display: flex;
+				justify-content: center;
+				gap: 20px;
+				&> li {
+					& > a {
+						font-size: 1.5em;
+					}
+				}
+			}
+		}
+
+
+	}
+}
