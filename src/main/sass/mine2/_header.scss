@@ -1,8 +1,10 @@
 body>header {
 	background-color: var(--color-accent);
+	border-bottom: 3px solid #fff; // TODO light mode
 
 	a {
 		color: var(--color-text-accent);
+
 		&:hover {
 			color: var(--color-text-accent-hover);
 		}
@@ -20,24 +22,38 @@ body>header {
 		font: 2em 'Press Start 2P';
 		text-align: center;
 		padding: 10px 0 0 0;
+		
+		&:before {
+			content : '{';
+			font-size: 1.5em;
+			vertical-align:sub;
+			margin-right : -30px;
+		}
+		&:after {
+			content : '}';
+			font-size: 1.5em;
+			vertical-align:sub;
+			margin-left : -30px;
+		}
 		@media all and (min-width: 720px) {
 			display: block;
 		}
 	}
 
 	nav {
-		padding: var(--width-padding);
 
 		ul {
 			padding: 0;
 			margin: 0;
 			list-style: none;
+			background-color: var(--color-accent);
 		}
 
 		&>a {
 			font-size: 1.2em;
 			display: block;
 			font-family: 'Press Start 2P';
+			padding: var(--padding);
 
 			span {
 				float: right;
@@ -46,6 +62,7 @@ body>header {
 		}
 
 		&>ul {
+			padding: var(--padding);
 			display: none;
 
 			&.open {
@@ -53,7 +70,6 @@ body>header {
 			}
 
 			&>li {
-				margin-top: var(--width-padding);
 
 				&.open>ul {
 					display: block;
@@ -77,20 +93,63 @@ body>header {
 				}
 			}
 		}
-		
+
 		@media all and (min-width: 720px) {
-			& > a {
+
+			// TODO variable
+			&>a {
 				display: none;
 			}
-			
+
 			&>ul {
 				display: flex;
 				justify-content: center;
 				gap: 20px;
-				&> li {
-					& > a {
+				position: relative;
+
+				&>li {
+
+					&>a {
 						font-size: 1.5em;
 					}
+
+					&>ul {
+						position: absolute;
+						left: 0;
+						right: 0;
+						width: 100%;
+						flex-wrap: wrap;
+						border: 3px solid #fff;
+//						border-top: 0;
+						margin-top: calc(var(--padding) * 2);
+						padding: 0 var(--padding) var(--padding) var(--padding);
+
+						&>li {
+							width: 33%;
+							margin-top: var(--padding);
+
+							&>a {
+								font-size: 1.3em;
+								padding-left: var(--padding);
+							} 
+
+							&>ul {
+								padding-top: calc(var(--padding)/2);
+
+								&>li {
+
+									&>a {
+										padding-left: calc(var(--padding) * 2);
+									}
+								}
+							}
+						}
+					}
+
+					&.open>ul {
+						display: flex;
+					}
+
 				}
 			}
 		}

@@ -1,18 +1,19 @@
 :root {
   --orange: #d8ae47;
-  --violet: #32012F;
-  --lgrey: #E2DFD0;
-  --dgrey: #524C42;
+  --orange-alt: #fda403;
+  --pink: #c51350;
+  --violet: #8a1253;
   --color-bg: #fff;
+  --color-accent: var(--orange);
+  --color-alternative: var(--violet);
   --color-text: #000;
   --color-link: var(--orange);
   --color-link-hover: var(--lgrey);
-  --color-accent: var(--orange);
-  --color-text-accent: var(#fff);
-  --color-text-accent-hover: #000;
+  --color-text-accent: #333;
+  --color-text-accent-hover: #fff;
   --width-content: 1080px;
-  --width-padding: 10px;
-  --width-border-radius: 5px;
+  --border-radius: 5px;
+  --padding: 10px;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -42,6 +43,7 @@ html a:hover {
 
 body > header {
   background-color: var(--color-accent);
+  border-bottom: 3px solid #fff;
 }
 body > header a {
   color: var(--color-text-accent);
@@ -60,35 +62,44 @@ body > header h1 {
   text-align: center;
   padding: 10px 0 0 0;
 }
+body > header h1:before {
+  content: '{';
+  font-size: 1.5em;
+  vertical-align: sub;
+  margin-right: -30px;
+}
+body > header h1:after {
+  content: '}';
+  font-size: 1.5em;
+  vertical-align: sub;
+  margin-left: -30px;
+}
 @media all and (min-width: 720px) {
   body > header h1 {
     display: block;
   }
 }
-body > header nav {
-  padding: var(--width-padding);
-}
 body > header nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
+  background-color: var(--color-accent);
 }
 body > header nav > a {
   font-size: 1.2em;
   display: block;
   font-family: 'Press Start 2P';
+  padding: var(--padding);
 }
 body > header nav > a span {
   float: right;
 }
 body > header nav > ul {
+  padding: var(--padding);
   display: none;
 }
 body > header nav > ul.open {
   display: block;
-}
-body > header nav > ul > li {
-  margin-top: var(--width-padding);
 }
 body > header nav > ul > li.open > ul {
   display: block;
@@ -110,9 +121,37 @@ body > header nav > ul > li > ul > li > ul > li > a {
     display: flex;
     justify-content: center;
     gap: 20px;
+    position: relative;
   }
   body > header nav > ul > li > a {
     font-size: 1.5em;
+  }
+  body > header nav > ul > li > ul {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    border: 3px solid #fff;
+    margin-top: calc(var(--padding) * 2);
+    padding: 0 var(--padding) var(--padding) var(--padding);
+  }
+  body > header nav > ul > li > ul > li {
+    width: 33%;
+    margin-top: var(--padding);
+  }
+  body > header nav > ul > li > ul > li > a {
+    font-size: 1.3em;
+    padding-left: var(--padding);
+  }
+  body > header nav > ul > li > ul > li > ul {
+    padding-top: calc(var(--padding)/2);
+  }
+  body > header nav > ul > li > ul > li > ul > li > a {
+    padding-left: calc(var(--padding) * 2);
+  }
+  body > header nav > ul > li.open > ul {
+    display: flex;
   }
 }
 
