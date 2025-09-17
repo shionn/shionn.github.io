@@ -5,9 +5,9 @@ q(function(){
 	const page = window.location.toString().replace(q("base").attr("href"),"");
 	q.ajax(url,"GET").header("page", page).success(function(comments) {
 		comments.forEach(comment => {
-			let author = q("<h3>").text("Par "+comment.author+" le "+comment.date);
-			let content = q("<div>").text(comment.content);
-			q("div.comments").append(author).append(content);
+			let author = q("<span>").text("Par "+comment.author+" le "+comment.date);
+			let content = q("<p>").text(comment.content);
+			q("div.comments").append(content).append(author);
 		});
 	}).process();
 	

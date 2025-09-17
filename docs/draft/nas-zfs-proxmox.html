@@ -290,12 +290,17 @@
 	<header>
 		
 		<h1><a href="draft/nas-zfs-proxmox.html">Nas ZFS sur Proxmox</a></h1>
-		<span class="date">01 janvier 2025</span>
-		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
-		<span class="tags">
-			<span class="fa fa-flag"></span>
-			<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/nas.html">Nas</a><a href="tag/zfs.html">Zfs</a>
-		</span>
+		<div>
+			<span>Publié le 01 janvier 2025</span>
+			<span>
+				<span class="fa fa-folder-open"></span>
+				<a href="category/linux.html">Linux</a>
+			</span>
+			<span>
+				<span class="fa fa-flag"></span>
+				<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/nas.html">Nas</a><a href="tag/zfs.html">Zfs</a>
+			</span>
+		</div>
 	</header>
 	<section><p>Je vous propose aujourd'hui un tuto sur la mise en place d'un serveur nas avec des disques en ZFS. Je ne vous présente pas ZFS, je pense que vous connaissez les avantages de ce systeme.
 La solution que je vous propose ici c'est que la grappe de disque ZFS soit traiter par proxmox et qu'on crais un container <strong>Turnkey</strong> hyper leger dessus qui se charge de traiter vos partages sur votre reseau.
@@ -402,7 +407,7 @@ lxc.idmap: g 3000 103000 62535
 		<div class="comments">
 			
 		</div>
-		<h3>Ajouter un commentaire</h3>
+		<h2>Ajouter un commentaire</h2>
 		<form method="post" class="comments">
 			<div>
 				<label for="author">Votre pseudo</label>

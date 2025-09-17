@@ -32,7 +32,60 @@ article {
 		p {
 			text-align: justify;
 		}
+		
+		blockquote {
+			border-left: double 3px var(--color-accent);
+//			margin: 0 15px;
+			padding-left:var(--padding);
+			font-style: italic;
+		}
 
+	}
+
+	footer {
+		&>div.comments {
+			span {
+				float: right;
+				font-size: smaller;
+			}
+		}
+		
+		form {
+			div {
+				display: flex;
+				gap: var(--padding);
+				margin-bottom: var(--padding);
+				align-items: baseline;
+			}
+
+			label {
+				display: inline-block;
+				width: 120px;
+				text-align: right;
+			}
+
+			input,
+			textarea {
+				border: solid 1px var(--color-accent);
+
+				&:focus {
+					outline: none;
+				}
+			}
+
+			textarea {
+				width: 80%;
+				height: 100px;
+			}
+
+			input[type="submit"] {
+				margin-left: calc(var(--padding) + 120px);
+				background-color: var(--color-dark-accent);
+				color: var(--color-text);
+			}
+
+			margin-bottom: calc(var(--padding)*3);
+		}
 	}
 
 	&.short footer {

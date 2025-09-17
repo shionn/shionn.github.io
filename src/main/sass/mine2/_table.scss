@@ -1,0 +1,136 @@
+table {
+	margin: var(--padding) auto 0;
+	color: var(--dgrey);
+	background-color: #F5F5F5;
+	border-collapse: collapse;
+	border-spacing: 0;
+
+	thead,
+	tbody {
+		border: 1px solid var(--color-accent);
+	}
+
+	thead tr {
+		background-color: var(--light-70-orange);
+	}
+
+	td,
+	th {
+		padding: 1px 3px;
+	}
+
+	&.sort thead {
+		cursor: pointer;
+	}
+
+	tr.hide {
+		display: none;
+	}
+
+	td.right {
+		text-align: right;
+	}
+
+	tr td.subtitle {
+		text-align: right;
+		background-color: var(--light-70-orange);
+	}
+
+	&.boxed td,
+	&.boxed th {
+		border: 1px solid var(--color-accent);
+	}
+}
+
+.paint-db,
+.paint-guide,
+.pyjama {
+
+	tbody tr:nth-child(2n) {
+		background-color: var(--light-85-orange);
+	}
+}
+
+
+.paint-db,
+.paint-guide {
+	min-width: 780px;
+
+	td a {
+		padding-right: 2px;
+	}
+
+	tr td:nth-child(2n) {
+		border-right: 1px solid var(--color-accent);
+	}
+
+	td.color {
+		width: 40px;
+	}
+}
+
+
+/**
+ * tortuga
+ */
+
+table.quest {
+
+	margin-bottom: 15px;
+
+	&>tbody:nth-child(2) {
+		td {
+			padding: 5px 10px;
+		}
+	}
+}
+
+table.all-quests {
+
+	tbody tr td:nth-child(3) {
+		padding: 5px 10px;
+		min-width: 100px;
+	}
+}
+
+table.quest,
+table.players,
+table.all-quests {
+
+	img {
+		max-width: unset;
+	}
+
+	td.xp {
+		min-width: 150px;
+	}
+
+	td.badge {
+		i {
+			margin-right: 1px;
+		}
+	}
+
+	span.progress {
+		display: block;
+		width: 100%;
+		height: 20px;
+		border: 2px solid var(--color-accent);
+		border-radius: 10px;
+		text-align: center;
+
+		span:first-child {
+			display: block;
+			background-color: var(--color-accent);
+			height: 16px;
+			border-radius: 8px;
+		}
+
+		span:nth-child(2) {
+			position: relative;
+			top: -18px;
+		}
+	}
+
+
+}

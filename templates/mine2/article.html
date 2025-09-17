@@ -26,12 +26,17 @@
 	<header>
 		<img th:if="${!#strings.isEmpty(article.logo)}" th:attr="src=${article.logo},title=${article.title},alt=${article.title}" />
 		<h1><a th:text="${article.title}" th:href="${article.url}"></a></h1>
-		<span class="date" th:text="${article.formatedDate}"></span>
-		<a class="category" th:href="${article.category.url}"><span class="fa fa-folder-open"></span> <th:block th:text="${article.category.name}"></th:block></a>
-		<span class="tags">
-			<span class="fa fa-flag"></span>
-			<a th:each="tag:${article.tags}" th:text="${tag.name}" th:href="${tag.url}"></a>
-		</span>
+		<div>
+			<span th:text="'Publié le '+${article.formatedDate}"></span>
+			<span>
+				<span class="fa fa-folder-open"></span>
+				<a th:href="${article.category.url}" th:text="${article.category.name}"></a>
+			</span>
+			<span>
+				<span class="fa fa-flag"></span>
+				<a th:each="tag:${article.tags}" th:text="${tag.name}" th:href="${tag.url}"></a>
+			</span>
+		</div>
 	</header>
 	<section th:utext="${article.fullContent}"></section>
 	<footer>
@@ -40,7 +45,7 @@
 		<div class="comments">
 			
 		</div>
-		<h3>Ajouter un commentaire</h3>
+		<h2>Ajouter un commentaire</h2>
 		<form method="post" class="comments">
 			<div>
 				<label for="author">Votre pseudo</label>
@@ -59,7 +64,7 @@
 <div class="e404" th:fragment="404">
 	<div class="e404">
 		<p><em>Mince alors !</em> Cette page n'existe pas (ou plus).</p>
-		<p>essayer de revenir à la page d'<a href="index.html">Accueil</a></p>
+		<p>Essayer de revenir à la page d'<a href="index.html">Accueil</a></p>
 		<h1>404</h1>
 	</div>
 </div>

@@ -290,12 +290,17 @@
 	<header>
 		<img src="pictures/titles/server/proxmox-nvidia-passthrought.jpg" title="Proxmox Passthrought Nvidia dans LXC" alt="Proxmox Passthrought Nvidia dans LXC" />
 		<h1><a href="draft/nvidia-proxmox-lxc-passthrought-ollama.html">Proxmox Passthrought Nvidia dans LXC</a></h1>
-		<span class="date">29 janvier 2026</span>
-		<a class="category" href="category/linux.html"><span class="fa fa-folder-open"></span> Linux</a>
-		<span class="tags">
-			<span class="fa fa-flag"></span>
-			<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/nvidia.html">Nvidia</a><a href="tag/ollama.html">Ollama</a>
-		</span>
+		<div>
+			<span>Publié le 29 janvier 2026</span>
+			<span>
+				<span class="fa fa-folder-open"></span>
+				<a href="category/linux.html">Linux</a>
+			</span>
+			<span>
+				<span class="fa fa-flag"></span>
+				<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/nvidia.html">Nvidia</a><a href="tag/ollama.html">Ollama</a>
+			</span>
+		</div>
 	</header>
 	<section><p>Ce tuto s'intérresse surtout à la procédure à suivre pour installer une carte graphique NVIDIA sur votre Proxmox avec un pass-through dans un conteneur.
 Cette solution n'utilise pas les drivers pro qui permettent de découper une carte en plusieurs. En effet, avec la containment LXC, une même carte peut être partagée entre plusieurs conteneurs.</p>
@@ -429,7 +434,7 @@ Environment=&quot;OLLAMA_HOST=0.0.0.0:11434&quot;
 		<div class="comments">
 			
 		</div>
-		<h3>Ajouter un commentaire</h3>
+		<h2>Ajouter un commentaire</h2>
 		<form method="post" class="comments">
 			<div>
 				<label for="author">Votre pseudo</label>

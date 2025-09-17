@@ -1,0 +1,170 @@
+pre {
+	border: 1px solid var(--color-accent);
+	border-radius: 1;
+	padding: .5em 1.5em;
+	margin: 0 1em;
+	background: var(--lgrey);
+	color: var(--dgrey);
+	white-space: pre-wrap;
+	tab-size: 4;
+
+	code.java,
+	code.shell {
+
+		font-size: 1em;
+		line-height: 1em;
+
+		.hljs-keyword,
+		.hljs-built_in {
+			color: rgb(127, 0, 95);
+			font-weight: bold;
+		}
+
+		.hljs-comment {
+			color: rgb(63, 127, 95);
+		}
+
+		.hljs-string {
+			color: rgb(42, 0, 255);
+		}
+
+		.hljs-meta {
+			color: #646464;
+		}
+	}
+
+	// couleur de je me demerde
+	code.bash {
+		.hljs-built_in {
+			font-weight: bold;
+			color: #00007f;
+		}
+	}
+
+	code.cpp {
+		.hljs-meta {
+			color: #0000ff;
+
+			.hljs-keyword {
+				color: #af00db;
+			}
+		}
+
+		.hljs-string {
+			color: #a31515;
+		}
+
+		.hljs-type {
+			color: #0000ff;
+		}
+
+		.hljs-title,
+		.hljs-built_in {
+			color: #795e26;
+		}
+
+		.hljs-params,
+		.hljs-keyword {
+			color: #af00db;
+		}
+
+		.hljs-number {
+			color: #098658;
+		}
+
+		.hljs-comment {
+			color: #6a9955;
+		}
+
+		.hljs-type {
+			color: #0d0dff;
+		}
+	}
+
+	// couleur de geany
+	code.python {
+		.hljs-comment {
+			color: #d00000;
+		}
+
+		.hljs-built_in {
+			font-weight: bold;
+			color: #991111;
+		}
+
+		.hljs-keyword {
+			font-weight: bold;
+			color: #00007f;
+		}
+
+		.hljs-meta {
+			color: #ff8000;
+		}
+
+		.hljs-params {
+			color: #381919;
+		}
+
+		.hljs-string {
+			color: #ff952b;
+		}
+
+		.hljs-title {
+			font-weight: bold;
+			color: #00007f;
+		}
+
+	}
+
+	// couleur de geany
+	code.sql {
+		.hljs-comment {
+			color: #d00000;
+		}
+
+		.hljs-keyword {
+			font-weight: bold;
+			color: #00007f;
+		}
+
+		.hljs-number {
+			color: #007f00;
+		}
+
+		.hljs-type {
+			font-weight: bold;
+			color: #00007f;
+		}
+	}
+
+	// couleur de geany
+	code.xml {
+		.hljs-attr {
+			font-weight: normal;
+			color: #00007f;
+		}
+
+		.hljs-comment {
+			color: #d00000;
+		}
+
+		.hljs-keyword {
+			color: #00007f;
+		}
+
+		.hljs-meta {
+			color: #007f00;
+		}
+
+		.hljs-string {
+			font-weight: normal;
+			color: #008000;
+		}
+
+		.hljs-tag {
+			font-weight: bold;
+			color: #0000d0;
+		}
+
+	}
+}

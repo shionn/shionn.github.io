@@ -3,6 +3,8 @@
   --dgrey: #222;
   --lgrey: #DDD;
   --orange: #d8ae47;
+  --light-70-orange: #e4c781;
+  --light-85-orange: #f2e3c0;
   --dark-orange: #3f310d;
   --color-bg: var(--white);
   --color-accent: var(--orange);
@@ -188,6 +190,46 @@ article header div span:last-child a:not(:last-child):after {
 article section p {
   text-align: justify;
 }
+article section blockquote {
+  border-left: double 3px var(--color-accent);
+  padding-left: var(--padding);
+  font-style: italic;
+}
+article footer > div.comments span {
+  float: right;
+  font-size: smaller;
+}
+article footer form {
+  margin-bottom: calc(var(--padding)*3);
+}
+article footer form div {
+  display: flex;
+  gap: var(--padding);
+  margin-bottom: var(--padding);
+  align-items: baseline;
+}
+article footer form label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+}
+article footer form input,
+article footer form textarea {
+  border: solid 1px var(--color-accent);
+}
+article footer form input:focus,
+article footer form textarea:focus {
+  outline: none;
+}
+article footer form textarea {
+  width: 80%;
+  height: 100px;
+}
+article footer form input[type="submit"] {
+  margin-left: calc(var(--padding) + 120px);
+  background-color: var(--color-dark-accent);
+  color: var(--color-text);
+}
 article.short footer {
   text-align: center;
   margin-top: -150px;
@@ -217,12 +259,13 @@ div.gallery {
 }
 div.gallery a {
   display: inline-flex;
+  max-width: 90%;
 }
 div.gallery img {
   display: inline-block;
   border: 1px solid var(--color-accent);
-  border-radius: calc(var(--padding)/2);
   object-fit: cover;
+  max-width: 100%;
 }
 
 .gallery-view {
@@ -256,6 +299,246 @@ div.gallery img {
     opacity: 1;
   }
 }
+table {
+  margin: var(--padding) auto 0;
+  color: var(--dgrey);
+  background-color: #F5F5F5;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table thead,
+table tbody {
+  border: 1px solid var(--color-accent);
+}
+table thead tr {
+  background-color: var(--light-70-orange);
+}
+table td,
+table th {
+  padding: 1px 3px;
+}
+table.sort thead {
+  cursor: pointer;
+}
+table tr.hide {
+  display: none;
+}
+table td.right {
+  text-align: right;
+}
+table tr td.subtitle {
+  text-align: right;
+  background-color: var(--light-70-orange);
+}
+table.boxed td, table.boxed th {
+  border: 1px solid var(--color-accent);
+}
+
+.paint-db tbody tr:nth-child(2n),
+.paint-guide tbody tr:nth-child(2n),
+.pyjama tbody tr:nth-child(2n) {
+  background-color: var(--light-85-orange);
+}
+
+.paint-db,
+.paint-guide {
+  min-width: 780px;
+}
+.paint-db td a,
+.paint-guide td a {
+  padding-right: 2px;
+}
+.paint-db tr td:nth-child(2n),
+.paint-guide tr td:nth-child(2n) {
+  border-right: 1px solid var(--color-accent);
+}
+.paint-db td.color,
+.paint-guide td.color {
+  width: 40px;
+}
+
+/**
+ * tortuga
+ */
+table.quest {
+  margin-bottom: 15px;
+}
+table.quest > tbody:nth-child(2) td {
+  padding: 5px 10px;
+}
+
+table.all-quests tbody tr td:nth-child(3) {
+  padding: 5px 10px;
+  min-width: 100px;
+}
+
+table.quest img,
+table.players img,
+table.all-quests img {
+  max-width: unset;
+}
+table.quest td.xp,
+table.players td.xp,
+table.all-quests td.xp {
+  min-width: 150px;
+}
+table.quest td.badge i,
+table.players td.badge i,
+table.all-quests td.badge i {
+  margin-right: 1px;
+}
+table.quest span.progress,
+table.players span.progress,
+table.all-quests span.progress {
+  display: block;
+  width: 100%;
+  height: 20px;
+  border: 2px solid var(--color-accent);
+  border-radius: 10px;
+  text-align: center;
+}
+table.quest span.progress span:first-child,
+table.players span.progress span:first-child,
+table.all-quests span.progress span:first-child {
+  display: block;
+  background-color: var(--color-accent);
+  height: 16px;
+  border-radius: 8px;
+}
+table.quest span.progress span:nth-child(2),
+table.players span.progress span:nth-child(2),
+table.all-quests span.progress span:nth-child(2) {
+  position: relative;
+  top: -18px;
+}
+
+pre {
+  border: 1px solid var(--color-accent);
+  border-radius: 1;
+  padding: .5em 1.5em;
+  margin: 0 1em;
+  background: var(--lgrey);
+  color: var(--dgrey);
+  white-space: pre-wrap;
+  tab-size: 4;
+}
+pre code.java,
+pre code.shell {
+  font-size: 1em;
+  line-height: 1em;
+}
+pre code.java .hljs-keyword,
+pre code.java .hljs-built_in,
+pre code.shell .hljs-keyword,
+pre code.shell .hljs-built_in {
+  color: #7f005f;
+  font-weight: bold;
+}
+pre code.java .hljs-comment,
+pre code.shell .hljs-comment {
+  color: #3f7f5f;
+}
+pre code.java .hljs-string,
+pre code.shell .hljs-string {
+  color: #2a00ff;
+}
+pre code.java .hljs-meta,
+pre code.shell .hljs-meta {
+  color: #646464;
+}
+pre code.bash .hljs-built_in {
+  font-weight: bold;
+  color: #00007f;
+}
+pre code.cpp .hljs-meta {
+  color: #0000ff;
+}
+pre code.cpp .hljs-meta .hljs-keyword {
+  color: #af00db;
+}
+pre code.cpp .hljs-string {
+  color: #a31515;
+}
+pre code.cpp .hljs-type {
+  color: #0000ff;
+}
+pre code.cpp .hljs-title,
+pre code.cpp .hljs-built_in {
+  color: #795e26;
+}
+pre code.cpp .hljs-params,
+pre code.cpp .hljs-keyword {
+  color: #af00db;
+}
+pre code.cpp .hljs-number {
+  color: #098658;
+}
+pre code.cpp .hljs-comment {
+  color: #6a9955;
+}
+pre code.cpp .hljs-type {
+  color: #0d0dff;
+}
+pre code.python .hljs-comment {
+  color: #d00000;
+}
+pre code.python .hljs-built_in {
+  font-weight: bold;
+  color: #991111;
+}
+pre code.python .hljs-keyword {
+  font-weight: bold;
+  color: #00007f;
+}
+pre code.python .hljs-meta {
+  color: #ff8000;
+}
+pre code.python .hljs-params {
+  color: #381919;
+}
+pre code.python .hljs-string {
+  color: #ff952b;
+}
+pre code.python .hljs-title {
+  font-weight: bold;
+  color: #00007f;
+}
+pre code.sql .hljs-comment {
+  color: #d00000;
+}
+pre code.sql .hljs-keyword {
+  font-weight: bold;
+  color: #00007f;
+}
+pre code.sql .hljs-number {
+  color: #007f00;
+}
+pre code.sql .hljs-type {
+  font-weight: bold;
+  color: #00007f;
+}
+pre code.xml .hljs-attr {
+  font-weight: normal;
+  color: #00007f;
+}
+pre code.xml .hljs-comment {
+  color: #d00000;
+}
+pre code.xml .hljs-keyword {
+  color: #00007f;
+}
+pre code.xml .hljs-meta {
+  color: #007f00;
+}
+pre code.xml .hljs-string {
+  font-weight: normal;
+  color: #008000;
+}
+pre code.xml .hljs-tag {
+  font-weight: bold;
+  color: #0000d0;
+}
+
 body > footer {
   background-color: var(--color-dark-accent);
   padding: calc(var(--padding)*2) 0 calc(var(--padding)*4) 0;
