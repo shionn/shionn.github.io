@@ -1,0 +1,53 @@
+body>footer {
+
+	background-color: var(--color-dark-accent);
+	padding: calc(var(--padding)*2) 0 calc(var(--padding)*4) 0;
+
+	&>nav {
+		max-width: var(--width-content);
+		margin: 0 auto;
+		display: flex;
+		gap: calc(var(--padding)*3);
+
+		aside {
+			width: 33%;
+			text-align: justify;
+
+			ul {
+				list-style-type: none;
+				padding: 0 0 0 calc(var(--padding)*2);
+
+				li.closed>ul {
+					display: none;
+				}
+
+				li.closed>a[href="#"]:before {
+					content: "\f196";
+					font-family: FontAwesome;
+					color: var(--white);
+					padding-right: 5px;
+				}
+
+				li:not(.closed)>a[href="#"]:before {
+					content: "\f147";
+					font-family: FontAwesome;
+					color: var(--white);
+					padding-right: 5px;
+				}
+
+
+			}
+		}
+	}
+	
+	&> div {
+		max-width: var(--width-content);
+		margin: calc(var(--padding)*2) auto 0 auto;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		&>span:last-child a {
+			color: var(--color-dark-accent);
+		}
+	}
+}

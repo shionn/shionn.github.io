@@ -1148,17 +1148,17 @@ ul.tree ul {
 ul.tree, ul.tree ul {
   list-style-type: none;
 }
-ul.tree li.closed > ul, ul.tree ul li.closed > ul {
+ul.tree li:not(.open) > ul, ul.tree ul li:not(.open) > ul {
   display: none;
 }
-ul.tree li.closed > a[href="#"]:before, ul.tree ul li.closed > a[href="#"]:before {
+ul.tree li.open > a[href="#"]:before, ul.tree ul li.open > a[href="#"]:before {
   content: "\f196";
   font-family: FontAwesome;
   color: #d8ae47;
   vertical-align: bottom;
   padding-right: 5px;
 }
-ul.tree li:not(.closed) > a[href="#"]:before, ul.tree ul li:not(.closed) > a[href="#"]:before {
+ul.tree li:not(.open) > a[href="#"]:before, ul.tree ul li:not(.open) > a[href="#"]:before {
   content: "\f147";
   font-family: FontAwesome;
   color: #d8ae47;

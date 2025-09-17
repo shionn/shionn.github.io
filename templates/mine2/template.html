@@ -69,23 +69,24 @@
 		<div th:case="'404'">
 			<article th:replace="~{article :: 404}"></article>
 		</div>
-
-		<div>
-			<div class="tagclood">
+	</main>
+	<footer>
+		<nav>
+			<aside>
 				<h1><span class="fa fa-folder-open"></span> Catégories</h1>
 				<a th:each="cat:${site.categories}" th:href="${cat.url}">
 					<th:block th:text="${cat.name}"/>&nbsp;(<th:block th:text="${cat.size}"/>)
 				</a>
-			</div>
-			<div class="tagclood">
+			</aside>
+			<aside>
 				<h1><span class="fa fa-flag"></span> Tags</h1>
 				<a th:each="tag:${site.tags}" th:href="${tag.url}">
 					<th:block th:text="${tag.name}"/>&nbsp;(<th:block th:text="${tag.size}"/>)
 				</a>
-			</div>
-			<div class="calendar">
+			</aside>
+			<aside>
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
-				<ul class="tree">
+					<ul class="tree">
 					<li th:each="year:${site.treePost}">
 						<a href="#"><th:block th:text="${year.name}"/> (<th:block th:text="${year.size}"/>)</a>
 						<ul>
@@ -100,12 +101,10 @@
 						</ul>
 					</li>
 				</ul>
-			</div>
-		</div>
-	</main>
-	<footer class="footer">
-		<div class="container">
-			<span>Blog propulsé par un moteur maison en java.</span>
+			</aside>
+		</nav>
+		<div>
+			<span>Blog généré statiquement par un moteur maison en java.</span>
 			<span>
 				<a href="mailto:shionn@gmail.com" title="Contact"><i class="fa fa-envelope" aria-hidden="true"></i></a> |
 				<a href="https://github.com/shionn" target="_blank" title="Github"><i class="fa fa-github"></i></a> |

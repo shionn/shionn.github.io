@@ -11,11 +11,11 @@ ul.tree ul {
 ul.tree, ul.tree ul {
 	list-style-type: none;
 
-	li.closed > ul {
+	li:not(.open) > ul {
 		display: none;
 	}
 
-	li.closed > a[href="#"]:before {
+	li.open > a[href="#"]:before {
 		content: "\f196";
 		font-family: FontAwesome;
 		color: $theme-color;
@@ -23,7 +23,7 @@ ul.tree, ul.tree ul {
 		padding-right: 5px;
 	}
 
-	li:not(.closed) > a[href="#"]:before {
+	li:not(.open) > a[href="#"]:before {
 		content: "\f147";
 		font-family: FontAwesome;
 		color: $theme-color;

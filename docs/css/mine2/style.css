@@ -3,8 +3,10 @@
   --dgrey: #222;
   --lgrey: #DDD;
   --orange: #d8ae47;
+  --dark-orange: #3f310d;
   --color-bg: var(--white);
   --color-accent: var(--orange);
+  --color-dark-accent: var(--dark-orange);
   --color-text: #000;
   --color-link: var(--orange);
   --color-link-hover: var(--lgrey);
@@ -23,54 +25,6 @@
   }
 }
 
-div.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--padding);
-  justify-content: center;
-  margin-top: var(--padding);
-}
-div.gallery a {
-  display: inline-flex;
-}
-div.gallery img {
-  display: inline-block;
-  border: 1px solid var(--color-accent);
-  border-radius: calc(var(--padding)/2);
-  object-fit: cover;
-}
-
-.gallery-view {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.4);
-  text-align: center;
-}
-.gallery-view.fade .content {
-  animation-name: fadeAnmimation;
-  animation-duration: 0.4s;
-}
-.gallery-view img {
-  max-height: 90%;
-  max-width: 90%;
-}
-
-@keyframes fadeAnmimation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 @font-face {
   font-family: 'Press Start 2P';
   font-weight: 400;
@@ -88,6 +42,11 @@ html a {
 }
 html a:hover {
   color: var(--color-link-hover);
+}
+
+body > main {
+  max-width: var(--width-content);
+  margin: 0 auto;
 }
 
 body > header {
@@ -204,11 +163,6 @@ body > header nav > ul > li > ul > li > ul > li > a {
   }
 }
 
-body > main {
-  max-width: var(--width-content);
-  margin: 0 auto;
-}
-
 article header {
   text-align: center;
   margin-top: calc(var(--padding) * 2);
@@ -252,6 +206,98 @@ article.short footer:after {
   width: 80%;
   border-bottom: 3px double var(--color-accent);
   margin: var(--padding) auto calc(var(--padding)*6);
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--padding);
+  justify-content: center;
+  margin-top: var(--padding);
+}
+div.gallery a {
+  display: inline-flex;
+}
+div.gallery img {
+  display: inline-block;
+  border: 1px solid var(--color-accent);
+  border-radius: calc(var(--padding)/2);
+  object-fit: cover;
+}
+
+.gallery-view {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+.gallery-view.fade .content {
+  animation-name: fadeAnmimation;
+  animation-duration: 0.4s;
+}
+.gallery-view img {
+  max-height: 90%;
+  max-width: 90%;
+}
+
+@keyframes fadeAnmimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body > footer {
+  background-color: var(--color-dark-accent);
+  padding: calc(var(--padding)*2) 0 calc(var(--padding)*4) 0;
+}
+body > footer > nav {
+  max-width: var(--width-content);
+  margin: 0 auto;
+  display: flex;
+  gap: calc(var(--padding)*3);
+}
+body > footer > nav aside {
+  width: 33%;
+  text-align: justify;
+}
+body > footer > nav aside ul {
+  list-style-type: none;
+  padding: 0 0 0 calc(var(--padding)*2);
+}
+body > footer > nav aside ul li.closed > ul {
+  display: none;
+}
+body > footer > nav aside ul li.closed > a[href="#"]:before {
+  content: "\f196";
+  font-family: FontAwesome;
+  color: var(--white);
+  padding-right: 5px;
+}
+body > footer > nav aside ul li:not(.closed) > a[href="#"]:before {
+  content: "\f147";
+  font-family: FontAwesome;
+  color: var(--white);
+  padding-right: 5px;
+}
+body > footer > div {
+  max-width: var(--width-content);
+  margin: calc(var(--padding)*2) auto 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+body > footer > div > span:last-child a {
+  color: var(--color-dark-accent);
 }
 
 /*# sourceMappingURL=style.css.map */

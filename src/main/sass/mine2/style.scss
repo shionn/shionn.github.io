@@ -1,6 +1,5 @@
 @import "_variables.scss";
 
-@import "_gallery.scss";
 
 @font-face {
 	font-family: 'Press Start 2P';
@@ -30,8 +29,6 @@ html {
 
 }
 
-@import "_header.scss";
-
 body {
 	
 	&>main {
@@ -40,4 +37,7 @@ body {
 	}
 }
 
+@import "_header.scss";
 @import "_article.scss";
+@import "_gallery.scss";
+@import "_footer.scss";
