@@ -1,6 +1,6 @@
 body>header {
 	background-color: var(--color-accent);
-	border-bottom: 3px solid #fff; // TODO light mode
+	border-bottom: 3px solid var(--color-menu-border);
 
 	a {
 		color: var(--color-text-accent);
@@ -96,7 +96,6 @@ body>header {
 
 		@media all and (min-width: 720px) {
 
-			// TODO variable
 			&>a {
 				display: none;
 			}
@@ -119,7 +118,7 @@ body>header {
 						right: 0;
 						width: 100%;
 						flex-wrap: wrap;
-						border: 3px solid #fff;
+						border: 3px solid var(--color-menu-border);
 //						border-top: 0;
 						margin-top: calc(var(--padding) * 2);
 						padding: 0 var(--padding) var(--padding) var(--padding);
