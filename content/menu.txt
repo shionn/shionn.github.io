@@ -9,15 +9,14 @@ category/wargame	War Game
 	2024/mes-armees	Warhammer Battle
 		2024/armee-elfes-noirs	Elfes Noirs
 		2025/armee-gobs	Gobelin de la Nuit
-	2024/mes-armees	Underworld
+	2024/mes-armees	Underworld / Warcry
 		2024/underworld-dok	Fille de Khaine
-		2024/underworld-soulblight	Seigneurs Ruinemânes
 		2025/underworld-gloom-gitz-zarbags	Gloomspite Gitz
-	2024/mes-armees	Warcry	2025-09-23
 		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-09-23
+		2024/underworld-soulblight	Seigneurs Ruinemânes
 	tag/dungeon-and-laser	Dungeon and Laser
-		2024/dungeon-and-laser-encounters	Encounters
 		2025/dungeon-and-laser-deuslair	Deuslair	2025-12-28
+		2024/dungeon-and-laser-encounters	Encounters
 	tag/d-cor	Décor
 		2025/decor-skaventide	Décor Skaventide
 		2026/decor-mortal-realms	Décor Mortal Realms	2026-01-21
@@ -25,7 +24,7 @@ category/wargame	War Game
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Équivalence de peinture
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
-	category/manga	Manga
+	category/manga	Manga / JV
 		2026/mononokee-nomnom	Princesse Mononokee	2026-02-14
 		2025/repaint-bulma	Repaint d'une Bulma
 		2025/shenron-goku-nomnom	Shenron et Sangoku
@@ -44,33 +43,33 @@ category/jdr	JdR
 		2025/whisperia-1x08-noratu	8: Noratu
 		2025/whisperia-1x09-balade-en-foret	9: Balade en Forêt
 		2025/whisperia-1x10-caleche-loup	10: Calèche & Loups
-		2025/whisperia-1x11-retour-en-ville	11 : Retour en Ville	2025-07-21
+		2025/whisperia-1x11-retour-en-ville	11 : Retour en Ville
 	tag/whisperia	Donnée sur Whisperia
 		2025/whisperia-ressources	Ressources
 category/linux	Linux
 	tag/server	Server
 		2024/docker-sur-debian	Installation Docker sur Debian
 		2024/nginx-proxy-manager	Installation Nginx proxy manager
-		2025/jellyfin-proxmox-hardware-encode	Jellyfin avec accélération matériel sur Proxmox
+		2025/jellyfin-proxmox-hardware-encode	Jellyfin, Transcodage matériel, Proxmox
 		2026/nvidia-proxmox-lxc-passthrought-ollama	Ollama Nvidia Passthrought LXC	2026-01-29
 	tag/desktop	Desktop
 		2023/survivre-sur-debian	Kit de Survie sur Debian
-		2025/debian-execute-task-before-and-after-suspend	Exécuter un script avant et après la mise en veille
+		2025/debian-execute-task-before-and-after-suspend	Script avant & après la veille
 		2025/openrgb-sur-debian	OpenRGB sur Débian
 	tag/matos	Matos
 		2025/homelab-processeur	Processeur pour Homelab
 category/code	Code
 	tag/arduino	Arduino
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode
-		2025/connexion-wifi-esp32	Connexion WiFi su ESP32	2025-10-25
+		2025/connexion-wifi-esp32	Connexion WiFi sur ESP32	2025-10-25
 		2025/ntp-esp32	Synchronisation horloge ntp sur ESP32	2025-11-18
 	tag/java	Java	2025-07-13
-		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX WebView	2025-07-13
-		2025/bot-discord-en-java	Bot discord en Java	2025-08-14
-		2025/pattern-singleton-java	Pattern Singleton en Java	2025-10-01
+		2025/bot-discord-en-java	Bot discord
+		2025/pattern-singleton-java	Pattern Singleton	2025-10-01
+		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX
 	tag/python	Python	2025-12-12
-		2025/site-web-python-flask	Site web avec Flask	2025-12-12
 		2026/bot-twitch-python	Bot Twitch	2026-01-05
+		2025/site-web-python-flask	Site web avec Flask	2025-12-12
 mailto:shionn@gmail.com	Contact & Lien
 	mailto:shionn@gmail.com	Me contacter
 		mailto:shionn@gmail.com	Shionn@gmail.com
@@ -79,5 +78,5 @@ mailto:shionn@gmail.com	Contact & Lien
 		https://twitter.com/shionn	Twitter @shionn
 		https://web.archive.org/web/20210420064444/http://shionn.org/	Ancienne version du site
 	tag/annuaire	Annuaire de Lien
-		2025/page-des-liens-linux	Liens Linux
 		2025/page-des-liens-dev	Liens Dev
+		2025/page-des-liens-linux	Liens Linux

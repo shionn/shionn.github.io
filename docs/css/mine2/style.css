@@ -431,28 +431,32 @@ pre {
   white-space: pre-wrap;
   tab-size: 4;
 }
-pre code.java,
-pre code.shell {
-  font-size: 1em;
-  line-height: 1em;
-}
-pre code.java .hljs-keyword,
-pre code.java .hljs-built_in,
 pre code.shell .hljs-keyword,
 pre code.shell .hljs-built_in {
   color: #7f005f;
   font-weight: bold;
 }
-pre code.java .hljs-comment,
 pre code.shell .hljs-comment {
   color: #3f7f5f;
 }
-pre code.java .hljs-string,
 pre code.shell .hljs-string {
   color: #2a00ff;
 }
-pre code.java .hljs-meta,
 pre code.shell .hljs-meta {
+  color: #646464;
+}
+pre code.java .hljs-keyword,
+pre code.java .hljs-built_in {
+  color: #7f005f;
+  font-weight: bold;
+}
+pre code.java .hljs-comment {
+  color: #3f7f5f;
+}
+pre code.java .hljs-string {
+  color: #2a00ff;
+}
+pre code.java .hljs-meta {
   color: #646464;
 }
 pre code.bash .hljs-built_in {

@@ -2,6 +2,7 @@
 	"type": "post",
 	"date": "2025/08/14",
 	"title": "Un bot discord en Java",
+	"logo": "pictures/titles/code/java-discord.jpg",
 	"tags": ["Java", "Discord" ],
 	"category": "Code",
 	"published": true,
