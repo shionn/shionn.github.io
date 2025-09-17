@@ -50,6 +50,10 @@ body > main {
   max-width: var(--width-content);
   margin: 0 auto;
 }
+body > main > div {
+  text-align: center;
+  margin: 0 0 calc(var(--padding)*2) 0;
+}
 
 body > header {
   background-color: var(--color-accent);

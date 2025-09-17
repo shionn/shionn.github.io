@@ -23,18 +23,18 @@
 		</nav>
 	</header>
 	<main th:switch="${mode}">
-		<div th:case="'index'">
+		<th:block th:case="'index'">
 			<th:block th:each="article : ${site.getHomePageArticles(page)}">
 				<article th:replace="~{article :: articleshort (${article})}"></article>
 			</th:block>
 			<div>
 				<a th:if="${page == 1}" th:href="index.html">&lt;</a>
 				<a th:with="prev=${page -1}" th:if="${page > 1}" th:href="'index-'+${prev}+'.html'">&lt;</a>
-				<th:block th:text="${page}"/> / <th:block th:text="${site.homePageCount}"/> 
+				<th:block th:text="'Page : '+${page+1}+'/'+${site.homePageCount+1}"/>  
 				<a th:with="next=${page + 1}" th:if="${page < site.homePageCount}" th:href="'index-'+${next}+'.html'">&gt;</a>
 			</div>
-		</div>
-		<div th:case="'draft'">
+		</th:block>
+		<th:block th:case="'draft'">
 			<p>Un article sur deux de peinture || Cycle visé : gob > autre peinture > Non peinture. || On intercalle whisperia quand il faut tans pis.</p>
 			<h2>Programmation auto :</h2>
 			<ul>
@@ -57,18 +57,18 @@
 					<th:block th:text="${article.formatedDate}"/>
 				</li>
 			</ul>
-		</div>
-		<div th:case="'group'">
+		</th:block>
+		<th:block th:case="'group'">
 			<th:block th:each="article : ${group.articles}">
 				<article th:replace="~{article :: articleshort (${article})}"></article>
 			</th:block>
-		</div>
-		<div th:case="'article'">
+		</th:block>
+		<th:block th:case="'article'">
 			<article th:replace="~{article :: articlefull (${article})}"></article>
-		</div>
-		<div th:case="'404'">
+		</th:block>
+		<th:block th:case="'404'">
 			<article th:replace="~{article :: 404}"></article>
-		</div>
+		</th:block>
 	</main>
 	<footer>
 		<nav>
