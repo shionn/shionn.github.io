@@ -729,6 +729,8 @@ q(function() {
 		.progress("16/09/2025", angest, 1, "Troll BB", _MEDIUM)
 		.progress("16/09/2025", angest, 1, "Minotaure BB", _MEDIUM)
 		.progress("16/09/2025", angest, 4, "Rat des Clans", _SMALL)
+		.progress("16/09/2025", transfopaper, 1, "Gobelin", _SMALL)
+		.progress("17/09/2025", tony, 1, "Elmentaire de feu d'eau", _SMALL)
 		.render();
 		
 							
