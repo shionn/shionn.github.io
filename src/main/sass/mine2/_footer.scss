@@ -1,16 +1,21 @@
 body>footer {
 
 	background-color: var(--color-dark-accent);
-	padding: calc(var(--padding)*2) 0 calc(var(--padding)*4) 0;
+	padding: calc(var(--padding)*2) var(--padding) calc(var(--padding)*4) var(--padding);
 
 	&>nav {
 		max-width: var(--width-content);
 		margin: 0 auto;
-		display: flex;
-		gap: calc(var(--padding)*3);
+		@media all and (min-width: 720px) {
+			display: flex;
+			gap: calc(var(--padding)*3);
+		}
+
 
 		aside {
-			width: 33%;
+			@media all and (min-width: 720px) {
+				width: 33%;
+			}
 			text-align: justify;
 
 			ul {
