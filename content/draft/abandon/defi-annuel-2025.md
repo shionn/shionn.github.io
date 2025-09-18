@@ -261,7 +261,7 @@ ici inserer text recapitulitif de l'assaut, et une petite gallerie de photo.
 <div class="septembre2"></div>
 [/after]
 
-[after date="2025/11/02"]
+[after date="2025/11/10"]
 ### Octobre
 
 <div class="octobre1"></div>

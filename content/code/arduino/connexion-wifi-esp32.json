@@ -1,6 +1,6 @@
 {
 	"type": "post",
-	"date": "2025/10/25",
+	"date": "2025/11/02",
 	"title": "Connexion wifi ESP32",
 	"tags": ["Arduino", "VSCode", "PlatformIO", "CPP", "ESP32", "Espressif", "ESP8266", "WiFi"],
 	"category": "Code",

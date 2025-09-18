@@ -23,7 +23,7 @@ Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes 
 - [Gloomspite Gitz](2025/underworld-gloom-gitz-zarbags.html) _1 bandes_
 
 
-[after date="2025/09/23"]
+[after date="2025/10/01"]
 ## Warcry
 
 - [Filles de Khaine](2025/warcry-dok.html) _Rodeur de l'ombre Khainites_

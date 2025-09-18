@@ -141,7 +141,7 @@ pictures/aos/gloomspite/fanatiques/14.jpg
 pictures/aos/gloomspite/fanatiques/15.jpg
 [/gallery]
 
-[after date="2025/12/20"]
+[after date="2025/12/28"]
 
 ### Sournifleur.
 
@@ -249,7 +249,7 @@ pictures/aos/gloomspite/shaman-tisseur/02.jpg
 
 [/after]
 
-[after date="2026/01/13"]
+[after date="2026/01/21"]
 
 ## Autre
 

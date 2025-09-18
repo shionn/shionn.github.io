@@ -1,6 +1,6 @@
 {
 	"type": "post",
-	"date": "2025/12/12",
+	"date": "2025/12/20",
 	"title": "Site web en Python avec Flask et SQLite",
 	"logo" : "pictures/titles/code/python-flask.jpg",
 	"tags": ["Python", "Web", "sqlite" ],

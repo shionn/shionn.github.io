@@ -12,20 +12,20 @@ category/wargame	War Game
 	2024/mes-armees	Underworld / Warcry
 		2024/underworld-dok	Fille de Khaine
 		2025/underworld-gloom-gitz-zarbags	Gloomspite Gitz
-		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-09-23
+		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-10-01
 		2024/underworld-soulblight	Seigneurs Ruinemânes
 	tag/dungeon-and-laser	Dungeon and Laser
-		2025/dungeon-and-laser-deuslair	Deuslair	2025-12-28
+		2026/dungeon-and-laser-deuslair	Deuslair	2026-01-05
 		2024/dungeon-and-laser-encounters	Encounters
 	tag/d-cor	Décor
 		2025/decor-skaventide	Décor Skaventide
-		2026/decor-mortal-realms	Décor Mortal Realms	2026-01-21
+		2026/decor-mortal-realms	Décor Mortal Realms	2026-01-29
 	tag/peinture	Guide
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Équivalence de peinture
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
 	category/manga	Manga / JV
-		2026/mononokee-nomnom	Princesse Mononokee	2026-02-14
+		2026/mononokee-nomnom	Princesse Mononokee	2026-02-22
 		2025/repaint-bulma	Repaint d'une Bulma
 		2025/shenron-goku-nomnom	Shenron et Sangoku
 	tag/d-fi	Défi Peinture
@@ -51,7 +51,7 @@ category/linux	Linux
 		2024/docker-sur-debian	Installation Docker sur Debian
 		2024/nginx-proxy-manager	Installation Nginx proxy manager
 		2025/jellyfin-proxmox-hardware-encode	Jellyfin, Transcodage matériel, Proxmox
-		2026/nvidia-proxmox-lxc-passthrought-ollama	Ollama Nvidia Passthrought LXC	2026-01-29
+		2026/nvidia-proxmox-lxc-passthrought-ollama	Ollama Nvidia Passthrought LXC	2026-02-06
 	tag/desktop	Desktop
 		2023/survivre-sur-debian	Kit de Survie sur Debian
 		2025/debian-execute-task-before-and-after-suspend	Script avant & après la veille
@@ -61,15 +61,15 @@ category/linux	Linux
 category/code	Code
 	tag/arduino	Arduino
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode
-		2025/connexion-wifi-esp32	Connexion WiFi sur ESP32	2025-10-25
-		2025/ntp-esp32	Synchronisation horloge ntp sur ESP32	2025-11-18
+		2025/connexion-wifi-esp32	Connexion WiFi sur ESP32	2025-11-02
+		2025/ntp-esp32	Synchronisation horloge ntp sur ESP32	2025-11-26
 	tag/java	Java	2025-07-13
 		2025/bot-discord-en-java	Bot discord
-		2025/pattern-singleton-java	Pattern Singleton	2025-10-01
+		2025/pattern-singleton-java	Pattern Singleton	2025-10-09
 		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX
-	tag/python	Python	2025-12-12
-		2026/bot-twitch-python	Bot Twitch	2026-01-05
-		2025/site-web-python-flask	Site web avec Flask	2025-12-12
+	tag/python	Python	2025-12-20
+		2026/bot-twitch-python	Bot Twitch	2026-01-13
+		2025/site-web-python-flask	Site web avec Flask	2025-12-20
 mailto:shionn@gmail.com	Contact & Lien
 	mailto:shionn@gmail.com	Me contacter
 		mailto:shionn@gmail.com	Shionn@gmail.com
