@@ -1,7 +1,7 @@
 
 tester : 
 
-~~~bash
+~~~shell
 apt policy intel-opencl-icd 
 intel-opencl-icd:
   Installed: (none)

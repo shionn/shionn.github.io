@@ -42,7 +42,7 @@ Suivez la procédure et vous avez votre **Access Token** et **Refresh Token**.
 
 J'utilise la lib python [twitchAPI](https://pypi.org/project/twitchAPI/). 
 
-~~~bash
+~~~shell
 pip install twitchAPI
 ~~~
 

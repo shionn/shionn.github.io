@@ -12,7 +12,7 @@ Créer un dossier qui contiendra votre dossier, pour cet exemple `FlaskBookTuto`
 
 Sous Debian, j'installe les dépendances suivantes. 
 
-~~~bash
+~~~shell
 apt install python3 python3-pip python3-venv
 ~~~
 
@@ -30,14 +30,14 @@ Pour cela dans le dossier du projet, entrer cette commande,
 cela craies un dossier dans lequel s'installe les dépendances pythons avec les scripts d'activation utile.
 J'aime faire ce dossier caché que j'appelle **.venv**, mais rien ne vous y oblige. 
 
-~~~bash
+~~~shell
 python3 -m venv .venv
 ~~~
 
 Puis il faut activer l'environnement, pour cela entrer la commande suivante. 
 Cela va changer votre invite de commande en passant de cela `user@host:path$` à cela `(.venv) user@host:path$`.
 
-~~~bash
+~~~shell
 source .venv/bin/activate
 ~~~
 
@@ -56,7 +56,7 @@ waitress>=3.0
 
 Puis dans le dossier du projet, avec le venv d'activé, faites cela pour installer les dépendances en locales :
 
-~~~bash
+~~~shell
 pip install -r requirements.txt
 ~~~
 
@@ -164,7 +164,7 @@ Hello World
 
 Puis pour lancer le site, dans une console, dans le dossier de votre projet avec l'environnement virtuel d'activé :
 
-~~~bash
+~~~shell
 python3 run.py
 ~~~
 
@@ -310,7 +310,7 @@ pictures/code/python/flask/03.jpg
 
 Vous avez du voir un joli message au lancement du programme : 
 
-~~~bash
+~~~shell
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
 ~~~
 

@@ -35,7 +35,7 @@ sudo apt install libwebkit2gtk-4.0-37
 
 ### Eclipse wayland
 ~~~shell
-#/bin/bash
+#/bin/shell
 export WEBKIT_DISABLE_COMPOSITING_MODE=1
 /path/to/eclipse/eclipse
 ~~~
@@ -113,7 +113,7 @@ sudo apt install steam
 
 Créer le dossier compatibilitytools.d dans steam si inexistant :
 
-~~~bash
+~~~shell
 mkdir -p ~/.steam/debian-installation/compatibilitytools.d
 ~~~
 
@@ -121,7 +121,7 @@ Télécharger la dernière version [ici](https://github.com/GloriousEggroll/prot
 
 Extraire l'archive
 
-~~~bash
+~~~shell
 tar -xvf "la derniere archive".tar.gz -C ~/.steam/debian-installation/compatibilitytools.d/
 ~~~
 
@@ -168,14 +168,14 @@ Doubler la valeur de maniere temporaire : `sudo sysctl -w vm.max_map_count=20971
 
 De maniere définitive : 
 
-~~~bash
+~~~shell
 echo "vm.max_map_count=2097152" | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
 ~~~
 
 ### Autre truc 
 
-~~~bash
+~~~shell
 # Options de démarrage du noyau (à ajouter dans /etc/default/grub)
 amdgpu.vm_fragment_size=9 amdgpu.vm_max_fragment_size=9 amdgpu.gttsize=1024 amdgpu.noretry=0
 # Optiopn de lancement
@@ -213,7 +213,7 @@ GRUB_CMDLINE_LINUX="pcie_port_pm=off"
 sudo smartctl -t long /dev/nvme0
 # voir la progress
 sudo smartctl -a /dev/nvme0 | grep -i progress
-# voir les resultat
+# voir les résultats
 sudo smartctl -a /dev/nvme0
 ~~~
 
@@ -227,7 +227,7 @@ pct set <VMID> --hostname <newname>
 ## Vidéo
 ### OBS pas de Vaapi
 ~~~shell
-apt instal mesa-va-drivers
+apt install mesa-va-drivers
 ~~~
 
 
@@ -252,12 +252,12 @@ echo "syntax on" >> ~/.vimrc
 Sur chacun de mes serveurs je commence par faire cela :
 
 ~~~shell
-apt install bash-completion vim -y
+apt install shell-completion vim -y
 apt remove nano -y
 echo "set mouse-=a" >> ~/.vimrc
 echo "syntax on" >> ~/.vimrc
-echo "alias ll=\"ls -l\"" >> ~/.bashrc
-echo "alias la=\"ls -al\"" >> ~/.bashrc
+echo "alias ll=\"ls -l\"" >> ~/.shellrc
+echo "alias la=\"ls -al\"" >> ~/.shellrc
 ~~~
 
 ### Tomcat
@@ -284,7 +284,7 @@ on peu utilisé netstat : `apt instal` netstat puis `netstat -ltnp`
 
 Par exemple : **/etc/systemd/system/MonService.service**
 
-~~~bash
+~~~shell
 [Unit]
 Description=NOM DU SERVICE
 After=syslog.target network.target
@@ -305,7 +305,7 @@ WantedBy=multi-user.target
 
 Puis :
 
-~~~bash
+~~~shell
 sudo systemctl daemon-reload
 sudo systemctl enable MonService.service
 ~~~

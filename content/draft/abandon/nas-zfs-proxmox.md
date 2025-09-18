@@ -56,7 +56,7 @@ pictures/linux/proxmox-zfs-fileserver/10-create-container.png
 Je souhaite que le dataset **/MonPool/data** de mon hote soit monté dans mon container turnkey dans le dossier **/mnt/data**.
 Dans mon cas, mon containeur a l'identifiant 121. Donc j'édite le fichier `/etc/pve/lxc/121.conf` et j'ajoute cette ligne :
 
-~~~bash
+~~~shell
 mp0: /MonPool/data,mp=/mnt/data
 ~~~
 
@@ -77,7 +77,7 @@ Pour les groupes c'est pareil à l'exeption du groupe 100 (users) qui doit être
 
 Pour ce faire j'édite de nouveau  `/etc/pve/lxc/121.conf` et j'ajoute : 
 
-~~~bash
+~~~shell
 # mapper les identifiants utilisateurs 0 à 999 vers 100000 à 100999
 lxc.idmap: u 0 100000 1000
 # mapper les identifiants utilisateurs 1000 à 2999 vers 1000 à 2999
@@ -98,7 +98,7 @@ Il faut comprendre cette ligne **u/g 0 100000 1000** comme :
 
 Mais ca ne suffit pas il faut permttre un tel mapping cela se fait dans `/etc/subuid` et `/etc/subgid` en ajoutant : 
 
-~~~bash
+~~~shell
 root:1000:2000
 ~~~
 Ce qui en gros signifit : 

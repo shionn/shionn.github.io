@@ -9,26 +9,26 @@ Cette solution n'utilise pas les drivers pro qui permettent de découper une car
 Il faut commencer par installer les driver nvidia sur votre proxmox. 
 Commencer par le mettre à jour :
 
-~~~bash
+~~~shell
 apt update && apt upgrade
 ~~~
 
 Ensuite il vous faudrat ces outils :
 
-~~~bash
+~~~shell
 apt install pve-nvidia-vgpu-helper nvtop pve-headers build-essential
 ~~~
 
 Ensuite proxmox propose un outil pour préconfigurer votre systeme à l'installation des driver nvidia.
 Cela passe les drivers nouveau en blacklist et install quelques packet nécéssaire. 
 
-~~~bash
+~~~shell
 pve-nvidia-vgpu-helper setup
 ~~~
 
 Ensuite il ne vous reste plus qu'à installer les paquets du driver nvidia. 
 
-~~~bash 
+~~~shell 
 wget https://developer.download.nvidia.com/compute/cuda/repos/debian12/x86_64/cuda-keyring_1.1-1_all.deb
 apt install ./cuda-keyring_1.1-1_all.deb
 apt update
@@ -39,13 +39,13 @@ apt install nvidia-driver-cuda
 Vérifiez que vous n'avez aucune erreur. Si vous avez la moindre erreur faite cela pour annuler l'installation des drivers.
 Et malheureusement je ne pourrai pas vous aider à la corriger :[
 
-~~~bash
+~~~shell
 apt remove nvidia-driver-cuda && apt autoremove
 ~~~
 
 Si vous n'avez aucune erreur, vous pouvez reboot, après le reboot faite un nvidia-smi et normalement vous avez quelques chose comme cela : 
 
-~~~bash
+~~~shell
 $ nvidia-smi 
 Sat Aug 23 10:52:17 2025       
 +-----------------------------------------------------------------------------------------+
@@ -74,7 +74,7 @@ Sat Aug 23 10:52:17 2025
 Votre container n'as pas besoin d'option particulière, il n'as pas besoin d'être privilégié.
 configuration, sur l'hôte faites un ls `/dev/nvi*` et vous devriez avoir quelque chose comme cela : 
 
-~~~bash
+~~~shell
 root@MaxiMox:~# ls -l /dev/nvi*
 crw-rw-rw- 1 root root 195,   0 Aug 23 10:52 /dev/nvidia0
 crw-rw-rw- 1 root root 195, 255 Aug 23 10:52 /dev/nvidiactl
@@ -103,7 +103,7 @@ Et vous devriez avoiir quelque chose comme ca :
 
 Ensuite il ne vous reste plus qu'a installer les drivers nvidia et la suite l'ogiciel cuda sur votre container, la procédure est semblable à celle de l'hote. 
 
-~~~bash 
+~~~shell 
 wget https://developer.download.nvidia.com/compute/cuda/repos/debian12/x86_64/cuda-keyring_1.1-1_all.deb
 apt install ./cuda-keyring_1.1-1_all.deb
 apt update
@@ -119,7 +119,7 @@ Vous pouver faire un nvdia-smi pour confirmer que la carte est disponible et fon
 
 Pour tester cette nouvelle carte, je vous propose d'installer ollama qui est un group d'IA opensource.
 
-~~~bash
+~~~shell
 # L'installateur à besoin de lspci
 apt install pciutils
 wget https://ollama.com/install.sh
@@ -128,7 +128,7 @@ wget https://ollama.com/install.sh
 
 Et normalement vous devriez avoir une sortie console ressemblant à :
 
-~~~bash
+~~~shell
 ./install.sh 
 >>> Cleaning up old version at /usr/local/lib/ollama
 >>> Installing ollama to /usr/local
@@ -144,7 +144,7 @@ Et normalement vous devriez avoir une sortie console ressemblant à :
 
 Puis faire un essaie en console. 
 
-~~~bash
+~~~shell
 ollama run qwen2.5-coder:7b
 ~~~
 
@@ -153,13 +153,13 @@ ollama run qwen2.5-coder:7b
 Ajoutons une interface graphique à notre IA. 
 Pour installer openweb ui, sur votre machine vous avez besoin : 
 
-~~~bash
+~~~shell
 apt install python3-pip python3-venv
 ~~~
 
 Dans mon cas je l'ai installer dans /root. Puis rentrer les commandes suivante : 
 
-~~~bash
+~~~shell
 python3 -m venv open-webui
 source open-webui/bin/activate
 pip install open-webui
@@ -170,7 +170,7 @@ Render vous sur le port 5000 de votre container :)
 
 ### Changer le port d'écoute de ollama : 
 
-~~~bash
+~~~shell
 systemctl edit ollama.service
 # ajouter dans la serction    [Service]
 Environment="OLLAMA_HOST=0.0.0.0:11434"

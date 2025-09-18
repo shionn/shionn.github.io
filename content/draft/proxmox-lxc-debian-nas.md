@@ -16,7 +16,7 @@ Apres avoir installer un container debian avec ces options :
 
 ### Montage des pool ZFS
 
-~~~bash
+~~~shell
 mp0: /P34A60/data,mp=/mnt/data
 mp1: /ST8000/data,mp=/mnt/data2
 ~~~
@@ -25,7 +25,7 @@ mp1: /ST8000/data,mp=/mnt/data2
 
 Installation des composants :
 
-~~~bash
+~~~shell
 apt install samba nfs-kernel-server curl psmisc
 ~~~
 
@@ -33,7 +33,7 @@ Sur votre serveur proxmox il faut également installer nfs-kernel-server
 
 Installation de webmin : 
 
-~~~bash
+~~~shell
 curl -o webmin-setup-repo.sh https://raw.githubusercontent.com/webmin/webmin/master/webmin-setup-repo.sh
 sh webmin-setup-repo.sh
 apt update

@@ -1,5 +1,5 @@
 
-~~~bash
+~~~shell
 vulkan-utility-libraries-dev ???
 sudo apt install vulkan-tools libvulkan-dev vulkan-validationlayers-dev 
 

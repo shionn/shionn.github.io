@@ -4,7 +4,7 @@
 
 Créer le dossier compatibilitytools.d dans steam si inexistant :
 
-~~~bash
+~~~shell
 mkdir -p ~/.steam/debian-installation/compatibilitytools.d
 ~~~
 
@@ -12,7 +12,7 @@ Télécharger la dernière version [ici](https://github.com/GloriousEggroll/prot
 
 Extraire l'archive
 
-~~~bash
+~~~shell
 tar -xvf "la derniere archive".tar.gz -C ~/.steam/debian-installation/compatibilitytools.d/
 ~~~
 

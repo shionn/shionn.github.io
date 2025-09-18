@@ -459,10 +459,6 @@ pre code.java .hljs-string {
 pre code.java .hljs-meta {
   color: #646464;
 }
-pre code.bash .hljs-built_in {
-  font-weight: bold;
-  color: #00007f;
-}
 pre code.cpp .hljs-meta {
   color: #0000ff;
 }
