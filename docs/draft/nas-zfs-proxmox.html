@@ -338,7 +338,7 @@ J'ai acheté sur un coup de tête et mes disque sont des &quot;SMR&quot; et c'es
 <h3>Partage du dataset</h3>
 <p>Je souhaite que le dataset <strong>/MonPool/data</strong> de mon hote soit monté dans mon container turnkey dans le dossier <strong>/mnt/data</strong>.
 Dans mon cas, mon containeur a l'identifiant 121. Donc j'édite le fichier <code>/etc/pve/lxc/121.conf</code> et j'ajoute cette ligne :</p>
-<pre class="bash"><code class="bash">mp0: /MonPool/data,mp=/mnt/data
+<pre class="shell"><code class="shell">mp0: /MonPool/data,mp=/mnt/data
 </code></pre>
 <h3>Mapping des Users (Optionnel)</h3>
 <p>Par defaut quand un disque est monté dans un container les id utilisateurs et groups ne sont pas les mêmes. Il faut ajouter 100000 à l'id de l'utisateur du guest pour avoir l'id de l'host. En gros pour simplifier <code>id guest=id host + 100 000</code>.</p>
@@ -352,7 +352,7 @@ Dans mon cas, mon containeur a l'identifiant 121. Donc j'édite le fichier <code
 </ul>
 <p>Pour les groupes c'est pareil à l'exeption du groupe 100 (users) qui doit être mapper vers le groupe 100.</p>
 <p>Pour ce faire j'édite de nouveau  <code>/etc/pve/lxc/121.conf</code> et j'ajoute :</p>
-<pre class="bash"><code class="bash"># mapper les identifiants utilisateurs 0 à 999 vers 100000 à 100999
+<pre class="shell"><code class="shell"># mapper les identifiants utilisateurs 0 à 999 vers 100000 à 100999
 lxc.idmap: u 0 100000 1000
 # mapper les identifiants utilisateurs 1000 à 2999 vers 1000 à 2999
 lxc.idmap: u 1000 1000 2000
@@ -371,7 +371,7 @@ lxc.idmap: g 3000 103000 62535
 <li>1000 : mapper 1000 identifiant donc de 0 à 999</li>
 </ul>
 <p>Mais ca ne suffit pas il faut permttre un tel mapping cela se fait dans <code>/etc/subuid</code> et <code>/etc/subgid</code> en ajoutant :</p>
-<pre class="bash"><code class="bash">root:1000:2000
+<pre class="shell"><code class="shell">root:1000:2000
 </code></pre>
 <p>Ce qui en gros signifit :</p>
 <blockquote>
@@ -530,6 +530,8 @@ lxc.idmap: g 3000 103000 62535
 					Metal&nbsp;(13)
 				</a><a href="tag/nains.html">
 					Nains&nbsp;(1)
+				</a><a href="tag/nginx.html">
+					Nginx&nbsp;(1)
 				</a><a href="tag/nightaunt.html">
 					Nightaunt&nbsp;(1)
 				</a><a href="tag/nomnom-miniature.html">
@@ -582,8 +584,6 @@ lxc.idmap: g 3000 103000 62535
 					Webview&nbsp;(1)
 				</a><a href="tag/whisperia.html">
 					Whisperia&nbsp;(12)
-				</a><a href="tag/nginx.html">
-					nginx&nbsp;(1)
 				</a>
 			</aside>
 			<aside>

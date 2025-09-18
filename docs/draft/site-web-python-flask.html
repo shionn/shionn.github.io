@@ -310,7 +310,7 @@ je suis débutant en python donc je pense que j'ai pas tous fait dans les règle
 Créer un dossier qui contiendra votre dossier, pour cet exemple <code>FlaskBookTuto</code>.</p>
 <h3>Installer les dépendances</h3>
 <p>Sous Debian, j'installe les dépendances suivantes.</p>
-<pre class="bash"><code class="bash">apt install python3 python3-pip python3-venv
+<pre class="shell"><code class="shell">apt install python3 python3-pip python3-venv
 </code></pre>
 <p>Je code avec vscode avec l'extension <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python" target="_blank">ms-python.python</a>.
 J'utilise SqliteBrowser si j'ai besoin de parcourir la bdd avec un outil.</p>
@@ -322,11 +322,11 @@ les dépendances de notre projet et on ne touche pas au lib python du system d'e
 <p>Pour cela dans le dossier du projet, entrer cette commande,
 cela craies un dossier dans lequel s'installe les dépendances pythons avec les scripts d'activation utile.
 J'aime faire ce dossier caché que j'appelle <strong>.venv</strong>, mais rien ne vous y oblige.</p>
-<pre class="bash"><code class="bash">python3 -m venv .venv
+<pre class="shell"><code class="shell">python3 -m venv .venv
 </code></pre>
 <p>Puis il faut activer l'environnement, pour cela entrer la commande suivante.
 Cela va changer votre invite de commande en passant de cela <code>user@host:path$</code> à cela <code>(.venv) user@host:path$</code>.</p>
-<pre class="bash"><code class="bash">source .venv/bin/activate
+<pre class="shell"><code class="shell">source .venv/bin/activate
 </code></pre>
 <h2>Dépendance</h2>
 <p>Dans le dossier de votre projet, créer un fichier <code>requirements.txt</code> et dedans ajouter les lignes :</p>
@@ -338,7 +338,7 @@ flask-sqlalchemy&gt;=3.1
 waitress&gt;=3.0
 </code></pre>
 <p>Puis dans le dossier du projet, avec le venv d'activé, faites cela pour installer les dépendances en locales :</p>
-<pre class="bash"><code class="bash">pip install -r requirements.txt
+<pre class="shell"><code class="shell">pip install -r requirements.txt
 </code></pre>
 <h2>Code</h2>
 <p>Dans cette exemple, nous allons faire un site qui gère une bibliothèque de livre (manga ou BD).</p>
@@ -431,7 +431,7 @@ Hello World
 {% endblock %}
 </code></pre>
 <p>Puis pour lancer le site, dans une console, dans le dossier de votre projet avec l'environnement virtuel d'activé :</p>
-<pre class="bash"><code class="bash">python3 run.py
+<pre class="shell"><code class="shell">python3 run.py
 </code></pre>
 <p>Et le site est disponible sur localhost:5000 :</p>
 <div class="gallery"><a href="pictures/code/python/flask/01.jpg"><img src="pictures/code/python/flask/01.jpg"></a></div>
@@ -551,7 +551,7 @@ def removeBook(id):
 <div class="gallery"><a href="pictures/code/python/flask/02.jpg"><img src="pictures/code/python/flask/02-300-190.jpg" width="300" height="190"></a><a href="pictures/code/python/flask/03.jpg"><img src="pictures/code/python/flask/03-300-190.jpg" width="300" height="190"></a></div>
 <h3>Passer en prod</h3>
 <p>Vous avez du voir un joli message au lancement du programme :</p>
-<pre class="bash"><code class="bash">WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+<pre class="shell"><code class="shell">WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
 </code></pre>
 <p>En effet lors du passage en prod il faut utiliser <strong>waitress</strong> :</p>
 <pre class="python"><code class="python">##################
@@ -701,6 +701,8 @@ J'espère que mon code ne fera pas mal aux yeux au expert du python, mais si vou
 					Metal&nbsp;(13)
 				</a><a href="tag/nains.html">
 					Nains&nbsp;(1)
+				</a><a href="tag/nginx.html">
+					Nginx&nbsp;(1)
 				</a><a href="tag/nightaunt.html">
 					Nightaunt&nbsp;(1)
 				</a><a href="tag/nomnom-miniature.html">
@@ -753,8 +755,6 @@ J'espère que mon code ne fera pas mal aux yeux au expert du python, mais si vou
 					Webview&nbsp;(1)
 				</a><a href="tag/whisperia.html">
 					Whisperia&nbsp;(12)
-				</a><a href="tag/nginx.html">
-					nginx&nbsp;(1)
 				</a>
 			</aside>
 			<aside>

@@ -323,7 +323,7 @@
 <pre class="shell"><code class="shell">sudo apt install libwebkit2gtk-4.0-37
 </code></pre>
 <h3>Eclipse wayland</h3>
-<pre class="shell"><code class="shell">#/bin/bash
+<pre class="shell"><code class="shell">#/bin/shell
 export WEBKIT_DISABLE_COMPOSITING_MODE=1
 /path/to/eclipse/eclipse
 </code></pre>
@@ -370,11 +370,11 @@ sudo apt install steam
 </code></pre>
 <h3>Installation Proton GE</h3>
 <p>Créer le dossier compatibilitytools.d dans steam si inexistant :</p>
-<pre class="bash"><code class="bash">mkdir -p ~/.steam/debian-installation/compatibilitytools.d
+<pre class="shell"><code class="shell">mkdir -p ~/.steam/debian-installation/compatibilitytools.d
 </code></pre>
 <p>Télécharger la dernière version <a href="https://github.com/GloriousEggroll/proton-ge-custom/releases" target="_blank">ici</a>.</p>
 <p>Extraire l'archive</p>
-<pre class="bash"><code class="bash">tar -xvf &quot;la derniere archive&quot;.tar.gz -C ~/.steam/debian-installation/compatibilitytools.d/
+<pre class="shell"><code class="shell">tar -xvf &quot;la derniere archive&quot;.tar.gz -C ~/.steam/debian-installation/compatibilitytools.d/
 </code></pre>
 <h3>Steam Deck</h3>
 <p>Pour calibrer les joystick : <code>thumbstick_cal</code></p>
@@ -403,11 +403,11 @@ Le jeux crash avec une erreur <code>MAPPING_ERROR: 0x0</code>.
 Faire un <code>cat /proc/sys/vm/max_map_count</code> et voir la valeur pour la doubler, dans mon cas 1048576. On double la valeur.</p>
 <p>Doubler la valeur de maniere temporaire : <code>sudo sysctl -w vm.max_map_count=2097152</code></p>
 <p>De maniere définitive :</p>
-<pre class="bash"><code class="bash">echo &quot;vm.max_map_count=2097152&quot; | sudo tee -a /etc/sysctl.conf
+<pre class="shell"><code class="shell">echo &quot;vm.max_map_count=2097152&quot; | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
 </code></pre>
 <h3>Autre truc</h3>
-<pre class="bash"><code class="bash"># Options de démarrage du noyau (à ajouter dans /etc/default/grub)
+<pre class="shell"><code class="shell"># Options de démarrage du noyau (à ajouter dans /etc/default/grub)
 amdgpu.vm_fragment_size=9 amdgpu.vm_max_fragment_size=9 amdgpu.gttsize=1024 amdgpu.noretry=0
 # Optiopn de lancement
 RADV_PERFTEST=rt 
@@ -433,7 +433,7 @@ WINE_HEAP_DELAY_FREE=1
 sudo smartctl -t long /dev/nvme0
 # voir la progress
 sudo smartctl -a /dev/nvme0 | grep -i progress
-# voir les resultat
+# voir les résultats
 sudo smartctl -a /dev/nvme0
 </code></pre>
 <h2>Proxmox</h2>
@@ -442,7 +442,7 @@ sudo smartctl -a /dev/nvme0
 </code></pre>
 <h2>Vidéo</h2>
 <h3>OBS pas de Vaapi</h3>
-<pre class="shell"><code class="shell">apt instal mesa-va-drivers
+<pre class="shell"><code class="shell">apt install mesa-va-drivers
 </code></pre>
 <h2>Vim</h2>
 <p>Configuration de vim, désactiver le mode de séléction à la souris :</p>
@@ -454,12 +454,12 @@ sudo smartctl -a /dev/nvme0
 <h2>Seveur</h2>
 <h3>Initialisation</h3>
 <p>Sur chacun de mes serveurs je commence par faire cela :</p>
-<pre class="shell"><code class="shell">apt install bash-completion vim -y
+<pre class="shell"><code class="shell">apt install shell-completion vim -y
 apt remove nano -y
 echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
 echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
-echo &quot;alias ll=\&quot;ls -l\&quot;&quot; &gt;&gt; ~/.bashrc
-echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.bashrc
+echo &quot;alias ll=\&quot;ls -l\&quot;&quot; &gt;&gt; ~/.shellrc
+echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.shellrc
 </code></pre>
 <h3>Tomcat</h3>
 <p>Quand je veux déployé dans ROOT je dois changer les droit d'accès dans le dossier ROOT de <code>/var/lib/tomcat10/webapps</code></p>
@@ -475,7 +475,7 @@ ACTION==&quot;add|change&quot;, KERNEL==&quot;sd[a-z]&quot;, ATTRS{queue/rotatio
 <p>on peu utilisé netstat : <code>apt instal</code> netstat puis <code>netstat -ltnp</code></p>
 <h3>creer un service</h3>
 <p>Par exemple : <strong>/etc/systemd/system/MonService.service</strong></p>
-<pre class="bash"><code class="bash">[Unit]
+<pre class="shell"><code class="shell">[Unit]
 Description=NOM DU SERVICE
 After=syslog.target network.target
 
@@ -493,7 +493,7 @@ ExecStop=/bin/kill $MAINPID
 WantedBy=multi-user.target
 </code></pre>
 <p>Puis :</p>
-<pre class="bash"><code class="bash">sudo systemctl daemon-reload
+<pre class="shell"><code class="shell">sudo systemctl daemon-reload
 sudo systemctl enable MonService.service
 </code></pre>
 </section>
@@ -626,6 +626,8 @@ sudo systemctl enable MonService.service
 					Metal&nbsp;(13)
 				</a><a href="tag/nains.html">
 					Nains&nbsp;(1)
+				</a><a href="tag/nginx.html">
+					Nginx&nbsp;(1)
 				</a><a href="tag/nightaunt.html">
 					Nightaunt&nbsp;(1)
 				</a><a href="tag/nomnom-miniature.html">
@@ -678,8 +680,6 @@ sudo systemctl enable MonService.service
 					Webview&nbsp;(1)
 				</a><a href="tag/whisperia.html">
 					Whisperia&nbsp;(12)
-				</a><a href="tag/nginx.html">
-					nginx&nbsp;(1)
 				</a>
 			</aside>
 			<aside>
