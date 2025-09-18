@@ -241,7 +241,7 @@ article footer form input[type="submit"] {
 }
 article.short footer {
   text-align: center;
-  margin-top: -150px;
+  margin-top: -200px;
   position: relative;
 }
 article.short footer:before {
@@ -249,7 +249,7 @@ article.short footer:before {
   background-image: linear-gradient(rgba(0, 0, 0, 0), var(--color-bg));
   display: block;
   width: 100%;
-  height: 150px;
+  height: 200px;
 }
 article.short footer:after {
   content: ' ';
