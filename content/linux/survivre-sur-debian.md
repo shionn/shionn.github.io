@@ -252,12 +252,12 @@ echo "syntax on" >> ~/.vimrc
 Sur chacun de mes serveurs je commence par faire cela :
 
 ~~~shell
-apt install shell-completion vim -y
+apt install bash-completion vim -y
 apt remove nano -y
 echo "set mouse-=a" >> ~/.vimrc
 echo "syntax on" >> ~/.vimrc
-echo "alias ll=\"ls -l\"" >> ~/.shellrc
-echo "alias la=\"ls -al\"" >> ~/.shellrc
+echo "alias ll=\"ls -l\"" >> ~/.bashrc
+echo "alias la=\"ls -al\"" >> ~/.bashrc
 ~~~
 
 ### Tomcat

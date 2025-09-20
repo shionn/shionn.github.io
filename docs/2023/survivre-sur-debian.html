@@ -454,12 +454,12 @@ sudo smartctl -a /dev/nvme0
 <h2>Seveur</h2>
 <h3>Initialisation</h3>
 <p>Sur chacun de mes serveurs je commence par faire cela :</p>
-<pre class="shell"><code class="shell">apt install shell-completion vim -y
+<pre class="shell"><code class="shell">apt install bash-completion vim -y
 apt remove nano -y
 echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
 echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
-echo &quot;alias ll=\&quot;ls -l\&quot;&quot; &gt;&gt; ~/.shellrc
-echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.shellrc
+echo &quot;alias ll=\&quot;ls -l\&quot;&quot; &gt;&gt; ~/.bashrc
+echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.bashrc
 </code></pre>
 <h3>Tomcat</h3>
 <p>Quand je veux déployé dans ROOT je dois changer les droit d'accès dans le dossier ROOT de <code>/var/lib/tomcat10/webapps</code></p>
@@ -498,7 +498,7 @@ sudo systemctl enable MonService.service
 </code></pre>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 02 juin 2025</span>.</em>
+		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 19 septembre 2025</span>.</em>
 		<h2>Commentaires</h2>
 		<div class="comments">
 			
