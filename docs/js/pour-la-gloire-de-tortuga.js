@@ -731,6 +731,10 @@ q(function() {
 		.progress("16/09/2025", angest, 4, "Rat des Clans", _SMALL)
 		.progress("16/09/2025", transfopaper, 1, "Gobelin", _SMALL)
 		.progress("17/09/2025", tony, 1, "Elmentaire de feu d'eau", _SMALL)
+		.progress("20/09/2025", shionn, 1, "Decort de faction Gloom", _MEDIUM_DECOR)
+		.progress("20/09/2025", shionn, 2, "Champi", _SMALL_DECOR)
+		.progress("20/09/2025", shionn, 1, "Decort Col du Crane", _SMALL_DECOR)
+		.progress("20/09/2025", shionn, 1, "Marqueur d'objectif gloom", _SMALL_DECOR)
 		.render();
 		
 							
