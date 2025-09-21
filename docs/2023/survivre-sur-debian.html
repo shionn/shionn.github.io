@@ -406,6 +406,10 @@ Faire un <code>cat /proc/sys/vm/max_map_count</code> et voir la valeur pour la d
 <pre class="shell"><code class="shell">echo &quot;vm.max_map_count=2097152&quot; | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
 </code></pre>
+<h3>Mangohud qui marche parfois</h3>
+<p>installer mangohud:i386</p>
+<pre class="shell"><code class="shell">apt install mangohud:i386
+</code></pre>
 <h3>Autre truc</h3>
 <pre class="shell"><code class="shell"># Options de démarrage du noyau (à ajouter dans /etc/default/grub)
 amdgpu.vm_fragment_size=9 amdgpu.vm_max_fragment_size=9 amdgpu.gttsize=1024 amdgpu.noretry=0

@@ -173,6 +173,14 @@ echo "vm.max_map_count=2097152" | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
 ~~~
 
+### Mangohud qui marche parfois
+
+installer mangohud:i386
+
+~~~shell
+apt install mangohud:i386
+~~~
+
 ### Autre truc 
 
 ~~~shell
