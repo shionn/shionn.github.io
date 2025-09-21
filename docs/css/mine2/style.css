@@ -299,6 +299,14 @@ div.gallery img {
   max-height: 90%;
   max-width: 90%;
 }
+.gallery-view h1 {
+  max-width: 90%;
+  position: absolute;
+  bottom: 5%;
+  z-index: 3;
+  color: var(--color-accent);
+  text-shadow: -1px -1px 0 var(--color-dark-accent), 1px -1px 0 var(--color-dark-accent), -1px 1px 0 var(--color-dark-accent), 1px 1px 0 var(--color-dark-accent);
+}
 
 @keyframes fadeAnmimation {
   from {

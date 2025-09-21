@@ -5,7 +5,7 @@
 	"logo": "pictures/titles/m720q-rx6400.jpg",
 	"tags": ["Matos", "Gaming",  "ThinkCenter"],
 	"category": "Linux",
-	"published": false,
+	"published": true,
 	"author": "Shionn",
 	"js" : [ ]
 }

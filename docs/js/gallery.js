@@ -2,7 +2,13 @@
 
 q(function(){
 	q("body").on("click", ".gallery a", function(event) {
-		q(".gallery-view img").attr("src",q(this).attr("href"));
+		let title = q(this).find("img").attr("title");
+		q(".gallery-view img").attr("src", q(this).attr("href"));
+		if (title) {
+			q(".gallery-view").find("h1").text(title);
+		} else {
+			q(".gallery-view").find("h1").text("");
+		}
 		q(".gallery-view").css("display","flex");
 		q(".gallery-view").addClass("fade");
 		event.preventDefault();

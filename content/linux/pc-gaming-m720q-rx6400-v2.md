@@ -24,8 +24,8 @@ Et à ce moment magique, mon Batman est devenu fluide comme le montre les captur
 A gauche en mode **powersave** et à droite en mode **performance**.
 
 [gallery w=300 h=170]
-/pictures/linux/m720q-rx6400/23-batman-mangohud-powersave.jpg
-/pictures/linux/m720q-rx6400/23-batman-mangohud-performance.jpg
+/pictures/linux/m720q-rx6400/23-batman-mangohud-powersave.jpg	En powersave, beaucoup de micro-saccade
+/pictures/linux/m720q-rx6400/23-batman-mangohud-performance.jpg	En performance, fps bien plus stable
 [/gallery]
 
 ## Bench
@@ -43,8 +43,8 @@ Setup :
 
 [gallery w=300 h=170]
 /pictures/linux/m720q-rx6400/24-sotr-reglage.jpg
-/pictures/linux/m720q-rx6400/24-sotr-powersave.jpg
-/pictures/linux/m720q-rx6400/24-sotr-performance.jpg
+/pictures/linux/m720q-rx6400/24-sotr-powersave.jpg	En powersave
+/pictures/linux/m720q-rx6400/24-sotr-performance.jpg	En performance
 [/gallery]
 
 
@@ -56,8 +56,8 @@ Setup :
 - sans upscaling
 
 [gallery w=300 h=170]
-/pictures/linux/m720q-rx6400/25-cyberpunk-powersave.jpg
-/pictures/linux/m720q-rx6400/25-cyberpunk-performance.jpg
+/pictures/linux/m720q-rx6400/25-cyberpunk-powersave.jpg	En powersave
+/pictures/linux/m720q-rx6400/25-cyberpunk-performance.jpg	En performance
 [/gallery]
 
 
@@ -68,8 +68,8 @@ Deuxième salve, cette fois avec le FSR upscaling et génération d'image :
 
 [gallery w=300 h=170]
 /pictures/linux/m720q-rx6400/26-cyberpunk-fsr-reglage.jpg
-/pictures/linux/m720q-rx6400/26-cyberpunk-fsr-powersave.jpg
-/pictures/linux/m720q-rx6400/26-cyberpunk-fsr-performance.jpg
+/pictures/linux/m720q-rx6400/26-cyberpunk-fsr-powersave.jpg	En powersave
+/pictures/linux/m720q-rx6400/26-cyberpunk-fsr-performance.jpg	En performance
 [/gallery]
 
 Ces jeux sont bien trop gourmands pour cette configuration. 
@@ -85,8 +85,8 @@ Setup :
 
 [gallery w=300 h=170]
 /pictures/linux/m720q-rx6400/27-batman-reglage.jpg
-/pictures/linux/m720q-rx6400/27-batman-powersave.jpg
-/pictures/linux/m720q-rx6400/27-batman-performance.jpg
+/pictures/linux/m720q-rx6400/27-batman-powersave.jpg	En Powersave
+/pictures/linux/m720q-rx6400/27-batman-performance.jpg	En Performance
 [/gallery]
 
 Le benchmark ne montre pas la différence de stabilité de fps que montre Mangohud.
@@ -100,8 +100,8 @@ Setup :
 
 [gallery w=300 h=170]
 /pictures/linux/m720q-rx6400/28-tombraider-native-reglage.jpg
-/pictures/linux/m720q-rx6400/28-tombraider-native-powersave.jpg
-/pictures/linux/m720q-rx6400/28-tombraider-native-performance.jpg
+/pictures/linux/m720q-rx6400/28-tombraider-native-powersave.jpg	En Powersave
+/pictures/linux/m720q-rx6400/28-tombraider-native-performance.jpg	En Performance
 [/gallery]
 
 Je recommence mais avec en compatibilité Proton :
@@ -111,8 +111,8 @@ Je recommence mais avec en compatibilité Proton :
 
 [gallery w=300 h=170]
 /pictures/linux/m720q-rx6400/29-tombraider-proton-reglage.jpg
-/pictures/linux/m720q-rx6400/29-tombraider-proton-powersave.jpg
-/pictures/linux/m720q-rx6400/29-tombraider-proton-performance.jpg
+/pictures/linux/m720q-rx6400/29-tombraider-proton-powersave.jpg	En Powersave
+/pictures/linux/m720q-rx6400/29-tombraider-proton-performance.jpg	En Performance
 [/gallery]
 
 On note un énorme gain de performance entre la version native et la version proton.
@@ -123,4 +123,7 @@ Cette version du jeu n'a jamais été mise à jour, de fait entre cette vieille 
 ## Conclusion
 
 En jeu je ressent un vrai écart de performance entre le mode **powersave** et **performance**, mais les benchmarks ne le montrent pas. 
+Pire les benchmarks semble indiquer le contraire. 
+
 Je n'en ai pas fini avec ce pc, dans un prochain article nous essaierons de lui mettre un plus gros processeur. 
+Et qui sai peut être un jour une plus grosse carte graphique ? 
