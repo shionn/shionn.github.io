@@ -32,7 +32,7 @@ Supprimer les fichiers non suivie :
 git clean -fd
 ~~~
 
-no edit lors des merge : 
+No edit lors des merges : 
 
 ~~~shell
 [alias]
