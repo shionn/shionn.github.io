@@ -735,11 +735,17 @@ q(function() {
 		.progress("20/09/2025", shionn, 2, "Champi", _SMALL_DECOR)
 		.progress("20/09/2025", shionn, 1, "Decort Col du Crane", _SMALL_DECOR)
 		.progress("20/09/2025", shionn, 1, "Marqueur d'objectif gloom", _SMALL_DECOR)
+		.progress("21/09/2025", angest, 3, "Loup Garous", _SMALL)
+		.progress("21/09/2025", angest, 1, "Boss-ki-tue", _MEDIUM)
 		.render();
 		
+	let q28 = new _quest("quest-28", "L'Attaque Surprise", "Peindre 30 figurines", 30)
+		.progress("21/09/2025", angest, 2, "Skaven", _SMALL)
+		.render();
+
 							
 //			
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, transfopaper, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28]);
 
 });

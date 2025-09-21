@@ -102,6 +102,10 @@ Nous nous agrandissons, Encore! AAAAAHHH Plus de Bière, plus de Rhum, plus de f
 
 <div id="quest-27"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map27.png
+[/gallery]
+
 
 ### Jour 244 Construction d'une armurerie
 
