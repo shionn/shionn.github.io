@@ -739,7 +739,7 @@ q(function() {
 		.progress("21/09/2025", angest, 1, "Boss-ki-tue", _MEDIUM)
 		.render();
 		
-	let q28 = new _quest("quest-28", "L'Attaque Surprise", "Peindre 30 figurines", 30)
+	let q28 = new _quest("quest-28", "L'Attaque Surprise", "Peindre 20 figurines en 15 jours", 20)
 		.progress("21/09/2025", angest, 2, "Skaven", _SMALL)
 		.render();
 

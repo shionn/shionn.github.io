@@ -25,6 +25,7 @@ category/wargame	War Game
 		2023/equivalence-peinture	Équivalence de peinture
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
 	category/manga	Manga / JV
+		2026/repaint-genshin-diluc-fischi	Diluc & Fischi	2026-04-11
 		2026/mononokee-nomnom	Princesse Mononokee	2026-02-22
 		2025/repaint-bulma	Repaint d'une Bulma
 		2025/shenron-goku-nomnom	Shenron et Sangoku

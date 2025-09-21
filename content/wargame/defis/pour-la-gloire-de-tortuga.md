@@ -96,6 +96,14 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 265 Brasserie deviendra grande
+
+Ohé Pirates! Nous subissons une nouvelle attaque surprise! 
+Tous à vos postes de combats et pas de quartiers!
+
+<div id="quest-28"></div>
+
+
 ### Jour 249 Brasserie deviendra grande
 
 Nous nous agrandissons, Encore! AAAAAHHH Plus de Bière, plus de Rhum, plus de femmes! La brasserie doit s'agrandir 30 Ressources seront déployées pour ça! 
