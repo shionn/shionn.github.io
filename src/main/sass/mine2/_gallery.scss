@@ -32,6 +32,7 @@ div.gallery {
 	overflow: hidden;
 	background-color: rgba(0, 0, 0, 0.4);
 	text-align : center;
+	flex-direction: column;
 	&.fade {
 		.content {
 			animation-name: fadeAnmimation;
@@ -44,7 +45,7 @@ div.gallery {
 	}
 	h1 {
 		max-width: 90%;
-		position: absolute;
+		position: relative;
 		bottom: 5%;
 		z-index: 3;
 		color: var(--color-accent);
