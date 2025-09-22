@@ -7,5 +7,6 @@
 	"category": "War Game",
 	"published": false,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
+	"toCheck": false,
 	"author": "Shionn"
 }

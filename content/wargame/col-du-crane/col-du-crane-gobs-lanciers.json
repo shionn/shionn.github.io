@@ -8,5 +8,6 @@
 	"category": "War Game",
 	"published": true,
 	"js" : [ ],
+	"toCheck": false,
 	"author": "Shionn"
 }

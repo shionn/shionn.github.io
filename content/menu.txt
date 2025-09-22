@@ -1,5 +1,5 @@
 index	Accueil
-category/wargame	War Game
+category/war-game	War Game
 	2024/mes-armees	Age of Sigmar
 		2024/kruelboyz-dominion	Kruelboyz
 		2025/armee-gloomspite-gitz	Gloomspite Gitz

@@ -8,5 +8,6 @@
 	"published": true,
 	"logo": "pictures/titles/elfe-noir/garde-noir.jpg",
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
+	"toCheck": false,
 	"author": "Shionn"
 }
