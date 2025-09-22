@@ -290,6 +290,7 @@ div.gallery img {
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.4);
   text-align: center;
+  flex-direction: column;
 }
 .gallery-view.fade .content {
   animation-name: fadeAnmimation;
@@ -301,7 +302,7 @@ div.gallery img {
 }
 .gallery-view h1 {
   max-width: 90%;
-  position: absolute;
+  position: relative;
   bottom: 5%;
   z-index: 3;
   color: var(--color-accent);
