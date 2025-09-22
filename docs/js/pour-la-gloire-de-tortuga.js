@@ -741,6 +741,7 @@ q(function() {
 		
 	let q28 = new _quest("quest-28", "L'Attaque Surprise", "Peindre 20 figurines en 15 jours", 20)
 		.progress("21/09/2025", angest, 2, "Skaven", _SMALL)
+		.progress("22/09/2025", shionn, 2, "Diluc & Fishy", _MEDIUM)
 		.render();
 
 							
