@@ -58,6 +58,7 @@ category/linux	Linux
 		2025/debian-execute-task-before-and-after-suspend	Script avant & après la veille
 		2025/openrgb-sur-debian	OpenRGB sur Débian
 	tag/matos	Matos
+		2025/pc-gaming-m720q-rx6400	Mini Pc Gaming M720q
 		2025/homelab-processeur	Processeur pour Homelab
 category/code	Code
 	tag/arduino	Arduino
