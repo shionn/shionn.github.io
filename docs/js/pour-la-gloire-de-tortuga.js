@@ -749,6 +749,13 @@ q(function() {
 		.progress("23/09/2025", tupad, 4, "Lance Lumières", _MEDIUM)
 		.render();
 
+	let q29 = new _quest("quest-29", "TODO", "TODO", 30)
+		.progress("23/09/2025", tupad, 2, "Lance Lumières", _MEDIUM)
+		.progress("23/09/2025", tupad, 7, "Orques Warcrow", _SMALL)
+		.progress("23/09/2025", tupad, 1, "Apathée kharnages", _MEDIUM)
+		.progress("23/09/2025", tupad, 1, "Éclaireur khemiste pour kharnages", _MEDIUM)
+		.render();
+
 
 //
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, transfopaper, tupad, whisp]);
