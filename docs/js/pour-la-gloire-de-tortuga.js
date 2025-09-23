@@ -90,7 +90,7 @@ q(function() {
 			}
 			return false;
 		}
-		
+
 		this.countQuest = function(quest) {
 			if (this.quests.indexOf(quest) === -1) this.quests.push(quest);
 			return this.quests.length;
@@ -188,15 +188,15 @@ q(function() {
 			}
 			return this;
 		};
-		
+
 		this.hasSend = function(player, type) {
 			return this.history.findIndex( (v) => v.player === player && v.type === type ) !== -1;
 		};
-		
+
 		this.countHistory = function(event, player) {
 			return this.history.filter((v)=>v.event === event && v.player === player).length;
 		};
-		
+
 		this.sumFigHistory = function(event, player, figType) {
 			return this.history.filter((v)=>v.event === event && v.player === player && v.type.type === figType).map(h=>h.value).reduce((a,b)=>a+b, 0);
 		};
@@ -256,7 +256,7 @@ q(function() {
 			if (index % 2 === 1) {
 				lines = [];
 			}
-			
+
 			figurines += player.figurines;
 			decorts += player.decorts;
 		});
@@ -274,7 +274,7 @@ q(function() {
 			.append(q("<td>").text(figurines))
 			.append(q("<td>").attr("colspan", 2).addClass("subtitle").text("Total Décors"))
 			.append(q("<td>").text(decorts)));
-		
+
 		q("#participants").append(table.append(body));
 	};
 
@@ -292,43 +292,43 @@ q(function() {
 	};
 
 	_BADGE.push(
-		new _badge("Coup Final", "fa fa-flag", "Achever une quête", true), 
+		new _badge("Coup Final", "fa fa-flag", "Achever une quête", true),
 		new _badge("Populeux", "ra ra-rabbit", "Envoyer 10 petites figurines d'un coup", true),
 		new _badge("Bourrin", "ra ra-octopus", "Envoyer 5 figurines moyenne d'un coup", true),
-		new _badge("Massif", "ra ra-dragon", "Envoyer 2 grande figurines d'un coup", true), 
-		new _badge("Petit/Gros", "ra ra-two-dragons", "Envoyer une petite figurine et une grande dans la même quête", true), // 4 
-		new _badge("Petit/Moyen/Gros", "ra ra-hydra", "Envoyer une figurine de chaque taille dans la même quête", true), 
-		new _badge("Mitraillette", "ra ra-barbed-arrow", "Faire 3 contributions à la même quête", true), 
-		new _badge("Gatling", "ra ra-arrow-cluster", "Faire 5 contributions à la même quête", true), 
-		new _badge("One shot", "ra ra-lightning-storm", "Accomplir une quête d'un seul coup", true), 
+		new _badge("Massif", "ra ra-dragon", "Envoyer 2 grande figurines d'un coup", true),
+		new _badge("Petit/Gros", "ra ra-two-dragons", "Envoyer une petite figurine et une grande dans la même quête", true), // 4
+		new _badge("Petit/Moyen/Gros", "ra ra-hydra", "Envoyer une figurine de chaque taille dans la même quête", true),
+		new _badge("Mitraillette", "ra ra-barbed-arrow", "Faire 3 contributions à la même quête", true),
+		new _badge("Gatling", "ra ra-arrow-cluster", "Faire 5 contributions à la même quête", true),
+		new _badge("One shot", "ra ra-lightning-storm", "Accomplir une quête d'un seul coup", true),
 		new _badge("Vague", "ra ra-double-team ", "Envoyer 20 figurine lors de la même quête", true),
-		
+
 		new _badge("Uzi", "ra ra-bullets", "Faire 10 contributions à la même quête", true),
 		new _badge("Gargantuesque", "ra ra-monster-skull", "Peindre une très grosse figurine (>=120mm)", false), // 11 TODO true
 		new _badge("Bon plan", "fa fa-thumbs-up", "Faire profiter la commu d'un bon plan", true), // 12
-		new _badge("Ten", "fa fa-battery-quarter", "Participer à 10 quête différente", true), 
+		new _badge("Ten", "fa fa-battery-quarter", "Participer à 10 quête différente", true),
 		new _badge("Twenty", "fa fa-battery-half", "Participer à 20 quête différente", true),
-		new _badge("Du cailloux à la Tour", "ra ra-tower", "Envoyer un décors de chaque taille dans la même quête", true), 
-		new _badge("Decorama", "ra ra-castle-emblem", "Envoyer 15 décors dans la même quête", true), 
-		new _badge("Dernier clou", "ra ra-ankh", "Achever une quête avec un décor", true), 
+		new _badge("Du cailloux à la Tour", "ra ra-tower", "Envoyer un décors de chaque taille dans la même quête", true),
+		new _badge("Decorama", "ra ra-castle-emblem", "Envoyer 15 décors dans la même quête", true),
+		new _badge("Dernier clou", "ra ra-ankh", "Achever une quête avec un décor", true),
 		new _badge("Collectionneur", "ra ra-player", "Obtenir 8 badges", true),
 		new _badge("Presque tous", "ra ra-muscle-up", "Obtenir presque tous les badges", false),
-		
+
 		new _badge("Gotha'em all", "ra ra-queen-crown", "Obtenir tous les badge", false),
 	);
-	
+
 	const _PetitGros = 4;
 	const _Gargantuesque = 11;
 	const _BonPlan = 12;
 
-	
-	let angest = new _player("Angest", "pirate12.png"); 
+
+	let angest = new _player("Angest", "pirate12.png");
 	let anuabi = new _player("Anuabi", "pirate12.png");
 	let ben = new _player("Ben illustrateur", "pirate07.png");
 	let faran = new _player("Fararn", "pirate16.png");
 	let hyasull = new _player("Hyasull", "pirate13.png");
 	let ludovic5799 = new _player("Ludovic5799", "pirate01.png");
-	let phylios = new _player("Phylios", "pirate07.png"); 
+	let phylios = new _player("Phylios", "pirate07.png");
 	let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
 	let shionn = new _player("Shionn", "pirate02.png");
 	let tupad = new _player("Tupad_", "pirate07.png");
@@ -348,7 +348,7 @@ q(function() {
 	let q2 = new _quest("quest-2", "	Réapprovisionnement en matériaux", "Peindre 30 figurines", 30)
 			.progress("04/01/2025", tony, 30, "Zombi", _SMALL)
 			.render();
-			
+
 	let q3 = new _quest("quest-3", "Construction des quais du port", "Peindre 30 figurines", 30)
 			.progress("04/01/2025", tony, 22, "Zombi", _SMALL)
 			.progress("04/01/2025", anuabi, 1, "Tyranide", _SMALL)
@@ -403,7 +403,7 @@ q(function() {
 		.progress("16/02/2025", angest, 1, "Obsidian Reaper", _MEDIUM)
 		.progress("16/02/2025", anuabi, 1, "Termagaunt", _SMALL)
 		.render();
-		
+
 	let q7 = new _quest("quest-7", "Pillage de la colonnie espagnole", "Peindre 30 figurines", 30)
 		.progress("16/02/2025", angest, 1, "Pyromant Keeper", _SMALL)
 		.progress("17/02/2025", shionn, 1, "Boss squig & BrutoSquig", _SMALL)
@@ -444,7 +444,7 @@ q(function() {
 		.progress("05/03/2025", angest, 1, "Dead King", _BIG)
 		.progress("06/03/2025", tony, 3, "Gretchin", _SMALL)
 		.render();
-	
+
 	let q9 = new _quest("quest-9", "Collecter des vivres", "Peindre 20 figurines", 20)
 		.progress("06/03/2025", tony, 3, "Gretchin", _SMALL)
 		.progress("10/03/2025", angest, 3, "Space Machin", _SMALL)
@@ -490,7 +490,7 @@ q(function() {
 		.progress("03/04/2025", whisp, 2, "Coffre", _SMALL_DECOR)
 		.progress("04/04/2025", whisp, 4, "Mur Modulaire", _SMALL_DECOR)
 		.render();
-		
+
 	let q12 = new _quest("quest-12", "La Premiere Bataille", "Peindre 30 figurines en 15 jours", 30)
 		.progress("06/04/2025", shionn, 1, "Serpent", _MEDIUM)
 		.progress("06/04/2025", shionn, 1, "Wendigo", _SMALL)
@@ -567,7 +567,7 @@ q(function() {
 		.progress("18/05/2025", whisp, 1, "Draw", _SMALL)
 		.progress("18/05/2025", shionn, 4, "Gobs sur Araignée", _SMALL)
 		.render();
-	
+
 	let q16 = new _quest("quest-16", "Restauration des Quais", "Peindre 35 figurines ou Décors", 35)
 		.progress("18/05/2025", whisp, 35, "Squelette", _SMALL_DECOR)
 		.render();
@@ -701,7 +701,7 @@ q(function() {
 		.progress("29/08/2025", whisp, 4, "Loup", _MEDIUM)
 		.progress("30/08/2025", whisp, 1, "Roi Nain", _SMALL)
 		.render();
-	
+
 	let q26 = new _quest("quest-26", "Construction d'une armurerie", "Peindre 30 figurines ou Décors", 30)
 		.progress("31/08/2025", tony, 1, "Space Marine", _SMALL)
 		.progress("02/09/2025", whisp, 3, "Gargouille", _SMALL)
@@ -738,14 +738,19 @@ q(function() {
 		.progress("21/09/2025", angest, 3, "Loup Garous", _SMALL)
 		.progress("21/09/2025", angest, 1, "Boss-ki-tue", _MEDIUM)
 		.render();
-		
+
 	let q28 = new _quest("quest-28", "L'Attaque Surprise", "Peindre 20 figurines en 15 jours", 20)
 		.progress("21/09/2025", angest, 2, "Skaven", _SMALL)
 		.progress("22/09/2025", shionn, 2, "Diluc & Fishy", _MEDIUM)
+		.progress("23/09/2025", tupad, 2, "Vypers", _MEDIUM)
+		.progress("23/09/2025", tupad, 6, "Motojets", _MEDIUM)
+		.progress("23/09/2025", tupad, 1, "Chasseur écarlate", _BIG)
+		.progress("23/09/2025", tupad, 3, "Marcheur de Combat", _MEDIUM)
+		.progress("23/09/2025", tupad, 4, "Lance Lumières", _MEDIUM)
 		.render();
 
-							
-//			
+
+//
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, transfopaper, tupad, whisp]);
 	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28]);
 
