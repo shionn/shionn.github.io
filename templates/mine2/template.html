@@ -74,13 +74,15 @@
 		<nav>
 			<aside>
 				<h1><span class="fa fa-folder-open"></span> Catégories</h1>
-				<a th:each="cat:${site.categories}" th:href="${cat.url}">
-					<th:block th:text="${cat.name}"/>&nbsp;(<th:block th:text="${cat.size}"/>)
-				</a>
+				<ul>
+					<li th:each="cat:${site.categories}" th:href="${cat.url}">
+						<a th:href="${cat.url}"><th:block th:text="${cat.name}"/>&nbsp;(<th:block th:text="${cat.size}"/>)</a>
+					</li>
+				</ul>
 			</aside>
 			<aside>
 				<h1><span class="fa fa-flag"></span> Tags</h1>
-				<a th:each="tag:${site.tags}" th:href="${tag.url}" th:text="${tag.name}+' ('+${tag.size}+')'">
+				<a th:each="tag:${site.tags}" th:href="${tag.url}" th:class="'tag'+${tag.size/5}">
 					<th:block th:text="${tag.name}"/>&nbsp;(<th:block th:text="${tag.size}"/>)
 				</a>
 			</aside>

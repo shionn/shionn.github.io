@@ -6,6 +6,7 @@ body>footer {
 	&>nav {
 		max-width: var(--width-content);
 		margin: 0 auto;
+
 		@media all and (min-width: 720px) {
 			display: flex;
 			gap: calc(var(--padding)*3);
@@ -16,6 +17,7 @@ body>footer {
 			@media all and (min-width: 720px) {
 				width: 33%;
 			}
+
 			text-align: justify;
 
 			ul {
@@ -40,17 +42,38 @@ body>footer {
 					padding-right: 5px;
 				}
 
+			}
 
+			.tag0 {
+				font-size: x-small;
+			}
+
+			.tag1 {
+				font-size: small;
+			}
+
+			.tag3 {
+				font-size: large;
+			}
+
+			.tag4,
+			.tag5,
+			.tag6,
+			.tag7,
+			.tag8,
+			.tag9 {
+				font-size: x-large;
 			}
 		}
 	}
-	
-	&> div {
+
+	&>div {
 		max-width: var(--width-content);
 		margin: calc(var(--padding)*2) auto 0 auto;
 		text-align: center;
 		display: flex;
 		flex-direction: column;
+
 		&>span:last-child a {
 			color: var(--color-dark-accent);
 		}

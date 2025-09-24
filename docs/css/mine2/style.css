@@ -598,6 +598,23 @@ body > footer > nav aside ul li:not(.closed) > a[href="#"]:before {
   color: var(--white);
   padding-right: 5px;
 }
+body > footer > nav aside .tag0 {
+  font-size: x-small;
+}
+body > footer > nav aside .tag1 {
+  font-size: small;
+}
+body > footer > nav aside .tag3 {
+  font-size: large;
+}
+body > footer > nav aside .tag4,
+body > footer > nav aside .tag5,
+body > footer > nav aside .tag6,
+body > footer > nav aside .tag7,
+body > footer > nav aside .tag8,
+body > footer > nav aside .tag9 {
+  font-size: x-large;
+}
 body > footer > div {
   max-width: var(--width-content);
   margin: calc(var(--padding)*2) auto 0 auto;
