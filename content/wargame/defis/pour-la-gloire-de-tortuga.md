@@ -96,12 +96,24 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 267 Lvl Up Capitainerie
+
+Ohé Pirates! Nous devons développer la Capitainerie maintenant que nous avons un nouveau quai! Nous allons l'agrandir! 30 Ressources seront déployées pour ça! 
+
+<div id="quest-29"></div>
+
+
+
 ### Jour 265 Brasserie deviendra grande
 
 Ohé Pirates! Nous subissons une nouvelle attaque surprise! 
 Tous à vos postes de combats et pas de quartiers!
 
 <div id="quest-28"></div>
+
+[gallery]
+pictures/defis/tortuga-2025/map27.png
+[/gallery]
 
 
 ### Jour 249 Brasserie deviendra grande
