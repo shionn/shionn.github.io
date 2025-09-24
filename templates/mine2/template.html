@@ -30,7 +30,7 @@
 			<div>
 				<a th:if="${page == 1}" th:href="index.html">&lt;</a>
 				<a th:with="prev=${page -1}" th:if="${page > 1}" th:href="'index-'+${prev}+'.html'">&lt;</a>
-				<th:block th:text="'Page : '+${page+1}+'/'+${site.homePageCount+1}"/>  
+				<th:block th:text="'Page : '+${page+1}+'/'+${site.homePageCount+1}"/>
 				<a th:with="next=${page + 1}" th:if="${page < site.homePageCount}" th:href="'index-'+${next}+'.html'">&gt;</a>
 			</div>
 		</th:block>
@@ -80,7 +80,7 @@
 			</aside>
 			<aside>
 				<h1><span class="fa fa-flag"></span> Tags</h1>
-				<a th:each="tag:${site.tags}" th:href="${tag.url}">
+				<a th:each="tag:${site.tags}" th:href="${tag.url}" th:text="${tag.name}+' ('+${tag.size}+')'">
 					<th:block th:text="${tag.name}"/>&nbsp;(<th:block th:text="${tag.size}"/>)
 				</a>
 			</aside>
@@ -93,9 +93,7 @@
 							<li th:each="month:${year.subGroups}">
 								<a href="#"><th:block th:text="${month.name}"/> (<th:block th:text="${month.size}"/>)</a>
 								<ul>
-									<li th:each="a:${month.subArticles}">
-										<a th:href="${a.url}" th:text="${a.title}"></a>
-									</li>
+									<li th:each="a:${month.subArticles}"><a th:href="${a.url}" th:text="${a.title}"></a></li>
 								</ul>
 							</li>
 						</ul>
@@ -127,11 +125,9 @@
 	<script type="text/javascript" src="js/gallery.js"></script>
 	<script type="text/javascript" src="js/tree.js"></script>
 	<script type="text/javascript" src="js/comment.js"></script>
-	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
-	<th:block th:each="script : ${scripts}">
-		<script type="text/javascript" th:src="${script}"></script>
-	</th:block>
 	<script type="text/javascript" src="js/table.js"></script>
-	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
+	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
+	<th:block th:each="script : ${scripts}"><script type="text/javascript" th:src="${script}"></script>
+	</th:block><script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>

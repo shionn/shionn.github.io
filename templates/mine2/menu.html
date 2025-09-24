@@ -8,9 +8,7 @@
 				<li th:each="child : ${child.childrens}">
 					<a th:href="${child.path}" th:text="${child.name}" th:target="${child.target}"></a>
 					<ul th:if="${not #lists.isEmpty(child.childrens)}">
-						<li th:each="child : ${child.childrens}">
-							<a th:href="${child.path}" th:text="${child.name}" th:target="${child.target}"></a>
-						</li>
+						<li th:each="child : ${child.childrens}"><a th:href="${child.path}" th:text="${child.name}" th:target="${child.target}"></a></li>
 					</ul>
 				</li>
 			</ul>
