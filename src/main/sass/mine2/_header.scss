@@ -22,7 +22,7 @@ body>header {
 		font: 2em 'Press Start 2P';
 		text-align: center;
 		padding: 10px 0 0 0;
-		
+
 		&:before {
 			content : '{';
 			font-size: 1.5em;
@@ -119,9 +119,9 @@ body>header {
 						width: 100%;
 						flex-wrap: wrap;
 						border: 3px solid var(--color-menu-border);
-//						border-top: 0;
 						margin-top: calc(var(--padding) * 2);
 						padding: 0 var(--padding) var(--padding) var(--padding);
+						z-index: 10;
 
 						&>li {
 							width: 33%;
@@ -130,7 +130,7 @@ body>header {
 							&>a {
 								font-size: 1.3em;
 								padding-left: var(--padding);
-							} 
+							}
 
 							&>ul {
 								padding-top: calc(var(--padding)/2);
