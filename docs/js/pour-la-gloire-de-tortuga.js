@@ -756,6 +756,7 @@ q(function() {
 		.progress("23/09/2025", tupad, 1, "Éclaireur khemiste pour kharnages", _MEDIUM)
 		.progress("23/09/2025", shionn, 2, "Chef ancient protector", _SMALL)
 		.progress("23/09/2025", shionn, 4, "Elementair protector", _MEDIUM)
+		.progress("25/09/2025", angest, 2, "Skaven", _SMALL)
 		.render();
 
 
