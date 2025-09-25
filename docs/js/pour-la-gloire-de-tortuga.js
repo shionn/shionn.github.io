@@ -757,11 +757,14 @@ q(function() {
 		.progress("23/09/2025", shionn, 2, "Chef ancient protector", _SMALL)
 		.progress("23/09/2025", shionn, 4, "Elementair protector", _MEDIUM)
 		.progress("25/09/2025", angest, 2, "Skaven", _SMALL)
+		.progress("25/09/2025", whisp, 3, "Nains", _SMALL)
+		.progress("25/09/2025", whisp, 7, "squelettes spectraux", _SMALL)
+
 		.render();
 
 
 //
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, transfopaper, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28, q29]);
 
 });
