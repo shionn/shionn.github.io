@@ -759,9 +759,14 @@ q(function() {
 		.progress("25/09/2025", angest, 2, "Skaven", _SMALL)
 		.progress("25/09/2025", whisp, 3, "Nains", _SMALL)
 		.progress("25/09/2025", whisp, 7, "squelettes spectraux", _SMALL)
-
+		.progress("25/09/2025", whisp, 1, "Table de Torture", _SMALL_DECOR)
 		.render();
 
+	let q30 = new _quest("quest-30", "TODO", "TODO", 30)
+		.progress("25/09/2025", whisp, 1, "Chaise Iron Maider", _SMALL_DECOR)
+		.progress("25/09/2025", whisp, 2, "Cible d'entrainement", _SMALL_DECOR)
+		.progress("25/09/2025", whisp, 2, "Ratelier", _SMALL_DECOR)
+		.render();
 
 //
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, transfopaper, tupad, whisp]);
