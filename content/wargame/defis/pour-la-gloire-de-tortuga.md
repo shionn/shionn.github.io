@@ -102,6 +102,9 @@ Ohé Pirates! Nous devons développer la Capitainerie maintenant que nous avons 
 
 <div id="quest-29"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map28.png
+[/gallery]
 
 
 ### Jour 265 Brasserie deviendra grande
