@@ -99,7 +99,7 @@ Voici les badges actuellement connu :
 ### Jour 270 Création Réserve
 
 Ohé Pirates! Nous nous agrandissons, nous pillons! AAAAAHHH le doux murmures des hurlements pendant les pillages!
-Mais ce n'est pas tout il faut entreposer tout ça,nos cales ne sont plus assez grandes.
+Mais ce n'est pas tout il faut entreposer tout ça, nos cales ne sont plus assez grandes.
 Il nous faut construire une reserve!
 
 <div id="quest-30"></div>
