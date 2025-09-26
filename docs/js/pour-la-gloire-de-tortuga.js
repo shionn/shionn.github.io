@@ -762,7 +762,7 @@ q(function() {
 		.progress("25/09/2025", whisp, 1, "Table de Torture", _SMALL_DECOR)
 		.render();
 
-	let q30 = new _quest("quest-30", "TODO", "TODO", 30)
+	let q30 = new _quest("quest-30", "Création Réserve", "Peindre 30 figurines ou Décors", 30)
 		.progress("25/09/2025", whisp, 1, "Chaise Iron Maider", _SMALL_DECOR)
 		.progress("25/09/2025", whisp, 2, "Cible d'entrainement", _SMALL_DECOR)
 		.progress("25/09/2025", whisp, 2, "Ratelier", _SMALL_DECOR)
@@ -771,6 +771,6 @@ q(function() {
 
 //
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, transfopaper, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28, q29]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30]);
 
 });

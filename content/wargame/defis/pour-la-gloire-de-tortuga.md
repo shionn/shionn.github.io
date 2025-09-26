@@ -96,9 +96,19 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 270 Création Réserve
+
+Ohé Pirates! Nous nous agrandissons, nous pillons! AAAAAHHH le doux murmures des hurlements pendant les pillages!
+Mais ce n'est pas tout il faut entreposer tout ça,nos cales ne sont plus assez grandes.
+Il nous faut construire une reserve!
+
+<div id="quest-30"></div>
+
+
+
 ### Jour 267 Lvl Up Capitainerie
 
-Ohé Pirates! Nous devons développer la Capitainerie maintenant que nous avons un nouveau quai! Nous allons l'agrandir! 30 Ressources seront déployées pour ça! 
+Ohé Pirates! Nous devons développer la Capitainerie maintenant que nous avons un nouveau quai! Nous allons l'agrandir!
 
 <div id="quest-29"></div>
 
@@ -121,7 +131,7 @@ pictures/defis/tortuga-2025/map27.png
 
 ### Jour 249 Brasserie deviendra grande
 
-Nous nous agrandissons, Encore! AAAAAHHH Plus de Bière, plus de Rhum, plus de femmes! La brasserie doit s'agrandir 30 Ressources seront déployées pour ça! 
+Nous nous agrandissons, Encore! AAAAAHHH Plus de Bière, plus de Rhum, plus de femmes! La brasserie doit s'agrandir!
 
 <div id="quest-27"></div>
 
