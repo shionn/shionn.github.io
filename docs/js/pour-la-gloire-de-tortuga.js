@@ -766,6 +766,7 @@ q(function() {
 		.progress("25/09/2025", whisp, 1, "Chaise Iron Maider", _SMALL_DECOR)
 		.progress("25/09/2025", whisp, 2, "Cible d'entrainement", _SMALL_DECOR)
 		.progress("25/09/2025", whisp, 2, "Ratelier", _SMALL_DECOR)
+		.progress("26/09/2025", whisp, 1, "Chef squelettes spectral", _SMALL)
 		.render();
 
 //
