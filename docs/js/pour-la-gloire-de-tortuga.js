@@ -771,6 +771,7 @@ q(function() {
 		.progress("25/09/2025", whisp, 2, "Ratelier", _SMALL_DECOR)
 		.progress("26/09/2025", whisp, 1, "Chef squelettes spectral", _SMALL)
 		.progress("27/09/2025", shionn, 1, "Chef Troggot", _BIG)
+		.progress("28/09/2025", angest, 1, "Capitaine Terminator", _MEDIUM)
 		.render();
 
 //
