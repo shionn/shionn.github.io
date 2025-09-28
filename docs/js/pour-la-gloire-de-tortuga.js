@@ -177,6 +177,7 @@ q(function() {
 			// 12 bon plan
 			if (player.countQuest(this.id)>=10) this.addBadge(date, player, 13); // faire 10 quetes
 			if (player.countQuest(this.id)>=20) this.addBadge(date, player, 14); // faire 20 quetes
+			if (player.countQuest(this.id)>=30) this.addBadge(date, player, 21); // faire 30 quetes
 			if (this.hasSend(player, _SMALL_DECOR) && this.hasSend(player, _MEDIUM_DECOR) && this.hasSend(player, _BIG_DECOR)) this.addBadge(date, player, 15); //petit/moyen/gros decors
 			if (this.sumFigHistory(_PAINT, player, _DECORD) >= 15) this.addBadge(date, player, 16); // envoyer 15 décors
 			this.current = this.current + count;
@@ -304,7 +305,7 @@ q(function() {
 		new _badge("Vague", "ra ra-double-team ", "Envoyer 20 figurine lors de la même quête", true),
 
 		new _badge("Uzi", "ra ra-bullets", "Faire 10 contributions à la même quête", true),
-		new _badge("Gargantuesque", "ra ra-monster-skull", "Peindre une très grosse figurine (>=120mm)", false), // 11 TODO true
+		new _badge("Gargantuesque", "ra ra-monster-skull", "Peindre une très grosse figurine (>=120mm)", true), // 11 TODO true
 		new _badge("Bon plan", "fa fa-thumbs-up", "Faire profiter la commu d'un bon plan", true), // 12
 		new _badge("Ten", "fa fa-battery-quarter", "Participer à 10 quête différente", true),
 		new _badge("Twenty", "fa fa-battery-half", "Participer à 20 quête différente", true),
@@ -312,9 +313,11 @@ q(function() {
 		new _badge("Decorama", "ra ra-castle-emblem", "Envoyer 15 décors dans la même quête", true),
 		new _badge("Dernier clou", "ra ra-ankh", "Achever une quête avec un décor", true),
 		new _badge("Collectionneur", "ra ra-player", "Obtenir 8 badges", true),
-		new _badge("Presque tous", "ra ra-muscle-up", "Obtenir presque tous les badges", false),
+		new _badge("Presque tous", "ra ra-muscle-up", "Obtenir presque tous les badges", true),
 
-		new _badge("Gotha'em all", "ra ra-queen-crown", "Obtenir tous les badge", false),
+		new _badge("Gotha'em all", "ra ra-queen-crown", "Obtenir tous les badge", true),
+		new _badge("Thirty", "fa fa-battery-three-quarters", "Participer à 30 quête différente", true),
+		new _badge("Forty", "fa fa-battery-full", "Participer à 40 quête différente", true),
 	);
 
 	const _PetitGros = 4;
@@ -767,6 +770,7 @@ q(function() {
 		.progress("25/09/2025", whisp, 2, "Cible d'entrainement", _SMALL_DECOR)
 		.progress("25/09/2025", whisp, 2, "Ratelier", _SMALL_DECOR)
 		.progress("26/09/2025", whisp, 1, "Chef squelettes spectral", _SMALL)
+		.progress("27/09/2025", shionn, 1, "Chef Troggot", _BIG)
 		.render();
 
 //
