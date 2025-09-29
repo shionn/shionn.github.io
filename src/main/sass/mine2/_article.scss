@@ -33,7 +33,7 @@ article {
 		p {
 			text-align: justify;
 		}
-		
+
 		blockquote {
 			border-left: double 3px var(--color-accent);
 //			margin: 0 15px;
@@ -44,13 +44,15 @@ article {
 	}
 
 	footer {
+		margin-top: calc(var(--padding) * 3);
+
 		&>div.comments {
 			span {
 				float: right;
 				font-size: smaller;
 			}
 		}
-		
+
 		form {
 			div {
 				@media all and (min-width: 720px) {

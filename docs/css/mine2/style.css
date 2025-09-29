@@ -201,6 +201,9 @@ article section blockquote {
   padding-left: var(--padding);
   font-style: italic;
 }
+article footer {
+  margin-top: calc(var(--padding) * 3);
+}
 article footer > div.comments span {
   float: right;
   font-size: smaller;
