@@ -71,6 +71,7 @@ https://shionn.github.io/2025/repaint-bulma.html
 https://shionn.github.io/2025/shenron-goku-nomnom.html
 https://shionn.github.io/2025/theme-update.html
 https://shionn.github.io/2025/underworld-gloom-gitz-zarbags.html
+https://shionn.github.io/2025/warcry-dok.html
 https://shionn.github.io/2025/webview-avec-javafx-et-screenshot.html
 https://shionn.github.io/2025/whisperia-1x03-zombis-coffres-rubis.html
 https://shionn.github.io/2025/whisperia-1x04-bureau-liche.html
@@ -154,6 +155,7 @@ https://shionn.github.io/tag/troll.html
 https://shionn.github.io/tag/underworld.html
 https://shionn.github.io/tag/vscode.html
 https://shionn.github.io/tag/war-game.html
+https://shionn.github.io/tag/warcry.html
 https://shionn.github.io/tag/warhammer-battle.html
 https://shionn.github.io/tag/webview.html
 https://shionn.github.io/tag/whisperia.html
