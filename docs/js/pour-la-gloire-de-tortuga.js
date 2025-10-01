@@ -774,6 +774,7 @@ q(function() {
 		.progress("28/09/2025", angest, 1, "Capitaine Terminator", _MEDIUM)
 		.progress("30/09/2025", whisp, 1, "Necromancien", _SMALL)
 		.progress("30/09/2025", tony, 1, "Fée violoniste", _SMALL)
+		.progress("01/10/2025", tony, 1, "Buste Loup", _SMALL)
 		.render();
 
 //
