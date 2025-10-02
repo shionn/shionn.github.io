@@ -232,6 +232,16 @@ sudo smartctl -a /dev/nvme0
 pct set <VMID> --hostname <newname>
 ~~~
 
+### changer les uid dans un rootfs
+
+~~~shell
+pct mount <ID>
+cd /var/lib/lxc/<ID>/rootfs
+find /var/lib/lxc/<ID>/rootfs/ -user <OLDUID> -exec chown -h <NEWUID> {} \;
+find /var/lib/lxc/<ID>/rootfs/ -group <OLDGID> -exec chgrp -h <NEWGID> {} \; 
+pct unmount <ID>
+~~~
+
 ## Vidéo
 ### OBS pas de Vaapi
 ~~~shell
