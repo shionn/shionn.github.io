@@ -3,6 +3,7 @@
 	"date": "2025/10/01",
 	"title": "Rodeur de l'ombre Khainites",
 	"tags": ["War Game", "Elfes Noirs", "Warcry", "DoK"],
+	"logo": "pictures/titles/dok/rodeur-ombre.jpg",
 	"category": "War Game",
 	"published": true,
 	"js" : [ ],
