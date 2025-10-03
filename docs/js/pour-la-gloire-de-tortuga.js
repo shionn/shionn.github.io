@@ -775,6 +775,12 @@ q(function() {
 		.progress("30/09/2025", whisp, 1, "Necromancien", _SMALL)
 		.progress("30/09/2025", tony, 1, "Fée violoniste", _SMALL)
 		.progress("01/10/2025", tony, 1, "Buste Loup", _SMALL)
+		.progress("02/10/2025", tony, 1, "Orcley Quinn", _MEDIUM)
+		.progress("03/10/2025", whisp, 1, "Barbare", _SMALL)
+		.progress("03/10/2025", whisp, 2, "Mannequin d'entrainement", _SMALL_DECOR)
+		.progress("03/10/2025", whisp, 1, "Assassin", _SMALL)
+		.progress("03/10/2025", whisp, 1, "Canard", _SMALL)
+		.progress("03/10/2025", shionn, 6, "Heraut de la Peste", _SMALL)
 		.render();
 
 //
