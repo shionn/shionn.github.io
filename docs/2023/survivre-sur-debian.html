@@ -350,6 +350,13 @@ sudo smartctl -a /dev/nvme0
 <h3>changer le hostname d'un container</h3>
 <pre class="shell"><code class="shell">pct set &lt;VMID&gt; --hostname &lt;newname&gt;
 </code></pre>
+<h3>changer les uid dans un rootfs</h3>
+<pre class="shell"><code class="shell">pct mount &lt;ID&gt;
+cd /var/lib/lxc/&lt;ID&gt;/rootfs
+find /var/lib/lxc/&lt;ID&gt;/rootfs/ -user &lt;OLDUID&gt; -exec chown -h &lt;NEWUID&gt; {} \;
+find /var/lib/lxc/&lt;ID&gt;/rootfs/ -group &lt;OLDGID&gt; -exec chgrp -h &lt;NEWGID&gt; {} \; 
+pct unmount &lt;ID&gt;
+</code></pre>
 <h2>Vidéo</h2>
 <h3>OBS pas de Vaapi</h3>
 <pre class="shell"><code class="shell">apt install mesa-va-drivers
