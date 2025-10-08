@@ -1,0 +1,10 @@
+{
+	"type": "post",
+	"date": "2025/10/08",
+	"title": "Kit d'aide gaming sur Debian",
+	"tags": ["Linux", "Debian", "Gaming", "Kit Survie"],
+	"category": "Linux",
+	"published": true,
+	"author": "Shionn",
+	"js" : [ "js/hljs/bash.min.js" ]
+}

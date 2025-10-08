@@ -13,10 +13,10 @@ https://shionn.github.io/index-11.html
 https://shionn.github.io/index-12.html
 https://shionn.github.io/2023/armee-nighthaunt.html
 https://shionn.github.io/2023/armee-skaven.html
+https://shionn.github.io/2023/debian-general-help-kit.html
 https://shionn.github.io/2023/equivalence-peinture.html
 https://shionn.github.io/2023/peindre-de-la-peau-skaven.html
 https://shionn.github.io/2023/reouverture.html
-https://shionn.github.io/2023/survivre-sur-debian.html
 https://shionn.github.io/2024/armee-elfes-noirs.html
 https://shionn.github.io/2024/armee-naine-cos.html
 https://shionn.github.io/2024/docker-sur-debian.html
@@ -49,6 +49,7 @@ https://shionn.github.io/2025/armee-gobs.html
 https://shionn.github.io/2025/bot-discord-en-java.html
 https://shionn.github.io/2025/col-du-crane-gobs-lanciers.html
 https://shionn.github.io/2025/debian-execute-task-before-and-after-suspend.html
+https://shionn.github.io/2025/debian-gaming-help-kit.html
 https://shionn.github.io/2025/decor-skaventide.html
 https://shionn.github.io/2025/elfes-noirs-arbaletriers.html
 https://shionn.github.io/2025/elfes-noirs-assassin.html

@@ -130,7 +130,8 @@
 				<li>
 					<a href="tag/desktop.html">Desktop</a>
 					<ul>
-						<li><a href="2023/survivre-sur-debian.html">Kit de Survie sur Debian</a></li>
+						<li><a href="2023/debian-general-help-kit.html">Kit d&#39;aide généraliste sur Debian</a></li>
+						<li><a href="2025/debian-gaming-help-kit.html">Kit d&#39;aide Gaming sur Debian</a></li>
 						<li><a href="2025/debian-execute-task-before-and-after-suspend.html">Script avant &amp; après la veille</a></li>
 						<li><a href="2025/openrgb-sur-debian.html">OpenRGB sur Débian</a></li>
 					</ul>
@@ -194,6 +195,40 @@
 			
 				<article class="short">
 	<header>
+		
+		<h1><a href="2025/debian-gaming-help-kit.html">Kit d&#39;aide gaming sur Debian</a></h1>
+		<div>
+			<span>Publié le 08 octobre 2025</span>
+			<span>
+				<span class="fa fa-folder-open"></span>
+				<a href="category/linux.html">Linux</a>
+			</span>
+			<span>
+				<span class="fa fa-flag"></span>
+				<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/gaming.html">Gaming</a><a href="tag/kit-survie.html">Kit Survie</a>
+			</span>
+		</div>
+	</header>
+	<section><p>Voici ma petite liste de truc et astuce pour jouer sous Debian.
+Cette page se concentre sur l'aspect jeux vidéo.
+Pour des astuced plus généraliste merci de <a href="2023/debian-general-help-kit.html">regarder cette page</a>.</p>
+<h2>Installation</h2>
+<h3>Steam</h3>
+<p>Il faut ajouter les dépôts <em>non-free</em> puis Ajouter des l'architecture i386, mettre à jour les depot puis installer steam :</p>
+<pre class="shell"><code class="shell">sudo dpkg --add-architecture i386
+sudo apt update
+sudo apt install steam
+</code></pre>
+<h3>Proton GE</h3>
+<p>Créer le dossier compatibilitytools.d dans steam si inexistant :</p>
+</section>
+	<footer>
+		<a href="2025/debian-gaming-help-kit.html"><span class="fa fa-eye"></span> Lire la suite</a>
+	</footer>
+</article>
+			
+				<article class="short">
+	<header>
 		<img src="pictures/titles/m720q-rx6400.jpg" title="Mini Pc gaming pour 250 brouzouf" alt="Mini Pc gaming pour 250 brouzouf" />
 		<h1><a href="2025/pc-gaming-m720q-rx6400.html">Mini Pc gaming pour 250 brouzouf</a></h1>
 		<div>
@@ -237,7 +272,7 @@
 						<a href="category/jdr.html">JDR&nbsp;(12)</a>
 					</li>
 					<li href="category/linux.html">
-						<a href="category/linux.html">Linux&nbsp;(9)</a>
+						<a href="category/linux.html">Linux&nbsp;(10)</a>
 					</li>
 					<li href="category/manga.html">
 						<a href="category/manga.html">Manga&nbsp;(2)</a>
@@ -275,7 +310,7 @@
 				</a><a href="tag/conversion.html" class="tag0">
 					Conversion&nbsp;(1)
 				</a><a href="tag/debian.html" class="tag1">
-					Debian&nbsp;(6)
+					Debian&nbsp;(7)
 				</a><a href="tag/desktop.html" class="tag0">
 					Desktop&nbsp;(3)
 				</a><a href="tag/developpement.html" class="tag0">
@@ -303,7 +338,7 @@
 				</a><a href="tag/figurine.html" class="tag5">
 					Figurine&nbsp;(27)
 				</a><a href="tag/gaming.html" class="tag0">
-					Gaming&nbsp;(1)
+					Gaming&nbsp;(2)
 				</a><a href="tag/geek.html" class="tag0">
 					Geek&nbsp;(2)
 				</a><a href="tag/gloomspite-gitz.html" class="tag1">
@@ -321,13 +356,13 @@
 				</a><a href="tag/jellyfin.html" class="tag0">
 					Jellyfin&nbsp;(1)
 				</a><a href="tag/kit-survie.html" class="tag0">
-					Kit Survie&nbsp;(3)
+					Kit Survie&nbsp;(4)
 				</a><a href="tag/kit-bash.html" class="tag0">
 					Kit bash&nbsp;(1)
 				</a><a href="tag/kruelboyz.html" class="tag0">
 					Kruelboyz&nbsp;(1)
 				</a><a href="tag/linux.html" class="tag1">
-					Linux&nbsp;(6)
+					Linux&nbsp;(7)
 				</a><a href="tag/manga.html" class="tag0">
 					Manga&nbsp;(2)
 				</a><a href="tag/matos.html" class="tag0">
@@ -398,11 +433,12 @@
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2025 (35)</a>
+						<a href="#">2025 (36)</a>
 						<ul>
 							<li>
-								<a href="#">octobre (1)</a>
+								<a href="#">octobre (2)</a>
 								<ul>
+									<li><a href="2025/debian-gaming-help-kit.html">Kit d&#39;aide gaming sur Debian</a></li>
 									<li><a href="2025/warcry-dok.html">Rodeur de l&#39;ombre Khainites</a></li>
 								</ul>
 							</li>
@@ -587,7 +623,7 @@
 							<li>
 								<a href="#">novembre (1)</a>
 								<ul>
-									<li><a href="2023/survivre-sur-debian.html">Kit de Survie sur Debian</a></li>
+									<li><a href="2023/debian-general-help-kit.html">Kit de Survie sur Debian</a></li>
 								</ul>
 							</li>
 							<li>
@@ -640,6 +676,7 @@
 	<script type="text/javascript" src="js/comment.js"></script>
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
+	<script type="text/javascript" src="js/hljs/bash.min.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>

@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://shionn.github.io/index.html</loc>
-		<lastmod>2025-10-01</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-1.html</loc>
-		<lastmod>2025-10-01</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-2.html</loc>
-		<lastmod>2025-10-01</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-3.html</loc>
-		<lastmod>2025-10-01</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-4.html</loc>
-		<lastmod>2025-10-01</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-5.html</loc>
-		<lastmod>2025-10-01</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-6.html</loc>
-		<lastmod>2025-10-01</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-7.html</loc>
-		<lastmod>2025-10-01</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-8.html</loc>
-		<lastmod>2025-10-01</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-9.html</loc>
-		<lastmod>2025-10-01</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-10.html</loc>
-		<lastmod>2025-10-01</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-11.html</loc>
-		<lastmod>2025-10-01</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-12.html</loc>
-		<lastmod>2025-10-01</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/2023/armee-nighthaunt.html</loc>
@@ -59,6 +59,10 @@
 	<url>
 		<loc>https://shionn.github.io/2023/armee-skaven.html</loc>
 		<lastmod>2025-08-31</lastmod>
+	</url>
+	<url>
+		<loc>https://shionn.github.io/2023/debian-general-help-kit.html</loc>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/2023/equivalence-peinture.html</loc>
@@ -71,10 +75,6 @@
 	<url>
 		<loc>https://shionn.github.io/2023/reouverture.html</loc>
 		<lastmod>2024-10-12</lastmod>
-	</url>
-	<url>
-		<loc>https://shionn.github.io/2023/survivre-sur-debian.html</loc>
-		<lastmod>2025-09-19</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/2024/armee-elfes-noirs.html</loc>
@@ -203,6 +203,10 @@
 	<url>
 		<loc>https://shionn.github.io/2025/debian-execute-task-before-and-after-suspend.html</loc>
 		<lastmod>2025-04-08</lastmod>
+	</url>
+	<url>
+		<loc>https://shionn.github.io/2025/debian-gaming-help-kit.html</loc>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/2025/decor-skaventide.html</loc>
@@ -350,7 +354,7 @@
 	</url>
 	<url>
 		<loc>https://shionn.github.io/category/linux.html</loc>
-		<lastmod>2025-09-07</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/category/manga.html</loc>
@@ -418,7 +422,7 @@
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/debian.html</loc>
-		<lastmod>2025-06-19</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/desktop.html</loc>
@@ -466,7 +470,7 @@
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/gaming.html</loc>
-		<lastmod>2025-09-07</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/geek.html</loc>
@@ -506,7 +510,7 @@
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/kit-survie.html</loc>
-		<lastmod>2025-06-09</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/kruelboyz.html</loc>
@@ -514,7 +518,7 @@
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/linux.html</loc>
-		<lastmod>2025-06-19</lastmod>
+		<lastmod>2025-10-08</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/manga.html</loc>

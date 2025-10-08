@@ -54,7 +54,8 @@ category/linux	Linux
 		2025/jellyfin-proxmox-hardware-encode	Jellyfin, Transcodage matériel, Proxmox
 		2026/nvidia-proxmox-lxc-passthrought-ollama	Ollama Nvidia Passthrought LXC	2026-02-06
 	tag/desktop	Desktop
-		2023/survivre-sur-debian	Kit de Survie sur Debian
+		2023/debian-general-help-kit	Kit d'aide généraliste sur Debian
+		2025/debian-gaming-help-kit	Kit d'aide Gaming sur Debian
 		2025/debian-execute-task-before-and-after-suspend	Script avant & après la veille
 		2025/openrgb-sur-debian	OpenRGB sur Débian
 	tag/matos	Matos
