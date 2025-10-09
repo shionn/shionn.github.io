@@ -11,6 +11,7 @@ https://shionn.github.io/index-9.html
 https://shionn.github.io/index-10.html
 https://shionn.github.io/index-11.html
 https://shionn.github.io/index-12.html
+https://shionn.github.io/index-13.html
 https://shionn.github.io/2023/armee-nighthaunt.html
 https://shionn.github.io/2023/armee-skaven.html
 https://shionn.github.io/2023/debian-general-help-kit.html
@@ -66,6 +67,7 @@ https://shionn.github.io/2025/jellyfin-proxmox-hardware-encode.html
 https://shionn.github.io/2025/openrgb-sur-debian.html
 https://shionn.github.io/2025/page-des-liens-dev.html
 https://shionn.github.io/2025/page-des-liens-linux.html
+https://shionn.github.io/2025/pattern-singleton-java.html
 https://shionn.github.io/2025/pc-gaming-m720q-rx6400.html
 https://shionn.github.io/2025/pour-la-gloire-de-tortuga.html
 https://shionn.github.io/2025/repaint-bulma.html
@@ -136,6 +138,7 @@ https://shionn.github.io/tag/nginx.html
 https://shionn.github.io/tag/nightaunt.html
 https://shionn.github.io/tag/nomnom-miniature.html
 https://shionn.github.io/tag/openrgb.html
+https://shionn.github.io/tag/pattern.html
 https://shionn.github.io/tag/peinture.html
 https://shionn.github.io/tag/photo.html
 https://shionn.github.io/tag/platformio.html
@@ -148,6 +151,7 @@ https://shionn.github.io/tag/script.html
 https://shionn.github.io/tag/seigneurs-ruinem-nes.html
 https://shionn.github.io/tag/server.html
 https://shionn.github.io/tag/shenron.html
+https://shionn.github.io/tag/singleton.html
 https://shionn.github.io/tag/skaven.html
 https://shionn.github.io/tag/skaventide.html
 https://shionn.github.io/tag/systemd.html

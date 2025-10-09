@@ -158,6 +158,7 @@
 					<a href="tag/java.html">Java</a>
 					<ul>
 						<li><a href="2025/bot-discord-en-java.html">Bot discord</a></li>
+						<li><a href="2025/pattern-singleton-java.html">Pattern Singleton</a></li>
 						<li><a href="2025/webview-avec-javafx-et-screenshot.html">Screenshot avec JavaFX</a></li>
 					</ul>
 				</li>
@@ -192,6 +193,48 @@
 		
 		
 		
+			
+				<article class="short">
+	<header>
+		
+		<h1><a href="2025/pattern-singleton-java.html">Pattern Singleton en Java</a></h1>
+		<div>
+			<span>Publié le 09 octobre 2025</span>
+			<span>
+				<span class="fa fa-folder-open"></span>
+				<a href="category/code.html">Code</a>
+			</span>
+			<span>
+				<span class="fa fa-flag"></span>
+				<a href="tag/java.html">Java</a><a href="tag/pattern.html">Pattern</a><a href="tag/singleton.html">Singleton</a>
+			</span>
+		</div>
+	</header>
+	<section><p>J'ai écris cet article il y a une dixaine d'année au travail, mon chef m'as donné l'autorisation de partager cela sur mon blog.</p>
+<h2>Pattern conseillé</h2>
+<p>Généralement lorsque l'on souhait faire un singleton chargé au dernier moment (Lazy Instance) on conseille d’utiliser ce pattern :</p>
+<pre class="java"><code class="java">public class MySignleton {
+    private static class MySingletonHolder {
+        private static final MySingleton instance = new MySingleton();
+    }
+ 
+    private MySingleton() {
+        // initialisation
+    }
+ 
+    public static MySingleton getInstance() {
+        return MySingletonHolder.instance;
+    }
+}
+</code></pre>
+<p>Mais pourquoi utilise t'on ce pattern ? Ce pattern s'appuie sur le mécanisme de chargement de classe de java pour s'assurer à la fois l'instanciation unique et threadsafe de notre unique instance.</p>
+<h2>Pattern déconseillé</h2>
+<h3>synchronized getInstance</h3>
+</section>
+	<footer>
+		<a href="2025/pattern-singleton-java.html"><span class="fa fa-eye"></span> Lire la suite</a>
+	</footer>
+</article>
 			
 				<article class="short">
 	<header>
@@ -336,7 +379,7 @@ Surtout que j'ai perdu beaucoup d'image dans l'opération.</p>
 				<h1><span class="fa fa-folder-open"></span> Catégories</h1>
 				<ul>
 					<li href="category/code.html">
-						<a href="category/code.html">Code&nbsp;(4)</a>
+						<a href="category/code.html">Code&nbsp;(5)</a>
 					</li>
 					<li href="category/jdr.html">
 						<a href="category/jdr.html">JDR&nbsp;(12)</a>
@@ -417,8 +460,8 @@ Surtout que j'ai perdu beaucoup d'image dans l'opération.</p>
 					Gobelin&nbsp;(7)
 				</a><a href="tag/guide.html" class="tag0">
 					Guide&nbsp;(1)
-				</a><a href="tag/java.html" class="tag0">
-					Java&nbsp;(4)
+				</a><a href="tag/java.html" class="tag1">
+					Java&nbsp;(5)
 				</a><a href="tag/javafx.html" class="tag0">
 					JavaFX&nbsp;(1)
 				</a><a href="tag/jdr.html" class="tag0">
@@ -449,6 +492,8 @@ Surtout que j'ai perdu beaucoup d'image dans l'opération.</p>
 					NomNom Miniature&nbsp;(1)
 				</a><a href="tag/openrgb.html" class="tag0">
 					OpenRGB&nbsp;(1)
+				</a><a href="tag/pattern.html" class="tag0">
+					Pattern&nbsp;(1)
 				</a><a href="tag/peinture.html" class="tag0">
 					Peinture&nbsp;(3)
 				</a><a href="tag/photo.html" class="tag0">
@@ -473,6 +518,8 @@ Surtout que j'ai perdu beaucoup d'image dans l'opération.</p>
 					Server&nbsp;(5)
 				</a><a href="tag/shenron.html" class="tag0">
 					Shenron&nbsp;(1)
+				</a><a href="tag/singleton.html" class="tag0">
+					Singleton&nbsp;(1)
 				</a><a href="tag/skaven.html" class="tag0">
 					Skaven&nbsp;(4)
 				</a><a href="tag/skaventide.html" class="tag0">
@@ -503,11 +550,12 @@ Surtout que j'ai perdu beaucoup d'image dans l'opération.</p>
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2025 (36)</a>
+						<a href="#">2025 (37)</a>
 						<ul>
 							<li>
-								<a href="#">octobre (2)</a>
+								<a href="#">octobre (3)</a>
 								<ul>
+									<li><a href="2025/pattern-singleton-java.html">Pattern Singleton en Java</a></li>
 									<li><a href="2025/debian-gaming-help-kit.html">Kit d&#39;aide gaming sur Debian</a></li>
 									<li><a href="2025/warcry-dok.html">Rodeur de l&#39;ombre Khainites</a></li>
 								</ul>

@@ -158,6 +158,7 @@
 					<a href="tag/java.html">Java</a>
 					<ul>
 						<li><a href="2025/bot-discord-en-java.html">Bot discord</a></li>
+						<li><a href="2025/pattern-singleton-java.html">Pattern Singleton</a></li>
 						<li><a href="2025/webview-avec-javafx-et-screenshot.html">Screenshot avec JavaFX</a></li>
 					</ul>
 				</li>
@@ -190,122 +191,57 @@
 	</header>
 	<main>
 		
-		
-		
-		
-			<article>
+			
+				<article class="short">
 	<header>
 		
-		<h1><a href="draft/pattern-singleton-java.html">Pattern Singleton en Java</a></h1>
+		<h1><a href="2023/reouverture.html">Réouverture sur Github.io. Apprendre de nos erreurs.</a></h1>
 		<div>
-			<span>Publié le 09 octobre 2025</span>
+			<span>Publié le 30 mai 2023</span>
 			<span>
 				<span class="fa fa-folder-open"></span>
-				<a href="category/code.html">Code</a>
+				<a href="category/vie-du-blog.html">Vie du Blog</a>
 			</span>
 			<span>
 				<span class="fa fa-flag"></span>
-				<a href="tag/java.html">Java</a><a href="tag/pattern.html">Pattern</a><a href="tag/singleton.html">Singleton</a>
+				<a href="tag/blog.html">Blog</a><a href="tag/developpement.html">Developpement</a><a href="tag/geek.html">Geek</a><a href="tag/java.html">Java</a>
 			</span>
 		</div>
 	</header>
-	<section><p>J'ai écris cet article il y a une dixaine d'année au travail, mon chef m'as donné l'autorisation de partager cela sur mon blog.</p>
-<h2>Pattern conseillé</h2>
-<p>Généralement lorsque l'on souhait faire un singleton chargé au dernier moment (Lazy Instance) on conseille d’utiliser ce pattern :</p>
-<pre class="java"><code class="java">public class MySignleton {
-    private static class MySingletonHolder {
-        private static final MySingleton instance = new MySingleton();
-    }
- 
-    private MySingleton() {
-        // initialisation
-    }
- 
-    public static MySingleton getInstance() {
-        return MySingletonHolder.instance;
-    }
-}
-</code></pre>
-<p>Mais pourquoi utilise t'on ce pattern ? Ce pattern s'appuie sur le mécanisme de chargement de classe de java pour s'assurer à la fois l'instanciation unique et threadsafe de notre unique instance.</p>
-<h2>Pattern déconseillé</h2>
-<h3>synchronized getInstance</h3>
-<p>Un autre pattern fonctionnel mais qui n'est pas optimal :</p>
-<pre class="java"><code class="java">public class MySignleton {
-    private static MySingleton instance;
-     
-    private MySingleton() {
-        // initialisation
-    }
- 
-    public static synchronized MySingleton getInstance() {
-        if (instance == null) {
-            instance = new MySingleton();
-        }
-        return instance;
-    }
-}
-</code></pre>
-<p>Ce pattern n'est pas optimal car on synchronise la méthode getInstance à chaque appel. Et dans en environnement multitâche, ce n'est pas ce que l'on souhaite car cel provoque une bonne perte de performance.</p>
-<h3>double null check synchronized</h3>
-<p>Une solution alors est de synchroniser uniquement l'instanciation du block. Comme suit :</p>
-<pre class="java"><code class="java">public class MySignleton {
-    private static MySingleton instance;
-     
-    private MySingleton() {
-        // initialisation
-    }
- 
-    public static MySingleton getInstance() {
-        if (instance == null) {
-            synchronized (MySignleton.class) {
-                if (instance == null) {
-                    instance = new MySingleton();
-                }
-            }
-        }
-        return instance;
-    }
-}
-</code></pre>
-<p>Si à la lecture du code ce pattern semble marcher, ce n'est pas le cas. Ce qui suit n'est qu'une expression de ma compréhension de plusieurs année de lecture sur le sujet.</p>
-<p>Cela est du à la représentation interne de la mémoire java. En effet l'affectation de la variable instance et l’exécution du code de l'instanciation est fait en Out-of-Order. C'est à dire que l'execution des instructions de code ne se font pas dans l'ordre de leur écriture.</p>
-<p>Techniquement quand on écrit :</p>
-<pre class="java"><code class="java">MySingleton instance = new MySingleton();
-</code></pre>
-<p>Voila ce que fait réellement la VM :</p>
+	<section><p>Bonjour,</p>
+<p>Un jour j'ai choisi de redémarrer mon serveur sur OVH. Il n'as pas redémarrer.
+J'ai perdu ma BDD.
+Et bien sur mon serveur de backup personnel n'était plus en ligne depuis longtemps.
+Du coup plus d'OVH, j'ai choisi de refaire le blog mais en statique sur github.io.
+Donc plus de commentaire, désoler.</p>
+<p>Bien évidement je pourrai prendre un millier de générateur de site statique existant,
+mais pourquoi pas le faire soit même.
+Mais il semblerait que je préfère redécouvrir la roue.
+Donc j'ai fait mon propre générateur de site statique que vous retrouverez dans mon github (section contact).
+Ce moteur utilise les technologie suivante :</p>
 <ul>
-<li>allocation de l'espace mémoire pour l’objet de type MySingleton</li>
-<li>affectation de l'adresse de cette espace mémoire à la variable instance</li>
-<li>exécution du block code de l'initialisation de MySingleton (appel au new etc...)</li>
+<li>Java</li>
+<li>Template en Thymeleaf</li>
+<li>Lib JS maison qui remplace rapidement Jquery</li>
+<li>FontAwesome</li>
 </ul>
-<p>Ce qui signifit que la variable qui contient l'instance est alloué avant que le contenu du block du constructeur de cette classe soit éxécuté. Ce qui signifie que le test <code>instance  == null</code> n'est pas gage que l'instance soit initialisé.</p>
-<h2>Conclusion</h2>
-<p>Utiliser le premier pattern.</p>
-<h3>Source</h3>
-<ul>
-<li><a href="http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html" target="_blank">pourquoi le double check ne marche pas</a></li>
-</ul>
+<p>Il va me falloir beaucoup de temps pour reprendre tous le contenu depuis web archive.
+Surtout que j'ai perdu beaucoup d'image dans l'opération.</p>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 09 octobre 2025.</em>
-		<h2>Commentaires</h2>
-		<div class="comments"></div>
-		<h2>Ajouter un commentaire</h2>
-		<form method="post" class="comments">
-			<div>
-				<label for="author">Votre pseudo</label>
-				<input type="text" name="author" required>
-			</div>
-			<div>
-				<label for="author">Votre message</label>
-				<textarea name="content" required></textarea>
-			</div>
-			<div>
-				<input type="submit" value="Commenter">
-			</div>
-		</form>
+		<a href="2023/reouverture.html"><span class="fa fa-eye"></span> Lire la suite</a>
 	</footer>
 </article>
+			
+			<div>
+				
+				<a href="index-12.html">&lt;</a>
+				Page : 14/14
+				
+			</div>
+		
+		
+		
 		
 		
 	</main>
@@ -315,7 +251,7 @@
 				<h1><span class="fa fa-folder-open"></span> Catégories</h1>
 				<ul>
 					<li href="category/code.html">
-						<a href="category/code.html">Code&nbsp;(4)</a>
+						<a href="category/code.html">Code&nbsp;(5)</a>
 					</li>
 					<li href="category/jdr.html">
 						<a href="category/jdr.html">JDR&nbsp;(12)</a>
@@ -396,8 +332,8 @@
 					Gobelin&nbsp;(7)
 				</a><a href="tag/guide.html" class="tag0">
 					Guide&nbsp;(1)
-				</a><a href="tag/java.html" class="tag0">
-					Java&nbsp;(4)
+				</a><a href="tag/java.html" class="tag1">
+					Java&nbsp;(5)
 				</a><a href="tag/javafx.html" class="tag0">
 					JavaFX&nbsp;(1)
 				</a><a href="tag/jdr.html" class="tag0">
@@ -428,6 +364,8 @@
 					NomNom Miniature&nbsp;(1)
 				</a><a href="tag/openrgb.html" class="tag0">
 					OpenRGB&nbsp;(1)
+				</a><a href="tag/pattern.html" class="tag0">
+					Pattern&nbsp;(1)
 				</a><a href="tag/peinture.html" class="tag0">
 					Peinture&nbsp;(3)
 				</a><a href="tag/photo.html" class="tag0">
@@ -452,6 +390,8 @@
 					Server&nbsp;(5)
 				</a><a href="tag/shenron.html" class="tag0">
 					Shenron&nbsp;(1)
+				</a><a href="tag/singleton.html" class="tag0">
+					Singleton&nbsp;(1)
 				</a><a href="tag/skaven.html" class="tag0">
 					Skaven&nbsp;(4)
 				</a><a href="tag/skaventide.html" class="tag0">
@@ -482,11 +422,12 @@
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2025 (36)</a>
+						<a href="#">2025 (37)</a>
 						<ul>
 							<li>
-								<a href="#">octobre (2)</a>
+								<a href="#">octobre (3)</a>
 								<ul>
+									<li><a href="2025/pattern-singleton-java.html">Pattern Singleton en Java</a></li>
 									<li><a href="2025/debian-gaming-help-kit.html">Kit d&#39;aide gaming sur Debian</a></li>
 									<li><a href="2025/warcry-dok.html">Rodeur de l&#39;ombre Khainites</a></li>
 								</ul>
@@ -725,9 +666,17 @@
 	<script type="text/javascript" src="js/comment.js"></script>
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
-	<script type="text/javascript" src="js/hljs/java.min.js"></script>
 	<script type="text/javascript" src="js/hljs/bash.min.js"></script>
+	<script type="text/javascript" src="js/hljs/cpp.min.js"></script>
+	<script type="text/javascript" src="js/hljs/java.min.js"></script>
+	<script type="text/javascript" src="js/hljs/python.min.js"></script>
+	<script type="text/javascript" src="js/hljs/sql.min.js"></script>
 	<script type="text/javascript" src="js/hljs/xml.min.js"></script>
+	<script type="text/javascript" src="js/paint-db.js"></script>
+	<script type="text/javascript" src="js/paint-equivalence-db.js"></script>
+	<script type="text/javascript" src="js/paint-equivalence.js"></script>
+	<script type="text/javascript" src="js/paint-guide.js"></script>
+	<script type="text/javascript" src="js/pour-la-gloire-de-tortuga.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>
