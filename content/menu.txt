@@ -68,7 +68,7 @@ category/code	Code
 		2025/ntp-esp32	Synchronisation horloge ntp sur ESP32	2025-11-26
 	tag/java	Java	2025-07-13
 		2025/bot-discord-en-java	Bot discord
-		2025/pattern-singleton-java	Pattern Singleton	2025-10-09
+		2025/pattern-singleton-java	Pattern Singleton	2026-03-26
 		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX
 	tag/python	Python	2025-12-20
 		2026/bot-twitch-python	Bot Twitch	2026-01-13
