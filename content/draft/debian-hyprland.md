@@ -83,7 +83,27 @@ make all
 sudo make install
 ~~~
 
+Installation optionnel 
 
+~~~shell
+sudo apt install qt6-declarative-dev
+git clone --recursive -b v0.1.0 git@github.com:hyprwm/hyprland-qt-support.git
+cd hyprland-qt-support
+cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DINSTALL_QML_PREFIX=/lib/qt6/qml -S . -B ./build
+cmake --build ./build --config Release --target all -j`nproc 2>/dev/null || getconf NPROCESSORS_CONF`
+sudo cmake --install build
+~~~
+
+~~~shell
+sudo apt install qt6-wayland-dev qt6-wayland-private-dev qt6-3d-dev 	qt6-5compat-dev
+git clone --recursive -b v0.1.5 git@github.com:hyprwm/hyprland-qtutils.git
+cd hyprland-qtutils
+cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr -S . -B ./build
+cmake --build ./build --config Release --target all -j`nproc 2>/dev/null || getconf NPROCESSOR
+
+
+DE LA MERDE
+~~~
 
 
 Il faut installer kitty, comme termminal en plus de hyprland
@@ -99,7 +119,10 @@ sudo apt install kitty
 gamescope -W 5120 -H 1440 -f --sdr-gamut-wideness 1 -- 
 
 Ressource : 
- -https://wiki.hypr.land
+
+- https://wiki.hypr.land
+- https://github.com/hyprwm
+- https://github.com/JaKooLit/Debian-Hyprland
 
 
 
