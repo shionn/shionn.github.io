@@ -781,6 +781,9 @@ q(function() {
 		.progress("03/10/2025", whisp, 1, "Assassin", _SMALL)
 		.progress("03/10/2025", whisp, 1, "Canard", _SMALL)
 		.progress("03/10/2025", shionn, 6, "Heraut de la Peste", _SMALL)
+		.progress("11/10/2025", phylios, 1, "Hyoga", _BIG)
+		.addBadge("11/10/2025", phylios, _Gargantuesque) // not Auto
+		.progress("11/10/2025", phylios, 1, "Truc degeux", _MEDIUM)
 		.render();
 
 //
