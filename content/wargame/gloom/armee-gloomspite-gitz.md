@@ -207,7 +207,26 @@ pictures/aos/gloomspite/shootas/04.jpg
 pictures/aos/gloomspite/shootas/05.jpg
 [/gallery]
 
-[after date="2025/09/15"]
+[after date="2026/02/14"]
+
+### Troupeau de Squigs
+
+Proviennent de l'abonnement Stormbringer. J'ai doublé cd numéro.
+
+* Peinte en Octobre 2025
+* En environ 18 heures dont 12 pour les Squig.
+
+[gallery w=500 h=200]
+pictures/aos/gloomspite/squig-herd/01.jpg
+[/gallery]
+[gallery w=500 h=200]
+pictures/aos/gloomspite/squig-herd/02.jpg
+pictures/aos/gloomspite/squig-herd/03.jpg
+pictures/aos/gloomspite/squig-herd/04.jpg
+pictures/aos/gloomspite/squig-herd/05.jpg
+[/gallery]
+
+[/after]
 
 ## Araignée
 
@@ -246,8 +265,6 @@ Le chaman-tisseur est magnétisé et peu être joué à pied ou sur l'Arachnaroc
 pictures/aos/gloomspite/shaman-tisseur/01.jpg
 pictures/aos/gloomspite/shaman-tisseur/02.jpg
 [/gallery]
-
-[/after]
 
 [after date="2026/01/21"]
 
