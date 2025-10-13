@@ -784,6 +784,7 @@ q(function() {
 		.progress("11/10/2025", phylios, 1, "Hyoga", _BIG)
 		.addBadge("11/10/2025", phylios, _Gargantuesque) // not Auto
 		.progress("11/10/2025", phylios, 1, "Truc degeux", _MEDIUM)
+		.progress("12/10/2025", angest, 1, "Kobold", _MEDIUM)
 		.render();
 
 //
