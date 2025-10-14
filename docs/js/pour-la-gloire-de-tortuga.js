@@ -785,7 +785,17 @@ q(function() {
 		.addBadge("11/10/2025", phylios, _Gargantuesque) // not Auto
 		.progress("11/10/2025", phylios, 1, "Truc degeux", _MEDIUM)
 		.progress("12/10/2025", angest, 1, "Kobold", _MEDIUM)
+		.progress("14/10/2025", whisp, 1, "Loup Mort Vivant", _MEDIUM)
+		.progress("14/10/2025", whisp, 2, "Loup Géant", _MEDIUM)
+		.progress("14/10/2025", whisp, 1, "Coffres", _MEDIUM)
 		.render();
+
+	let q31 = new _quest("quest-31", "On mène un Raid!", "Peindre 30 figurines", 30);
+
+	let q32 = new _quest("quest-32", "	Le Marché Noir!", "Peindre 25 ou plus en 15 jours", 50);
+
+	let q33 = new _quest("quest-33", "Création Réserve", "Peindre 30 figurines ou Décors", 30)
+		.progress("14/10/2025", whisp, 3, "Coffres", _MEDIUM);
 
 //
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, transfopaper, tupad, whisp]);
