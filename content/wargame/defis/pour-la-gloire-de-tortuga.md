@@ -96,6 +96,15 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 287 
+
+Ohé Pirates!
+A notre tour d'aller chatouiller les autres on va leur faire boire la tasse à ces mécréants!
+Tous à vos postes de combats et pas de quartiers!
+Il nous faudra 30 ressources pour en venir à bout et leur voler tout ce qui a de la valeur! AAAAAhahahahahaaaaaaa
+
+<div id="quest-31"></div>
+
 ### Jour 270 Création Réserve
 
 Ohé Pirates! Nous nous agrandissons, nous pillons! AAAAAHHH le doux murmures des hurlements pendant les pillages!
@@ -104,6 +113,9 @@ Il nous faut construire une reserve!
 
 <div id="quest-30"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map29.png
+[/gallery]
 
 
 ### Jour 267 Lvl Up Capitainerie

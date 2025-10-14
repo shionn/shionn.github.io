@@ -790,15 +790,17 @@ q(function() {
 		.progress("14/10/2025", whisp, 1, "Coffres", _MEDIUM)
 		.render();
 
-	let q31 = new _quest("quest-31", "On mène un Raid!", "Peindre 30 figurines", 30);
+	let q31 = new _quest("quest-31", "On mène un Raid!", "Peindre 30 figurines en 15 jours", 30)
+		.progress("14/10/2025", shionn, 5, "Heraut du froid", _SMALL)
+		.render()
 
-	let q32 = new _quest("quest-32", "	Le Marché Noir!", "Peindre 25 ou plus en 15 jours", 50);
+	let q32 = new _quest("quest-32", "Le Marché Noir!", "Peindre un max de firgurine en 15 jours", 25);
 
 	let q33 = new _quest("quest-33", "Création Réserve", "Peindre 30 figurines ou Décors", 30)
 		.progress("14/10/2025", whisp, 3, "Coffres", _MEDIUM);
 
 //
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, transfopaper, tupad, whisp]);
-	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30]);
+	_renderQuests([q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30, q31]);
 
 });
