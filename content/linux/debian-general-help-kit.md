@@ -171,6 +171,8 @@ echo "syntax on" >> ~/.vimrc
 ## Youtube
 ### Downloader une video
 
+En discutant en vocale sur le didi de Steve, j'ai decouvert ce petit outil.
+
 ~~~shell
 sudo apt install yt-dlp
 yt-dlp -f 'bestvideo[codec^=av01]/bestvideo+bestaudio' --merge-output-format mkv <URL>
