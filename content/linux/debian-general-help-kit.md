@@ -168,6 +168,15 @@ Ajouter la coloration syntaxic :
 echo "syntax on" >> ~/.vimrc
 ~~~
 
+## Youtube
+### Downloader une video
+
+~~~shell
+sudo apt install yt-dlp
+yt-dlp -f 'bestvideo[codec^=av01]/bestvideo+bestaudio' --merge-output-format mkv <URL>
+~~~
+
+
 ## Wayland
 ### executer un truc en XWayland : 
 

@@ -1,6 +1,6 @@
 Voici ma petite liste de truc et astuce pour jouer sous Debian. 
 Cette page se concentre sur l'aspect jeux vidéo.
-Pour des astuced plus généraliste merci de [regarder cette page](2023/debian-general-help-kit.html).
+Pour des astuces plus généraliste merci de [regarder cette page](2023/debian-general-help-kit.html).
 
 ## Installation
 
