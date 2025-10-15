@@ -309,6 +309,11 @@ pct unmount &lt;ID&gt;
 <p>Ajouter la coloration syntaxic :</p>
 <pre class="shell"><code class="shell">echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
 </code></pre>
+<h2>Youtube</h2>
+<h3>Downloader une video</h3>
+<pre class="shell"><code class="shell">sudo apt install yt-dlp
+yt-dlp -f 'bestvideo[codec^=av01]/bestvideo+bestaudio' --merge-output-format mkv &lt;URL&gt;
+</code></pre>
 <h2>Wayland</h2>
 <h3>executer un truc en XWayland :</h3>
 <pre class="shell"><code class="shell">GDK_BACKEND=x11 &lt;command&gt;
@@ -360,7 +365,7 @@ sudo systemctl enable MonService.service
 </code></pre>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 08 octobre 2025</span>.</em>
+		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 15 octobre 2025</span>.</em>
 		<h2>Commentaires</h2>
 		<div class="comments"></div>
 		<h2>Ajouter un commentaire</h2>
