@@ -178,6 +178,12 @@ sudo apt install yt-dlp
 yt-dlp -f 'bestvideo[codec^=av01]/bestvideo+bestaudio' --merge-output-format mkv <URL>
 ~~~
 
+On peu aller tres loin, pour telecharger toutes les musiques d'une playlist et en plus découper chaque video selon le chapitrage avec les mignatures  : 
+
+~~~shell
+yt-dlp --split-chapters -f 'bestaudio' --output '%(playlist_title)s/sources/%(title)s.%(ext)s' --output chapter:'%(playlist_title)s/%(title)s/%(section_number)02d - %(section_title)s.%(ext)s' --restrict-filenames --write-thumbnail --output thumbnail:'%(playlist_title)s/%(title)s/00 - %(title)s.%(ext)s' <URL en /playlist?list=>
+~~~
+
 
 ## Wayland
 ### executer un truc en XWayland : 
