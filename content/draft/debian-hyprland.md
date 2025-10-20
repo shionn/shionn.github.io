@@ -73,7 +73,9 @@ Je n'ai pas réussi à le themé comme je voulais.
 J'ai choisi de mettre les notifications en bas de l'écran, le clic sur la notification m'ammene sur le sujet de la notification. 
 Mais pour cela il m'a falu ajouter une configuration à hyprland. `focus_on_activate = true`.
 
+### Elevation de privilege
 
+J'ai essayer hyprpolikt, mais n'arrivant pas à le faire marcher, j'ai choisi de faire des `super -e ma commande graphique`.
 
 TODO 
 

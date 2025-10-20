@@ -792,6 +792,8 @@ q(function() {
 
 	let q31 = new _quest("quest-31", "On mène un Raid!", "Peindre 30 figurines en 15 jours", 30)
 		.progress("14/10/2025", shionn, 5, "Heraut du froid", _SMALL)
+		.progress("19/10/2025", shionn, 4, "Heraut de la faim", _SMALL)
+		.progress("19/10/2025", shionn, 1, "Heraut de la faim", _MEDIUM)
 		.render()
 
 	let q32 = new _quest("quest-32", "Le Marché Noir!", "Peindre un max de firgurine en 15 jours", 25);
