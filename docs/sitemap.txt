@@ -11,6 +11,7 @@ https://shionn.github.io/index-9.html
 https://shionn.github.io/index-10.html
 https://shionn.github.io/index-11.html
 https://shionn.github.io/index-12.html
+https://shionn.github.io/index-13.html
 https://shionn.github.io/2023/armee-nighthaunt.html
 https://shionn.github.io/2023/armee-skaven.html
 https://shionn.github.io/2023/debian-general-help-kit.html
@@ -47,6 +48,7 @@ https://shionn.github.io/2025/annee-2024-defi-peinture.html
 https://shionn.github.io/2025/armee-gloomspite-gitz.html
 https://shionn.github.io/2025/armee-gobs.html
 https://shionn.github.io/2025/bot-discord-en-java.html
+https://shionn.github.io/2025/col-du-crane-gobs-araignee.html
 https://shionn.github.io/2025/col-du-crane-gobs-lanciers.html
 https://shionn.github.io/2025/debian-execute-task-before-and-after-suspend.html
 https://shionn.github.io/2025/debian-gaming-help-kit.html
