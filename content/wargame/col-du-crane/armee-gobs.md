@@ -51,7 +51,7 @@ pictures/battle/bataille-col-crane/gobs/shaman/03.jpg
 
 ### Lanciers 
 
-Ces figurine mon servi de test de couleur pour mon amrée de gobelin à AoS.
+Ces figurines mon servi de test de couleur pour mon amrée de gobelin à AoS.
 
 * Peinte en Janvier 2025
 * En environ 45 heures
@@ -77,7 +77,49 @@ pictures/battle/bataille-col-crane/gobs/lanciers/13.jpg
 pictures/battle/bataille-col-crane/gobs/lanciers/14.jpg
 [/gallery]
 
-[after date="2025/10/17"]
+[after date="2026/03/10"]
+Voici le troisieme pack bonus provenant d'un second achat. 
+
+* Peinte en Octobre 2025
+* En environ 19 heures
+* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+
+[gallery w=300 h=200]
+pictures/battle/bataille-col-crane/gobs/lanciers/20.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/21.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/22.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/23.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/24.jpg
+[/gallery]
+[gallery w=400 h=200]
+pictures/battle/bataille-col-crane/gobs/lanciers/25.jpg
+pictures/battle/bataille-col-crane/gobs/lanciers/26.jpg
+[/gallery]
+[/after]
+
+[after date="2026/03/10"]
+### Archers
+
+Ce back proviens de la boite bataille du col du crane.
+
+* Peinte en Juin 2025
+* En environ 18 heures
+* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+
+[gallery w=300 h=200]
+pictures/battle/bataille-col-crane/gobs/archers/01.jpg
+pictures/battle/bataille-col-crane/gobs/archers/02.jpg
+pictures/battle/bataille-col-crane/gobs/archers/03.jpg
+pictures/battle/bataille-col-crane/gobs/archers/04.jpg
+pictures/battle/bataille-col-crane/gobs/archers/05.jpg
+pictures/battle/bataille-col-crane/gobs/archers/06.jpg
+[/gallery]
+[gallery w=380 h=200]
+pictures/battle/bataille-col-crane/gobs/archers/07.jpg
+pictures/battle/bataille-col-crane/gobs/archers/08.jpg
+[/gallery]
+[/after]
+
 ### Chevaucheur d'araignée
 
 * Peinte en Juillet 2025
@@ -89,8 +131,6 @@ pictures/battle/bataille-col-crane/gobs/chevaucheur-araignee/02.jpg
 pictures/battle/bataille-col-crane/gobs/chevaucheur-araignee/03.jpg
 pictures/battle/bataille-col-crane/gobs/chevaucheur-araignee/04.jpg
 [/gallery]
-
-[/after]
 
 [after date="2025/11/10"]
 ### Troll
