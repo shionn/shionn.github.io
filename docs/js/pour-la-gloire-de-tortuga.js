@@ -796,6 +796,7 @@ q(function() {
 		.progress("19/10/2025", shionn, 1, "Heraut de la faim", _MEDIUM)
 		.progress("20/10/2025", angest, 1, "Bondisseur de Von Ryan", _MEDIUM)
 		.progress("20/10/2025", angest, 1, "Loup-garou difforme", _SMALL)
+		.progress("23/10/2025", whisp, 2, "Nains de taverne", _SMALL)
 		.render()
 
 	let q32 = new _quest("quest-32", "Le Marché Noir!", "Peindre un max de firgurine en 15 jours", 25);
