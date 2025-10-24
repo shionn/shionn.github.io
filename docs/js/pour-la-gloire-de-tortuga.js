@@ -804,8 +804,7 @@ q(function() {
 		.progress("24/10/2025", tupad, 20, "Guerrier du chaos", _SMALL)
 		.progress("24/10/2025", tupad, 3, "Varanks", _SMALL)
 		.progress("24/10/2025", tupad, 4, "Soldats et bot infinity", _SMALL)
-		.render()
-				;
+		.render();
 
 	let q33 = new _quest("quest-33", "Création Réserve", "Peindre 30 figurines ou Décors", 30)
 		.progress("14/10/2025", whisp, 3, "Coffres", _MEDIUM);
