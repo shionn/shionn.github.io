@@ -797,9 +797,11 @@ q(function() {
 		.progress("20/10/2025", angest, 1, "Bondisseur de Von Ryan", _MEDIUM)
 		.progress("20/10/2025", angest, 1, "Loup-garou difforme", _SMALL)
 		.progress("23/10/2025", whisp, 2, "Nains de taverne", _SMALL)
+		.progress("24/10/2025", tupad, 16, "Guerrier du chaos", _SMALL)
 		.render()
 
-	let q32 = new _quest("quest-32", "Le Marché Noir!", "Peindre un max de firgurine en 15 jours", 25);
+	let q32 = new _quest("quest-32", "Le Marché Noir!", "Peindre un max de firgurine en 15 jours", 25)
+		.progress("24/10/2025", tupad, 20, "Guerrier du chaos", _SMALL);
 
 	let q33 = new _quest("quest-33", "Création Réserve", "Peindre 30 figurines ou Décors", 30)
 		.progress("14/10/2025", whisp, 3, "Coffres", _MEDIUM);
