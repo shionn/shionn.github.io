@@ -96,7 +96,16 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
-### Jour 287 
+### Jour 297 Le Marché Noir
+
+Ohé Pirates! Le raid nous a permis de subtiliser un bon nombre de cargaisons que nous allons pouvoir revendre à prix d'or et remplir nos caisses! AAAAhahahahahaha... 
+Allez sur les marchés noirs et revendez les plus possibles pour ramener un max d'or! 
+Il faudra faire un maximum de figurine en 15 jours! avec un minimum de 25!
+
+<div id="quest-32"></div>
+
+
+### Jour 287 On mène un Raid !
 
 Ohé Pirates!
 A notre tour d'aller chatouiller les autres on va leur faire boire la tasse à ces mécréants!
@@ -104,6 +113,10 @@ Tous à vos postes de combats et pas de quartiers!
 Il nous faudra 30 ressources pour en venir à bout et leur voler tout ce qui a de la valeur! AAAAAhahahahahaaaaaaa
 
 <div id="quest-31"></div>
+
+[gallery]
+pictures/defis/tortuga-2025/map29.png
+[/gallery]
 
 ### Jour 270 Création Réserve
 
