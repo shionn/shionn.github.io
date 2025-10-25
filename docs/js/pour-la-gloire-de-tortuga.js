@@ -800,10 +800,16 @@ q(function() {
 		.progress("24/10/2025", tupad, 16, "Guerrier du chaos", _SMALL)
 		.render()
 
-	let q32 = new _quest("quest-32", "Le Marché Noir!", "Peindre un max de firgurine en 15 jours", 50)
+	let q32 = new _quest("quest-32", "Le Marché Noir!", "Peindre un max de firgurine en 15 jours", 75)
 		.progress("24/10/2025", tupad, 20, "Guerrier du chaos", _SMALL)
 		.progress("24/10/2025", tupad, 3, "Varanks", _SMALL)
 		.progress("24/10/2025", tupad, 4, "Soldats et bot infinity", _SMALL)
+		.progress("25/10/2025", angest, 1, "Skaven", _SMALL)
+		.progress("25/10/2025", angest, 1, "Ghoul", _SMALL)
+		.progress("25/10/2025", angest, 1, "Momie", _SMALL)
+		.progress("25/10/2025", angest, 2, "Infernus", _SMALL)
+		.progress("25/10/2025", angest, 1, "Bondisseur", _SMALL)
+		.progress("25/10/2025", shionn, 24, "Troupeau de squig", _SMALL)
 		.render();
 
 	let q33 = new _quest("quest-33", "Création Réserve", "Peindre 30 figurines ou Décors", 30)

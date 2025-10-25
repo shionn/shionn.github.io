@@ -236,7 +236,6 @@ pictures/battle/dark-elves/lanciers/06.jpg
 Reste à faire :
 - Harpie
 
-[after date="2025/12/20"]
 ### Cavalier sur Sang Froid
 
 Voici ma cavalerie lourde sur sang froid. 
@@ -266,8 +265,6 @@ et mon [malus darkblade](2025/elfes-noirs-malus-dark-blade.html).
 pictures/battle/dark-elves/cavalier-sg-froid/07.jpg
 pictures/battle/dark-elves/cavalier-sg-froid/08.jpg
 [/gallery]
-
-[/after]
 
 ### Char à Sang Froid
 
