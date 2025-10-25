@@ -108,7 +108,7 @@ q(function() {
 		this.description = function() {
 			switch (event) {
 				case _PAINT: return "peint " + value + " " + desc + " (+" + (value * type.xp) + " xp)";
-				case _LVL_UP: return "passe " + desc;
+				case _LVL_UP: return "passe " + desc +" (" + value + ")";
 				case _END_QUEST: return "fini la quete";
 				case _GAIN_BADGE: return "gagne le badge " + _BADGE[value].name+ " ";
 			}
