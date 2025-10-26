@@ -810,6 +810,8 @@ q(function() {
 		.progress("25/10/2025", angest, 2, "Infernus", _SMALL)
 		.progress("25/10/2025", angest, 1, "Bondisseur", _SMALL)
 		.progress("25/10/2025", shionn, 24, "Troupeau de squig", _SMALL)
+		.progress("25/10/2025", shionn, 1, "Gromgrimdal", _MEDIUM)
+		.progress("26/10/2025", tupad, 12, "Guerrier du chaos", _SMALL)
 		.render();
 
 	let q33 = new _quest("quest-33", "Création Réserve", "Peindre 30 figurines ou Décors", 30)
