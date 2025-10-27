@@ -787,7 +787,7 @@ q(function() {
 		.progress("12/10/2025", angest, 1, "Kobold", _MEDIUM)
 		.progress("14/10/2025", whisp, 1, "Loup Mort Vivant", _MEDIUM)
 		.progress("14/10/2025", whisp, 2, "Loup Géant", _MEDIUM)
-		.progress("14/10/2025", whisp, 1, "Coffres", _MEDIUM)
+		.progress("14/10/2025", whisp, 1, "Coffres", _SMALL)
 		.render();
 
 	let q31 = new _quest("quest-31", "On mène un Raid!", "Peindre 30 figurines en 15 jours", 30)
@@ -815,7 +815,8 @@ q(function() {
 		.render();
 
 	let q33 = new _quest("quest-33", "Création Réserve", "Peindre 30 figurines ou Décors", 30)
-		.progress("14/10/2025", whisp, 3, "Coffres", _MEDIUM);
+		.progress("14/10/2025", whisp, 3, "Coffres", _SMALL)
+		.progress("27/10/2025", transfopaper, 1, "Ratelier", _SMALL);
 
 //
 	_renderPlayers([angest, anuabi, ben, faran, hyasull, ludovic5799, phylios, rahanis, shionn, tony, transfopaper, tupad, whisp]);
