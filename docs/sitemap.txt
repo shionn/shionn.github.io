@@ -50,6 +50,7 @@ https://shionn.github.io/2025/armee-gobs.html
 https://shionn.github.io/2025/bot-discord-en-java.html
 https://shionn.github.io/2025/col-du-crane-gobs-araignee.html
 https://shionn.github.io/2025/col-du-crane-gobs-lanciers.html
+https://shionn.github.io/2025/connexion-wifi-esp32.html
 https://shionn.github.io/2025/debian-execute-task-before-and-after-suspend.html
 https://shionn.github.io/2025/debian-gaming-help-kit.html
 https://shionn.github.io/2025/decor-skaventide.html
@@ -117,6 +118,9 @@ https://shionn.github.io/tag/dragon-ball.html
 https://shionn.github.io/tag/dungeon-and-laser.html
 https://shionn.github.io/tag/elfes-noirs.html
 https://shionn.github.io/tag/encounter.html
+https://shionn.github.io/tag/esp32.html
+https://shionn.github.io/tag/esp8266.html
+https://shionn.github.io/tag/espressif.html
 https://shionn.github.io/tag/figurine.html
 https://shionn.github.io/tag/gaming.html
 https://shionn.github.io/tag/geek.html
@@ -163,3 +167,4 @@ https://shionn.github.io/tag/warcry.html
 https://shionn.github.io/tag/warhammer-battle.html
 https://shionn.github.io/tag/webview.html
 https://shionn.github.io/tag/whisperia.html
+https://shionn.github.io/tag/wifi.html
