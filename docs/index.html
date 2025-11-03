@@ -152,6 +152,7 @@
 					<a href="tag/arduino.html">Arduino</a>
 					<ul>
 						<li><a href="2024/vs-code-arduino-platform-io.html">PlatformIO sur VsCode</a></li>
+						<li><a href="2025/connexion-wifi-esp32.html">Connexion WiFi sur ESP32</a></li>
 					</ul>
 				</li>
 				<li>
@@ -190,6 +191,71 @@
 	</header>
 	<main>
 		
+			
+				<article class="short">
+	<header>
+		<img src="pictures/titles/esp32-wifi-connection.png" title="Connexion wifi ESP32" alt="Connexion wifi ESP32" />
+		<h1><a href="2025/connexion-wifi-esp32.html">Connexion wifi ESP32</a></h1>
+		<div>
+			<span>Publié le 02 novembre 2025</span>
+			<span>
+				<span class="fa fa-folder-open"></span>
+				<a href="category/code.html">Code</a>
+			</span>
+			<span>
+				<span class="fa fa-flag"></span>
+				<a href="tag/arduino.html">Arduino</a><a href="tag/vscode.html">VSCode</a><a href="tag/platformio.html">PlatformIO</a><a href="tag/cpp.html">CPP</a><a href="tag/esp32.html">ESP32</a><a href="tag/espressif.html">Espressif</a><a href="tag/esp8266.html">ESP8266</a><a href="tag/wifi.html">WiFi</a>
+			</span>
+		</div>
+	</header>
+	<section><p>Bonjour.
+Voici un petit tuto simple sur la gestion de la connexion wifi avec le framework arduino sur un ESP32 mais cela fonctionne aussi avec un ESP8266 et probablement d'autre carte.</p>
+<h2>Connexion</h2>
+<p>La connexion se fait avec la bibliothèque Wifi qui est incluse dès qu'on configure notre projet pour utiliser une carte ESP32.</p>
+<pre class="cpp"><code class="cpp">#include &lt;Arduino.h&gt;
+// pour un esp32
+#include &lt;WiFi.h&gt; 
+// pour un esp8266
+#include &lt;ESP8266WiFi.h&gt;
+
+
+#define SSID_NAME &quot;MonSSID&quot;
+#define SSID_PASS &quot;mot de pass wifi&quot;
+#define HOST_NAME &quot;nom d'hote de l'esp32&quot;
+
+void setup() {
+	Serial.begin(9600);
+	WiFi.disconnect(true);
+	// il faut faire le setHostName avant le mode sinon ce n'est pas pris en compte. 
+	WiFi.setHostname(HOST_NAME);
+	// 
+	WiFi.mode(WIFI_STA);
+	WiFi.setAutoConnect(true);
+	WiFi.setAutoReconnect(true);
+	WiFi.begin(SSID_NAME, SSID_PASS);
+	
+	while (!WiFi.isConnected()) {
+		Serial.print(&quot;.&quot;);
+		delay(100);
+	}
+	Serial.println();
+	Serial.print(&quot;Connected. Ip: &quot;);
+	Serial.println(WiFi.localIP().toString());
+}
+
+void loop() {
+
+}
+</code></pre>
+<h3>Probleme avec certain router et l'ESP8266</h3>
+<p>J'ai souvent eu le souci que mes ESP8266 avaient beaucoup de mal à se connecter à mon réseau wifi.
+Il faut fouiller dans votre routeur, sur la configuration du réseau 2.4Ghz, et trouver une option s'appellant <strong>mode sans fil</strong> qui est peut être regler sur &quot;N Only&quot; et passer cette option à &quot;legacy&quot;.</p>
+<h2>Bonus appeler un serveur</h2>
+</section>
+	<footer>
+		<a href="2025/connexion-wifi-esp32.html"><span class="fa fa-eye"></span> Lire la suite</a>
+	</footer>
+</article>
 			
 				<article class="short">
 	<header>
@@ -322,34 +388,6 @@ Cependant je l'ai joué plusieurs fois à AoS et c'etait très fun.</p>
 	</footer>
 </article>
 			
-				<article class="short">
-	<header>
-		
-		<h1><a href="2025/theme-update.html">Changement leger du theme.</a></h1>
-		<div>
-			<span>Publié le 23 septembre 2025</span>
-			<span>
-				<span class="fa fa-folder-open"></span>
-				<a href="category/vie-du-blog.html">Vie du Blog</a>
-			</span>
-			<span>
-				<span class="fa fa-flag"></span>
-				<a href="tag/blog.html">Blog</a><a href="tag/developpement.html">Developpement</a><a href="tag/geek.html">Geek</a><a href="tag/java.html">Java</a>
-			</span>
-		</div>
-	</header>
-	<section><p>Bonjour,</p>
-<p>Si vous venez régulièrement, vous devriez vous rendre compte que le thème du blog a légèrement changé.
-Ce n'est pas un changement incroyable, mais j'espère qu'il sera plus lisible.</p>
-<p>En effet je trouvais que bien souvent les articles tratant de code etait bien peu lisible.
-J'ai donc essayé de revoir légerment le theme pour les rendre plus lisible.</p>
-<p>Bonne lecture ou relecture :)</p>
-</section>
-	<footer>
-		<a href="2025/theme-update.html"><span class="fa fa-eye"></span> Lire la suite</a>
-	</footer>
-</article>
-			
 			<div>
 				
 				
@@ -368,7 +406,7 @@ J'ai donc essayé de revoir légerment le theme pour les rendre plus lisible.</p
 				<h1><span class="fa fa-folder-open"></span> Catégories</h1>
 				<ul>
 					<li href="category/code.html">
-						<a href="category/code.html">Code&nbsp;(4)</a>
+						<a href="category/code.html">Code&nbsp;(5)</a>
 					</li>
 					<li href="category/jdr.html">
 						<a href="category/jdr.html">JDR&nbsp;(12)</a>
@@ -394,7 +432,7 @@ J'ai donc essayé de revoir légerment le theme pour les rendre plus lisible.</p
 				</a><a href="tag/aos.html" class="tag2">
 					AoS&nbsp;(12)
 				</a><a href="tag/arduino.html" class="tag0">
-					Arduino&nbsp;(1)
+					Arduino&nbsp;(2)
 				</a><a href="tag/arm-e.html" class="tag1">
 					Armée&nbsp;(8)
 				</a><a href="tag/bdd.html" class="tag0">
@@ -404,7 +442,7 @@ J'ai donc essayé de revoir légerment le theme pour les rendre plus lisible.</p
 				</a><a href="tag/bulma.html" class="tag0">
 					Bulma&nbsp;(1)
 				</a><a href="tag/cpp.html" class="tag0">
-					CPP&nbsp;(1)
+					CPP&nbsp;(2)
 				</a><a href="tag/cit-e-de-sigmar.html" class="tag0">
 					Citée de Sigmar&nbsp;(1)
 				</a><a href="tag/col-du-cr-ne.html" class="tag0">
@@ -433,10 +471,16 @@ J'ai donc essayé de revoir légerment le theme pour les rendre plus lisible.</p
 					Décor&nbsp;(1)
 				</a><a href="tag/d-fi.html" class="tag0">
 					Défi&nbsp;(2)
+				</a><a href="tag/esp32.html" class="tag0">
+					ESP32&nbsp;(1)
+				</a><a href="tag/esp8266.html" class="tag0">
+					ESP8266&nbsp;(1)
 				</a><a href="tag/elfes-noirs.html" class="tag4">
 					Elfes Noirs&nbsp;(20)
 				</a><a href="tag/encounter.html" class="tag0">
 					Encounter&nbsp;(1)
+				</a><a href="tag/espressif.html" class="tag0">
+					Espressif&nbsp;(1)
 				</a><a href="tag/figurine.html" class="tag5">
 					Figurine&nbsp;(29)
 				</a><a href="tag/gaming.html" class="tag0">
@@ -486,7 +530,7 @@ J'ai donc essayé de revoir légerment le theme pour les rendre plus lisible.</p
 				</a><a href="tag/photo.html" class="tag0">
 					Photo&nbsp;(1)
 				</a><a href="tag/platformio.html" class="tag0">
-					PlatformIO&nbsp;(1)
+					PlatformIO&nbsp;(2)
 				</a><a href="tag/proxmox.html" class="tag0">
 					Proxmox&nbsp;(2)
 				</a><a href="tag/repaint.html" class="tag0">
@@ -518,7 +562,7 @@ J'ai donc essayé de revoir légerment le theme pour les rendre plus lisible.</p
 				</a><a href="tag/underworld.html" class="tag0">
 					Underworld&nbsp;(3)
 				</a><a href="tag/vscode.html" class="tag0">
-					VSCode&nbsp;(1)
+					VSCode&nbsp;(2)
 				</a><a href="tag/war-game.html" class="tag9">
 					War Game&nbsp;(45)
 				</a><a href="tag/warcry.html" class="tag0">
@@ -529,14 +573,22 @@ J'ai donc essayé de revoir légerment le theme pour les rendre plus lisible.</p
 					Webview&nbsp;(1)
 				</a><a href="tag/whisperia.html" class="tag2">
 					Whisperia&nbsp;(12)
+				</a><a href="tag/wifi.html" class="tag0">
+					WiFi&nbsp;(1)
 				</a>
 			</aside>
 			<aside>
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2025 (38)</a>
+						<a href="#">2025 (39)</a>
 						<ul>
+							<li>
+								<a href="#">novembre (1)</a>
+								<ul>
+									<li><a href="2025/connexion-wifi-esp32.html">Connexion wifi ESP32</a></li>
+								</ul>
+							</li>
 							<li>
 								<a href="#">octobre (4)</a>
 								<ul>

@@ -2,59 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://shionn.github.io/index.html</loc>
-		<lastmod>2025-10-25</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-1.html</loc>
-		<lastmod>2025-10-25</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-2.html</loc>
-		<lastmod>2025-10-25</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-3.html</loc>
-		<lastmod>2025-10-25</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-4.html</loc>
-		<lastmod>2025-10-25</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-5.html</loc>
-		<lastmod>2025-10-25</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-6.html</loc>
-		<lastmod>2025-10-25</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-7.html</loc>
-		<lastmod>2025-10-25</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-8.html</loc>
-		<lastmod>2025-10-25</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-9.html</loc>
-		<lastmod>2025-10-25</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-10.html</loc>
-		<lastmod>2025-10-25</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-11.html</loc>
-		<lastmod>2025-10-25</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-12.html</loc>
-		<lastmod>2025-10-25</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-13.html</loc>
-		<lastmod>2025-10-25</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/2023/armee-nighthaunt.html</loc>
@@ -209,6 +209,10 @@
 		<lastmod>2025-08-31</lastmod>
 	</url>
 	<url>
+		<loc>https://shionn.github.io/2025/connexion-wifi-esp32.html</loc>
+		<lastmod>2025-11-02</lastmod>
+	</url>
+	<url>
 		<loc>https://shionn.github.io/2025/debian-execute-task-before-and-after-suspend.html</loc>
 		<lastmod>2025-04-08</lastmod>
 	</url>
@@ -358,7 +362,7 @@
 	</url>
 	<url>
 		<loc>https://shionn.github.io/category/code.html</loc>
-		<lastmod>2025-08-14</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/category/jdr.html</loc>
@@ -390,7 +394,7 @@
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/arduino.html</loc>
-		<lastmod>2024-10-27</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/arm-e.html</loc>
@@ -422,7 +426,7 @@
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/cpp.html</loc>
-		<lastmod>2024-10-27</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/d-cor.html</loc>
@@ -475,6 +479,18 @@
 	<url>
 		<loc>https://shionn.github.io/tag/encounter.html</loc>
 		<lastmod>2024-01-27</lastmod>
+	</url>
+	<url>
+		<loc>https://shionn.github.io/tag/esp32.html</loc>
+		<lastmod>2025-11-02</lastmod>
+	</url>
+	<url>
+		<loc>https://shionn.github.io/tag/esp8266.html</loc>
+		<lastmod>2025-11-02</lastmod>
+	</url>
+	<url>
+		<loc>https://shionn.github.io/tag/espressif.html</loc>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/figurine.html</loc>
@@ -574,7 +590,7 @@
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/platformio.html</loc>
-		<lastmod>2024-10-27</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/proxmox.html</loc>
@@ -638,7 +654,7 @@
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/vscode.html</loc>
-		<lastmod>2024-10-27</lastmod>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/war-game.html</loc>
@@ -659,5 +675,9 @@
 	<url>
 		<loc>https://shionn.github.io/tag/whisperia.html</loc>
 		<lastmod>2025-07-21</lastmod>
+	</url>
+	<url>
+		<loc>https://shionn.github.io/tag/wifi.html</loc>
+		<lastmod>2025-11-02</lastmod>
 	</url>
 </urlset>
