@@ -816,6 +816,7 @@ q(function() {
 		.progress("28/10/2025", tony, 1, "Golem", _MEDIUM)
 		.progress("30/10/2025", tony, 1, "Orc", _SMALL)
 		.progress("01/11/2025", transfopaper, 1, "Momie", _SMALL)
+		.progress("04/11/2025", tony, 1, "Space marine", _SMALL)
 		.render();
 
 	let q33 = new _quest("quest-33", "Création Réserve", "Peindre 30 figurines ou Décors", 30)
