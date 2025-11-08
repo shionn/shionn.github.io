@@ -98,6 +98,29 @@ method return time=1728730410.581488 sender=:1.28 -> destination=:1.304 serial=2
    string "firefox"
 ~~~
 
+## Impression 3D
+### Creality print
+
+Télécharger la derniere version en flatpack de créalityprint sur leurs [github](https://github.com/CrealityOfficial/CrealityPrint).  
+
+~~~shell
+sudo apt install flatpack
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install <CrealityPrint-Linux-flatpak_V6.3.0-Release_x86_64>.flatpak
+flatpak run io.github.crealityofficial.CrealityPrint
+~~~
+
+à traiter pour Hyprland : 
+
+~~~
+Note that the directories
+
+'/var/lib/flatpak/exports/share'
+'/home/<shionn>/.local/share/flatpak/exports/share'
+
+are not in the search path set by the XDG_DATA_DIRS environment variable, so applications installed by Flatpak may not appear on your desktop until the session is restarted.
+~~~
+
 ## Jeux
 
 Voir ma page [dédié au jeux](2025/debian-gaming-help-kit.html)
