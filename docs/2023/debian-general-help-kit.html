@@ -269,6 +269,22 @@ domaine=WORKGROUP
 <pre class="shell"><code class="shell">method return time=1728730410.581488 sender=:1.28 -&gt; destination=:1.304 serial=2482 reply_serial=2
    string &quot;firefox&quot;
 </code></pre>
+<h2>Impression 3D</h2>
+<h3>Creality print</h3>
+<p>Télécharger la derniere version en flatpack de créalityprint sur leurs <a href="https://github.com/CrealityOfficial/CrealityPrint" target="_blank">github</a>.</p>
+<pre class="shell"><code class="shell">sudo apt install flatpack
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install &lt;CrealityPrint-Linux-flatpak_V6.3.0-Release_x86_64&gt;.flatpak
+flatpak run io.github.crealityofficial.CrealityPrint
+</code></pre>
+<p>à traiter pour Hyprland :</p>
+<pre class="java"><code class="java">Note that the directories
+
+'/var/lib/flatpak/exports/share'
+'/home/&lt;shionn&gt;/.local/share/flatpak/exports/share'
+
+are not in the search path set by the XDG_DATA_DIRS environment variable, so applications installed by Flatpak may not appear on your desktop until the session is restarted.
+</code></pre>
 <h2>Jeux</h2>
 <p>Voir ma page <a href="2025/debian-gaming-help-kit.html">dédié au jeux</a></p>
 <h2>Journalctl</h2>
