@@ -827,6 +827,7 @@ q(function() {
 		.progress("09/11/2025", faran, 1, "Arjac Rockfist", _MEDIUM)
 		.progress("09/11/2025", shionn, 1, "Mollog", _MEDIUM)
 		.progress("09/11/2025", shionn, 3, "Bande à Mollog", _SMALL)
+		.progress("09/11/2025", angest, 1, "Necrotech Wyvern", _BIG)
 		.render();
 
 //
