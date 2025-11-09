@@ -27,7 +27,7 @@ public class DecaleDate {
 	private static DateFormat menuFormat = new SimpleDateFormat("yyyy-MM-dd");
 
 	public static void main(String[] args) throws ParseException, IOException {
-		new DecaleDate().start(jsonFormat.parse("2025/09/23"), 8);
+		new DecaleDate().start(jsonFormat.parse("2025/11/10"), 8);
 	}
 
 	private void start(Date date, int nbDays) throws IOException {
@@ -66,7 +66,7 @@ public class DecaleDate {
 		}
 		file.delete();
 		targetFile.renameTo(file);
-		
+
 	}
 
 	private List<Pair<Date, Date>> buildTranslationDates(Date date, int nbDays) {
