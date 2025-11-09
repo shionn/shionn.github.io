@@ -45,6 +45,7 @@ category/jdr	JdR
 		2025/whisperia-1x09-balade-en-foret	9: Balade en Forêt
 		2025/whisperia-1x10-caleche-loup	10: Calèche & Loups
 		2025/whisperia-1x11-retour-en-ville	11 : Retour en Ville
+		2025/whisperia-1x12-deux-personnages	12 : Deux personnages	2025-11-10
 	tag/whisperia	Donnée sur Whisperia
 		2025/whisperia-ressources	Ressources
 category/linux	Linux

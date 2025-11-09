@@ -1,11 +1,11 @@
 {
 	"type": "post",
-	"date": "2025/11/09",
+	"date": "2025/11/19",
 	"title": "Whisperia 12 : Deux personnages",
 	"tags": ["Whisperia", "DnD"],
 	"logo" : "pictures/titles/whisperia/1x12.jpg",
 	"category": "JDR",
-	"published": false,
+	"published": true,
 	"author": "Shionn",
 	"js" : [ ]
 }
