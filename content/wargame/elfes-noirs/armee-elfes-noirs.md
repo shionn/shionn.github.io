@@ -51,7 +51,7 @@ pictures/battle/dark-elves/malus-dark-blade/07.jpg
 [/gallery]
 [/after]
 
-[after date="2025/11/18"]
+[after date="2025/11/26"]
 ### Morathi sur Pégase Noir
 
 Je l'ai acheté autour des années 2000, et elle est resté dans ma piule de la honte pendant presque 25 ans. 
@@ -353,7 +353,7 @@ Glacis	24-22
 Rehaut	72052
 [/paints]
 
-[after date="2025/12/12"]
+[after date="2025/12/20"]
 ### Ombres
 
 Voici mes ombres elfes noir en métal. Certaines de ces figurines proviennent de mon ancienne armée et d'autre de celle que j'ai racheté. 
