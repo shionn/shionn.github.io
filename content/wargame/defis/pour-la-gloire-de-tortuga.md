@@ -96,6 +96,15 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour 313 Renfort des Remparts
+
+Ohé Pirates! 
+Notre petit paradis pourait bien éveillé l'envie chez nos confrères qui pourraient cèder à la tentation de venir nous piller ou pour s'emparer de notre base qui nous a couté tant d'efforts à batir!
+Il faut donc renforcer les remparts à l'entrée du Port et ajouter un portique marin qu'on peut refermer sur nos enemi afin de les empecher d'entrer! Cela va demander beaucoup de materiel et d'efforts pour réhausser les remparts et créer les deux portes du port! 60 ressources seront nécéssaires (Décors et figurines) pour cela! Allez hop au travail tas de fénéants.
+
+<div id="quest-33"></div>
+
+
 ### Jour 297 Le Marché Noir
 
 Ohé Pirates! Le raid nous a permis de subtiliser un bon nombre de cargaisons que nous allons pouvoir revendre à prix d'or et remplir nos caisses! AAAAhahahahahaha... 
@@ -104,6 +113,9 @@ Il faudra faire un maximum de figurine en 15 jours! avec un minimum de 25!
 
 <div id="quest-32"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map29.png
+[/gallery]
 
 ### Jour 287 On mène un Raid !
 
