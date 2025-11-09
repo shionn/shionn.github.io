@@ -11,7 +11,7 @@ category/war-game	War Game
 		2025/armee-gobs	Gobelin de la Nuit
 	2024/mes-armees	Underworld / Warcry
 		2024/underworld-dok	Fille de Khaine
-		2025/underworld-gloom-gitz-zarbags	Gloomspite Gitz
+		2025/underworld-gloom	Gloomspite Gitz
 		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-10-01
 		2024/underworld-soulblight	Seigneurs Ruinemânes
 	tag/dungeon-and-laser	Dungeon and Laser
