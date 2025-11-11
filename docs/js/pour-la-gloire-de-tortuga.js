@@ -830,6 +830,8 @@ q(function() {
 		.progress("09/11/2025", angest, 1, "Necrotech Wyvern", _BIG)
 		.progress("10/11/2025", whisp, 1, "Barbare Gaulois", _SMALL)
 		.progress("10/11/2025", transfopaper, 1, "Barbare", _SMALL)
+		.progress("11/11/2025", faran, 1, "Njarl Stormcaller", _MEDIUM)
+		.progress("11/11/2025", whisp, 2, "Vampire", _SMALL)
 		.render();
 
 //
