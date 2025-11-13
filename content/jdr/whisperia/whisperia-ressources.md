@@ -101,17 +101,19 @@ Rurik Taillepierre	Guerrier	Nain	Nul	Moi-même
 ## Lieux et personnage connu
 
 [table title="Personnages" cols="Nom,Description" class="pyjama"]
-Aldia	Druide d'Heavenrir
-Amenalion	Necromancien raignant sur les catacombes
+Aldia	Druide d'Heavenrir (qui a mangé trop de champignon)
 Andreas	Epicier d'Heavenrir
 Balgrim	Banque de guilde
 Fenric	Rodeur de Heavenrir
 Goldric	Aubergiste de Heavenrir
-Gorgul	L'orc que nous avons combatu a la sorti du tombeau
+Gustave	Un marchamp itinérant
 Heinsendorale	Mage de Heavenrir
 Noratu	Enfant disparu de Heavenrir
 Snoopy	Le géant qui nous a raccomppagné à Heavenrir
 Talendrick	Forgeron de Heavenrir
+Méchants
+Amenalion	Necromancien raignant sur les catacombes
+Gorgul	L'orc que nous avons combatu a la sorti du tombeau
 Tord Boyau	Loup garou dirigeant les loup autour d'Heavenrir
 Zeférion	Demon de l'ancien temps qui cherche à détruire le monde
 Lieux connus
