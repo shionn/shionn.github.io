@@ -236,6 +236,22 @@
 export WEBKIT_DISABLE_COMPOSITING_MODE=1
 /path/to/eclipse/eclipse
 </code></pre>
+<h3>Créer un raccourci</h3>
+<p>Ajouter un fichier <code>/usr/share/application/eclipse.desktop</code>.</p>
+<pre class="shell"><code class="shell">[Desktop Entry]
+Name=Eclipse
+Comment=Eclipse
+GenericName=Eclipse
+X-GNOME-FullName=Eclipse
+Exec=/home/shionn/.eclipse-jee-2025-09-R-linux-gtk-x86_64/eclipse
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/shionn/.eclipse-jee-2025-09-R-linux-gtk-x86_64/icon.xpm
+Categories=Development;
+StartupWMClass=Eclipse
+StartupNotify=true
+</code></pre>
 <h2>File system</h2>
 <h3>Samba et fstab</h3>
 <p>Créer un fichier <em>.smbcredentials</em> dans votre /home :</p>
