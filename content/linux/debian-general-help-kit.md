@@ -39,6 +39,26 @@ export WEBKIT_DISABLE_COMPOSITING_MODE=1
 /path/to/eclipse/eclipse
 ~~~
 
+### Créer un raccourci
+
+Ajouter un fichier `/usr/share/application/eclipse.desktop`.
+
+~~~shell
+[Desktop Entry]
+Name=Eclipse
+Comment=Eclipse
+GenericName=Eclipse
+X-GNOME-FullName=Eclipse
+Exec=/home/shionn/.eclipse-jee-2025-09-R-linux-gtk-x86_64/eclipse
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/shionn/.eclipse-jee-2025-09-R-linux-gtk-x86_64/icon.xpm
+Categories=Development;
+StartupWMClass=Eclipse
+StartupNotify=true
+~~~
+
 ## File system
 
 ### Samba et fstab

@@ -49,6 +49,7 @@ https://shionn.github.io/2025/armee-gloomspite-gitz.html
 https://shionn.github.io/2025/armee-gobs.html
 https://shionn.github.io/2025/bot-discord-en-java.html
 https://shionn.github.io/2025/col-du-crane-gobs-araignee.html
+https://shionn.github.io/2025/col-du-crane-gobs-heros.html
 https://shionn.github.io/2025/col-du-crane-gobs-lanciers.html
 https://shionn.github.io/2025/connexion-wifi-esp32.html
 https://shionn.github.io/2025/debian-execute-task-before-and-after-suspend.html
