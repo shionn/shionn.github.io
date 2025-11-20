@@ -833,6 +833,7 @@ q(function() {
 		.progress("11/11/2025", faran, 1, "Njarl Stormcaller", _MEDIUM)
 		.progress("11/11/2025", whisp, 2, "Vampire", _SMALL)
 		.progress("18/11/2025", angest, 1, "Clawlord sur Bete Rongeuse", _BIG)
+		.progress("19/11/2025", tupad, 10, "Cavalier du chaos", _MEDIUM)
 		.render();
 
 //
