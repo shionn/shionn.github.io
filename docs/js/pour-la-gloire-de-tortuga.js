@@ -835,6 +835,7 @@ q(function() {
 		.progress("18/11/2025", angest, 1, "Clawlord sur Bete Rongeuse", _BIG)
 		.progress("19/11/2025", tupad, 10, "Cavalier du chaos", _MEDIUM)
 		.progress("19/11/2025", angest, 1, "Durboyz", _SMALL)
+		.progress("19/11/2025", faran, 3, "Octolié exalté", _MEDIUM)
 		.render();
 
 //
