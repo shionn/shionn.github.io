@@ -6,6 +6,7 @@
 	"category": "War Game",
 	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
+	"logo": "pictures/titles/elfe-noir/morathi.jpg",
 	"toCheck": false,
 	"author": "Shionn"
 }
