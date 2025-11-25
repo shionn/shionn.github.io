@@ -5,11 +5,11 @@ Voici un petit tuto simple sur la synchronisation d'une horloge sur un ESP32 via
 
 ### Connexion reseau
 
-Je ne détaillerai pas dans ce tuto comment faire, mais vous pouvez regarder (ce tuto)[/2025/connexion-wifi-esp32]
+Je ne détaillerai pas dans ce tuto comment faire, mais vous pouvez regarder [ce tuto](/2025/connexion-wifi-esp32)
 
 ### Ajout lib
 
-Pour la synchronisation NTP il vous faut la lib (NTPClient)[https://github.com/arduino-libraries/NTPClient]. 
+Pour la synchronisation NTP il vous faut la lib [NTPClient](https://github.com/arduino-libraries/NTPClient). 
 Avec plateformio vous pouvez l'ajouter comme cela dans le fichier platformio.ini. 
 
 ~~~
