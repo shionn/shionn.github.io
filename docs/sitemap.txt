@@ -72,6 +72,7 @@ https://shionn.github.io/2025/homelab-processeur.html
 https://shionn.github.io/2025/jellyfin-proxmox-hardware-encode.html
 https://shionn.github.io/2025/openrgb-sur-debian.html
 https://shionn.github.io/2025/page-des-liens-dev.html
+https://shionn.github.io/2025/page-des-liens-diy.html
 https://shionn.github.io/2025/page-des-liens-linux.html
 https://shionn.github.io/2025/pc-gaming-m720q-rx6400.html
 https://shionn.github.io/2025/pour-la-gloire-de-tortuga.html
@@ -94,11 +95,13 @@ https://shionn.github.io/2025/whisperia-1x11-retour-en-ville.html
 https://shionn.github.io/2025/whisperia-1x12-deux-personnages.html
 https://shionn.github.io/2025/whisperia-ressources.html
 https://shionn.github.io/category/code.html
+https://shionn.github.io/category/diy.html
 https://shionn.github.io/category/jdr.html
 https://shionn.github.io/category/linux.html
 https://shionn.github.io/category/manga.html
 https://shionn.github.io/category/vie-du-blog.html
 https://shionn.github.io/category/war-game.html
+https://shionn.github.io/tag/3dprint.html
 https://shionn.github.io/tag/annuaire.html
 https://shionn.github.io/tag/aos.html
 https://shionn.github.io/tag/arduino.html
@@ -116,6 +119,7 @@ https://shionn.github.io/tag/debian.html
 https://shionn.github.io/tag/desktop.html
 https://shionn.github.io/tag/developpement.html
 https://shionn.github.io/tag/discord.html
+https://shionn.github.io/tag/diy.html
 https://shionn.github.io/tag/dnd.html
 https://shionn.github.io/tag/docker.html
 https://shionn.github.io/tag/dok.html
