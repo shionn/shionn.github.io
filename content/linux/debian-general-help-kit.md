@@ -39,6 +39,10 @@ export WEBKIT_DISABLE_COMPOSITING_MODE=1
 /path/to/eclipse/eclipse
 ~~~
 
+### Les hauteur de ligne qui change au scroll
+
+C'est généralement liè à un porbleme de caractere special mal affiché qui flingue les hauteurs de ligne.
+
 ### Créer un raccourci
 
 Ajouter un fichier `/usr/share/application/eclipse.desktop`.
