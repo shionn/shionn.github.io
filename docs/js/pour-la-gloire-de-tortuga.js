@@ -839,6 +839,7 @@ q(function() {
 		.progress("27/11/2025", tony, 1, "Dio pour SW", _BIG_DECOR)
 		.progress("27/11/2025", whisp, 1, "Taverne Naine", _BIG_DECOR)
 		.progress("27/11/2025", whisp, 7, "Props Taverne Naine", _SMALL_DECOR)
+		.progress("28/11/2025", shionn, 4, "Squelette Descent", _SMALL)
 		.render();
 
 //
