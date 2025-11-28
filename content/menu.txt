@@ -12,7 +12,7 @@ category/war-game	War Game
 	2024/mes-armees	Underworld / Warcry
 		2024/underworld-dok	Fille de Khaine
 		2025/underworld-gloom	Gloomspite Gitz
-		2025/warcry-dok	Rodeur de l'ombre Khainites	2025-10-01
+		2025/warcry-dok	Rodeur de l'ombre Khainites
 		2024/underworld-soulblight	Seigneurs Ruinemânes
 	tag/dungeon-and-laser	Dungeon and Laser
 		2026/dungeon-and-laser-deuslair	Deuslair	2026-01-13
@@ -45,7 +45,7 @@ category/jdr	JdR
 		2025/whisperia-1x09-balade-en-foret	9: Balade en Forêt
 		2025/whisperia-1x10-caleche-loup	10: Calèche & Loups
 		2025/whisperia-1x11-retour-en-ville	11 : Retour en Ville
-		2025/whisperia-1x12-deux-personnages	12 : Deux personnages	2025-11-10
+		2025/whisperia-1x12-deux-personnages	12 : Deux personnages
 	tag/whisperia	Donnée sur Whisperia
 		2025/whisperia-ressources	Ressources
 category/linux	Linux
@@ -65,9 +65,9 @@ category/linux	Linux
 category/code	Code
 	tag/arduino	Arduino
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode
-		2025/connexion-wifi-esp32	Connexion WiFi sur ESP32	2025-11-02
+		2025/connexion-wifi-esp32	Connexion WiFi sur ESP32
 		2025/ntp-esp32	Synchronisation horloge ntp sur ESP32	2025-12-04
-	tag/java	Java	2025-07-13
+	tag/java	Java
 		2025/bot-discord-en-java	Bot discord
 		2025/pattern-singleton-java	Pattern Singleton	2026-04-03
 		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX
@@ -83,4 +83,5 @@ mailto:shionn@gmail.com	Contact & Lien
 		https://web.archive.org/web/20210420064444/http://shionn.org/	Ancienne version du site
 	tag/annuaire	Annuaire de Lien
 		2025/page-des-liens-dev	Liens Dev
+		2025/page-des-liens-diy	Liens DiY
 		2025/page-des-liens-linux	Liens Linux
