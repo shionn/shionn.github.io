@@ -836,6 +836,10 @@ q(function() {
 		.progress("19/11/2025", tupad, 10, "Cavalier du chaos", _MEDIUM)
 		.progress("19/11/2025", angest, 1, "Durboyz", _SMALL)
 		.progress("19/11/2025", faran, 3, "Octolié exalté", _MEDIUM)
+		.progress("27/11/2025", tony, 1, "Dio pour SW", _BIG_DECOR)
+		.progress("27/11/2025", whisp, 1, "Taverne Naine", _BIG_DECOR)
+		.progress("27/11/2025", whisp, 7, "Props Taverne Naine", _SMALL_DECOR)
+		.progress("28/11/2025", shionn, 4, "Squelette Descent", _SMALL)
 		.render();
 
 //
