@@ -1,0 +1,11 @@
+{
+	"type": "post",
+	"date": "2026/01/01",
+	"title": "Arcadia Quest",
+	"tags": ["Jeu Société", "Arcadia Quest"],
+	"category": "Jeu Société",
+	"logo": "pictures/titles/dungeon-and-laser-deuslair.jpg",
+	"published": false,
+	"js" : [ ],
+	"author": "Shionn"
+}
