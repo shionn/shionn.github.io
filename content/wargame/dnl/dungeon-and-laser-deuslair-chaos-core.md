@@ -11,7 +11,22 @@ TODO
 
 ### The Betrayers
 
-TODO 
+- Peinte en Novembre 2025
+- En 4 heures environ pour les troupes
+- En 1h30 pour le chef
+
+[gallery w=600 h=200]
+pictures/dungeon-and-laser/deuslair/core/chaos/betrayers/01.jpg
+[/gallery]
+[gallery w=500 h=200]
+pictures/dungeon-and-laser/deuslair/core/chaos/betrayers/02.jpg
+pictures/dungeon-and-laser/deuslair/core/chaos/betrayers/03.jpg
+[/gallery]
+[gallery w=150 h=200]
+pictures/dungeon-and-laser/deuslair/core/chaos/betrayers/04.jpg
+pictures/dungeon-and-laser/deuslair/core/chaos/betrayers/05.jpg
+pictures/dungeon-and-laser/deuslair/core/chaos/betrayers/06.jpg
+[/gallery]
 
 ### The Tainted
 
@@ -39,7 +54,23 @@ pictures/dungeon-and-laser/deuslair/core/chaos/heralds-hunger/08.jpg
 
 ### Heralds of Night
 
-TODO
+- Peinte en Novembre 2025
+- En 3 heures environ pour les troupes
+- En 1h30 pour le chef
+
+[gallery w=600 h=200]
+pictures/dungeon-and-laser/deuslair/core/chaos/heralds-night/01.jpg
+[/gallery]
+[gallery w=500 h=200]
+pictures/dungeon-and-laser/deuslair/core/chaos/heralds-night/02.jpg
+pictures/dungeon-and-laser/deuslair/core/chaos/heralds-night/03.jpg
+[/gallery]
+[gallery w=150 h=200]
+pictures/dungeon-and-laser/deuslair/core/chaos/heralds-night/04.jpg
+pictures/dungeon-and-laser/deuslair/core/chaos/heralds-night/05.jpg
+pictures/dungeon-and-laser/deuslair/core/chaos/heralds-night/06.jpg
+[/gallery]
+
 
 ### Heralds of Frost
 

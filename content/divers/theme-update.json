@@ -4,5 +4,6 @@
 	"title": "Changement leger du theme.",
 	"tags": ["Blog", "Developpement", "Geek", "Java"],
 	"category": "Vie du Blog",
+	"toCheck": false,
 	"author": "Shionn"
 }

@@ -7,5 +7,6 @@
 	"published": true,
 	"js" : [ ],
 	"author": "Shionn",
+	"toCheck": false,
 	"logo": "pictures/titles/gloom/gitz-zarbags.jpg"
 }
