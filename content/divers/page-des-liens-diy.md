@@ -5,6 +5,7 @@
 ### Gridfinity 
 
 - [Catalog](https://github.com/jeffbarr/gridfinity-catalog)
+- [Un autre Catalog](https://gridfinity.xyz/catalog/)
 - [Generator](https://gridfinitygenerator.com/en)
 - [Un autre Generateur](https://gridfinity.perplexinglabs.com/)
 - [Rebuild Openscad](https://github.com/kennetek/gridfinity-rebuilt-openscad)
@@ -15,4 +16,8 @@
 - [Site Officiel](https://www.multiboard.io/)
 
 
+## Modele 3D
 
+- [Cult3D](https://cults3d.com)
+- [Printable](https://www.printables.com/)
+- [Thingiverse](https://www.thingiverse.com)
