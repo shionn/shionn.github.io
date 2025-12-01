@@ -19,16 +19,18 @@ category/war-game	War Game
 		2024/dungeon-and-laser-encounters	Encounters
 	tag/d-cor	Décor
 		2025/decor-skaventide	Décor Skaventide
-		2026/decor-mortal-realms	Décor Mortal Realms	2026-02-06
+		2026/decor-mortal-realms	Décor Mortal Realms	2026-03-02
 	tag/peinture	Guide
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Équivalence de peinture
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
 	category/manga	Manga / JV
-		2026/repaint-genshin-diluc-fischi	Diluc & Fischi	2026-04-19
-		2026/mononokee-nomnom	Princesse Mononokee	2026-03-02
+		2026/repaint-genshin-diluc-fischi	Diluc & Fischi	2026-05-13
+		2026/mononokee-nomnom	Princesse Mononokee	2026-03-26
 		2025/repaint-bulma	Repaint d'une Bulma
 		2025/shenron-goku-nomnom	Shenron et Sangoku
+	category/jeux-soci-t-	Jeux Société	2026-02-06
+		2026/descent-act-1	Descent Act 1	2026-02-06
 	tag/d-fi	Défi Peinture
 		2025/annee-2024-defi-peinture	Résumé défi 2024
 		2025/pour-la-gloire-de-tortuga	La Gloire de Tortuga (2025)

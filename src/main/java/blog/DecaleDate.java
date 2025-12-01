@@ -21,13 +21,11 @@ import org.apache.commons.lang3.tuple.Pair;
 
 public class DecaleDate {
 
-	private static String[] aftersFiles = { "wargame/elfes-noirs/armee-elfes-noirs.md" };
-
 	private static DateFormat jsonFormat = new SimpleDateFormat("yyyy/MM/dd"); // aussi pour les after
 	private static DateFormat menuFormat = new SimpleDateFormat("yyyy-MM-dd");
 
 	public static void main(String[] args) throws ParseException, IOException {
-		new DecaleDate().start(jsonFormat.parse("2025/11/10"), 8);
+		new DecaleDate().start(jsonFormat.parse("2026/02/06"), 8);
 	}
 
 	private void start(Date date, int nbDays) throws IOException {
