@@ -838,10 +838,12 @@ q(function() {
 		.progress("19/11/2025", faran, 3, "Octolié exalté", _MEDIUM)
 		.progress("27/11/2025", tony, 1, "Dio pour SW", _BIG_DECOR)
 		.progress("27/11/2025", whisp, 1, "Taverne Naine", _BIG_DECOR)
-		.progress("27/11/2025", whisp, 7, "Props Taverne Naine", _SMALL_DECOR)
+		.progress("27/11/2025", whisp, 10, "Props Taverne Naine", _SMALL_DECOR)
 		.progress("28/11/2025", shionn, 4, "Squelette Descent", _SMALL)
+		.progress("01/12/2025", whisp, 4, "Ogre", _SMALL)
+		.progress("02/12/2025", whisp, 1, "Guerriere", _SMALL)
 		.progress("03/12/2025", tony, 1, "Ghool", _SMALL)
-		.progress("03/12/2025", transfopaper, 1, "Statue", _BIG_DECOR)
+		.progress("03/12/2025", transfopaper, 1, "Statue", _SMALL_DECOR)
 		.render();
 
 //
