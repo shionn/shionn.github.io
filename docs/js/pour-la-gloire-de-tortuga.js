@@ -844,6 +844,7 @@ q(function() {
 		.progress("02/12/2025", whisp, 1, "Guerriere", _SMALL)
 		.progress("03/12/2025", tony, 1, "Ghool", _SMALL)
 		.progress("03/12/2025", transfopaper, 1, "Statue", _SMALL_DECOR)
+		.progress("07/12/2025", shionn, 5, "Herald of night", _SMALL)
 		.render();
 
 //
