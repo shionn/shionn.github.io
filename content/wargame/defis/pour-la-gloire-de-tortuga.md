@@ -96,6 +96,14 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
+### Jour La Batisse du Capitaine
+
+Ohé Pirates! 
+Le capitaine ne peut pas dormir avec ces matelots, il lui faut sa propre batisse! Une batisse digne d'un Capitaine! 
+Allez mécréants des mers! 
+Au travail! 
+Il nous faudra au moins 30 ressources avant noël!
+
 ### Jour 313 Renfort des Remparts
 
 Ohé Pirates! 
@@ -104,6 +112,9 @@ Il faut donc renforcer les remparts à l'entrée du Port et ajouter un portique 
 
 <div id="quest-33"></div>
 
+[gallery]
+pictures/defis/tortuga-2025/map30.png
+[/gallery]
 
 ### Jour 297 Le Marché Noir
 
