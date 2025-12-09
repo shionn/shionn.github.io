@@ -821,7 +821,7 @@ q(function() {
 		.progress("08/11/2025", tupad, 32, "Maraudeur du Chaos", _SMALL)
 		.render();
 
-	let q33 = new _quest("quest-33", "Renfort des Remparts", "Peindre 60 figurines ou Décors", 60)
+	let q33 = new _quest("quest-33", "Renfort des Remparts", "Peindre 60 figurines ou décors", 60)
 		.progress("14/10/2025", whisp, 3, "Coffres", _SMALL)
 		.progress("27/10/2025", transfopaper, 1, "Ratelier", _SMALL)
 		.progress("09/11/2025", faran, 1, "Arjac Rockfist", _MEDIUM)
@@ -845,6 +845,12 @@ q(function() {
 		.progress("03/12/2025", tony, 1, "Ghool", _SMALL)
 		.progress("03/12/2025", transfopaper, 1, "Statue", _SMALL_DECOR)
 		.progress("07/12/2025", shionn, 5, "Herald of night", _SMALL)
+		.progress("08/12/2025", tupad, 2, "Cavalier du Chaos", _MEDIUM)
+		.render();
+
+	let q34 = new _quest("quest-34", "Le Manoir de Whisp", "Peindre au moins 30 figurines ou décors pour Noël", 30)
+		.progress("08/12/2025", tupad, 8, "Cavalier du Chaos", _MEDIUM)
+		.progress("08/12/2025", tupad, 2, "Héros du Chaos", _SMALL)
 		.render();
 
 //
