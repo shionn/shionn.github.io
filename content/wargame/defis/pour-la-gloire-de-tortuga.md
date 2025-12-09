@@ -96,13 +96,16 @@ Voici les badges actuellement connu :
 
 ## Historique 
 
-### Jour La Batisse du Capitaine
+### Jour 343 La Batisse du Capitaine
 
 Ohé Pirates! 
 Le capitaine ne peut pas dormir avec ces matelots, il lui faut sa propre batisse! Une batisse digne d'un Capitaine! 
 Allez mécréants des mers! 
 Au travail! 
 Il nous faudra au moins 30 ressources avant noël!
+
+<div id="quest-34"></div>
+
 
 ### Jour 313 Renfort des Remparts
 
