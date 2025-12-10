@@ -849,7 +849,7 @@ q(function() {
 		.render();
 
 	let q34 = new _quest("quest-34", "Le Manoir de Whisp", "Peindre au moins 30 figurines ou décors pour Noël", 30)
-		.progress("08/12/2025", tupad, 8, "Cavalier du Chaos", _MEDIUM)
+		.progress("08/12/2025", tupad, 9, "Cavalier du Chaos", _MEDIUM)
 		.progress("08/12/2025", tupad, 2, "Héros du Chaos", _SMALL)
 		.render();
 
