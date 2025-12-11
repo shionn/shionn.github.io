@@ -852,6 +852,7 @@ q(function() {
 		.progress("08/12/2025", tupad, 9, "Cavalier du Chaos", _MEDIUM)
 		.progress("08/12/2025", tupad, 2, "Héros du Chaos", _SMALL)
 		.progress("11/12/2025", shionn, 5, "The Betrayers", _SMALL)
+		.progress("11/12/2025", whisp, 1, "Beholder", _SMALL)
 		.render();
 
 //
