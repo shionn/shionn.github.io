@@ -67,6 +67,7 @@ https://shionn.github.io/2025/gloomspite-arachnarok.html
 https://shionn.github.io/2025/gloomspite-fanatiques.html
 https://shionn.github.io/2025/gloomspite-rockgut-troggoths.html
 https://shionn.github.io/2025/gloomspite-stabbas-shootas.html
+https://shionn.github.io/2025/gloomspite-troggboss-moit-gites.html
 https://shionn.github.io/2025/gloomspite-trugg.html
 https://shionn.github.io/2025/homelab-processeur.html
 https://shionn.github.io/2025/jellyfin-proxmox-hardware-encode.html
