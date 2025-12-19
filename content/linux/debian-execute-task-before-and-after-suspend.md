@@ -2,7 +2,7 @@ Pendant longtemps j'ai cherché à exécuter des scripts avant et/ou après la m
 
 Actuellement je m'en sers sur mon pc principal pour éteindre le RGB quand il rentre en veille, et le rallumer quand il sort de cette veille. 
 
-## Comment qu'on fait
+# Comment qu'on fait
 
 Si on fait un `man systemd-suspend.service` on y apprend que tous les exécutables 
 dans __/usr/lib/systemd/system-sleep/__ sont exécuté avant et après une mise en veille avec deux argument :  

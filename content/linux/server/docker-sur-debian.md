@@ -1,9 +1,9 @@
 Je n'aime  pas particulièrement docker, je préfère passer par LXC en temps normal.
 Mais bon pour un autre projet j'en ai eu besoin.
 
-## Installation
+# Installation
 
-### Ajout du repo
+## Ajout du repo
 Ajout des packages pour docker. 
 Il ne faut pas installer ceux présent dans Debian qui ne sont pas les package officiel de docker. 
 Il s'agit potentiellement de vieux build.
@@ -26,7 +26,7 @@ Puis ajouter un fichier de source à apt : `/etc/apt/sources.list.d/docker.list`
 deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian bookworm stable
 ~~~
 
-### Installation
+## Installation
 
 Peut être que pas toute les dépendances sont nécessaires.
 

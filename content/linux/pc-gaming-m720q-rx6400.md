@@ -1,7 +1,7 @@
 
 J'adore les mini pc professionnels. Tout particulièrement les Lenovo Thinkcenter. J'en possédais déjà deux, puis un jour je suis tombé sur une vidéo de [ETG Gear](https://www.youtube.com/watch?v=jrzvkyytwts) qui rentre une RX6400 dans un M720Q.
 
-## Les composants
+# Les composants
 
 Je commence par faire des recherches sur ce que je veux. Idéalement je cherche un Lenovo M720Q ou M920Q ou M70Q avec au moins un I5. La quantité de ram ou de disque m'importe peu. Je prendrais dans mon stock si il n’y en as pas assez. Il faut également que je fasse attention à la puissance de la brique d'alimentation fourni avec, en effet si une 65W suffit emplement pour la carte mere et le cpou, si j'ajoute une petite carte graphique ca sera pas assez. Je pars sur un minimum de 90W.
 
@@ -9,7 +9,7 @@ Puis une RX6400, je cherche d'occasion. J'ai pas de modèle de préférence, mai
 
 Je sais qu'il me faudra aussi un riser spécifique pour adapter le connecteur pci-e du lenovo vers ma carte graphique, facile ça se trouve sur aliexpress.
 
-### Un M720Q
+## Un M720Q
 
 Le M720Q peut être équipé de processeur intel de 8ème ou 9ème génération avec un TDP de maximum 35W. Il possède un port NVME, un berceau pour un disque de 2.5", 2 emplacement mémoire sodimm. Ce modèle possède également un port pci-e 8x en 3.0. Ce port est à un format spécifique et demande un adaptateur particulier. Donc malheureusement ce port bridera la RX6400 qui est pci-e 4x mais en 4.0.
 
@@ -31,7 +31,7 @@ pictures/linux/m720q-rx6400/04.jpg
 pictures/linux/m720q-rx6400/05.jpg
 [/gallery]
 
-### Une RX 6400
+## Une RX 6400
 
 Je n'avais pas de modèle de préférence. Aussi grâce à un bon plan j’ai réussi à me procurer une RX6400 de Sapphire neuve pour 89 €.
 
@@ -39,7 +39,7 @@ Je n'avais pas de modèle de préférence. Aussi grâce à un bon plan j’ai r�
 pictures/linux/m720q-rx6400/09.jpg
 [/gallery]
 
-### Truc en plus
+## Truc en plus
 
 A cela j'ai ajouté deux babioles. Une plaque qui aide à refroidir le chipset de la carte mère. Mais aussi un adaptateur pci-e car le connecteur pci-e du m720q est à un format particulier. J'ai trouvé ces deux truc sur aliexpresse pour 15 €
 
@@ -48,9 +48,9 @@ pictures/linux/m720q-rx6400/06.jpg
 pictures/linux/m720q-rx6400/15.jpg
 [/gallery]
 
-## Assemblage
+# Assemblage
 
-### Amélioration du M720Q
+## Amélioration du M720Q
 
 Pour améliorer le refroidissement du chipset j'ajoute ce radiateur acheter sur Aliexpress. Il est fourni avec ces vis de fixation et des pads thermique déjà installé.
 
@@ -59,7 +59,7 @@ pictures/linux/m720q-rx6400/07.jpg
 pictures/linux/m720q-rx6400/08.jpg
 [/gallery]
 
-### Echec de la RX6400
+## Echec de la RX6400
 
 Je dois bien évidemment retirer le SSD car ma carte graphique ira s'y loger.
 
@@ -80,7 +80,7 @@ pictures/linux/m720q-rx6400/13.jpg
 pictures/linux/m720q-rx6400/14.jpg
 [/gallery]
 
-## Modelisation d'un boitier
+# Modelisation d'un boitier
 
 Malheureusement les ressources que j'ai trouvé sur le net, n'étaient pas du tout adaptées, ca forcait sur la carte et j'aimais pas du tout. Donc j'ai eu l'idée de faire un boîtier avec un trou ou tout le radiateur de la carte ressortirait par ce trou.
 
@@ -94,9 +94,9 @@ pictures/linux/m720q-rx6400/20.jpg
 pictures/linux/m720q-rx6400/21.jpg
 [/gallery]
 
-## Benchmark
+# Benchmark
 
-### En jeu
+## En jeu
 
 J'ai commencé par installer "bazzite". J'ai immédiatement détesté. 
 Puis j'ai essayé Catchy, que j'ai aussi immédiatement détesté. 
@@ -123,7 +123,7 @@ Je vois 2 points de bridage potentiel :
 - la limitation du pci-e 3.0 en 4X est trop importante il faudrait donc prendre un model plus recent pour avoir le pci-e 4.0. 
 - le processeur monte pas assez en fréquence, il parait que certain arrive à y mettre des processeurs non T de 65W. Mais mon seul processeur compatible est un 8700K ce qui est bien trop. 
 
-### Pour le reste
+## Pour le reste
 
 Ras, dessus j'ai pu faire ce que j'ai besoin tous les jours. Hormis de la navigation web j'ai pu faire : 
 - du dev sur eclipse et vscode
@@ -133,13 +133,13 @@ Ras, dessus j'ai pu faire ce que j'ai besoin tous les jours. Hormis de la naviga
 
 Donc dans les faits, hormis en jeu, cette machine pourrait remplacer totalement ma machine.
 
-### Niveau bruit
+## Niveau bruit
 
 La RX6400 se fait totalement oublier, malgré le fait que le ventillo est exposé à l'extérieur. 
 En revanche mon ventilateur CPU fait un sale bruit il faudrait que je le change. 
 La référence de celui-ci est **BAZA0817R2U** mais je trouve cela trop cher. 
 
-## Conclusion 
+# Conclusion 
 
 Franchement j'ai aimé construire ce pc. Comme j'ai dis j'adore ce type d'ordinateur. 
 J'ai besoin d'un pc de secours quand je suis en train de modifier mon pc principal, ou quand j'ai des soucis avec, et celui-ci est parfait pour cela. 
@@ -148,7 +148,7 @@ Si vous voulez faire pareil, ne faites pas comme moi, ne prenez pas une Sapphire
 
 Grâce à ce projet j'ai aussi découvert [OpenScad](https://openscad.org/) et j'adore. 
 
-### Cout
+## Cout
 
 [table cols="Produit,Cout"]
 Lenovo	120 €
@@ -159,6 +159,6 @@ Riser	8 €
 Total	224 €
 [/table]
 
-### Ressources
+## Ressources
 
 Vous trouverez toutes les ressources que j'ai utilisé et crée sur ce [github](https://github.com/shionn/LenovoM720Q).

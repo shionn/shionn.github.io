@@ -1,15 +1,15 @@
 
 
-## Proxmox
+# Proxmox
 
-### Documentation 
+## Documentation 
 
 Parece que rien ne remplace un tuto écris. 
 
 - [Doc proxmox VM](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#qm_virtual_machines_settings)
 - [UID mapping](https://itsembedded.com/sysadmin/proxmox_bind_unprivileged_lxc/)
 
-### Lien vers des Tutos
+## Lien vers des Tutos
 
 Voici quelques tuto trouvé sur le net que j'ai utilisé avec succes. 
 
@@ -18,12 +18,12 @@ Voici quelques tuto trouvé sur le net que j'ai utilisé avec succes.
 - [Nas ZFS en container LXC](https://www.youtube.com/watch?si=uNb3HVNwdK8xJMQQ&v=I7nfSCNKeck&feature=youtu.be)
 - [backup fichier de configuration proxmox](https://blog.johnsonpremier.net/backup_restore_proxmox_config_/)
 
-### Wiki des connaissances
+## Wiki des connaissances
 
 - [Le Wiki de Linuxon](https://wiki.julien68.fr/)
 - [Le wiki de Sky](https://wiki.favrep.ch/)
 
-## Chaines Youtube
+# Chaines Youtube
 
 - [573v3](https://www.youtube.com/@513v3/)
 - [A1RM4X](https://www.youtube.com/@A1RM4X)

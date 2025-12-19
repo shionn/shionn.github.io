@@ -2,9 +2,9 @@ Voici ma petite liste de truc et astuce pour jouer sous Debian.
 Cette page se concentre sur l'aspect jeux vidéo.
 Pour des astuces plus généraliste merci de [regarder cette page](2023/debian-general-help-kit.html).
 
-## Installation
+# Installation
 
-### Steam
+## Steam
 Il faut ajouter les dépôts _non-free_ puis Ajouter des l'architecture i386, mettre à jour les depot puis installer steam :
 
 ~~~shell
@@ -13,7 +13,7 @@ sudo apt update
 sudo apt install steam
 ~~~
 
-### Proton GE
+## Proton GE
 
 Créer le dossier compatibilitytools.d dans steam si inexistant :
 
@@ -29,24 +29,24 @@ Extraire l'archive
 tar -xvf "la derniere archive".tar.gz -C ~/.steam/debian-installation/compatibilitytools.d/
 ~~~
 
-### Lancer steam depuis TTY
+## Lancer steam depuis TTY
 
 ~~~shell
 gamescope -W 5120 -H 1440 -f -e --disable-color-management --mangoapp --adaptive-sync -- steam -tenfoot -steamos
 ~~~
 
-## Steam Deck
+# Steam Deck
 Pour calibrer les joystick : `thumbstick_cal`
 
 Pour unlock le system : `sudo steamos-readonly disable`
 
-## Utilitaire
+# Utilitaire
 
 - Mangohud et Goverlay pour la config
 - Gamemoderun
 - Gamescope
 
-### Mangohud qui marche pas parfois
+## Mangohud qui marche pas parfois
 
 installer mangohud:i386
 
@@ -54,23 +54,23 @@ installer mangohud:i386
 apt install mangohud:i386
 ~~~
 
-## Probleme sur certaine Jeu
+# Probleme sur certaine Jeu
 
-### Cyberpunk qui block sur l'ecran titre 
+## Cyberpunk qui block sur l'ecran titre 
 
 ~~~shell
 WINEDLLOVERRIDES="winmm,version=n,b" %command% --launcher-skip
 ~~~
 
-### Jeux comme au ralenti (Horizon Zero Dawn)
+## Jeux comme au ralenti (Horizon Zero Dawn)
 
 Ajouter l'option **tsc=reliable** aux noyaux.
 
-### Son qui sature (Horizon Zero Dawn)
+## Son qui sature (Horizon Zero Dawn)
 
 Ajouter ̀`PULSE_LATENCY_MSEC=60 DRI_PRIME=1` à la commande de lancement
 
-### Son qui crack (station to station)
+## Son qui crack (station to station)
 
 Confirmer les erreurs avec `pw-top`. puis dans /etc/pipewire/pipewire.conf.d/pipefire.conf :
 
@@ -79,7 +79,7 @@ echo "context.properties = {default.clock.min-quantum = 1024}" | sudo tee pipewi
 ~~~
 [Source reddit](https://www.reddit.com/r/linux_gaming/comments/1gy347h/newbie_here_ive_tried_almost_all_fixes_theres/)
 
-### jeu qui crashe avec bcp de sacade (hogward legacy)
+## Jeu qui crashe avec bcp de sacade (hogward legacy)
 
 Parfois c'est du manque de nmap. 
 Le jeux crash avec une erreur `MAPPING_ERROR: 0x0`. 
@@ -94,7 +94,7 @@ echo "vm.max_map_count=2097152" | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
 ~~~
 
-## Autre truc 
+# Autre truc 
 
 ~~~shell
 # Options de démarrage du noyau (à ajouter dans /etc/default/grub)

@@ -1,7 +1,7 @@
 
 Cette article est la suite de celui sur (Mon mini pc à 250 Brouzouff)[2025/pc-gaming-m720q-rx6400]. 
 
-## Point sur la situation
+# Point sur la situation
 
 Dans cette article je conclu que je suis déçu des performance, et je met en cause deux point potentiel : 
 - le bus pci-e limité à 4x, en effet entre la RX6400 qui est en pcie-4.0x4 et le m720q en pcie-3.0, la bande passante restante est très limité. 
@@ -9,7 +9,7 @@ Dans cette article je conclu que je suis déçu des performance, et je met en ca
 
 Et puis j'ai joué avec, surtout des vieux jeux, comme la série des **Batman Arkham**. Et j'en suis venu à la conclusion que ce n'était pas possible et que je ratais quelque chose. Certes le processeur n'est pas puissant, ni la carte graphique, mais d'après ce que m'affiche mangohud, le processeur comme la carte graphique était sous exploité. 
 
-## Profile CPU
+# Profile CPU
 
 J'ai pour habitude de lancer mes jeux avec (gamemode de feral interactiv)[https://www.feralinteractive.com/fr/]. 
 Bon ben j'ai l'impression que ca marche pas comme ca devrais. Aussi j'ai utilisé cpupower-gui j'ai changé le profil comme suit. 
@@ -28,12 +28,12 @@ A gauche en mode **powersave** et à droite en mode **performance**.
 /pictures/linux/m720q-rx6400/23-batman-mangohud-performance.jpg	En performance, fps bien plus stable
 [/gallery]
 
-## Bench
+# Bench
 
 J'ai donc voulu refaire des benchs. 
 Nous sommes sur une Debian 13, kernel 6.16.8, Mesa 25.0.7-2, Proton GE 10.15.
 
-### Shadow of the Tomb Raider
+## Shadow of the Tomb Raider
 
 Setup : 
 - 1920x1080
@@ -48,7 +48,7 @@ Setup :
 [/gallery]
 
 
-### Cyber punk
+## Cyber punk
 
 Setup :
 - 1920x1080
@@ -76,7 +76,7 @@ Ces jeux sont bien trop gourmands pour cette configuration.
 Je vais passer sur des jeux plus ancien, 
 Initialement cette configuration à été prévu pour ces jeux, dans l'optique de rattraper mon backlog. 
 
-### Batman Arkam Origin
+## Batman Arkam Origin
 
 Setup :
 - 1920x1080
@@ -91,7 +91,7 @@ Setup :
 
 Le benchmark ne montre pas la différence de stabilité de fps que montre Mangohud.
 
-### Tomb raider (10)
+## Tomb raider (10)
 
 Setup :
 - 1920x1080
@@ -120,7 +120,7 @@ Mais comment cela s'explique ?
 En réalité la version native n'est pas native, il s'agit d'une exécution via proton packagé par (Feral Interactiv)[https://www.feralinteractive.com/fr/].
 Cette version du jeu n'a jamais été mise à jour, de fait entre cette vieille version de proton et la nouvelle, c'est le jour et la nuit. 
 
-## Conclusion
+# Conclusion
 
 En jeu je ressent un vrai écart de performance entre le mode **powersave** et **performance**, mais les benchmarks ne le montrent pas. 
 Pire les benchmarks semble indiquer le contraire. 

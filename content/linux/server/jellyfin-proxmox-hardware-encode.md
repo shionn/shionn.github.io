@@ -1,4 +1,4 @@
-## Installation de Jellyfin
+# Installation de Jellyfin
 Sur votre proxmox créer un container à partir d'une Debian. 
 Puis connectez vous à ce container. 
 Je ne vais pas détailler en profondeur la creation de ce container. 
@@ -8,7 +8,7 @@ Mais prévoir :
 - 2 go de ram
 - non privilégié
 
-### Ajout du dépo et installation
+## Ajout du dépo et installation
 
 En root : 
 
@@ -25,7 +25,7 @@ Je ne sais plus pour quelle raison mais j'ai installé :
 apt install jellyfin-ffmpeg6
 ~~~
 
-### Configuration 
+## Configuration 
 
 Dans /etc/jellyfin/encoding.xml vous pouvez activer le support du HEVC ou AV1. 
 Avec les balises :
@@ -35,7 +35,7 @@ Avec les balises :
 <AllowAv1Encoding>true</AllowAv1Encoding>
 ~~~
 
-## Accélération matériel 
+# Accélération matériel 
 
 Ici j'utilise une Intel Arc A310. 
 Certes en jeux c'est pas une foudre de guerre mais pour le transcodage 
@@ -45,7 +45,7 @@ Cependant si vous avez un processeur Intel avec un GPU intégré cela
 suffit amplement. Dans mon cas possédant un serveur à base de Xéon, 
 je n'en ai pas et j'ai donc opté pour une carte dédié. 
 
-### Passthrought du GPU
+## Passthrought du GPU
 
 Sur votre Proxmox dans `/dev/dri` vous devriez avoir quelque chose ressemblant 
 à `renderDXXX`, dans mon cas j'ai `renderD128`. 
@@ -83,7 +83,7 @@ crw-rw---- 1 root render 226, 128 Nov  7 12:11 renderD128
 root@Jellyfin:/dev/dri# 
 ~~~
 
-### Installer l'accélération matériel :
+## Installer l'accélération matériel :
 
 Il faut installer le package opencl, pour vérifier si vous avez la 
 bonne version faire un `apt policy intel-opencl-icd`. 
@@ -100,7 +100,7 @@ Dans mon cas il me faut aussi installer l'extension ffmpeg7 de jellyfin.
 apt install jellyfin-ffmpeg7
 ~~~
 
-### Activation
+## Activation
 
 Cela se passe dans le `tableau de bord` de Jellyfin dans l'interface web. 
 
@@ -109,7 +109,7 @@ pictures/linux/proxmox-jellyfin/03-activation-transcodage-menu.png
 pictures/linux/proxmox-jellyfin/04-activation-transcodage-options.png
 [/gallery]
 
-## Résultat
+# Résultat
 Avec cette configuration, ma machine transcode un flux 4K en 
 HEVC 10bit vers de l'AV1 4K à environ 180 fps. Ce qui est assez :p. 
 En software malgré l'attribution de 20 coeur, je plafonnais a 15 fps. 
@@ -119,6 +119,6 @@ pictures/linux/proxmox-jellyfin/05-resultat.png
 [/gallery]
 
 
-## Source
+# Source
 
 * [Jellyfin](https://jellyfin.org/docs/general/administration/hardware-acceleration/)

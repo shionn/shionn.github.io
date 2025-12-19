@@ -2,9 +2,9 @@
 Ce tuto s'intérresse surtout à la procédure à suivre pour installer une carte graphique NVIDIA sur votre Proxmox avec un pass-through dans un conteneur.
 Cette solution n'utilise pas les drivers pro qui permettent de découper une carte en plusieurs. En effet, avec la containment LXC, une même carte peut être partagée entre plusieurs conteneurs. 
 
-## Installation des driver Nvidia
+# Installation des driver Nvidia
 
-### Nvidia sur proxmox
+## Nvidia sur proxmox
 
 Il faut commencer par installer les driver nvidia sur votre proxmox. 
 Commencer par le mettre à jour :
@@ -69,7 +69,7 @@ Sat Aug 23 10:52:17 2025
 +-----------------------------------------------------------------------------------------+
 ~~~
 
-### Nvidia dans le Container LXC
+## Nvidia dans le Container LXC
 
 Votre container n'as pas besoin d'option particulière, il n'as pas besoin d'être privilégié.
 configuration, sur l'hôte faites un ls `/dev/nvi*` et vous devriez avoir quelque chose comme cela : 
@@ -113,9 +113,9 @@ apt install nvidia-driver-cuda
 
 Vous pouver faire un nvdia-smi pour confirmer que la carte est disponible et fonctionnel sur votre container. 
 
-## Exemple une IA avec Ollama
+# Exemple une IA avec Ollama
 
-### Ollama
+## Ollama
 
 Pour tester cette nouvelle carte, je vous propose d'installer ollama qui est un group d'IA opensource.
 
@@ -148,7 +148,7 @@ Puis faire un essaie en console.
 ollama run qwen2.5-coder:7b
 ~~~
 
-### Open web UI
+## Open web UI
 
 Ajoutons une interface graphique à notre IA. 
 Pour installer openweb ui, sur votre machine vous avez besoin : 
@@ -168,7 +168,7 @@ open-webui serve
 
 Render vous sur le port 5000 de votre container :)
 
-### Changer le port d'écoute de ollama : 
+## Changer le port d'écoute de ollama : 
 
 ~~~shell
 systemctl edit ollama.service
@@ -177,7 +177,7 @@ Environment="OLLAMA_HOST=0.0.0.0:11434"
 ~~~
 
 
-## Ressource
+# Ressource
 
 J'ai réussi à faire cela en m'appuyant sur ces documentations :
 - [How to set up a NVIDIA GPU with Open WebUI and Ollama on Proxmox](https://www.nasmaster.com/how-to-set-up-a-nvidia-gpu-with-open-webui-and-ollama-on-proxmox)

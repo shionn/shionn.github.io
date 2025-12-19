@@ -4,7 +4,7 @@ vous avez forcement du vous perdre un peu avec les références de ces processeu
 
 Je vais lister ici les diverses gammes de processeurs __"achetable"__ que l'ont trouve sur le marché d'occasion (et chinois).
 
-## Processeur Intel Xeon
+# Processeur Intel Xeon
 
 <table class="boxed">
 	<thead>
@@ -70,7 +70,7 @@ Je vais lister ici les diverses gammes de processeurs __"achetable"__ que l'ont 
 	</tbody>
 </table>
 
-### Xeon E5 
+## Xeon E5 
 
 Décodage d'une référence : __E5-2650L v4__
 * E5 : Gamme, il existe également E3 et E7. 
@@ -88,7 +88,7 @@ Décodage d'une référence : __E5-2650L v4__
 * v4 : Architecture (cf tableau)
 	- v1 : est generalement homis
 
-### Xeon W 
+## Xeon W 
 
 Décodage d'une référence : __W-4245M__
 * W- : Constante
@@ -113,7 +113,7 @@ Décodage d'une référence : __W-4245M__
 	- V : ???? 
 	- Y : ????
 
-## Threadripper / Epyc
+# Threadripper / Epyc
 
 <table class="boxed">
 	<thead>

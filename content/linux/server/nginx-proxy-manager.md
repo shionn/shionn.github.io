@@ -1,5 +1,5 @@
 
-## nginx Kesako ?
+# nginx Kesako ?
 
 Nginx est un reverse proxy.
 
@@ -10,7 +10,7 @@ Un reverse proxy permet pas mal de choses entres autres :
 - Permet d'ajouter du HTTPS
 - Permet de cacher les ports et chemin
 
-### Exemple
+## Exemple
 
 Par exemple admettons que que votre nom de domaine "exemple.com" tape sur votre serveur Nginx.
 Admettons également que vous avez deux serveur __web1__ et __web2__ dans votre réseau privé qui écoutent tous les deux sur le port 80.
@@ -31,7 +31,7 @@ internet                 \
 
 Ça semble pas mal non ?
 
-## Mais, y a toujours un _mais_
+# Mais, y a toujours un _mais_
 
 Franchement Nginx c'est pas super agréable à configurer quand on est comme moi pas intéressé par le réseau. 
 Et puis faut gérer la signature des certificats SSL (c'est chiant).
@@ -41,12 +41,12 @@ Qui est une solution tout en un avec l'installation de nginx et d'une interface 
 pour faire tout ça simplement avec en plus la gestion des certificats SSL via let's encrypt.
 Et le seul défaut de cette solution finalement c'est que ça marche sur docker.
 
-## Installation
+# Installation
 
-### Pré requis
+## Pré requis
 Installer docker. [procédure disponible ici](2024/docker-sur-debian.html)
 
-### Configuration docker
+## Configuration docker
 
 Il faut créer un fichier de configuration docker.
 
@@ -65,22 +65,22 @@ services:
       - ./letsencrypt:/etc/letsencrypt
 ~~~
 
-### Configuration reseau
+## Configuration reseau
 
 Re-diriger les port 80 et 443 vers votre serveur.
 
-## Exécution
+# Exécution
 
-### Lancer
+## Lancer
 
 ~~~shell
 docker-compose up -d
 ~~~
 
-### Connexion
+## Connexion
 
 Ça se passe sur le port 81. les Users par défaut sont : admin@example.com / changeme
 
-## Source
+# Source
 - [nginx](https://nginxproxymanager.com/guide/#quick-setup)
 - [wolf](https://www.youtube.com/watch?v=qlcVx-k-02E&t=321s)
