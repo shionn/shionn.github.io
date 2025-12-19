@@ -215,14 +215,14 @@
 	<section><p>Voici ma petite liste de truc et astuce pour jouer sous Debian.
 Cette page se concentre sur l'aspect jeux vidéo.
 Pour des astuces plus généraliste merci de <a href="2023/debian-general-help-kit.html">regarder cette page</a>.</p>
-<h2>Installation</h2>
-<h3>Steam</h3>
+<h1>Installation</h1>
+<h2>Steam</h2>
 <p>Il faut ajouter les dépôts <em>non-free</em> puis Ajouter des l'architecture i386, mettre à jour les depot puis installer steam :</p>
 <pre class="shell"><code class="shell">sudo dpkg --add-architecture i386
 sudo apt update
 sudo apt install steam
 </code></pre>
-<h3>Proton GE</h3>
+<h2>Proton GE</h2>
 <p>Créer le dossier compatibilitytools.d dans steam si inexistant :</p>
 </section>
 	<footer>
@@ -248,7 +248,7 @@ sudo apt install steam
 	</header>
 	<section><p>Vous êtes sous Linux, vous avez des truc en RGB et vous ne savez comment les contrôler ? OpenRGB peu le faire pour vous mais attention il y a parfois des contraintes.</p>
 <p>Vous n'êtes pas sous Linux et vous avez plein de RGB de marque différente ? et vous voudriez tous centraliser ?  C'est aussi possible mais je n'en parlerai pas.</p>
-<h2>Instalation (sous débian)</h2>
+<h1>Instalation (sous débian)</h1>
 <p>Télé-charger OpenRGB sur le <a href="https://openrgb.org/#downloads" target="_blank">site officiel</a>. Puis installer le :</p>
 <pre class="shell"><code class="shell">sudo apt install openrgb_0.9_amd64_bookworm_b5f46e3.deb
 </code></pre>
@@ -278,14 +278,14 @@ sudo modprobe i2c-dev
 			</span>
 		</div>
 	</header>
-	<section><h2>Proxmox</h2>
-<h3>Documentation</h3>
+	<section><h1>Proxmox</h1>
+<h2>Documentation</h2>
 <p>Parece que rien ne remplace un tuto écris.</p>
 <ul>
 <li><a href="https://pve.proxmox.com/pve-docs/pve-admin-guide.html#qm_virtual_machines_settings" target="_blank">Doc proxmox VM</a></li>
 <li><a href="https://itsembedded.com/sysadmin/proxmox_bind_unprivileged_lxc/" target="_blank">UID mapping</a></li>
 </ul>
-<h3>Lien vers des Tutos</h3>
+<h2>Lien vers des Tutos</h2>
 <p>Voici quelques tuto trouvé sur le net que j'ai utilisé avec succes.</p>
 <ul>
 <li><a href="https://forum.proxmox.com/threads/how-to-create-a-template-for-lxc-ubuntu-desktop-with-sound.73695/" target="_blank">Template LXC avec desktop</a></li>
@@ -315,7 +315,7 @@ sudo modprobe i2c-dev
 			</span>
 		</div>
 	</header>
-	<section><h2>Installation de Jellyfin</h2>
+	<section><h1>Installation de Jellyfin</h1>
 <p>Sur votre proxmox créer un container à partir d'une Debian.
 Puis connectez vous à ce container.
 Je ne vais pas détailler en profondeur la creation de ce container.
@@ -326,7 +326,7 @@ Mais prévoir :</p>
 <li>2 go de ram</li>
 <li>non privilégié</li>
 </ul>
-<h3>Ajout du dépo et installation</h3>
+<h2>Ajout du dépo et installation</h2>
 <p>En root :</p>
 <pre class="shell"><code class="shell">apt install extrepo
 extrepo enable jellyfin
@@ -356,7 +356,7 @@ apt install jellyfin
 			</span>
 		</div>
 	</header>
-	<section><h2>nginx Kesako ?</h2>
+	<section><h1>nginx Kesako ?</h1>
 <p>Nginx est un reverse proxy.</p>
 <p>Un reverse proxy permet pas mal de choses entres autres :</p>
 <ul>
@@ -366,7 +366,7 @@ apt install jellyfin
 <li>Permet d'ajouter du HTTPS</li>
 <li>Permet de cacher les ports et chemin</li>
 </ul>
-<h3>Exemple</h3>
+<h2>Exemple</h2>
 <p>Par exemple admettons que que votre nom de domaine &quot;exemple.com&quot; tape sur votre serveur Nginx.
 Admettons également que vous avez deux serveur <strong>web1</strong> et <strong>web2</strong> dans votre réseau privé qui écoutent tous les deux sur le port 80.</p>
 <p>Vous souhaitez que web1 répond à <strong>https://web1.exemple.com</strong> et web2 répond à <strong>https://web2.exemple.com</strong>.
@@ -396,8 +396,8 @@ Ben un reverse proxy permet de résoudre tous cela.</p>
 	</header>
 	<section><p>Je n'aime  pas particulièrement docker, je préfère passer par LXC en temps normal.
 Mais bon pour un autre projet j'en ai eu besoin.</p>
-<h2>Installation</h2>
-<h3>Ajout du repo</h3>
+<h1>Installation</h1>
+<h2>Ajout du repo</h2>
 <p>Ajout des packages pour docker.
 Il ne faut pas installer ceux présent dans Debian qui ne sont pas les package officiel de docker.
 Il s'agit potentiellement de vieux build.</p>
@@ -428,12 +428,12 @@ Il s'agit potentiellement de vieux build.</p>
 		</div>
 	</header>
 	<section><p>Voici ma petite liste de truc et astuce sur Debian.</p>
-<h2>Audio</h2>
-<h3>Pavucontrol</h3>
+<h1>Audio</h1>
+<h2>Pavucontrol</h2>
 <p>Outil pour mieux contrôler les périphériques audio</p>
 <pre class="shell"><code class="shell">apt install pavucontrol
 </code></pre>
-<h3>audio qui crack</h3>
+<h2>audio qui crack</h2>
 <p>Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire resout le probleme.</p>
 </section>
 	<footer>

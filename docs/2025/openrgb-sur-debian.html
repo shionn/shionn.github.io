@@ -214,7 +214,7 @@
 	</header>
 	<section><p>Vous êtes sous Linux, vous avez des truc en RGB et vous ne savez comment les contrôler ? OpenRGB peu le faire pour vous mais attention il y a parfois des contraintes.</p>
 <p>Vous n'êtes pas sous Linux et vous avez plein de RGB de marque différente ? et vous voudriez tous centraliser ?  C'est aussi possible mais je n'en parlerai pas.</p>
-<h2>Instalation (sous débian)</h2>
+<h1>Instalation (sous débian)</h1>
 <p>Télé-charger OpenRGB sur le <a href="https://openrgb.org/#downloads" target="_blank">site officiel</a>. Puis installer le :</p>
 <pre class="shell"><code class="shell">sudo apt install openrgb_0.9_amd64_bookworm_b5f46e3.deb
 </code></pre>
@@ -222,15 +222,15 @@
 <pre class="shell"><code class="shell">sudo apt install i2c-tools 
 sudo modprobe i2c-dev
 </code></pre>
-<h2>Controler vos truc RGB</h2>
-<h3>Par GUI</h3>
+<h1>Controler vos truc RGB</h1>
+<h2>Par GUI</h2>
 <p>OpenRGB fourni un gui pour contrôler vos RGB. Personnellement je n'aime pas.</p>
 <div class="gallery"><a href="pictures/linux/openrgb/gui.png"><img src="pictures/linux/openrgb/gui.png"></a></div>
-<h3>Par script</h3>
+<h2>Par script</h2>
 <p>Bien évidement je vais pas faire un article uniquement pour un simple <code>apt install</code>. Ma méthode préférée pour contrôler mes LED c'est via des scripts.
 Ça semble complexe, mais au final c'est bien plus léger ! (hein corsair !)</p>
 <p>Voici quelques commandes et des exemples de réponse avec mon matériel :</p>
-<h4>Lister les périphériques</h4>
+<h3>Lister les périphériques</h3>
 <p>D'abord il faut lister vos périphérique pour les identifier et savoir ce qu'il peuvent faire.</p>
 <pre class="shell"><code class="shell">$ sudo openrgb -l 
 $ 0: ENE DRAM
@@ -253,19 +253,19 @@ $ 0: ENE DRAM
   LEDs: 'Name for Led 1' 'Name for Led 2' 'Name for Led 3' 'Name for Led 4' 'Name for Led 5' 'Name for Led 6' 'Name for Led 7' 'Name for Led 8'
   6: ...
 </code></pre>
-<h4>Quelques exemples</h4>
+<h3>Quelques exemples</h3>
 <pre class="shell"><code class="shell"># changer mes rams
 $ sudo openrgb -d &quot;ENE DRAM&quot; -m &quot;Breathing&quot; -c FF8000
 # changer juste une zone de ma carte mere
 $ sudo openrgb -d &quot;B550 AORUS ELITE AX V2&quot; -z &quot;Motherboard&quot; -m &quot;Breathing&quot; -c FF8000
 </code></pre>
 <p>Sur ma carte mère Gigabyte le contrôle des zones ne marche pas.</p>
-<h2>Limite</h2>
+<h1>Limite</h1>
 <p>Avec pratiquement toutes les cartes mère Gigabyte, pour contrôler les RAMs il vous faut ajouter l'option suivante à votre grub.
 Pour ce faire éditer le fichier <code>/etc/default/grub</code> et modifier l'option <code>GRUB_CMDLINE_LINUX=</code> en ajoutant <code>acpi_enforce_resources=lax</code>. Puis faite un <code>sudo update-grub</code>.</p>
 <p>Conclusion : n'achetez pas de carte mère Gigabyte, n'achetez pas de barrette de ram avec du RGB.</p>
 <p>J'ai d'aileurd changé pour une MSI, plus besoin d'ajouter l'option au noyau et les zones fonctionnent.</p>
-<h2>Pour aller plus loin</h2>
+<h1>Pour aller plus loin</h1>
 <p>Si comme moi vous voulez éteindre vos RAMs quand votre pc se met en veille alors il est possible de faire un script comme décris dans <a href="2025/debian-execute-task-before-and-after-suspend.html">cet article</a>.</p>
 <p>Et si vous voulez initialiser votre RGBs au démarrage de votre machine vous pouvez utiliser une crontab :</p>
 <pre class="shell"><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
