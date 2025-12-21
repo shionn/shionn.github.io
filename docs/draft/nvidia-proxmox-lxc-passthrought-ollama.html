@@ -214,8 +214,8 @@
 	</header>
 	<section><p>Ce tuto s'intérresse surtout à la procédure à suivre pour installer une carte graphique NVIDIA sur votre Proxmox avec un pass-through dans un conteneur.
 Cette solution n'utilise pas les drivers pro qui permettent de découper une carte en plusieurs. En effet, avec la containment LXC, une même carte peut être partagée entre plusieurs conteneurs.</p>
-<h2>Installation des driver Nvidia</h2>
-<h3>Nvidia sur proxmox</h3>
+<h1>Installation des driver Nvidia</h1>
+<h2>Nvidia sur proxmox</h2>
 <p>Il faut commencer par installer les driver nvidia sur votre proxmox.
 Commencer par le mettre à jour :</p>
 <pre class="shell"><code class="shell">apt update &amp;&amp; apt upgrade
@@ -261,7 +261,7 @@ Sat Aug 23 10:52:17 2025
 |  No running processes found                                                             |
 +-----------------------------------------------------------------------------------------+
 </code></pre>
-<h3>Nvidia dans le Container LXC</h3>
+<h2>Nvidia dans le Container LXC</h2>
 <p>Votre container n'as pas besoin d'option particulière, il n'as pas besoin d'être privilégié.
 configuration, sur l'hôte faites un ls <code>/dev/nvi*</code> et vous devriez avoir quelque chose comme cela :</p>
 <pre class="shell"><code class="shell">root@MaxiMox:~# ls -l /dev/nvi*
@@ -288,8 +288,8 @@ apt install cuda-toolkit
 apt install nvidia-driver-cuda
 </code></pre>
 <p>Vous pouver faire un nvdia-smi pour confirmer que la carte est disponible et fonctionnel sur votre container.</p>
-<h2>Exemple une IA avec Ollama</h2>
-<h3>Ollama</h3>
+<h1>Exemple une IA avec Ollama</h1>
+<h2>Ollama</h2>
 <p>Pour tester cette nouvelle carte, je vous propose d'installer ollama qui est un group d'IA opensource.</p>
 <pre class="shell"><code class="shell"># L'installateur à besoin de lspci
 apt install pciutils
@@ -312,7 +312,7 @@ wget https://ollama.com/install.sh
 <p>Puis faire un essaie en console.</p>
 <pre class="shell"><code class="shell">ollama run qwen2.5-coder:7b
 </code></pre>
-<h3>Open web UI</h3>
+<h2>Open web UI</h2>
 <p>Ajoutons une interface graphique à notre IA.
 Pour installer openweb ui, sur votre machine vous avez besoin :</p>
 <pre class="shell"><code class="shell">apt install python3-pip python3-venv
@@ -324,12 +324,12 @@ pip install open-webui
 open-webui serve
 </code></pre>
 <p>Render vous sur le port 5000 de votre container :)</p>
-<h3>Changer le port d'écoute de ollama :</h3>
+<h2>Changer le port d'écoute de ollama :</h2>
 <pre class="shell"><code class="shell">systemctl edit ollama.service
 # ajouter dans la serction    [Service]
 Environment=&quot;OLLAMA_HOST=0.0.0.0:11434&quot;
 </code></pre>
-<h2>Ressource</h2>
+<h1>Ressource</h1>
 <p>J'ai réussi à faire cela en m'appuyant sur ces documentations :</p>
 <ul>
 <li><a href="https://www.nasmaster.com/how-to-set-up-a-nvidia-gpu-with-open-webui-and-ollama-on-proxmox" target="_blank">How to set up a NVIDIA GPU with Open WebUI and Ollama on Proxmox</a></li>
@@ -385,7 +385,7 @@ Environment=&quot;OLLAMA_HOST=0.0.0.0:11434&quot;
 						<a href="category/vie-du-blog.html">Vie du Blog&nbsp;(2)</a>
 					</li>
 					<li href="category/war-game.html">
-						<a href="category/war-game.html">War Game&nbsp;(49)</a>
+						<a href="category/war-game.html">War Game&nbsp;(50)</a>
 					</li>
 				</ul>
 			</aside>
@@ -444,13 +444,13 @@ Environment=&quot;OLLAMA_HOST=0.0.0.0:11434&quot;
 				</a><a href="tag/esp8266.html" class="tag0">
 					ESP8266&nbsp;(2)
 				</a><a href="tag/elfes-noirs.html" class="tag4">
-					Elfes Noirs&nbsp;(21)
+					Elfes Noirs&nbsp;(22)
 				</a><a href="tag/encounter.html" class="tag0">
 					Encounter&nbsp;(1)
 				</a><a href="tag/espressif.html" class="tag0">
 					Espressif&nbsp;(2)
 				</a><a href="tag/figurine.html" class="tag6">
-					Figurine&nbsp;(33)
+					Figurine&nbsp;(34)
 				</a><a href="tag/gaming.html" class="tag0">
 					Gaming&nbsp;(2)
 				</a><a href="tag/geek.html" class="tag0">
@@ -482,7 +482,7 @@ Environment=&quot;OLLAMA_HOST=0.0.0.0:11434&quot;
 				</a><a href="tag/matos.html" class="tag0">
 					Matos&nbsp;(2)
 				</a><a href="tag/metal.html" class="tag3">
-					Metal&nbsp;(15)
+					Metal&nbsp;(16)
 				</a><a href="tag/ntp.html" class="tag0">
 					NTP&nbsp;(1)
 				</a><a href="tag/nains.html" class="tag0">
@@ -533,12 +533,12 @@ Environment=&quot;OLLAMA_HOST=0.0.0.0:11434&quot;
 					Underworld&nbsp;(4)
 				</a><a href="tag/vscode.html" class="tag0">
 					VSCode&nbsp;(3)
-				</a><a href="tag/war-game.html" class="tag9">
-					War Game&nbsp;(49)
+				</a><a href="tag/war-game.html" class="tag10">
+					War Game&nbsp;(50)
 				</a><a href="tag/warcry.html" class="tag0">
 					Warcry&nbsp;(1)
 				</a><a href="tag/warhammer-battle.html" class="tag4">
-					Warhammer Battle&nbsp;(23)
+					Warhammer Battle&nbsp;(24)
 				</a><a href="tag/webview.html" class="tag0">
 					Webview&nbsp;(1)
 				</a><a href="tag/whisperia.html" class="tag2">
@@ -551,11 +551,12 @@ Environment=&quot;OLLAMA_HOST=0.0.0.0:11434&quot;
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2025 (44)</a>
+						<a href="#">2025 (45)</a>
 						<ul>
 							<li>
-								<a href="#">décembre (2)</a>
+								<a href="#">décembre (3)</a>
 								<ul>
+									<li><a href="2025/elfes-noirs-ombres.html">Ombres elfes noirs</a></li>
 									<li><a href="2025/gloomspite-troggboss-moit-gites.html">Troggboss des Moit&#39;gîtes</a></li>
 									<li><a href="2025/ntp-esp32.html">Synchronisation horloge ntp sur ESP32</a></li>
 								</ul>

@@ -213,33 +213,33 @@
 		</div>
 	</header>
 	<section><p>Voici ma petite liste de truc et astuce sur Debian.</p>
-<h2>Audio</h2>
-<h3>Pavucontrol</h3>
+<h1>Audio</h1>
+<h2>Pavucontrol</h2>
 <p>Outil pour mieux contrôler les périphériques audio</p>
 <pre class="shell"><code class="shell">apt install pavucontrol
 </code></pre>
-<h3>audio qui crack</h3>
+<h2>audio qui crack</h2>
 <p>Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire resout le probleme.</p>
 <pre class="shell"><code class="shell">systemctl --user restart pipewire.service
 </code></pre>
-<h2>Cron</h2>
-<h3>Cron au boot</h3>
+<h1>Cron</h1>
+<h2>Cron au boot</h2>
 <p>Créer un dossier <code>/etc/crton.reboot</code> puis ajouter cela au fichier <code>/etc/crontab</code></p>
 <pre class="shell"><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
 </code></pre>
-<h2>Eclipse</h2>
-<h3>Eclipse erreur ouverture markdown</h3>
+<h1>Eclipse</h1>
+<h2>Eclipse erreur ouverture markdown</h2>
 <p>Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.</p>
 <pre class="shell"><code class="shell">sudo apt install libwebkit2gtk-4.0-37
 </code></pre>
-<h3>Eclipse wayland</h3>
+<h2>Eclipse wayland</h2>
 <pre class="shell"><code class="shell">#/bin/shell
 export WEBKIT_DISABLE_COMPOSITING_MODE=1
 /path/to/eclipse/eclipse
 </code></pre>
-<h3>Les hauteur de ligne qui change au scroll</h3>
+<h2>Les hauteur de ligne qui change au scroll</h2>
 <p>C'est généralement liè à un porbleme de caractere special mal affiché qui flingue les hauteurs de ligne.</p>
-<h3>Créer un raccourci</h3>
+<h2>Créer un raccourci</h2>
 <p>Ajouter un fichier <code>/usr/share/application/eclipse.desktop</code>.</p>
 <pre class="shell"><code class="shell">[Desktop Entry]
 Name=Eclipse
@@ -255,8 +255,8 @@ Categories=Development;
 StartupWMClass=Eclipse
 StartupNotify=true
 </code></pre>
-<h2>File system</h2>
-<h3>Samba et fstab</h3>
+<h1>File system</h1>
+<h2>Samba et fstab</h2>
 <p>Créer un fichier <em>.smbcredentials</em> dans votre /home :</p>
 <pre class="shell"><code class="shell">username=votre user
 password=votre mot de pass
@@ -267,12 +267,20 @@ domaine=WORKGROUP
 <pre class="shell"><code class="shell">//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
 </code></pre>
 <p>Puis recharger la configuration comme suit : <code>sudo systemctl daemon-reload</code></p>
-<h2>Gnome</h2>
-<h3>ALT-F5 qui fait nimp</h3>
+<h1>Gnome</h1>
+<h2>ALT-F5 qui fait nimp</h2>
 <p>Dans dconf-editor modifier la clef <code>unmaximise</code> dans le dossier : <code>org.gnome.desktop.wm.keybindings</code></p>
-<h3>Desactiver pasword apres sleep</h3>
+<h2>Desactiver pasword apres sleep</h2>
 <p>Installer dconf-editor modifier la clef <code>/org/gnome/desktop/screensaver lock-enable</code> à false</p>
-<h3>Le pc ne se met pas en veille</h3>
+<h2>Outils de visualisation</h2>
+<ul>
+<li>evince : viewer de PDF</li>
+<li>f3d : viewer de model 3D</li>
+<li>loupe : viewer d'image</li>
+</ul>
+<pre class="shell"><code class="shell">sudo apt install evince f3d loupe
+</code></pre>
+<h2>Le pc ne se met pas en veille</h2>
 <p>Généralement un processus l'en empêche. J'ai trouvé cette astuce sur Reddit. Pour connaître ce processus vous pouvez entrer cette commande :</p>
 <pre class="shell"><code class="shell">dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager org.gnome.SessionManager.GetInhibitors
 </code></pre>
@@ -289,8 +297,8 @@ domaine=WORKGROUP
 <pre class="shell"><code class="shell">method return time=1728730410.581488 sender=:1.28 -&gt; destination=:1.304 serial=2482 reply_serial=2
    string &quot;firefox&quot;
 </code></pre>
-<h2>Impression 3D</h2>
-<h3>Creality print</h3>
+<h1>Impression 3D</h1>
+<h2>Creality print</h2>
 <p>Télécharger la derniere version en flatpack de créalityprint sur leurs <a href="https://github.com/CrealityOfficial/CrealityPrint" target="_blank">github</a>.</p>
 <pre class="shell"><code class="shell">sudo apt install flatpack
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -305,18 +313,18 @@ flatpak run io.github.crealityofficial.CrealityPrint
 
 are not in the search path set by the XDG_DATA_DIRS environment variable, so applications installed by Flatpak may not appear on your desktop until the session is restarted.
 </code></pre>
-<h2>Jeux</h2>
+<h1>Jeux</h1>
 <p>Voir ma page <a href="2025/debian-gaming-help-kit.html">dédié au jeux</a></p>
-<h2>Journalctl</h2>
-<h3>Log qui spam</h3>
+<h1>Journalctl</h1>
+<h2>Log qui spam</h2>
 <p>J'ai un spam de ce log.</p>
 <pre class="shell"><code class="shell">i2c-designware-pci 0000:09:00.3: Refused to change power state from D0 to D3hot
 </code></pre>
 <p>Il semblerai qu'ajouter l'option suivante la grub resolve le probleme :</p>
 <pre class="shell"><code class="shell">GRUB_CMDLINE_LINUX=&quot;pcie_port_pm=off&quot;
 </code></pre>
-<h2>Materiel</h2>
-<h3>Faire un smart profond</h3>
+<h1>Materiel</h1>
+<h2>Faire un smart profond</h2>
 <pre class="shell"><code class="shell"># lancer le test
 sudo smartctl -t long /dev/nvme0
 # voir la progress
@@ -324,30 +332,30 @@ sudo smartctl -a /dev/nvme0 | grep -i progress
 # voir les résultats
 sudo smartctl -a /dev/nvme0
 </code></pre>
-<h2>Proxmox</h2>
-<h3>changer le hostname d'un container</h3>
+<h1>Proxmox</h1>
+<h2>changer le hostname d'un container</h2>
 <pre class="shell"><code class="shell">pct set &lt;VMID&gt; --hostname &lt;newname&gt;
 </code></pre>
-<h3>changer les uid dans un rootfs</h3>
+<h2>changer les uid dans un rootfs</h2>
 <pre class="shell"><code class="shell">pct mount &lt;ID&gt;
 cd /var/lib/lxc/&lt;ID&gt;/rootfs
 find /var/lib/lxc/&lt;ID&gt;/rootfs/ -user &lt;OLDUID&gt; -exec chown -h &lt;NEWUID&gt; {} \;
 find /var/lib/lxc/&lt;ID&gt;/rootfs/ -group &lt;OLDGID&gt; -exec chgrp -h &lt;NEWGID&gt; {} \; 
 pct unmount &lt;ID&gt;
 </code></pre>
-<h2>Vidéo</h2>
-<h3>OBS pas de Vaapi</h3>
+<h1>Vidéo</h1>
+<h2>OBS pas de Vaapi</h2>
 <pre class="shell"><code class="shell">apt install mesa-va-drivers
 </code></pre>
-<h2>Vim</h2>
+<h1>Vim</h1>
 <p>Configuration de vim, désactiver le mode de séléction à la souris :</p>
 <pre class="shell"><code class="shell">echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
 </code></pre>
 <p>Ajouter la coloration syntaxic :</p>
 <pre class="shell"><code class="shell">echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
 </code></pre>
-<h2>Youtube</h2>
-<h3>Downloader une video</h3>
+<h1>Youtube</h1>
+<h2>Downloader une video</h2>
 <p>En discutant en vocale sur le didi de Steve, j'ai decouvert ce petit outil.</p>
 <pre class="shell"><code class="shell">sudo apt install yt-dlp
 yt-dlp -f 'bestvideo[codec^=av01]/bestvideo+bestaudio' --merge-output-format mkv &lt;URL&gt;
@@ -355,12 +363,12 @@ yt-dlp -f 'bestvideo[codec^=av01]/bestvideo+bestaudio' --merge-output-format mkv
 <p>On peu aller tres loin, pour telecharger toutes les musiques d'une playlist et en plus découper chaque video selon le chapitrage avec les mignatures  :</p>
 <pre class="shell"><code class="shell">yt-dlp --split-chapters -f 'bestaudio' --output '%(playlist_title)s/sources/%(title)s.%(ext)s' --output chapter:'%(playlist_title)s/%(title)s/%(section_number)02d - %(section_title)s.%(ext)s' --restrict-filenames --write-thumbnail --output thumbnail:'%(playlist_title)s/%(title)s/00 - %(title)s.%(ext)s' &lt;URL en /playlist?list=&gt;
 </code></pre>
-<h2>Wayland</h2>
-<h3>executer un truc en XWayland :</h3>
+<h1>Wayland</h1>
+<h2>Executer un truc en XWayland :</h2>
 <pre class="shell"><code class="shell">GDK_BACKEND=x11 &lt;command&gt;
 </code></pre>
-<h2>Seveur</h2>
-<h3>Initialisation</h3>
+<h1>Seveur</h1>
+<h2>Initialisation</h2>
 <p>Sur chacun de mes serveurs je commence par faire cela :</p>
 <pre class="shell"><code class="shell">apt install bash-completion vim -y
 apt remove nano -y
@@ -369,19 +377,19 @@ echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
 echo &quot;alias ll=\&quot;ls -l\&quot;&quot; &gt;&gt; ~/.bashrc
 echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.bashrc
 </code></pre>
-<h3>Tomcat</h3>
+<h2>Tomcat</h2>
 <p>Quand je veux déployé dans ROOT je dois changer les droit d'accès dans le dossier ROOT de <code>/var/lib/tomcat10/webapps</code></p>
 <p>Pour répondre sur 80 dans le fichier : <code>/etc/tomcat10/server.xml</code></p>
-<h3>Tuto file serveur sur promox</h3>
+<h2>Tuto file serveur sur promox</h2>
 <p>J'aime pas les tuto youtube mais celui la est bien <a href="https://youtu.be/I7nfSCNKeck?si=uNb3HVNwdK8xJMQQ" target="_blank">MRP</a></p>
-<h3>hdparm spindown des disks :</h3>
+<h2>hdparm spindown des disks :</h2>
 <p><a href="https://wiki.archlinux.org/title/Hdparm" target="_blank">source</a></p>
 <pre class="shell"><code class="shell">#/etc/udev/rules.d/69-hdparm.rules
 ACTION==&quot;add|change&quot;, KERNEL==&quot;sd[a-z]&quot;, ATTRS{queue/rotational}==&quot;1&quot;, RUN+=&quot;/usr/bin/hdparm -B 127 /dev/%k&quot;
 </code></pre>
-<h3>Connaitre quel processus ecoute sur quel port</h3>
+<h2>Connaitre quel processus ecoute sur quel port</h2>
 <p>on peu utilisé netstat : <code>apt instal</code> netstat puis <code>netstat -ltnp</code></p>
-<h3>creer un service</h3>
+<h2>Creer un service</h2>
 <p>Par exemple : <strong>/etc/systemd/system/MonService.service</strong></p>
 <pre class="shell"><code class="shell">[Unit]
 Description=NOM DU SERVICE
@@ -452,7 +460,7 @@ sudo systemctl enable MonService.service
 						<a href="category/vie-du-blog.html">Vie du Blog&nbsp;(2)</a>
 					</li>
 					<li href="category/war-game.html">
-						<a href="category/war-game.html">War Game&nbsp;(49)</a>
+						<a href="category/war-game.html">War Game&nbsp;(50)</a>
 					</li>
 				</ul>
 			</aside>
@@ -511,13 +519,13 @@ sudo systemctl enable MonService.service
 				</a><a href="tag/esp8266.html" class="tag0">
 					ESP8266&nbsp;(2)
 				</a><a href="tag/elfes-noirs.html" class="tag4">
-					Elfes Noirs&nbsp;(21)
+					Elfes Noirs&nbsp;(22)
 				</a><a href="tag/encounter.html" class="tag0">
 					Encounter&nbsp;(1)
 				</a><a href="tag/espressif.html" class="tag0">
 					Espressif&nbsp;(2)
 				</a><a href="tag/figurine.html" class="tag6">
-					Figurine&nbsp;(33)
+					Figurine&nbsp;(34)
 				</a><a href="tag/gaming.html" class="tag0">
 					Gaming&nbsp;(2)
 				</a><a href="tag/geek.html" class="tag0">
@@ -549,7 +557,7 @@ sudo systemctl enable MonService.service
 				</a><a href="tag/matos.html" class="tag0">
 					Matos&nbsp;(2)
 				</a><a href="tag/metal.html" class="tag3">
-					Metal&nbsp;(15)
+					Metal&nbsp;(16)
 				</a><a href="tag/ntp.html" class="tag0">
 					NTP&nbsp;(1)
 				</a><a href="tag/nains.html" class="tag0">
@@ -600,12 +608,12 @@ sudo systemctl enable MonService.service
 					Underworld&nbsp;(4)
 				</a><a href="tag/vscode.html" class="tag0">
 					VSCode&nbsp;(3)
-				</a><a href="tag/war-game.html" class="tag9">
-					War Game&nbsp;(49)
+				</a><a href="tag/war-game.html" class="tag10">
+					War Game&nbsp;(50)
 				</a><a href="tag/warcry.html" class="tag0">
 					Warcry&nbsp;(1)
 				</a><a href="tag/warhammer-battle.html" class="tag4">
-					Warhammer Battle&nbsp;(23)
+					Warhammer Battle&nbsp;(24)
 				</a><a href="tag/webview.html" class="tag0">
 					Webview&nbsp;(1)
 				</a><a href="tag/whisperia.html" class="tag2">
@@ -618,11 +626,12 @@ sudo systemctl enable MonService.service
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2025 (44)</a>
+						<a href="#">2025 (45)</a>
 						<ul>
 							<li>
-								<a href="#">décembre (2)</a>
+								<a href="#">décembre (3)</a>
 								<ul>
+									<li><a href="2025/elfes-noirs-ombres.html">Ombres elfes noirs</a></li>
 									<li><a href="2025/gloomspite-troggboss-moit-gites.html">Troggboss des Moit&#39;gîtes</a></li>
 									<li><a href="2025/ntp-esp32.html">Synchronisation horloge ntp sur ESP32</a></li>
 								</ul>

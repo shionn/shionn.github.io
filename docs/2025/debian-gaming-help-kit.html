@@ -215,14 +215,14 @@
 	<section><p>Voici ma petite liste de truc et astuce pour jouer sous Debian.
 Cette page se concentre sur l'aspect jeux vidéo.
 Pour des astuces plus généraliste merci de <a href="2023/debian-general-help-kit.html">regarder cette page</a>.</p>
-<h2>Installation</h2>
-<h3>Steam</h3>
+<h1>Installation</h1>
+<h2>Steam</h2>
 <p>Il faut ajouter les dépôts <em>non-free</em> puis Ajouter des l'architecture i386, mettre à jour les depot puis installer steam :</p>
 <pre class="shell"><code class="shell">sudo dpkg --add-architecture i386
 sudo apt update
 sudo apt install steam
 </code></pre>
-<h3>Proton GE</h3>
+<h2>Proton GE</h2>
 <p>Créer le dossier compatibilitytools.d dans steam si inexistant :</p>
 <pre class="shell"><code class="shell">mkdir -p ~/.steam/debian-installation/compatibilitytools.d
 </code></pre>
@@ -230,36 +230,36 @@ sudo apt install steam
 <p>Extraire l'archive</p>
 <pre class="shell"><code class="shell">tar -xvf &quot;la derniere archive&quot;.tar.gz -C ~/.steam/debian-installation/compatibilitytools.d/
 </code></pre>
-<h3>Lancer steam depuis TTY</h3>
+<h2>Lancer steam depuis TTY</h2>
 <pre class="shell"><code class="shell">gamescope -W 5120 -H 1440 -f -e --disable-color-management --mangoapp --adaptive-sync -- steam -tenfoot -steamos
 </code></pre>
-<h2>Steam Deck</h2>
+<h1>Steam Deck</h1>
 <p>Pour calibrer les joystick : <code>thumbstick_cal</code></p>
 <p>Pour unlock le system : <code>sudo steamos-readonly disable</code></p>
-<h2>Utilitaire</h2>
+<h1>Utilitaire</h1>
 <ul>
 <li>Mangohud et Goverlay pour la config</li>
 <li>Gamemoderun</li>
 <li>Gamescope</li>
 </ul>
-<h3>Mangohud qui marche pas parfois</h3>
+<h2>Mangohud qui marche pas parfois</h2>
 <p>installer mangohud:i386</p>
 <pre class="shell"><code class="shell">apt install mangohud:i386
 </code></pre>
-<h2>Probleme sur certaine Jeu</h2>
-<h3>Cyberpunk qui block sur l'ecran titre</h3>
+<h1>Probleme sur certaine Jeu</h1>
+<h2>Cyberpunk qui block sur l'ecran titre</h2>
 <pre class="shell"><code class="shell">WINEDLLOVERRIDES=&quot;winmm,version=n,b&quot; %command% --launcher-skip
 </code></pre>
-<h3>Jeux comme au ralenti (Horizon Zero Dawn)</h3>
+<h2>Jeux comme au ralenti (Horizon Zero Dawn)</h2>
 <p>Ajouter l'option <strong>tsc=reliable</strong> aux noyaux.</p>
-<h3>Son qui sature (Horizon Zero Dawn)</h3>
+<h2>Son qui sature (Horizon Zero Dawn)</h2>
 <p>Ajouter ̀<code>PULSE_LATENCY_MSEC=60 DRI_PRIME=1</code> à la commande de lancement</p>
-<h3>Son qui crack (station to station)</h3>
+<h2>Son qui crack (station to station)</h2>
 <p>Confirmer les erreurs avec <code>pw-top</code>. puis dans /etc/pipewire/pipewire.conf.d/pipefire.conf :</p>
 <pre class="shell"><code class="shell">echo &quot;context.properties = {default.clock.min-quantum = 1024}&quot; | sudo tee pipewire.conf 
 </code></pre>
 <p><a href="https://www.reddit.com/r/linux_gaming/comments/1gy347h/newbie_here_ive_tried_almost_all_fixes_theres/" target="_blank">Source reddit</a></p>
-<h3>jeu qui crashe avec bcp de sacade (hogward legacy)</h3>
+<h2>Jeu qui crashe avec bcp de sacade (hogward legacy)</h2>
 <p>Parfois c'est du manque de nmap.
 Le jeux crash avec une erreur <code>MAPPING_ERROR: 0x0</code>.
 Faire un <code>cat /proc/sys/vm/max_map_count</code> et voir la valeur pour la doubler, dans mon cas 1048576. On double la valeur.</p>
@@ -268,7 +268,7 @@ Faire un <code>cat /proc/sys/vm/max_map_count</code> et voir la valeur pour la d
 <pre class="shell"><code class="shell">echo &quot;vm.max_map_count=2097152&quot; | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
 </code></pre>
-<h2>Autre truc</h2>
+<h1>Autre truc</h1>
 <pre class="shell"><code class="shell"># Options de démarrage du noyau (à ajouter dans /etc/default/grub)
 amdgpu.vm_fragment_size=9 amdgpu.vm_max_fragment_size=9 amdgpu.gttsize=1024 amdgpu.noretry=0
 # Optiopn de lancement
@@ -329,7 +329,7 @@ WINE_HEAP_DELAY_FREE=1
 						<a href="category/vie-du-blog.html">Vie du Blog&nbsp;(2)</a>
 					</li>
 					<li href="category/war-game.html">
-						<a href="category/war-game.html">War Game&nbsp;(49)</a>
+						<a href="category/war-game.html">War Game&nbsp;(50)</a>
 					</li>
 				</ul>
 			</aside>
@@ -388,13 +388,13 @@ WINE_HEAP_DELAY_FREE=1
 				</a><a href="tag/esp8266.html" class="tag0">
 					ESP8266&nbsp;(2)
 				</a><a href="tag/elfes-noirs.html" class="tag4">
-					Elfes Noirs&nbsp;(21)
+					Elfes Noirs&nbsp;(22)
 				</a><a href="tag/encounter.html" class="tag0">
 					Encounter&nbsp;(1)
 				</a><a href="tag/espressif.html" class="tag0">
 					Espressif&nbsp;(2)
 				</a><a href="tag/figurine.html" class="tag6">
-					Figurine&nbsp;(33)
+					Figurine&nbsp;(34)
 				</a><a href="tag/gaming.html" class="tag0">
 					Gaming&nbsp;(2)
 				</a><a href="tag/geek.html" class="tag0">
@@ -426,7 +426,7 @@ WINE_HEAP_DELAY_FREE=1
 				</a><a href="tag/matos.html" class="tag0">
 					Matos&nbsp;(2)
 				</a><a href="tag/metal.html" class="tag3">
-					Metal&nbsp;(15)
+					Metal&nbsp;(16)
 				</a><a href="tag/ntp.html" class="tag0">
 					NTP&nbsp;(1)
 				</a><a href="tag/nains.html" class="tag0">
@@ -477,12 +477,12 @@ WINE_HEAP_DELAY_FREE=1
 					Underworld&nbsp;(4)
 				</a><a href="tag/vscode.html" class="tag0">
 					VSCode&nbsp;(3)
-				</a><a href="tag/war-game.html" class="tag9">
-					War Game&nbsp;(49)
+				</a><a href="tag/war-game.html" class="tag10">
+					War Game&nbsp;(50)
 				</a><a href="tag/warcry.html" class="tag0">
 					Warcry&nbsp;(1)
 				</a><a href="tag/warhammer-battle.html" class="tag4">
-					Warhammer Battle&nbsp;(23)
+					Warhammer Battle&nbsp;(24)
 				</a><a href="tag/webview.html" class="tag0">
 					Webview&nbsp;(1)
 				</a><a href="tag/whisperia.html" class="tag2">
@@ -495,11 +495,12 @@ WINE_HEAP_DELAY_FREE=1
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2025 (44)</a>
+						<a href="#">2025 (45)</a>
 						<ul>
 							<li>
-								<a href="#">décembre (2)</a>
+								<a href="#">décembre (3)</a>
 								<ul>
+									<li><a href="2025/elfes-noirs-ombres.html">Ombres elfes noirs</a></li>
 									<li><a href="2025/gloomspite-troggboss-moit-gites.html">Troggboss des Moit&#39;gîtes</a></li>
 									<li><a href="2025/ntp-esp32.html">Synchronisation horloge ntp sur ESP32</a></li>
 								</ul>
