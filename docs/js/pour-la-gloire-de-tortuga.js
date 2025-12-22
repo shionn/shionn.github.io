@@ -854,6 +854,8 @@ q(function() {
 		.progress("11/12/2025", shionn, 5, "The Betrayers", _SMALL)
 		.progress("11/12/2025", whisp, 1, "Beholder", _SMALL)
 		.progress("12/12/2025", transfopaper, 1, "Statue à Fleur Bleue", _SMALL_DECOR)
+		.progress("22/12/2025", shionn, 1, "Skragoth", _SMALL)
+		.progress("22/12/2025", shionn, 4, "Champi", _SMALL_DECOR)
 		.render();
 
 //
