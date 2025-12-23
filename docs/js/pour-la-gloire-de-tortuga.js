@@ -859,6 +859,7 @@ q(function() {
 		.progress("22/12/2025", shionn, 4, "Champi", _SMALL_DECOR)
 		.progress("23/12/2025", angest, 1, "Archaon", _BIG)
 		.addBadge("23/12/2025", angest, _Gargantuesque) // not Auto
+		.progress("23/12/2025", transfopaper, 1, "Chat doré", _BIG_DECOR)
 		.render();
 
 //
