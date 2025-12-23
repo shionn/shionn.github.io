@@ -856,6 +856,9 @@ q(function() {
 		.progress("12/12/2025", transfopaper, 1, "Statue à Fleur Bleue", _SMALL_DECOR)
 		.progress("22/12/2025", shionn, 1, "Skragoth", _SMALL)
 		.progress("22/12/2025", shionn, 4, "Champi", _SMALL_DECOR)
+		.progress("22/12/2025", shionn, 4, "Champi", _SMALL_DECOR)
+		.progress("23/12/2025", angest, 1, "Archaon", _BIG)
+		.addBadge("23/12/2025", angest, _Gargantuesque) // not Auto
 		.render();
 
 //
