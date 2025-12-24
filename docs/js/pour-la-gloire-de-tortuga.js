@@ -860,6 +860,7 @@ q(function() {
 		.addBadge("23/12/2025", angest, _Gargantuesque) // not Auto
 		.progress("23/12/2025", transfopaper, 1, "Chat doré", _BIG_DECOR)
 		.progress("24/12/2025", shionn, 12, "Combatants World of Deuslar", _SMALL)
+		.progress("24/12/2025", whisp, 1, "Orc rose", _SMALL)
 		.render();
 
 //
