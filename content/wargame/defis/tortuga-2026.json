@@ -1,0 +1,10 @@
+{
+	"type": "post",
+	"date": "2026/01/01",
+	"title": "Pour la gloire de Tortuga 2",
+	"tags": ["War Game", "Défi", "Jeux Vidéo"],
+	"category": "War Game",
+	"published": false,
+	"js" : [ "js/tortuga-2026.js" ],
+	"author": "Shionn & Whisp"
+}
