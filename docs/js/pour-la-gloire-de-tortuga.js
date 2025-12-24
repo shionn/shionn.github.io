@@ -848,7 +848,7 @@ q(function() {
 		.progress("08/12/2025", tupad, 2, "Cavalier du Chaos", _MEDIUM)
 		.render();
 
-	let q34 = new _quest("quest-34", "Le Manoir de Whisp", "Peindre au moins 30 figurines ou décors pour Noël", 30)
+	let q34 = new _quest("quest-34", "Le Manoir de Whisp", "Peindre au moins 30 figurines ou décors pour Noël", 40)
 		.progress("08/12/2025", tupad, 9, "Cavalier du Chaos", _MEDIUM)
 		.progress("08/12/2025", tupad, 2, "Héros du Chaos", _SMALL)
 		.progress("11/12/2025", shionn, 5, "The Betrayers", _SMALL)
@@ -859,6 +859,7 @@ q(function() {
 		.progress("23/12/2025", angest, 1, "Archaon", _BIG)
 		.addBadge("23/12/2025", angest, _Gargantuesque) // not Auto
 		.progress("23/12/2025", transfopaper, 1, "Chat doré", _BIG_DECOR)
+		.progress("24/12/2025", shionn, 12, "Combatants World of Deuslar", _SMALL)
 		.render();
 
 //
