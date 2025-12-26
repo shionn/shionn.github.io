@@ -26,7 +26,7 @@ J'ai cependant fait de nouveau bac à fleur pour madame avec les restes d'une te
 
 TODO photo
 
-Mais également à l'école de mon petit garçon, ils ont organisé une journée bricolage et à l'aide d'une autre terrasse d'un autre voisin et des palettes, avec deux autres parents nous avons construit 2 petite cuisine.
+Mais également à l'école de mon petit garçon, ils ont organisé une journée bricolage et à l'aide d'une autre terrasse d'un autre voisin et des palettes, avec deux autres parents nous avons construit 2 petites cuisines.
 
 [gallery w=200 h=200]
 pictures/blog/recap-2025/cuisine-ecole-1.jpg
@@ -36,7 +36,8 @@ pictures/blog/recap-2025/cuisine-ecole-1.jpg
 
 J'ai également ressortie l'imprimante 3D, et j'ai surtout fabriqué des boîtes !
 Et il y a eu ce projet de [M720Q avec une RX-6400](2025/pc-gaming-m720q-rx6400.html). 
-Et sur ce projet, j'ai telement galéré avec ma veille imprimante de presque 10 ans et j'ai fini par acheter une nouvelle imprimante, la [Créality HI avec son module CFS}(https://store.creality.com/fr/products/creality-hi-combo). 
+Et sur ce projet, j'ai telement galéré avec ma veille imprimante de presque 10 ans 
+et j'ai fini par acheter une nouvelle imprimante, la [Créality HI avec son module CFS](https://store.creality.com/fr/products/creality-hi-combo). 
 J'ai patienté jusqu'au black friday pour la trouver à 350 euros.
 
 [gallery w=200 h=200]
@@ -74,14 +75,16 @@ pictures/blog/recap-2025/tortuga2.png
 
 ## Java
 
-Comme toujours je code pas mal de petits outils rien que pour moi qui sont déployés sur mes serveurs.
+Comme toujours, je code pas mal de petits outils rien que pour moi qui sont déployés sur mes serveurs.
 
 - un outil de suivi de peinture [PainterTracker](https://github.com/shionn/PainterTracker)
 - un outil de scan de pack [HumbleBunbdle](https://github.com/shionn/HumbleBundleGamePack)
  
 # Niveau peinture
 
-Mon année de peinture à été relativement bonne. Je n'ai pas atteint complètement mes objectifs. Je souhaitais :
+Mon année de peinture à été relativement bonne. 
+Je n'ai pas atteint complètement mes objectifs. 
+Je souhaitais :
 - Peindre tous mes gobelins d’AoS et Battle, il m’en reste 4. 
 - Finir mes elfes noirs, il m’en reste 10.
 - Je voulais peindre le Core Set de D&L Deuslair, il m’en reste 12.
@@ -89,16 +92,16 @@ Mon année de peinture à été relativement bonne. Je n'ai pas atteint complèt
 En chiffre cela donne :
 - 130 [Gobelins pour AOS](tag/gloomspite-gitz.html)
 - 94 [Gobelins pour BAttle](tag/gloomspite-gitz.html)
-- 107 Figurine de [Dungeon and Lasers](tag/dungeon-and-laser.html)
+- 115 Figurine de [Dungeon and Lasers](tag/dungeon-and-laser.html)
 - 33 petite chose diverse
-- Pour un total de 364 figurines peintent cette année, soit presque une par jour !
+- Pour un total de 372 figurines peintent cette année, soit plus d'une par jour !
 
 [gallery w=500 h=200]
 pictures/aos/gloomspite/squig-herd/01.jpg
 pictures/dungeon-and-laser/deuslair/core/redoe/ancient-protectors/01.jpg
 [/gallery]
 
-TODO mettre à jour, ici c'est avant le 13/12/2025 (inclus)
+TODO mettre à jour, ici c'est avant le 23/12/2025 (inclus)
 
 # JDR
 
@@ -113,7 +116,8 @@ pictures/jdr/whisperia/149.jpg
 
 ## En desktop
 
-Alors c'est l'histoire d'un type qui découvre HyprLand, qui trouve ça trop bien et que ça lui rappelle [Awesome-wm](https://awesomewm.org/). Mais malheureusement sa distrution de coeur, [Debian](https://www.debian.org/index.fr.html) n'intègre que de veille version bien buggé. 
+Alors c'est l'histoire d'un type qui découvre HyprLand, qui trouve ça trop bien et que ça lui rappelle [Awesome-wm](https://awesomewm.org/). 
+Mais malheureusement sa distrution de coeur, [Debian](https://www.debian.org/index.fr.html) n'intègre que de veille version bien buggé. 
 
 Alors ce type il se fdis, je vais packagé moi-même et faire un repository pour [Hyprland sur Debian](https://github.com/shionn/hypr-debian). Il y passe des mois, et finalement quand enfin sont repo devient à peu près fonctionnel, ben hop debian se met à jour et intègre de nouveau package pour Hyprland. 
 
