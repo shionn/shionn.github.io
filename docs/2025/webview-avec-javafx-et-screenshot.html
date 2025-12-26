@@ -214,9 +214,9 @@
 	</header>
 	<section><p>Pour un projet personnel, j'ai eu besoin récemment de faire des captures d'écran d'un site web en java.
 J'ai même envisagé d'installer un serveur avec un outil comme cypress, mais <strong>FLEMME</strong>.</p>
-<h2>Une webview avec Java FX</h2>
+<h1>Une webview avec Java FX</h1>
 <p>La solution la plus simple que j'ai trouvé est d'utiliser JavaFX.</p>
-<h3>Import</h3>
+<h2>Import</h2>
 <p>Voici l'import Maven que j'ai ajouté à mon projet.</p>
 <pre class="xml"><code class="xml">&lt;dependency&gt;
     &lt;groupId&gt;org.openjfx&lt;/groupId&gt;
@@ -226,7 +226,7 @@ J'ai même envisagé d'installer un serveur avec un outil comme cypress, mais <s
 </code></pre>
 <p>La version de JavaFX à importer dépend de la version de votre JDK :</p>
 <table class=""><thead><tr><th colspan="2"></th></tr><tr><th>Version JDK</th><th> Version JavaFX</th></tr></thead><tbody><tr><td>11</td><td>17</td></tr><tr><td>17</td><td>21</td></tr><tr><td>21</td><td>23</td></tr></tbody></table>
-<h3>Exemple de code</h3>
+<h2>Exemple de code</h2>
 <p>Ensuite afficher le site n'est clairement pas le plus dur :</p>
 <pre class="java"><code class="java">public class JavaFxImgCapture extends Application {
 
@@ -246,7 +246,7 @@ J'ai même envisagé d'installer un serveur avec un outil comme cypress, mais <s
     }
 }
 </code></pre>
-<h3>Lancer le programme</h3>
+<h2>Lancer le programme</h2>
 <p>Le plus simple que j'ai trouvé est de passer par une commande maven grâce à ce plugin :</p>
 <pre class="xml"><code class="xml">&lt;plugin&gt;
      &lt;groupId&gt;org.openjfx&lt;/groupId&gt;
@@ -260,7 +260,7 @@ J'ai même envisagé d'installer un serveur avec un outil comme cypress, mais <s
 <p>Et on peu l'exécuter avec la commande suivante :</p>
 <pre class="shell"><code class="shell">mvn javafx:run
 </code></pre>
-<h2>Faire une Capture d'écran</h2>
+<h1>Faire une Capture d'écran</h1>
 <p>Cela à été beaucoup plus compliquer qu'il n'y parait. Il faut :</p>
 <ul>
 <li>attendre que le site soit chargé</li>
@@ -274,7 +274,7 @@ J'ai même envisagé d'installer un serveur avec un outil comme cypress, mais <s
 <li>attendre que les ressources soit chargées (image javascript) : Faire un pause dans un thread classique.</li>
 <li>faire la captures : Prendre la capture dans un Thread JavaFX.</li>
 </ul>
-<h3>Import</h3>
+<h2>Import</h2>
 <p>On va avoir besoin d'import supplémentaire :</p>
 <pre class="xml"><code class="xml">&lt;dependency&gt;
     &lt;groupId&gt;org.openjfx&lt;/groupId&gt;
@@ -282,7 +282,7 @@ J'ai même envisagé d'installer un serveur avec un outil comme cypress, mais <s
     &lt;version&gt;21.0.5&lt;/version&gt;
 &lt;/dependency&gt;
 </code></pre>
-<h3>Code Java</h3>
+<h2>Code Java</h2>
 <pre class="java"><code class="java">public class JavaFxImgCapture extends Application implements ChangeListener&lt;Worker.State&gt; {
 
     public static void main(String[] args) {
@@ -347,7 +347,7 @@ J'ai même envisagé d'installer un serveur avec un outil comme cypress, mais <s
 
 }
 </code></pre>
-<h2>Sans interface graphique</h2>
+<h1>Sans interface graphique</h1>
 <p>Si comme moi vous avez votre serveur linux qui automatise des choses,
 vous n'avez probablement pas d'interface graphique sur celui-ci et donc vous ne pouvez
 pas lancer un programme en JavaFX.</p>

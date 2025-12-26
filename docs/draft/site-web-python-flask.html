@@ -215,16 +215,16 @@
 	<section><p>Pendant l'été 2025 j'ai aidé la communauté Discord de <a href="https://www.youtube.com/channel/UCzhfRQKiMlcRR-xFh-jvDeQ" target="_blank">STEvE</a>
 à faire un bot pour Discord avec une interface web avec Flask. Je ne suis pas un dev python expérimenté,
 je suis débutant en python donc je pense que j'ai pas tous fait dans les règles de l'art.</p>
-<h2>Environnement Python</h2>
+<h1>Environnement Python</h1>
 <p>C'est mon tous premier tuto avec python, aussi voici comment configurer un environnement de dev.
 Créer un dossier qui contiendra votre dossier, pour cet exemple <code>FlaskBookTuto</code>.</p>
-<h3>Installer les dépendances</h3>
+<h2>Installer les dépendances</h2>
 <p>Sous Debian, j'installe les dépendances suivantes.</p>
 <pre class="shell"><code class="shell">apt install python3 python3-pip python3-venv
 </code></pre>
 <p>Je code avec vscode avec l'extension <a href="https://marketplace.visualstudio.com/items?itemName=ms-python.python" target="_blank">ms-python.python</a>.
 J'utilise SqliteBrowser si j'ai besoin de parcourir la bdd avec un outil.</p>
-<h3>Environnement local python</h3>
+<h2>Environnement local python</h2>
 <p>Python, niveau version et dépendance c'est pas mal de la merde.
 Il est préférable de créer ce qu'on appel un <em>venv</em>
 c'est à dire comme un genre d'environnement python local dans lequel on installe
@@ -238,7 +238,7 @@ J'aime faire ce dossier caché que j'appelle <strong>.venv</strong>, mais rien n
 Cela va changer votre invite de commande en passant de cela <code>user@host:path$</code> à cela <code>(.venv) user@host:path$</code>.</p>
 <pre class="shell"><code class="shell">source .venv/bin/activate
 </code></pre>
-<h2>Dépendance</h2>
+<h1>Dépendance</h1>
 <p>Dans le dossier de votre projet, créer un fichier <code>requirements.txt</code> et dedans ajouter les lignes :</p>
 <pre class="java"><code class="java"># pour le site web
 flask&gt;=3.1
@@ -250,7 +250,7 @@ waitress&gt;=3.0
 <p>Puis dans le dossier du projet, avec le venv d'activé, faites cela pour installer les dépendances en locales :</p>
 <pre class="shell"><code class="shell">pip install -r requirements.txt
 </code></pre>
-<h2>Code</h2>
+<h1>Code</h1>
 <p>Dans cette exemple, nous allons faire un site qui gère une bibliothèque de livre (manga ou BD).</p>
 <p>Voici les fonctionnalités :</p>
 <ul>
@@ -258,7 +258,7 @@ waitress&gt;=3.0
 <li>Ajouter une entrée</li>
 <li>Supprimer une entrée</li>
 </ul>
-<h3>Organisation</h3>
+<h2>Organisation</h2>
 <pre class="java"><code class="java">FlaskBookTuto
 |-- webapp
 |   |-- __init__.py
@@ -273,7 +273,7 @@ waitress&gt;=3.0
 |-- run.py
 |-- schema.sql # contiendra la structure de la bdd
 </code></pre>
-<h3>Page d'accueil</h3>
+<h2>Page d'accueil</h2>
 <p>Pour l'instant nous allons faire un simple hello world.</p>
 <pre class="python"><code class="python"># fichier webapp/__init__.py
 from flask import Flask
@@ -345,7 +345,7 @@ Hello World
 </code></pre>
 <p>Et le site est disponible sur localhost:5000 :</p>
 <div class="gallery"><a href="pictures/code/python/flask/01.jpg"><img src="pictures/code/python/flask/01.jpg"></a></div>
-<h3>Et une bdd en sqlite</h3>
+<h2>Et une bdd en sqlite</h2>
 <p>Ajoutons une connexion à une bdd SQLlite. Ici je vous propose cette table :</p>
 <pre class="sql"><code class="sql">-- fichier schema.sql
 -- il est important que le fichier soit réentrant
@@ -459,7 +459,7 @@ def removeBook(id):
 </code></pre>
 <p>Ce qui donne ce résultat :</p>
 <div class="gallery"><a href="pictures/code/python/flask/02.jpg"><img src="pictures/code/python/flask/02-300-190.jpg" width="300" height="190"></a><a href="pictures/code/python/flask/03.jpg"><img src="pictures/code/python/flask/03-300-190.jpg" width="300" height="190"></a></div>
-<h3>Passer en prod</h3>
+<h2>Passer en prod</h2>
 <p>Vous avez du voir un joli message au lancement du programme :</p>
 <pre class="shell"><code class="shell">WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
 </code></pre>
@@ -473,11 +473,11 @@ from waitress import serve
 if __name__ == '__main__':
 	serve(webapp, host=&quot;0.0.0.0&quot;, port=80)
 </code></pre>
-<h2>Conclusion</h2>
+<h1>Conclusion</h1>
 <p>Je voulais apprendre à faire un peu de python depuis un moment.
 J'espère que mon code ne fera pas mal aux yeux au expert du python, mais si vous l'êtes, que faites vous la ?</p>
 <p>Enfin si vous tombez sur ce tuto j'espère qu'il vous aidera.</p>
-<h3>Ressource</h3>
+<h2>Ressource</h2>
 <ul>
 <li><a href="https://github.com/shionn/FlaskBookTuto" target="_blank">le code sur github</a></li>
 </ul>

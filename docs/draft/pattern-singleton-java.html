@@ -213,7 +213,7 @@
 		</div>
 	</header>
 	<section><p>J'ai écris cet article il y a une dixaine d'année au travail, mon chef m'as donné l'autorisation de partager cela sur mon blog.</p>
-<h2>Pattern conseillé</h2>
+<h1>Pattern conseillé</h1>
 <p>Généralement lorsque l'on souhait faire un singleton chargé au dernier moment (Lazy Instance) on conseille d’utiliser ce pattern :</p>
 <pre class="java"><code class="java">public class MySignleton {
     private static class MySingletonHolder {
@@ -230,8 +230,8 @@
 }
 </code></pre>
 <p>Mais pourquoi utilise t'on ce pattern ? Ce pattern s'appuie sur le mécanisme de chargement de classe de java pour s'assurer à la fois l'instanciation unique et threadsafe de notre unique instance.</p>
-<h2>Pattern déconseillé</h2>
-<h3>synchronized getInstance</h3>
+<h1>Pattern déconseillé</h1>
+<h2>synchronized getInstance</h2>
 <p>Un autre pattern fonctionnel mais qui n'est pas optimal :</p>
 <pre class="java"><code class="java">public class MySignleton {
     private static MySingleton instance;
@@ -249,7 +249,7 @@
 }
 </code></pre>
 <p>Ce pattern n'est pas optimal car on synchronise la méthode getInstance à chaque appel. Et dans en environnement multitâche, ce n'est pas ce que l'on souhaite car cel provoque une bonne perte de performance.</p>
-<h3>double null check synchronized</h3>
+<h2>double null check synchronized</h2>
 <p>Une solution alors est de synchroniser uniquement l'instanciation du block. Comme suit :</p>
 <pre class="java"><code class="java">public class MySignleton {
     private static MySingleton instance;
@@ -282,9 +282,9 @@
 <li>exécution du block code de l'initialisation de MySingleton (appel au new etc...)</li>
 </ul>
 <p>Ce qui signifit que la variable qui contient l'instance est alloué avant que le contenu du block du constructeur de cette classe soit éxécuté. Ce qui signifie que le test <code>instance  == null</code> n'est pas gage que l'instance soit initialisé.</p>
-<h2>Conclusion</h2>
+<h1>Conclusion</h1>
 <p>Utiliser le premier pattern.</p>
-<h3>Source</h3>
+<h2>Source</h2>
 <ul>
 <li><a href="http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html" target="_blank">pourquoi le double check ne marche pas</a></li>
 </ul>

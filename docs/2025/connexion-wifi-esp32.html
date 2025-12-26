@@ -214,7 +214,7 @@
 	</header>
 	<section><p>Bonjour.
 Voici un petit tuto simple sur la gestion de la connexion wifi avec le framework arduino sur un ESP32 mais cela fonctionne aussi avec un ESP8266 et probablement d'autre carte.</p>
-<h2>Connexion</h2>
+<h1>Connexion</h1>
 <p>La connexion se fait avec la bibliothèque Wifi qui est incluse dès qu'on configure notre projet pour utiliser une carte ESP32.</p>
 <pre class="cpp"><code class="cpp">#include &lt;Arduino.h&gt;
 // pour un esp32
@@ -251,10 +251,10 @@ void loop() {
 
 }
 </code></pre>
-<h3>Probleme avec certain router et l'ESP8266</h3>
+<h2>Probleme avec certain router et l'ESP8266</h2>
 <p>J'ai souvent eu le souci que mes ESP8266 avaient beaucoup de mal à se connecter à mon réseau wifi.
 Il faut fouiller dans votre routeur, sur la configuration du réseau 2.4Ghz, et trouver une option s'appellant <strong>mode sans fil</strong> qui est peut être regler sur &quot;N Only&quot; et passer cette option à &quot;legacy&quot;.</p>
-<h2>Bonus appeler un serveur</h2>
+<h1>Bonus appeler un serveur</h1>
 <p>Et voici un exemple qui appelle un serveur en faisant un GET sur une adresse.</p>
 <pre class="cpp"><code class="cpp">// pour un esp32
 #include &lt;HTTPClient.h&gt;
@@ -292,7 +292,7 @@ void loop() {
 	}
 }
 </code></pre>
-<h3>Et en https ?</h3>
+<h2>Et en https ?</h2>
 <p>Je ne vais pas présenter ici comment faire un appel en https, car personnellement je pense qu'il est mieux de rester sur un réseau local.
 Mais une solution un peu crade est d'ignorer la vérification ssl.</p>
 <pre class="cpp"><code class="cpp">// ajouter cet import

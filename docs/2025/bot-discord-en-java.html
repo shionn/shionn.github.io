@@ -213,24 +213,24 @@
 		</div>
 	</header>
 	<section><p>J'ai eu besoin de faire un bot discord, car les bots gratuit fonctionnaient très mal.</p>
-<h2>Créer votre bot :</h2>
+<h1>Créer votre bot :</h1>
 <p>Rendez vous à cette URL : <a href="https://discordapp.com/developers/applications" target="_blank">https://discordapp.com/developers/applications</a>.
 Puis créervotre bot en clinquant sur le bouton <strong>New Application</strong>.</p>
 <div class="gallery"><a href="pictures/code/java/discord-bot/creation-application.png"><img src="pictures/code/java/discord-bot/creation-application.png"></a></div>
-<h3>Configuration du bot</h3>
+<h2>Configuration du bot</h2>
 <p>Dans l'onglet <strong>General information</strong> vous trouverez l' <strong>Application ID</strong> cela servira pour inviter votre bot à un serveur.</p>
 <div class="gallery"><a href="pictures/code/java/discord-bot/application-id.png"><img src="pictures/code/java/discord-bot/application-id.png"></a></div>
 <p>Dans l'onglet <strong>Bot</strong> vous pouvez générer le <strong>Token</strong> de connexion. Noter ce token servira dans le code pour l'authentification.</p>
 <div class="gallery"><a href="pictures/code/java/discord-bot/token.png"><img src="pictures/code/java/discord-bot/token.png"></a></div>
-<h3>Inviter votre bot à votre serveur</h3>
+<h2>Inviter votre bot à votre serveur</h2>
 <p>Il vous faut définir les permissions, dans l'onglet <strong>Bot</strong> cocher les droit dont vous avez besoin :</p>
 <div class="gallery"><a href="pictures/code/java/discord-bot/permission.png"><img src="pictures/code/java/discord-bot/permission.png"></a></div>
 <p>Puis vous pouvez faire votre propre lien d'invitation comme cela, il faut que ce lien soit donner au propriétaire du discord dont vous voulez que le bot rejoigne.
 Dans mon exemple je dois remplacer l'APPLCATION_ID et les PERMISSION décrite précédemment :</p>
 <pre class="shell"><code class="shell">https://discordapp.com/oauth2/authorize?&amp;client_id=APPLICATION_ID&amp;scope=bot&amp;permissions=PERMISSION
 </code></pre>
-<h2>Code Java</h2>
-<h3>Dependance maven</h3>
+<h1>Code Java</h1>
+<h2>Dependance maven</h2>
 <p>Voici la dépendance maven pour votre programme</p>
 <pre class="xml"><code class="xml">&lt;dependency&gt;
     &lt;groupId&gt;net.dv8tion&lt;/groupId&gt;
@@ -238,14 +238,14 @@ Dans mon exemple je dois remplacer l'APPLCATION_ID et les PERMISSION décrite pr
     &lt;version&gt;5.2.2&lt;/version&gt;
 &lt;/dependency&gt;
 </code></pre>
-<h3>Connecter le bot</h3>
+<h2>Connecter le bot</h2>
 <pre class="java"><code class="java">JDA Builder builder = JDABuilder.create(TOKEN); // insérer ici le token vu précédemment. 
 builder.addEventListener(new ListenerAdapter() {
     // implementer les méthodes que vous voulez
 })
 JDA jda = builder.build().awaitReady();
 </code></pre>
-<h3>Envoyer un message</h3>
+<h2>Envoyer un message</h2>
 <p>Il faut d'abord trouver le canal que vous voulez rejoindre, la solution la plus simple est je trouve d'utiliser l'identifiant du canal.</p>
 <p>Pour cela j'ajoute cela au bot :</p>
 <pre class="java"><code class="java">jda.getTextChannels().stream().forEach(System.out::println);
@@ -257,7 +257,7 @@ JDA jda = builder.build().awaitReady();
 <pre class="java"><code class="java">TextChannel channel = jda.getTextChannelById(ID_DU_CANAL);
 channel.sendMessage(&quot;Hello World !&quot;);
 </code></pre>
-<h3>Lire l'historique des messages</h3>
+<h2>Lire l'historique des messages</h2>
 <p>Pour mon bot j'ai eu besoin d'avoir accès à l'historique des messages pour savoir si j'avais déjà envoyé un message.
 Si on veux avoir le contenu du message il faut ajouter des options dans la configuration du bot.
 Il faut mettre à jour le lien d'invitation et réinviter le bot si il a déjà été invité :</p>
@@ -272,7 +272,7 @@ channel.getHistory().retrievePast(NB_MESSAGE).queue(history -&gt; {
     history.stream().forEach(m -&gt; System.out.println(m.getContentRaw()));
 });
 </code></pre>
-<h2>Source</h2>
+<h1>Source</h1>
 <p>J'ai été aidé par ce tuto pour faire mon bot.</p>
 <ul>
 <li>https://blog.jaaj.dev/2020/03/19/Cr%C3%A9er-votre-bot-discord.html</li>

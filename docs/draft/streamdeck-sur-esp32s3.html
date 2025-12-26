@@ -226,8 +226,8 @@ Ce qui correspondait à mon besoin, je voulais un truc capable :</p>
 <p>L'idée est vraiment de faire un truc ressemblant un stream deck avec des icones qui permette de lancer des programme sur mon ordinateur.
 Je souhaiterai aussi me connecter a a mes serveur afin d'obtenir des informations disponible comme la production de mes panneau solaire via home assistant.</p>
 <p>Je vous présente aujourd'hui chaque point de solution technique pour ce projet.</p>
-<h2>Préparation</h2>
-<h3>Initialisation de la board</h3>
+<h1>Préparation</h1>
+<h2>Initialisation de la board</h2>
 <p>Il faut reflasher la board avec le logiciel arduino. Pour cela aller dans le menu outil puis gerer les bibliothethe et installer <strong>ESP32 by espressif</strong>.</p>
 <p>Ensuit dans le menu outil paramétré la board comme cela :</p>
 <ul>
@@ -241,7 +241,7 @@ Je souhaiterai aussi me connecter a a mes serveur afin d'obtenir des information
 </ul>
 <p>Puis flasher la board avec <strong>graver la sequence d'initialisation</strong>.</p>
 <div class="gallery"><a href="/pictures/arduino/desk-companion-esp32/02-arduino-install.png"><img src="/pictures/arduino/desk-companion-esp32/02-arduino-install-450-300.png" width="450" height="300"></a><a href="/pictures/arduino/desk-companion-esp32/03-parametre-flash.png"><img src="/pictures/arduino/desk-companion-esp32/03-parametre-flash-450-300.png" width="450" height="300"></a></div>
-<h3>Parametrage de plateformIO</h3>
+<h2>Parametrage de plateformIO</h2>
 <p>J'utilise plateformIO pour develloper avec le framework arduino voici mon platefomio.ini. La board la plus proche est je pense l'esp32s3box.</p>
 <pre class="java"><code class="java">[env:esp32s3box]
 platform = espressif32
@@ -252,8 +252,8 @@ upload_port = /dev/ttyACM0
 board_build.partitions = huge_app.csv ; nécéssaire pour avoir acces à plus de rom et flash
 monitor_speed = 115200
 </code></pre>
-<h2>Du code</h2>
-<h3>Affichage sur l'ecran</h3>
+<h1>Du code</h1>
+<h2>Affichage sur l'écran</h2>
 <p>L'écran intégré est un <strong>AXS15231B</strong> la lib GFX adapfruit permet d'afficher dessus. On peu l'ajouter à l'aide du fichier platefomio.ini:</p>
 <pre class="java"><code class="java">[env:esp32s3box]
 platform = espressif32
@@ -288,10 +288,9 @@ void loop() {
 	gfx-&gt; 
 }
 </code></pre>
-<h3>Le tactile</h3>
+<h2>Le tactile</h2>
 <p>Pour lire le tactile il faut utiliser la lib WIRE. En fouillant dans el code exemple de la lib j'ai fini par trouver les pin qui font bien. Et j'ai trouver de bien bonne (explication ici)[https://f1atb.fr/esp32-s3-3-5-inch-capacitive-touch-ips-display-setup/].</p>
-<pre class="cpp"><code class="cpp">
-#include &lt;Wire.h&gt;
+<pre class="cpp"><code class="cpp">#include &lt;Wire.h&gt;
 
 
 #define TOUCH_ADDR 0x3B
@@ -371,7 +370,7 @@ void loop() {
 	delai(100);// peu etre necessaire pour debounce.
 }
 </code></pre>
-<h3>Se connecter au wifi</h3>
+<h2>Se connecter au wifi</h2>
 <p>// TODO</p>
 <p>https://f1atb.fr/esp32-s3-3-5-inch-capacitive-touch-ips-display-setup/</p>
 </section>

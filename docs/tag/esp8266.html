@@ -214,10 +214,10 @@
 	</header>
 	<section><p>Bonjour.
 Voici un petit tuto simple sur la synchronisation d'une horloge sur un ESP32 via NTP. Cela marche également sur un ESP8266.</p>
-<h2>Préparation</h2>
-<h3>Connexion reseau</h3>
+<h1>Préparation</h1>
+<h2>Connexion reseau</h2>
 <p>Je ne détaillerai pas dans ce tuto comment faire, mais vous pouvez regarder <a href="/2025/connexion-wifi-esp32">ce tuto</a></p>
-<h3>Ajout lib</h3>
+<h2>Ajout lib</h2>
 <p>Pour la synchronisation NTP il vous faut la lib <a href="https://github.com/arduino-libraries/NTPClient" target="_blank">NTPClient</a>.
 Avec plateformio vous pouvez l'ajouter comme cela dans le fichier platformio.ini.</p>
 <pre class="java"><code class="java">lib_deps = 
@@ -247,7 +247,7 @@ Avec plateformio vous pouvez l'ajouter comme cela dans le fichier platformio.ini
 	</header>
 	<section><p>Bonjour.
 Voici un petit tuto simple sur la gestion de la connexion wifi avec le framework arduino sur un ESP32 mais cela fonctionne aussi avec un ESP8266 et probablement d'autre carte.</p>
-<h2>Connexion</h2>
+<h1>Connexion</h1>
 <p>La connexion se fait avec la bibliothèque Wifi qui est incluse dès qu'on configure notre projet pour utiliser une carte ESP32.</p>
 <pre class="cpp"><code class="cpp">#include &lt;Arduino.h&gt;
 // pour un esp32
@@ -284,10 +284,10 @@ void loop() {
 
 }
 </code></pre>
-<h3>Probleme avec certain router et l'ESP8266</h3>
+<h2>Probleme avec certain router et l'ESP8266</h2>
 <p>J'ai souvent eu le souci que mes ESP8266 avaient beaucoup de mal à se connecter à mon réseau wifi.
 Il faut fouiller dans votre routeur, sur la configuration du réseau 2.4Ghz, et trouver une option s'appellant <strong>mode sans fil</strong> qui est peut être regler sur &quot;N Only&quot; et passer cette option à &quot;legacy&quot;.</p>
-<h2>Bonus appeler un serveur</h2>
+<h1>Bonus appeler un serveur</h1>
 </section>
 	<footer>
 		<a href="2025/connexion-wifi-esp32.html"><span class="fa fa-eye"></span> Lire la suite</a>
