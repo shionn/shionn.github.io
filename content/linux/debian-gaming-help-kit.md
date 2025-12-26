@@ -35,6 +35,26 @@ tar -xvf "la derniere archive".tar.gz -C ~/.steam/debian-installation/compatibil
 gamescope -W 5120 -H 1440 -f -e --disable-color-management --mangoapp --adaptive-sync -- steam -tenfoot -steamos
 ~~~
 
+# Nvidia
+
+La procedure la plus simple pour installer les driver est je pense la méthode via extrepo
+
+~~~shell
+sudo apt install extrepo
+sudo extrepo enable nvidia-cuda
+sudo apt update
+sudo apt install nvidia-driver
+~~~
+
+## Connaitre la version du driver en fonction de la carte
+
+Ne marche pas avec le extrepo, je ne sais pas pourquoi. 
+
+~~~shell
+sudo apt install nvidia-detect
+nvidia-detect
+~~~
+
 # Steam Deck
 Pour calibrer les joystick : `thumbstick_cal`
 
