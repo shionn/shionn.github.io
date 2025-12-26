@@ -1,7 +1,7 @@
 Whisperia est une campagne de JDR sur DnD organisée par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
-## Rurik Taillepierre.
+# Rurik Taillepierre.
 
 Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans du haut de ces 1m12 pour 100kg pas grand chose lui fait peur. 
 Il cherche à rejoindre la Guilde des aventuriers d'__Heavenrir__ .
@@ -10,11 +10,11 @@ Il souhaite rejoindre cette guilde car en étant un membre cela
 lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne.
 En effet, les impôts sur les alcools sont réduits quand on est membre de la guilde.
 
-### Statistique
+## Statistique
 
 Techniquement c'est un tank, je me planque derriere un gros bouclier en attendant de fouttre un gros coup de hache dans la gueule de mes adversaire. Voir les [statistiques et autres informations](/2025/whisperia-ressources.html).
 
-### Autre pnj
+## Autre pnj
 
 [table title="Personnages" cols="Nom,Description" class="pyjama"]
 Amenalion	Necromancien raignant sur les catacombes
@@ -36,7 +36,7 @@ Heavenrir	Ville central de Whisperia
 Ragnord	Ruines dans lequel nous avons été fait prisonnier
 [/table]
 
-## Précédemment...
+# Précédemment...
 
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
 et nous nous sommes retrouvés dans un tombeau dans les ruines de Ragnord. 
@@ -58,7 +58,7 @@ Toutes nos aventures dans les articles précédent :
 * [Caleche et Loup](2025/whisperia-1x10-caleche-loup.html). 
 * [Retour en Ville](2025/whisperia-1x11-retour-en-ville.html). 
 
-## Et maintenant la suite
+# Et maintenant la suite
 
 Cette partie s'est déroulée le 13 Septembre 2025. Dont voici le replay :
 
@@ -70,7 +70,7 @@ Cette partie s'est déroulée le 13 Septembre 2025. Dont voici le replay :
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### Une riviere
+## Une riviere
 
 Nous arrivons à une rivière, il nous faut la traverser, je prends un bout de la corde de anuabi, je traverse la rivière, et arrivé de l’autre côté j’accroche la corde à un rocher. 
 
@@ -85,7 +85,7 @@ pictures/jdr/whisperia/143.jpg
 [/gallery]
 
 
-### Un géant
+## Un géant
 
 Un géant remonte la rivière, le combat s’engage, dans le combat je prend 10pt de dégât (24/34). Un chat vient nous aider en cours du combat, et HOOOO surprise c’est Aldia, le druide que nous cherchons. 
 
@@ -100,7 +100,7 @@ pictures/jdr/whisperia/146.jpg
 
 On essaye de parler à Aldia, mais comme tous les débiles qu’on croise, la communication n’est pas facile…. On décide de le suivre chez lui pour y passer la nuit et partager un repas. Nous n’apprenons pas grand chose, si ce n’est qu’il aime bien jouer avec noratu transformer en écureuil. 
 
-### Gustave le Marchamp itinérant
+## Gustave le Marchamp itinérant
 
 En chemin, nous entendons une cithare, nous rencontrons ce qui ressemble à un marchand itinérant. Gustave avec son cheval kindle...
 
@@ -112,7 +112,7 @@ pictures/jdr/whisperia/149.jpg
 
 Les autres achetent plein de merde, et on reprend la route. On utilise une de nos ration. Il m’en reste 2.
 
-### Dodo chez le druid
+## Dodo chez le druid
 
 Aldia nous raconte sa journée, et il a vu le dragon partir vers l’est.
 La forêt à l’est a changé, la forêt est devenue plus dangereuse et sombre.

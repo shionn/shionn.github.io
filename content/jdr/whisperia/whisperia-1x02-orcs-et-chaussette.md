@@ -2,7 +2,7 @@
 Whisperia est une campagne de JDR sur DnD organisé par Whisp et RoiLugubre sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
-## Rurik Taillepierre.
+# Rurik Taillepierre.
 
 Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans 
 du haut de ces 1m12 pour 100kg pas grand chose lui fait peur. 
@@ -12,7 +12,7 @@ Il souhaite rejoindre cette guilde car en étant un membre cela
 lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne. 
 En effet les impôts sur les alcools sont réduits quand on est membre de la guilde.
 
-### Statistique
+## Statistique
 
 [table title="Statistique" cols="Stat,Valeur,Modificateur,Utilisation" class="pyjama"]
 Force	14	+2	Taper, Soulever, Casser
@@ -33,7 +33,7 @@ PV	7/13
 Or	176po	 
 [/table]
 
-## Précédemment...
+# Précédemment...
 
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
 et nous nous somme retrouvé dans une prison dont nous avons réussi à nous échappé, nous avons combattu quelques Orcs et Trolls. 
@@ -41,7 +41,7 @@ Nous sommes toujours dans le donjon de nos ravisseurs, nous ne sommes pas en sé
 
 Notre aventure précédente dans l'[article dédié](2024/whisperia-1x01-evasion-d-une-gaule.html). 
 
-## Et maintenant la suite
+# Et maintenant la suite
 
 Cette partie s'est déroulée le 14 décembre 2024. Dont voici le replay :
 
@@ -69,7 +69,7 @@ pictures/jdr/whisperia/015.png
 pictures/jdr/whisperia/016.png
 [/gallery]
 
-### 4 orcs.
+## 4 orcs.
 
 __Hyasull__, _le barbare_ charge le premier orc et le rate, je le suis et je rate aussi. 
 
@@ -100,7 +100,7 @@ Il se retourne contre __Anuabi__ mais ne le touche pas. L'autre orc tape sur le 
 
 Notre groupe enchaîne les attaques mais nous n'arrivons pas à achever nos deux derniers adversaires. 
 
-### De nouveau 4 orcs
+## De nouveau 4 orcs
 
 Il parait qu'on fait du bruit et deux orcs sortent de derrière la porte. 
 
@@ -118,7 +118,7 @@ Un orc brasse l'air au dessous de ma tête et l'autre tape le chaton. Le barbare
 pictures/jdr/whisperia/019.png
 [/gallery]
 
-### Fouilleage
+## Fouilleage
 
 On laisse __Anuabi__ fouiller les cadavres, il trouve 32 pièces d'or, et nous en donne 5 chacun. 
 
@@ -147,7 +147,7 @@ pictures/jdr/whisperia/022.png
 
 La partie s'achève ici sur une :
 
-### Chausette !
+## Chausette !
 
 J'obtiens le passif fougue, une fois par jour je peu attaquer une deuxième fois.
 

@@ -2,7 +2,7 @@
 Je participe à une aventure de DnD organisé par Whisp et RoiLugubre sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de twitch.
 
-## Whisperia
+# Whisperia
 
 Whisperia est à la fois le nom de la campagne et le nom du monde. Il est sous l'influence de deux divinités :
 - Whisp le protecteur et le créateur. 
@@ -12,7 +12,7 @@ Whisperia est à la fois le nom de la campagne et le nom du monde. Il est sous l
 pictures/jdr/whisperia/carte.jpg
 [/gallery]
 
-## Rurik Taillepierre.
+# Rurik Taillepierre.
 
 Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans 
 du haut de ces 1m12 pour 100kg pas grand chose lui fait peur. 
@@ -22,7 +22,7 @@ Il souhaite rejoindre cette guilde car en étant un membre cela
 lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne. 
 En effet les impôts sur les alcools sont réduits quand on est membre de la guilde.
 
-### Statistique
+## Statistique
 
 [table title="Statistique" cols="Stat,Valeur,Modificateur,Utilisation" class="pyjama"]
 Force	14	+2	Taper, Soulever, Casser
@@ -35,7 +35,7 @@ Cha	9	-1	Négocier
 
 Je commence la partie avec 13 pv.
 
-### Équipement et Autre. 
+## Équipement et Autre. 
 
 [table title="Autre" cols="Cat,Valeur,Description" class="pyjama"]
 Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
@@ -47,7 +47,7 @@ PV	13/13
 Or	160po	 
 [/table]
 
-## Notre groupe
+# Notre groupe
 
 Nous n'en sommes pas à notre premier rodéo. 
 Nous avons déjà vécu quelques aventures ensembles.
@@ -71,7 +71,7 @@ Rurik Taillepierre	Guerrier	Nain	Nul	Moi-même
 >
 >**Rahanis** : _Rodeur de métier, parle peu, solitaire, parcourt le monde ou la chasse le porte, suivant les préceptes de **Solonor Thelandira**, dieu de la chasse._ 
 
-## Pemiere partie : L'évasion de la prison
+# Pemiere partie : L'évasion de la prison
 
 Cette partie s'est déroulée le 23 novembre 2024. Dont voici le replay : 
 
@@ -79,7 +79,7 @@ Cette partie s'est déroulée le 23 novembre 2024. Dont voici le replay :
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### Introduction
+## Introduction
 
 Lors d'un de nos périples nous avons trouvé une carte décrivant la présence d'un trésor dans 
 les catacombes des ruine de l'ancien temple de Ragnor. 
@@ -94,7 +94,7 @@ pictures/jdr/whisperia/001.png
 pictures/jdr/whisperia/002.png
 [/gallery]
 
-### Ouvrir la porte
+## Ouvrir la porte
 
 Nous cherchons un moyen de sortir mais nous ne trouvons rien.
  Les murs ne semble pas avoir de faiblesse. La paillasse ne cache rien.
@@ -115,7 +115,7 @@ pictures/jdr/whisperia/003.png
 pictures/jdr/whisperia/004.png
 [/gallery]
 
-### Recuperer notre équipement.
+## Recuperer notre équipement.
 
 Nous sortons de notre cellule, nous traversons le couloir et arrivons dans une pièces, 
 nous récupérons nos armures mais il semblerai que nos armes soit dans un coffre.
@@ -125,7 +125,7 @@ Peverell, le palarien, arrive à ouvrir le coffre à l'aide de son épée, nous 
 pictures/jdr/whisperia/005.png
 [/gallery]
 
-### Un rude combat. 
+## Un rude combat. 
 Nous revenons dans le couloir et rentrons dans une nouvelle pièce grâce à la seconde clef volé à l'orc.
 
 Nous y trouvons 2 orcs que nous combattons. Moi et Hyasull tapons le premier, tandis que Ariana essaye de faire de la magie...
@@ -157,7 +157,7 @@ pictures/jdr/whisperia/008.png
 pictures/jdr/whisperia/009.png
 [/gallery]
 
-### Récompense
+## Récompense
 
 Ariana, l'efle magicienne fuyant dans la pièce du troll elle y trouve un coffre. 
 Elle soupçonne un mimic.
@@ -183,7 +183,7 @@ pictures/jdr/whisperia/010.png
 pictures/jdr/whisperia/011.png
 [/gallery]
 
-## Conclusion
+# Conclusion
 
 Nous nous sommes échappé d'une gaule, nous avons récupérer notre équipement. 
 Combattu 3 orcs et 1 troll. Trouver une capuche, de la bave et une potion ainsi que des pièces.

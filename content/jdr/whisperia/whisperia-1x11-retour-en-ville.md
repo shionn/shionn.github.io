@@ -1,7 +1,7 @@
 Whisperia est une campagne de JDR sur DnD organisée par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
-## Rurik Taillepierre.
+# Rurik Taillepierre.
 
 Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans du haut de ces 1m12 pour 100kg pas grand chose lui fait peur. 
 Il cherche à rejoindre la Guilde des aventuriers d'__Heavenrir__ .
@@ -10,7 +10,7 @@ Il souhaite rejoindre cette guilde car en étant un membre cela
 lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne.
 En effet, les impôts sur les alcools sont réduits quand on est membre de la guilde.
 
-### Statistique
+## Statistique
 
 [table title="Statistique" cols="Stat,Valeur,Utilisation" class="pyjama"]
 Force	16 (+3)	Taper, Soulever, Casser
@@ -83,7 +83,7 @@ Heavenrir	Ville central de Whisperia
 Ragnord	Ruines dans lequel nous avons été fait prisonnier
 [/table]
 
-## Précédemment...
+# Précédemment...
 
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
 et nous nous sommes retrouvés dans un tombeau dans les ruines de Ragnord. 
@@ -101,7 +101,7 @@ Toutes nos aventures dans les articles précédent :
 * [Balade en Forêt](2025/whisperia-1x09-balade-en-foret.html). 
 * [Caleche et Loup](2025/whisperia-1x10-caleche-loup.html). 
 
-## Et maintenant la suite
+# Et maintenant la suite
 
 Cette partie s'est déroulée le 31 mai 2025. Dont voici les replay :
 
@@ -111,7 +111,7 @@ Cette partie s'est déroulée le 31 mai 2025. Dont voici les replay :
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### Retour en ville
+## Retour en ville
 
 Sur le retour vers Heavenrir, anuabi et le rôdeur fenric parle lessive, puis parle du bruit des cricket, anuabi n’aimant pas cela, puis discute de cuisine à base de cricket. 
 
@@ -125,7 +125,7 @@ Ils se sont fait attaquer par un gros dragon qui est parti vers l’est. Fenric 
 pictures/jdr/whisperia/133.jpg
 [/gallery]
 
-### Dans l'auberge
+## Dans l'auberge
 
 Nous allons à l’auberge, et nous donnons la viande de biche que nous avons chasser pour offrir un repas à tout le monde. Pour nous remercier d’avoir ramené la cargaison, Goldric nous offre les frais d’auberge pour 1 mois. Pendant que nous festoyons, le père de Noratu entre en larme, et nous dit que le Noratu et “Euh” un vieux mystérieux ont été enlevé par le dragon :) Le dragon semblait vouloir Noratu et personne d’autre. Le dragon est violet. 
 
@@ -142,7 +142,7 @@ Un dragon violet est un dragon associé à la magie de la nécromancie et il est
 pictures/jdr/whisperia/136.jpg
 [/gallery]
 
-### Au matin
+## Au matin
 
 Le lendemain, Godric nous invite à aller voir Aldia, un droit au nord de la ville. Il nous donne deux rations. 
 
@@ -155,7 +155,7 @@ pictures/jdr/whisperia/137.jpg
 pictures/jdr/whisperia/138.jpg
 [/gallery]
 
-### Gobelin et controle mental
+## Gobelin et controle mental
 
 Sur la route nous voyons des buissons bouger…
 

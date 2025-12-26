@@ -1,7 +1,7 @@
 Whisperia est une campagne de JDR sur DnD organisée par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
-## Rurik Taillepierre.
+# Rurik Taillepierre.
 
 Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans du haut de ces 1m12 pour 100kg pas grand chose lui fait peur. 
 Il cherche à rejoindre la Guilde des aventuriers d'__Heavenrir__ .
@@ -10,7 +10,7 @@ Il souhaite rejoindre cette guilde car en étant un membre cela
 lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne.
 En effet, les impôts sur les alcools sont réduits quand on est membre de la guilde.
 
-### Statistique
+## Statistique
 
 [table title="Statistique" cols="Stat,Valeur,Utilisation" class="pyjama"]
 Force	14 (+2)	Taper, Soulever, Casser
@@ -38,7 +38,7 @@ Richesse	1 rubi	~20po
  	5 rubis	~100po
 [/table]
 
-## Précédemment...
+# Précédemment...
 
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
 et nous nous sommes retrouvés dans une prison dont nous avons réussi à nous échapper. Nous avons combattu quelques Orcs et Trolls.
@@ -54,7 +54,7 @@ Toutes nos aventures dans les articles précédent :
 * [Bureau et Liche](2025/whisperia-1x04-bureau-liche.html). 
 * [Trésors et Pieges](2025/whisperia-5-tresors-pieges.html). 
 
-## Et maintenant la suite
+# Et maintenant la suite
 
 Cette partie s'est déroulée le 22 fevrier 2025. Dont voici le replay :
 
@@ -64,7 +64,7 @@ Cette partie s'est déroulée le 22 fevrier 2025. Dont voici le replay :
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### Sortir
+## Sortir
 
 Nous venons de re-tuer Aménalion. Nous sommes visiblement dans une salle voué à la prière de Éla. 
 
@@ -79,7 +79,7 @@ Nous décidons de quitter la pièce par la porte de gauche. Hyasul passe devant 
 pictures/jdr/whisperia/072.png
 [/gallery]
 
-### Encore des Orcs
+## Encore des Orcs
 
 Le combat s’engage. Je rentre dans la pièce, je suis trop loin pour leur rentrer dedans, j’avance et je les attends derrière mon bouclier. nous entrons tour à tour, rahanis tir sur eux. Les orc avance vers nous sauf un qui s'enfuit par l’escalier. Je tape sur le même que Hyasul, il tombe. Après d’autre échange 5 orc descente de l’escalier. Un des orcs semble quand même vachement plus costaud **Gorgul**.
 
@@ -88,7 +88,7 @@ pictures/jdr/whisperia/073.png
 pictures/jdr/whisperia/074.png
 [/gallery]
 
-### Gorgul le pourfendeur de crêne
+## Gorgul le pourfendeur de crêne
 
 Le chef me pointe avec Hyasul et ces sbires me charge moi et Hyazul. L’un me frappe et je prend 9 degat (11/32); Le boss nous charge et saute au-dessus de tout le monde pour s’en prendre à Hyasul.
 
@@ -115,7 +115,7 @@ pictures/jdr/whisperia/080.png
 
 J’essaye de faire un bandage à Anuabi. La brume se lève. Nous trouvons une belle hache et 50 po je gagne donc 10po. Hyasul récupère la hache.
 
-### Snoopy le géant
+## Snoopy le géant
 
 Je prends l’escalier et je tombe face à un géant mais qui ne semble pas offensif. Je passe devant le géant, Hyazul vois le géant et dis “copaing”, Ariana en mouille sa culotte. Rahanis sait qu’il n'est pas offensif. Avant de partir, je depose le bouclier de Peverel, il m'as bien aider à sortir d'ici.
 Le géant “snoupy” nous amène chez lui et nous offre à manger un ragoût d’agneaux et nous lui racontons nos aventures. Il se propose de nous accompagner jusqu’à Heavenrir.

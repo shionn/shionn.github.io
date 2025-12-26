@@ -1,7 +1,7 @@
 Whisperia est une campagne de JDR sur DnD organisée par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
-## Rurik Taillepierre.
+# Rurik Taillepierre.
 
 Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans du haut de ces 1m12 pour 100kg pas grand chose lui fait peur. 
 Il cherche à rejoindre la Guilde des aventuriers d'__Heavenrir__ .
@@ -10,7 +10,7 @@ Il souhaite rejoindre cette guilde car en étant un membre cela
 lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne.
 En effet, les impôts sur les alcools sont réduits quand on est membre de la guilde.
 
-### Statistique
+## Statistique
 
 [table title="Statistique" cols="Stat,Valeur,Utilisation" class="pyjama"]
 Force	16 (+3)	Taper, Soulever, Casser
@@ -74,7 +74,7 @@ Snoopy	Le géant qui nous a raccomppagné à Heavenrir
 Zeférion	Demon de l'ancien temps qui cherche à détruire le monde
 [/table]
 
-## Précédemment...
+# Précédemment...
 
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
 et nous nous sommes retrouvés dans un tombeau dans les ruines de Ragnord. 
@@ -89,7 +89,7 @@ Toutes nos aventures dans les articles précédent :
 * [Gargul & Snoupy](2025/whisperia-1x06-gorgul-snoopy.html). 
 * [Repos](2025/whisperia-1x07-repos.html). 
 
-## Et maintenant la suite
+# Et maintenant la suite
 
 Cette partie s'est déroulée le 29 mars 2025. Dont voici les replay :
 
@@ -101,7 +101,7 @@ Cette partie s'est déroulée le 29 mars 2025. Dont voici les replay :
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### A la recherche de Noratu
+## A la recherche de Noratu
 
 Nous ne trouvons pas de piste pour retrouver Naruto. Comme il semblait jouer avec des chats, Annabi imite le cri d’un chat mais elle n'attire qu’un chien.
 
@@ -110,7 +110,7 @@ pictures/jdr/whisperia/100.jpg
 pictures/jdr/whisperia/101.jpg
 [/gallery]
 
-### Une dispute à la taverne
+## Une dispute à la taverne
 
 Nous retournons à la taverne pour y apprendre que la milice n’est pas revenue, on demande le chemin de la caravane pour aller à sa rencontre. Il nous faut prendre la route du sud est.
 
@@ -121,7 +121,7 @@ pictures/jdr/whisperia/102.jpg
 pictures/jdr/whisperia/103.jpg
 [/gallery]
 
-### Andréas ....
+## Andréas ....
 
 Nous avons une discussion dénué d'interêt avec Andréas l'épicier
 
@@ -129,7 +129,7 @@ Nous avons une discussion dénué d'interêt avec Andréas l'épicier
 pictures/jdr/whisperia/104.jpg
 [/gallery]
 
-### Retour à l'auberge
+## Retour à l'auberge
 
 Retour à l’auberge, l’aubergiste nous propose un package complet pour 5 po par personne. Je lui donne une jaspe et un rubi jaune en echange. 
 >oui je paie pour tous le monde.
@@ -138,7 +138,7 @@ Retour à l’auberge, l’aubergiste nous propose un package complet pour 5 po 
 pictures/jdr/whisperia/105.jpg
 [/gallery]
 
-### Recherche de Noratu
+## Recherche de Noratu
 
 Nous retournons voir le père de Noratu mais nous n’avons pas plus de piste. Par désespoir nous commençons à fouiller la ville un peu au hasard des 4 coins de la ville. 
 
@@ -161,7 +161,7 @@ pictures/jdr/whisperia/109.jpg
 
 Anuabi essaye de se faufiler entre les murs mais n’arrive à rien. Je fouille les coins de la ville, le puits je ne trouve rien. 
 
-### Enfin
+## Enfin
 
 Mais proche du puits j’entend un bruit. Anuabi descend dans le puits, elle trouve le petit avec un chaton. Moi et Hyasul tirons sur la corde pour le remonter. Nous ramenons le petit à son père, et nous retournons à l’auberge.
 
@@ -182,7 +182,7 @@ Goldric nous remet notre paquetage **bitos du donjon** :
 pictures/jdr/whisperia/112.jpg
 [/gallery]
 
-### Banque
+## Banque
 
 Nous allons à la banque et achetons un coffre de grande taille pour une jaspe et 30 pièces d’or (payé par anuabi). J'y dépose : mes pierres et 100 po.
 
@@ -191,7 +191,7 @@ pictures/jdr/whisperia/113.jpg
 pictures/jdr/whisperia/114.jpg
 [/gallery]
 
-## Conclusion
+# Conclusion
 
 Nous sortons de la ville 
 

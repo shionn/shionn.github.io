@@ -1,7 +1,7 @@
 Whisperia est une campagne de JDR sur DnD organisée par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
-## Rurik Taillepierre.
+# Rurik Taillepierre.
 
 Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans du haut de ces 1m12 pour 100kg pas grand chose lui fait peur. 
 Il cherche à rejoindre la Guilde des aventuriers d'__Heavenrir__ .
@@ -10,7 +10,7 @@ Il souhaite rejoindre cette guilde car en étant un membre cela
 lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne.
 En effet, les impôts sur les alcools sont réduits quand on est membre de la guilde.
 
-### Statistique
+## Statistique
 
 [table title="Statistique" cols="Stat,Valeur,Modificateur,Utilisation" class="pyjama"]
 Force	14	+2	Taper, Soulever, Casser
@@ -36,7 +36,7 @@ Richesse	1 rubi	~20po
 	2 rubis jaunes	~20po
 [/table]
 
-## Précédemment...
+# Précédemment...
 
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
 et nous nous sommes retrouvés dans une prison dont nous avons réussi à nous échapper. Nous avons combattu quelques Orcs et Trolls.
@@ -51,7 +51,7 @@ Toutes nos aventures dans les articles précédent :
 * [Zombies, coffre et rubis](2025/whisperia-1x03-zombis-coffres-rubis.html). 
 * [Bureau et Liche](2025/whisperia-1x04-bureau-liche.html). 
 
-## Et maintenant la suite
+# Et maintenant la suite
 
 Cette partie s'est déroulée le 8 fevrier 2025. Dont voici les replays en deux parties :
 
@@ -61,7 +61,7 @@ Cette partie s'est déroulée le 8 fevrier 2025. Dont voici les replays en deux 
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### Fouille
+## Fouille
 
 Peverell est mort, je récupère son bouclier. qui me donne +2 en CA. Les autres se répartissent son or je passe mon tour.
 
@@ -84,7 +84,7 @@ pictures/jdr/whisperia/060.png
 pictures/jdr/whisperia/061.png
 [/gallery]
 
-### Porte et Pieges
+## Porte et Pieges
 
 Nous retournons à la porte du bout du couloir à côté du bureau. 
 J’essaye de l’ouvrir et je n’y arrive pas, Anuabi essaye de la crocheté et elle nous explose à la tête. Moi et mes amis prenons 4 pv (12/23). La porte est désintégrée.
@@ -109,7 +109,7 @@ J'essaie de remettre le livre sur l’autel mais rien n’y fait. Le brouillard 
 pictures/jdr/whisperia/065.png
 [/gallery]
 
-### Une connaissance
+## Une connaissance
 
 Le combat s’engage. Le spectre arrive a me taper et me fait 1 dégât (11/23).
 
@@ -123,7 +123,7 @@ pictures/jdr/whisperia/067.png
 [/gallery]
 
 
-### Une seconde Chaussette ! 
+## Une seconde Chaussette ! 
 
 Je gagne 9 pv je passe à 20/31. Je deviens Champion, et dorénavant les 19-20 font des critiques. A partir de maintenant nous utiliserons la maîtrise. C'est-à dire que j’ai +2 pour toucher et +2 sur mes jet de constitution.
 

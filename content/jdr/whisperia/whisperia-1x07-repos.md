@@ -1,7 +1,7 @@
 Whisperia est une campagne de JDR sur DnD organisée par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
-## Rurik Taillepierre.
+# Rurik Taillepierre.
 
 Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans du haut de ces 1m12 pour 100kg pas grand chose lui fait peur. 
 Il cherche à rejoindre la Guilde des aventuriers d'__Heavenrir__ .
@@ -10,7 +10,7 @@ Il souhaite rejoindre cette guilde car en étant un membre cela
 lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne.
 En effet, les impôts sur les alcools sont réduits quand on est membre de la guilde.
 
-### Statistique
+## Statistique
 
 A partir de cet soirée nos MJs nous ajoute plus de régle et donc mon personnage évolu. Comme Rurik est un nains il gagne 2 en force et constitution.
 
@@ -68,7 +68,7 @@ Snoopy	Le géant qui nous a raccomppagné à Heavenrir
 Zeférion	Demon de l'ancien temps qui cherche à détruire le monde
 [/table]
 
-## Précédemment...
+# Précédemment...
 
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
 et nous nous sommes retrouvés dans un tombeau dans les ruines de Ragnord. 
@@ -82,7 +82,7 @@ Toutes nos aventures dans les articles précédent :
 * [Trésors et Pieges](2025/whisperia-5-tresors-pieges.html). 
 * [Gargul & Snoupy](2025/whisperia-1x06-gorgul-snoopy.html). 
 
-## Et maintenant la suite
+# Et maintenant la suite
 
 Cette partie s'est déroulée le 15 mars 2025. Dont voici le replay :
 
@@ -92,7 +92,7 @@ Cette partie s'est déroulée le 15 mars 2025. Dont voici le replay :
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### Arrivé en ville
+## Arrivé en ville
 
 **Snoopy** nous a laissés non loin de la cité. C’est le début de la soirée quand nous passons enfin les portes de la cité.
 
@@ -107,7 +107,7 @@ Il semblerai que snoopy ai également des talent en chirgurie, il a pratiqué un
 pictures/jdr/whisperia/099.jpg
 [/gallery]
 
-### A l'auberge
+## A l'auberge
 
 Dans la ville, les rues sont vides, mais il y a clairement des signes de vie. Anuabi saute dans la fontaine. 
 Nous décidons d’aller à l’auberge. 
@@ -137,7 +137,7 @@ Anuabi engage la conversation avec le rôdeur, du nom de **Fenric**. Nous monton
 pictures/jdr/whisperia/092.jpg
 [/gallery]
 
-### Un peu de commerce
+## Un peu de commerce
 
 Je demande à l'aubergiste une bonne adresse pour un bouclier et des composantes d’aventurier. Il me conseille d’aller voir **Talendrick**. Et d’aller voir **Heinsendorale** a son échoppe magique. 
 
@@ -164,7 +164,7 @@ pictures/jdr/whisperia/096.jpg
 
 Je lui demande avec qui noratu a tendance de jouer, et ca serai avec des petits chats. Et ca sera la fin de cette partie
 
-### Conclusion
+## Conclusion
 
 Bière, bouffe et dodo.
 

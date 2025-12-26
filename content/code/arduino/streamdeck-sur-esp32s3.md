@@ -17,8 +17,8 @@ Je souhaiterai aussi me connecter a a mes serveur afin d'obtenir des information
 
 Je vous présente aujourd'hui chaque point de solution technique pour ce projet. 
 
-## Préparation
-### Initialisation de la board
+# Préparation
+## Initialisation de la board
 
 Il faut reflasher la board avec le logiciel arduino. Pour cela aller dans le menu outil puis gerer les bibliothethe et installer __ESP32 by espressif__.
 
@@ -38,7 +38,7 @@ Puis flasher la board avec **graver la sequence d'initialisation**.
 /pictures/arduino/desk-companion-esp32/03-parametre-flash.png
 [/gallery]
 
-### Parametrage de plateformIO
+## Parametrage de plateformIO
 
 J'utilise plateformIO pour develloper avec le framework arduino voici mon platefomio.ini. La board la plus proche est je pense l'esp32s3box. 
 
@@ -53,8 +53,8 @@ board_build.partitions = huge_app.csv ; nécéssaire pour avoir acces à plus de
 monitor_speed = 115200
 ~~~
 
-## Du code
-### Affichage sur l'ecran 
+# Du code
+## Affichage sur l'écran 
 L'écran intégré est un **AXS15231B** la lib GFX adapfruit permet d'afficher dessus. On peu l'ajouter à l'aide du fichier platefomio.ini:
 
 ~~~
@@ -94,12 +94,11 @@ void loop() {
 }
 ~~~
 
-### Le tactile
+## Le tactile
 
 Pour lire le tactile il faut utiliser la lib WIRE. En fouillant dans el code exemple de la lib j'ai fini par trouver les pin qui font bien. Et j'ai trouver de bien bonne (explication ici)[https://f1atb.fr/esp32-s3-3-5-inch-capacitive-touch-ips-display-setup/].
 
 ~~~cpp
-
 #include <Wire.h>
 
 
@@ -181,7 +180,7 @@ void loop() {
 }
 ~~~
 
-### Se connecter au wifi 
+## Se connecter au wifi 
 
 // TODO
 

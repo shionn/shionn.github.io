@@ -8,12 +8,12 @@ Surtout qu'au final je travail rarement sur un Arduino mais bien souvent sur d'a
 Dans ce petit tuto on va installer VSCode et ce qu'il faut pour coder avec le framework arduino.
 Puis nous verrons le classique tuto du clignotage de led.
 
-## Installation de PlatformIO
+# Installation de PlatformIO
 
-### Installation de VSCode
+## Installation de VSCode
 Télécharger et installer [VSCode disponible ici](https://code.visualstudio.com/)
 
-### Python
+## Python
 Il vous faut un environnement python 3 sur votre machine. Sous Debian il vous suffit d'installer python3-venv.
 Pour les autres systèmes vous pouvez regarder sur la [documentation de PlatformIO](https://docs.platformio.org/en/latest/faq/install-python.html)
 
@@ -21,7 +21,7 @@ Pour les autres systèmes vous pouvez regarder sur la [documentation de Platform
 sudo apt install python3-venv
 ~~~
 
-### Communication série
+## Communication série
 Il vous faut la possibilité d'utiliser les ports séries. 
 Sous Dedian il vous faut vous ajouter au group __dialout__.
 
@@ -31,20 +31,20 @@ sudo usermod -a -G dialout $USER
 
 Si cela ne suffit pas il faut aussi ajouter le group tty.
 
-### Installation de l'extension PlatformIo
+## Installation de l'extension PlatformIo
 Dans les extensions de VSCode, recherche et installer "PlatformIO IDE".
 
 [gallery]
 pictures/arduino/platformio/extension-platform-io.png
 [/gallery]
 
-### Autre extension
+## Autre extension
 
 Venant d'éclipse j'aime bien l'extension : Eclipse Keymap
 
-## Premier projet
+# Premier projet
 
-### Création d'un projet
+## Création d'un projet
 
 En ouvrant l'extension de PlatformIO vous accédez à l'interface de création de projet.
 Il y a un nombre impressionnant de carte disponible. 
@@ -54,7 +54,7 @@ pictures/arduino/platformio/creation-projet-1.png
 pictures/arduino/platformio/creation-projet-2.png
 [/gallery]
 
-### Structure
+## Structure
 
 La Structure d'un projet sous PlatformIO est un peu différent de celui d'un projet avec l'ide Arduino. 
 
@@ -73,7 +73,7 @@ Répertoire Racine
 |  |     |- Bar.h
 ~~~
 
-### Faire clignoter une diode 
+## Faire clignoter une diode 
 
 Créer un projet et coller dans le fichier main ce code simple :
 
@@ -92,7 +92,7 @@ void loop() {
 }
 ~~~
 
-### Upload du code
+## Upload du code
 
 Cliquer sur ce bouton et normalement la diode de votre carte clignotera : 
 

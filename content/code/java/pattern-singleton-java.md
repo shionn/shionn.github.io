@@ -1,6 +1,6 @@
 J'ai écris cet article il y a une dixaine d'année au travail, mon chef m'as donné l'autorisation de partager cela sur mon blog. 
 
-## Pattern conseillé
+# Pattern conseillé
 
 Généralement lorsque l'on souhait faire un singleton chargé au dernier moment (Lazy Instance) on conseille d’utiliser ce pattern :
 
@@ -22,9 +22,9 @@ public class MySignleton {
 
 Mais pourquoi utilise t'on ce pattern ? Ce pattern s'appuie sur le mécanisme de chargement de classe de java pour s'assurer à la fois l'instanciation unique et threadsafe de notre unique instance.
 
-## Pattern déconseillé
+# Pattern déconseillé
 
-### synchronized getInstance
+## synchronized getInstance
 
 Un autre pattern fonctionnel mais qui n'est pas optimal :
 
@@ -47,7 +47,7 @@ public class MySignleton {
 
 Ce pattern n'est pas optimal car on synchronise la méthode getInstance à chaque appel. Et dans en environnement multitâche, ce n'est pas ce que l'on souhaite car cel provoque une bonne perte de performance.
 
-### double null check synchronized
+## double null check synchronized
 
 Une solution alors est de synchroniser uniquement l'instanciation du block. Comme suit :
 
@@ -91,11 +91,11 @@ Voila ce que fait réellement la VM :
 Ce qui signifit que la variable qui contient l'instance est alloué avant que le contenu du block du constructeur de cette classe soit éxécuté. Ce qui signifie que le test `instance  == null` n'est pas gage que l'instance soit initialisé.
 
 
-## Conclusion
+# Conclusion
 
 Utiliser le premier pattern. 
 
-### Source
+## Source
 
 - [pourquoi le double check ne marche pas](http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html)
 

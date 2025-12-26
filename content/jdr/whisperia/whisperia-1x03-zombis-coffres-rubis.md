@@ -2,7 +2,7 @@
 Whisperia est une campagne de JDR sur DnD organisé par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
-## Rurik Taillepierre.
+# Rurik Taillepierre.
 
 Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans 
 du haut de ces 1m12 pour 100kg pas grand chose lui fait peur. 
@@ -12,7 +12,7 @@ Il souhaite rejoindre cette guilde car en étant un membre cela
 lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne. 
 En effet les impôts sur les alcools sont réduits quand on est membre de la guilde.
 
-### Statistique
+## Statistique
 
 [table title="Statistique" cols="Stat,Valeur,Modificateur,Utilisation" class="pyjama"]
 Force	14	+2	Taper, Soulever, Casser
@@ -35,7 +35,7 @@ PV	22/23
 Or	181po	 
 [/table]
 
-## Précédemment...
+# Précédemment...
 
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
 et nous nous somme retrouvé dans une prison dont nous avons réussi à nous échappé, nous avons combattu quelques Orcs et Trolls. 
@@ -47,7 +47,7 @@ Toutes nos aventures dans les articles précédent :
 * [Évasion d'une gaule](2024/whisperia-1x01-evasion-d-une-gaule.html). 
 * [Des orcs](2024/whisperia-1x02-orcs-et-chaussette.html). 
 
-## Et maintenant la suite
+# Et maintenant la suite
 
 Cette partie s'est déroulée le 11 janvier 2025. Dont voici le replay :
 
@@ -55,7 +55,7 @@ Cette partie s'est déroulée le 11 janvier 2025. Dont voici le replay :
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### Fouillage
+## Fouillage
 
 Moi et Hyasul entrons dans la pièce ou Ariana a lancé une torche lors de la partie précédente. 
 Bizarrement Hyazul semble ne pas y voir grand chose malgré la torche. 
@@ -82,7 +82,7 @@ D'un seul coup nous entendons du bruit comme un écroulement de pierre.
 Hyasul étant persuadé que cela vienne de la prison il y cours. 
 Et d'un seul coup, des zombies sorte de la pièce ou nous étions avant Hyasul et moi.
 
-### 4 Zombart
+## 4 Zombart
 
 Ariana fait un blizzard, et Peverel charge.
 Moi, Anuabi et Rahanis sortons de la pièce, et nous nous jetons dans la bataille. Pendant ce temps Hyasull fait un footing.
@@ -105,7 +105,7 @@ pictures/jdr/whisperia/032.png
 
 Enfin Peverel et moi même tapons sur le dernier zombi mais il résiste encore. Anuabi l'achève.
 
-### Fouillage
+## Fouillage
 
 Nous ne trouvons rien sur les zombarts, nous retournons dans la pièce des zombis et la fouillons nous n'y trouvons rien, nous en profitons pour nous reposer. 
 Après notre repos nous choisissons de poursuivre notre chemin et de ne pas retourner en arrière. 
@@ -127,7 +127,7 @@ pictures/jdr/whisperia/036.png
 
 Le rubis tomba par terre et je le ramasse en entendant une voie qui me dis __t'aurai pas du faire ca__.
 
-### Passage secret
+## Passage secret
 
 Sur une des effigies nous remarquons qu'une des yeux n'est pas un rubis mais une émeraude. 
 Anuabi appuie dessus et un passage secret s'ouvre. Nous y trouvons deux coffres mais nous n'arrivons pas les ouvrir. 
@@ -138,7 +138,7 @@ pictures/jdr/whisperia/038.png
 pictures/jdr/whisperia/039.png
 [/gallery]
 
-### Un autre coffre
+## Un autre coffre
 
 Nous revenons sur nos pas et essayons d'ouvrir la porte devant laquelle nous somme passé. 
 Anuabi ouvre la porte et un zombi lui tombe dessus, nous le défonçons et nous trouvons un coffre. Anuabi essaie de le crocheté mais n'y arrive pas.
@@ -159,7 +159,7 @@ Ariana lis les papiers et y lis :
 pictures/jdr/whisperia/042.png
 [/gallery]
 
-### Pour conclure
+## Pour conclure
 
 J'ai gagné un rubis, mais pas d'or ni de bière. 
 Et il semblerai que mes compagnon ne ferons rien pour m'empêcher de faire ce qui doit être fait !

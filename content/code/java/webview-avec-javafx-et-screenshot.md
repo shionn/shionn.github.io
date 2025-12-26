@@ -1,11 +1,11 @@
 Pour un projet personnel, j'ai eu besoin récemment de faire des captures d'écran d'un site web en java.
 J'ai même envisagé d'installer un serveur avec un outil comme cypress, mais __FLEMME__.
 
-## Une webview avec Java FX
+# Une webview avec Java FX
 
 La solution la plus simple que j'ai trouvé est d'utiliser JavaFX. 
 
-### Import
+## Import
 
 Voici l'import Maven que j'ai ajouté à mon projet.
 
@@ -24,7 +24,7 @@ La version de JavaFX à importer dépend de la version de votre JDK :
 21	23
 [/table]
 
-### Exemple de code
+## Exemple de code
 
 Ensuite afficher le site n'est clairement pas le plus dur : 
 
@@ -48,7 +48,7 @@ public class JavaFxImgCapture extends Application {
 }
 ~~~
 
-### Lancer le programme 
+## Lancer le programme 
 
 Le plus simple que j'ai trouvé est de passer par une commande maven grâce à ce plugin : 
 
@@ -69,7 +69,7 @@ Et on peu l'exécuter avec la commande suivante :
 mvn javafx:run
 ~~~
 
-## Faire une Capture d'écran
+# Faire une Capture d'écran
 
 Cela à été beaucoup plus compliquer qu'il n'y parait. Il faut : 
 - attendre que le site soit chargé
@@ -83,7 +83,7 @@ Donc si je reprend la liste précédente il faut faire comme cela :
 - attendre que les ressources soit chargées (image javascript) : Faire un pause dans un thread classique.
 - faire la captures : Prendre la capture dans un Thread JavaFX. 
 
-### Import
+## Import
 
 On va avoir besoin d'import supplémentaire : 
 
@@ -95,7 +95,7 @@ On va avoir besoin d'import supplémentaire :
 </dependency>
 ~~~
 
-### Code Java
+## Code Java
 
 ~~~java
 public class JavaFxImgCapture extends Application implements ChangeListener<Worker.State> {
@@ -164,7 +164,7 @@ public class JavaFxImgCapture extends Application implements ChangeListener<Work
 ~~~
 
 
-## Sans interface graphique
+# Sans interface graphique
 
 Si comme moi vous avez votre serveur linux qui automatise des choses, 
 vous n'avez probablement pas d'interface graphique sur celui-ci et donc vous ne pouvez 

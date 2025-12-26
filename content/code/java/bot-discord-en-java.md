@@ -1,7 +1,7 @@
 
 J'ai eu besoin de faire un bot discord, car les bots gratuit fonctionnaient très mal.
 
-## Créer votre bot : 
+# Créer votre bot : 
 
 Rendez vous à cette URL : [https://discordapp.com/developers/applications](https://discordapp.com/developers/applications). 
 Puis créervotre bot en clinquant sur le bouton __New Application__.
@@ -10,7 +10,7 @@ Puis créervotre bot en clinquant sur le bouton __New Application__.
 pictures/code/java/discord-bot/creation-application.png
 [/gallery]
 
-### Configuration du bot
+## Configuration du bot
 
 Dans l'onglet __General information__ vous trouverez l' __Application ID__ cela servira pour inviter votre bot à un serveur. 
 
@@ -24,7 +24,7 @@ Dans l'onglet __Bot__ vous pouvez générer le __Token__ de connexion. Noter ce 
 pictures/code/java/discord-bot/token.png
 [/gallery]
 
-### Inviter votre bot à votre serveur
+## Inviter votre bot à votre serveur
 
 Il vous faut définir les permissions, dans l'onglet __Bot__ cocher les droit dont vous avez besoin : 
 
@@ -39,9 +39,9 @@ Dans mon exemple je dois remplacer l'APPLCATION_ID et les PERMISSION décrite pr
 https://discordapp.com/oauth2/authorize?&client_id=APPLICATION_ID&scope=bot&permissions=PERMISSION
 ~~~
 
-## Code Java
+# Code Java
 
-### Dependance maven 
+## Dependance maven 
 
 Voici la dépendance maven pour votre programme
 
@@ -53,7 +53,7 @@ Voici la dépendance maven pour votre programme
 </dependency>
 ~~~
 
-### Connecter le bot 
+## Connecter le bot 
 
 ~~~java
 JDA Builder builder = JDABuilder.create(TOKEN); // insérer ici le token vu précédemment. 
@@ -63,7 +63,7 @@ builder.addEventListener(new ListenerAdapter() {
 JDA jda = builder.build().awaitReady();
 ~~~
 
-### Envoyer un message
+## Envoyer un message
 
 Il faut d'abord trouver le canal que vous voulez rejoindre, la solution la plus simple est je trouve d'utiliser l'identifiant du canal. 
 
@@ -86,7 +86,7 @@ TextChannel channel = jda.getTextChannelById(ID_DU_CANAL);
 channel.sendMessage("Hello World !");
 ~~~
 
-### Lire l'historique des messages
+## Lire l'historique des messages
 
 Pour mon bot j'ai eu besoin d'avoir accès à l'historique des messages pour savoir si j'avais déjà envoyé un message. 
 Si on veux avoir le contenu du message il faut ajouter des options dans la configuration du bot. 
@@ -111,7 +111,7 @@ channel.getHistory().retrievePast(NB_MESSAGE).queue(history -> {
 });
 ~~~
 
-## Source
+# Source
 
 J'ai été aidé par ce tuto pour faire mon bot.
 

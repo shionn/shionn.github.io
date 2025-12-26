@@ -1,7 +1,7 @@
 Whisperia est une campagne de JDR sur DnD organisée par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
-## Rurik Taillepierre.
+# Rurik Taillepierre.
 
 Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans du haut de ces 1m12 pour 100kg pas grand chose lui fait peur. 
 Il cherche à rejoindre la Guilde des aventuriers d'__Heavenrir__ .
@@ -10,7 +10,7 @@ Il souhaite rejoindre cette guilde car en étant un membre cela
 lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne.
 En effet, les impôts sur les alcools sont réduits quand on est membre de la guilde.
 
-### Statistique
+## Statistique
 
 [table title="Statistique" cols="Stat,Valeur,Utilisation" class="pyjama"]
 Force	16 (+3)	Taper, Soulever, Casser
@@ -81,7 +81,7 @@ Snoopy	Le géant qui nous a raccomppagné à Heavenrir
 Zeférion	Demon de l'ancien temps qui cherche à détruire le monde
 [/table]
 
-## Précédemment...
+# Précédemment...
 
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
 et nous nous sommes retrouvés dans un tombeau dans les ruines de Ragnord. 
@@ -97,7 +97,7 @@ Toutes nos aventures dans les articles précédent :
 * [Repos](2025/whisperia-1x07-repos.html). 
 * [Noratu](2025/whisperia-1x08-noratu.html). 
 
-## Et maintenant la suite
+# Et maintenant la suite
 
 Cette partie s'est déroulée le 19 avril 2025. Dont voici les replay :
 
@@ -107,7 +107,7 @@ Cette partie s'est déroulée le 19 avril 2025. Dont voici les replay :
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### Balade
+## Balade
 
 Nous nous retrouvons à la sortie de la ville. 
 
@@ -122,7 +122,7 @@ Nous suivons Rahanis dans la forêt, il piste une biche, d’un seul coup il nou
 
 Nous la dépeçons, la débitons pour 50 kg Je prends une ration pour chacun pour ce soir. 
 
-### Des gobelin
+## Des gobelin
 
 Nous arrivons à une intersection, nous choisissons de prendre la route qui va au sud. Hyasull se prend une flèche, des gobelin nous surprennent du sud, ils nous attaquent, un gobelin arrive à me toucher, je prend 4pv (31pv). 
 
@@ -137,7 +137,7 @@ Je prends mon premier gob, je lui éclate la tronche.  Je m’acharne sur lui et
 
 Le dernier gobelin fuit en devenant invisible. Je suis tres decus je voulais le capturé pour l'intéroger. Nous ne trouvons rien sur les cadavres de gobelin. 
 
-### Re balade
+## Re balade
 
 Nous reprenons la route vers le sud, nous tombons sur une odeur de charnier, nous suivons cette odeur et tombons sur un cadavre de sanglier relativement immonde.
 Selon rahanis, c‘ est l'œuvre de loup, mais ce n’est pas un comportement normal. On voit des traces qui semblaient humaines.

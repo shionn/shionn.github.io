@@ -1,7 +1,7 @@
 
 Dans ce tuto je vais essayé de vous montrer comment créer un chat bot en python pour twitch.
 
-## Procedure configuration de Twitch
+# Procedure configuration de Twitch
 
 Rendez vous sur [la console d'application twitch](https://dev.twitch.tv/console) et ajouter une application. Renseigner :
 - url de redirection : https://twitchtokengenerator.com
@@ -38,7 +38,7 @@ Suivez la procédure et vous avez votre **Access Token** et **Refresh Token**.
 /pictures/code/python/twitch/06.jpg
 [/gallery]
 
-## Code
+# Code
 
 J'utilise la lib python [twitchAPI](https://pypi.org/project/twitchAPI/). 
 
@@ -88,7 +88,7 @@ if __name__ == "__main__":
 	asyncio.run(start())
 ~~~
 
-## Ressources
+# Ressources
 
 - [https://pypi.org/project/twitchAPI](https://pypi.org/project/twitchAPI)
 - [https://twitchtokengenerator.com](https://twitchtokengenerator.com)

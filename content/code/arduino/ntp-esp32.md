@@ -1,13 +1,13 @@
 Bonjour.
 Voici un petit tuto simple sur la synchronisation d'une horloge sur un ESP32 via NTP. Cela marche également sur un ESP8266.
 
-## Préparation
+# Préparation
 
-### Connexion reseau
+## Connexion reseau
 
 Je ne détaillerai pas dans ce tuto comment faire, mais vous pouvez regarder [ce tuto](/2025/connexion-wifi-esp32)
 
-### Ajout lib
+## Ajout lib
 
 Pour la synchronisation NTP il vous faut la lib [NTPClient](https://github.com/arduino-libraries/NTPClient). 
 Avec plateformio vous pouvez l'ajouter comme cela dans le fichier platformio.ini. 
@@ -17,7 +17,7 @@ lib_deps =
 	arduino-libraries/NTPClient@^3.2.1
 ~~~
 
-## Code
+# Code
 
 L'utilisation de la lib est assez simple, comme le montre ce code.
 
@@ -58,7 +58,7 @@ void loop() {
 }
 ~~~
 
-### Et avec le changement d'heure ?
+## Et avec le changement d'heure ?
 
 Cela se fait facilement avec la lib [TimeZone](https://github.com/JChristensen/Timezone). 
 

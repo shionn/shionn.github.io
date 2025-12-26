@@ -3,12 +3,12 @@ Pendant l'été 2025 j'ai aidé la communauté Discord de [STEvE](https://www.yo
 à faire un bot pour Discord avec une interface web avec Flask. Je ne suis pas un dev python expérimenté, 
 je suis débutant en python donc je pense que j'ai pas tous fait dans les règles de l'art.
 
-## Environnement Python
+# Environnement Python
 
 C'est mon tous premier tuto avec python, aussi voici comment configurer un environnement de dev. 
 Créer un dossier qui contiendra votre dossier, pour cet exemple `FlaskBookTuto`. 
 
-### Installer les dépendances
+## Installer les dépendances
 
 Sous Debian, j'installe les dépendances suivantes. 
 
@@ -19,7 +19,7 @@ apt install python3 python3-pip python3-venv
 Je code avec vscode avec l'extension [ms-python.python](https://marketplace.visualstudio.com/items?itemName=ms-python.python). 
 J'utilise SqliteBrowser si j'ai besoin de parcourir la bdd avec un outil.
 
-### Environnement local python
+## Environnement local python
 
 Python, niveau version et dépendance c'est pas mal de la merde. 
 Il est préférable de créer ce qu'on appel un *venv* 
@@ -41,7 +41,7 @@ Cela va changer votre invite de commande en passant de cela `user@host:path$` à
 source .venv/bin/activate
 ~~~
 
-## Dépendance
+# Dépendance
 
 Dans le dossier de votre projet, créer un fichier `requirements.txt` et dedans ajouter les lignes : 
 
@@ -60,7 +60,7 @@ Puis dans le dossier du projet, avec le venv d'activé, faites cela pour install
 pip install -r requirements.txt
 ~~~
 
-## Code
+# Code
 
 Dans cette exemple, nous allons faire un site qui gère une bibliothèque de livre (manga ou BD). 
 
@@ -69,7 +69,7 @@ Voici les fonctionnalités :
 - Ajouter une entrée
 - Supprimer une entrée
 
-### Organisation
+## Organisation
 
 ~~~
 FlaskBookTuto
@@ -87,7 +87,7 @@ FlaskBookTuto
 |-- schema.sql # contiendra la structure de la bdd
 ~~~
 
-### Page d'accueil
+## Page d'accueil
 
 Pour l'instant nous allons faire un simple hello world.
 
@@ -174,7 +174,7 @@ Et le site est disponible sur localhost:5000 :
 pictures/code/python/flask/01.jpg
 [/gallery]
 
-### Et une bdd en sqlite
+## Et une bdd en sqlite
 
 Ajoutons une connexion à une bdd SQLlite. Ici je vous propose cette table : 
 
@@ -306,7 +306,7 @@ pictures/code/python/flask/02.jpg
 pictures/code/python/flask/03.jpg
 [/gallery]
 
-### Passer en prod
+## Passer en prod
 
 Vous avez du voir un joli message au lancement du programme : 
 
@@ -327,12 +327,12 @@ if __name__ == '__main__':
 	serve(webapp, host="0.0.0.0", port=80)
 ~~~
 
-## Conclusion
+# Conclusion
 
 Je voulais apprendre à faire un peu de python depuis un moment. 
 J'espère que mon code ne fera pas mal aux yeux au expert du python, mais si vous l'êtes, que faites vous la ? 
 
 Enfin si vous tombez sur ce tuto j'espère qu'il vous aidera.
 
-### Ressource
+## Ressource
 - [le code sur github](https://github.com/shionn/FlaskBookTuto)

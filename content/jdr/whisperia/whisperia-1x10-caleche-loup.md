@@ -1,7 +1,7 @@
 Whisperia est une campagne de JDR sur DnD organisée par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
-## Rurik Taillepierre.
+# Rurik Taillepierre.
 
 Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans du haut de ces 1m12 pour 100kg pas grand chose lui fait peur. 
 Il cherche à rejoindre la Guilde des aventuriers d'__Heavenrir__ .
@@ -10,7 +10,7 @@ Il souhaite rejoindre cette guilde car en étant un membre cela
 lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne.
 En effet, les impôts sur les alcools sont réduits quand on est membre de la guilde.
 
-### Statistique
+## Statistique
 
 [table title="Statistique" cols="Stat,Valeur,Utilisation" class="pyjama"]
 Force	16 (+3)	Taper, Soulever, Casser
@@ -82,7 +82,7 @@ Heavenrir	Ville central de Whisperia
 Ragnord	Ruines dans lequel nous avons été fait prisonnier
 [/table]
 
-## Précédemment...
+# Précédemment...
 
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
 et nous nous sommes retrouvés dans un tombeau dans les ruines de Ragnord. 
@@ -99,7 +99,7 @@ Toutes nos aventures dans les articles précédent :
 * [Noratu](2025/whisperia-1x08-noratu.html). 
 * [Balade en Forêt](2025/whisperia-1x09-balade-en-foret.html). 
 
-## Et maintenant la suite
+# Et maintenant la suite
 
 Cette partie s'est déroulée le 10 mai 2025. Dont voici les replay :
 
@@ -109,7 +109,7 @@ Cette partie s'est déroulée le 10 mai 2025. Dont voici les replay :
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### Fenric
+## Fenric
 
 Au loin une silhouette se fait deviner. Anuabi le reconnais, il s’agit de Fenric. Nous nous approchons de lui, il cherche la cargaison. Il est tombé sur une meute qui s'est dispersée afin de nous encercler pour nous chasser. 
 Ces loups sont dirigés par un loup garou **Tord Boyau**. 
@@ -121,7 +121,7 @@ pictures/jdr/whisperia/125.jpg
 
 Il nous raconte plein de merde que j’ai rien ecouté, et bien evidement on fait un bordel incroyable donc c’est certain que les loup savent ou nous sommes. Il nous dit que la cargaison est pas si loin et qu’il nous faut la défendre avant l’attaque des loups qui va pas tarder...
 
-### Et des loups...
+## Et des loups...
 
 Sur le chemin qui mène à cette cargaison les buissons bougent et 5 loups en sortent. Le combat s’engage. 
 
@@ -132,7 +132,7 @@ pictures/jdr/whisperia/127.jpg
 
 On en vient à bout sans mal. 
 
-### Une caleche
+## Une caleche
 
 Nous reprenons la route et nous arrivons à la cargaison. 
 

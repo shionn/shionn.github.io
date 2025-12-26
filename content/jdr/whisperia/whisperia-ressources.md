@@ -1,7 +1,7 @@
 Whisperia est une campagne de JDR sur DnD organisée par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des des via le chat de Twitch.
 
-## Whisperia
+# Whisperia
 
 Whisperia est à la fois le nom de la campagne et le nom du monde. Il est sous l'influence de deux divinités :
 - Whisp le protecteur et le créateur. 
@@ -11,7 +11,7 @@ Whisperia est à la fois le nom de la campagne et le nom du monde. Il est sous l
 pictures/jdr/whisperia/carte.jpg
 [/gallery]
 
-## Rurik Taillepierre.
+# Rurik Taillepierre.
 
 Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans du haut de ces 1m12 pour 100kg pas grand chose lui fait peur. 
 Il cherche à rejoindre la Guilde des aventuriers d'__Heavenrir__ .
@@ -19,7 +19,7 @@ Il cherche à rejoindre la Guilde des aventuriers d'__Heavenrir__ .
 Il souhaite rejoindre cette guilde car en étant un membre cela lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne.
 En effet, les impôts sur les alcools sont réduits quand on est membre de la guilde.
 
-### Statistique
+## Statistique
 
 [table title="Statistique" cols="Stat,Valeur,Utilisation" class="pyjama"]
 Force	16 (+3)	Taper, Soulever, Casser
@@ -74,7 +74,7 @@ Coffre	Or	100po
 	5 rubis	~100po
 [/table]
 
-## Notre groupe
+# Notre groupe
 
 Nous n'en sommes pas à notre premier rodéo. 
 Nous avons déjà vécu quelques aventures ensembles.
@@ -98,7 +98,7 @@ Rurik Taillepierre	Guerrier	Nain	Nul	Moi-même
 >
 >**Rahanis** : _Rodeur de métier, parle peu, solitaire, parcourt le monde ou la chasse le porte, suivant les préceptes de **Solonor Thelandira**, dieu de la chasse._ 
 
-## Lieux et personnage connu
+# Lieux et personnage connu
 
 [table title="Personnages" cols="Nom,Description" class="pyjama"]
 Aldia	Druide d'Heavenrir (qui a mangé trop de champignon)

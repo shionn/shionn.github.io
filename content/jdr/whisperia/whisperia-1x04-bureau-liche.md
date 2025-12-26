@@ -2,7 +2,7 @@
 Whisperia est une campagne de JDR sur DnD organisée par **Whisp** et **RoiLugubre** sur Twitch et Discord. 
 J'aide à mon niveau en fournissant un bot pour le lancé des dés via le chat de Twitch.
 
-## Rurik Taillepierre.
+# Rurik Taillepierre.
 
 Mon personnage s'appelle Rurik Taillepierre, un nain guerrier de 142 ans 
 du haut de ces 1m12 pour 100kg pas grand chose lui fait peur. 
@@ -12,7 +12,7 @@ Il souhaite rejoindre cette guilde car en étant un membre cela
 lui facilitera l'acquisition d'une licence afin d'ouvrir sa propre taverne. 
 En effet les impôts sur les alcools sont réduits quand on est membre de la guilde.
 
-### Statistique
+## Statistique
 
 [table title="Statistique" cols="Stat,Valeur,Modificateur,Utilisation" class="pyjama"]
 Force	14	+2	Taper, Soulever, Casser
@@ -36,7 +36,7 @@ Or	181po
 Richesse	1 rubi	~20po
 [/table]
 
-## Précédemment...
+# Précédemment...
 
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
 et nous nous somme retrouvé dans une prison dont nous avons réussi à nous échapper. Nous avons combattu quelques Orcs et Trolls. 
@@ -49,7 +49,7 @@ Toutes nos aventures dans les articles précédent :
 * [Des orcs](2024/whisperia-1x02-orcs-et-chaussette.html). 
 * [Zombies, coffre et rubis](2025/whisperia-1x03-zombis-coffres-rubis.html). 
 
-## Et maintenant la suite
+# Et maintenant la suite
 
 Cette partie s'est déroulée le 25 Janvier 2025. Dont voici le replay :
 
@@ -57,7 +57,7 @@ Cette partie s'est déroulée le 25 Janvier 2025. Dont voici le replay :
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car l'épisode 1 était la création des personnages et je n'en ai pas fait un article.*
 
-### Deux bureau
+## Deux bureau
 
 Nous revenons dans le bureau de l'orc mais nous n'y trouvons rien et décidons de retourner vers les portes que nous n'avons pas encore ouvertes.
 
@@ -75,7 +75,7 @@ Ariana recherche des traces de magie et Peverel trouve un bracelet en or (25po) 
 
 Peverell trouve un parchemin de résurrection qui ne marche que pendant la première minute de la mort. Ariana le récupère.
 
-### Levier et piège
+## Levier et piège
 
 Nous trouvons un levier mais décidons de pas y toucher pour l'instant, nous essayons d'ouvrir l'autre porte mais nous n'y arrivons pas nous actionnons le levier et un passage se révèle derrière nous proche de la salle secrète avec les coffres. 
 
@@ -103,7 +103,7 @@ pictures/jdr/whisperia/049.png
 pictures/jdr/whisperia/050.png
 [/gallery]
 
-### Deux gargouille
+## Deux gargouille
 
 Hyasul ouvre la porte, pendant que nous l'encourageons de loin.
 Dans la pièce, il y a deux statues en forme de gargouilles qui semblent garder une autre porte.
@@ -121,7 +121,7 @@ Le combat commence.
 Les coups s'enchaînent nous nous acharnons sur nos gargouilles et nous en venons à bout assez facilement.
 Les yeux des gargouilles sont des rubis jaunes, les autres ne semble pas intéressé, Anuabi et moi en prenons deux chacuns. 
 
-### Tombeau
+## Tombeau
 
 Nous entrons dans une nouvelle pièce remplie de trésor et d'un sarcophage, je n'arrive pas à me retenir et je me jette sur le trésor, un spectre sort du sarcophage et se jette sur moi, j'arrive à esquiver son attaque.
 
@@ -152,7 +152,7 @@ pictures/jdr/whisperia/057.png
 pictures/jdr/whisperia/058.png
 [/gallery]
 
-## Pour conclure 
+# Pour conclure 
 
 J'ai gagné des pierres précieuses, on as tué un genre de liche, je fini à 16/23 pv. Et le paladin semble mal barré...
 
