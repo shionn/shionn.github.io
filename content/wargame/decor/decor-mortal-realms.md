@@ -7,7 +7,7 @@ Attention cependant, certain numéro avec des décors ont été revendu.
 
 Tous ont été peint au cours de l'année 2021 et 2022.
 
-## Runies Azyrite
+# Runies Azyrite
 
 Proviens des numéros 26 et 30. Franchement j'aurai pu mieux les peindre, j'ai du y passé 30 minutes pour les deux.
 
@@ -18,7 +18,7 @@ pictures/decor/mortal-realms/ruines/03.jpg
 pictures/decor/mortal-realms/ruines/04.jpg
 [/gallery]
 
-## Runies Azyrite Cloche
+# Runies Azyrite Cloche
 
 Ma pièce de décor préféré de l'abonnement. Proviens du numéro 36. 
 Un peu fragile elle a cassé au niveau d'une des cages. 
@@ -28,7 +28,7 @@ pictures/decor/mortal-realms/cloche/01.jpg
 pictures/decor/mortal-realms/cloche/02.jpg
 [/gallery]
 
-## Statue de sygmar et de Gryphdod
+# Statue de sygmar et de Gryphdod
 
 Inutile / 20, proviennent des numéros 34 et 71. 
 
@@ -39,7 +39,7 @@ pictures/decor/mortal-realms/statue-griffon/02.jpg
 [/gallery]
 
 
-## Statue de Sygmar tombée
+# Statue de Sygmar tombée
 
 J'aime beaucoup se décor il est en permanence sur mon étagère pour présenté un personnage. Proviens du numéro 46.
 
@@ -48,7 +48,7 @@ pictures/decor/mortal-realms/statue-tombee/01.jpg
 pictures/decor/mortal-realms/statue-tombee/02.jpg
 [/gallery]
 
-## Enduring stormval
+# Enduring stormval
 
 J'aime beaucoup ce décor, pas très joli, mais pratique.
 Il est en permanence sur mon étagère pour présenté un personnage. Proviens du numéro 61.
@@ -59,7 +59,7 @@ pictures/decor/mortal-realms/marche/02.jpg
 [/gallery]
 
 
-## Cimetiere sygmarit
+# Cimetiere sygmarit
 
 Certainement le décor le plus rechercher de 'l'abonnement et le plus joli. 
 Il date de la fin de warhammer battle. 

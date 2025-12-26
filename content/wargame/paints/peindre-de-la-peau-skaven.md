@@ -5,10 +5,10 @@ Je vais ici montrer comment faire une peau rose de rat, mais je vais être un pl
 [gallery h=300 w=300]
 2023/peindre-de-la-peau-skaven/verminlord.jpg
 [/gallery]
-## Théorie
+# Théorie
 Peindre de la peau c'est comme peindre n’importe quelle autre surface il faut traiter les ombres, les lumières, les textures.
 
-## Choix des couleurs
+# Choix des couleurs
 Avant tout, je choisis mon nuancié de couleur, voici celui de mes skavens.
 
 [gallery h=300 w=300]
@@ -30,7 +30,7 @@ Pour les autres couleurs on reste dans du classique.
 J'ai une tendance à faire un grand contraste entre la couleur la plus sombre et la plus claire. 
 Mais vous pouvez totalement réduire la largeur de votre nuancié.
 
-## Dégrossir le travail
+# Dégrossir le travail
 Cette étape ne concerne que les grosses figurines, pour une petite figurine un apprêt zénithal me suffit. 
 Quand j'ai une grosse figurine j'aime bien me dégrossir le travail en faisant une grisaille, c'est-à-dire un dégradé monochrome. 
 Généralement on le fait en dégrader de noir / gris / blanc. 
@@ -56,7 +56,7 @@ Le premier brossage étant plus appuyé.
 Pour le brossage j'utilise des pinceaux de maquillage qu'on trouve à bas prix sur amazon, 
 c'est ce que j'ai trouver de mieux pour le brossage, bien mieux que les pinceaux spécial brossage de marque spécialisé (lien en fin d'article).
 
-## Couche de base
+# Couche de base
 
 Cette couche est la plus dure à faire. 
 Il faut qu'elle soit transparente, mais pas trop et surtout uniforme. 
@@ -83,7 +83,7 @@ Il est normal que les couleurs précédentes appliqué en grisaille remontent à
 
 Même si je n'ai pas fait de grisaille, même si je n'ai pas fait de zénithal, je dilue toujours cette couche de base avec du *glaze medium*.
 
-## Ombrage
+# Ombrage
 
 Je fais souvent deux étapes d'ombrage. 
 Ici je fais mon premier ombrage avec du *72108 Succubs Skin*. 
@@ -109,7 +109,7 @@ Cela permet aussi de mieux dessiner les volumes et de mieux délimiter les élé
 2023/peindre-de-la-peau-skaven/ombrage-2.jpg
 [/gallery]
 
-## éclaircissement et rehaut
+# éclaircissement et rehaut
 Avec une couleur plus claire que ma couleur de base, ici le *72100 Rosy Flesh*, 
 je vais faire un premier éclaircissement en dessinant les muscles. 
 Ici pour ajouter de la texture aux muscles, je fais plein de petits traits, dans le sens des fibres musculaires. 
@@ -125,7 +125,7 @@ Enfin avec une couleur encore plus claire, ici le *72003 Pale Flesh*, je vais re
 2023/peindre-de-la-peau-skaven/rehaut-1.jpg
 [/gallery]
 
-## Dernier détail
+# Dernier détail
 La peau, c'est complexe, car elle n'est pas opaque, à travers la peau on voit les muscles, les veines, etc.
 De fait, il est souvent intéressant d'ajouter du violet par endroit. 
 Pour mes skaven, les pustules, le museau et la queue sont parfaites pour cet exercice. 
@@ -144,7 +144,7 @@ Avec cela je fais des glacis sur les endroits qui m'intéressent. Je fais attent
 [/gallery]
 
 
-## Produit que j'utilise
+# Produit que j'utilise
 Voici quelques produits que j'utilise dont je parle dans ce tuto, il s'agit de lien affilié sur amazon, cependant je vous encourage à acheter chez votre revendeur local.
 
 <div class="pub">

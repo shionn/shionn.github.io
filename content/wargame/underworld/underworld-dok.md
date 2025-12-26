@@ -2,7 +2,7 @@
 Voici mes bandes Underworld affilié aux Daughter of Khaine. 
 J'ai des bandes mais je n'y joue pas.
 
-## Les Lames de Khaine
+# Les Lames de Khaine
 
 - Peinte en Juillet 2021
 
@@ -11,7 +11,7 @@ pictures/underworld/dok/lame-de-khaine/1.jpg
 pictures/underworld/dok/lame-de-khaine/2.jpg
 [/gallery]
 
-## Rejetombres
+# Rejetombres
 
 - Peinte en Mai 2022
 
@@ -20,7 +20,7 @@ pictures/underworld/dok/rejetombe/1.jpg
 pictures/underworld/dok/rejetombe/2.jpg
 [/gallery]
 
-## Les Arenaï de Gryselle
+# Les Arenaï de Gryselle
 
 Je les ai peintes originellement pour un défis de wizz game tv, mais je ne les ai jamais déposés.
 

@@ -3,7 +3,7 @@ Voici mes bandes Underworld affiliées aux Gloomspite Gitz.
 J'ai des bandes mais je n'y joue pas.
 Les bande underworld des glooms sont agréable à peindre.
 
-## Les Gitz de Zarbag's
+# Les Gitz de Zarbag's
 
 Premier bande underworld, provenant de l'abonnement Stormbringer.
 
@@ -28,7 +28,7 @@ pictures/underworld/gobs/gitz-de-zarbags/7.jpg
 
 [after date="2025/04/11"]
 
-## La Bande à Mollog
+# La Bande à Mollog
 
 Seconde bande underworld affilié aux Gloomspite Gitz provenant aussi de l'abonnement Stormbringer
 

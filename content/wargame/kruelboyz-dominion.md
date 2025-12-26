@@ -6,7 +6,7 @@ De la seconde boite je n'ai gardé que les 10 éventreurs et les 3 Embrocheurs.
 Tous le reste à été donné ou vendu.
 Pourquoi en Violet ? je ne sais pas.
 
-## Bosskitue avec Grot Surineur
+# Bosskitue avec Grot Surineur
 
 - Peinte en Mars 2022.
 
@@ -16,7 +16,7 @@ pictures/aos/kruelboyz/bosskitue/2.jpg
 pictures/aos/kruelboyz/bosskitue/3.jpg
 [/gallery]
 
-## Bosskitue sur Bruxodonte
+# Bosskitue sur Bruxodonte
 
 - Peinte en Mars 2022.
 
@@ -28,7 +28,7 @@ pictures/aos/kruelboyz/bosskitue-bruxodonte/4.jpg
 pictures/aos/kruelboyz/bosskitue-bruxodonte/5.jpg
 [/gallery]
 
-## Chamane Vasomancien et Grot Touilleur
+# Chamane Vasomancien et Grot Touilleur
 
 - Peinte en Mars 2022.
 
@@ -43,7 +43,7 @@ pictures/aos/kruelboyz/vasomancien/7.jpg
 pictures/aos/kruelboyz/vasomancien/8.jpg
 [/gallery]
 
-## Nobskur avec Rotétendard
+# Nobskur avec Rotétendard
 
 - Peinte en Mars 2022.
 
@@ -53,7 +53,7 @@ pictures/aos/kruelboyz/nobskur-rotetendard/2.jpg
 pictures/aos/kruelboyz/nobskur-rotetendard/3.jpg
 [/gallery]
 
-## Eventreurs
+# Eventreurs
 
 Pourquoi j'ai fait les 10 de la seconde boite en rouge ? Je ne sais pas.
 
@@ -71,7 +71,7 @@ pictures/aos/kruelboyz/eventreurs/7.jpg
 pictures/aos/kruelboyz/eventreurs/8.jpg
 [/gallery]
 
-## Embrocheurs
+# Embrocheurs
 
 - Peinte en Mars 2022 pour les violets.
 - Peinte en Avril 2022 pour les rouges.
@@ -83,7 +83,7 @@ pictures/aos/kruelboyz/embrocheurs/3.jpg
 pictures/aos/kruelboyz/embrocheurs/4.jpg
 [/gallery]
 
-## Egorgeur Hobgrot
+# Egorgeur Hobgrot
 
 J'ai pas peint ceux de la seconde boite (faut pas déconner).
 

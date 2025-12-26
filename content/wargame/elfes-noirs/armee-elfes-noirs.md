@@ -4,7 +4,7 @@ Accomplir enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs
 
 J'ai choisi d'organiser les figurines celons la V6 qui celle que je jouais ado.
 
-## Seigneurs & Héros
+# Seigneurs & Héros
 
 Il devrais y avoir à terme :
 - Hellebron
@@ -12,7 +12,7 @@ Il devrais y avoir à terme :
 - Morathi
 
 [after date="2025/07/05"]
-### Assassin
+## Assassin
 
 Voici mon assassin en métal. J'ai acheté cette figurine il y a presque 25 ans.
 
@@ -28,7 +28,7 @@ pictures/battle/dark-elves/assassin/03.jpg
 [/after]
 
 [after date="2025/05/02"]
-### Malus Dark Blade
+## Malus Dark Blade
 
 Voici mon malus dark blade en métal.
 Proviens d'un lot d'une armée que j'ai racheté (merci David). 
@@ -52,7 +52,7 @@ pictures/battle/dark-elves/malus-dark-blade/07.jpg
 [/after]
 
 [after date="2025/11/26"]
-### Morathi sur Pégase Noir
+## Morathi sur Pégase Noir
 
 Je l'ai acheté autour des années 2000, et elle est resté dans ma piule de la honte pendant presque 25 ans. 
 
@@ -69,7 +69,7 @@ pictures/battle/dark-elves/morathi-pegase/04.jpg
 [/gallery]
 [/after]
 
-### Porteur de la grand bannière Elfes Noirs
+## Porteur de la grand bannière Elfes Noirs
 
 Il provient d'un lot que j'ai acheté, David si tu passes par là, encore merci. Je n'ai pas eu à le décaper.
 
@@ -86,7 +86,7 @@ pictures/battle/dark-elves/porteur-gd-banniere/3.jpg
 pictures/battle/dark-elves/porteur-gd-banniere/4.jpg
 [/gallery]
 
-### Sorcière suprême
+## Sorcière suprême
 
 Elle provient d'un lot que j'ai acheté, David si tu passes par là, encore merci.
 Je l'ai décapée et repeinte.
@@ -121,7 +121,7 @@ Rehaut	72013
 Glacis	72112
 [/paints]
 
-### Sorcière suprême s/ Sang Froid
+## Sorcière suprême s/ Sang Froid
 
 Elle provient d'un lot que j'ai acheté, David si tu passes par là, encore merci.
 Je l'ai décapée et repeinte.
@@ -154,13 +154,13 @@ Zénithal aéro	72024
 Rehaut	72096
 [/paints]
 
-## Unités de Base
+# Unités de Base
 
 Reste à faire :
 - Cavalier Noire
 
 [after date="2025/08/30"]
-### Arbaletriers
+## Arbaletriers
 
 Voici mon premier pack de 12 arbaletriers elfe noir en plastique. 
 Ils proviennent d'un lot d'une armée que j'ai racheté (merci David). 
@@ -179,7 +179,7 @@ pictures/battle/dark-elves/arbaletriers/06.jpg
 [/gallery]
 [/after]
 
-### Corsaires des Arches Noires
+## Corsaires des Arches Noires
 J'ai acheté ces figurines étant gamin, cela fait donc plus de 20 ans que ces figurines sont dans ma pile de la honte.
 
 - Figurines en métal de 99.
@@ -213,7 +213,7 @@ Base	72045
 Rehaut	72039
 [/paints]
 
-### Lanciers
+## Lanciers
 
 Voici mon premier pack de 20 guerrier elfe noir en plastique. 
 Proviens d'un lot d'une armée que j'ai racheté (merci David). 
@@ -231,12 +231,12 @@ pictures/battle/dark-elves/lanciers/05.jpg
 pictures/battle/dark-elves/lanciers/06.jpg
 [/gallery]
 
-## Unités Spéciales
+# Unités Spéciales
 
 Reste à faire :
 - Harpie
 
-### Cavalier sur Sang Froid
+## Cavalier sur Sang Froid
 
 Voici ma cavalerie lourde sur sang froid. 
 Ces figurines proviennent d'un lot que j'ai acheté, David si tu passes par là, encore merci.
@@ -266,7 +266,7 @@ pictures/battle/dark-elves/cavalier-sg-froid/07.jpg
 pictures/battle/dark-elves/cavalier-sg-froid/08.jpg
 [/gallery]
 
-### Char à Sang Froid
+## Char à Sang Froid
 
 Voici mon char à sang froid en métal et plastique, en effet les roues et sang froid sont en plastique.
 Je l'ai acheter sur Vinted, décapé, contre percé et repeint.
@@ -283,7 +283,7 @@ pictures/battle/dark-elves/char-sg-froid/4.jpg
 pictures/battle/dark-elves/char-sg-froid/5.jpg
 [/gallery]
 
-### Exécuteurs de Har Ganeth
+## Exécuteurs de Har Ganeth
 
 Certains m'ont été offerts (merci Ardien si tu passe par la) quand aux autres je les ai acheté sur facebook le bon coin ou vinted.
 
@@ -304,7 +304,7 @@ pictures/battle/dark-elves/executeurs/08.jpg
 pictures/battle/dark-elves/executeurs/09.jpg
 [/gallery]
 
-### Furies de Khaine
+## Furies de Khaine
 
 J'ai acheté le QG étant gamin. Le reste proviens de l'achat d'un lot, que j'ai décapé. David si tu passes par la encore merci.
 J'**adore** les furies, j'ai versé une larme quand j'ai commencé leur peinture.
@@ -354,7 +354,7 @@ Rehaut	72052
 [/paints]
 
 [after date="2025/12/20"]
-### Ombres
+## Ombres
 
 Voici mes ombres elfes noir en métal. Certaines de ces figurines proviennent de mon ancienne armée et d'autre de celle que j'ai racheté. 
 J'ai décapé et gardé seulement 10 figurines pour en avoir deux de chaque modele.
@@ -378,9 +378,9 @@ pictures/battle/dark-elves/ombres/08.jpg
 [/gallery]
 [/after]
 
-## Rares
+# Rares
 
-### Baliste à répétition
+## Baliste à répétition
 
 Je les ai acheté étant gamin. 
 Je les ai décaper pour les repeindre avec mon schéma et niveau actuel.
@@ -411,7 +411,7 @@ Shade	24-11
 Éclaircissement	72034
 [/paints]
 
-### Chaudron de Sang et Reine Matriarche
+## Chaudron de Sang et Reine Matriarche
 
 Proviens de l'achat d'un lot, que j'ai décapé. 
 David si tu passes par la encore merci. 
@@ -441,7 +441,7 @@ Rehaut	72025
 Rehaut	72121
 [/paints]
 
-### Gardes Noirs de Naggarond
+## Gardes Noirs de Naggarond
 
 Voici mes Gardes Noir de Naggarond en métal. J'ai peiné à les regrouper, je les ai acheté par petit lot sur Vinted, Facebook et LeBonCoin.
 
@@ -460,7 +460,7 @@ pictures/battle/dark-elves/garde-noir/07.jpg
 pictures/battle/dark-elves/garde-noir/08.jpg
 [/gallery]
 
-### Hydre de Guerre
+## Hydre de Guerre
 
 Voici mon hydre de guerre en métal.
 Cette figurine m'as été offerte par un certain David que je remercie si il passe par la.
@@ -495,7 +495,7 @@ Rehaut	72034
 [/paints]
 
 
-## Autre peinture
+# Autre peinture
 
 [paints title="Cuir bourse"]
 Base	72045

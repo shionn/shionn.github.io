@@ -7,7 +7,7 @@ forum [OneMoreMini](https://onemoremini.fr/topic/203/calendrier-des-d%C3%A9fis-m
 et [ColorFullMinis](https://taverne.colorfulminis.com/t/defis-cfm-annee-2025/5163). 
 Mais également à celui que j'ai organisé sur le discord de __Karv__ && __Whisp__. 
 
-## Janvier 2025
+# Janvier 2025
 
 En janvier j'ai peint :
 * Une Morathi sur son pégase noir pour __Rio de Janvier__ sur [CFM](https://taverne.colorfulminis.com/t/defi-janvier-2025-rio-de-janvier/5826) et pour mon défis __début et fin__.
@@ -18,7 +18,7 @@ pictures/battle/dark-elves/morathi-pegase/01.jpg
 pictures/battle/bataille-col-crane/gobs/lanciers/15.jpg
 [/gallery]
 
-## Février 2025
+# Février 2025
 
 En fevrier j'ai peint :
 * Un dragon pour mon défis __mort / purification / richesse__.
@@ -29,7 +29,7 @@ pictures/dungeon-and-laser/encounters/ssg/thos/01.jpg
 pictures/jeux/nemesis/hero-ext-ks-1.jpg
 [/gallery]
 
-## Mars 2025
+# Mars 2025
 
 En mars j'ai peint :
 * Un garde de dragsta pour mon défis __Jeunesse et/ou Guerrier__.
@@ -41,7 +41,7 @@ En mars j'ai peint :
 [/gallery]
 
 
-## Avril 2025
+# Avril 2025
 
 En mars j'ai peint :
 * La princesse Ker'udo pour mon défis __Amour / Séduction / Beauté féminine__.
@@ -52,7 +52,7 @@ En mars j'ai peint :
 /pictures/dungeon-and-laser/encounters/sg/sirenes/1.jpg
 [/gallery]
 
-## Mai 2025
+# Mai 2025
 
 En Mai j'ai peint :
 * Mon arachnarock pour mon défis __Maia : Nature / Croissance__.
@@ -62,7 +62,7 @@ En Mai j'ai peint :
 pictures/aos/gloomspite/arachnarock/01.jpg
 [/gallery]
 
-## Juin 2025
+# Juin 2025
 
 En Juin j'ai peint :
 * Un goku avec Shenron pour mon défis __Junon : Mariage / Fécondité__.
@@ -73,16 +73,16 @@ pictures/manga/goku-shenron/01.jpg
 [/gallery]
 
 
-## Juillet / Aout 2025
+# Juillet / Aout 2025
 
 * Tous mes Redoe Alliance pour le [Défi Summer Days 2025](https://onemoremini.fr/topic/679/d%C3%A9fi-summer-days-2025-juillet-aout)
 
 TODO
 
-## Septembre 2025
+# Septembre 2025
 
-## Octobre 2025
+# Octobre 2025
 
-## Novembre 2025
+# Novembre 2025
 
-## Decembre 2025
+# Decembre 2025

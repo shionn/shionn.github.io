@@ -2,9 +2,9 @@
 Voici la premiere partie des figurines provenant du pledge 
 [World of Deuslair](https://gamefound.com/projects/archon-studio/deuslair) de [Archon studio](https://archon-studio.com/). Ici je vous proposent les figurines du core set de la faction **Forterresse de Dragsta**.
 
-## Forteresse de Dragsta
+# Forteresse de Dragsta
 
-### Dragsa Guards
+## Dragsa Guards
 
 - Peinte en Mars 2025
 - En 7 heures pour les 7
@@ -19,7 +19,7 @@ pictures/dungeon-and-laser/deuslair/core/dragsta/guards/3.jpg
 pictures/dungeon-and-laser/deuslair/core/dragsta/guards/4.jpg
 [/gallery]
 
-### Undying Queendom
+## Undying Queendom
 
 - Peinte en Mai 2025
 - En 3 heure en meme temlps qu'une partie de JDR.
@@ -39,7 +39,7 @@ pictures/dungeon-and-laser/deuslair/core/dragsta/princess-kerubo/1.jpg
 pictures/dungeon-and-laser/deuslair/core/dragsta/princess-kerubo/2.jpg
 [/gallery]
 
-### Church of Order
+## Church of Order
 
 - Peinte en Avril 2025
 - En 7 heures pour les 5
@@ -53,7 +53,7 @@ pictures/dungeon-and-laser/deuslair/core/dragsta/church-of-order/3.jpg
 pictures/dungeon-and-laser/deuslair/core/dragsta/church-of-order/4.jpg
 [/gallery]
 
-### Ironsmith Laboratory
+## Ironsmith Laboratory
 
 - Peinte en Avril 2025
 - En 3 heures pour les 5
@@ -62,7 +62,7 @@ pictures/dungeon-and-laser/deuslair/core/dragsta/ironsmith-laboratory/1.jpg
 pictures/dungeon-and-laser/deuslair/core/dragsta/ironsmith-laboratory/2.jpg
 [/gallery]
 
-### The Irregulars
+## The Irregulars
 
 - En mai 2025 en 2h30 pour Morgu
 - En mai 2025 en 2h pour Ca'Arak

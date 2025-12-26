@@ -3,7 +3,7 @@ En 2025 j'ai eu envie de peindre des gobelins.
 En plus d'une armée pour AoS j'ai choisi de peindre également la partie gobeline de la veille boite **Bataille du Col du Crâne**.
 Voici aujourd'hui les figurines individueles.
 
-## Boss avec Bruto-suqig
+# Boss avec Bruto-suqig
 
 * Peinte en Fevrier 2025.
 * En environ 2h30.
@@ -18,7 +18,7 @@ pictures/battle/bataille-col-crane/gobs/bosssquig/03.jpg
 pictures/battle/bataille-col-crane/gobs/bosssquig/04.jpg
 [/gallery]
 
-## Chaman
+# Chaman
 
 * Peinte en Juin 2025.
 * En environ 1h30.
@@ -30,7 +30,7 @@ pictures/battle/bataille-col-crane/gobs/shaman/02.jpg
 pictures/battle/bataille-col-crane/gobs/shaman/03.jpg
 [/gallery]
 
-## Troll
+# Troll
 
 * Peinte en Fevrier 2025.
 * En environ 4 heures.

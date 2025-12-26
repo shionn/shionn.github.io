@@ -3,9 +3,9 @@ Voici la seconde partie des figurines provenant du pledge
 [World of Deuslair](https://gamefound.com/projects/archon-studio/deuslair) de [Archon studio](https://archon-studio.com/). 
 Ici je vous proposent les figurines du core set de la faction **Alliance de Redoe**.
 
-## Alliance de Redoe
+# Alliance de Redoe
 
-### Harrat Wing
+## Harrat Wing
 
 - Peinte en Aout 2025
 - En 8 heures environ.
@@ -24,7 +24,7 @@ pictures/dungeon-and-laser/deuslair/core/redoe/harrat-wing/06.jpg
 pictures/dungeon-and-laser/deuslair/core/redoe/harrat-wing/07.jpg
 [/gallery]
 
-### Jannah
+## Jannah
 
 - Peinte en Juillet 2025
 - En 5 heure environ.
@@ -34,7 +34,7 @@ pictures/dungeon-and-laser/deuslair/core/redoe/jannah/1.jpg
 pictures/dungeon-and-laser/deuslair/core/redoe/jannah/2.jpg
 [/gallery]
 
-### Yv'anda - Dryad Observers
+## Yv'anda - Dryad Observers
 
 - Peinte en Juillet 2025
 - En 12 heures environ.
@@ -54,7 +54,7 @@ pictures/dungeon-and-laser/deuslair/core/redoe/yvanda/7.jpg
 pictures/dungeon-and-laser/deuslair/core/redoe/yvanda/8.jpg
 [/gallery]
 
-### Knights of Tidor
+## Knights of Tidor
 
 - Peinte en Aout 2025
 - En 5 heures environ.
@@ -75,7 +75,7 @@ pictures/dungeon-and-laser/deuslair/core/redoe/knights-tidor/08.jpg
 pictures/dungeon-and-laser/deuslair/core/redoe/knights-tidor/09.jpg
 [/gallery]
 
-### Ancient Protectors
+## Ancient Protectors
 
 - Peinte en Aout 2025
 - En 10 heures environ.
@@ -91,7 +91,7 @@ pictures/dungeon-and-laser/deuslair/core/redoe/ancient-protectors/05.jpg
 [/gallery]
 
 
-### Rookery of Kril
+## Rookery of Kril
 
 - Peinte en Aout 2025
 - En 6h30 environ.
@@ -108,7 +108,7 @@ pictures/dungeon-and-laser/deuslair/core/redoe/rookery-of-kril/06.jpg
 pictures/dungeon-and-laser/deuslair/core/redoe/rookery-of-kril/07.jpg
 [/gallery]
 
-### Rashers from the Scareguards
+## Rashers from the Scareguards
 
 Cette figurine a été peinte pour le défi __Décembre 2023 - Chants de Noël et d'hiver de [OOM](https://onemoremini.fr/topic/596/d%C3%A9fi-d%C3%A9cembre-2023-chants-de-no%C3%ABl-et-d-hiver)__.
 

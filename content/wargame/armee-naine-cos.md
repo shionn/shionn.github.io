@@ -6,8 +6,8 @@ J'aime bien les nains mais c'est pas une armée dont le visuel me botte plus que
 
 Tous les socles ont été fait en moins de 10 minutes, j'ai simplement tapoté différentes couleurs avec un pinceau de brossage.
 
-## Héros
-### Roi Gardien
+# Héros
+## Roi Gardien
 
 - Peinte en janvier 2024
 - 3h30
@@ -18,7 +18,7 @@ pictures/aos/cos-duardin/king/2.jpg
 pictures/aos/cos-duardin/king/3.jpg
 [/gallery]
 
-### Forgerouage
+## Forgerouage
 
 Il as une pipe !
 - Peinte en janvier 2024
@@ -29,7 +29,7 @@ pictures/aos/cos-duardin/cogsmith/2.jpg
 pictures/aos/cos-duardin/cogsmith/3.jpg
 [/gallery]
 
-### Seigneur des Runes
+## Seigneur des Runes
 
 - Peinte en février 2024
 - 4h30
@@ -39,7 +39,7 @@ pictures/aos/cos-duardin/maitre-des-runes/1.jpg
 pictures/aos/cos-duardin/maitre-des-runes/2.jpg
 [/gallery]
 
-### Seigneur des Runes (Conversion)
+## Seigneur des Runes (Conversion)
 
 J'ai simplement remplacer sa tête par celle d'un cogsmith, comme ca, il a une pipe !
 - Peinte en février 2024
@@ -51,9 +51,9 @@ pictures/aos/cos-duardin/maitre-des-runes/3.jpg
 pictures/aos/cos-duardin/maitre-des-runes/4.jpg
 [/gallery]
 
-## Troupe
+# Troupe
 
-### Dracs de Fer
+## Dracs de Fer
 Les premières fig peinte de cet armée. 
 Elle m'ont servies de test de schéma. 
 A moins d'une heure par fig je suis satisfait du résultat.
@@ -66,7 +66,7 @@ pictures/aos/cos-duardin/dracs-de-fer/2.jpg
 pictures/aos/cos-duardin/dracs-de-fer/3.jpg
 [/gallery]
 
-### Brise-Fer
+## Brise-Fer
 Les brise fer avec marteau on un acier l'égerment jade et les haches légèrement turquoise. 
 Ou le contraire. 
 Des nains, qui ressemble à de nains, avec bouclier et marteau ce que je voulais.
@@ -82,10 +82,10 @@ pictures/aos/cos-duardin/brise-fer/5.jpg
 pictures/aos/cos-duardin/brise-fer/6.jpg
 [/gallery]
 
-## Elite
+# Elite
 J'ai choisi de faire 10 langue barbe et 10 marteler pour la variation, mais dans les faits, ils seront joué soit comme 20 de l'un ou de l'autre.
 
-### Longues-Barbes
+## Longues-Barbes
 - Peinte en janvier 2024
 - 6h35
 
@@ -95,7 +95,7 @@ pictures/aos/cos-duardin/longue-barbe/2.jpg
 pictures/aos/cos-duardin/longue-barbe/3.jpg
 [/gallery]
 
-### Marteler
+## Marteler
 - Peinte en janvier 2024
 - 6h35
 
@@ -105,8 +105,8 @@ pictures/aos/cos-duardin/martelier/2.jpg
 pictures/aos/cos-duardin/martelier/3.jpg
 [/gallery]
 
-## Truc
-### Gyrobombardier
+# Truc
+## Gyrobombardier
 Je déteste toujours autant peindre des véhicules.
 
 - Peinte en février 2024
@@ -119,7 +119,7 @@ pictures/aos/cos-duardin/gyro/1.jpg
 pictures/aos/cos-duardin/gyro/2.jpg
 [/gallery]
 
-### Gyrocoptères
+## Gyrocoptères
 
 La terrible technique du tapotage !
 - Peinte en février 2024
@@ -131,7 +131,7 @@ pictures/aos/cos-duardin/gyro/4.jpg
 [/gallery]
 
 
-## Peinture
+# Peinture
 Tous les aciers sont traité grosso merdo de la même manière, seul le Glacis varie d'une variation à l'autre.
 
 [paints title="Plaque d'acier"]

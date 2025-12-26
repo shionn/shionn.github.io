@@ -2,10 +2,10 @@
 Voici mon armée de gobelin de nuit. 
 On est loin d'avoir une armée complete il s'agit simplement de la partie gobelin de la boite **baille du col du crâne**.
 
-## Heros
+# Heros
 
 [after date="2025/11/18"]
-### Bosssquig & BrutoSquig
+## Bosssquig & BrutoSquig
 
 >**Rikk Chope-Squig** n'est pas le gobelin le plus fort du clan, ni le plus intelligent même pour un gobelin.
 >Mais **Rikk** a compris qu'il était plus simple pour lui de s'appuyer sur la force des squigs.
@@ -34,7 +34,7 @@ pictures/battle/bataille-col-crane/gobs/bosssquig/03.jpg
 pictures/battle/bataille-col-crane/gobs/bosssquig/04.jpg
 [/gallery]
 
-### Chaman
+## Chaman
 
 * Peinte en Juin 2025.
 * En environ 1h30.
@@ -47,9 +47,9 @@ pictures/battle/bataille-col-crane/gobs/shaman/03.jpg
 [/gallery]
 
 [/after]
-## Troupes
+# Troupes
 
-### Lanciers 
+## Lanciers 
 
 Ces figurines mon servi de test de couleur pour mon amrée de gobelin à AoS.
 
@@ -98,7 +98,7 @@ pictures/battle/bataille-col-crane/gobs/lanciers/26.jpg
 [/after]
 
 [after date="2026/03/18"]
-### Archers
+## Archers
 
 Ce back proviens de la boite bataille du col du crane.
 
@@ -120,7 +120,7 @@ pictures/battle/bataille-col-crane/gobs/archers/08.jpg
 [/gallery]
 [/after]
 
-### Chevaucheur d'araignée
+## Chevaucheur d'araignée
 
 * Peinte en Juillet 2025
 * En environ 14 heures
@@ -133,7 +133,7 @@ pictures/battle/bataille-col-crane/gobs/chevaucheur-araignee/04.jpg
 [/gallery]
 
 [after date="2025/11/18"]
-### Troll
+## Troll
 
 * Peinte en Fevrier 2025.
 * En environ 4 heures.
@@ -146,6 +146,6 @@ pictures/battle/bataille-col-crane/gobs/troll/04.jpg
 [/gallery]
 [/after]
 
-## Peinture
+# Peinture
 
 J'ai utilisé exactement les même recettes que pour [Mon armée Gloomspite Gitz](2025/armee-gloomspite-gitz.html).

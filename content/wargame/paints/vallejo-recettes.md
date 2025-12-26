@@ -1,7 +1,7 @@
 
 Cette page est une simple factorisation des recettes que j'ai trouvé avec les peinture Vallejo Game Color ou pour m'en souvenir.
 
-## Mes recettes
+# Mes recettes
 
 [paints title="Rouge Basic"]
 Aplat	72011
@@ -16,7 +16,7 @@ Brossage	72035
 Lavis	24-10
 [/paints]
 
-### Or pratiqué avec Whisp57
+## Or pratiqué avec Whisp57
 [gallery h=300 w=350]
 2024/recette/or-whisp57/1.jpg
 [/gallery]
@@ -34,7 +34,7 @@ Rehaut (mélange)	72052
 Rehaut	72052
 [/paints]
 
-## Tuto Angel Giraldez
+# Tuto Angel Giraldez
 
 [paints title=" BSL Blanc par Angel GiraldeZ" icon="youtube-play" link="https://www.youtube.com/watch?v=STpBLWA6uNc"]
 Aplat	72034
@@ -98,7 +98,7 @@ Rehaut	72122
 [/paints]
 
 
-## Kits Vallejo
+# Kits Vallejo
 
 [paints title=" Kit jaune" icon="youtube-play" link="https://www.youtube.com/watch?v=yxvK5uqYx58"]
 Aplat	72006

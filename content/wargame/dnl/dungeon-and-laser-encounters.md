@@ -4,7 +4,7 @@ Originellement pour les décors pour mes wargames.
 Mais les figurines m'ont surprise de part leurs qualité et cela m'as encourager à prendre le KS suivant. 
 Je me sers essentiellement de celle-ci pour faire des essais de technique de peinture ou de couleur, souvent à l'occasion de défis.
 
-## Swamp of Doom
+# Swamp of Doom
 J'ai commencé par cette boite, car les arbres n'ayant pas de feuillage cela simplifiait le travail. 
 J'ai utilisé ma recette classique de bois, j'ai simplement fait des Glacis d'un vert jade par endroit.
 
@@ -29,7 +29,7 @@ Brossage	72039
 Glacie	72417
 [/paints]
 
-## The elven Woods
+# The elven Woods
 
 Rien de particulier sur cette boite. Pour les collines j'ai utilisé ma recette classique de pierre.
 Et par dessus j'ai fait divers Glacis pour les détails.
@@ -45,8 +45,8 @@ pictures/dungeon-and-laser/encounters/elven-woods/7.jpg
 pictures/dungeon-and-laser/encounters/elven-woods/8.jpg
 [/gallery]
 
-## Strech Goal
-### Abomination
+# Strech Goal
+## Abomination
 Cette figurine a été peinte pour le défi __Juin 2024 - Tomber la Chemise de Karv__
 et __Gros et/ou Degeulasse de [OOM](https://onemoremini.fr/topic/635/defi-gros-et-ou-degueulasse)__.
 Peinte bien trop vite.
@@ -56,7 +56,7 @@ pictures/dungeon-and-laser/encounters/sg/abomination/2.jpg
 pictures/dungeon-and-laser/encounters/sg/abomination/3.jpg
 [/gallery]
 
-### Araignée
+## Araignée
 Ces figurines ont été peinte pour le défi __Avril 2024 Oeuf(s) de [OMM](https://taverne.colorfulminis.com/t/defi-avril-2024-oeuf-s/5436)__.
 
 [gallery w=500 h=200]
@@ -75,7 +75,7 @@ pictures/dungeon-and-laser/encounters/sg/araignee/8.jpg
 pictures/dungeon-and-laser/encounters/sg/araignee/9.jpg
 [/gallery]
 
-### Beauté de la Nature
+## Beauté de la Nature
 Cette figurine a été peinte pour le défi __Mars 2024 - Réveil de la nature de Karv__. 
 Il s'agit de mon premier essai de tissus transparent.
 [gallery w=150 h=200]
@@ -83,7 +83,7 @@ pictures/dungeon-and-laser/encounters/sg/beaute-nature/1.jpg
 pictures/dungeon-and-laser/encounters/sg/beaute-nature/2.jpg
 [/gallery]
 
-### Big Foot ??
+## Big Foot ??
 
 Dans la notice il s'appelle _Fluffy Dummy_. 
 Cette figurine a été peinte pour le défi __Novembre 2024 - Movember__. 
@@ -104,7 +104,7 @@ Brossage	72036
 Brossage	72035
 [/paints]
 
-### Cerbère
+## Cerbère
 Cette figurine a été peinte pour le défi __Janvier 2024 - Mythologie de [OOM](https://onemoremini.fr/topic/601/d%C3%A9fi-janvier-2024-mythologie)__.
 [gallery h=200 w=300]
 pictures/dungeon-and-laser/encounters/sg/cerbere/1.jpg
@@ -112,14 +112,14 @@ pictures/dungeon-and-laser/encounters/sg/cerbere/2.jpg
 pictures/dungeon-and-laser/encounters/sg/cerbere/3.jpg
 [/gallery]
 
-### Crabes
+## Crabes
 Ces figurines ont été peintes pour le défi __Mai 2024 - Mermay de [CFM](https://taverne.colorfulminis.com/t/defi-mai-2024-mermay/5480)__.
 [gallery h=200 w=450]
 pictures/dungeon-and-laser/encounters/sg/crabes/1.jpg
 pictures/dungeon-and-laser/encounters/sg/crabes/2.jpg
 [/gallery]
 
-### Druide
+## Druide
 
 - Peinte en mars 2025
 - en 1h30.
@@ -130,13 +130,13 @@ pictures/dungeon-and-laser/encounters/sg/druid/2.jpg
 pictures/dungeon-and-laser/encounters/sg/druid/3.jpg
 [/gallery]
 
-### Dame à l'épée
+## Dame à l'épée
 Peinte pour le plaisir en 1h20. 
 [gallery h=300 w=150]
 pictures/dungeon-and-laser/encounters/sg/dame-a-l-epee.jpg
 [/gallery]
 
-### Dryade
+## Dryade
 Cette figurine a été peinte pour le défi __Fevrier 2024 - Fée de [CFM](https://taverne.colorfulminis.com/t/defi-fevrier-2024-fee/5340)__.
 [gallery w=200 h=300]
 pictures/dungeon-and-laser/encounters/sg/driade/1.jpg
@@ -144,7 +144,7 @@ pictures/dungeon-and-laser/encounters/sg/driade/2.jpg
 pictures/dungeon-and-laser/encounters/sg/driade/3.jpg
 [/gallery]
 
-### Fourmis
+## Fourmis
 
 - Peinte en mars 20205
 - 1 h de peinture
@@ -155,7 +155,7 @@ pictures/dungeon-and-laser/encounters/sg/fourmi/2.jpg
 [/gallery]
 
 
-### Grenouilles
+## Grenouilles
 Ces figurines ont été peintes pour le défi __Juin 2024 - Petit et/ou mignon [CFM](https://taverne.colorfulminis.com/t/defi-juin-2024-petit-et-ou-mignon/5535)__.
 [gallery h=200 w=250]
 pictures/dungeon-and-laser/encounters/sg/grenouilles/1.jpg
@@ -164,7 +164,7 @@ pictures/dungeon-and-laser/encounters/sg/grenouilles/3.jpg
 pictures/dungeon-and-laser/encounters/sg/grenouilles/4.jpg
 [/gallery]
 
-### Harpie
+## Harpie
 Ces figurines ont été peintes pour le défi __Septembre 2023 - Vole petit oiseau de [OOM](https://onemoremini.fr/topic/563/d%C3%A9fi-septembre-2023-vole-petit-oiseau)__.
 J'ai essayé de faire 3 ombrages de couleur différente sur la peau, jade / turquoise / violet.
 [gallery h=200 w=300]
@@ -173,7 +173,7 @@ pictures/dungeon-and-laser/encounters/sg/harpies/2.jpg
 pictures/dungeon-and-laser/encounters/sg/harpies/3.jpg
 [/gallery]
 
-### Serpents
+## Serpents
 
 - Peinte en mars 2025
 - 20 mminutes pour les petits serpents
@@ -185,7 +185,7 @@ pictures/dungeon-and-laser/encounters/sg/serpents/2.jpg
 pictures/dungeon-and-laser/encounters/sg/serpents/3.jpg
 [/gallery]
 
-### Sirènes
+## Sirènes
 
 Ces figurines ont été peinte pour le défi __Avril 2025 - Poisson d'avril de [OMM](https://onemoremini.fr/topic/673/d%C3%A9fi-avril-2025-poisson-d-avril)__.
 
@@ -197,7 +197,7 @@ pictures/dungeon-and-laser/encounters/sg/sirenes/1.jpg
 pictures/dungeon-and-laser/encounters/sg/sirenes/2.jpg
 [/gallery]
 
-### Soren le Troll
+## Soren le Troll
 Cette figurine a été peinte pour le défi __Janvier 2024 - Retour des fêtes de Karv__. 
 J'ai beaucoup travaillé les couleurs de la peau en m'inspirant de la vidéo d'Angel Giraldez.
 [gallery h=300 w=250]
@@ -217,7 +217,7 @@ Glacis Ombre	72415
 [/paints]
 
 
-### Wendigo
+## Wendigo
 
 - Peinte en mars 20205
 - 1 h de peinture
@@ -227,7 +227,7 @@ pictures/dungeon-and-laser/encounters/sg/wendigo/1.jpg
 pictures/dungeon-and-laser/encounters/sg/wendigo/2.jpg
 [/gallery]
 
-### Décorts
+## Décorts
 [gallery h=250 w=250]
 pictures/dungeon-and-laser/encounters/sg/barque.jpg
 pictures/dungeon-and-laser/encounters/sg/champignon.jpg
@@ -242,8 +242,8 @@ pictures/dungeon-and-laser/encounters/sg/tante.jpg
 pictures/dungeon-and-laser/encounters/sg/vautour.jpg
 [/gallery]
 
-## Super Strech Goal
-### Arbre Enchanté
+# Super Strech Goal
+## Arbre Enchanté
 Cette figurine a été peinte pour le défi __Janvier 2024 - Plante vs Monde de [CFM](https://taverne.colorfulminis.com/t/defi-janvier-2024-plantes-vs-le-monde/5284)__.
 
 [gallery h=300 w=250]
@@ -258,17 +258,17 @@ Sol	72418
 Feuille	72416
 [/paints]
 
-### Arbre aux esprits
+## Arbre aux esprits
 [gallery h=300 w=300]
 pictures/dungeon-and-laser/encounters/ssg/arbre.jpg
 [/gallery]
 
-### Cage
+## Cage
 [gallery h=300 w=200]
 pictures/dungeon-and-laser/encounters/ssg/cage.jpg
 [/gallery]
 
-### Caleche
+## Caleche
 Cette figurine a été peinte pour le défi __Novembre 2024 - Mad Drivers de [OOM](https://onemoremini.fr/topic/645/d%C3%A9fi-novembre-2024-mad-drivers)__.
 
 [gallery w=250 h=200]
@@ -291,7 +291,7 @@ Base	72048
 Éclaircissement	72001
 [/paints]
 
-### Entrée de la Mine Naine
+## Entrée de la Mine Naine
 Cette figurine a été peinte pour le défi __Mars 2024 - Routine de construction 7 2 1 lancée  de [OOM](https://onemoremini.fr/topic/618/d%C3%A9fi-mars-2024-routine-de-construction-7-2-1-lanc%C3%A9e)__.
 
 [gallery w=250 h=250]
@@ -299,12 +299,12 @@ pictures/dungeon-and-laser/encounters/ssg/entree-mine-naine/1.jpg
 pictures/dungeon-and-laser/encounters/ssg/entree-mine-naine/2.jpg
 [/gallery]
 
-### Hute
+## Hute
 [gallery h=200 w=350]
 pictures/dungeon-and-laser/encounters/ssg/hute.jpg
 [/gallery]
 
-### Hute champignon
+## Hute champignon
 
 - Peinte en mars 2025
 - 4h30 de peinture
@@ -315,7 +315,7 @@ pictures/dungeon-and-laser/encounters/ssg/hute-champignon/2.jpg
 pictures/dungeon-and-laser/encounters/ssg/hute-champignon/3.jpg
 [/gallery]
 
-### Hute des marais
+## Hute des marais
 
 - Peinte en mars 2025
 - 1 h de peinture
@@ -324,7 +324,7 @@ pictures/dungeon-and-laser/encounters/ssg/hute-champignon/3.jpg
 pictures/dungeon-and-laser/encounters/ssg/hute-marais.jpg
 [/gallery]
 
-### Tarrasque
+## Tarrasque
 40cm de plaisir. Cette figurine a été peinte pour le défi __Octobre 2023 - Monster Inc de [OOM](https://onemoremini.fr/topic/572/d%C3%A9fi-octobre-2023-monster-inc)__.
 
 Je déteste peindre des grosses figurines, avoir un défi m'encourageant à le peindre a été le déclencheur sinon je ne l'aurais probablement jamais peint.
@@ -335,7 +335,7 @@ pictures/dungeon-and-laser/encounters/ssg/tarrasque/2.jpg
 pictures/dungeon-and-laser/encounters/ssg/tarrasque/3.jpg
 [/gallery]
 
-### Thos le jeune Dragon 
+## Thos le jeune Dragon 
 
 Cette figurine à été peinte pour mon défis discord de Fevrier 2025 **mort / purification / richesse**. Peinte en environ 7h.
 
@@ -346,7 +346,7 @@ pictures/dungeon-and-laser/encounters/ssg/thos/03.jpg
 pictures/dungeon-and-laser/encounters/ssg/thos/04.jpg
 [/gallery]
 
-### Tour de Guêt
+## Tour de Guêt
 Cette figurine a été peinte pour le défi __Mars 2024 - Routine de construction 7 2 1 lancée  de [OOM](https://onemoremini.fr/topic/618/d%C3%A9fi-mars-2024-routine-de-construction-7-2-1-lanc%C3%A9e)__.
 
 [gallery w=200 h=300]
@@ -354,7 +354,7 @@ pictures/dungeon-and-laser/encounters/ssg/tour-guet/1.jpg
 pictures/dungeon-and-laser/encounters/ssg/tour-guet/2.jpg
 [/gallery]
 
-### Ygrid la géante
+## Ygrid la géante
 
 Cette figurine a été peinte pour le défi __Octobre 2024 - Pink Lady de [CFM](https://taverne.colorfulminis.com/t/defi-octobre-2024-pink-lady/5690)__.
 
@@ -366,11 +366,11 @@ pictures/dungeon-and-laser/encounters/ssg/ygrid/04.jpg
 pictures/dungeon-and-laser/encounters/ssg/ygrid/05.jpg
 [/gallery]
 
-## Preview Deuslair
+# Preview Deuslair
 Ces figurines sont d'une qualité encore supérieur à celle présente dans ce KS. 
 Ce qui m'as conforté dans ma décision de prendre le suivant.
 
-### Dragsa: Tu'ur
+## Dragsa: Tu'ur
 Cette figurine a été peinte pour le défi __Mars 2024 - En mars et ca repart de [CFM](https://taverne.colorfulminis.com/t/defi-en-mars-et-ca-repart/5379)__.
 
 [gallery w=250 h=300]
@@ -380,7 +380,7 @@ pictures/dungeon-and-laser/encounters/dragsa/tu-ur/3.jpg
 pictures/dungeon-and-laser/encounters/dragsa/tu-ur/4.jpg
 [/gallery]
 
-### Redoe: Rashers Golem
+## Redoe: Rashers Golem
 Cette figurine a été peinte pour le défi __Décembre 2023 - Chants de Noël et d'hiver de [OOM](https://onemoremini.fr/topic/596/d%C3%A9fi-d%C3%A9cembre-2023-chants-de-no%C3%ABl-et-d-hiver)__.
 
 J'ai beaucoup travaillé le bois, mais j'y ai été totalement à l'impro et je ne me souviens pas du tous de la recette. 

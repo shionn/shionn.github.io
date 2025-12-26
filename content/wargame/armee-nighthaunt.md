@@ -3,8 +3,8 @@ Peindre une armée Nighthaunt, c'est bizarre.
 Les premières figurines sont sympa, et on tourne vite en rond.
 J'ai essayé de la jouer, le gameplay ne me correspond pas.
 
-## Chef de Guerre
-### Lady Olynder
+# Chef de Guerre
+## Lady Olynder
 J'ai abusé de l'aerographe sur cette figurine. 
 Je l'ai peinte en une seule pièce, on a l'impression de peindre une figurine sur ressort.
 [gallery h=300 w=250]
@@ -14,7 +14,7 @@ pictures/aos/nighthaunt/lady-olynder/3.jpg
 pictures/aos/nighthaunt/lady-olynder/4.jpg
 [/gallery]
 
-### Kurdoss Valentian, The Craven King
+## Kurdoss Valentian, The Craven King
 J'ai utilisé cette figurine comme entraînement à l'aero dans l'optique de peindre la lady.
 [gallery h=300 w=250]
 pictures/aos/nighthaunt/kurdoss/1.jpg
@@ -25,8 +25,8 @@ pictures/aos/nighthaunt/kurdoss/5.jpg
 pictures/aos/nighthaunt/kurdoss/6.jpg
 [/gallery]
 
-## Hero Nommé
-### Crawlocke the Jailor
+# Hero Nommé
+## Crawlocke the Jailor
 La figurine a casser lors de la peinture, j'ai du la réparer à sa base en la renforçant avec une tige en métal.
 [gallery h=300 w=250]
 pictures/aos/nighthaunt/crawlocke/1.jpg
@@ -34,7 +34,7 @@ pictures/aos/nighthaunt/crawlocke/2.jpg
 pictures/aos/nighthaunt/crawlocke/3.jpg
 [/gallery]
 
-### Liekoron the Executioner
+## Liekoron the Executioner
 Cette figurine m'as servi de test pour le blanc dans l'optique de peindre la lady.
 [gallery h=300 w=250]
 pictures/aos/nighthaunt/liekoron/1.jpg
@@ -44,7 +44,7 @@ pictures/aos/nighthaunt/liekoron/4.jpg
 pictures/aos/nighthaunt/liekoron/5.jpg
 [/gallery]
 
-### Reikenor the Grimhailer
+## Reikenor the Grimhailer
 Sans plus, je n'aime pas la cavalerie, même avec des ailes.
 [gallery h=300 w=250]
 pictures/aos/nighthaunt/reikenor/1.jpg
@@ -54,15 +54,15 @@ pictures/aos/nighthaunt/reikenor/4.jpg
 pictures/aos/nighthaunt/reikenor/5.jpg
 [/gallery]
 
-## Héros non nommé
-### Cairn Wraith
+# Héros non nommé
+## Cairn Wraith
 [gallery h=300 w=250]
 pictures/aos/nighthaunt/cairn-wraith/1.jpg
 pictures/aos/nighthaunt/cairn-wraith/2.jpg
 pictures/aos/nighthaunt/cairn-wraith/3.jpg
 [/gallery]
 
-### Chevaliers des Suaires
+## Chevaliers des Suaires
 Cette figurine m'as servie d'entraînement sur la rouille.
 [gallery h=300 w=250]
 pictures/aos/nighthaunt/chevalier-suaire/1.jpg
@@ -72,7 +72,7 @@ pictures/aos/nighthaunt/chevalier-suaire/4.jpg
 pictures/aos/nighthaunt/chevalier-suaire/5.jpg
 [/gallery]
 
-### Chevalier des Suaires sur Coursier Éthéré
+## Chevalier des Suaires sur Coursier Éthéré
 Je n'aime pas la cavalerie, mais il est cool à jouer.
 [gallery h=250 w=350]
 pictures/aos/nighthaunt/cavalier-suaire/1.jpg
@@ -81,21 +81,21 @@ pictures/aos/nighthaunt/cavalier-suaire/3.jpg
 pictures/aos/nighthaunt/cavalier-suaire/4.jpg
 [/gallery]
 
-### Dreadblade Harrows
+## Dreadblade Harrows
 Je n'aime pas la cavalerie, y a que le socle de bien ici. 
 Je ne comprend pas ce kit, pourquoi mettre ce héros en double ?
 [gallery h=250 w=350]
 pictures/aos/nighthaunt/dreadblade-harrows/1.jpg
 [/gallery]
 
-### Esprit Tourmenteur
+## Esprit Tourmenteur
 [gallery h=300 w=250]
 pictures/aos/nighthaunt/esprit-tourmenteur/1.jpg
 pictures/aos/nighthaunt/esprit-tourmenteur/2.jpg
 pictures/aos/nighthaunt/esprit-tourmenteur/3.jpg
 [/gallery]
 
-### Gardien des Âmes
+## Gardien des Âmes
 J'ai bien aimer peindre cette figurine.
 [gallery h=300 w=250]
 pictures/aos/nighthaunt/gardien-des-ames/1.jpg
@@ -106,11 +106,11 @@ pictures/aos/nighthaunt/gardien-des-ames/4.jpg
 
 
 
-### Scriptor Mortis
+## Scriptor Mortis
 Seule figurine Nighthaunt que j'ai acheté en dehors de l'abonnement.
 Je ne l'ai pas encore peinte.
 
-### Tomb Banshee
+## Tomb Banshee
 Cette une veille figurine de Battle, et honnêtement elle mérite un meilleurs traitement c'est une jolie figurine.
 [gallery h=300 w=250]
 pictures/aos/nighthaunt/tomb-banshee/1.jpg
@@ -118,14 +118,14 @@ pictures/aos/nighthaunt/tomb-banshee/2.jpg
 pictures/aos/nighthaunt/tomb-banshee/3.jpg
 [/gallery]
 
-## Troupe
-### Bladegheist Revenants
+# Troupe
+## Bladegheist Revenants
 Ces figurine sont relativement chiante à assembler et mal ajusté.
 [gallery h=250 w=400]
 pictures/aos/nighthaunt/bladegheist-revenants/1.jpg
 [/gallery]
 
-### Chainrasp
+## Chainrasp
 Normalement dans l'abonnement il n'y en as que 20. J'ai doublé les numéros en contenant affin d'en avoir 40.
 J'ai changé de style pour le cuir entre le premier lot et les autres. Dommage :[.
 [gallery h=250 w=350]
@@ -136,7 +136,7 @@ pictures/aos/nighthaunt/chainrasp/4.jpg
 pictures/aos/nighthaunt/chainrasp/5.jpg
 [/gallery]
 
-### Dreadscythe Harridans
+## Dreadscythe Harridans
 J'étais très enthousiaste à l'idée de jouer ces figurines. 
 Et je les ai trouvées relativement nases.
 [gallery h=250 w=400]
@@ -144,7 +144,7 @@ pictures/aos/nighthaunt/dreadscythe-harridans/1.jpg
 pictures/aos/nighthaunt/dreadscythe-harridans/2.jpg
 [/gallery]
 
-### Glaivewraith Stalkers
+## Glaivewraith Stalkers
 Dans l'abonnement il n'y en as que 9 en deux numéro. 
 Dommage car elle ce joue par 10 je crois.
 [gallery h=250 w=350]
@@ -153,24 +153,24 @@ pictures/aos/nighthaunt/glaivewraith-stalkers/2.jpg
 pictures/aos/nighthaunt/glaivewraith-stalkers/3.jpg
 [/gallery]
 
-### Grimghast Reapers
+## Grimghast Reapers
 [gallery h=250 w=400]
 pictures/aos/nighthaunt/grimghast-reapers/1.jpg
 [/gallery]
 
-### Myrmourn Banshees
+## Myrmourn Banshees
 J'ai bien aimer peindre ces figurines.
 [gallery h=250 w=400]
 pictures/aos/nighthaunt/myrmourn-banshees/1.jpg
 [/gallery]
 
-### Spirit Hosts
+## Spirit Hosts
 Si j'ai bien compris, ces figurine servent de garde du corps à lady Olynder, j'ai voulu changer de schémas pour ces figurines.
 [gallery h=250 w=400]
 pictures/aos/nighthaunt/spirit-hosts/1.jpg
 [/gallery]
 
-## Peinture utilisé. 
+# Peinture utilisé. 
 
 [paints title="Fantomatique"]
 Aplat	72023

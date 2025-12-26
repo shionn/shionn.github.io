@@ -2,7 +2,7 @@
 J'ai acheté ce jeu pratiquement à sa sortie en octobre 2021. Je l'ai peints dans la foulée de Novembre à Janvier.
 J'ai fais environ une 10 aine de partie avec ma femme mais on n'as pas fini la partie.
 
-## Hero
+# Hero
 
 Clairement ma préférée est la naine. 
 
@@ -27,9 +27,9 @@ pictures/jeux/descent/act1/41.jpg
 pictures/jeux/descent/act1/42.jpg
 [/gallery]
 
-## Monstres
+# Monstres
 
-### Boss
+## Boss
 
 [gallery w=180 h=200]
 pictures/jeux/descent/act1/21.jpg
@@ -38,7 +38,7 @@ pictures/jeux/descent/act1/23.jpg
 pictures/jeux/descent/act1/24.jpg
 [/gallery]
 
-### Monstre
+## Monstre
 
 [gallery w=300 h=200]
 pictures/jeux/descent/act1/01.jpg

@@ -4,7 +4,7 @@ Il m'a suffit de doubler quelques numéros stratégique pour compléter l'armée
 
 Je vous présente aujourd'hui les petits héros gobelin.
 
-## Loofboss
+# Loofboss
 
 * Peinte en Aout 2025
 * En environ 4h heures
@@ -18,11 +18,11 @@ pictures/aos/gloomspite/loufboss/04.jpg
 pictures/aos/gloomspite/loufboss/05.jpg
 [/gallery]
 
-## Chamane Fongoide 
+# Chamane Fongoide 
 
 TODO
 
-## Skragrott
+# Skragrott
 
 TODO
 

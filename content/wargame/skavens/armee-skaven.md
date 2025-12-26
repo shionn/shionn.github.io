@@ -3,8 +3,8 @@ A la sortie d'AOS, j'ai acheté la boite **Île de Sang**, plus pour l'avoir en 
 Et en 2022, j'ai eu une bonne affaire pour mettre la main sur la partie Skavens de la boîte **Échos de la Ruine**, acheter à deux avec un certain *Karv*.
 Et arriver à ce moment-là je me suis dis que cela faisait une belle base et c'est devenu mon nouveau projet d'armée.
 
-## Maître clan
-### Prophète gris
+# Maître clan
+## Prophète gris
 Cette figurine provient de ma boite **Vanguard**.
 * Peinte en février 2023
 * ~ 9h30 de peinture
@@ -22,7 +22,7 @@ Ombrage	72048
 Rehaut	72001
 [/paints]
 
-### Prophète gris sur cloche hurlante
+## Prophète gris sur cloche hurlante
 Cette figurine provient de ma boite **Échos de la ruine**.
 * Peinte en avril 2023
 * ~ 14 heures de peinture
@@ -40,7 +40,7 @@ Rehaut	72013
 [/paints]
 
 [after date="2024/11/24"]
-### Thanquol and Boneripper à l'ancienne
+## Thanquol and Boneripper à l'ancienne
 Cela fait un moment que je voulais ma propre version de Thanquol and Boneripper. 
 Mais pas la version moderne, je voulais la veille version. C'est à dire celle la : 
 [gallery w=400 h=300]
@@ -91,7 +91,7 @@ pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/13.jpg
 
 [/after]
 
-### Verminarque Maleprophete
+## Verminarque Maleprophete
 J'ai détesté peindre cette figurine. Je ne voulais pas avoir de Verminarque. 
 Mais, en lisant les règles de la cloche, je me suis senti obligé d'en avoir un. 
 Son bras droit est magnétisé pour le changer et en faire un Belliciste.
@@ -117,8 +117,8 @@ Rehaut	72003
 Glacis détail	72112
 [/paints]
 
-## Clans Verminus
-### Griffarque
+# Clans Verminus
+## Griffarque
 Cette figurine proviens de ma boite **Île de Sang**.
 * Peinte en janvier 2023
 * ~ 6h30 de peinture
@@ -138,7 +138,7 @@ Ombrage 2	72051
 Rehaut	72052
 [/paints]
 
-### Vermines de Choc
+## Vermines de Choc
 Ces figurines proviennent de ma boite **Échos de la ruine**. Il n'y en as que 10 dans cette boite,
 ce qui est surprenant car ces figurines sont vendu par 20, mais se joue bien par 10.
 * Peinte en avril 2023
@@ -148,7 +148,7 @@ pictures/aos/skaven/vermines-de-choc/1.jpg
 pictures/aos/skaven/vermines-de-choc/2.jpg
 [/gallery]
 
-### Rats des Clans
+## Rats des Clans
 Ces figurines proviennent de diverse boites.
 40 de **Île de Sang**, 20 de **Échos de la ruine** et 20 de la **Vanguard**.
 40 sont montés avec des armes de corps à corps et 40 avec des lances.
@@ -175,8 +175,8 @@ Rehaut	72010
 Rehaut 2	72106
 [/paints]
 
-## Clans Skryre
-### Ingénieur Technomage
+# Clans Skryre
+## Ingénieur Technomage
 Cette figurine proviens de ma boite **Île de Sang**.
 * Peinte en mars 2023
 * ~ 6h30 de peinture
@@ -186,7 +186,7 @@ pictures/aos/skaven/ingenieur/2.jpg
 pictures/aos/skaven/ingenieur/3.jpg
 [/gallery]
 
-### Ingénieur Technomage (Game Day)
+## Ingénieur Technomage (Game Day)
 C'est une figurine en métal que j'ai acheté encore sous blister à un certain _Karv_ (merci).
 C'est très plaisant de peindre ces figurines.
 * Peinte en août 2023
@@ -198,7 +198,7 @@ pictures/aos/skaven/ingenieur-2/3.jpg
 pictures/aos/skaven/ingenieur-2/4.jpg
 [/gallery]
 
-### Saboteur Techomage
+## Saboteur Techomage
 J'ai acheté cette figurine avant la précédente, si j'avais su je pense que je ne l'aurai pas prise, bien que la figurine fus agréable à peindre.
 * Peinte en août 2023
 * ~ 4h30 de peinture
@@ -208,7 +208,7 @@ pictures/aos/skaven/saboteur/2.jpg
 pictures/aos/skaven/saboteur/3.jpg
 [/gallery]
 
-### Canon à malefoudre
+## Canon à malefoudre
 Cette figurine proviens de ma boite **Vanguard**.
 * Peinte en avril 2023
 * ~ 9 heures de peinture
@@ -226,7 +226,7 @@ Aplat	72045
 Rehaut	72042
 [/paints]
 
-### Roue infernale
+## Roue infernale
 Je ne comptais pas avoir de roue infernale, et puis il faut reconnaître que c'est une figurine iconique, je ne pouvais pas passer à coter.
 * Peinte en août 2023
 * ~ 10 heures de peinture
@@ -238,7 +238,7 @@ pictures/aos/skaven/roue-infernale/4.jpg
 pictures/aos/skaven/roue-infernale/5.jpg
 [/gallery]
 
-### Lance-feu
+## Lance-feu
 Cette figurine proviens de ma boite **Îlede Sang**.
 * Peinte en avril 2023
 * ~ 4 heures de peinture
@@ -247,7 +247,7 @@ pictures/aos/skaven/lance-feu/1.jpg
 pictures/aos/skaven/lance-feu/2.jpg
 [/gallery]
 
-### Mortier à Globe toxique
+## Mortier à Globe toxique
 Cette figurine proviens de ma boite **Îlede Sang**. Normalement les 2 Skavens sont l'un derrière l'autre.
 Malheureusement cette figurine n'est pas jouable à AoS :[
 * Peinte en avril 2023
@@ -263,8 +263,8 @@ Ombrage	72071
 Éclaircissement	72101
 [/paints]
 
-## Clans Skryre & Moulder
-### Colosses de choc
+# Clans Skryre & Moulder
+## Colosses de choc
 Ces figurine provienne de ma boite **Vanguard**. J'ai déteste peindre ces figurines.
 * Peinte en mars 2023
 * ~ 24 heures de peinture
@@ -282,8 +282,8 @@ Rehaut	72117
 Rehaut	72095
 [/paints]
 
-## Clans Moulder
-### Maître Moulder
+# Clans Moulder
+## Maître Moulder
 Cette figurine proviens de ma boite **Île de Sang**.
 * Peinte en mai 2023
 * ~ 2h30 de peinture
@@ -299,7 +299,7 @@ Brossage 2	72032
 Rehaut	72122
 [/paints]
 
-### Rats ogre
+## Rats ogre
 Ces figurines proviennent de ma boite **Île de Sang**. 
 Au début je ne pensais pas les joué, et finalement c'est une de mes unités préférées.
 * Peinte en mai 2023
@@ -316,7 +316,7 @@ Aplat	72045
 Rehaut	72039
 [/paints]
 
-### Abomination de Malefausse : Monica
+## Abomination de Malefausse : Monica
 Je voulais pas spécialement avoir une abomination de malefausse, mais en jouant mes rats-ogre j'ai voulu avoir plus de figurine de ce clans.
 Et comme j'ai très peu de monstre dans mes armées, avoir un petit monstre à jouer c'est pas si pire. 
 Donc je suis passé outre la peinture de GW et je l'ai achetée.
@@ -345,10 +345,10 @@ Glacis	72409
 Éclaircissement	72107
 Rehaut	72100
 [/paints]
-## Clans Pestilens
+# Clans Pestilens
 Originellement je ne prévoyais pas d'avoir de clan Pestilens. Et puis un certain *GuillaumeAlendil* m'as fait une proposition que je n'ai pas pu refuser.
 
-### Prêtre de la peste
+## Prêtre de la peste
 Cette figurine proviens de ma boite **Start Collecting**. 
 Normalement il se monte sur un creuset, mais je l'ai aimanté pour le mettre directement sur un socle ou sur un creuset aux choix.
 * Peinte en Juin 2023
@@ -365,7 +365,7 @@ Ombrage 2	72067
 Éclaircissement	72035
 [/paints]
 
-### Prêtre de la peste sur creuset de la peste
+## Prêtre de la peste sur creuset de la peste
 Cette figurine proviens d'un vieux **Start Collecting**. Je profite que le prêtre de la peste soit aimanté pour ne pas avoir à le repeindre.
 * Peinte en Juillet 2023
 * ~ 10 heures de peinture
@@ -375,7 +375,7 @@ pictures/aos/skaven/creuset/2.jpg
 pictures/aos/skaven/creuset/3.jpg
 [/gallery]
 
-### Catapulte de la peste
+## Catapulte de la peste
 Cette figurine proviens d'un vieux **Start Collecting**.
 * Peinte en Juillet 2023
 * ~ 7h30 de peinture
@@ -392,7 +392,7 @@ Aplat	72028
 Rehaut	72035
 [/paints]
 
-### Moine de la peste
+## Moine de la peste
 Ces figurines proviennent d'un **Start Collecting**.
 * Peinte en Juin 2023
 * ~ 20 heures de peinture
@@ -404,8 +404,8 @@ pictures/aos/skaven/moine/4.jpg
 pictures/aos/skaven/moine/5.jpg
 [/gallery]
 
-## Clans Eshin
-### Maîtremort
+# Clans Eshin
+## Maîtremort
 Cette figurine proviens de la boite **Échos de la ruine**.
 * Peinte en juillet 2023
 * ~ 5 heures de peinture
@@ -416,8 +416,8 @@ pictures/aos/skaven/maitre-mort/3.jpg
 pictures/aos/skaven/maitre-mort/4.jpg
 [/gallery]
 
-## Divers
-### Trou de Vermines
+# Divers
+## Trou de Vermines
 J'ai choisi de ne pas assembler les poutres de bois et de corde au dessus des trou de vermines, ceci à fin de gagner de la place pour le transport.
 * Peinte en mars 2023
 * ~ 1h30 de peinture
@@ -431,7 +431,7 @@ Brossage	72050
 Brossage	72047
 [/paints]
 
-### Sort Persistant
+## Sort Persistant
 * Peinte en juillet 2023
 * ~ 5 heures de peinture
 [gallery h=300 w=500]

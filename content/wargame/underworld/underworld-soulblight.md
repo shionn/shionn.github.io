@@ -2,7 +2,7 @@
 Voici mes bandes Underworld affiliées aux Seigneurs Ruinemânes. 
 J'ai des bandes mais je n'y joue pas.
 
-## La Cour Écarlate
+# La Cour Écarlate
 
 Ces figurines proviennent d'une boite de démarrage Warcry. J'ai absolument détesté les peindre.
 Ces figurines me semble être à mi chemin entre un héros et une troupe, donc je n'ai eu ni le plaisir de peindre une troupe ni celui de peindre un héros.
@@ -16,7 +16,7 @@ pictures/underworld/death/cours-ecrlate/1.jpg
 pictures/underworld/death/cours-ecrlate/2.jpg
 [/gallery]
 
-## Les Morts en Exil
+# Les Morts en Exil
 
 Très plaisante à peindre et simple. 
 On vois bien le héros qui se détache de sa petite bande. 

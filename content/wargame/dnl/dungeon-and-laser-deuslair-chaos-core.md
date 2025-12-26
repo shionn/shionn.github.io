@@ -3,13 +3,13 @@ Voici la troisieme partie des figurines provenant du pledge
 [World of Deuslair](https://gamefound.com/projects/archon-studio/deuslair) de [Archon studio](https://archon-studio.com/). 
 Ici je vous proposent les figurines du core set de la faction **Disciple du Chaos**.
 
-## Disciple du Chaos
+# Disciple du Chaos
 
-### Pandemonium
+## Pandemonium
 
 TODO
 
-### The Betrayers
+## The Betrayers
 
 - Peinte en Novembre 2025
 - En 4 heures environ pour les troupes
@@ -28,11 +28,11 @@ pictures/dungeon-and-laser/deuslair/core/chaos/betrayers/05.jpg
 pictures/dungeon-and-laser/deuslair/core/chaos/betrayers/06.jpg
 [/gallery]
 
-### The Tainted
+## The Tainted
 
 TODO
 
-### Heralds of Hunger
+## Heralds of Hunger
 
 - Peinte en Septembre 2025
 - En 3 heures environ
@@ -52,7 +52,7 @@ pictures/dungeon-and-laser/deuslair/core/chaos/heralds-hunger/07.jpg
 pictures/dungeon-and-laser/deuslair/core/chaos/heralds-hunger/08.jpg
 [/gallery]
 
-### Heralds of Night
+## Heralds of Night
 
 - Peinte en Novembre 2025
 - En 3 heures environ pour les troupes
@@ -72,7 +72,7 @@ pictures/dungeon-and-laser/deuslair/core/chaos/heralds-night/06.jpg
 [/gallery]
 
 
-### Heralds of Frost
+## Heralds of Frost
 
 - Peinte en Septembre 2025
 - En 3h30 environ
@@ -90,7 +90,7 @@ pictures/dungeon-and-laser/deuslair/core/chaos/heralds-frost/05.jpg
 pictures/dungeon-and-laser/deuslair/core/chaos/heralds-frost/06.jpg
 [/gallery]
 
-### Heralds of Plague
+## Heralds of Plague
 
 - Peinte en Septembre 2025
 - En 2 heures environ

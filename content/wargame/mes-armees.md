@@ -1,7 +1,7 @@
 
-Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes photos de mes armée sur instagram, j'ai décidé de ne pas l'écouter et de le faire ici.
+Un mec me cassant les c###s régulièrement sur twitch pour que je mette mes photos de mes armée sur instagram, j'ai décidé de ne pas l'écouter et de le faire ici.
 
-## Age of Sigmar
+# Age of Sigmar
 
 - _à venir Fille de Khaine_
 - [Kruelboys](2024/kruelboyz-dominion.html)
@@ -11,12 +11,12 @@ Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes 
 - [Skaven](2023/armee-skaven.html)
 - [Gloomspite Gitz](2025/armee-gloomspite-gitz.html)
 
-## Warhammer Battle
+# Warhammer Battle
 
 - [Elfes Noirs](2024/armee-elfes-noirs.html)
 - [Gobelin de la Nuit](2025/armee-gobs.html)
 
-## Underworld
+# Underworld
 
 - [Filles de Khaine](2024/underworld-dok.html) _3 bandes_
 - [Seigneurs Ruinemânes](2024/underworld-soulblight.html) _2 bandes_
@@ -24,7 +24,7 @@ Un mec me cassant les c######s régulièrement sur twitch pour que je mette mes 
 
 
 [after date="2025/10/01"]
-## Warcry
+# Warcry
 
 - [Filles de Khaine](2025/warcry-dok.html) _Rodeur de l'ombre Khainites_
 [/after]

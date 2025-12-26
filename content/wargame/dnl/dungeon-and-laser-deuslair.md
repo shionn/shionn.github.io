@@ -1,9 +1,9 @@
 
 Voici Toutes les figurines provenant du pledge [World of Deuslair](https://gamefound.com/projects/archon-studio/deuslair) de [Archon studio](https://archon-studio.com/). 
 
-## Forteresse de Dragsta
+# Forteresse de Dragsta
 
-### Dragsa Guards
+## Dragsa Guards
 
 - Peinte en Mars 2025
 - En 7 heures pour les 7
@@ -18,7 +18,7 @@ pictures/dungeon-and-laser/deuslair/core/dragsta/guards/3.jpg
 pictures/dungeon-and-laser/deuslair/core/dragsta/guards/4.jpg
 [/gallery]
 
-### Undying Queendom
+## Undying Queendom
 
 - Peinte en Mai 2025
 - En 3 heure en meme temlps qu'une partie de JDR.
@@ -38,7 +38,7 @@ pictures/dungeon-and-laser/deuslair/core/dragsta/princess-kerubo/1.jpg
 pictures/dungeon-and-laser/deuslair/core/dragsta/princess-kerubo/2.jpg
 [/gallery]
 
-### Church of Order
+## Church of Order
 
 - Peinte en Avril 2025
 - En 7 heures pour les 5
@@ -52,7 +52,7 @@ pictures/dungeon-and-laser/deuslair/core/dragsta/church-of-order/3.jpg
 pictures/dungeon-and-laser/deuslair/core/dragsta/church-of-order/4.jpg
 [/gallery]
 
-### Ironsmith Laboratory
+## Ironsmith Laboratory
 
 - Peinte en Avril 2025
 - En 3 heures pour les 5
@@ -61,7 +61,7 @@ pictures/dungeon-and-laser/deuslair/core/dragsta/ironsmith-laboratory/1.jpg
 pictures/dungeon-and-laser/deuslair/core/dragsta/ironsmith-laboratory/2.jpg
 [/gallery]
 
-### The Irregulars
+## The Irregulars
 
 - En mai 2025 en 2h30 pour Morgu
 - En mai 2025 en 2h pour Ca'Arak
@@ -86,9 +86,9 @@ pictures/dungeon-and-laser/encounters/dragsa/tu-ur/4.jpg
 
 [after date="2026/01/05"]
 
-## Alliance de Redoe
+# Alliance de Redoe
 
-### Harrat Wing
+## Harrat Wing
 
 - Peinte en Aout 2025
 - En 8 heures environ.
@@ -107,7 +107,7 @@ pictures/dungeon-and-laser/deuslair/core/redoe/harrat-wing/06.jpg
 pictures/dungeon-and-laser/deuslair/core/redoe/harrat-wing/07.jpg
 [/gallery]
 
-### Jannah
+## Jannah
 
 - Peinte en Juillet 2025
 - En 5 heure environ.
@@ -117,7 +117,7 @@ pictures/dungeon-and-laser/deuslair/core/redoe/jannah/1.jpg
 pictures/dungeon-and-laser/deuslair/core/redoe/jannah/2.jpg
 [/gallery]
 
-### Yv'anda - Dryad Observers
+## Yv'anda - Dryad Observers
 
 - Peinte en Juillet 2025
 - En 12 heures environ.
@@ -137,7 +137,7 @@ pictures/dungeon-and-laser/deuslair/core/redoe/yvanda/7.jpg
 pictures/dungeon-and-laser/deuslair/core/redoe/yvanda/8.jpg
 [/gallery]
 
-### Knights of Tidor
+## Knights of Tidor
 
 - Peinte en Aout 2025
 - En 5 heures environ.
@@ -158,7 +158,7 @@ pictures/dungeon-and-laser/deuslair/core/redoe/knights-tidor/08.jpg
 pictures/dungeon-and-laser/deuslair/core/redoe/knights-tidor/09.jpg
 [/gallery]
 
-### Ancient Protectors
+## Ancient Protectors
 
 - Peinte en Aout 2025
 - En 10 heures environ.
@@ -174,7 +174,7 @@ pictures/dungeon-and-laser/deuslair/core/redoe/ancient-protectors/05.jpg
 [/gallery]
 
 
-### Rookery of Kril
+## Rookery of Kril
 
 - Peinte en Aout 2025
 - En 6h30 environ.
@@ -191,7 +191,7 @@ pictures/dungeon-and-laser/deuslair/core/redoe/rookery-of-kril/06.jpg
 pictures/dungeon-and-laser/deuslair/core/redoe/rookery-of-kril/07.jpg
 [/gallery]
 
-### Rashers from the Scareguards
+## Rashers from the Scareguards
 
 Cette figurine a été peinte pour le défi __Décembre 2023 - Chants de Noël et d'hiver de [OOM](https://onemoremini.fr/topic/596/d%C3%A9fi-d%C3%A9cembre-2023-chants-de-no%C3%ABl-et-d-hiver)__.
 
@@ -206,11 +206,11 @@ pictures/dungeon-and-laser/encounters/redoe/rashers-golem/3.jpg
 
 [/after]
 
-## Disciples of Chaos
+# Disciples of Chaos
 
 TODO
 
-## Strech Goal
+# Strech Goal
 
 TODO
 

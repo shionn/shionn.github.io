@@ -24,12 +24,12 @@ Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch
 >- taper sur tous ce qui passe, pour se marrer et nourrir les champignons, toujours en étant shouté au champignons.
 >- se taper dessus pour se marrer, mais en étant shouté au champignons.
 
-## Troggoths
+# Troggoths
 
 J'ai volontairement pas mal de troll, l'idée que j'ai, est de pouvoir jouer full troll en petit format. 
 C'est clairement rendu possible grâce à Trugg.
 
-### Rockgut Troggoths
+## Rockgut Troggoths
 
 Voici mes trolls de pierre. Ils proviennent de la boite Dawnbringers qui contient également le Roi des trolls Trugg's. 
 
@@ -75,7 +75,7 @@ pictures/aos/gloomspite/rockgut-troggoths/31.jpg
 pictures/aos/gloomspite/rockgut-troggoths/32.jpg
 [/gallery]
 
-### Trugg roi des troll
+## Trugg roi des troll
 
 >**Trugg**, depuis plusieurs générations n'as pas bougé, il réfléchit. 
 >Et un troll comme vous le savez ça réfléchit rarement, et trés trés trés trés lentement.
@@ -112,9 +112,9 @@ pictures/aos/gloomspite/trugg/09.jpg
 pictures/aos/gloomspite/trugg/10.jpg
 [/gallery]
 
-## Gobs
+# Gobs
 
-### Fanatiques
+## Fanatiques
 
 Proviennent de l'abonnement Stormbringer.
 
@@ -143,7 +143,7 @@ pictures/aos/gloomspite/fanatiques/15.jpg
 
 [after date="2026/01/05"]
 
-### Sournifleur.
+## Sournifleur.
 
 Proviennent de l'abonnement Stormbringer.
 
@@ -159,7 +159,7 @@ pictures/aos/gloomspite/sournifleur/03.jpg
 
 [/after]
 
-### Stabbas
+## Stabbas
 
 Proviennent de l'abonnement Stormbringer.
 
@@ -175,7 +175,7 @@ pictures/aos/gloomspite/stabbas/04.jpg
 pictures/aos/gloomspite/stabbas/05.jpg
 [/gallery]
 
-### Stabbas bis
+## Stabbas bis
 
 Proviennent de l'abonnement Stormbringer.
 
@@ -192,7 +192,7 @@ pictures/aos/gloomspite/stabbas/13.jpg
 pictures/aos/gloomspite/stabbas/14.jpg
 [/gallery]
 
-### Shootas
+## Shootas
 
 Proviennent de l'abonnement Stormbringer. J'ai doublé le numéro des Stabbas.
 
@@ -209,7 +209,7 @@ pictures/aos/gloomspite/shootas/05.jpg
 
 [after date="2026/02/22"]
 
-### Troupeau de Squigs
+## Troupeau de Squigs
 
 Proviennent de l'abonnement Stormbringer. J'ai doublé cd numéro.
 
@@ -228,9 +228,9 @@ pictures/aos/gloomspite/squig-herd/05.jpg
 
 [/after]
 
-## Araignée
+# Araignée
 
-### Arachnarock
+## Arachnarock
 
 Cette Arachnarock à été acheté neuve chez mon [dealer local](https://www.mondes-fantastiques.com/).
 
@@ -254,7 +254,7 @@ pictures/aos/gloomspite/arachnarock/07.jpg
 pictures/aos/gloomspite/arachnarock/08.jpg
 [/gallery]
 
-### Chaman tisseur
+## Chaman tisseur
 
 Le chaman-tisseur est magnétisé et peu être joué à pied ou sur l'Arachnarock.
 
@@ -268,9 +268,9 @@ pictures/aos/gloomspite/shaman-tisseur/02.jpg
 
 [after date="2026/01/29"]
 
-## Autre
+# Autre
 
-### Louftuaire de la Mauvaise Lune
+## Louftuaire de la Mauvaise Lune
 
 Je ne voulais pas acheté le decort de faction officiel, 
 j'ai pris l'empreinte au sol du decord d'un ami et 
@@ -296,7 +296,7 @@ pictures/aos/gloomspite/decort-faction/03.jpg
 
 [/after]
 
-## Recette Peinture
+# Recette Peinture
 
 [paints title="Acier NMM"]
 Base	72051

@@ -12,7 +12,7 @@ Mais également à celui que j'ai organisé sur le discord de __Karv__.
 pictures/defis/grille-whisp-2024.png
 [/gallery]
 
-## Janvier 2024
+# Janvier 2024
 
 En janvier j'ai peint :
 * Un cerbère de _Dungeon and Laser_ pour [OMM](https://onemoremini.fr/topic/601/d%C3%A9fi-janvier-2024-mythologie?_=1730618194390)
@@ -25,7 +25,7 @@ pictures/decor/mortal-realms/statue-griffon/01.jpg
 pictures/dungeon-and-laser/encounters/sg/ogre/1.jpg
 [/gallery]
 
-## Février 2024
+# Février 2024
 
 En février j'ai peint :
 * Le dragon de l'_acte 2 de Descent_ pour [OMM](https://onemoremini.fr/topic/612/d%C3%A9fi-f%C3%A9vrier-2024-japoniaiserie)
@@ -40,7 +40,7 @@ pictures/aos/cos-duardin/maitre-des-runes/3.jpg
 pictures/aos/cos-duardin/gyro/1.jpg
 [/gallery]
 
-## Mars 2024
+# Mars 2024
 
 En mars j'ai peint :
 * Des décors de _Dungeon and Laser_ pour [OMM](https://onemoremini.fr/topic/618/d%C3%A9fi-mars-2024-routine-de-construction-7-2-1-lanc%C3%A9e)
@@ -56,7 +56,7 @@ pictures/battle/dark-elves/corsair/01.jpg
 pictures/dungeon-and-laser/encounters/sg/beaute-nature/1.jpg
 [/gallery]
 
-## Avril 2024
+# Avril 2024
 
 En avril j'ai peint :
 * Une _sorcière elfe noir sur sang-froid_ pour [OMM](https://onemoremini.fr/topic/627/d%C3%A9fi-mai-2024-monty-pitous)
@@ -70,7 +70,7 @@ pictures/dungeon-and-laser/encounters/sg/araignee/1.jpg
 pictures/battle/dark-elves/balistes/1.jpg
 [/gallery]
 
-## Mai 2024
+# Mai 2024
 
 En mai j'ai peint :
 * Des crabes de _Dungeon and Laser_  pour [CFM](https://taverne.colorfulminis.com/t/defi-mai-2024-mermay/5480)
@@ -83,7 +83,7 @@ pictures/battle/dark-elves/sorciere-supreme/1.jpg
 pictures/battle/dark-elves/chaudron-de-sang/1.jpg
 [/gallery]
 
-## Juin 2024
+# Juin 2024
 
 En juin j'ai peint :
 * Une abomination de _Dungeon and Laser_ pour [OMM](https://onemoremini.fr/topic/635/d%C3%A9fi-juin-2024-gros-et-ou-degueulasse) et pour mon défi chez __Karv__
@@ -96,7 +96,7 @@ pictures/dungeon-and-laser/encounters/sg/grenouilles/1.jpg
 pictures/battle/dark-elves/hydre-de-guerre/01.jpg
 [/gallery]
 
-## Juillet / Aout 2024
+# Juillet / Aout 2024
 
 Pendant les vacances d'été j'ai peint :
 * Un prince démon pour [OOM](https://onemoremini.fr/topic/636/d%C3%A9fi-summer-days-2024-juillet-aout) et pour mon défi chez __Karv__
@@ -109,7 +109,7 @@ pictures/battle/dark-elves/executeurs/01.jpg
 pictures/battle/dark-elves/porteur-gd-banniere/1.jpg
 [/gallery]
 
-## Septembre 2024
+# Septembre 2024
 
 En septembre j'ai peint :
 * Un rat ogre skaven pour [OOM](https://onemoremini.fr/topic/640/d%C3%A9fi-septembre-2024-high-tech-hate)
@@ -122,7 +122,7 @@ pictures/battle/dark-elves/char-sg-froid/1.jpg
 pictures/underworld/death/les-morts-en-exil/01.jpg
 [/gallery]
 
-## Octobre 2024
+# Octobre 2024
 
 En octobre j'ai peint :
 * Une géante de _Dungeon and Laser_ pour [CFM](https://taverne.colorfulminis.com/t/defi-octobre-2024-pink-lady/5690) et pour mon défi chez __Karv__
@@ -133,7 +133,7 @@ pictures/dungeon-and-laser/encounters/ssg/ygrid/01.jpg
 pictures/battle/dark-elves/malus-dark-blade/01.jpg
 [/gallery]
 
-## Novembre 2024
+# Novembre 2024
 
 En novembre j'ai peint :
 * Une calèche de _Dungeon and Laser_ pour [OMM](https://onemoremini.fr/topic/645/d%C3%A9fi-novembre-2024-mad-drivers)
@@ -146,7 +146,7 @@ pictures/battle/dark-elves/assassin/02.jpg
 pictures/dungeon-and-laser/encounters/sg/big-foot/01.jpg
 [/gallery]
 
-## Decembre 2024
+# Decembre 2024
 
 En décembre j'ai peint :
 * Des decors de Skaventide pour le __Fond de cale__ de __Whisp__
