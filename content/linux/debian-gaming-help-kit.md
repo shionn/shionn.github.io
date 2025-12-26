@@ -43,7 +43,7 @@ La procedure la plus simple pour installer les driver est je pense la méthode v
 sudo apt install extrepo
 sudo extrepo enable nvidia-cuda
 sudo apt update
-sudo apt install nvidia-driver
+sudo apt install nvidia-open
 ~~~
 
 ## Connaitre la version du driver en fonction de la carte
