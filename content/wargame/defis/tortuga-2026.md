@@ -6,11 +6,11 @@ Nous vous proposons un croisement entre un jeu vidéo et un jeu de peinture.
 
 ## Comment ca marche
 
-**Tortuga2** est un jeux vidéo. Sous la forme d'un point and click en 3D. 
+**Tortuga2** est un jeu vidéo. Sous la forme d'un point and click en 3D. 
 Dans ce jeu vous aurez des énigmes à résoudre. 
-Mais à certaine étape du jeu vous aurez une indication à completer une quête de peinture sur le discord.
-Il faudra attendre que la quête de peinture soit terminé, pour avoir la mise jour du jeu qui débloquera la suite.
-Et ainci de suite nous enchainerons les quetes en jeu et les quêtes de peinture. 
+Mais à certaines étapes du jeu vous aurez une indication pour compléter une quête de peinture sur le discord.
+Il faudra attendre que la quête de peinture soit terminée, pour avoir la mise jour du jeu qui débloque la suite.
+Et ainsi de suite nous enchaînerons les quêtes en jeu et les quêtes de peinture. 
 
 [gallery w=400 h=225]
 /pictures/defis/tortuga-2026/preview.png
@@ -20,28 +20,28 @@ Et ainci de suite nous enchainerons les quetes en jeu et les quêtes de peinture
 
 Il vous suffit de télécharger le jeu [ici](todo). Et puis de suivre les indications en jeu.
 
-## Déroulement des quetes de peinture
+## Déroulement des quêtes de peintures
 
-Elle fonctionnerons exactement comme l'année derniere. Avec toute fois quelque ajustement.
+Elles fonctionnent exactement comme l'année dernière. Avec toutefois quelques ajustements.
 Il vous suffit de rejoindre le serveur [discord de Whisp](https://discord.gg/xk3zKTtCA3). 
-Vous présenter puis lire les canaux lier dans le groupe Tortuga 2026.
-Il vous suffit de poster des photo de vos figurine fraichement peinte dans le canal des quêtes 2026.
+Vous présenter puis lire les canaux liés dans le groupe Tortuga 2026.
+Il vous suffit de poster des photos de vos figurines fraîchement peinte dans le canal des quêtes 2026.
 
-Et c'est tous whisp et moi nous chargeons du reste. 
+Et c'est tout Whisp et moi nous chargeons du reste. 
 
-## Régle avancer
+## Règles avancées
 
 - La seule condition pour que la figurine soit valide est qu'elle soit peinte pendant l'année 2026. 
 - Tout le monde participe aux mêmes quêtes qui sont communes. 
 - Quelque soit la figurine, l'échelle ou sa taille elle compte pour 1 point de progression de quête. 
-- Cette année nous simplifions les quêtes, pas de distinction entre une figurine ou un décort.
+- Cette année nous simplifions les quêtes, pas de distinction entre une figurine ou un décor.
 
 ## Niveau des Pirates
 
-Nous concervons le systeme de niveau d'experience. 
+Nous conservons le système de niveau d'expérience. 
 
 En plus des quêtes chaque pirate aura son propre niveau et grade de pirate. 
-Nous commençons _mousse_ et gagnerons nos grades au fur et mesure qu'on peindra des figurines. 
+Nous commençons _mousse_ et gagnons nos grades au fur et mesure qu'on peindra des figurines. 
 Vous devez gagner 10 fois votre niveau en point d'expérience pour passer au niveau suivant : 
 
 - Vous commencez niveau 1 : _mousse_
@@ -59,14 +59,14 @@ Le nombre de point d'expérience dépend de la taille du socle :
 
 A cela nous ajoutons : 
 
-- si vous avez participer l'année derniere vous commencer niveau 2.
-- si vous êtes le premier a terminer une quete du jeux vidéo vous gagné 10 pt d'experience 
-- si vous accomplissez le défis de phylios vous gagné 5 pts d'experience
+- si vous avez participé l'année dernière vous commencez niveau 2.
+- si vous êtes le premier à terminer une quête du jeux vidéo vous gagnez 10 points d'expérience 
+- si vous accomplissez le défis de phylios vous gagnez 5 points d'expérience
 
-## Badge
+## Badges
 
-En plus des niveaux vous avez la possibilité de débloquer des badges, ceux-ci fonctionne comme des les achievements d'un jeu vidéo. 
-Nous concervons grosso modo les badge de l'année derniere. 
+En plus des niveaux vous avez la possibilité de débloquer des badges, ceux-ci fonctionnent comme des achievements d'un jeu vidéo. 
+Nous conservons grosso modo les badges de l'année dernière. 
 
 - <i class="fa fa-thumbs-up"></i> **Bon plan:** Faire profiter la commu d'un bon plan
 - <i class="fa fa-flag"></i> **Coup final:** Achever une quête
@@ -89,6 +89,27 @@ Nous concervons grosso modo les badge de l'année derniere.
 - <i class="fa fa-battery-three-quarters"></i> **Thirty:** Participer à 30 quêtes différentes
 - <i class="fa fa-battery-full"></i> **Forty:** Participer à 40 quêtes différentes
 - <i class="ra ra-lightning-storm"></i>**One shot:** Accomplir une quête d'un seul coup
+
+## FAQ
+
+### Puis-je participer uniqument au quete de peinture ? 
+
+Oui, contentez vous de poster vos figurines comme l'année dernière. Vous n'êtes pas obliger de lancer le jeux vidéo. 
+
+### Puis-je participer uniquement aux jeux vidéo ? 
+
+Encore oui ! 
+
+### J'ai des idées d'énigme pour le jeu !
+
+Sentez-vous libre de m'envoyer des idées en message privé à moi ou Whisp. :)
+
+### Puis-je commencer en cours de route ? 
+
+Oui bien sûr, chaque nouvelle version du jeu est prévue pour être un jeu de plus en plus complet. 
+J'adapterai les quêtes pour n'avoir que l'énigme finale qui lancera une quête de peinture. 
+
+# Déroulement
 
 ## Participants
 

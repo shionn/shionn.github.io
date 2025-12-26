@@ -24,10 +24,6 @@ q(function() {
 		this.icon = icon;
 		this.description = description;
 		this.revealed = revealed;
-
-		this.iconPath = function() {
-			return "pictures/defis/tortuga-2025/icons/" + this.icon;
-		}
 	};
 
 	const _BADGE = [];
@@ -191,23 +187,23 @@ q(function() {
 			if (count>=5 && type ===_MEDIUM) this.addBadge(date, player, 2); // 5 fig moyenne d'un coup
 			if (count>=2 && type ===_BIG) this.addBadge(date, player, 3); // 2 grosse fig d'un coup
 			// 4 petit gros non auto
-			if (this.hasSend(player, _SMALL) && this.hasSend(player, _MEDIUM) && this.hasSend(player, _BIG)) this.addBadge(date, player, 5); //petit/moyen/gros
-			if (this.countHistory(_PAINT, player) >= 3) this.addBadge(date, player, 6); // faire 3 contribution
-			if (this.countHistory(_PAINT, player) >= 5) this.addBadge(date, player, 7); // faire 5 contribution
-			if (this.current === 0 && count >= this.size) this.addBadge(date, player, 8); // one shot
-			if (this.sumFigHistory(_PAINT, player, _FIG) >= 20) this.addBadge(date, player, 9); // envoyer 20 figurine
-			if (this.countHistory(_PAINT, player) >= 10) this.addBadge(date, player, 10); // faire 10 contribution
-			// 11 gargantuesque non auto
-			// 12 bon plan
-			if (player.countQuest(this.id)>=10) this.addBadge(date, player, 13); // faire 10 quetes
-			if (player.countQuest(this.id)>=20) this.addBadge(date, player, 14); // faire 20 quetes
-			if (player.countQuest(this.id)>=30) this.addBadge(date, player, 21); // faire 30 quetes
-			if (this.hasSend(player, _SMALL_DECOR) && this.hasSend(player, _MEDIUM_DECOR) && this.hasSend(player, _BIG_DECOR)) this.addBadge(date, player, 15); //petit/moyen/gros decors
-			if (this.sumFigHistory(_PAINT, player, _DECORD) >= 15) this.addBadge(date, player, 16); // envoyer 15 décors
+			if (this.hasSend(player, _SMALL) && this.hasSend(player, _MEDIUM) && this.hasSend(player, _BIG)) this.addBadge(date, player, 4); //petit/moyen/gros
+			if (this.countHistory(_PAINT, player) >= 3) this.addBadge(date, player, 5); // faire 3 contribution
+			if (this.countHistory(_PAINT, player) >= 5) this.addBadge(date, player, 6); // faire 5 contribution
+			if (this.current === 0 && count >= this.size) this.addBadge(date, player, 7); // one shot
+			if (this.sumFigHistory(_PAINT, player, _FIG) >= 20) this.addBadge(date, player, 8); // envoyer 20 figurine
+			if (this.countHistory(_PAINT, player) >= 10) this.addBadge(date, player, 9); // faire 10 contribution
+			// 10 gargantuesque non auto
+			// 11 bon plan
+			if (player.countQuest(this.id)>=10) this.addBadge(date, player, 12); // faire 10 quetes
+			if (player.countQuest(this.id)>=20) this.addBadge(date, player, 13); // faire 20 quetes
+			if (player.countQuest(this.id)>=30) this.addBadge(date, player, 20); // faire 30 quetes
+			if (this.hasSend(player, _SMALL_DECOR) && this.hasSend(player, _MEDIUM_DECOR) && this.hasSend(player, _BIG_DECOR)) this.addBadge(date, player, 14); //petit/moyen/gros decors
+			if (this.sumFigHistory(_PAINT, player, _DECORD) >= 15) this.addBadge(date, player, 15); // envoyer 15 décors
 			this.current = this.current + count;
 			if (this.isFinished()) {
 				if (type.type === _FIG) this.addBadge(date, player, 0); // coup final fig
-				if (type.type === _DECORD) this.addBadge(date, player, 17); // coup final decor
+				if (type.type === _DECORD) this.addBadge(date, player, 16); // coup final decor
 				this.current = this.size;
 				this.history.push(new _history(_END_QUEST, date, player));
 			}
@@ -230,9 +226,9 @@ q(function() {
 			if (player.addBadge(badge)) {
 				this.history.push(new _history(_GAIN_BADGE, date, player, badge));
 				_BADGE[badge].revealed = true;
-				if (player.badges.length >= 8) this.addBadge(date, player, 18); // obtenir 8 badge
-				if (player.badges.length >= 15) this.addBadge(date, player, 19); // obtenir presque tous les badges
-				if (player.badges.length >= _BADGE.length) this.addBadge(date, player, 20); // obtenir tous les badge
+				if (player.badges.length >= 8) this.addBadge(date, player, 17); // obtenir 8 badge
+				if (player.badges.length >= 15) this.addBadge(date, player, 18); // obtenir presque tous les badges
+				if (player.badges.length >= 20) this.addBadge(date, player, 19); // obtenir tous les badge
 			}
 			return this;
 		};
@@ -321,14 +317,14 @@ q(function() {
 		new _badge("Populeux", "ra ra-rabbit", "Envoyer 10 petites figurines d'un coup", true),
 		new _badge("Bourrin", "ra ra-octopus", "Envoyer 5 figurines moyenne d'un coup", true),
 		new _badge("Massif", "ra ra-dragon", "Envoyer 2 grande figurines d'un coup", true),
-		new _badge("Petit/Gros", "ra ra-two-dragons", "Envoyer une petite figurine et une grande dans la même quête", false),
+		//new _badge("Petit/Gros", "ra ra-two-dragons", "Envoyer une petite figurine et une grande dans la même quête", false),
 		new _badge("Petit/Moyen/Gros", "ra ra-hydra", "Envoyer une figurine de chaque taille dans la même quête", true),
 		new _badge("Mitraillette", "ra ra-barbed-arrow", "Faire 3 contributions à la même quête", true),
 		new _badge("Gatling", "ra ra-arrow-cluster", "Faire 5 contributions à la même quête", true),
 		new _badge("One shot", "ra ra-lightning-storm", "Accomplir une quête d'un seul coup", true),
 		new _badge("Vague", "ra ra-double-team ", "Envoyer 20 figurine lors de la même quête", true),
-
 		new _badge("Uzi", "ra ra-bullets", "Faire 10 contributions à la même quête", true),
+
 		new _badge("Gargantuesque", "ra ra-monster-skull", "Peindre une très grosse figurine (>=120mm)", true),
 		new _badge("Bon plan", "fa fa-thumbs-up", "Faire profiter la commu d'un bon plan", true),
 		new _badge("Ten", "fa fa-battery-quarter", "Participer à 10 quêtes différentes", true),
@@ -338,15 +334,14 @@ q(function() {
 		new _badge("Dernier clou", "ra ra-ankh", "Achever une quête avec un décor", true),
 		new _badge("Collectionneur", "ra ra-player", "Obtenir 8 badges", true),
 		new _badge("Presque tous", "ra ra-muscle-up", "Obtenir presque tous les badges", true),
-
 		new _badge("Gotha'em all", "ra ra-queen-crown", "Obtenir tous les badge", true),
+
 		new _badge("Thirty", "fa fa-battery-three-quarters", "Participer à 30 quêtes différentes", true),
 		new _badge("Forty", "fa fa-battery-full", "Participer à 40 quêtes différentes", true),
 	);
 
 	const _Gargantuesque = 11;
 	const _BonPlan = 12;
-
 
 	//let angest = new _player("Angest", "pirate12.png");
 	//let anuabi = new _player("Anuabi", "pirate12.png");
