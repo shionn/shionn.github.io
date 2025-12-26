@@ -18,7 +18,9 @@ Et ainsi de suite nous enchaînerons les quêtes en jeu et les quêtes de peintu
 
 ## Déroulement des quêtes de jeux
 
-Il vous suffit de télécharger le jeu [ici](todo). Et puis de suivre les indications en jeu.
+Il vous suffit de télécharger le jeu [ici](todo). Et puis de suivre les indications en jeu. 
+Vous aurez des quêtes à résoudre sous forme de petite énigme. Arriver à un certain point vous aurez une indication qui vous demandera de renseigner un code dans Discord. Arriver à ce point, il n'est pas nécessaire d'aller plus loin dans le jeu. 
+Cela lancera une quête de peinture.
 
 ## Déroulement des quêtes de peintures
 
@@ -28,6 +30,8 @@ Vous présenter puis lire les canaux liés dans le groupe Tortuga 2026.
 Il vous suffit de poster des photos de vos figurines fraîchement peinte dans le canal des quêtes 2026.
 
 Et c'est tout Whisp et moi nous chargeons du reste. 
+
+Quand la quêtes de peinture est fini, nous lancerons une nouvelle version du jeu, avec la suite des quêtes.
 
 ## Règles avancées
 
@@ -51,17 +55,17 @@ Vous devez gagner 10 fois votre niveau en point d'expérience pour passer au niv
 
 Le nombre de point d'expérience dépend de la taille du socle : 
  
-- un petit socle, inférieur strictement à 40mm : compte pour 1 point d'expérience. 
-- un socle moyen, entre 40mm et 60mm, compte pour 2 points d'expérience.
-- un grand socle, supérieur strictement à 60mm, compte pour 5 points d'expérience.
+- un **petit** socle, inférieur strictement à 40mm : compte pour **1** point d'expérience. 
+- un socle **moyen**, entre 40mm et 60mm, compte pour **2** points d'expérience.
+- un **grand** socle, supérieur strictement à 60mm, compte pour **5** points d'expérience.
 - dans le cas d'un socle rectangulaire ou ovale, c'est la plus grande des dimensions qui compte.
 - pour un décor on divise la taille par deux pour en équivalent en figurine.
 
 A cela nous ajoutons : 
 
 - si vous avez participé l'année dernière vous commencez niveau 2.
-- si vous êtes le premier à terminer une quête du jeux vidéo vous gagnez 10 points d'expérience 
-- si vous accomplissez le défis de phylios vous gagnez 5 points d'expérience
+- si vous êtes le premier à terminer une quête du jeux vidéo vous gagnez **10** points d'expérience 
+- si vous accomplissez le défis de phylios vous gagnez **5** points d'expérience
 
 ## Badges
 
