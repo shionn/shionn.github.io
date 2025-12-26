@@ -43,7 +43,11 @@ La procedure la plus simple pour installer les driver est je pense la méthode v
 sudo apt install extrepo
 sudo extrepo enable nvidia-cuda
 sudo apt update
+# version 590 a partir des RTX2000
 sudo apt install nvidia-open
+# version 580 à partir des GTX700
+sudo apt install nvidia-driver-pinning-580
+sudo apt install nvidia-open-580
 ~~~
 
 ## Connaitre la version du driver en fonction de la carte
