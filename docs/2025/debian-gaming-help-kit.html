@@ -233,6 +233,18 @@ sudo apt install steam
 <h2>Lancer steam depuis TTY</h2>
 <pre class="shell"><code class="shell">gamescope -W 5120 -H 1440 -f -e --disable-color-management --mangoapp --adaptive-sync -- steam -tenfoot -steamos
 </code></pre>
+<h1>Nvidia</h1>
+<p>La procedure la plus simple pour installer les driver est je pense la méthode via extrepo</p>
+<pre class="shell"><code class="shell">sudo apt install extrepo
+sudo extrepo enable nvidia-cuda
+sudo apt update
+sudo apt install nvidia-open
+</code></pre>
+<h2>Connaitre la version du driver en fonction de la carte</h2>
+<p>Ne marche pas avec le extrepo, je ne sais pas pourquoi.</p>
+<pre class="shell"><code class="shell">sudo apt install nvidia-detect
+nvidia-detect
+</code></pre>
 <h1>Steam Deck</h1>
 <p>Pour calibrer les joystick : <code>thumbstick_cal</code></p>
 <p>Pour unlock le system : <code>sudo steamos-readonly disable</code></p>
