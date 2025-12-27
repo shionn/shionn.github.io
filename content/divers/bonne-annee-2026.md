@@ -24,7 +24,10 @@ Hormis certaines choses récurrentes comme le changement de pièce d'usure sur l
 
 J'ai cependant fait de nouveau bac à fleur pour madame avec les restes d'une terrasse d'un de nos voisins.
 
-TODO photo
+[gallery w=300 h=200]
+pictures/blog/recap-2025/bac-fleur.jpg
+[/gallery]
+
 
 Mais également à l'école de mon petit garçon, ils ont organisé une journée bricolage et à l'aide d'une autre terrasse d'un autre voisin et des palettes, avec deux autres parents nous avons construit 2 petites cuisines.
 
