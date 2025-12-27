@@ -1,11 +1,11 @@
 {
 	"type": "post",
-	"date": "2026/01/01",
+	"date": "2026/01/05",
 	"title": "Bonne année 2026 !",
 	"tags": ["Blog", "Developpement", "Geek", "Java"],
 	"category": "Vie du Blog",
 	"toCheck": false,
-	"published": false,
+	"published": true,
 	"logo" : "pictures/titles/divers/annee-2026.jpg",
 	"author": "Shionn"
 }

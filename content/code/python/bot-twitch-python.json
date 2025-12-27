@@ -1,6 +1,6 @@
 {
 	"type": "post",
-	"date": "2026/01/21",
+	"date": "2026/01/29",
 	"title": "Bot twitch en Python",
 	"logo" : "pictures/titles/code/python-twitch.jpg",
 	"tags": ["Python", "Twitch" ],

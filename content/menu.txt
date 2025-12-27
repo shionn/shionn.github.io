@@ -15,22 +15,22 @@ category/war-game	War Game
 		2025/warcry-dok	Rodeur de l'ombre Khainites
 		2024/underworld-soulblight	Seigneurs Ruinemânes
 	tag/dungeon-and-laser	Dungeon and Laser
-		2026/dungeon-and-laser-deuslair	Deuslair	2026-01-13
+		2026/dungeon-and-laser-deuslair	Deuslair	2026-01-21
 		2024/dungeon-and-laser-encounters	Encounters
 	tag/d-cor	Décor
 		2025/decor-skaventide	Décor Skaventide
-		2026/decor-mortal-realms	Décor Mortal Realms	2026-03-02
+		2026/decor-mortal-realms	Décor Mortal Realms	2026-03-10
 	tag/peinture	Guide
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Équivalence de peinture
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
 	category/manga	Manga / JV
-		2026/repaint-genshin-diluc-fischi	Diluc & Fischi	2026-05-13
-		2026/mononokee-nomnom	Princesse Mononokee	2026-03-26
+		2026/repaint-genshin-diluc-fischi	Diluc & Fischi	2026-05-21
+		2026/mononokee-nomnom	Princesse Mononokee	2026-04-03
 		2025/repaint-bulma	Repaint d'une Bulma
 		2025/shenron-goku-nomnom	Shenron et Sangoku
-	category/jeux-soci-t-	Jeux Société	2026-02-06
-		2026/descent-act-1	Descent Act 1	2026-02-06
+	category/jeux-soci-t-	Jeux Société	2026-02-14
+		2026/descent-act-1	Descent Act 1	2026-02-14
 	tag/d-fi	Défi Peinture
 		2025/annee-2024-defi-peinture	Résumé défi 2024
 		2025/pour-la-gloire-de-tortuga	La Gloire de Tortuga (2025)
@@ -55,7 +55,7 @@ category/linux	Linux
 		2024/docker-sur-debian	Installation Docker sur Debian
 		2024/nginx-proxy-manager	Installation Nginx proxy manager
 		2025/jellyfin-proxmox-hardware-encode	Jellyfin, Transcodage matériel, Proxmox
-		2026/nvidia-proxmox-lxc-passthrought-ollama	Ollama Nvidia Passthrought LXC	2026-02-14
+		2026/nvidia-proxmox-lxc-passthrought-ollama	Ollama Nvidia Passthrought LXC	2026-02-22
 	tag/desktop	Desktop
 		2023/debian-general-help-kit	Kit d'aide généraliste sur Debian
 		2025/debian-gaming-help-kit	Kit d'aide Gaming sur Debian
@@ -71,10 +71,10 @@ category/code	Code
 		2025/ntp-esp32	Synchronisation horloge ntp sur ESP32	2025-12-04
 	tag/java	Java
 		2025/bot-discord-en-java	Bot discord
-		2025/pattern-singleton-java	Pattern Singleton	2026-04-03
+		2025/pattern-singleton-java	Pattern Singleton	2026-04-11
 		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX
 	tag/python	Python	2025-12-28
-		2026/bot-twitch-python	Bot Twitch	2026-01-21
+		2026/bot-twitch-python	Bot Twitch	2026-01-29
 		2025/site-web-python-flask	Site web avec Flask	2025-12-28
 mailto:shionn@gmail.com	Contact & Lien
 	mailto:shionn@gmail.com	Me contacter

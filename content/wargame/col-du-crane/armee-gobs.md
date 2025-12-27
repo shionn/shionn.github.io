@@ -77,7 +77,7 @@ pictures/battle/bataille-col-crane/gobs/lanciers/13.jpg
 pictures/battle/bataille-col-crane/gobs/lanciers/14.jpg
 [/gallery]
 
-[after date="2026/03/18"]
+[after date="2026/03/26"]
 Voici le troisieme pack bonus provenant d'un second achat. 
 
 * Peinte en Octobre 2025
@@ -97,7 +97,7 @@ pictures/battle/bataille-col-crane/gobs/lanciers/26.jpg
 [/gallery]
 [/after]
 
-[after date="2026/03/18"]
+[after date="2026/03/26"]
 ## Archers
 
 Ce back proviens de la boite bataille du col du crane.

@@ -141,7 +141,7 @@ pictures/aos/gloomspite/fanatiques/14.jpg
 pictures/aos/gloomspite/fanatiques/15.jpg
 [/gallery]
 
-[after date="2026/01/05"]
+[after date="2026/01/13"]
 
 ## Sournifleur.
 
@@ -207,7 +207,7 @@ pictures/aos/gloomspite/shootas/04.jpg
 pictures/aos/gloomspite/shootas/05.jpg
 [/gallery]
 
-[after date="2026/02/22"]
+[after date="2026/03/02"]
 
 ## Troupeau de Squigs
 
@@ -266,7 +266,7 @@ pictures/aos/gloomspite/shaman-tisseur/01.jpg
 pictures/aos/gloomspite/shaman-tisseur/02.jpg
 [/gallery]
 
-[after date="2026/01/29"]
+[after date="2026/02/06"]
 
 # Autre
 
