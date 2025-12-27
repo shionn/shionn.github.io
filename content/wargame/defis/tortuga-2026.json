@@ -3,8 +3,9 @@
 	"date": "2026/01/13",
 	"title": "Pour la gloire de Tortuga 2",
 	"tags": ["War Game", "Défi", "Jeux Vidéo"],
+	"logo": "pictures/titles/divers/defis-2026.jpg",
 	"category": "War Game",
-	"published": false,
+	"published": true,
 	"js" : [ "js/tortuga-2026.js" ],
 	"author": "Shionn & Whisp"
 }
