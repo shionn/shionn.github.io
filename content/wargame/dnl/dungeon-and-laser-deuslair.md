@@ -84,7 +84,7 @@ pictures/dungeon-and-laser/encounters/dragsa/tu-ur/3.jpg
 pictures/dungeon-and-laser/encounters/dragsa/tu-ur/4.jpg
 [/gallery]
 
-[after date="2026/01/13"]
+[after date="2026/01/21"]
 
 # Alliance de Redoe
 
