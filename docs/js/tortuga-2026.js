@@ -35,10 +35,10 @@ q(function() {
 			.append(q("<span>").text(current + "/" + target));
 	}
 
-	let _player = function(name, avatar) {
+	let _player = function(name, avatar, lvl = 1) {
 		this.name = name;
 		this.avatar = avatar;
-		this.lvl = 1;
+		this.lvl = lvl;
 		this.xp = 0;
 		this.figurines = 0;
 		this.decorts = 0;
@@ -345,19 +345,18 @@ q(function() {
 
 	//let angest = new _player("Angest", "pirate12.png");
 	//let anuabi = new _player("Anuabi", "pirate12.png");
+	let bnachee = new _player("Bnachee", "pirate02.png");
 	//let ben = new _player("Ben illustrateur", "pirate07.png");
 	//let faran = new _player("Fararn", "pirate16.png");
 	//let hyasull = new _player("Hyasull", "pirate13.png");
 	//let ludovic5799 = new _player("Ludovic5799", "pirate01.png");
 	//let phylios = new _player("Phylios", "pirate07.png");
 	//let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
-	let shionn = new _player("Shionn", "pirate02.png");
+	let shionn = new _player("Shionn", "pirate02.png", 2);
 	//let tupad = new _player("Tupad_", "pirate07.png");
 	//let tony = new _player("Tony", "pirate14.png");
 	//let transfopaper = new _player("Transfopaper", "pirate09.png")
-	let whisp = new _player("Whisp", "pirate00.png");
-	shionn.lvl = 2;
-	whisp.lvl = 2;
+	let whisp = new _player("Whisp", "pirate00.png", 2);
 	whisp.captain = true;
 
 	// Décoder le Parchemin de Barbe Drue
@@ -370,7 +369,7 @@ q(function() {
 
 
 //
-	_renderPlayers([shionn, whisp]);
+	_renderPlayers([ shionn, whisp]);
 	_renderQuests([q1]);
 
 });
