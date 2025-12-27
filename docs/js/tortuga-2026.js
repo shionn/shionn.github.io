@@ -360,8 +360,8 @@ q(function() {
 	whisp.lvl = 2;
 	whisp.captain = true;
 
-
-	let q1 = new _quest("quest-1", "Décoder le Parchemin de Barbe Drue", "Peindre 50 figurines", 50)
+	// Décoder le Parchemin de Barbe Drue
+	let q1 = new _quest("quest-1", "???", "Peindre 40 figurines", 40)
 //			.progress("03/01/2025", whisp, 1, "Statue de Ragryl", _MEDIUM)
 //			.progress("04/01/2025", shionn, 7, "Trolls", _MEDIUM)
 //			.doChallenge("05/01/2026", shionn)
