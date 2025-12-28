@@ -2,63 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://shionn.github.io/index.html</loc>
-		<lastmod>2025-12-20</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-1.html</loc>
-		<lastmod>2025-12-20</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-2.html</loc>
-		<lastmod>2025-12-20</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-3.html</loc>
-		<lastmod>2025-12-20</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-4.html</loc>
-		<lastmod>2025-12-20</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-5.html</loc>
-		<lastmod>2025-12-20</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-6.html</loc>
-		<lastmod>2025-12-20</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-7.html</loc>
-		<lastmod>2025-12-20</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-8.html</loc>
-		<lastmod>2025-12-20</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-9.html</loc>
-		<lastmod>2025-12-20</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-10.html</loc>
-		<lastmod>2025-12-20</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-11.html</loc>
-		<lastmod>2025-12-20</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-12.html</loc>
-		<lastmod>2025-12-20</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-13.html</loc>
-		<lastmod>2025-12-20</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/index-14.html</loc>
-		<lastmod>2025-12-20</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/2023/armee-nighthaunt.html</loc>
@@ -333,6 +333,10 @@
 		<lastmod>2025-08-06</lastmod>
 	</url>
 	<url>
+		<loc>https://shionn.github.io/2025/site-web-python-flask.html</loc>
+		<lastmod>2025-12-28</lastmod>
+	</url>
+	<url>
 		<loc>https://shionn.github.io/2025/theme-update.html</loc>
 		<lastmod>2025-09-23</lastmod>
 	</url>
@@ -398,7 +402,7 @@
 	</url>
 	<url>
 		<loc>https://shionn.github.io/category/code.html</loc>
-		<lastmod>2025-12-04</lastmod>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/category/diy.html</loc>
@@ -649,6 +653,10 @@
 		<lastmod>2025-06-09</lastmod>
 	</url>
 	<url>
+		<loc>https://shionn.github.io/tag/python.html</loc>
+		<lastmod>2025-12-28</lastmod>
+	</url>
+	<url>
 		<loc>https://shionn.github.io/tag/repaint.html</loc>
 		<lastmod>2025-08-06</lastmod>
 	</url>
@@ -689,6 +697,10 @@
 		<lastmod>2025-06-11</lastmod>
 	</url>
 	<url>
+		<loc>https://shionn.github.io/tag/sqlite.html</loc>
+		<lastmod>2025-12-28</lastmod>
+	</url>
+	<url>
 		<loc>https://shionn.github.io/tag/systemd.html</loc>
 		<lastmod>2025-04-08</lastmod>
 	</url>
@@ -719,6 +731,10 @@
 	<url>
 		<loc>https://shionn.github.io/tag/warhammer-battle.html</loc>
 		<lastmod>2025-12-20</lastmod>
+	</url>
+	<url>
+		<loc>https://shionn.github.io/tag/web.html</loc>
+		<lastmod>2025-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://shionn.github.io/tag/webview.html</loc>
