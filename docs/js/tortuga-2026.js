@@ -345,17 +345,20 @@ q(function() {
 
 	//let angest = new _player("Angest", "pirate12.png");
 	//let anuabi = new _player("Anuabi", "pirate12.png");
-	let bnachee = new _player("Bnachee", "pirate02.png");
 	//let ben = new _player("Ben illustrateur", "pirate07.png");
+	let bnachee = new _player("Bnachee", "pirate02.png");
+	let cuistotfou = new _player("Cuistotfou", "TODO");
 	//let faran = new _player("Fararn", "pirate16.png");
 	//let hyasull = new _player("Hyasull", "pirate13.png");
+	let jeff = new _player("Jeff von Zarovich", "pirate15.png");
 	//let ludovic5799 = new _player("Ludovic5799", "pirate01.png");
 	//let phylios = new _player("Phylios", "pirate07.png");
+	let matdeubeul = new _player("Matdeubeul", "TODO");
 	//let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
 	let shionn = new _player("Shionn", "pirate02.png", 2);
-	//let tupad = new _player("Tupad_", "pirate07.png");
+	let tupad = new _player("Tupad_", "pirate07.png", 2);
 	//let tony = new _player("Tony", "pirate14.png");
-	//let transfopaper = new _player("Transfopaper", "pirate09.png")
+	let transfopaper = new _player("Transfopaper", "pirate09.png", 2)
 	let whisp = new _player("Whisp", "pirate00.png", 2);
 	whisp.captain = true;
 
