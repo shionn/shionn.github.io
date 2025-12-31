@@ -40,3 +40,34 @@ test :
 docker run hello-world
 ~~~
 
+# Un peu de configuration
+
+## Limiter les logs
+
+Dans  /etc/docker/daemon.json
+
+~~~bash
+{
+  "log-driver": "local",
+  "log-opts": {
+    "max-size": "10m",
+    "max-file": "3"
+  }
+}
+~~~
+
+# Erreurs
+
+## open sysctl net.ipv4.ip_unprivileged_port_start file: reopen fd 8: permission denied
+
+ajouter `/etc/sysctl.d/10-docker-privilied-port.conf` avec : 
+
+~~~bash
+net.ipv4.ip_unprivileged_port_start=0
+~~~
+
+puis faire un `sysctl --system` ou redemerrer
+
+# Sources
+
+- https://signoz.io/guides/docker-clear-logs/

@@ -90,21 +90,19 @@ Je n'ai pas atteint complètement mes objectifs.
 Je souhaitais :
 - Peindre tous mes gobelins d’AoS et Battle, il m’en reste 4. 
 - Finir mes elfes noirs, il m’en reste 10.
-- Je voulais peindre le Core Set de D&L Deuslair, il m’en reste 12.
+- Je voulais peindre le Core Set de D&L Deuslair, Et j'ai fini la derniere figurine le 31 décembre au soir.
 
 En chiffre cela donne :
 - 130 [Gobelins pour AOS](tag/gloomspite-gitz.html)
 - 94 [Gobelins pour BAttle](tag/gloomspite-gitz.html)
-- 115 Figurine de [Dungeon and Lasers](tag/dungeon-and-laser.html)
+- 119 Figurine de [Dungeon and Lasers](tag/dungeon-and-laser.html)
 - 33 petite chose diverse
-- Pour un total de 372 figurines peintent cette année, soit plus d'une par jour !
+- Pour un total de 376 figurines peintent cette année, soit plus d'une par jour !
 
 [gallery w=500 h=200]
 pictures/aos/gloomspite/squig-herd/01.jpg
 pictures/dungeon-and-laser/deuslair/core/redoe/ancient-protectors/01.jpg
 [/gallery]
-
-TODO mettre à jour, ici c'est avant le 23/12/2025 (inclus)
 
 # JDR
 

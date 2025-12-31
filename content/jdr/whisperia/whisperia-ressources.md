@@ -122,3 +122,6 @@ Ragnord	Ruines dans lequel nous avons été fait prisonnier
 [/table]
 
 
+# Ressources externe
+
+- [aidedd](https://www.aidedd.org/regles/classes/guerrier/)
