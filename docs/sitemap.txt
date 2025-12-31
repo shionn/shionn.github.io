@@ -81,6 +81,7 @@ https://shionn.github.io/2025/pc-gaming-m720q-rx6400.html
 https://shionn.github.io/2025/pour-la-gloire-de-tortuga.html
 https://shionn.github.io/2025/repaint-bulma.html
 https://shionn.github.io/2025/shenron-goku-nomnom.html
+https://shionn.github.io/2025/site-web-python-flask.html
 https://shionn.github.io/2025/theme-update.html
 https://shionn.github.io/2025/underworld-gloom-gitz-zarbags.html
 https://shionn.github.io/2025/underworld-gloom.html
@@ -160,6 +161,7 @@ https://shionn.github.io/tag/peinture.html
 https://shionn.github.io/tag/photo.html
 https://shionn.github.io/tag/platformio.html
 https://shionn.github.io/tag/proxmox.html
+https://shionn.github.io/tag/python.html
 https://shionn.github.io/tag/repaint.html
 https://shionn.github.io/tag/ressources.html
 https://shionn.github.io/tag/sangoku.html
@@ -170,6 +172,7 @@ https://shionn.github.io/tag/server.html
 https://shionn.github.io/tag/shenron.html
 https://shionn.github.io/tag/skaven.html
 https://shionn.github.io/tag/skaventide.html
+https://shionn.github.io/tag/sqlite.html
 https://shionn.github.io/tag/systemd.html
 https://shionn.github.io/tag/thinkcenter.html
 https://shionn.github.io/tag/troll.html
@@ -178,6 +181,7 @@ https://shionn.github.io/tag/vscode.html
 https://shionn.github.io/tag/war-game.html
 https://shionn.github.io/tag/warcry.html
 https://shionn.github.io/tag/warhammer-battle.html
+https://shionn.github.io/tag/web.html
 https://shionn.github.io/tag/webview.html
 https://shionn.github.io/tag/whisperia.html
 https://shionn.github.io/tag/wifi.html
