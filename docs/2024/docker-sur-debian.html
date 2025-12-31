@@ -241,6 +241,27 @@ Il s'agit potentiellement de vieux build.</p>
 <p>test :</p>
 <pre class="shell"><code class="shell">docker run hello-world
 </code></pre>
+<h1>Un peu de configuration</h1>
+<h2>Limiter les logs</h2>
+<p>Dans  /etc/docker/daemon.json</p>
+<pre class="bash"><code class="bash">{
+  &quot;log-driver&quot;: &quot;local&quot;,
+  &quot;log-opts&quot;: {
+    &quot;max-size&quot;: &quot;10m&quot;,
+    &quot;max-file&quot;: &quot;3&quot;
+  }
+}
+</code></pre>
+<h1>Erreurs</h1>
+<h2>open sysctl net.ipv4.ip_unprivileged_port_start file: reopen fd 8: permission denied</h2>
+<p>ajouter <code>/etc/sysctl.d/10-docker-privilied-port.conf</code> avec :</p>
+<pre class="bash"><code class="bash">net.ipv4.ip_unprivileged_port_start=0
+</code></pre>
+<p>puis faire un <code>sysctl --system</code> ou redemerrer</p>
+<h1>Sources</h1>
+<ul>
+<li>https://signoz.io/guides/docker-clear-logs/</li>
+</ul>
 </section>
 	<footer>
 		<em class="author">par Shionn, le 31 mai 2024.</em>
