@@ -363,16 +363,16 @@ q(function() {
 	whisp.captain = true;
 
 	// Décoder le Parchemin de Barbe Drue
-	let q1 = new _quest("quest-1", "???", "Peindre 40 figurines", 40)
+	let q1 = new _quest("quest-1", "Décoder le Parchemin de Barbe Drue", "Peindre 40 figurines", 40)
+			.doVideoGameQuest("01/01/2026", bnachee)
 //			.progress("03/01/2025", whisp, 1, "Statue de Ragryl", _MEDIUM)
 //			.progress("04/01/2025", shionn, 7, "Trolls", _MEDIUM)
 //			.doChallenge("05/01/2026", shionn)
-//			.doVideoGameQuest("05/01/2026", shionn)
 			.render();
 
 
 //
-	_renderPlayers([ shionn, whisp]);
+	_renderPlayers([bnachee, shionn, whisp]);
 	_renderQuests([q1]);
 
 });
