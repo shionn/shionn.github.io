@@ -113,6 +113,16 @@ Sentez-vous libre de m'envoyer des idées en message privé à moi ou Whisp. :)
 Oui bien sûr, chaque nouvelle version du jeu est prévue pour être un jeu de plus en plus complet. 
 J'adapterai les quêtes pour n'avoir que l'énigme finale qui lancera une quête de peinture. 
 
+### Hé y a un bug ! 
+
+Vous trouvez un bug remonté le dans le canal **quetes sur discord** si le bug est avéré et inconnu alors vous serez récompensé de quelques point d'xp (je sais pas encore combien)
+
+### Hé y a des fautes !
+
+Oui ben c'est whisp et moi qui écrivons les texts... 
+Mais vous pouvez faire une capture et la dite faute et de sa correction dans le canal **quetes sur discord**. 
+Mais aucune récompense n'est prévu car je sais qu'il y en a de trop !
+
 # Déroulement
 
 ## Participants

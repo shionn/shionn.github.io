@@ -18,6 +18,8 @@ q(function() {
 	const _GAIN_BADGE = 4;
 	const _CHALLENGE_DONE = 5;
 	const _QUEST_DONE = 6;
+	const _LANG_CORRECTION = 7;
+	const _BUG_BOUNTY = 5;
 
 	let _badge = function(name, icon, description, revealed) {
 		this.name = name;
@@ -115,6 +117,8 @@ q(function() {
 				case _GAIN_BADGE: return "gagne le badge " + _BADGE[value].name+ " ";
 				case _CHALLENGE_DONE: return "accomplis le défis de Phylios (+" + (value) + " xp)";
 				case _QUEST_DONE: return "accomplis la quête du JV (+" + (value) + " xp)";
+				case _LANG_CORRECTION: return "corrige une faute (+" + (value) + " xp)";
+				case _BUG_BOUNTY: return "trouve un bug (+" + (value) + " xp)";
 			}
 		}
 	};
@@ -170,6 +174,14 @@ q(function() {
 		this.doVideoGameQuest = function(date, player) {
 			this.history.push(new _history(_QUEST_DONE, date, player, 10));
 			if (player.gainXp(10)) {
+				this.history.push(new _history(_LVL_UP, date, player, player.lvl, player.grade()));
+			}
+			return this;
+		}
+
+		this.doLangCorrection = function(date, player) {
+			this.history.push(new _history(_LANG_CORRECTION, date, player, 1));
+			if (player.gainXp(1)) {
 				this.history.push(new _history(_LVL_UP, date, player, player.lvl, player.grade()));
 			}
 			return this;
@@ -372,7 +384,7 @@ q(function() {
 
 
 //
-	_renderPlayers([bnachee, shionn, whisp]);
+	_renderPlayers([bnachee, shionn, transfopaper, whisp]);
 	_renderQuests([q1]);
 
 });
