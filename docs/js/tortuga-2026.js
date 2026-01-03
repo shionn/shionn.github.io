@@ -387,7 +387,7 @@ q(function() {
 
 
 //
-	_renderPlayers([bnachee, shionn, transfopaper, whisp]);
+	_renderPlayers([bnachee, shionn, tony, transfopaper, whisp]);
 	_renderQuests([q1]);
 
 });
