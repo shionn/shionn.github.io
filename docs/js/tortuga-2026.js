@@ -369,7 +369,7 @@ q(function() {
 	//let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
 	let shionn = new _player("Shionn", "pirate02.png", 2);
 	let tupad = new _player("Tupad_", "pirate07.png", 2);
-	//let tony = new _player("Tony", "pirate14.png");
+	let tony = new _player("Tony", "pirate14.png", 2);
 	let transfopaper = new _player("Transfopaper", "pirate09.png", 2)
 	let whisp = new _player("Whisp", "pirate00.png", 2);
 	whisp.captain = true;
@@ -380,6 +380,7 @@ q(function() {
 			.doLangCorrection("01/01/2026", transfopaper, 2)
 			.progress("03/01/2025", whisp, 1, "Sorcier HQ", _SMALL)
 			.doChallenge("03/01/2025", whisp)
+			.progress("03/01/2025", tony, 1, "Beast", _SMALL)
 //			.progress("04/01/2025", shionn, 7, "Trolls", _MEDIUM)
 //			.doChallenge("05/01/2026", shionn)
 			.render();
