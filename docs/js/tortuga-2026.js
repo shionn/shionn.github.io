@@ -179,9 +179,9 @@ q(function() {
 			return this;
 		}
 
-		this.doLangCorrection = function(date, player) {
-			this.history.push(new _history(_LANG_CORRECTION, date, player, 1));
-			if (player.gainXp(1)) {
+		this.doLangCorrection = function(date, player, count) {
+			this.history.push(new _history(_LANG_CORRECTION, date, player, count));
+			if (player.gainXp(count)) {
 				this.history.push(new _history(_LVL_UP, date, player, player.lvl, player.grade()));
 			}
 			return this;
