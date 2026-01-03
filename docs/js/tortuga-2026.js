@@ -378,7 +378,8 @@ q(function() {
 	let q1 = new _quest("quest-1", "Décoder le Parchemin de Barbe Drue", "Peindre 40 figurines", 40)
 			.doVideoGameQuest("01/01/2026", bnachee)
 			.doLangCorrection("01/01/2026", transfopaper, 2)
-//			.progress("03/01/2025", whisp, 1, "Statue de Ragryl", _MEDIUM)
+			.progress("03/01/2025", whisp, 1, "Sorcier HQ", _SMALL)
+			.doChallenge("03/01/2025", whisp)
 //			.progress("04/01/2025", shionn, 7, "Trolls", _MEDIUM)
 //			.doChallenge("05/01/2026", shionn)
 			.render();
