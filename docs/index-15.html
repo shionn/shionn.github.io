@@ -199,130 +199,57 @@
 	</header>
 	<main>
 		
-		
-		
-		
-			<article>
+			
+				<article class="short">
 	<header>
-		<img src="pictures/titles/esp32-ntp-connection.png" title="Synchronisation horloge ntp sur ESP32" alt="Synchronisation horloge ntp sur ESP32" />
-		<h1><a href="2025/ntp-esp32.html">Synchronisation horloge ntp sur ESP32</a></h1>
+		
+		<h1><a href="2023/reouverture.html">Réouverture sur Github.io. Apprendre de nos erreurs.</a></h1>
 		<div>
-			<span>Publié le 04 décembre 2025</span>
+			<span>Publié le 30 mai 2023</span>
 			<span>
 				<span class="fa fa-folder-open"></span>
-				<a href="category/code.html">Code</a>
+				<a href="category/vie-du-blog.html">Vie du Blog</a>
 			</span>
 			<span>
 				<span class="fa fa-flag"></span>
-				<a href="tag/arduino.html">Arduino</a><a href="tag/vscode.html">VSCode</a><a href="tag/platformio.html">PlatformIO</a><a href="tag/cpp.html">CPP</a><a href="tag/esp32.html">ESP32</a><a href="tag/espressif.html">Espressif</a><a href="tag/esp8266.html">ESP8266</a><a href="tag/ntp.html">NTP</a>
+				<a href="tag/blog.html">Blog</a><a href="tag/developpement.html">Developpement</a><a href="tag/geek.html">Geek</a><a href="tag/java.html">Java</a>
 			</span>
 		</div>
 	</header>
-	<section><p>Bonjour.
-Voici un petit tuto simple sur la synchronisation d'une horloge sur un ESP32 via NTP. Cela marche également sur un ESP8266.</p>
-<h1>Préparation</h1>
-<h2>Connexion reseau</h2>
-<p>Je ne détaillerai pas dans ce tuto comment faire, mais vous pouvez regarder <a href="/2025/connexion-wifi-esp32">ce tuto</a></p>
-<h2>Ajout lib</h2>
-<p>Pour la synchronisation NTP il vous faut la lib <a href="https://github.com/arduino-libraries/NTPClient" target="_blank">NTPClient</a>.
-Avec plateformio vous pouvez l'ajouter comme cela dans le fichier platformio.ini.</p>
-<pre class="java"><code class="java">lib_deps = 
-	arduino-libraries/NTPClient@^3.2.1
-</code></pre>
-<h1>Code</h1>
-<p>L'utilisation de la lib est assez simple, comme le montre ce code.</p>
-<pre class="cpp"><code class="cpp">#include &lt;Arduino.h&gt;
-// pour un esp32
-#include &lt;WiFi.h&gt; 
-// pour un esp8266
-#include &lt;ESP8266WiFi.h&gt;
-
-// gestion du temps
-#include &lt;NTPClient.h&gt;
-#include &lt;WiFiUdp.h&gt;
-
-#define NTP_PACKET_SIZE 48
-#define NTP_LOCAL_PORT 8888
-#define NTP_SERVER &quot;pool.ntp.org&quot;
-#define TIME_ZONE_IN_SECOND 3600
-// toutes les heures
-#define REFRESH_INTERVAL_IN_MS 3600000 
-
-WiFiUDP udp;
-NTPClient timeClient(udp, NTP_SERVER, TIME_ZONE_IN_SECOND, REFRESH_INTERVAL_IN_MS);
-
-void setup() {
-	// connexion au reseau (non détaillé ici)
-	timeClient.begin();
-}
-
-void loop() {
-	// mettre à jour si le delai de rafraichissement est dépassé.
-	timeClient.update();
-
-	Serial.print(&quot;Heure : &quot;);
-	Serial.println(timeClient.getFormattedTime());
-
-	delay(1000);
-}
-</code></pre>
-<h2>Et avec le changement d'heure ?</h2>
-<p>Cela se fait facilement avec la lib <a href="https://github.com/JChristensen/Timezone" target="_blank">TimeZone</a>.</p>
-<pre class="java"><code class="java">lib_deps = 
-	arduino-libraries/NTPClient@^3.2.1
-	jchristensen/Timezone@^1.2.5
-</code></pre>
-<p>Ensuite il faut initialisé NtpClient sur la timezone UTC. Puis definir notre time zone. Voici un exemple avec mon cas personnel c'est dire CET/CEST.</p>
-<pre class="java"><code class="java">// autre import
-#include &lt;Timezone.h&gt;
-
-// declaration du client ntp en UTC
-NTPClient ntpClient(udp, NTP_SERVER, 0, REFRESH_INTERVAL_IN_MS);
-// CEST : commence le dernier dimanche de mars à 2 heure du matin avec un décalage de 120 minutes
-TimeChangeRule cest = { &quot;CEST&quot;, Last, Sun, Mar, 2, 120 };
-// CET : commence le dernier dimanche d'octobre à 3 heure du matin avec un décalage de 60 minutes
-TimeChangeRule cet = { &quot;CET&quot;, Last, Sun, Oct, 3, 60 };
-// construction de notre timezone.
-Timezone timezone(cest, cet);
-
-void setup() {
-	// pas de changement
-}
-
-void loop() {
-	ntpClient.update();
-	// récupération de l'heure en UTC
-	time_t utcTime = ntpClient.getEpochTime();
-	// convertion en locale
-	time_t localTime = timezone.toLocal(utcTime);
-
-	Serial.print(&quot;Heure : &quot;);
-	Serial.println(ctime(&amp;localTime));
-
-	delay(1000);
-}
-</code></pre>
+	<section><p>Bonjour,</p>
+<p>Un jour j'ai choisi de redémarrer mon serveur sur OVH. Il n'as pas redémarrer.
+J'ai perdu ma BDD.
+Et bien sur mon serveur de backup personnel n'était plus en ligne depuis longtemps.
+Du coup plus d'OVH, j'ai choisi de refaire le blog mais en statique sur github.io.
+Donc plus de commentaire, désoler.</p>
+<p>Bien évidement je pourrai prendre un millier de générateur de site statique existant,
+mais pourquoi pas le faire soit même.
+Mais il semblerait que je préfère redécouvrir la roue.
+Donc j'ai fait mon propre générateur de site statique que vous retrouverez dans mon github (section contact).
+Ce moteur utilise les technologie suivante :</p>
+<ul>
+<li>Java</li>
+<li>Template en Thymeleaf</li>
+<li>Lib JS maison qui remplace rapidement Jquery</li>
+<li>FontAwesome</li>
+</ul>
+<p>Il va me falloir beaucoup de temps pour reprendre tous le contenu depuis web archive.
+Surtout que j'ai perdu beaucoup d'image dans l'opération.</p>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 04 décembre 2025.</em>
-		<h2>Commentaires</h2>
-		<div class="comments"></div>
-		<h2>Ajouter un commentaire</h2>
-		<form method="post" class="comments">
-			<div>
-				<label for="author">Votre pseudo</label>
-				<input type="text" name="author" required>
-			</div>
-			<div>
-				<label for="author">Votre message</label>
-				<textarea name="content" required></textarea>
-			</div>
-			<div>
-				<input type="submit" value="Commenter">
-			</div>
-		</form>
+		<a href="2023/reouverture.html"><span class="fa fa-eye"></span> Lire la suite</a>
 	</footer>
 </article>
+			
+			<div>
+				
+				<a href="index-14.html">&lt;</a>
+				Page : 16/16
+				
+			</div>
+		
+		
+		
 		
 		
 	</main>
@@ -796,8 +723,18 @@ void loop() {
 	<script type="text/javascript" src="js/comment.js"></script>
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
-	<script type="text/javascript" src="js/hljs/cpp.min.js"></script>
 	<script type="text/javascript" src="js/hljs/bash.min.js"></script>
+	<script type="text/javascript" src="js/hljs/cpp.min.js"></script>
+	<script type="text/javascript" src="js/hljs/java.min.js"></script>
+	<script type="text/javascript" src="js/hljs/python.min.js"></script>
+	<script type="text/javascript" src="js/hljs/sql.min.js"></script>
+	<script type="text/javascript" src="js/hljs/xml.min.js"></script>
+	<script type="text/javascript" src="js/paint-db.js"></script>
+	<script type="text/javascript" src="js/paint-equivalence-db.js"></script>
+	<script type="text/javascript" src="js/paint-equivalence.js"></script>
+	<script type="text/javascript" src="js/paint-guide.js"></script>
+	<script type="text/javascript" src="js/pour-la-gloire-de-tortuga.js"></script>
+	<script type="text/javascript" src="js/tortuga-2026.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>

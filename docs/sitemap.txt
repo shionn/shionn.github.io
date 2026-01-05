@@ -13,6 +13,7 @@ https://shionn.github.io/index-11.html
 https://shionn.github.io/index-12.html
 https://shionn.github.io/index-13.html
 https://shionn.github.io/index-14.html
+https://shionn.github.io/index-15.html
 https://shionn.github.io/2023/armee-nighthaunt.html
 https://shionn.github.io/2023/armee-skaven.html
 https://shionn.github.io/2023/debian-general-help-kit.html
@@ -98,6 +99,7 @@ https://shionn.github.io/2025/whisperia-1x10-caleche-loup.html
 https://shionn.github.io/2025/whisperia-1x11-retour-en-ville.html
 https://shionn.github.io/2025/whisperia-1x12-deux-personnages.html
 https://shionn.github.io/2025/whisperia-ressources.html
+https://shionn.github.io/2026/bonne-annee-2026.html
 https://shionn.github.io/category/code.html
 https://shionn.github.io/category/diy.html
 https://shionn.github.io/category/jdr.html
