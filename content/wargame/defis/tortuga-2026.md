@@ -60,6 +60,7 @@ Le nombre de point d'expérience dépend de la taille du socle :
 - un **grand** socle, supérieur strictement à 60mm, compte pour **5** points d'expérience.
 - dans le cas d'un socle rectangulaire ou ovale, c'est la plus grande des dimensions qui compte.
 - pour un décor on divise la taille par deux pour en équivalent en figurine.
+- et pour un gunpla : Petit 1/144 13cm, moyen 1/100 15cm et grand 1/60 30cm
 
 A cela nous ajoutons : 
 
