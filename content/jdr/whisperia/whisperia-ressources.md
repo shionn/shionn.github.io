@@ -24,7 +24,7 @@ En effet, les impôts sur les alcools sont réduits quand on est membre de la gu
 [table title="Statistique" cols="Stat,Valeur,Utilisation" class="pyjama"]
 Force	16 (+3)	Taper, Soulever, Casser
 Dex	9 (-1)	Lancer, Initiative
-Consti	18 (+4)	Encaisser, Résister (Maîtrise)
+Consti	20 (+5)	Encaisser, Résister (Maîtrise)
 Intel	3 (-4)	 
 Sagesse	13 (+1)	Fouille, Observer
 Cha	9 (-1)	Négocier
@@ -57,6 +57,7 @@ Arme	Marteau de guerre	Soit à une main, 1D8+force. Soit à 2M 1D10+force.
 Armure	Broigne(+14)	CA : 14
 	Anneau de protection (+1)	CA : 15
 	Ecu (+3)	CA : 18
+	clibagnon (+17)	mal ajusté
 Capacitées	Second souffle	1 fois par jour, +1D10+lvl pv.
 	Fougue	1 fois par jour, +1 action
 	Champion	Crit sur 19-20
@@ -64,10 +65,10 @@ Inventaire	1 Popo majeur	8D4+8
 	2 Popo moyenne	4D4+4
 	Couverture & Sac de couchage	 
 	Vêtements communs	 
-	Ration	2
+	Ration	1
 	Gourde d’eau	 
 	Torche	2
-Richesse	Or	52po
+Richesse	Or	119po
 Coffre	Or	100po
 	1 rubi	~20po
 	1 jaspes	~25po
