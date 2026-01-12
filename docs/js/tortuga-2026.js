@@ -384,6 +384,8 @@ q(function() {
 			.progress("03/01/2025", shionn, 4, "Leader Chaos D&L", _SMALL)
 			.progress("07/01/2025", bnachee, 1, "Gunpla", _MEDIUM)
 			.progress("08/01/2025", whisp, 1, "homme des neiges", _MEDIUM)
+			.progress("12/01/2025", shionn, 3, "Fanatique Gobelin", _SMALL)
+			.progress("12/01/2025", shionn, 1, "Shaman Gobelin", _SMALL)
 //			.progress("04/01/2025", shionn, 7, "Trolls", _MEDIUM)
 //			.doChallenge("05/01/2026", shionn)
 			.render();
