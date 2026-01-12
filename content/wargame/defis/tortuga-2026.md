@@ -18,7 +18,7 @@ Et ainsi de suite nous enchaînerons les quêtes en jeu et les quêtes de peintu
 
 ## Déroulement des quêtes de jeux
 
-Il vous suffit de télécharger le jeu [ici](todo). Et puis de suivre les indications en jeu. 
+Il vous suffit de télécharger le jeu [sur mon github](https://github.com/shionn/Tortuga2/releases). De décompresser l'archive et puis de suivre les indications en jeu. 
 Vous aurez des quêtes à résoudre sous forme de petite énigme. Arriver à un certain point vous aurez une indication qui vous demandera de renseigner un code dans Discord. Arriver à ce point, il n'est pas nécessaire d'aller plus loin dans le jeu. 
 Cela lancera une quête de peinture.
 
