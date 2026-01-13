@@ -100,6 +100,7 @@ https://shionn.github.io/2025/whisperia-1x11-retour-en-ville.html
 https://shionn.github.io/2025/whisperia-1x12-deux-personnages.html
 https://shionn.github.io/2025/whisperia-ressources.html
 https://shionn.github.io/2026/bonne-annee-2026.html
+https://shionn.github.io/2026/tortuga-2026.html
 https://shionn.github.io/category/code.html
 https://shionn.github.io/category/diy.html
 https://shionn.github.io/category/jdr.html
@@ -146,6 +147,7 @@ https://shionn.github.io/tag/java.html
 https://shionn.github.io/tag/javafx.html
 https://shionn.github.io/tag/jdr.html
 https://shionn.github.io/tag/jellyfin.html
+https://shionn.github.io/tag/jeux-vid-o.html
 https://shionn.github.io/tag/kit-bash.html
 https://shionn.github.io/tag/kit-survie.html
 https://shionn.github.io/tag/kruelboyz.html
