@@ -360,7 +360,7 @@ q(function() {
 	//let ben = new _player("Ben illustrateur", "pirate07.png");
 	let bnachee = new _player("Bnachee", "pirate02.png");
 	let cuistotfou = new _player("Cuistotfou", "TODO");
-	//let faran = new _player("Fararn", "pirate16.png");
+	let faran = new _player("Fararn", "pirate16.png", 2);
 	//let hyasull = new _player("Hyasull", "pirate13.png");
 	let jeff = new _player("Jeff von Zarovich", "pirate15.png");
 	//let ludovic5799 = new _player("Ludovic5799", "pirate01.png");
@@ -386,13 +386,14 @@ q(function() {
 			.progress("08/01/2025", whisp, 1, "homme des neiges", _MEDIUM)
 			.progress("12/01/2025", shionn, 3, "Fanatique Gobelin", _SMALL)
 			.progress("12/01/2025", shionn, 1, "Shaman Gobelin", _SMALL)
+			.doLangCorrection("13/01/2026", faran, 5)
 //			.progress("04/01/2025", shionn, 7, "Trolls", _MEDIUM)
 //			.doChallenge("05/01/2026", shionn)
 			.render();
 
 
 //
-	_renderPlayers([bnachee, shionn, tony, transfopaper, whisp]);
+	_renderPlayers([bnachee, faran, shionn, tony, transfopaper, whisp]);
 	_renderQuests([q1]);
 
 });
