@@ -34,6 +34,7 @@ category/war-game	War Game
 	tag/d-fi	Défi Peinture
 		2025/annee-2024-defi-peinture	Résumé défi 2024
 		2025/pour-la-gloire-de-tortuga	La Gloire de Tortuga (2025)
+		2026/tortuga-2026	La Gloire de Tortuga (2026)
 category/jdr	JdR
 	tag/whisperia	A tale of Whisperia
 		2024/whisperia-1x01-evasion-d-une-gaule	1: Évasion d'une gaule
