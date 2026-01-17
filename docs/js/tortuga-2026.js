@@ -388,8 +388,7 @@ q(function() {
 			.progress("12/01/2025", shionn, 1, "Shaman Gobelin", _SMALL)
 			.doLangCorrection("13/01/2026", faran, 5)
 			.progress("15/01/2025", whisp, 1, "Tu'ur", _MEDIUM)
-//			.progress("04/01/2025", shionn, 7, "Trolls", _MEDIUM)
-//			.doChallenge("05/01/2026", shionn)
+			.progress("16/01/2025", tupad, 4, "Bariccade", _MEDIUM_DECOR)
 			.render();
 
 
