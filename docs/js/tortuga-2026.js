@@ -117,7 +117,7 @@ q(function() {
 				case _GAIN_BADGE: return "gagne le badge " + _BADGE[value].name+ " ";
 				case _CHALLENGE_DONE: return "accomplis le défis de Phylios (+" + (value) + " xp)";
 				case _QUEST_DONE: return "accomplis la quête du JV (+" + (value) + " xp)";
-				case _LANG_CORRECTION: return "corrige une faute (+" + (value) + " xp)";
+				case _LANG_CORRECTION: return "corrige "+value+" faute.s (+" + (value) + " xp)";
 				case _BUG_BOUNTY: return "trouve un bug (+" + (value) + " xp)";
 			}
 		}
@@ -366,6 +366,7 @@ q(function() {
 	//let ludovic5799 = new _player("Ludovic5799", "pirate01.png");
 	//let phylios = new _player("Phylios", "pirate07.png");
 	let matdeubeul = new _player("Matdeubeul", "TODO");
+	let marco = new _player("Marco", "pirate07.png");
 	//let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
 	let shionn = new _player("Shionn", "pirate02.png", 2);
 	let tupad = new _player("Tupad_", "pirate07.png", 2);
@@ -389,11 +390,12 @@ q(function() {
 			.doLangCorrection("13/01/2026", faran, 5)
 			.progress("15/01/2025", whisp, 1, "Tu'ur", _MEDIUM)
 			.progress("16/01/2025", tupad, 4, "Bariccade", _MEDIUM_DECOR)
+			.doLangCorrection("17/01/2026", marco, 1)
 			.render();
 
 
 //
-	_renderPlayers([bnachee, faran, shionn, tony, transfopaper, tupad, whisp]);
+	_renderPlayers([bnachee, faran, marco, shionn, tony, transfopaper, tupad, whisp]);
 	_renderQuests([q1]);
 
 });
