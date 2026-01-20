@@ -356,7 +356,7 @@ q(function() {
 	const _BonPlan = 12;
 
 	//let angest = new _player("Angest", "pirate12.png");
-	//let anuabi = new _player("Anuabi", "pirate12.png");
+	let anuabi = new _player("Anuabi", "pirate12.png", 2);
 	//let ben = new _player("Ben illustrateur", "pirate07.png");
 	let bnachee = new _player("Bnachee", "pirate02.png");
 	let cuistotfou = new _player("Cuistotfou", "TODO");
@@ -391,6 +391,7 @@ q(function() {
 			.progress("15/01/2025", whisp, 1, "Tu'ur", _MEDIUM)
 			.progress("16/01/2025", tupad, 4, "Bariccade", _MEDIUM_DECOR)
 			.doLangCorrection("17/01/2026", marco, 1)
+			.progress("20/01/2026", whisp, 5, "Chacals", _SMALL)
 			.render();
 
 
