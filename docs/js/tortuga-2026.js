@@ -393,6 +393,7 @@ q(function() {
 			.doLangCorrection("17/01/2026", marco, 1)
 			.progress("20/01/2026", whisp, 5, "Chacals", _SMALL)
 			.progress("20/01/2026", transfopaper, 1, "Nain", _SMALL)
+			.progress("20/01/2026", jeff, 2, "Orc", _SMALL)
 			.doChallenge("20/01/2025", jeff)
 			.progress("20/01/2026", shionn, 1, "Mazael", _MEDIUM)
 			.progress("20/01/2026", shionn, 1, "Brigit", _SMALL)
