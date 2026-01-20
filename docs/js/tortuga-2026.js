@@ -394,11 +394,14 @@ q(function() {
 			.progress("20/01/2026", whisp, 5, "Chacals", _SMALL)
 			.progress("20/01/2026", transfopaper, 1, "Nain", _SMALL)
 			.doChallenge("20/01/2025", jeff)
+			.progress("20/01/2026", shionn, 1, "Mazael", _MEDIUM)
+			.progress("20/01/2026", shionn, 1, "Brigit", _SMALL)
+			.doChallenge("20/01/2025", shionn)
 			.render();
 
 
 //
-	_renderPlayers([bnachee, faran, marco, shionn, tony, transfopaper, tupad, whisp]);
+	_renderPlayers([bnachee, faran, jeff, marco, shionn, tony, transfopaper, tupad, whisp]);
 	_renderQuests([q1]);
 
 });
