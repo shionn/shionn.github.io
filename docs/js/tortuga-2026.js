@@ -392,6 +392,8 @@ q(function() {
 			.progress("16/01/2025", tupad, 4, "Bariccade", _MEDIUM_DECOR)
 			.doLangCorrection("17/01/2026", marco, 1)
 			.progress("20/01/2026", whisp, 5, "Chacals", _SMALL)
+			.progress("20/01/2026", transfopaper, 1, "Nain", _SMALL)
+			.doChallenge("20/01/2025", jeff)
 			.render();
 
 
