@@ -398,6 +398,7 @@ q(function() {
 			.progress("20/01/2026", shionn, 1, "Mazael", _MEDIUM)
 			.progress("20/01/2026", shionn, 1, "Brigit", _SMALL)
 			.doChallenge("20/01/2025", shionn)
+			.doLangCorrection("23/01/2026", marco, 2)
 			.render();
 
 
