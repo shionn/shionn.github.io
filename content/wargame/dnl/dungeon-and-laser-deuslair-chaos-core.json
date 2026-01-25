@@ -1,11 +1,11 @@
 {
 	"type": "post",
-	"date": "2026/01/01",
+	"date": "2026/06/22",
 	"title": "Dungeon & Laser : Deuslair : Chaos",
 	"tags": ["War Game", "Dungeon and Laser", "Deuslair", "JdR"],
 	"category": "War Game",
 	"logo": "pictures/titles/dungeon-and-laser-deuslair.jpg",
-	"published": false,
+	"published": true,
 	"js" : [ ],
 	"author": "Shionn"
 }
