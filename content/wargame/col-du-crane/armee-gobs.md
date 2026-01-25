@@ -4,7 +4,6 @@ On est loin d'avoir une armée complete il s'agit simplement de la partie gobeli
 
 # Heros
 
-[after date="2025/11/18"]
 ## Bosssquig & BrutoSquig
 
 >**Rikk Chope-Squig** n'est pas le gobelin le plus fort du clan, ni le plus intelligent même pour un gobelin.
@@ -46,7 +45,22 @@ pictures/battle/bataille-col-crane/gobs/shaman/02.jpg
 pictures/battle/bataille-col-crane/gobs/shaman/03.jpg
 [/gallery]
 
+[after date="2026/06/14"]
+## Chaman en métal
+
+* Peinte en Janvier 2026.
+* En environ 3 heures.
+* Ne provient pas du col du crâne.
+
+[gallery w=120 h=200]
+pictures/battle/bataille-col-crane/gobs/shaman-metal/01.jpg
+pictures/battle/bataille-col-crane/gobs/shaman-metal/02.jpg
+pictures/battle/bataille-col-crane/gobs/shaman-metal/03.jpg
+pictures/battle/bataille-col-crane/gobs/shaman-metal/04.jpg
+pictures/battle/bataille-col-crane/gobs/shaman-metal/05.jpg
+[/gallery]
 [/after]
+
 # Troupes
 
 ## Lanciers 
@@ -132,7 +146,23 @@ pictures/battle/bataille-col-crane/gobs/chevaucheur-araignee/03.jpg
 pictures/battle/bataille-col-crane/gobs/chevaucheur-araignee/04.jpg
 [/gallery]
 
-[after date="2025/11/18"]
+[after date="2026/06/14"]
+## Fanatiques en métal
+
+* Peinte en Janvier 2026.
+* En environ 5 heures.
+* Ne provient pas du col du crâne.
+
+[gallery w=120 h=200]
+pictures/battle/bataille-col-crane/gobs/shaman-metal/01.jpg
+pictures/battle/bataille-col-crane/gobs/shaman-metal/02.jpg
+pictures/battle/bataille-col-crane/gobs/shaman-metal/03.jpg
+pictures/battle/bataille-col-crane/gobs/shaman-metal/04.jpg
+pictures/battle/bataille-col-crane/gobs/shaman-metal/05.jpg
+[/gallery]
+[/after]
+
+
 ## Troll
 
 * Peinte en Fevrier 2025.
@@ -144,7 +174,6 @@ pictures/battle/bataille-col-crane/gobs/troll/02.jpg
 pictures/battle/bataille-col-crane/gobs/troll/03.jpg
 pictures/battle/bataille-col-crane/gobs/troll/04.jpg
 [/gallery]
-[/after]
 
 # Peinture
 

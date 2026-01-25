@@ -132,7 +132,7 @@ pictures/aos/gloomspite/troggboss/06.jpg
 
 # Gobs
 
-[after date="2026/01/21"]
+[after date="2026/05/21"]
 
 ## Chamane Fongoide 
 
