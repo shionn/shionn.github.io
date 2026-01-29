@@ -400,11 +400,17 @@ q(function() {
 			.doChallenge("20/01/2025", shionn)
 			.doLangCorrection("23/01/2026", marco, 2)
 			.progress("29/01/2026", phylios, 9, "Gretchin", _SMALL)
+			.progress("29/01/2026", shionn, 4, "Waytress of Lay", _SMALL)
+			.render();
+
+	let q2 = new _quest("quest-2", "Collecter du bois", "Peindre 40 figurines", 40)
+			.progress("29/01/2026", shionn, 2, "Waytress of Lay", _SMALL)
+			.progress("29/01/2026", shionn, 1, "Champion of Lay", _SMALL)
 			.render();
 
 
 //
 	_renderPlayers([bnachee, faran, jeff, marco, phylios, shionn, tony, transfopaper, tupad, whisp]);
-	_renderQuests([q1]);
+	_renderQuests([q1,q2]);
 
 });
