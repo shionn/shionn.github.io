@@ -364,7 +364,7 @@ q(function() {
 	//let hyasull = new _player("Hyasull", "pirate13.png");
 	let jeff = new _player("Jeff von Zarovich", "pirate15.png");
 	//let ludovic5799 = new _player("Ludovic5799", "pirate01.png");
-	//let phylios = new _player("Phylios", "pirate07.png");
+	let phylios = new _player("Phylios", "pirate07.png", 2);
 	let matdeubeul = new _player("Matdeubeul", "TODO");
 	let marco = new _player("Marco", "pirate07.png");
 	//let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
@@ -399,11 +399,12 @@ q(function() {
 			.progress("20/01/2026", shionn, 1, "Brigit", _SMALL)
 			.doChallenge("20/01/2025", shionn)
 			.doLangCorrection("23/01/2026", marco, 2)
+			.progress("29/01/2026", phylios, 9, "Gretchin", _SMALL)
 			.render();
 
 
 //
-	_renderPlayers([bnachee, faran, jeff, marco, shionn, tony, transfopaper, tupad, whisp]);
+	_renderPlayers([bnachee, faran, jeff, marco, phylios, shionn, tony, transfopaper, tupad, whisp]);
 	_renderQuests([q1]);
 
 });
