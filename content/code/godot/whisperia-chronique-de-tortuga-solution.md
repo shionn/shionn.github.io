@@ -8,7 +8,7 @@ Ne la lisez que si vous bloquer vraiment.
 ## Le Trésor de Barbe Drue
 
 L'aventure commence chez Whisp, il t'invite à commencer par la taverne. 
-De la, en interrogeant la serveuse on apprend que les client laissent traîner des choses sur les tables. 
+De la, en interrogeant la serveuse on apprend que les clients laissent traîner des choses sur les tables. 
 En fouillant les tables, on trouve notre premier indice. 
 
 [gallery w=320 h=200]
@@ -29,7 +29,7 @@ Nous y trouvons le troisième indice.
 [/gallery]
 
 Ce nouvel indice nous mène au petit lac de l'autre côté de la crique.
-Lui-même nous invite à quitter le village pour nous rendre au nord, 
+Lui-même nous invite à quitter le village pour nous rendre au nord. 
 Au pied de la montagne à l'ouest, il y a la tombe de Barbe Drue sur laquelle il y a notre dernier indice. 
 
 [gallery w=320 h=200]
@@ -38,9 +38,9 @@ Au pied de la montagne à l'ouest, il y a la tombe de Barbe Drue sur laquelle il
 [/gallery]
 
 Derrière la végétation à côté de la tombe, il y a le coffre qui nous demande un code. 
-Le code est les chiffres présents en bas des 5 indices qui nous ont menés jusqu'ici mais à l'envers. 
+Le code est les chiffres présents en bas des 5 indices qui nous ont menés jusqu'ici mis à l'envers. 
 C'est à dire **14738**.
-Il nous reste qu'à amené le parchemin codé à l'alchimiste Eve au village. 
+Il nous reste qu'à amener le parchemin codé à l'alchimiste Eve au village. 
 
 [gallery w=320 h=200]
 /pictures/code/tortuga-jv/01-09.jpg
