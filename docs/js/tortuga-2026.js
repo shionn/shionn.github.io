@@ -171,9 +171,9 @@ q(function() {
 			return this;
 		}
 
-		this.doVideoGameQuest = function(date, player) {
-			this.history.push(new _history(_QUEST_DONE, date, player, 10));
-			if (player.gainXp(10)) {
+		this.doVideoGameQuest = function(date, player, xp) {
+			this.history.push(new _history(_QUEST_DONE, date, player, xp));
+			if (player.gainXp(xp)) {
 				this.history.push(new _history(_LVL_UP, date, player, player.lvl, player.grade()));
 			}
 			return this;
@@ -377,7 +377,7 @@ q(function() {
 
 	// Décoder le Parchemin de Barbe Drue
 	let q1 = new _quest("quest-1", "Décoder le Parchemin de Barbe Drue", "Peindre 40 figurines", 40)
-			.doVideoGameQuest("01/01/2026", bnachee)
+			.doVideoGameQuest("01/01/2026", bnachee, 10)
 			.doLangCorrection("01/01/2026", transfopaper, 2)
 			.progress("03/01/2025", whisp, 1, "Sorcier HQ", _SMALL)
 			.doChallenge("03/01/2025", whisp)
@@ -406,6 +406,7 @@ q(function() {
 	let q2 = new _quest("quest-2", "Collecter du bois", "Peindre 40 figurines", 40)
 			.progress("29/01/2026", shionn, 2, "Waytress of Lay", _SMALL)
 			.progress("29/01/2026", shionn, 1, "Champion of Lay", _SMALL)
+			.doVideoGameQuest("30/01/2026", transfopaper, 10)
 			.render();
 
 
