@@ -19,7 +19,7 @@ q(function() {
 	const _CHALLENGE_DONE = 5;
 	const _QUEST_DONE = 6;
 	const _LANG_CORRECTION = 7;
-	const _BUG_BOUNTY = 5;
+	const _BUG_BOUNTY = 8;
 
 	let _badge = function(name, icon, description, revealed) {
 		this.name = name;
@@ -182,6 +182,14 @@ q(function() {
 		this.doLangCorrection = function(date, player, count) {
 			this.history.push(new _history(_LANG_CORRECTION, date, player, count));
 			if (player.gainXp(count)) {
+				this.history.push(new _history(_LVL_UP, date, player, player.lvl, player.grade()));
+			}
+			return this;
+		}
+
+		this.doBugBounty = function(date, player) {
+			this.history.push(new _history(_BUG_BOUNTY, date, player, 5));
+			if (player.gainXp(5)) {
 				this.history.push(new _history(_LVL_UP, date, player, player.lvl, player.grade()));
 			}
 			return this;
@@ -407,6 +415,7 @@ q(function() {
 			.progress("29/01/2026", shionn, 2, "Waytress of Lay", _SMALL)
 			.progress("29/01/2026", shionn, 1, "Champion of Lay", _SMALL)
 			.doVideoGameQuest("30/01/2026", transfopaper, 10)
+			.doBugBounty("30/01/2026", marco) // glissade sur le quai
 			.render();
 
 
