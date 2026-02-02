@@ -85,7 +85,7 @@ pictures/dungeon-and-laser/encounters/dragsa/tu-ur/3.jpg
 pictures/dungeon-and-laser/encounters/dragsa/tu-ur/4.jpg
 [/gallery]
 
-Toutes les figurines de Deuslair que j'ai peinte sur [la page dediée](2025/dungeon-and-laser-deuslair.html)
+Toutes les figurines de Deuslair que j'ai peinte sur [la page dediée](2026/dungeon-and-laser-deuslair.html)
 
 
 
