@@ -97,6 +97,15 @@ Détail rouille	72008
 Rehaut	72122
 [/paints]
 
+[paints title=" NMM or par Angel Giraldez" icon="youtube-play" link="https://www.youtube.com/watch?v=0mRY9HCI73Y"]
+Aplat	72051
+Éclaircissement	72124
+Éclaircissement	72040
+Éclaircissement	72109
+Rehaut	72101
+[/paints]
+
+
 
 # Kits Vallejo
 
