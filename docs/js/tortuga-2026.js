@@ -367,7 +367,7 @@ q(function() {
 	let anuabi = new _player("Anuabi", "pirate12.png", 2);
 	//let ben = new _player("Ben illustrateur", "pirate07.png");
 	let bnachee = new _player("Bnachee", "pirate02.png");
-	let cuistotfou = new _player("Cuistotfou", "TODO.png");
+	let cuistotfou = new _player("Cuistotfou", "pirate13.png");
 	let faran = new _player("Fararn", "pirate16.png", 2);
 	//let hyasull = new _player("Hyasull", "pirate13.png");
 	let jeff = new _player("Jeff von Zarovich", "pirate15.png");
