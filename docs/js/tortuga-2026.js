@@ -367,7 +367,7 @@ q(function() {
 	let anuabi = new _player("Anuabi", "pirate12.png", 2);
 	//let ben = new _player("Ben illustrateur", "pirate07.png");
 	let bnachee = new _player("Bnachee", "pirate02.png");
-	let cuistotfou = new _player("Cuistotfou", "TODO");
+	let cuistotfou = new _player("Cuistotfou", "TODO.png");
 	let faran = new _player("Fararn", "pirate16.png", 2);
 	//let hyasull = new _player("Hyasull", "pirate13.png");
 	let jeff = new _player("Jeff von Zarovich", "pirate15.png");
@@ -416,11 +416,12 @@ q(function() {
 			.progress("29/01/2026", shionn, 1, "Champion of Lay", _SMALL)
 			.doVideoGameQuest("30/01/2026", transfopaper, 10)
 			.doBugBounty("30/01/2026", marco) // glissade sur le quai
+			.doVideoGameQuest("05/02/2026", cuistotfou, 5)
 			.render();
 
 
 //
-	_renderPlayers([bnachee, faran, jeff, marco, phylios, shionn, tony, transfopaper, tupad, whisp]);
+	_renderPlayers([bnachee, cuistotfou, faran, jeff, marco, phylios, shionn, tony, transfopaper, tupad, whisp]);
 	_renderQuests([q1,q2]);
 
 });
