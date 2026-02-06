@@ -100,6 +100,7 @@ https://shionn.github.io/2025/whisperia-1x11-retour-en-ville.html
 https://shionn.github.io/2025/whisperia-1x12-deux-personnages.html
 https://shionn.github.io/2025/whisperia-ressources.html
 https://shionn.github.io/2026/bonne-annee-2026.html
+https://shionn.github.io/2026/bot-twitch-python.html
 https://shionn.github.io/2026/dungeon-and-laser-deuslair-dragsta-core.html
 https://shionn.github.io/2026/dungeon-and-laser-deuslair.html
 https://shionn.github.io/2026/gloomspite-sournifleur.html
@@ -184,6 +185,7 @@ https://shionn.github.io/tag/sqlite.html
 https://shionn.github.io/tag/systemd.html
 https://shionn.github.io/tag/thinkcenter.html
 https://shionn.github.io/tag/troll.html
+https://shionn.github.io/tag/twitch.html
 https://shionn.github.io/tag/underworld.html
 https://shionn.github.io/tag/vscode.html
 https://shionn.github.io/tag/war-game.html
