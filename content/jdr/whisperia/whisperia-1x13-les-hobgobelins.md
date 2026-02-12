@@ -109,13 +109,18 @@ pictures/jdr/whisperia/157.jpg
 pictures/jdr/whisperia/158.jpg
 [/gallery]
 
-*Pendant le combat je prend un coup et perd 8pv (21/34). J’utilise également mon second souffle (34/34).*
+*Pendant le combat je prend un coup et perd 8pv (21/34). J’utilise également mon second souffle (34/34). Anuabi a failli y passer*
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/159.jpg
+pictures/jdr/whisperia/160.jpg
+[/gallery]
 
 On ramasse 25 po sur les gobs, 5 chacun (je passe a 57), et je retourne au dodo. 
 Nous finissons la nuit, et le matin nous reprenons la route vers le sud.
 
-Article non fini
-
-
+[gallery w=430 h=240]
+pictures/jdr/whisperia/161.jpg
+[/gallery]
 
 Et c’est la fin de la partie.
