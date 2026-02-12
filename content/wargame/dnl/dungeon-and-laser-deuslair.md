@@ -84,7 +84,7 @@ pictures/dungeon-and-laser/encounters/dragsa/tu-ur/3.jpg
 pictures/dungeon-and-laser/encounters/dragsa/tu-ur/4.jpg
 [/gallery]
 
-[after date="2026/05/05"]
+[after date="2026/05/13"]
 
 # Alliance de Redoe
 
@@ -206,7 +206,7 @@ pictures/dungeon-and-laser/encounters/redoe/rashers-golem/3.jpg
 
 [/after]
 
-[after date="2026/06/22"]
+[after date="2026/06/30"]
 # Disciple du Chaos
 
 ## Pandemonium

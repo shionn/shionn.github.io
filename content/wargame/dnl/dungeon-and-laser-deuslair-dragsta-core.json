@@ -7,5 +7,6 @@
 	"logo": "pictures/titles/dungeon-and-laser-deuslair.jpg",
 	"published": true,
 	"js" : [ ],
+	"toCheck": false,
 	"author": "Shionn"
 }

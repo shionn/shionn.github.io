@@ -45,7 +45,7 @@ pictures/battle/bataille-col-crane/gobs/shaman/02.jpg
 pictures/battle/bataille-col-crane/gobs/shaman/03.jpg
 [/gallery]
 
-[after date="2026/06/14"]
+[after date="2026/06/22"]
 ## Chaman en métal
 
 * Peinte en Janvier 2026.
@@ -91,7 +91,7 @@ pictures/battle/bataille-col-crane/gobs/lanciers/13.jpg
 pictures/battle/bataille-col-crane/gobs/lanciers/14.jpg
 [/gallery]
 
-[after date="2026/04/03"]
+[after date="2026/04/11"]
 Voici le troisieme pack bonus provenant d'un second achat. 
 
 * Peinte en Octobre 2025
@@ -111,7 +111,7 @@ pictures/battle/bataille-col-crane/gobs/lanciers/26.jpg
 [/gallery]
 [/after]
 
-[after date="2026/04/03"]
+[after date="2026/04/11"]
 ## Archers
 
 Ce back proviens de la boite bataille du col du crane.
@@ -146,7 +146,7 @@ pictures/battle/bataille-col-crane/gobs/chevaucheur-araignee/03.jpg
 pictures/battle/bataille-col-crane/gobs/chevaucheur-araignee/04.jpg
 [/gallery]
 
-[after date="2026/06/14"]
+[after date="2026/06/22"]
 ## Fanatiques en métal
 
 * Peinte en Janvier 2026.

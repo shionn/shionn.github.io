@@ -132,7 +132,7 @@ pictures/aos/gloomspite/troggboss/06.jpg
 
 # Gobs
 
-[after date="2026/05/21"]
+[after date="2026/05/29"]
 
 ## Chamane Fongoide 
 
@@ -272,7 +272,7 @@ pictures/aos/gloomspite/shootas/04.jpg
 pictures/aos/gloomspite/shootas/05.jpg
 [/gallery]
 
-[after date="2026/03/10"]
+[after date="2026/03/18"]
 
 ## Troupeau de Squigs
 
@@ -331,7 +331,7 @@ pictures/aos/gloomspite/shaman-tisseur/01.jpg
 pictures/aos/gloomspite/shaman-tisseur/02.jpg
 [/gallery]
 
-[after date="2026/02/14"]
+[after date="2026/02/22"]
 
 # Autre
 
