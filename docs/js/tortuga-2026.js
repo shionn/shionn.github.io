@@ -417,6 +417,7 @@ q(function() {
 			.doVideoGameQuest("30/01/2026", transfopaper, 10)
 			.doBugBounty("30/01/2026", marco) // glissade sur le quai
 			.doVideoGameQuest("05/02/2026", cuistotfou, 5)
+			.progress("13/02/2026", tony, 1, "Sony Jona", _SMALL)
 			.render();
 
 
