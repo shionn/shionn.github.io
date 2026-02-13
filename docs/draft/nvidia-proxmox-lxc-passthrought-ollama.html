@@ -207,28 +207,148 @@
 		
 			<article>
 	<header>
-		
-		<h1><a href="draft/armee-nains.html">Mes Nains</a></h1>
+		<img src="pictures/titles/server/proxmox-nvidia-passthrought.jpg" title="Proxmox Passthrought Nvidia dans LXC" alt="Proxmox Passthrought Nvidia dans LXC" />
+		<h1><a href="draft/nvidia-proxmox-lxc-passthrought-ollama.html">Proxmox Passthrought Nvidia dans LXC</a></h1>
 		<div>
-			<span>Publié le 01 janvier 2026</span>
+			<span>Publié le 10 mars 2026</span>
 			<span>
 				<span class="fa fa-folder-open"></span>
-				<a href="category/war-game.html">War Game</a>
+				<a href="category/linux.html">Linux</a>
 			</span>
 			<span>
 				<span class="fa fa-flag"></span>
-				<a href="tag/war-game.html">War Game</a><a href="tag/arm-e.html">Armée</a><a href="tag/nains.html">Nains</a><a href="tag/col-du-cr-ne.html">Col du Crâne</a><a href="tag/warhammer-battle.html">Warhammer Battle</a>
+				<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/nvidia.html">Nvidia</a><a href="tag/ollama.html">Ollama</a>
 			</span>
 		</div>
 	</header>
-	<section><p>Voici mon armée de nains.
-On est loin d'avoir une armée complete il s'agit simplement de la partie naine de la boite <strong>baille du col du crâne</strong>.</p>
-<h1>Heros</h1>
-<p>TODO</p>
-<h1>Peinture</h1>
-<table class="paint-guide"><thead><tr><th colspan="10">Acier NMM</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72051">Base</td></tr><tr><td data-id="72120">Éclaircissement</td></tr><tr><td data-id="72048">Éclaircissement</td></tr><tr><td data-id="72102">Éclaircissement</td></tr><tr><td data-id="72047">Éclaircissement</td></tr><tr><td data-id="72001">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Barbe</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72106">Base</td></tr><tr><td data-id="72009">Éclaircissement</td></tr><tr><td data-id="72008">Éclaircissement</td></tr><tr><td data-id="72110">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Or NMM</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72051">Base</td></tr><tr><td data-id="72115">Éclaircissement</td></tr><tr><td data-id="72040">Éclaircissement</td></tr><tr><td data-id="72109">Éclaircissement</td></tr><tr><td data-id="72101">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Or NMM Gromgrindal</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72051">Base</td></tr><tr><td data-id="72045">Éclaircissement</td></tr><tr><td data-id="72042">Éclaircissement</td></tr><tr><td data-id="72036">Éclaircissement</td></tr><tr><td data-id="72109">Éclaircissement</td></tr><tr><td data-id="72001">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Peau</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72066">Base</td></tr><tr><td data-id="72044">Ombrage</td></tr><tr><td data-id="72107">Éclaircissement</td></tr><tr><td data-id="72100">Rehaut</td></tr></tbody></table></section>
+	<section><p>Ce tuto s'intérresse surtout à la procédure à suivre pour installer une carte graphique NVIDIA sur votre Proxmox avec un pass-through dans un conteneur.
+Cette solution n'utilise pas les drivers pro qui permettent de découper une carte en plusieurs. En effet, avec la containment LXC, une même carte peut être partagée entre plusieurs conteneurs.</p>
+<h1>Installation des driver Nvidia</h1>
+<h2>Nvidia sur proxmox</h2>
+<p>Il faut commencer par installer les driver nvidia sur votre proxmox.
+Commencer par le mettre à jour :</p>
+<pre class="shell"><code class="shell">apt update &amp;&amp; apt upgrade
+</code></pre>
+<p>Ensuite il vous faudrat ces outils :</p>
+<pre class="shell"><code class="shell">apt install pve-nvidia-vgpu-helper nvtop pve-headers build-essential
+</code></pre>
+<p>Ensuite proxmox propose un outil pour préconfigurer votre systeme à l'installation des driver nvidia.
+Cela passe les drivers nouveau en blacklist et install quelques packet nécéssaire.</p>
+<pre class="shell"><code class="shell">pve-nvidia-vgpu-helper setup
+</code></pre>
+<p>Ensuite il ne vous reste plus qu'à installer les paquets du driver nvidia.</p>
+<pre class="shell"><code class="shell">wget https://developer.download.nvidia.com/compute/cuda/repos/debian12/x86_64/cuda-keyring_1.1-1_all.deb
+apt install ./cuda-keyring_1.1-1_all.deb
+apt update
+apt upgrade
+apt install nvidia-driver-cuda
+</code></pre>
+<p>Vérifiez que vous n'avez aucune erreur. Si vous avez la moindre erreur faite cela pour annuler l'installation des drivers.
+Et malheureusement je ne pourrai pas vous aider à la corriger :[</p>
+<pre class="shell"><code class="shell">apt remove nvidia-driver-cuda &amp;&amp; apt autoremove
+</code></pre>
+<p>Si vous n'avez aucune erreur, vous pouvez reboot, après le reboot faite un nvidia-smi et normalement vous avez quelques chose comme cela :</p>
+<pre class="shell"><code class="shell">$ nvidia-smi 
+Sat Aug 23 10:52:17 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.65.06              Driver Version: 580.65.06      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:81:00.0 Off |                  N/A |
+| 41%   40C    P8              1W /  260W |       4MiB /  11264MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+</code></pre>
+<h2>Nvidia dans le Container LXC</h2>
+<p>Votre container n'as pas besoin d'option particulière, il n'as pas besoin d'être privilégié.
+configuration, sur l'hôte faites un ls <code>/dev/nvi*</code> et vous devriez avoir quelque chose comme cela :</p>
+<pre class="shell"><code class="shell">root@MaxiMox:~# ls -l /dev/nvi*
+crw-rw-rw- 1 root root 195,   0 Aug 23 10:52 /dev/nvidia0
+crw-rw-rw- 1 root root 195, 255 Aug 23 10:52 /dev/nvidiactl
+crw-rw-rw- 1 root root 195, 254 Aug 23 10:52 /dev/nvidia-modeset
+crw-rw-rw- 1 root root 508,   0 Aug 23 10:52 /dev/nvidia-uvm
+crw-rw-rw- 1 root root 508,   1 Aug 23 10:52 /dev/nvidia-uvm-tools
+
+/dev/nvidia-caps:
+total 0
+cr-------- 1 root root 234, 1 Aug 23 10:52 nvidia-cap1
+cr--r--r-- 1 root root 234, 2 Aug 23 10:52 nvidia-cap2
+</code></pre>
+<p>Il fait passthrought tous ces dossiers au container. Cela se fait dans l'interface de votre proxmox.</p>
+<div class="gallery"><a href="/pictures/linux/proxmox-lxc-nvidia/add-devices-menu.jpg"><img src="/pictures/linux/proxmox-lxc-nvidia/add-devices-menu.jpg"></a><a href="/pictures/linux/proxmox-lxc-nvidia/add-devices.jpg"><img src="/pictures/linux/proxmox-lxc-nvidia/add-devices.jpg"></a></div>
+<p>Et vous devriez avoiir quelque chose comme ca :</p>
+<div class="gallery"><a href="/pictures/linux/proxmox-lxc-nvidia/devices-list.jpg"><img src="/pictures/linux/proxmox-lxc-nvidia/devices-list.jpg"></a></div>
+<p>Ensuite il ne vous reste plus qu'a installer les drivers nvidia et la suite l'ogiciel cuda sur votre container, la procédure est semblable à celle de l'hote.</p>
+<pre class="shell"><code class="shell">wget https://developer.download.nvidia.com/compute/cuda/repos/debian12/x86_64/cuda-keyring_1.1-1_all.deb
+apt install ./cuda-keyring_1.1-1_all.deb
+apt update
+apt install cuda-toolkit
+apt install nvidia-driver-cuda
+</code></pre>
+<p>Vous pouver faire un nvdia-smi pour confirmer que la carte est disponible et fonctionnel sur votre container.</p>
+<h1>Exemple une IA avec Ollama</h1>
+<h2>Ollama</h2>
+<p>Pour tester cette nouvelle carte, je vous propose d'installer ollama qui est un group d'IA opensource.</p>
+<pre class="shell"><code class="shell"># L'installateur à besoin de lspci
+apt install pciutils
+wget https://ollama.com/install.sh
+./install.sh
+</code></pre>
+<p>Et normalement vous devriez avoir une sortie console ressemblant à :</p>
+<pre class="shell"><code class="shell">./install.sh 
+&gt;&gt;&gt; Cleaning up old version at /usr/local/lib/ollama
+&gt;&gt;&gt; Installing ollama to /usr/local
+&gt;&gt;&gt; Downloading Linux amd64 bundle
+################################################# 100.0%
+&gt;&gt;&gt; Adding ollama user to render group...
+&gt;&gt;&gt; Adding ollama user to video group...
+&gt;&gt;&gt; Adding current user to ollama group...
+&gt;&gt;&gt; Creating ollama systemd service...
+&gt;&gt;&gt; Enabling and starting ollama service...
+&gt;&gt;&gt; NVIDIA GPU installed.
+</code></pre>
+<p>Puis faire un essaie en console.</p>
+<pre class="shell"><code class="shell">ollama run qwen2.5-coder:7b
+</code></pre>
+<h2>Open web UI</h2>
+<p>Ajoutons une interface graphique à notre IA.
+Pour installer openweb ui, sur votre machine vous avez besoin :</p>
+<pre class="shell"><code class="shell">apt install python3-pip python3-venv
+</code></pre>
+<p>Dans mon cas je l'ai installer dans /root. Puis rentrer les commandes suivante :</p>
+<pre class="shell"><code class="shell">python3 -m venv open-webui
+source open-webui/bin/activate
+pip install open-webui
+open-webui serve
+</code></pre>
+<p>Render vous sur le port 5000 de votre container :)</p>
+<h2>Changer le port d'écoute de ollama :</h2>
+<pre class="shell"><code class="shell">systemctl edit ollama.service
+# ajouter dans la serction    [Service]
+Environment=&quot;OLLAMA_HOST=0.0.0.0:11434&quot;
+</code></pre>
+<h1>Ressource</h1>
+<p>J'ai réussi à faire cela en m'appuyant sur ces documentations :</p>
+<ul>
+<li><a href="https://www.nasmaster.com/how-to-set-up-a-nvidia-gpu-with-open-webui-and-ollama-on-proxmox" target="_blank">How to set up a NVIDIA GPU with Open WebUI and Ollama on Proxmox</a></li>
+<li><a href="https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#network-repo-installation-for-debian" target="_blank">CUDA Installation Guide for Linux</a></li>
+<li><a href="https://pve.proxmox.com/wiki/NVIDIA_vGPU_on_Proxmox_VE" target="_blank">NVIDIA vGPU on Proxmox VE</a></li>
+<li><a href="https://atlassc.net/2024/10/24/how-to-share-ollama-server-through-ip-address-and-port" target="_blank">Port and nick on ollama</a></li>
+</ul>
+</section>
 	<footer>
-		<em class="author">par Shionn, le 01 janvier 2026.</em>
+		<em class="author">par Shionn, le 10 mars 2026.</em>
 		<h2>Commentaires</h2>
 		<div class="comments"></div>
 		<h2>Ajouter un commentaire</h2>
@@ -735,9 +855,7 @@ On est loin d'avoir une armée complete il s'agit simplement de la partie naine 
 	<script type="text/javascript" src="js/comment.js"></script>
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
-	<script type="text/javascript" src="js/paint-db.js"></script>
-	<script type="text/javascript" src="js/paint-equivalence-db.js"></script>
-	<script type="text/javascript" src="js/paint-guide.js"></script>
+	<script type="text/javascript" src="js/hljs/bash.min.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>

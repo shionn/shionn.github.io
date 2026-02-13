@@ -4,6 +4,7 @@ On est loin d'avoir une armée complete il s'agit simplement de la partie naine 
 
 # Heros
 
+TODO
 
 # Peinture
 
@@ -38,7 +39,7 @@ Base	72051
 Éclaircissement	72036
 Éclaircissement	72109
 Rehaut	72001
-[/paint]
+[/paints]
 
 [paints title="Peau"]
 Base	72066

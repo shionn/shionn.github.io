@@ -208,25 +208,95 @@
 			<article>
 	<header>
 		
-		<h1><a href="draft/armee-nains.html">Mes Nains</a></h1>
+		<h1><a href="draft/debian-hyprland.html">Hyperland sur Debian</a></h1>
 		<div>
 			<span>Publié le 01 janvier 2026</span>
 			<span>
 				<span class="fa fa-folder-open"></span>
-				<a href="category/war-game.html">War Game</a>
+				<a href="category/linux.html">Linux</a>
 			</span>
 			<span>
 				<span class="fa fa-flag"></span>
-				<a href="tag/war-game.html">War Game</a><a href="tag/arm-e.html">Armée</a><a href="tag/nains.html">Nains</a><a href="tag/col-du-cr-ne.html">Col du Crâne</a><a href="tag/warhammer-battle.html">Warhammer Battle</a>
+				<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/desktop.html">Desktop</a><a href="tag/hyperland.html">Hyperland</a>
 			</span>
 		</div>
 	</header>
-	<section><p>Voici mon armée de nains.
-On est loin d'avoir une armée complete il s'agit simplement de la partie naine de la boite <strong>baille du col du crâne</strong>.</p>
-<h1>Heros</h1>
+	<section><p>J'ai toujours aimer les gestionnaires de fenêtre à base de tuile.
+Plus particulierement <a href="https://awesomewm.org/" target="_blank">Awesome-wm</a>.
+Et puis je me suis mis à joué sur linux, et avec l'avenamant de wayland, j'ai du abandonné awesome.
+Je me suis contenté d'un simple gnome-shell pendant très longtemps.
+Et finalement j'ai voulu tester HyprLand.
+Et ce fu le coup de foudre, mes vieux démons m'ont repris.</p>
+<h2>Hyprland et debian</h2>
+<p>Hyprland support <a href="https://archlinux.org/" target="_blank">Arch</a> et <a href="[https://nixos.org/">NixOs</a>.
+Debian propose une version dans sa branch sid (unstable).
+Je l'ai donc utilsé, et tres vite je tombe sur des bugs qui semble corrigé depuis tres longtemps.
+Et je me suis rendu compte que le paquet proposé par debian avit plus de 1 ans de retard et plus de 10 version de retard.</p>
+<h3>Compilation et repo</h3>
+<p>Je me suis lancer donc sur la construction d'un repo pour proposé des paquet compilé pour debian.
+Car quite à le faire pour moi autant le faire pour tous le monde.</p>
+<p>Je ne vais pas en parler plus ici, mais si ca vous interresse les scriptes pour la construction du repo sont <a href="https://github.com/shionn/hypr-debian" target="_blank">disponible ici</a>.
+Voici comment l'installer :</p>
+<pre class="bash"><code class="bash">wget https://shionn.github.io/hypr-debian/pool/main/h/hypr-debian-keyring/hypr-debian-keyring_1.0.0_all.deb
+sudo apt install ./hypr-debian-keyring_1.0.0_all.deb
+sudo apt update
+sudo apt install hyprland
+</code></pre>
+<blockquote>
+<p>Attention ce repo n'est pas compatible avec debian 13 Trixie. Il faut au moins debian 14 Forky.</p>
+</blockquote>
+<h2>Ricing</h2>
+<p>Hyperland et ricing, ca va de paire. Voic ma configuration.
+J'essaie de faire au plus simple.
+J'ai repris la couleur du blog.</p>
+<blockquote>
+<p>En gros le ricing, c'est l'art de custumiser son Envirronement de Bureau.</p>
+</blockquote>
+<h3>Raccourci</h3>
+<p>J'ai repris mes raccourcis que j'utilisai sur Awesome. A savoir :</p>
+<ul>
+<li>&lt;Super&gt; &lt;Enter&gt; : shell, ici kitty</li>
+<li>&lt;Super&gt; C : kill</li>
+<li>&lt;Super&gt; &lt;Shift&gt; Q : exit HyprLand</li>
+<li>&lt;Super&gt; E : Nautilu</li>
+<li>&lt;Super&gt; V : Passer la fnêtre en flottante</li>
+<li>&lt;Super&gt; R : Ouverture du menu de commande</li>
+<li>&lt;Super&gt; F : Passer en fullscreen</li>
+<li>&lt;Super&gt; &lt;Left&gt; : Passer au workspace à gauche</li>
+<li>&lt;Super&gt; &lt;Right&gt; : Passer au workspace de droite</li>
+<li>&lt;Super&gt; &lt;Shift&gt; &lt;Left&gt; : Passer l'application active au workspace à gauche</li>
+<li>&lt;Super&gt; &lt;Shift&gt; &lt;Right&gt; : Passer l'application active au workspace de droite</li>
+<li>&lt;Super&gt; &lt;1..6&gt; : Passer au workspace 1..6</li>
+<li>&lt;Super&gt; &lt;Shift&gt; &lt;1..6&gt; : Passer l'application active au workspace 1..6</li>
+<li>&lt;Super&gt; &lt;Clic gauche&gt; : Déplacer une fenêtre</li>
+<li>&lt;Super&gt; &lt;Clic droit&gt; : Redimentionner une fenêtre</li>
+</ul>
+<h3>Bar : Waybar</h3>
+<p>J'ai choisi d'utilise waybar qui semble être le plus basique. Rien de bien particulier à ce niveau.</p>
+<p>Mais je me suis amusé à mettre des icone pour chaque workspaces.</p>
+<h3>Lanceur d'application : Wofi</h3>
+<p>Je n'ai pas réussi à le themé comme je voulais.</p>
+<h3>Notification : Mako</h3>
+<p>J'ai choisi de mettre les notifications en bas de l'écran, le clic sur la notification m'ammene sur le sujet de la notification.
+Mais pour cela il m'a falu ajouter une configuration à hyprland. <code>focus_on_activate = true</code>.</p>
+<h3>Elevation de privilege</h3>
+<p>J'ai essayer hyprpolikt, mais n'arrivant pas à le faire marcher, j'ai choisi de faire des <code>super -e ma commande graphique</code>.</p>
 <p>TODO</p>
-<h1>Peinture</h1>
-<table class="paint-guide"><thead><tr><th colspan="10">Acier NMM</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72051">Base</td></tr><tr><td data-id="72120">Éclaircissement</td></tr><tr><td data-id="72048">Éclaircissement</td></tr><tr><td data-id="72102">Éclaircissement</td></tr><tr><td data-id="72047">Éclaircissement</td></tr><tr><td data-id="72001">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Barbe</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72106">Base</td></tr><tr><td data-id="72009">Éclaircissement</td></tr><tr><td data-id="72008">Éclaircissement</td></tr><tr><td data-id="72110">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Or NMM</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72051">Base</td></tr><tr><td data-id="72115">Éclaircissement</td></tr><tr><td data-id="72040">Éclaircissement</td></tr><tr><td data-id="72109">Éclaircissement</td></tr><tr><td data-id="72101">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Or NMM Gromgrindal</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72051">Base</td></tr><tr><td data-id="72045">Éclaircissement</td></tr><tr><td data-id="72042">Éclaircissement</td></tr><tr><td data-id="72036">Éclaircissement</td></tr><tr><td data-id="72109">Éclaircissement</td></tr><tr><td data-id="72001">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Peau</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72066">Base</td></tr><tr><td data-id="72044">Ombrage</td></tr><tr><td data-id="72107">Éclaircissement</td></tr><tr><td data-id="72100">Rehaut</td></tr></tbody></table></section>
+<p>Parler de :</p>
+<ul>
+<li>de ma configuration (avec une capture)</li>
+<li>mes racourcis</li>
+<li>waybar</li>
+<li>mako</li>
+<li>focus :</li>
+<li>problematique gaming</li>
+<li>comment je m'en sort pour le gaming en dual desktop</li>
+<li>alternative tenfoot avec gamescope</li>
+<li>conclusion</li>
+<li>ce que j'ai apris</li>
+<li>pas pour le gaming</li>
+</ul>
+</section>
 	<footer>
 		<em class="author">par Shionn, le 01 janvier 2026.</em>
 		<h2>Commentaires</h2>
@@ -735,9 +805,7 @@ On est loin d'avoir une armée complete il s'agit simplement de la partie naine 
 	<script type="text/javascript" src="js/comment.js"></script>
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
-	<script type="text/javascript" src="js/paint-db.js"></script>
-	<script type="text/javascript" src="js/paint-equivalence-db.js"></script>
-	<script type="text/javascript" src="js/paint-guide.js"></script>
+	<script type="text/javascript" src="js/hljs/bash.min.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>

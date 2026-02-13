@@ -208,27 +208,120 @@
 			<article>
 	<header>
 		
-		<h1><a href="draft/armee-nains.html">Mes Nains</a></h1>
+		<h1><a href="draft/nas-zfs-proxmox.html">Nas ZFS sur Proxmox</a></h1>
 		<div>
-			<span>Publié le 01 janvier 2026</span>
+			<span>Publié le 01 janvier 2025</span>
 			<span>
 				<span class="fa fa-folder-open"></span>
-				<a href="category/war-game.html">War Game</a>
+				<a href="category/linux.html">Linux</a>
 			</span>
 			<span>
 				<span class="fa fa-flag"></span>
-				<a href="tag/war-game.html">War Game</a><a href="tag/arm-e.html">Armée</a><a href="tag/nains.html">Nains</a><a href="tag/col-du-cr-ne.html">Col du Crâne</a><a href="tag/warhammer-battle.html">Warhammer Battle</a>
+				<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/nas.html">Nas</a><a href="tag/zfs.html">Zfs</a>
 			</span>
 		</div>
 	</header>
-	<section><p>Voici mon armée de nains.
-On est loin d'avoir une armée complete il s'agit simplement de la partie naine de la boite <strong>baille du col du crâne</strong>.</p>
-<h1>Heros</h1>
-<p>TODO</p>
-<h1>Peinture</h1>
-<table class="paint-guide"><thead><tr><th colspan="10">Acier NMM</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72051">Base</td></tr><tr><td data-id="72120">Éclaircissement</td></tr><tr><td data-id="72048">Éclaircissement</td></tr><tr><td data-id="72102">Éclaircissement</td></tr><tr><td data-id="72047">Éclaircissement</td></tr><tr><td data-id="72001">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Barbe</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72106">Base</td></tr><tr><td data-id="72009">Éclaircissement</td></tr><tr><td data-id="72008">Éclaircissement</td></tr><tr><td data-id="72110">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Or NMM</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72051">Base</td></tr><tr><td data-id="72115">Éclaircissement</td></tr><tr><td data-id="72040">Éclaircissement</td></tr><tr><td data-id="72109">Éclaircissement</td></tr><tr><td data-id="72101">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Or NMM Gromgrindal</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72051">Base</td></tr><tr><td data-id="72045">Éclaircissement</td></tr><tr><td data-id="72042">Éclaircissement</td></tr><tr><td data-id="72036">Éclaircissement</td></tr><tr><td data-id="72109">Éclaircissement</td></tr><tr><td data-id="72001">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Peau</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72066">Base</td></tr><tr><td data-id="72044">Ombrage</td></tr><tr><td data-id="72107">Éclaircissement</td></tr><tr><td data-id="72100">Rehaut</td></tr></tbody></table></section>
+	<section><p>Je vous propose aujourd'hui un tuto sur la mise en place d'un serveur nas avec des disques en ZFS. Je ne vous présente pas ZFS, je pense que vous connaissez les avantages de ce systeme.
+La solution que je vous propose ici c'est que la grappe de disque ZFS soit traiter par proxmox et qu'on crais un container <strong>Turnkey</strong> hyper leger dessus qui se charge de traiter vos partages sur votre reseau.
+Cette solution présente plusieurs avantage :</p>
+<ul>
+<li>grape ZFS partageable entre plusieurs container</li>
+<li>utilisation des ressources plus leger</li>
+<li>container non priviligié
+Mais en désavantage :</li>
+<li>La gestion des patrtage n'est pas des plus simple avec turnkey</li>
+</ul>
+<h2>Container</h2>
+<h3>Création du pool et dataset ZFS</h3>
+<p>Ici ce pool est composé de 6 disque acheté d'occasion qui ont servi pour du minage de CHIA. <strong>EVITER</strong> de faire comme moi et ne prenez pas des disques douteux.
+J'ai acheté sur un coup de tête et mes disque sont des &quot;SMR&quot; et c'est pas bon pour un nas. Pour cet exemple il s'appel <code>MonPool</code>.</p>
+<p>Je ne suis pas un grand spécialiste de ZFS Mais voici quelques information :</p>
+<ul>
+<li>ashift : c'est la taille des blocks, parait que c'est super important j'ai lus pas mal de litterature et finalement 12 c'est bien.</li>
+<li>compression : c'est gratuit on active</li>
+</ul>
+<div class="gallery"><a href="pictures/linux/proxmox-zfs-fileserver/01-create-pool.png"><img src="pictures/linux/proxmox-zfs-fileserver/01-create-pool.png"></a></div>
+<p>Je souhaite faire un dataset <code>data</code> qui prenne toute ma grappe pour cela, dans la console de mon serveur proxmox, j'entre la commande : <code>zfs create MonPool/data</code></p>
+<h3>Création du container</h3>
+<p>Ensuite il faut creer le containeur, ici j'utilise tunrkey file server. Ce n'est pas une distrib funky du genre de CasaOS, mais ca fait ce que j'ai besoin partager des dossiers sur mon reseau en Samba ou NFS. Commencons par télécharger la distrib depuis l'interface de proxmox. Dans votre disque proxomox (par défaut local) &gt; CT Tamplates &gt; Templates, faites une rechers <code>turnkey-fileserver</code>.</p>
+<div class="gallery"><a href="pictures/linux/proxmox-zfs-fileserver/02-dl-turnkey-fileserver.png"><img src="pictures/linux/proxmox-zfs-fileserver/02-dl-turnkey-fileserver.png"></a></div>
+<p>Puis on peu passer à la creation du container. il n'y a rien de particulier ici :</p>
+<ul>
+<li>2 coeur et 512M de ram et 8Go sont plus qu'assez.</li>
+<li>containeur non priviligier (par defaut).</li>
+<li>par habitude je désactive la SWAP mais vous pouvez la concerver, c'est peut être une bétise de ma part.</li>
+<li>ipv4 en DHCP et ipV6 en SLAAC, c'est ce qui marche le mieux avec mon router.</li>
+<li>ne pas lancer le container tous de suite, il y a d'autre configuration à faire.</li>
+</ul>
+<div class="gallery"><a href="pictures/linux/proxmox-zfs-fileserver/03-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/03-create-container-250-188.png" width="250" height="188"></a><a href="pictures/linux/proxmox-zfs-fileserver/04-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/04-create-container-250-188.png" width="250" height="188"></a><a href="pictures/linux/proxmox-zfs-fileserver/05-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/05-create-container-250-188.png" width="250" height="188"></a><a href="pictures/linux/proxmox-zfs-fileserver/06-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/06-create-container-250-188.png" width="250" height="188"></a><a href="pictures/linux/proxmox-zfs-fileserver/07-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/07-create-container-250-188.png" width="250" height="188"></a><a href="pictures/linux/proxmox-zfs-fileserver/08-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/08-create-container-250-188.png" width="250" height="188"></a><a href="pictures/linux/proxmox-zfs-fileserver/09-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/09-create-container-250-188.png" width="250" height="188"></a><a href="pictures/linux/proxmox-zfs-fileserver/10-create-container.png"><img src="pictures/linux/proxmox-zfs-fileserver/10-create-container-250-188.png" width="250" height="188"></a></div>
+<h3>Partage du dataset</h3>
+<p>Je souhaite que le dataset <strong>/MonPool/data</strong> de mon hote soit monté dans mon container turnkey dans le dossier <strong>/mnt/data</strong>.
+Dans mon cas, mon containeur a l'identifiant 121. Donc j'édite le fichier <code>/etc/pve/lxc/121.conf</code> et j'ajoute cette ligne :</p>
+<pre class="shell"><code class="shell">mp0: /MonPool/data,mp=/mnt/data
+</code></pre>
+<h3>Mapping des Users (Optionnel)</h3>
+<p>Par defaut quand un disque est monté dans un container les id utilisateurs et groups ne sont pas les mêmes. Il faut ajouter 100000 à l'id de l'utisateur du guest pour avoir l'id de l'host. En gros pour simplifier <code>id guest=id host + 100 000</code>.</p>
+<p>Dans certain cas, notement quand plusieurs containeur accede au meme pool zfs, cela ne nous convient pas. Immaginons un cas hypotethique ou un containeur telechargerai des fichier bitorrent pour les mettre à disposition d'un autre container dans un dossier, ici on sera content d'avoir le même identifiants utilisateur.</p>
+<p>Pour ce conteneur (le nas), je souhaite que les id utilisateurs soit les mêmes sur sur mon hôte et l'invité. C'est à dire que les id de l'utilisateur 1000+ soit les meme sur proxmox que sur le nas. ~La subtilité c'est qu'il faut faire un mapping complet sur les 65535 identifiant user et groupe.~ Dans cette exemple je vais mapper les id 1000 à 3000 qui corresponde au identifiant utilisateur. et laisser les autre comme tel.</p>
+<p>La syntaxe n'est pas évidente à comprendre. Je dois donc :</p>
+<ul>
+<li>en partant de 0 je dois mapper 1000 identifiants vers 100000 à 101000</li>
+<li>en partant de 1000 je dois mapper 2000 identifiants vers 1000 à 3000</li>
+<li><em>en partant de 3000 je dois mapper 62535 identifiants vers 103000 à 165535. Cela semble finalement optionnel.</em></li>
+</ul>
+<p>Pour les groupes c'est pareil à l'exeption du groupe 100 (users) qui doit être mapper vers le groupe 100.</p>
+<p>Pour ce faire j'édite de nouveau  <code>/etc/pve/lxc/121.conf</code> et j'ajoute :</p>
+<pre class="shell"><code class="shell"># mapper les identifiants utilisateurs 0 à 999 vers 100000 à 100999
+lxc.idmap: u 0 100000 1000
+# mapper les identifiants utilisateurs 1000 à 2999 vers 1000 à 2999
+lxc.idmap: u 1000 1000 2000
+lxc.idmap: u 3000 103000 62535
+lxc.idmap: g 0 100000 100
+lxc.idmap: g 100 100 1
+lxc.idmap: g 101 100101 899
+lxc.idmap: g 1000 1000 2000
+lxc.idmap: g 3000 103000 62535
+</code></pre>
+<p>Il faut comprendre cette ligne <strong>u/g 0 100000 1000</strong> comme :</p>
+<ul>
+<li>u/g : utilisateur / group</li>
+<li>0 : à partir de 0 sur le containeur</li>
+<li>100000 : mapper vers 100000 sur l'hôte</li>
+<li>1000 : mapper 1000 identifiant donc de 0 à 999</li>
+</ul>
+<p>Mais ca ne suffit pas il faut permttre un tel mapping cela se fait dans <code>/etc/subuid</code> et <code>/etc/subgid</code> en ajoutant :</p>
+<pre class="shell"><code class="shell">root:1000:2000
+</code></pre>
+<p>Ce qui en gros signifit :</p>
+<blockquote>
+<p>Permettre le mapping de 2000 idifiant à partir de 1000.</p>
+</blockquote>
+<h2>Configuration de Turnkey Fileserver.</h2>
+<h3>Premier boot</h3>
+<p>On peu enfin lancer turnkey file server. Lancer le container et connecter vous en SSH ou via le shell de proxmox.</p>
+<p>Au premier boot turnkey file server vous demandera de configurer le mot de passe samba. Je skip les deux étapes suivantes Mais j'applique bien les patchs de sécurités à la derniere étape. Puis reboot mais juste avant cela vous affiche un récap de la configuration.</p>
+<div class="gallery"><a href="pictures/linux/proxmox-zfs-fileserver/11-turnkey-first-boot.png"><img src="pictures/linux/proxmox-zfs-fileserver/11-turnkey-first-boot-200-150.png" width="200" height="150"></a><a href="pictures/linux/proxmox-zfs-fileserver/12-turnkey-first-boot.png"><img src="pictures/linux/proxmox-zfs-fileserver/12-turnkey-first-boot-200-150.png" width="200" height="150"></a><a href="pictures/linux/proxmox-zfs-fileserver/13-turnkey-first-boot.png"><img src="pictures/linux/proxmox-zfs-fileserver/13-turnkey-first-boot-200-150.png" width="200" height="150"></a><a href="pictures/linux/proxmox-zfs-fileserver/14-turnkey-first-boot.png"><img src="pictures/linux/proxmox-zfs-fileserver/14-turnkey-first-boot-200-150.png" width="200" height="150"></a></div>
+<h3>Création des utilisateurs unix</h3>
+<p>Il faut commencer par creer un utilisateur linux pour chaque utilisateur sur samba qui accede à votre nas. Acceder en http sur le port 12321 à votre server puis connecter avec votre user root, en utilisant le mot de passe que vous avez choisi à la création du container. Puis dans <strong>System &gt; Users and Groups &gt; Create a new user</strong>. Ici je crais mon premier utilisateur <strong>shionn</strong> avec donc l'identifiant 1000, je laisse toute les autres option par defaut.</p>
+<div class="gallery"><a href="pictures/linux/proxmox-zfs-fileserver/15-create-unix-account.png"><img src="pictures/linux/proxmox-zfs-fileserver/15-create-unix-account.png"></a></div>
+<p>Ensuite le truc c'est que le mot de passe samba et unix ne sont pas lié pour des raison de sécurité. Pour ca dans <strong>Server &gt; Samba Windows File Share &gt; Convert Users</strong> puis je selectionne mon user shionn et je définit sont mot de passe.</p>
+<div class="gallery"><a href="pictures/linux/proxmox-zfs-fileserver/18-create-samba-account.png"><img src="pictures/linux/proxmox-zfs-fileserver/18-create-samba-account.png"></a></div>
+<h3>Création d'un dossier à partager</h3>
+<p>Admettons que je veillent partagé le dossier <strong>/mnt/data/shionn</strong> à l'utilisateur <strong>shionn</strong>. Je vais dans <strong>Tools &gt; File Manager</strong> puis je navigue dans <strong>/mnt/data</strong> puis dans <strong>File &gt; Create new Directory</strong>. Je séléctionne ce dossier nouvellement creer puis <strong>Tools &gt; Change ownership</strong> et j'attribus <strong>shionn:users</strong> récursivement. Puis <strong>Tools &gt; Change Permissions</strong> et j'applique 755 récursivement.</p>
+<p>Bien sur tous ca est à adapter en fonction de vos besoin.</p>
+<p>Pour que cela soit possible il vous faudrat dapater les droit d'acces dans le serveur proxmox. Dans mon cas j'ai fait un <code>chmod 777 /MonPool/data</code>.</p>
+<h3>Creation d'un premier partage Samba</h3>
+<p>Toujours sur l'interface du serveur je vais dans <strong>Servers &gt; Samba Windows File Sharing.</strong> Il y a par défaut 3 partages, homes cdrom et storage, dont je n'ai pas besoin, je les supprime. Puis sur <strong>Create a new file share</strong>. Et je crois mon partage comme suit. Puis je vais dans le partage nouvellement créer et dans <strong>Security and Access Control</strong>.</p>
+<div class="gallery"><a href="pictures/linux/proxmox-zfs-fileserver/16-create-file-share.png"><img src="pictures/linux/proxmox-zfs-fileserver/16-create-file-share.png"></a><a href="pictures/linux/proxmox-zfs-fileserver/17-create-file-share.png"><img src="pictures/linux/proxmox-zfs-fileserver/17-create-file-share.png"></a></div>
+<h2>Source</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?si=uNb3HVNwdK8xJMQQ&amp;v=I7nfSCNKeck&amp;feature=youtu.be" target="_blank">Host NAS inside LXC Container par MRP</a></li>
+<li>https://itsembedded.com/sysadmin/proxmox_bind_unprivileged_lxc/</li>
+<li>https://forum.proxmox.com/threads/newuidmap-uid-range-1100-1101-1100-1101-not-allowed.73414/</li>
+</ul>
+</section>
 	<footer>
-		<em class="author">par Shionn, le 01 janvier 2026.</em>
+		<em class="author">par Shionn, le 01 janvier 2025.</em>
 		<h2>Commentaires</h2>
 		<div class="comments"></div>
 		<h2>Ajouter un commentaire</h2>
@@ -735,9 +828,7 @@ On est loin d'avoir une armée complete il s'agit simplement de la partie naine 
 	<script type="text/javascript" src="js/comment.js"></script>
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
-	<script type="text/javascript" src="js/paint-db.js"></script>
-	<script type="text/javascript" src="js/paint-equivalence-db.js"></script>
-	<script type="text/javascript" src="js/paint-guide.js"></script>
+	<script type="text/javascript" src="js/hljs/bash.min.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>

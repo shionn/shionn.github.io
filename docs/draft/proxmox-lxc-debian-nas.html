@@ -207,28 +207,67 @@
 		
 			<article>
 	<header>
-		
-		<h1><a href="draft/armee-nains.html">Mes Nains</a></h1>
+		<img src="pictures/titles/linux-proxmox-samba-nfs-webmin-debian.jpg" title="Nas ZFS sur Proxmox via Webmin" alt="Nas ZFS sur Proxmox via Webmin" />
+		<h1><a href="draft/proxmox-lxc-debian-nas.html">Nas ZFS sur Proxmox via Webmin</a></h1>
 		<div>
-			<span>Publié le 01 janvier 2026</span>
+			<span>Publié le 01 janvier 2025</span>
 			<span>
 				<span class="fa fa-folder-open"></span>
-				<a href="category/war-game.html">War Game</a>
+				<a href="category/linux.html">Linux</a>
 			</span>
 			<span>
 				<span class="fa fa-flag"></span>
-				<a href="tag/war-game.html">War Game</a><a href="tag/arm-e.html">Armée</a><a href="tag/nains.html">Nains</a><a href="tag/col-du-cr-ne.html">Col du Crâne</a><a href="tag/warhammer-battle.html">Warhammer Battle</a>
+				<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/nas.html">Nas</a><a href="tag/zfs.html">Zfs</a>
 			</span>
 		</div>
 	</header>
-	<section><p>Voici mon armée de nains.
-On est loin d'avoir une armée complete il s'agit simplement de la partie naine de la boite <strong>baille du col du crâne</strong>.</p>
-<h1>Heros</h1>
+	<section><h2>Installation</h2>
+<h3>Création du Container</h3>
+<p>Apres avoir installer un container debian avec ces options :</p>
+<ul>
+<li>privilégié (nécéssaire pour le partage NFS)</li>
+<li>8go de Disk</li>
+<li>2 cpu</li>
+<li>1024Mo de ram</li>
+<li>features nesting=1</li>
+</ul>
+<h3>Montage des pool ZFS</h3>
+<pre class="shell"><code class="shell">mp0: /P34A60/data,mp=/mnt/data
+mp1: /ST8000/data,mp=/mnt/data2
+</code></pre>
+<h3></h3>
+<p>Installation des composants :</p>
+<pre class="shell"><code class="shell">apt install samba nfs-kernel-server curl psmisc
+</code></pre>
+<p>Sur votre serveur proxmox il faut également installer nfs-kernel-server</p>
+<p>Installation de webmin :</p>
+<pre class="shell"><code class="shell">curl -o webmin-setup-repo.sh https://raw.githubusercontent.com/webmin/webmin/master/webmin-setup-repo.sh
+sh webmin-setup-repo.sh
+apt update
+apt-get install webmin --install-recommends
+</code></pre>
+<h2>Configuration webmin</h2>
+<p>Acceder ici : https://<ip de votre container>:10000/ connecté vous avec votre user root.</p>
+<h3>Creation d'un user</h3>
+<p>Il est necessaire de creer un user linux pour chaque user samba, mais en revanche il est important qu les mot de passe soit différent entre les deux (samba est une passoire).</p>
+<p>Dans <code>System &gt; Users and Groups &gt; Create a new User</code>.
+Entrer un username et ne touché à rien d'autre. Recommencer pour chaque utilisateur désiré.
+Vous pouvez définir un mot de pass, mais si vous le faites, assurer vous de ne pas utiliser le même mot de pass pour samba.</p>
+<p>Puis dans <code>Servers &gt; Samba Windows File Sharing &gt; Convert User</code> cliquer sur <code>Only listed users or UID ranges</code> et séléctionner l'utilisateur creer précédement et entrer un mot de pass dans <code>Use this password</code>. Recommencer pour chaque utilisateur désiré.
+Si vous avez renseigné un mot de pass linux il est important de choisir un mot de passe différent.</p>
+<h3>Configuration d'un partage Samba</h3>
+<p>Dans <code>Servers &gt; Samba Windows File Sharing</code> cliquer sur <code>Create a new file share</code>.
+Entrer un nom de partage dans <code>Share Name</code>. J'aime mettre <code>users</code> dans <code>Create with group</code> et changer le <code>create with owner</code> avec l'utisateur si c'est un partage dedier à une seul personne.</p>
+<p>Puis aller dans le partage que vous avez creer et dans <code>Security and Access Control</code> puis ajouter les uilisateur qui y ont acces dans <code>valid users</code> et séléctionner <code>Revalidate users &gt; yes</code>.</p>
+<h3>Configuration d'un partage NFS</h3>
 <p>TODO</p>
-<h1>Peinture</h1>
-<table class="paint-guide"><thead><tr><th colspan="10">Acier NMM</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72051">Base</td></tr><tr><td data-id="72120">Éclaircissement</td></tr><tr><td data-id="72048">Éclaircissement</td></tr><tr><td data-id="72102">Éclaircissement</td></tr><tr><td data-id="72047">Éclaircissement</td></tr><tr><td data-id="72001">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Barbe</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72106">Base</td></tr><tr><td data-id="72009">Éclaircissement</td></tr><tr><td data-id="72008">Éclaircissement</td></tr><tr><td data-id="72110">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Or NMM</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72051">Base</td></tr><tr><td data-id="72115">Éclaircissement</td></tr><tr><td data-id="72040">Éclaircissement</td></tr><tr><td data-id="72109">Éclaircissement</td></tr><tr><td data-id="72101">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Or NMM Gromgrindal</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72051">Base</td></tr><tr><td data-id="72045">Éclaircissement</td></tr><tr><td data-id="72042">Éclaircissement</td></tr><tr><td data-id="72036">Éclaircissement</td></tr><tr><td data-id="72109">Éclaircissement</td></tr><tr><td data-id="72001">Rehaut</td></tr></tbody></table><table class="paint-guide"><thead><tr><th colspan="10">Peau</th></tr><tr><th colspan="2">Etape</th><th colspan="2">Vallejo</th><th colspan="2">Citadel</th><th colspan="2">AP</th><th colspan="2">GSW</th></tr></thead><tbody><tr><td data-id="72066">Base</td></tr><tr><td data-id="72044">Ombrage</td></tr><tr><td data-id="72107">Éclaircissement</td></tr><tr><td data-id="72100">Rehaut</td></tr></tbody></table></section>
+<h2>Ressource</h2>
+<ul>
+<li>https://webmin.com/download/</li>
+</ul>
+</section>
 	<footer>
-		<em class="author">par Shionn, le 01 janvier 2026.</em>
+		<em class="author">par Shionn, le 01 janvier 2025.</em>
 		<h2>Commentaires</h2>
 		<div class="comments"></div>
 		<h2>Ajouter un commentaire</h2>
@@ -735,9 +774,7 @@ On est loin d'avoir une armée complete il s'agit simplement de la partie naine 
 	<script type="text/javascript" src="js/comment.js"></script>
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
-	<script type="text/javascript" src="js/paint-db.js"></script>
-	<script type="text/javascript" src="js/paint-equivalence-db.js"></script>
-	<script type="text/javascript" src="js/paint-guide.js"></script>
+	<script type="text/javascript" src="js/hljs/bash.min.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>
