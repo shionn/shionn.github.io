@@ -47,3 +47,40 @@ Ombrage	72044
 Éclaircissement	72107
 Rehaut	72100
 [/paints]
+
+[paints title="Tunique Bleu"]
+Base	72019
+Éclaircissement	72022
+Éclaircissement	721117
+Rehaut	72095
+[/paints]
+
+[paints title="Tunique Rouge"]
+Base	72112
+Éclaircissement	72011
+Éclaircissement	72010
+Rehaut	72009
+[/paints]
+
+[paints title="Tunique Bleu/Turquoise"]
+Base	72120
+Éclaircissement	72024
+Éclaircissement	72119
+Rehaut	72096
+[/paints]
+
+[paints title="Tunique Verte/Jade"]
+Base	72027
+Éclaircissement	72026
+Éclaircissement	72025
+Rehaut	72121
+[/paints]
+
+[paints title="Tunique Violette"]
+Base	72112
+Éclaircissement	72015
+Éclaircissement	72076
+Rehaut	72114
+[/paints]
+
+
