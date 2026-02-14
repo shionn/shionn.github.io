@@ -14,28 +14,6 @@ En effet, les impôts sur les alcools sont réduits quand on est membre de la gu
 
 Techniquement c'est un tank, je me planque derriere un gros bouclier en attendant de fouttre un gros coup de hache dans la gueule de mes adversaire. Voir les [statistiques et autres informations](/2025/whisperia-ressources.html).
 
-## Autre pnj
-
-[table title="Personnages" cols="Nom,Description" class="pyjama"]
-Amenalion	Necromancien raignant sur les catacombes
-Andreas	Epicier d'Heavenrir
-Aldia	Un druid qui a mangé trop de champignon
-Balgrim	Banque de guilde
-Fenric	Rodeur de Heavenrir
-Goldric	Aubergiste de Heavenrir
-Gorgul	L'orc que nous avons combatu a la sorti du tombeau
-Gustave	Un marchamp itinérant
-Heinsendorale	Mage de Heavenrir
-Noratu	Enfant disparu de Heavenrir
-Snoopy	Le géant qui nous a raccomppagné à Heavenrir
-Talendrick	Forgeron de Heavenrir
-Tord Boyau	Loup garou dirigeant les loup autour d'Heavenrir
-Zeférion	Demon de l'ancien temps qui cherche à détruire le monde
-Lieux connus
-Heavenrir	Ville central de Whisperia
-Ragnord	Ruines dans lequel nous avons été fait prisonnier
-[/table]
-
 # Précédemment...
 
 Nous avons trouvé une carte nous parlant d'un trésor. En nous rendant sur place, nous sommes tombé dans un piège
@@ -64,6 +42,8 @@ Toutes nos aventures dans les articles précédent :
 Cette partie s'est déroulée le 18 Octobre 2025. Dont voici le replay :
 
 [youtube video="Wo7ZRDrZyx8"/]
+
+[youtube video="Iq_EF85btXw"/]
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car Whisp fait n'importe quoi.*
 
