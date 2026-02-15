@@ -420,7 +420,8 @@ q(function() {
 			.progress("13/02/2026", tony, 1, "Sony Jona", _SMALL)
 			.progress("13/02/2026", whisp, 7, "Voleurs à dos de fourmis géantes", _MEDIUM)
 			.progress("13/02/2026", whisp, 1, "Chef à pieds", _SMALL)
-			.progress("13/02/2026", whisp, 1, "Elementaire de pierre sableuse", _BIG)
+			.progress("13/02/2026", whisp, 1, "Elementaire de pierre sableuse", _MEDIUM)
+			.progress("15/02/2026", whisp, 3, "Lézard", _MEDIUM)
 			.render();
 
 
