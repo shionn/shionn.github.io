@@ -363,7 +363,7 @@ q(function() {
 	const _Gargantuesque = 11;
 	const _BonPlan = 12;
 
-	//let angest = new _player("Angest", "pirate12.png");
+	let angest = new _player("Angest", "pirate12.png", 2);
 	let anuabi = new _player("Anuabi", "pirate12.png", 2);
 	//let ben = new _player("Ben illustrateur", "pirate07.png");
 	let bnachee = new _player("Bnachee", "pirate02.png");
@@ -422,11 +422,12 @@ q(function() {
 			.progress("13/02/2026", whisp, 1, "Chef à pieds", _SMALL)
 			.progress("13/02/2026", whisp, 1, "Elementaire de pierre sableuse", _MEDIUM)
 			.progress("15/02/2026", whisp, 3, "Lézard", _MEDIUM)
+			.progress("15/02/2026", angest, 1, "Requin", _BIG)
 			.render();
 
 
 //
-	_renderPlayers([bnachee, cuistotfou, faran, jeff, marco, phylios, shionn, tony, transfopaper, tupad, whisp]);
+	_renderPlayers([angest, bnachee, cuistotfou, faran, jeff, marco, phylios, shionn, tony, transfopaper, tupad, whisp]);
 	_renderQuests([q1,q2]);
 
 });
