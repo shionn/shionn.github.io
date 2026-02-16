@@ -424,6 +424,9 @@ q(function() {
 			.progress("15/02/2026", whisp, 3, "Lézard", _MEDIUM)
 			.progress("15/02/2026", angest, 1, "Requin", _BIG)
 			.progress("15/02/2026", angest, 1, "Harley Queen", _BIG)
+			.progress("16/02/2026", shionn, 10, "Nains", _SMALL)
+			.progress("16/02/2026", shionn, 1, "court-agent", _SMALL)
+			.progress("16/02/2026", shionn, 1, "krill-conscript", _MEDIUM)
 			.render();
 
 
