@@ -48,6 +48,13 @@ Ombrage	72044
 Rehaut	72100
 [/paints]
 
+[paints title="Terre"]
+Base	72062
+Ombrage	72420
+Brossage	72063
+[/paints]
+
+
 [paints title="Tunique Bleu"]
 Base	72019
 Éclaircissement	72022

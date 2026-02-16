@@ -423,6 +423,7 @@ q(function() {
 			.progress("13/02/2026", whisp, 1, "Elementaire de pierre sableuse", _MEDIUM)
 			.progress("15/02/2026", whisp, 3, "Lézard", _MEDIUM)
 			.progress("15/02/2026", angest, 1, "Requin", _BIG)
+			.progress("15/02/2026", angest, 1, "Harley Queen", _BIG)
 			.render();
 
 
