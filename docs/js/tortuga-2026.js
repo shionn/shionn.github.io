@@ -428,6 +428,7 @@ q(function() {
 			.progress("16/02/2026", shionn, 10, "Nains", _SMALL)
 			.progress("16/02/2026", shionn, 1, "court-agent", _SMALL)
 			.progress("16/02/2026", shionn, 1, "krill-conscript", _MEDIUM)
+			.progress("17/02/2026", whisp, 1, "Gwen, la Tanneuse d'Heavenrir", _SMALL)
 			.render();
 
 
