@@ -232,8 +232,11 @@ Pour des astuces plus généraliste merci de <a href="2023/debian-general-help-k
 sudo apt update
 sudo apt install steam
 </code></pre>
-<h2>Proton GE</h2>
-<p>Créer le dossier compatibilitytools.d dans steam si inexistant :</p>
+<h2>Bottle</h2>
+<pre class="shell"><code class="shell">sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub com.usebottles.bottles
+</code></pre>
 </section>
 	<footer>
 		<a href="2025/debian-gaming-help-kit.html"><span class="fa fa-eye"></span> Lire la suite</a>
