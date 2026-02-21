@@ -209,226 +209,50 @@
 			<article>
 	<header>
 		
-		<h1><a href="2023/debian-general-help-kit.html">Kit de Survie sur Debian</a></h1>
+		<h1><a href="draft/mirroir-apt.html">Mirroir apt</a></h1>
 		<div>
-			<span>Publié le 22 novembre 2023</span>
+			<span>Publié le 01 janvier 2026</span>
 			<span>
 				<span class="fa fa-folder-open"></span>
 				<a href="category/linux.html">Linux</a>
 			</span>
 			<span>
 				<span class="fa fa-flag"></span>
-				<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/desktop.html">Desktop</a><a href="tag/kit-survie.html">Kit Survie</a>
+				<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/apt.html">Apt</a><a href="tag/server.html">Server</a>
 			</span>
 		</div>
 	</header>
-	<section><p>Voici ma petite liste de truc et astuce sur Debian.</p>
-<h1>Audio</h1>
-<h2>Pavucontrol</h2>
-<p>Outil pour mieux contrôler les périphériques audio</p>
-<pre class="shell"><code class="shell">apt install pavucontrol
+	<section><h1>Installation</h1>
+<h2>Serveur http</h2>
+<p>Un serveur HTTP est nécessaire pour héberger le répertoire.
+Dans mon cas, j'ai opté pour une solution simple en installant un serveur lighttpd.</p>
+<pre class="bash"><code class="bash">sudo apt install lighttpd
 </code></pre>
-<h2>audio qui crack</h2>
-<p>Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire resout le probleme.</p>
-<pre class="shell"><code class="shell">systemctl --user restart pipewire.service
+<p>Ensuite il faut creer un répertoire &quot;debian&quot; dans le dossier <code>/var/www/html/</code>.</p>
+<h2>Apt-mirror</h2>
+<p>C'est apt mirror qui permet de cloner le repo officiel</p>
+<pre class="bash"><code class="bash">sudo
 </code></pre>
-<h1>Cron</h1>
-<h2>Cron au boot</h2>
-<p>Créer un dossier <code>/etc/crton.reboot</code> puis ajouter cela au fichier <code>/etc/crontab</code></p>
-<pre class="shell"><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
-</code></pre>
-<h1>Eclipse</h1>
-<h2>Eclipse erreur ouverture markdown</h2>
-<p>Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.</p>
-<pre class="shell"><code class="shell">sudo apt install libwebkit2gtk-4.0-37
-</code></pre>
-<h2>Eclipse wayland</h2>
-<pre class="shell"><code class="shell">#/bin/shell
-export WEBKIT_DISABLE_COMPOSITING_MODE=1
-/path/to/eclipse/eclipse
-</code></pre>
-<h2>Les hauteur de ligne qui change au scroll</h2>
-<p>C'est généralement liè à un porbleme de caractere special mal affiché qui flingue les hauteurs de ligne.</p>
-<h2>Créer un raccourci</h2>
-<p>Ajouter un fichier <code>/usr/share/application/eclipse.desktop</code>.</p>
-<pre class="shell"><code class="shell">[Desktop Entry]
-Name=Eclipse
-Comment=Eclipse
-GenericName=Eclipse
-X-GNOME-FullName=Eclipse
-Exec=/home/shionn/.eclipse-jee-2025-09-R-linux-gtk-x86_64/eclipse
-Terminal=false
-X-MultipleArgs=false
-Type=Application
-Icon=/home/shionn/.eclipse-jee-2025-09-R-linux-gtk-x86_64/icon.xpm
-Categories=Development;
-StartupWMClass=Eclipse
-StartupNotify=true
-</code></pre>
-<h1>File system</h1>
-<h2>Samba et fstab</h2>
-<p>Créer un fichier <em>.smbcredentials</em> dans votre /home :</p>
-<pre class="shell"><code class="shell">username=votre user
-password=votre mot de pass
-domaine=WORKGROUP
-</code></pre>
-<p>Installer le package <em>cifs-utils</em>.</p>
-<p>Éditer votre fichier fstab comme suit :</p>
-<pre class="shell"><code class="shell">//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
-</code></pre>
-<p>Puis recharger la configuration comme suit : <code>sudo systemctl daemon-reload</code></p>
-<h1>Gnome</h1>
-<h2>ALT-F5 qui fait nimp</h2>
-<p>Dans dconf-editor modifier la clef <code>unmaximise</code> dans le dossier : <code>org.gnome.desktop.wm.keybindings</code></p>
-<h2>Desactiver pasword apres sleep</h2>
-<p>Installer dconf-editor modifier la clef <code>/org/gnome/desktop/screensaver lock-enable</code> à false</p>
-<h2>Outils de visualisation</h2>
+<p>Puis on dois configurer les repo qu'on va mirroir. Et ou. Il faut editer le fichier /etc/apt/mirror.list. Dans mon cas j'ai besoin :</p>
 <ul>
-<li>evince : viewer de PDF</li>
-<li>f3d : viewer de model 3D</li>
-<li>loupe : viewer d'image</li>
+<li>des architecture i368 et amd64</li>
+<li>des branch main testing unstable</li>
 </ul>
-<pre class="shell"><code class="shell">sudo apt install evince f3d loupe
+<pre class="bash"><code class="bash">set base_path /var/www/html/debian
+set defaultarch i386 amd64
 </code></pre>
-<h2>Le pc ne se met pas en veille</h2>
-<p>Généralement un processus l'en empêche. J'ai trouvé cette astuce sur Reddit. Pour connaître ce processus vous pouvez entrer cette commande :</p>
-<pre class="shell"><code class="shell">dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager org.gnome.SessionManager.GetInhibitors
+<p>TODO ajouter les sources.&gt;</p>
+<p>il faut copier les scripts de /var/spool/apt-mirror/var var /var/www/html/debian/var. oui les script sont vide par defaut.</p>
+<pre class="bash"><code class="bash">mkdir /var/www/html/debian/var
+cp /var/spool/apt-mirror/var/clean.sh /var/www/html/debian/var
+cp /var/spool/apt-mirror/var/postmirror.sh /var/www/html/debian/var
 </code></pre>
-<p>Cela vous donnera une réponse comme cela :</p>
-<pre class="shell"><code class="shell">method return time=1728730333.701330 sender=:1.28 -&gt; destination=:1.303 serial=2481 reply_serial=2
-   array [
-      object path &quot;/org/gnome/SessionManager/Inhibitor272&quot;
-   ]
-</code></pre>
-<p>Ensuite on reprend le <strong>/org/gnome/SessionManager/Inhibitor272</strong> qu'on met dans cette commande :</p>
-<pre class="shell"><code class="shell">dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager/Inhibitor272 org.gnome.SessionManager.Inhibitor.GetAppId
-</code></pre>
-<p>Qui nous donnera ce résultat :</p>
-<pre class="shell"><code class="shell">method return time=1728730410.581488 sender=:1.28 -&gt; destination=:1.304 serial=2482 reply_serial=2
-   string &quot;firefox&quot;
-</code></pre>
-<h1>Impression 3D</h1>
-<h2>Creality print</h2>
-<p>Télécharger la derniere version en flatpack de créalityprint sur leurs <a href="https://github.com/CrealityOfficial/CrealityPrint" target="_blank">github</a>.</p>
-<pre class="shell"><code class="shell">sudo apt install flatpack
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install &lt;CrealityPrint-Linux-flatpak_V6.3.0-Release_x86_64&gt;.flatpak
-flatpak run io.github.crealityofficial.CrealityPrint
-</code></pre>
-<p>à traiter pour Hyprland :</p>
-<pre class="java"><code class="java">Note that the directories
-
-'/var/lib/flatpak/exports/share'
-'/home/&lt;shionn&gt;/.local/share/flatpak/exports/share'
-
-are not in the search path set by the XDG_DATA_DIRS environment variable, so applications installed by Flatpak may not appear on your desktop until the session is restarted.
-</code></pre>
-<h1>Jeux</h1>
-<p>Voir ma page <a href="2025/debian-gaming-help-kit.html">dédié au jeux</a></p>
-<h1>Journalctl</h1>
-<h2>Log qui spam</h2>
-<p>J'ai un spam de ce log.</p>
-<pre class="shell"><code class="shell">i2c-designware-pci 0000:09:00.3: Refused to change power state from D0 to D3hot
-</code></pre>
-<p>Il semblerai qu'ajouter l'option suivante la grub resolve le probleme :</p>
-<pre class="shell"><code class="shell">GRUB_CMDLINE_LINUX=&quot;pcie_port_pm=off&quot;
-</code></pre>
-<h1>Materiel</h1>
-<h2>Faire un smart profond</h2>
-<pre class="shell"><code class="shell"># lancer le test
-sudo smartctl -t long /dev/nvme0
-# voir la progress
-sudo smartctl -a /dev/nvme0 | grep -i progress
-# voir les résultats
-sudo smartctl -a /dev/nvme0
-</code></pre>
-<h1>Proxmox</h1>
-<h2>changer le hostname d'un container</h2>
-<pre class="shell"><code class="shell">pct set &lt;VMID&gt; --hostname &lt;newname&gt;
-</code></pre>
-<h2>changer les uid dans un rootfs</h2>
-<pre class="shell"><code class="shell">pct mount &lt;ID&gt;
-cd /var/lib/lxc/&lt;ID&gt;/rootfs
-find /var/lib/lxc/&lt;ID&gt;/rootfs/ -user &lt;OLDUID&gt; -exec chown -h &lt;NEWUID&gt; {} \;
-find /var/lib/lxc/&lt;ID&gt;/rootfs/ -group &lt;OLDGID&gt; -exec chgrp -h &lt;NEWGID&gt; {} \; 
-pct unmount &lt;ID&gt;
-</code></pre>
-<h2>Supprimer un volum non utilise</h2>
-<pre class="bash"><code class="bash">pvesm list &lt;storage&gt;
-pvesm free &lt;storage&gt;:&lt;volume&gt;
-</code></pre>
-<h1>Vidéo</h1>
-<h2>OBS pas de Vaapi</h2>
-<pre class="shell"><code class="shell">apt install mesa-va-drivers
-</code></pre>
-<h1>Vim</h1>
-<p>Configuration de vim, désactiver le mode de séléction à la souris :</p>
-<pre class="shell"><code class="shell">echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
-</code></pre>
-<p>Ajouter la coloration syntaxic :</p>
-<pre class="shell"><code class="shell">echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
-</code></pre>
-<h1>Youtube</h1>
-<h2>Downloader une video</h2>
-<p>En discutant en vocale sur le didi de Steve, j'ai decouvert ce petit outil.</p>
-<pre class="shell"><code class="shell">sudo apt install yt-dlp
-yt-dlp -f 'bestvideo[codec^=av01]/bestvideo+bestaudio' --merge-output-format mkv &lt;URL&gt;
-</code></pre>
-<p>On peu aller tres loin, pour telecharger toutes les musiques d'une playlist et en plus découper chaque video selon le chapitrage avec les mignatures  :</p>
-<pre class="shell"><code class="shell">yt-dlp --split-chapters -f 'bestaudio' --output '%(playlist_title)s/sources/%(title)s.%(ext)s' --output chapter:'%(playlist_title)s/%(title)s/%(section_number)02d - %(section_title)s.%(ext)s' --restrict-filenames --write-thumbnail --output thumbnail:'%(playlist_title)s/%(title)s/00 - %(title)s.%(ext)s' &lt;URL en /playlist?list=&gt;
-</code></pre>
-<h1>Wayland</h1>
-<h2>Executer un truc en XWayland :</h2>
-<pre class="shell"><code class="shell">GDK_BACKEND=x11 &lt;command&gt;
-</code></pre>
-<h1>Seveur</h1>
-<h2>Initialisation</h2>
-<p>Sur chacun de mes serveurs je commence par faire cela :</p>
-<pre class="shell"><code class="shell">apt install bash-completion vim -y
-apt remove nano -y
-echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
-echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
-echo &quot;alias ll=\&quot;ls -l\&quot;&quot; &gt;&gt; ~/.bashrc
-echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.bashrc
-</code></pre>
-<h2>Tomcat</h2>
-<p>Quand je veux déployé dans ROOT je dois changer les droit d'accès dans le dossier ROOT de <code>/var/lib/tomcat10/webapps</code></p>
-<p>Pour répondre sur 80 dans le fichier : <code>/etc/tomcat10/server.xml</code></p>
-<h2>Tuto file serveur sur promox</h2>
-<p>J'aime pas les tuto youtube mais celui la est bien <a href="https://youtu.be/I7nfSCNKeck?si=uNb3HVNwdK8xJMQQ" target="_blank">MRP</a></p>
-<h2>hdparm spindown des disks :</h2>
-<p><a href="https://wiki.archlinux.org/title/Hdparm" target="_blank">source</a></p>
-<pre class="shell"><code class="shell">#/etc/udev/rules.d/69-hdparm.rules
-ACTION==&quot;add|change&quot;, KERNEL==&quot;sd[a-z]&quot;, ATTRS{queue/rotational}==&quot;1&quot;, RUN+=&quot;/usr/bin/hdparm -B 127 /dev/%k&quot;
-</code></pre>
-<h2>Connaitre quel processus ecoute sur quel port</h2>
-<p>on peu utilisé netstat : <code>apt instal</code> netstat puis <code>netstat -ltnp</code></p>
-<h2>Creer un service</h2>
-<p>Par exemple : <strong>/etc/systemd/system/MonService.service</strong></p>
-<pre class="shell"><code class="shell">[Unit]
-Description=NOM DU SERVICE
-After=syslog.target network.target
-
-[Service]
-SuccessExitStatus=143
-User=root
-Group=root
-Type=simple
-Environment=&quot;FOO=BAR&quot;
-WorkingDirectory=/root
-ExecStart=/absolut/path/truc.sh
-ExecStop=/bin/kill $MAINPID
-
-[Install]
-WantedBy=multi-user.target
-</code></pre>
-<p>Puis :</p>
-<pre class="shell"><code class="shell">sudo systemctl daemon-reload
-sudo systemctl enable MonService.service
-</code></pre>
+<p>puis pour lancer le clone il faut faire un <code>apt-mirror</code></p>
+<h2>Mise à jour automatique</h2>
+<p>Ajouter une crontab qui fait un apt-mirror.</p>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 15 octobre 2025</span>.</em>
+		<em class="author">par Shionn, le 01 janvier 2026.</em>
 		<h2>Commentaires</h2>
 		<div class="comments"></div>
 		<h2>Ajouter un commentaire</h2>
