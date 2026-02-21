@@ -203,6 +203,13 @@ find /var/lib/lxc/<ID>/rootfs/ -group <OLDGID> -exec chgrp -h <NEWGID> {} \;
 pct unmount <ID>
 ~~~
 
+## Supprimer un volum non utilise
+
+~~~bash
+pvesm list <storage>
+pvesm free <storage>:<volume>
+~~~
+
 # Vidéo
 ## OBS pas de Vaapi
 ~~~shell

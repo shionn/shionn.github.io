@@ -431,6 +431,7 @@ q(function() {
 			.progress("17/02/2026", whisp, 1, "Gwen, la Tanneuse d'Heavenrir", _SMALL)
 			.progress("20/02/2026", whisp, 2, "Nobles", _SMALL)
 			.progress("20/02/2026", whisp, 3, "Depouille", _SMALL_DECOR)
+			.progress("21/02/2026", shionn, 1, "Gastefauve Noir-serment", _BIG)
 			.render();
 
 
