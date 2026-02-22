@@ -432,6 +432,8 @@ q(function() {
 			.progress("20/02/2026", whisp, 2, "Nobles", _SMALL)
 			.progress("20/02/2026", whisp, 3, "Depouille", _SMALL_DECOR)
 			.progress("21/02/2026", shionn, 1, "Gastefauve Noir-serment", _BIG)
+			.progress("22/02/2026", shionn, 1, "Bishop of Elishu", _MEDIUM)
+			.doChallenge("22/02/2026", shionn)
 			.render();
 
 
