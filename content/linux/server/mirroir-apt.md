@@ -6,7 +6,7 @@
 Un serveur HTTP est nécessaire pour héberger le répertoire. 
 Dans mon cas, j'ai opté pour une solution simple en installant un serveur lighttpd.
 
-~~~bash
+~~~shell
 sudo apt install lighttpd
 ~~~
 
@@ -15,7 +15,7 @@ Ensuite il faut creer un répertoire "debian" dans le dossier `/var/www/html/`.
 Puis j'active le mode `mod_dirlisting` en editant le fichier `/etc/lighttpd/lighttpd.conf` 
 en ajoutant le module dans la conf `server.modules` : 
 
-~~~bash
+~~~shell
 server.modules = (
         "mod_indexfile",
         "mod_access",
@@ -31,8 +31,8 @@ Et j'ajoute une ligne de configuration `server.dir-listing = "enable"`.
 
 C'est apt mirror qui permet de cloner le repo officiel
 
-~~~bash
-sudo
+~~~shell
+sudo apt install apt-mirror
 ~~~
 
 Puis on dois configurer les repo qu'on va mirroir. Et ou. Il faut editer le fichier /etc/apt/mirror.list. Dans mon cas j'ai besoin :

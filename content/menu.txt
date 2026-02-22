@@ -71,14 +71,14 @@ category/code	Code
 	tag/arduino	Arduino
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode
 		2025/connexion-wifi-esp32	Connexion WiFi sur ESP32
-		2025/ntp-esp32	Synchronisation horloge ntp sur ESP32	2025-12-04
+		2025/ntp-esp32	Synchronisation horloge ntp sur ESP32
 	tag/java	Java
 		2025/bot-discord-en-java	Bot discord
 		2026/pattern-singleton-java	Pattern Singleton	2026-05-21
 		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX
-	tag/python	Python	2025-12-28
-		2026/bot-twitch-python	Bot Twitch	2026-02-06
-		2025/site-web-python-flask	Site web avec Flask	2025-12-28
+	tag/python	Python
+		2026/bot-twitch-python	Bot Twitch
+		2025/site-web-python-flask	Site web avec Flask
 mailto:shionn@gmail.com	Contact & Lien
 	mailto:shionn@gmail.com	Me contacter
 		mailto:shionn@gmail.com	Shionn@gmail.com
