@@ -63,9 +63,14 @@ find /var/lib/lxc/<ID>/rootfs/ -group 100100 -exec chgrp -h 456 {} \;
 pct unmount <ID>
 ~~~
 
+Mais cela ne suffit pas. Il faut également permettre ce mapping.
+Cela se fait dans les fichiers `/etc/subuid` et `/etc/subgid`.
+Il faut ajouter des lignes comme `root:100:1`.
+Il faut comprendre que cela permet de mapper 1 identifiant à partir de 100.
+
 # Supprimer un volume non utilisé
 
-Il peu arriver parfois que vous retrouvier avec des volume qui ne sont plus utilisé suite a des migrations.
+Il peut arriver parfois que vous vous retrouviez avec des volumes qui ne sont plus utilisés suite à des migrations.
 
 ~~~bash
 pvesm list <storage>
