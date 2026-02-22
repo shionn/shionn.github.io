@@ -209,16 +209,16 @@
 			<article>
 	<header>
 		
-		<h1><a href="draft/proxmox-help-kit.html">Kit de Survie sur Proxmox</a></h1>
+		<h1><a href="draft/proxmox-help-kit.html">Kit d&#39;aide sur Proxmox</a></h1>
 		<div>
-			<span>Publié le 01 janvier 2026</span>
+			<span>Publié le 10 mars 2026</span>
 			<span>
 				<span class="fa fa-folder-open"></span>
 				<a href="category/linux.html">Linux</a>
 			</span>
 			<span>
 				<span class="fa fa-flag"></span>
-				<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/desktop.html">Desktop</a><a href="tag/kit-survie.html">Kit Survie</a>
+				<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/server.html">Server</a><a href="tag/kit-survie.html">Kit Survie</a>
 			</span>
 		</div>
 	</header>
@@ -259,14 +259,18 @@ find /var/lib/lxc/&lt;ID&gt;/rootfs/ -user 101000 -exec chown -h 123 {} \;
 find /var/lib/lxc/&lt;ID&gt;/rootfs/ -group 100100 -exec chgrp -h 456 {} \; 
 pct unmount &lt;ID&gt;
 </code></pre>
+<p>Mais cela ne suffit pas. Il faut également permettre ce mapping.
+Cela se fait dans les fichiers <code>/etc/subuid</code> et <code>/etc/subgid</code>.
+Il faut ajouter des lignes comme <code>root:100:1</code>.
+Il faut comprendre que cela permet de mapper 1 identifiant à partir de 100.</p>
 <h1>Supprimer un volume non utilisé</h1>
-<p>Il peu arriver parfois que vous retrouvier avec des volume qui ne sont plus utilisé suite a des migrations.</p>
+<p>Il peut arriver parfois que vous vous retrouviez avec des volumes qui ne sont plus utilisés suite à des migrations.</p>
 <pre class="bash"><code class="bash">pvesm list &lt;storage&gt;
 pvesm free &lt;storage&gt;:&lt;volume&gt;
 </code></pre>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 01 janvier 2026.</em>
+		<em class="author">par Shionn, le 10 mars 2026.</em>
 		<h2>Commentaires</h2>
 		<div class="comments"></div>
 		<h2>Ajouter un commentaire</h2>

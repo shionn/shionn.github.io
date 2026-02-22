@@ -57,7 +57,8 @@ category/linux	Linux
 		2024/docker-sur-debian	Installation Docker sur Debian
 		2024/nginx-proxy-manager	Installation Nginx proxy manager
 		2025/jellyfin-proxmox-hardware-encode	Jellyfin, Transcodage matériel, Proxmox
-		2026/nvidia-proxmox-lxc-passthrought-ollama	Ollama Nvidia Passthrought LXC	2026-03-10
+		2026/nvidia-proxmox-lxc-passthrought-ollama	Ollama Nvidia Passthrought LXC	2026-04-03
+		2025/proxmox-help-kit	Kit d'aide sur Proxmox	2026-03-10
 	tag/desktop	Desktop
 		2023/debian-general-help-kit	Kit d'aide généraliste sur Debian
 		2025/debian-gaming-help-kit	Kit d'aide Gaming sur Debian
@@ -73,7 +74,7 @@ category/code	Code
 		2025/ntp-esp32	Synchronisation horloge ntp sur ESP32	2025-12-04
 	tag/java	Java
 		2025/bot-discord-en-java	Bot discord
-		2026/pattern-singleton-java	Pattern Singleton	2026-04-27
+		2026/pattern-singleton-java	Pattern Singleton	2026-05-21
 		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX
 	tag/python	Python	2025-12-28
 		2026/bot-twitch-python	Bot Twitch	2026-02-06
