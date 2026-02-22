@@ -12,6 +12,21 @@ sudo apt install lighttpd
 
 Ensuite il faut creer un répertoire "debian" dans le dossier `/var/www/html/`. 
 
+Puis j'active le mode `mod_dirlisting` en editant le fichier `/etc/lighttpd/lighttpd.conf` 
+en ajoutant le module dans la conf `server.modules` : 
+
+~~~bash
+server.modules = (
+        "mod_indexfile",
+        "mod_access",
+        "mod_alias",
+        "mod_redirect",
+        "mod_dirlisting"
+)
+~~~
+
+Et j'ajoute une ligne de configuration `server.dir-listing = "enable"`. 
+
 ## Apt-mirror 
 
 C'est apt mirror qui permet de cloner le repo officiel
@@ -46,4 +61,12 @@ puis pour lancer le clone il faut faire un `apt-mirror`
 
 ## Mise à jour automatique 
 
-Ajouter une crontab qui fait un apt-mirror.
+Ajouter une crontab qui fait un apt-mirror. 
+Dans mon cas j'ai decaler les crontab daily à 1h du mat et j'ai ajouté ce script dans /etc/crontab.daily. 
+Il ne faut pas oublier de rendre executable.
+
+~~~bash
+/usr/bin/apt-mirror >> /var/log/apt-mirror-report.log
+~~~
+
+# utili

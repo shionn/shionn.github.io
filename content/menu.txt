@@ -49,7 +49,7 @@ category/jdr	JdR
 		2025/whisperia-1x10-caleche-loup	10: Calèche & Loups
 		2025/whisperia-1x11-retour-en-ville	11 : Retour en Ville
 		2025/whisperia-1x12-deux-personnages	12 : Deux personnages
-		2025/whisperia-1x13-les-hobgobelins	13 : Les Hobgobelins	2026-02-14
+		2026/whisperia-1x13-les-hobgobelins	13 : Les Hobgobelins
 	tag/whisperia	Donnée sur Whisperia
 		2025/whisperia-ressources	Ressources
 category/linux	Linux
@@ -73,7 +73,7 @@ category/code	Code
 		2025/ntp-esp32	Synchronisation horloge ntp sur ESP32	2025-12-04
 	tag/java	Java
 		2025/bot-discord-en-java	Bot discord
-		2025/pattern-singleton-java	Pattern Singleton	2026-04-27
+		2026/pattern-singleton-java	Pattern Singleton	2026-04-27
 		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX
 	tag/python	Python	2025-12-28
 		2026/bot-twitch-python	Bot Twitch	2026-02-06

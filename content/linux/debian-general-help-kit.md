@@ -186,30 +186,6 @@ sudo smartctl -a /dev/nvme0 | grep -i progress
 sudo smartctl -a /dev/nvme0
 ~~~
 
-# Proxmox
-## changer le hostname d'un container
-
-~~~shell
-pct set <VMID> --hostname <newname>
-~~~
-
-## changer les uid dans un rootfs
-
-~~~shell
-pct mount <ID>
-cd /var/lib/lxc/<ID>/rootfs
-find /var/lib/lxc/<ID>/rootfs/ -user <OLDUID> -exec chown -h <NEWUID> {} \;
-find /var/lib/lxc/<ID>/rootfs/ -group <OLDGID> -exec chgrp -h <NEWGID> {} \; 
-pct unmount <ID>
-~~~
-
-## Supprimer un volum non utilise
-
-~~~bash
-pvesm list <storage>
-pvesm free <storage>:<volume>
-~~~
-
 # Vidéo
 ## OBS pas de Vaapi
 ~~~shell
