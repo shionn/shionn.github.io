@@ -226,12 +226,12 @@
 <h2>Serveur http</h2>
 <p>Un serveur HTTP est nécessaire pour héberger le répertoire.
 Dans mon cas, j'ai opté pour une solution simple en installant un serveur lighttpd.</p>
-<pre class="bash"><code class="bash">sudo apt install lighttpd
+<pre class="shell"><code class="shell">sudo apt install lighttpd
 </code></pre>
 <p>Ensuite il faut creer un répertoire &quot;debian&quot; dans le dossier <code>/var/www/html/</code>.</p>
 <p>Puis j'active le mode <code>mod_dirlisting</code> en editant le fichier <code>/etc/lighttpd/lighttpd.conf</code>
 en ajoutant le module dans la conf <code>server.modules</code> :</p>
-<pre class="bash"><code class="bash">server.modules = (
+<pre class="shell"><code class="shell">server.modules = (
         &quot;mod_indexfile&quot;,
         &quot;mod_access&quot;,
         &quot;mod_alias&quot;,
@@ -242,19 +242,19 @@ en ajoutant le module dans la conf <code>server.modules</code> :</p>
 <p>Et j'ajoute une ligne de configuration <code>server.dir-listing = &quot;enable&quot;</code>.</p>
 <h2>Apt-mirror</h2>
 <p>C'est apt mirror qui permet de cloner le repo officiel</p>
-<pre class="bash"><code class="bash">sudo
+<pre class="shell"><code class="shell">sudo apt install apt-mirror
 </code></pre>
 <p>Puis on dois configurer les repo qu'on va mirroir. Et ou. Il faut editer le fichier /etc/apt/mirror.list. Dans mon cas j'ai besoin :</p>
 <ul>
 <li>des architecture i368 et amd64</li>
 <li>des branch main testing unstable</li>
 </ul>
-<pre class="bash"><code class="bash">set base_path /var/www/html/debian
+<pre class="shell"><code class="shell">set base_path /var/www/html/debian
 set defaultarch i386 amd64
 </code></pre>
 <p>TODO ajouter les sources.&gt;</p>
 <p>il faut copier les scripts de /var/spool/apt-mirror/var var /var/www/html/debian/var. oui les script sont vide par defaut.</p>
-<pre class="bash"><code class="bash">mkdir /var/www/html/debian/var
+<pre class="shell"><code class="shell">mkdir /var/www/html/debian/var
 cp /var/spool/apt-mirror/var/clean.sh /var/www/html/debian/var
 cp /var/spool/apt-mirror/var/postmirror.sh /var/www/html/debian/var
 </code></pre>
@@ -263,9 +263,9 @@ cp /var/spool/apt-mirror/var/postmirror.sh /var/www/html/debian/var
 <p>Ajouter une crontab qui fait un apt-mirror.
 Dans mon cas j'ai decaler les crontab daily à 1h du mat et j'ai ajouté ce script dans /etc/crontab.daily.
 Il ne faut pas oublier de rendre executable.</p>
-<pre class="bash"><code class="bash">/usr/bin/apt-mirror &gt;&gt; /var/log/apt-mirror-report.log
+<pre class="shell"><code class="shell">/usr/bin/apt-mirror &gt;&gt; /var/log/apt-mirror-report.log
 </code></pre>
-<h1>utili</h1>
+<h1>Utilisation</h1>
 </section>
 	<footer>
 		<em class="author">par Shionn, le 01 janvier 2026.</em>
