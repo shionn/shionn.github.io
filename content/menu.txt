@@ -67,6 +67,7 @@ category/linux	Linux
 	tag/matos	Matos
 		2025/pc-gaming-m720q-rx6400	Mini Pc Gaming M720q
 		2025/homelab-processeur	Processeur pour Homelab
+		2026/pc-gaming-m720q-rx6400-v2	Mini Pc Gaming M720q v2	2026-04-27
 category/code	Code
 	tag/arduino	Arduino
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode

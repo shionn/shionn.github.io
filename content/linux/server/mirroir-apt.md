@@ -39,8 +39,7 @@ Puis on dois configurer les repo qu'on va mirroir. Et ou. Il faut editer le fich
 - des architecture i368 et amd64
 - des branch main testing unstable
 
-
-~~~bash
+~~~shell
 set base_path /var/www/html/debian
 set defaultarch i386 amd64
 ~~~
@@ -49,7 +48,7 @@ TODO ajouter les sources.>
 
 il faut copier les scripts de /var/spool/apt-mirror/var var /var/www/html/debian/var. oui les script sont vide par defaut. 
 
-~~~bash
+~~~shell
 mkdir /var/www/html/debian/var
 cp /var/spool/apt-mirror/var/clean.sh /var/www/html/debian/var
 cp /var/spool/apt-mirror/var/postmirror.sh /var/www/html/debian/var
@@ -65,8 +64,8 @@ Ajouter une crontab qui fait un apt-mirror.
 Dans mon cas j'ai decaler les crontab daily à 1h du mat et j'ai ajouté ce script dans /etc/crontab.daily. 
 Il ne faut pas oublier de rendre executable.
 
-~~~bash
+~~~shell
 /usr/bin/apt-mirror >> /var/log/apt-mirror-report.log
 ~~~
 
-# utili
+# Utilisation
