@@ -144,5 +144,9 @@ Mais aucune récompense n'est prévu car je sais qu'il y en a de trop !
 
 <div id="tortuga-2026-quest-2"></div>
 
+## Rassembler un équipage
+
+<div id="tortuga-2026-quest-3"></div>
+
 
 

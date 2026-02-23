@@ -435,11 +435,16 @@ q(function() {
 			.progress("22/02/2026", shionn, 1, "Bishop of Elishu", _MEDIUM)
 			.doChallenge("22/02/2026", shionn)
 			.progress("22/02/2026", shionn, 1, "Truc Genshin", _SMALL_DECOR)
+			.progress("23/02/2026", whisp, 1, "Hallebardier", _SMALL)
+			.render();
+
+	let q3 = new _quest("quest-3", "Rassembler un équipage", "Peindre 40 figurines", 40)
+			.progress("23/02/2026", whisp, 2, "Yeti", _SMALL)
 			.render();
 
 
 //
 	_renderPlayers([angest, bnachee, cuistotfou, faran, jeff, marco, phylios, shionn, tony, transfopaper, tupad, whisp]);
-	_renderQuests([q1,q2]);
+	_renderQuests([q1,q2,q3]);
 
 });
