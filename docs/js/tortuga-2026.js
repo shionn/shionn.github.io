@@ -1,4 +1,4 @@
-	'use strict';
+'use strict';
 
 q(function() {
 
@@ -434,6 +434,7 @@ q(function() {
 			.progress("21/02/2026", shionn, 1, "Gastefauve Noir-serment", _BIG)
 			.progress("22/02/2026", shionn, 1, "Bishop of Elishu", _MEDIUM)
 			.doChallenge("22/02/2026", shionn)
+			.progress("22/02/2026", shionn, 1, "Truc Genshin", _SMALL_DECOR)
 			.render();
 
 

@@ -25,7 +25,7 @@ public class DecaleDate {
 	private static DateFormat menuFormat = new SimpleDateFormat("yyyy-MM-dd");
 
 	public static void main(String[] args) throws ParseException, IOException {
-		new DecaleDate().start(jsonFormat.parse("2026/03/10"), 8 * 3);
+		new DecaleDate().start(jsonFormat.parse("2050/01/01"), 8);
 	}
 
 	private void start(Date date, int nbDays) throws IOException {
