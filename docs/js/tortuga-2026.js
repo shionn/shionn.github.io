@@ -440,6 +440,7 @@ q(function() {
 
 	let q3 = new _quest("quest-3", "Rassembler un équipage", "Peindre 40 figurines", 40)
 			.progress("23/02/2026", whisp, 2, "Yeti", _SMALL)
+			.progress("24/02/2026", whisp, 1, "Nounours", _SMALL)
 			.render();
 
 
