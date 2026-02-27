@@ -444,6 +444,7 @@ q(function() {
 			.progress("25/02/2026", angest, 5, "Ghasts", _SMALL)
 			.progress("25/02/2026", angest, 2, "Gyaa-Yothn", _MEDIUM)
 			.progress("25/02/2026", angest, 2, "Gugs", _MEDIUM)
+			.progress("27/02/2026", shionn, 6, "Din Huine", _SMALL)
 			.render();
 
 
