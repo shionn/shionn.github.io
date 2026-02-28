@@ -44,7 +44,7 @@ Cette partie s'est déroulée le 8 Novembre 2025. Dont voici le replay :
 
 [youtube video="SZ4Sb3_4H1A"/]
 
-[youtube video="Iq_EF85btXw"/]
+[youtube video="CJH0E2VJ-iM"/]
 
 *Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube.*
 
@@ -66,9 +66,50 @@ Au pied de celui-ci il y a un cimetiere.
 
 > Clairement ici les morts sont vivants. 
 
+Nous rentrons dans les ruines, à travers le brouillard je sens venir quelque chose, je lève mon bouclier, clang, des spectres, le combat commence. Deux spectres et un 3ème plus gros apparaissent. 
+
 [gallery w=430 h=240]
 pictures/jdr/whisperia/1x14/164.jpg
+pictures/jdr/whisperia/1x14/165.jpg
 [/gallery]
 
-Nous rentrons dans les ruines, à travers le brouillard je sens venir quelque chose, je lève mon bouclier, clang, des spectres, le combat commence. Deux spectres et un 3ème plus gros apparaissent. 
+Le combat s'engage. *Un spectre me touche, je perds 7 pv (27/34). Nous battons les deux spectres mais le plus gros s’enfuit dans le sol.*
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/1x14/166.jpg
+pictures/jdr/whisperia/1x14/167.jpg
+[/gallery]
+
+Le drood, Aldia, nous dit qu’il a posé un glyph derrière pour protéger nos arrières. 
+Nous avençons vers le mausolé. 
+
+## Un nécromancien
+
+Nous avançons en cercle dans le cimetière, en formation serré, Nous arrivons à l’entrée de la crypte quand des squelettes sortent des tombes. 
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/1x14/168.jpg
+pictures/jdr/whisperia/1x14/169.jpg
+[/gallery]
+
+Le combat commence.
+
+*Aldia se montre utile en soignant anuabi. Plusieurs fois. Pendant le combat, Aldia nous dit que sa rune a été détruite.*
+
+*Je prend 5 points de dégât, (22/34). Puis encore 5 autres 17/34. Puis encore 4 (13/34).* 
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/1x14/170.jpg
+pictures/jdr/whisperia/1x14/171.jpg
+[/gallery]
+
+*Un nécromant et la liche sont revenus! J’utilise ma fougue et mon second souffle (26/34). Je prend 4 (22/34).Nous venons à bout de nos ennemis.*
+
+[gallery w=430 h=240]
+pictures/jdr/whisperia/1x14/170.jpg
+pictures/jdr/whisperia/1x14/171.jpg
+[/gallery]
+
+Fin de la partie, nous gagnons un level.
+
 
