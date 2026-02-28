@@ -223,6 +223,28 @@
 		</div>
 	</header>
 	<section><h1>Installation</h1>
+<h2>Apt-mirror</h2>
+<p>C'est apt mirror qui permet de cloner le repo officiel</p>
+<pre class="shell"><code class="shell">sudo apt install apt-mirror
+</code></pre>
+<p>J'ai choisi de garder le dossier de destination par defaut de apt-mirror : <code>/var/spool/apt-mirror</code>. Il est possible de le changer mais je ne traiterai pas cela dans cet article.</p>
+<p>Puis on dois configurer les repo qu'on va mirroir. Et ou. Il faut editer le fichier <code>/etc/apt/mirror.list</code>. Dans mon cas j'ai besoin :</p>
+<ul>
+<li>des architecture i368 et amd64</li>
+<li>des branch main testing unstable</li>
+</ul>
+<pre class="shell"><code class="shell">set defaultarch i386 amd64
+
+deb http://deb.debian.org/debian/ stable main contrib non-free non-free-firmware
+</code></pre>
+<p>TODO ajouter les sources.&gt;</p>
+<p>Puis pour lancer le clone il faut faire un <code>apt-mirror</code>.</p>
+<h2>Mise à jour automatique</h2>
+<p>Ajouter une crontab qui fait un apt-mirror.
+Dans mon cas j'ai decaler les crontab daily à 1h du mat et j'ai ajouté ce script dans /etc/crontab.daily.
+Il ne faut pas oublier de rendre executable.</p>
+<pre class="shell"><code class="shell">/usr/bin/apt-mirror &gt;&gt; /var/log/apt-mirror-report.log
+</code></pre>
 <h2>Serveur http</h2>
 <p>Un serveur HTTP est nécessaire pour héberger le répertoire.
 Dans mon cas, j'ai opté pour une solution simple en installant un serveur lighttpd.</p>
@@ -236,35 +258,10 @@ en ajoutant le module dans la conf <code>server.modules</code> :</p>
         &quot;mod_access&quot;,
         &quot;mod_alias&quot;,
         &quot;mod_redirect&quot;,
-        &quot;mod_dirlisting&quot;
+        &quot;mod_dirlisting&quot;,
 )
 </code></pre>
 <p>Et j'ajoute une ligne de configuration <code>server.dir-listing = &quot;enable&quot;</code>.</p>
-<h2>Apt-mirror</h2>
-<p>C'est apt mirror qui permet de cloner le repo officiel</p>
-<pre class="shell"><code class="shell">sudo apt install apt-mirror
-</code></pre>
-<p>Puis on dois configurer les repo qu'on va mirroir. Et ou. Il faut editer le fichier /etc/apt/mirror.list. Dans mon cas j'ai besoin :</p>
-<ul>
-<li>des architecture i368 et amd64</li>
-<li>des branch main testing unstable</li>
-</ul>
-<pre class="shell"><code class="shell">set base_path /var/www/html/debian
-set defaultarch i386 amd64
-</code></pre>
-<p>TODO ajouter les sources.&gt;</p>
-<p>il faut copier les scripts de /var/spool/apt-mirror/var var /var/www/html/debian/var. oui les script sont vide par defaut.</p>
-<pre class="shell"><code class="shell">mkdir /var/www/html/debian/var
-cp /var/spool/apt-mirror/var/clean.sh /var/www/html/debian/var
-cp /var/spool/apt-mirror/var/postmirror.sh /var/www/html/debian/var
-</code></pre>
-<p>puis pour lancer le clone il faut faire un <code>apt-mirror</code></p>
-<h2>Mise à jour automatique</h2>
-<p>Ajouter une crontab qui fait un apt-mirror.
-Dans mon cas j'ai decaler les crontab daily à 1h du mat et j'ai ajouté ce script dans /etc/crontab.daily.
-Il ne faut pas oublier de rendre executable.</p>
-<pre class="shell"><code class="shell">/usr/bin/apt-mirror &gt;&gt; /var/log/apt-mirror-report.log
-</code></pre>
 <h1>Utilisation</h1>
 </section>
 	<footer>
