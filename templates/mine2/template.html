@@ -75,7 +75,7 @@
 			<aside>
 				<h1><span class="fa fa-folder-open"></span> Catégories</h1>
 				<ul>
-					<li th:each="cat:${site.categories}" th:href="${cat.url}">
+					<li th:each="cat:${site.categories}">
 						<a th:href="${cat.url}"><th:block th:text="${cat.name}"/>&nbsp;(<th:block th:text="${cat.size}"/>)</a>
 					</li>
 				</ul>
