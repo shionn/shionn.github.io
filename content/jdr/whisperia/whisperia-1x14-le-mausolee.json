@@ -1,11 +1,11 @@
 {
 	"type": "post",
-	"date": "2026/01/01",
+	"date": "2026/03/18",
 	"title": "Whisperia 14 : Le Mausolée",
 	"tags": ["Whisperia", "DnD"],
 	"logo" : "pictures/titles/whisperia/1x14.jpg",
 	"category": "JDR",
-	"published": false,
+	"published": true,
 	"author": "Shionn",
 	"js" : [ ]
 }
