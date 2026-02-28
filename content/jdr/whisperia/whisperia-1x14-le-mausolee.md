@@ -36,73 +36,39 @@ Toutes nos aventures dans les articles précédent :
 * [Caleche et Loup](2025/whisperia-1x10-caleche-loup.html). 
 * [Retour en Ville](2025/whisperia-1x11-retour-en-ville.html). 
 * [Deux personnages](2025/whisperia-1x12-deux-personnages.html). 
+* [Les hobgobelins](2026/whisperia-1x13-les-hobgobelins.html). 
 
 # Et maintenant la suite
 
-Cette partie s'est déroulée le 18 Octobre 2025. Dont voici le replay :
+Cette partie s'est déroulée le 8 Novembre 2025. Dont voici le replay :
 
-[youtube video="Wo7ZRDrZyx8"/]
+[youtube video="SZ4Sb3_4H1A"/]
 
 [youtube video="Iq_EF85btXw"/]
 
-*Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube, car Whisp fait n'importe quoi.*
+*Il y a un décalage entre la numérotation des articles de mon blog et des épisodes sur youtube.*
 
-## Une journée de marche
+## Direction le mausolée
 
-Nous nous réveillons le matin, aldia le druide, n’est plus là.
+On prend la direction du mausolée. 
 
-> Tans mieux !
-
-Nous étions sur le point de partir pour la nécropole, quand Aldia revint pour nous guider.
-
-> La necrapole c'est chiant y a des morts pas mort.
+Nous passons d’une belle forêt à une forêt de plus en plus obscure, on à l’impression que le ciel est obscurci alors qu’il n’y a pas de nuage. 
+Un brouillard nous leches les pieds.
 
 [gallery w=430 h=240]
-pictures/jdr/whisperia/152.jpg
-pictures/jdr/whisperia/153.jpg
+pictures/jdr/whisperia/1x14/162.jpg
+pictures/jdr/whisperia/1x14/163.jpg
 [/gallery]
 
-Nous reprenons la route, vers le sud, la forêt à l’est est très sombre, très mangrove, alors qu'à l'ouest la forêt est beaucoup plus claire et lumineuse.
+Après 3 heures de chemin difficile, nous arrivons devant des ruines dans un brouillard très épais, 
+et nous apercevons ce mausolée qui n'est plus que l'ombre de ce qu'il fut jadis. 
+Au pied de celui-ci il y a un cimetiere. 
+
+> Clairement ici les morts sont vivants. 
 
 [gallery w=430 h=240]
-pictures/jdr/whisperia/154.jpg
-pictures/jdr/whisperia/155.jpg
+pictures/jdr/whisperia/1x14/164.jpg
 [/gallery]
 
-Nous marchons toute la journée sans que rien ne se passe, nous décidons de passer la nuit, après avoir mangé (-1 provision reste 1). 
-Rahanis prend le premier tour de guet, puis moi puis Anuabi. 
-Pendant sa garde nous nous faisons attaquer par des hobgobelins sur warg. 
+Nous rentrons dans les ruines, à travers le brouillard je sens venir quelque chose, je lève mon bouclier, clang, des spectres, le combat commence. Deux spectres et un 3ème plus gros apparaissent. 
 
-> Qui prend le premier tour de guet ? ben rahanis (l'elfe forcément)
-
-[gallery w=430 h=240]
-pictures/jdr/whisperia/156.jpg
-[/gallery]
-
-## Hobgobelins sur Warg
-
-Anuabi fuie vers nous sous une pluie de fleche, de lance et de croc, vers nous qui dormons tranquilement. 
-Anuabi arrive à tous nous reveiller du premier coup.
-
-[gallery w=430 h=240]
-pictures/jdr/whisperia/157.jpg
-pictures/jdr/whisperia/158.jpg
-[/gallery]
-
-*Pendant le combat je prend un coup et perd 8pv (21/34). J’utilise également mon second souffle (34/34). Anuabi a failli y passer*
-
-[gallery w=430 h=240]
-pictures/jdr/whisperia/159.jpg
-pictures/jdr/whisperia/160.jpg
-[/gallery]
-
-On ramasse 25 po sur les gobs, 5 chacun (je passe a 57), et je retourne au dodo. 
-Nous finissons la nuit, et le matin nous reprenons la route vers le sud.
-
-[gallery w=430 h=240]
-pictures/jdr/whisperia/161.jpg
-[/gallery]
-
-La forêt devient de plus en plus sombre, et de moins en moins accueillante. Nous arrivons à une intersection,à notre ouest, il y a un pont délabré, et en face de nous une pancarte pointant l’est marqué “mausolée”. 
-
-Et c’est la fin de la partie.
