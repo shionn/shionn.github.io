@@ -18,3 +18,16 @@ pictures/manga/diluc-fischi/04.jpg
 pictures/manga/diluc-fischi/05.jpg
 [/gallery]
 
+
+Un peu plus tard, à l'occasion d'un défi, j'ai peint ce truc que j'avais reçu avec les deux figurines précédentes.
+
+- Peinte en Fevrier 2026
+- En environ 1h30
+
+[gallery w=100 h=200]
+pictures/manga/diluc-fischi/06.jpg
+pictures/manga/diluc-fischi/07.jpg
+pictures/manga/diluc-fischi/08.jpg
+pictures/manga/diluc-fischi/09.jpg
+pictures/manga/diluc-fischi/10.jpg
+[/gallery]
