@@ -447,6 +447,8 @@ q(function() {
 			.progress("27/02/2026", shionn, 6, "Din Huine", _SMALL)
 			.progress("28/02/2026", jeff, 2, "Orc", _SMALL)
 			.doChallenge("28/02/2026", jeff)
+			.progress("01/03/2026", angest, 1, "Dhole", _MEDIUM)
+			.doChallenge("01/03/2026", jeff)
 			.render();
 
 

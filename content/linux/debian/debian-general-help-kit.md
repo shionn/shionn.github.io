@@ -85,6 +85,21 @@ Installer le package _cifs-utils_.
 
 Puis recharger la configuration comme suit : `sudo systemctl daemon-reload`
 
+## NFS et fstab
+
+Installer nfs-common, `sudo apt install nfs-common`. Puis editer votre fstab :
+
+~~~shell
+<IP_SERVEUR>:/<PARTAGE>/ /<POINT_MONTAGE>    nfs    defaults    0    0  
+~~~
+
+Il faut que les identifiant utilisateur/group entre client et serveur correspondent. 
+Je veux dans mon cas qu'un nouveau fichier appartienent aux group `users` pour cela je dois faire. 
+
+~~~shell
+sudo usermod -g users <USER>
+~~~
+
 
 # Gnome
 ## ALT-F5 qui fait nimp
