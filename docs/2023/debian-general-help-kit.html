@@ -277,6 +277,14 @@ domaine=WORKGROUP
 <pre class="shell"><code class="shell">//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
 </code></pre>
 <p>Puis recharger la configuration comme suit : <code>sudo systemctl daemon-reload</code></p>
+<h2>NFS et fstab</h2>
+<p>Installer nfs-common, <code>sudo apt install nfs-common</code>. Puis editer votre fstab :</p>
+<pre class="shell"><code class="shell">&lt;IP_SERVEUR&gt;:/&lt;PARTAGE&gt;/ /&lt;POINT_MONTAGE&gt;    nfs    defaults    0    0  
+</code></pre>
+<p>Il faut que les identifiant utilisateur/group entre client et serveur correspondent.
+Je veux dans mon cas qu'un nouveau fichier appartienent aux group <code>users</code> pour cela je dois faire.</p>
+<pre class="shell"><code class="shell">sudo usermod -g users &lt;USER&gt;
+</code></pre>
 <h1>Gnome</h1>
 <h2>ALT-F5 qui fait nimp</h2>
 <p>Dans dconf-editor modifier la clef <code>unmaximise</code> dans le dossier : <code>org.gnome.desktop.wm.keybindings</code></p>
