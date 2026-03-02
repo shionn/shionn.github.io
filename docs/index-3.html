@@ -82,6 +82,12 @@
 					</ul>
 				</li>
 				<li>
+					<a href="category/jeux-soci-t-.html">Jeux Société</a>
+					<ul>
+						<li><a href="2026/descent-act-1.html">Descent Act 1</a></li>
+					</ul>
+				</li>
+				<li>
 					<a href="tag/d-fi.html">Défi Peinture</a>
 					<ul>
 						<li><a href="2025/annee-2024-defi-peinture.html">Résumé défi 2024</a></li>
@@ -203,6 +209,71 @@
 	</header>
 	<main>
 		
+			
+				<article class="short">
+	<header>
+		<img src="pictures/titles/esp32-wifi-connection.png" title="Connexion wifi ESP32" alt="Connexion wifi ESP32" />
+		<h1><a href="2025/connexion-wifi-esp32.html">Connexion wifi ESP32</a></h1>
+		<div>
+			<span>Publié le 02 novembre 2025</span>
+			<span>
+				<span class="fa fa-folder-open"></span>
+				<a href="category/code.html">Code</a>
+			</span>
+			<span>
+				<span class="fa fa-flag"></span>
+				<a href="tag/arduino.html">Arduino</a><a href="tag/vscode.html">VSCode</a><a href="tag/platformio.html">PlatformIO</a><a href="tag/cpp.html">CPP</a><a href="tag/esp32.html">ESP32</a><a href="tag/espressif.html">Espressif</a><a href="tag/esp8266.html">ESP8266</a><a href="tag/wifi.html">WiFi</a>
+			</span>
+		</div>
+	</header>
+	<section><p>Bonjour.
+Voici un petit tuto simple sur la gestion de la connexion wifi avec le framework arduino sur un ESP32 mais cela fonctionne aussi avec un ESP8266 et probablement d'autre carte.</p>
+<h1>Connexion</h1>
+<p>La connexion se fait avec la bibliothèque Wifi qui est incluse dès qu'on configure notre projet pour utiliser une carte ESP32.</p>
+<pre class="cpp"><code class="cpp">#include &lt;Arduino.h&gt;
+// pour un esp32
+#include &lt;WiFi.h&gt; 
+// pour un esp8266
+#include &lt;ESP8266WiFi.h&gt;
+
+
+#define SSID_NAME &quot;MonSSID&quot;
+#define SSID_PASS &quot;mot de pass wifi&quot;
+#define HOST_NAME &quot;nom d'hote de l'esp32&quot;
+
+void setup() {
+	Serial.begin(9600);
+	WiFi.disconnect(true);
+	// il faut faire le setHostName avant le mode sinon ce n'est pas pris en compte. 
+	WiFi.setHostname(HOST_NAME);
+	// 
+	WiFi.mode(WIFI_STA);
+	WiFi.setAutoConnect(true);
+	WiFi.setAutoReconnect(true);
+	WiFi.begin(SSID_NAME, SSID_PASS);
+	
+	while (!WiFi.isConnected()) {
+		Serial.print(&quot;.&quot;);
+		delay(100);
+	}
+	Serial.println();
+	Serial.print(&quot;Connected. Ip: &quot;);
+	Serial.println(WiFi.localIP().toString());
+}
+
+void loop() {
+
+}
+</code></pre>
+<h2>Probleme avec certain router et l'ESP8266</h2>
+<p>J'ai souvent eu le souci que mes ESP8266 avaient beaucoup de mal à se connecter à mon réseau wifi.
+Il faut fouiller dans votre routeur, sur la configuration du réseau 2.4Ghz, et trouver une option s'appellant <strong>mode sans fil</strong> qui est peut être regler sur &quot;N Only&quot; et passer cette option à &quot;legacy&quot;.</p>
+<h1>Bonus appeler un serveur</h1>
+</section>
+	<footer>
+		<a href="2025/connexion-wifi-esp32.html"><span class="fa fa-eye"></span> Lire la suite</a>
+	</footer>
+</article>
 			
 				<article class="short">
 	<header>
@@ -338,34 +409,6 @@ Cependant je l'ai joué plusieurs fois à AoS et c'etait très fun.</p>
 	</footer>
 </article>
 			
-				<article class="short">
-	<header>
-		
-		<h1><a href="2025/theme-update.html">Changement leger du theme.</a></h1>
-		<div>
-			<span>Publié le 23 septembre 2025</span>
-			<span>
-				<span class="fa fa-folder-open"></span>
-				<a href="category/vie-du-blog.html">Vie du Blog</a>
-			</span>
-			<span>
-				<span class="fa fa-flag"></span>
-				<a href="tag/blog.html">Blog</a><a href="tag/developpement.html">Developpement</a><a href="tag/geek.html">Geek</a><a href="tag/java.html">Java</a>
-			</span>
-		</div>
-	</header>
-	<section><p>Bonjour,</p>
-<p>Si vous venez régulièrement, vous devriez vous rendre compte que le thème du blog a légèrement changé.
-Ce n'est pas un changement incroyable, mais j'espère qu'il sera plus lisible.</p>
-<p>En effet je trouvais que bien souvent les articles tratant de code etait bien peu lisible.
-J'ai donc essayé de revoir légerment le theme pour les rendre plus lisible.</p>
-<p>Bonne lecture ou relecture :)</p>
-</section>
-	<footer>
-		<a href="2025/theme-update.html"><span class="fa fa-eye"></span> Lire la suite</a>
-	</footer>
-</article>
-			
 			<div>
 				
 				<a href="index-2.html">&lt;</a>
@@ -391,6 +434,9 @@ J'ai donc essayé de revoir légerment le theme pour les rendre plus lisible.</p
 					</li>
 					<li>
 						<a href="category/jdr.html">JDR&nbsp;(14)</a>
+					</li>
+					<li>
+						<a href="category/jeu-soci-t-.html">Jeu Société&nbsp;(1)</a>
 					</li>
 					<li>
 						<a href="category/linux.html">Linux&nbsp;(10)</a>
@@ -434,6 +480,8 @@ J'ai donc essayé de revoir légerment le theme pour les rendre plus lisible.</p
 					Conversion&nbsp;(1)
 				</a><a href="tag/debian.html" class="tag1">
 					Debian&nbsp;(7)
+				</a><a href="tag/descent.html" class="tag0">
+					Descent&nbsp;(1)
 				</a><a href="tag/desktop.html" class="tag0">
 					Desktop&nbsp;(3)
 				</a><a href="tag/deuslair.html" class="tag0">
@@ -488,6 +536,8 @@ J'ai donc essayé de revoir légerment le theme pour les rendre plus lisible.</p
 					JdR&nbsp;(3)
 				</a><a href="tag/jellyfin.html" class="tag0">
 					Jellyfin&nbsp;(1)
+				</a><a href="tag/jeu-soci-t-.html" class="tag0">
+					Jeu Société&nbsp;(1)
 				</a><a href="tag/jeux-vid-o.html" class="tag0">
 					Jeux Vidéo&nbsp;(1)
 				</a><a href="tag/kit-survie.html" class="tag1">
@@ -580,8 +630,14 @@ J'ai donc essayé de revoir légerment le theme pour les rendre plus lisible.</p
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2026 (7)</a>
+						<a href="#">2026 (8)</a>
 						<ul>
+							<li>
+								<a href="#">mars (1)</a>
+								<ul>
+									<li><a href="2026/descent-act-1.html">Descent : Légendes des Ténèbres : Act 1</a></li>
+								</ul>
+							</li>
 							<li>
 								<a href="#">février (3)</a>
 								<ul>
