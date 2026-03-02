@@ -450,6 +450,8 @@ q(function() {
 			.progress("01/03/2026", angest, 1, "Dhole", _MEDIUM)
 			.doChallenge("01/03/2026", jeff)
 			.progress("01/03/2026", jeff, 2, "Singe Orc", _SMALL)
+			.progress("02/03/2026", tupad, 4, "Quart Table SC", _BIG_DECOR)
+			.progress("02/03/2026", tupad, 6, "Gisement Gaz", _SMALL_DECOR)
 			.render();
 
 
