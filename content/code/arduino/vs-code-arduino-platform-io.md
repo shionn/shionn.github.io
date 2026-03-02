@@ -35,7 +35,7 @@ Si cela ne suffit pas il faut aussi ajouter le group tty.
 Dans les extensions de VSCode, recherche et installer "PlatformIO IDE".
 
 [gallery]
-pictures/arduino/platformio/extension-platform-io.png
+pictures/code/arduino/platformio/extension-platform-io.png
 [/gallery]
 
 ## Autre extension
@@ -50,8 +50,8 @@ En ouvrant l'extension de PlatformIO vous accédez à l'interface de création d
 Il y a un nombre impressionnant de carte disponible. 
 
 [gallery]
-pictures/arduino/platformio/creation-projet-1.png
-pictures/arduino/platformio/creation-projet-2.png
+pictures/code/arduino/platformio/creation-projet-1.png
+pictures/code/arduino/platformio/creation-projet-2.png
 [/gallery]
 
 ## Structure
@@ -97,7 +97,7 @@ void loop() {
 Cliquer sur ce bouton et normalement la diode de votre carte clignotera : 
 
 [gallery]
-pictures/arduino/platformio/upload-code.png
+pictures/code/arduino/platformio/upload-code.png
 [/gallery]
 
 Et normalement ca devrais clignoter comme dans cette magnifique vidéo flou : 

@@ -9,7 +9,7 @@ Ce qui correspondait à mon besoin, je voulais un truc capable :
 - si possible le bluetouth
 
 [gallery]
-/pictures/arduino/desk-companion-esp32/01-JC3248W535.avif
+/pictures/code/arduino/desk-companion-esp32/01-JC3248W535.avif
 [/gallery]
 
 L'idée est vraiment de faire un truc ressemblant un stream deck avec des icones qui permette de lancer des programme sur mon ordinateur. 
@@ -34,8 +34,8 @@ Ensuit dans le menu outil paramétré la board comme cela :
 Puis flasher la board avec **graver la sequence d'initialisation**.
 
 [gallery w=450 h=300]
-/pictures/arduino/desk-companion-esp32/02-arduino-install.png
-/pictures/arduino/desk-companion-esp32/03-parametre-flash.png
+/pictures/code/arduino/desk-companion-esp32/02-arduino-install.png
+/pictures/code/arduino/desk-companion-esp32/03-parametre-flash.png
 [/gallery]
 
 ## Parametrage de plateformIO

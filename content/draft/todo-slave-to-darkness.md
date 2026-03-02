@@ -3,10 +3,19 @@
 
 # Peinture
 
+
 [paints title="Laniere Cuir"]
 Base	72040
 Ombrage	72045
 Éclaircissement	72039
+[/paints]
+
+[paints title="Peau Femme"]
+Base	72108
+[/paints]
+
+[paints title="Peau Homme"]
+Base	72066
 [/paints]
 
 [paints title="Peau Monstre"]
@@ -24,10 +33,14 @@ Base	72051
 Rehaut	72101
 [/paints]
 
-[paints title="Rouge"]
+[paints title="Rouge (monstre)"]
 Base	72011
 Ombrage	72110
 Éclaircissement	72106
+[/paints]
+
+[paints title="Tissu Rouge"]
+Base	72112
 [/paints]
 
 

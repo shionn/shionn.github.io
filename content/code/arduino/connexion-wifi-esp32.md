@@ -47,6 +47,10 @@ void loop() {
 J'ai souvent eu le souci que mes ESP8266 avaient beaucoup de mal à se connecter à mon réseau wifi. 
 Il faut fouiller dans votre routeur, sur la configuration du réseau 2.4Ghz, et trouver une option s'appellant **mode sans fil** qui est peut être regler sur "N Only" et passer cette option à "legacy".
 
+[gallery]
+pictures/code/arduino/asus/rooter-asus-legacy.png
+[/gallery]
+
 # Bonus appeler un serveur
 
 Et voici un exemple qui appelle un serveur en faisant un GET sur une adresse.

@@ -29,7 +29,7 @@ category/war-game	War Game
 		2026/mononokee-nomnom	Princesse Mononokee	2026-04-27
 		2025/repaint-bulma	Repaint d'une Bulma
 		2025/shenron-goku-nomnom	Shenron et Sangoku
-	category/jeux-soci-t-	Jeux Société	2026-03-02
+	category/jeu-soci-t-	Jeux Société
 		2026/descent-act-1	Descent Act 1	2026-03-02
 	tag/d-fi	Défi Peinture
 		2025/annee-2024-defi-peinture	Résumé défi 2024
