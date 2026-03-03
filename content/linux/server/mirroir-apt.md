@@ -20,22 +20,21 @@ Puis on dois configurer les repo qu'on va mirroir. Et ou. Il faut editer le fich
 set defaultarch i386 amd64
 
 deb http://deb.debian.org/debian/ stable main contrib non-free non-free-firmware
+deb http://deb.debian.org/debian/ stable-updates main contrib non-free non-free-firmware
+deb http://deb.debian.org/debian/ testing main contrib non-free non-free-firmware
 ~~~
 
-TODO ajouter les sources.>
-
-Puis pour lancer le clone il faut faire un `apt-mirror`.
+Puis pour lancer le clone il faut faire un `apt-mirror`. Attention cela va prendre environ 200go d'espace disque.
 
 ## Mise à jour automatique 
 
 Ajouter une crontab qui fait un apt-mirror. 
-Dans mon cas j'ai decaler les crontab daily à 1h du mat et j'ai ajouté ce script dans /etc/crontab.daily. 
+Dans mon cas j'ai decalé les crontab daily à 1h du mat et j'ai ajouté ce script dans /etc/crontab.daily. 
 Il ne faut pas oublier de rendre executable.
 
 ~~~shell
-/usr/bin/apt-mirror >> /var/log/apt-mirror-report.log
+/usr/bin/apt-mirror >> /root/apt-mirror-report.log
 ~~~
-
 
 ## Serveur http
 
