@@ -338,7 +338,7 @@ onStateChanged: 0
 <p>Un device peut avoir plusieurs composants, ici on va juste faire une lampe.</p>
 <pre class="cpp"><code class="cpp">// Ajout d'une lampe.
 // Donner l'identifiant de votre choix, il doit être unique.
-HALight light(&quot;LightId&quot;, HALight::BrightnessFeature | HALight::ColorTemperatureFeature | HALight::RGBFeature);
+HALight light(&quot;LightId&quot;);
 
 // Ajout d'un callback pour recevoir les messages de changement d'état sur la lampe
 void onLightStateCommand(bool state, HALight* sender) {
@@ -377,7 +377,46 @@ void loop() {
 }
 </code></pre>
 <p>Et normalement dans votre Home Assistant vous devriez voir apparaître un bouton pour contrôler votre petite lumière :</p>
-<div class="gallery"><a href="pictures/code/arduino/ha-04.jpg"><img src="pictures/code/arduino/ha-04.jpg"></a></div></section>
+<div class="gallery"><a href="pictures/code/arduino/ha-04.jpg"><img src="pictures/code/arduino/ha-04.jpg"></a></div>
+<h2>Lumiere RGB et plus</h2>
+<p>On peu aussi ajouté plus de fonctionnalité à notre lampe. Comme la temperature de couleur ou le RGB.</p>
+<pre class="cpp"><code class="cpp">// Ajouter les flags voulu 
+HALight light(&quot;LightId&quot;, HALight::BrightnessFeature | HALight::ColorTemperatureFeature | HALight::RGBFeature);
+
+void onBrightnessCommand(uint8_t brightness, HALight* sender) {
+	// Traiter la luminositée
+	Serial.prinln(brightness);
+	
+	sender-&gt;setBrightness(brightness);
+}
+
+void onColorTemperatureCommand(uint16_t temperature, HALight* sender) {
+	// Traiter la température
+	Serial.println(temperature);
+
+	sender-&gt;setColorTemperature(temperature);
+}
+
+void onRGBColorCommand(HALight::RGBColor color, HALight* sender) {
+	// Traiter la couleur
+	Serial.print(color.red);
+	Serial.print(&quot;,&quot;);
+	Serial.print(color.green);
+	Serial.print(&quot;,&quot;);
+	Serial.println(color.blue);
+
+	sender-&gt;setRGBColor(color); // report color back to the Home Assistant
+}
+
+void setup() {
+	// à Ajouter
+	// Associer les callbacks
+	light.onBrightnessCommand(onBrightnessCommand); // optional
+	light.onColorTemperatureCommand(onColorTemperatureCommand); // optional
+	light.onRGBColorCommand(onRGBColorCommand); // optional
+}
+</code></pre>
+</section>
 	<footer>
 		<em class="author">par Shionn, le 22 juin 2026.</em>
 		<h2>Commentaires</h2>
