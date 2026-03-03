@@ -146,7 +146,7 @@ Un device peut avoir plusieurs composants, ici on va juste faire une lampe.
 ~~~cpp
 // Ajout d'une lampe.
 // Donner l'identifiant de votre choix, il doit être unique.
-HALight light("LightId", HALight::BrightnessFeature | HALight::ColorTemperatureFeature | HALight::RGBFeature);
+HALight light("LightId");
 
 // Ajout d'un callback pour recevoir les messages de changement d'état sur la lampe
 void onLightStateCommand(bool state, HALight* sender) {
@@ -191,3 +191,45 @@ Et normalement dans votre Home Assistant vous devriez voir apparaître un bouton
 pictures/code/arduino/ha-04.jpg
 [/gallery]
 
+
+## Lumiere RGB et plus
+
+On peu aussi ajouté plus de fonctionnalité à notre lampe. Comme la temperature de couleur ou le RGB.
+
+~~~cpp
+// Ajouter les flags voulu 
+HALight light("LightId", HALight::BrightnessFeature | HALight::ColorTemperatureFeature | HALight::RGBFeature);
+
+void onBrightnessCommand(uint8_t brightness, HALight* sender) {
+	// Traiter la luminositée
+	Serial.prinln(brightness);
+	
+	sender->setBrightness(brightness);
+}
+
+void onColorTemperatureCommand(uint16_t temperature, HALight* sender) {
+	// Traiter la température
+	Serial.println(temperature);
+
+	sender->setColorTemperature(temperature);
+}
+
+void onRGBColorCommand(HALight::RGBColor color, HALight* sender) {
+	// Traiter la couleur
+	Serial.print(color.red);
+	Serial.print(",");
+	Serial.print(color.green);
+	Serial.print(",");
+	Serial.println(color.blue);
+
+	sender->setRGBColor(color); // report color back to the Home Assistant
+}
+
+void setup() {
+	// à Ajouter
+	// Associer les callbacks
+	light.onBrightnessCommand(onBrightnessCommand); // optional
+	light.onColorTemperatureCommand(onColorTemperatureCommand); // optional
+	light.onRGBColorCommand(onRGBColorCommand); // optional
+}
+~~~
