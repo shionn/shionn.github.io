@@ -242,14 +242,15 @@
 <pre class="shell"><code class="shell">set defaultarch i386 amd64
 
 deb http://deb.debian.org/debian/ stable main contrib non-free non-free-firmware
+deb http://deb.debian.org/debian/ stable-updates main contrib non-free non-free-firmware
+deb http://deb.debian.org/debian/ testing main contrib non-free non-free-firmware
 </code></pre>
-<p>TODO ajouter les sources.&gt;</p>
-<p>Puis pour lancer le clone il faut faire un <code>apt-mirror</code>.</p>
+<p>Puis pour lancer le clone il faut faire un <code>apt-mirror</code>. Attention cela va prendre environ 200go d'espace disque.</p>
 <h2>Mise à jour automatique</h2>
 <p>Ajouter une crontab qui fait un apt-mirror.
-Dans mon cas j'ai decaler les crontab daily à 1h du mat et j'ai ajouté ce script dans /etc/crontab.daily.
+Dans mon cas j'ai decalé les crontab daily à 1h du mat et j'ai ajouté ce script dans /etc/crontab.daily.
 Il ne faut pas oublier de rendre executable.</p>
-<pre class="shell"><code class="shell">/usr/bin/apt-mirror &gt;&gt; /var/log/apt-mirror-report.log
+<pre class="shell"><code class="shell">/usr/bin/apt-mirror &gt;&gt; /root/apt-mirror-report.log
 </code></pre>
 <h2>Serveur http</h2>
 <p>Un serveur HTTP est nécessaire pour héberger le répertoire.
