@@ -22,6 +22,8 @@ set defaultarch i386 amd64
 deb http://deb.debian.org/debian/ stable main contrib non-free non-free-firmware
 deb http://deb.debian.org/debian/ stable-updates main contrib non-free non-free-firmware
 deb http://deb.debian.org/debian/ testing main contrib non-free non-free-firmware
+
+clean http://deb.debian.org/debian
 ~~~
 
 Puis pour lancer le clone il faut faire un `apt-mirror`. Attention cela va prendre environ 200go d'espace disque.
