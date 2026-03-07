@@ -229,14 +229,28 @@
 		</div>
 	</header>
 	<section><p>Voici ma petite liste de truc et astuce sur Debian.</p>
-<h1>Audio</h1>
+<h1>Audio / Vidéo</h1>
+<h2>audio qui crack</h2>
+<p>Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire resout le probleme.</p>
+<pre class="shell"><code class="shell">systemctl --user restart pipewire.service
+</code></pre>
+<h2>MakeMkv</h2>
+<p><a href="https://linuxcapable.com/install-makemkv-on-debian/" target="_blank">Suivre ce tuto</a></p>
+<p><em>C'est la plateforme mt1959 qu'il vous faut</em></p>
 <h2>Pavucontrol</h2>
 <p>Outil pour mieux contrôler les périphériques audio</p>
 <pre class="shell"><code class="shell">apt install pavucontrol
 </code></pre>
-<h2>audio qui crack</h2>
-<p>Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire resout le probleme.</p>
-<pre class="shell"><code class="shell">systemctl --user restart pipewire.service
+<h2>OBS pas de Vaapi</h2>
+<pre class="shell"><code class="shell">apt install mesa-va-drivers
+</code></pre>
+<h2>Youtube Downloader une video</h2>
+<p>En discutant en vocale sur le didi de Steve, j'ai decouvert ce petit outil.</p>
+<pre class="shell"><code class="shell">sudo apt install yt-dlp
+yt-dlp -f 'bestvideo[codec^=av01]/bestvideo+bestaudio' --merge-output-format mkv &lt;URL&gt;
+</code></pre>
+<p>On peu aller tres loin, pour telecharger toutes les musiques d'une playlist et en plus découper chaque video selon le chapitrage avec les mignatures  :</p>
+<pre class="shell"><code class="shell">yt-dlp --split-chapters -f 'bestaudio' --output '%(playlist_title)s/sources/%(title)s.%(ext)s' --output chapter:'%(playlist_title)s/%(title)s/%(section_number)02d - %(section_title)s.%(ext)s' --restrict-filenames --write-thumbnail --output thumbnail:'%(playlist_title)s/%(title)s/00 - %(title)s.%(ext)s' &lt;URL en /playlist?list=&gt;
 </code></pre>
 <h1>Cron</h1>
 <h2>Cron au boot</h2>
@@ -356,25 +370,12 @@ sudo smartctl -a /dev/nvme0 | grep -i progress
 # voir les résultats
 sudo smartctl -a /dev/nvme0
 </code></pre>
-<h1>Vidéo</h1>
-<h2>OBS pas de Vaapi</h2>
-<pre class="shell"><code class="shell">apt install mesa-va-drivers
-</code></pre>
 <h1>Vim</h1>
 <p>Configuration de vim, désactiver le mode de séléction à la souris :</p>
 <pre class="shell"><code class="shell">echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
 </code></pre>
 <p>Ajouter la coloration syntaxic :</p>
 <pre class="shell"><code class="shell">echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
-</code></pre>
-<h1>Youtube</h1>
-<h2>Downloader une video</h2>
-<p>En discutant en vocale sur le didi de Steve, j'ai decouvert ce petit outil.</p>
-<pre class="shell"><code class="shell">sudo apt install yt-dlp
-yt-dlp -f 'bestvideo[codec^=av01]/bestvideo+bestaudio' --merge-output-format mkv &lt;URL&gt;
-</code></pre>
-<p>On peu aller tres loin, pour telecharger toutes les musiques d'une playlist et en plus découper chaque video selon le chapitrage avec les mignatures  :</p>
-<pre class="shell"><code class="shell">yt-dlp --split-chapters -f 'bestaudio' --output '%(playlist_title)s/sources/%(title)s.%(ext)s' --output chapter:'%(playlist_title)s/%(title)s/%(section_number)02d - %(section_title)s.%(ext)s' --restrict-filenames --write-thumbnail --output thumbnail:'%(playlist_title)s/%(title)s/00 - %(title)s.%(ext)s' &lt;URL en /playlist?list=&gt;
 </code></pre>
 <h1>Wayland</h1>
 <h2>Executer un truc en XWayland :</h2>
