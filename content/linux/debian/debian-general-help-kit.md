@@ -13,6 +13,8 @@ systemctl --user restart pipewire.service
 
 [Suivre ce tuto](https://linuxcapable.com/install-makemkv-on-debian/)
 
+<em>C'est la plateforme mt1959 qu'il vous faut</em>
+
 ## Pavucontrol
 Outil pour mieux contrôler les périphériques audio
 
