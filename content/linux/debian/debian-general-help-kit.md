@@ -1,12 +1,6 @@
 Voici ma petite liste de truc et astuce sur Debian.
 
-# Audio 
-## Pavucontrol
-Outil pour mieux contrôler les périphériques audio
-
-~~~shell
-apt install pavucontrol
-~~~
+# Audio / Vidéo
 
 ## audio qui crack
 Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire resout le probleme. 
@@ -14,6 +8,39 @@ Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire reso
 ~~~shell
 systemctl --user restart pipewire.service
 ~~~
+
+## MakeMkv
+
+[Suivre ce tuto](https://linuxcapable.com/install-makemkv-on-debian/)
+
+## Pavucontrol
+Outil pour mieux contrôler les périphériques audio
+
+~~~shell
+apt install pavucontrol
+~~~
+
+## OBS pas de Vaapi
+~~~shell
+apt install mesa-va-drivers
+~~~
+
+
+## Youtube Downloader une video
+
+En discutant en vocale sur le didi de Steve, j'ai decouvert ce petit outil.
+
+~~~shell
+sudo apt install yt-dlp
+yt-dlp -f 'bestvideo[codec^=av01]/bestvideo+bestaudio' --merge-output-format mkv <URL>
+~~~
+
+On peu aller tres loin, pour telecharger toutes les musiques d'une playlist et en plus découper chaque video selon le chapitrage avec les mignatures  : 
+
+~~~shell
+yt-dlp --split-chapters -f 'bestaudio' --output '%(playlist_title)s/sources/%(title)s.%(ext)s' --output chapter:'%(playlist_title)s/%(title)s/%(section_number)02d - %(section_title)s.%(ext)s' --restrict-filenames --write-thumbnail --output thumbnail:'%(playlist_title)s/%(title)s/00 - %(title)s.%(ext)s' <URL en /playlist?list=>
+~~~
+
 
 # Cron
 ## Cron au boot
@@ -99,7 +126,6 @@ Je veux dans mon cas qu'un nouveau fichier appartienent aux group `users` pour c
 ~~~shell
 sudo usermod -g users <USER>
 ~~~
-
 
 # Gnome
 ## ALT-F5 qui fait nimp
@@ -201,13 +227,6 @@ sudo smartctl -a /dev/nvme0 | grep -i progress
 sudo smartctl -a /dev/nvme0
 ~~~
 
-# Vidéo
-## OBS pas de Vaapi
-~~~shell
-apt install mesa-va-drivers
-~~~
-
-
 # Vim
 
 Configuration de vim, désactiver le mode de séléction à la souris : 
@@ -220,22 +239,6 @@ Ajouter la coloration syntaxic :
 
 ~~~shell
 echo "syntax on" >> ~/.vimrc
-~~~
-
-# Youtube
-## Downloader une video
-
-En discutant en vocale sur le didi de Steve, j'ai decouvert ce petit outil.
-
-~~~shell
-sudo apt install yt-dlp
-yt-dlp -f 'bestvideo[codec^=av01]/bestvideo+bestaudio' --merge-output-format mkv <URL>
-~~~
-
-On peu aller tres loin, pour telecharger toutes les musiques d'une playlist et en plus découper chaque video selon le chapitrage avec les mignatures  : 
-
-~~~shell
-yt-dlp --split-chapters -f 'bestaudio' --output '%(playlist_title)s/sources/%(title)s.%(ext)s' --output chapter:'%(playlist_title)s/%(title)s/%(section_number)02d - %(section_title)s.%(ext)s' --restrict-filenames --write-thumbnail --output thumbnail:'%(playlist_title)s/%(title)s/00 - %(title)s.%(ext)s' <URL en /playlist?list=>
 ~~~
 
 
