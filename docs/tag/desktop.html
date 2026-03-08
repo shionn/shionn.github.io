@@ -294,13 +294,13 @@ dans <strong>/usr/lib/systemd/system-sleep/</strong> sont exécuté avant et apr
 		</div>
 	</header>
 	<section><p>Voici ma petite liste de truc et astuce sur Debian.</p>
-<h1>Audio</h1>
-<h2>Pavucontrol</h2>
-<p>Outil pour mieux contrôler les périphériques audio</p>
-<pre class="shell"><code class="shell">apt install pavucontrol
-</code></pre>
+<h1>Audio / Vidéo</h1>
 <h2>audio qui crack</h2>
 <p>Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire resout le probleme.</p>
+<pre class="shell"><code class="shell">systemctl --user restart pipewire.service
+</code></pre>
+<h2>MakeMkv</h2>
+<p><a href="https://linuxcapable.com/install-makemkv-on-debian/" target="_blank">Suivre ce tuto</a></p>
 </section>
 	<footer>
 		<a href="2023/debian-general-help-kit.html"><span class="fa fa-eye"></span> Lire la suite</a>
