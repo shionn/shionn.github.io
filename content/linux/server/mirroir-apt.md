@@ -28,6 +28,8 @@ clean http://deb.debian.org/debian
 
 Puis pour lancer le clone il faut faire un `apt-mirror`. Attention cela va prendre environ 200go d'espace disque.
 
+TODO docker / nvidia
+
 ## Mise à jour automatique 
 
 Ajouter une crontab qui fait un apt-mirror. 

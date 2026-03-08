@@ -1,7 +1,43 @@
 
 
+idée de soclage : 
+
+- socle mort, terre battue et petit caillou, avec des touffe d'herbe morte
+- ville medieval, dallage en pierre, et planche de bois
+
+peau homme : 107 , 66 , 44
+peau femme : 107 , 108 , 44
 
 # Peinture
+
+[paints title="Cheval cuir"]
+Base	72051
+Éclaircissement	21-11
+Éclaircissement	72048
+Éclaircissement	72102
+Rehaut	72095
+[/paints]
+
+[paints title="Cheval crin"]
+Base	21-11
+Éclaircissement	72048
+Éclaircissement	72050
+Éclaircissement	72147
+Rehaut	72001
+[/paints]
+
+
+[paints title="Cheveux blond"]
+Base	72042
+[/paints]
+
+[paints title="Cuir"]
+Base	72045
+[/paints]
+
+[paints title="Fourrure"]
+Base	72125
+[/paints]
 
 
 [paints title="Laniere Cuir"]

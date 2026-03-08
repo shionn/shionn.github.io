@@ -70,4 +70,4 @@ puis faire un `sysctl --system` ou redemerrer
 
 # Sources
 
-- https://signoz.io/guides/docker-clear-logs/
+- (https://signoz.io/guides/docker-clear-logs/)[https://signoz.io/guides/docker-clear-logs]
