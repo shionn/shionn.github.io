@@ -58,6 +58,8 @@ Dans  /etc/docker/daemon.json
 
 # Installation avec Extrepo
 
+Nouvelle méthode conseillées. 
+
 ~~~bash
 apt install extrepo
 extrepo enable docker-ce
