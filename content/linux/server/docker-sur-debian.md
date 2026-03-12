@@ -56,6 +56,16 @@ Dans  /etc/docker/daemon.json
 }
 ~~~
 
+# Installation avec Extrepo
+
+~~~bash
+apt install extrepo
+extrepo enable docker-ce
+apt update
+apt install docker-ce
+~~~
+
+
 # Erreurs
 
 ## open sysctl net.ipv4.ip_unprivileged_port_start file: reopen fd 8: permission denied

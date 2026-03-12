@@ -52,6 +52,8 @@ Base	72108
 
 [paints title="Peau Homme"]
 Base	72066
+Ombrage	72044
+Éclaircissement	72071
 [/paints]
 
 [paints title="Peau Monstre"]
