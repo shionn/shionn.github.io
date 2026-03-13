@@ -263,6 +263,13 @@ Il s'agit potentiellement de vieux build.</p>
   }
 }
 </code></pre>
+<h1>Installation avec Extrepo</h1>
+<p>Nouvelle méthode conseillées.</p>
+<pre class="bash"><code class="bash">apt install extrepo
+extrepo enable docker-ce
+apt update
+apt install docker-ce
+</code></pre>
 <h1>Erreurs</h1>
 <h2>open sysctl net.ipv4.ip_unprivileged_port_start file: reopen fd 8: permission denied</h2>
 <p>ajouter <code>/etc/sysctl.d/10-docker-privilied-port.conf</code> avec :</p>
@@ -275,7 +282,7 @@ Il s'agit potentiellement de vieux build.</p>
 </ul>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 31 mai 2024.</em>
+		<em class="author">par Shionn, le 31 mai 2024<span>, derniére modification le 12 mars 2026</span>.</em>
 		<h2>Commentaires</h2>
 		<div class="comments"></div>
 		<h2>Ajouter un commentaire</h2>
