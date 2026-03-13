@@ -46,7 +46,7 @@ docker run hello-world
 
 Dans  /etc/docker/daemon.json
 
-~~~bash
+~~~shell
 {
   "log-driver": "local",
   "log-opts": {
@@ -60,7 +60,7 @@ Dans  /etc/docker/daemon.json
 
 Nouvelle méthode conseillées. 
 
-~~~bash
+~~~shell
 apt install extrepo
 extrepo enable docker-ce
 apt update
@@ -74,7 +74,7 @@ apt install docker-ce
 
 ajouter `/etc/sysctl.d/10-docker-privilied-port.conf` avec : 
 
-~~~bash
+~~~shell
 net.ipv4.ip_unprivileged_port_start=0
 ~~~
 
