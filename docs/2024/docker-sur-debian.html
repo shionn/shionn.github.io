@@ -255,7 +255,7 @@ Il s'agit potentiellement de vieux build.</p>
 <h1>Un peu de configuration</h1>
 <h2>Limiter les logs</h2>
 <p>Dans  /etc/docker/daemon.json</p>
-<pre class="bash"><code class="bash">{
+<pre class="shell"><code class="shell">{
   &quot;log-driver&quot;: &quot;local&quot;,
   &quot;log-opts&quot;: {
     &quot;max-size&quot;: &quot;10m&quot;,
@@ -265,7 +265,7 @@ Il s'agit potentiellement de vieux build.</p>
 </code></pre>
 <h1>Installation avec Extrepo</h1>
 <p>Nouvelle méthode conseillées.</p>
-<pre class="bash"><code class="bash">apt install extrepo
+<pre class="shell"><code class="shell">apt install extrepo
 extrepo enable docker-ce
 apt update
 apt install docker-ce
@@ -273,7 +273,7 @@ apt install docker-ce
 <h1>Erreurs</h1>
 <h2>open sysctl net.ipv4.ip_unprivileged_port_start file: reopen fd 8: permission denied</h2>
 <p>ajouter <code>/etc/sysctl.d/10-docker-privilied-port.conf</code> avec :</p>
-<pre class="bash"><code class="bash">net.ipv4.ip_unprivileged_port_start=0
+<pre class="shell"><code class="shell">net.ipv4.ip_unprivileged_port_start=0
 </code></pre>
 <p>puis faire un <code>sysctl --system</code> ou redemerrer</p>
 <h1>Sources</h1>
