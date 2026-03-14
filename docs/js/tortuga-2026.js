@@ -454,6 +454,7 @@ q(function() {
 			.progress("02/03/2026", tupad, 6, "Gisement Gaz", _SMALL_DECOR)
 			.progress("02/03/2026", whisp, 1, "Elemental de Terre", _MEDIUM)
 			.progress("03/03/2026", whisp, 1, "Elemental de Feu", _MEDIUM)
+			.progress("08/03/2026", bnachee, 1, "Gungam (WG)", _SMALL)
 			.render();
 
 

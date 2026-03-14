@@ -48,6 +48,7 @@ Ombrage	72045
 
 [paints title="Peau Femme"]
 Base	72108
+Ombrage	72044
 [/paints]
 
 [paints title="Peau Homme"]
@@ -79,6 +80,9 @@ Ombrage	72110
 
 [paints title="Tissu Rouge"]
 Base	72112
+Éclaircissement	72111
+Éclaircissement	72011
+Rehaut	72010
 [/paints]
 
 
