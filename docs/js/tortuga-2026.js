@@ -456,11 +456,16 @@ q(function() {
 			.progress("03/03/2026", whisp, 1, "Elemental de Feu", _MEDIUM)
 			.progress("08/03/2026", bnachee, 1, "Gungam (WG)", _SMALL)
 			.progress("15/03/2026", angest, 2, "Grenouille", _MEDIUM)
+			.progress("16/03/2026", tony, 2, "Heros Divers", _SMALL)
+			.render();
+
+	let q4 = new _quest("quest-4", "Rassembler un équipage (shionn proctrastine)", "Peindre 40 figurines", 40)
+			.progress("16/03/2026", tony, 3, "Heros Divers", _SMALL)
 			.render();
 
 
 //
 	_renderPlayers([angest, bnachee, cuistotfou, faran, jeff, marco, phylios, shionn, tony, transfopaper, tupad, whisp]);
-	_renderQuests([q1,q2,q3]);
+	_renderQuests([q1,q2,q3,q4]);
 
 });
