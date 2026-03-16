@@ -36,7 +36,9 @@ Base	72045
 [/paints]
 
 [paints title="Fourrure"]
-Base	72125
+Base	72124
+Éclaircissement	72115
+Rehaut	72042
 [/paints]
 
 

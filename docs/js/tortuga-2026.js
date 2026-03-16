@@ -455,6 +455,7 @@ q(function() {
 			.progress("02/03/2026", whisp, 1, "Elemental de Terre", _MEDIUM)
 			.progress("03/03/2026", whisp, 1, "Elemental de Feu", _MEDIUM)
 			.progress("08/03/2026", bnachee, 1, "Gungam (WG)", _SMALL)
+			.progress("15/03/2026", angest, 2, "Grenouille", _MEDIUM)
 			.render();
 
 
