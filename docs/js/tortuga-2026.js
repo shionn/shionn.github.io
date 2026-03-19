@@ -461,6 +461,7 @@ q(function() {
 
 	let q4 = new _quest("quest-4", "Rassembler un équipage (shionn proctrastine)", "Peindre 40 figurines", 40)
 			.progress("16/03/2026", tony, 3, "Heros Divers", _SMALL)
+			.progress("18/03/2026", angest, 2, "Terminators", _MEDIUM)
 			.render();
 
 
