@@ -201,6 +201,14 @@ Ombrage	72124
 Rehaut	72110
 [/paints]
 
+[paints title=" Kit NMM Gold"]
+Aplat (non inclus)  72xxx
+Éclaircissement	72042
+Éclaircissement	72007
+Éclaircissement	72109
+Rehaut	72101
+[/paints]
+
 
 
 
