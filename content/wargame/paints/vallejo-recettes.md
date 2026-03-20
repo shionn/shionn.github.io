@@ -186,7 +186,7 @@ Ombrage	72071
 Rehaut	72098
 [/paints]
 
-[paints title=" Kit Peau Sombre" icon="youtube-play" link="https://www.youtube.com/watch?v=aY65yEtxeAQ"]
+[paints title=" Kit Peau Sombre"]
 Aplat	72044
 Ombrage	72045
 Éclaircissement	72066
