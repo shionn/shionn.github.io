@@ -29,10 +29,14 @@ Rehaut	72001
 
 [paints title="Cheveux blond"]
 Base	72042
+Éclaircissement	72038
+Rehaut	72007
 [/paints]
 
 [paints title="Cuir"]
 Base	72045
+Éclaircissement	72115
+Rehaut	72036
 [/paints]
 
 [paints title="Fourrure"]
