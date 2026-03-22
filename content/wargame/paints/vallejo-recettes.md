@@ -130,6 +130,13 @@ Ombrage	72112
 Rehaut	72110
 [/paints]
 
+[paints title="Kit Magenta"]
+Aplat	720113
+Ombrage	72112
+Éclaircissement	72014
+Rehaut	72013
+[/paints]
+
 [paints title="Kit Violet froid" icon="youtube-play" link="https://youtu.be/jv7UF8thGCs?si=kLOWXBUQF0_S2x2G"]
 Aplat	72015
 Ombrage	72116
@@ -142,6 +149,13 @@ Aplat	72020
 Ombrage	72019
 Éclaircissement	72021
 Rehaut	72118
+[/paints]
+
+[paints title=" Kit Ultramarine"]
+Aplat	72022
+Ombrage	72016
+Éclaircissement	72117
+Rehaut	72095
 [/paints]
 
 [paints title=" Kit Vert" icon="youtube-play" link="https://youtu.be/OnKfWSCh-Q0?si=grvMJwbDi2o_9mAq"]
@@ -172,11 +186,27 @@ Ombrage	72071
 Rehaut	72098
 [/paints]
 
+[paints title=" Kit Peau Sombre"]
+Aplat	72044
+Ombrage	72045
+Éclaircissement	72066
+Rehaut	72107
+[/paints]
+
+
 [paints title=" Kit Cuir" icon="youtube-play" link="https://youtu.be/im2GbyelEb8?si=1QVPcEq5EuWfnsFX"]
 Aplat	72115
 Ombrage	72124
 Éclaircissement	72042
 Rehaut	72110
+[/paints]
+
+[paints title=" Kit NMM Gold"]
+Aplat (non inclus)  72xxx
+Éclaircissement	72042
+Éclaircissement	72007
+Éclaircissement	72109
+Rehaut	72101
 [/paints]
 
 
