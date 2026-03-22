@@ -465,6 +465,7 @@ q(function() {
 			.progress("18/03/2026", angest, 2, "Terminators", _MEDIUM)
 			.progress("22/03/2026", angest, 2, "Terminators", _MEDIUM)
 			.progress("22/03/2026", angest, 1, "Infernus", _SMALL)
+			.progress("22/03/2026", shionn, 5, "Cavalerie Noir", _MEDIUM)
 			.render();
 
 
