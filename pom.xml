@@ -41,6 +41,29 @@
 					<destination>docs/css/</destination>
 				</configuration>
 			</plugin>
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>copy-js-sources</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>docs/js</outputDirectory>
+							<resources>
+								<resource>
+									<directory>src/main/js/QueryJs</directory>
+									<includes>
+										<include>*.js</include>
+									</includes>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 		<resources>
 			<resource>
