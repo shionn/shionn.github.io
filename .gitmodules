@@ -1,0 +1,3 @@
+[submodule "src/main/js/QueryJs"]
+	path = src/main/js/QueryJs
+	url = git@github.com:shionn/QueryJs.git
