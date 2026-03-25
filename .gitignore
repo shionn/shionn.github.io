@@ -8,5 +8,3 @@ shionn.github.io
 node_modules/
 package-lock.json
 package.json
-docs/js/ajax.js
-docs/js/scripts.js
