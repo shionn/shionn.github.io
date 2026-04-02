@@ -114,6 +114,14 @@ Installer le package _cifs-utils_.
 
 Puis recharger la configuration comme suit : `sudo systemctl daemon-reload`
 
+## syncthing
+
+~~~shell
+apt install syncthing
+sudo systemctl enable syncthing@shionn.service
+systemctl start syncthing@shionn.service
+~~~
+
 ## NFS et fstab
 
 Installer nfs-common, `sudo apt install nfs-common`. Puis editer votre fstab :
