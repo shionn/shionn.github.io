@@ -299,6 +299,11 @@ domaine=WORKGROUP
 <pre class="shell"><code class="shell">//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
 </code></pre>
 <p>Puis recharger la configuration comme suit : <code>sudo systemctl daemon-reload</code></p>
+<h2>syncthing</h2>
+<pre class="shell"><code class="shell">apt install syncthing
+sudo systemctl enable syncthing@shionn.service
+systemctl start syncthing@shionn.service
+</code></pre>
 <h2>NFS et fstab</h2>
 <p>Installer nfs-common, <code>sudo apt install nfs-common</code>. Puis editer votre fstab :</p>
 <pre class="shell"><code class="shell">&lt;IP_SERVEUR&gt;:/&lt;PARTAGE&gt;/ /&lt;POINT_MONTAGE&gt;    nfs    defaults    0    0  
