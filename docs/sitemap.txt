@@ -103,6 +103,7 @@ https://shionn.github.io/2025/whisperia-1x12-deux-personnages.html
 https://shionn.github.io/2025/whisperia-ressources.html
 https://shionn.github.io/2026/bonne-annee-2026.html
 https://shionn.github.io/2026/bot-twitch-python.html
+https://shionn.github.io/2026/decor-mortal-realms.html
 https://shionn.github.io/2026/descent-act-1.html
 https://shionn.github.io/2026/dungeon-and-laser-deuslair-dragsta-core.html
 https://shionn.github.io/2026/dungeon-and-laser-deuslair.html
@@ -136,6 +137,7 @@ https://shionn.github.io/tag/cpp.html
 https://shionn.github.io/tag/d-cor.html
 https://shionn.github.io/tag/d-fi.html
 https://shionn.github.io/tag/debian.html
+https://shionn.github.io/tag/decors.html
 https://shionn.github.io/tag/descent.html
 https://shionn.github.io/tag/desktop.html
 https://shionn.github.io/tag/deuslair.html
