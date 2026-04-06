@@ -104,7 +104,7 @@ Pendant les vacances d'été j'ai peint :
 * Un porteur de la grande bannière elfe noir pour le __Fond de cale__ de __Whisp__
 
 [gallery w=200 h=250]
-pictures/aos/chaos/prince-demon/01.jpg
+pictures/aos/std/prince-demon/01.jpg
 pictures/battle/dark-elves/executeurs/01.jpg
 pictures/battle/dark-elves/porteur-gd-banniere/1.jpg
 [/gallery]

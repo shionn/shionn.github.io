@@ -6,6 +6,7 @@ category/war-game	War Game
 		2024/armee-naine-cos	Nains (CoS)
 		2023/armee-nighthaunt	Nighthaunt
 		2023/armee-skaven	Skavens
+		2026/armee-slave-to-darkness	Slave to Darkness	2026-07-16
 	2024/mes-armees	Warhammer Battle
 		2024/armee-elfes-noirs	Elfes Noirs
 		2025/armee-gobs	Gobelin de la Nuit

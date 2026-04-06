@@ -1,12 +1,50 @@
 
+Voici ma petite armée de Noir Serment.
 
-idée de soclage : 
+# Cavalerie
 
-- socle mort, terre battue et petit caillou, avec des touffe d'herbe morte
-- ville medieval, dallage en pierre, et planche de bois
+Je déteste la cavalerie.
 
-peau homme : 107 , 66 , 44
-peau femme : 107 , 108 , 44
+## Chef de Guerre sur Destrier
+
+Je l'ai acheté sur le leboncoin. Il proviens de la boite d'armée. 
+
+- Peinte en Avril 2026 
+- Environ 5h30
+
+[gallery w=150 h=200]
+pictures/aos/std/chef-de-guerre-destrier/01.jpg
+pictures/aos/std/chef-de-guerre-destrier/02.jpg
+pictures/aos/std/chef-de-guerre-destrier/03.jpg
+pictures/aos/std/chef-de-guerre-destrier/04.jpg
+[/gallery]
+
+## Cavaliers Cruel
+
+Proviens d'une boite start collecting. J'ai détésté peindre ces figurines. 
+
+- Peinte en Mars 2026 
+- Environ 20h
+- Aucune inspiration. 
+
+[gallery w=500 h=200]
+pictures/aos/std/cavaliers-cruels/01.jpg
+[/gallery]
+[gallery w=180 h=200]
+pictures/aos/std/cavaliers-cruels/02.jpg
+pictures/aos/std/cavaliers-cruels/03.jpg
+pictures/aos/std/cavaliers-cruels/04.jpg
+pictures/aos/std/cavaliers-cruels/05.jpg
+pictures/aos/std/cavaliers-cruels/06.jpg
+pictures/aos/std/cavaliers-cruels/07.jpg
+pictures/aos/std/cavaliers-cruels/08.jpg
+pictures/aos/std/cavaliers-cruels/09.jpg
+pictures/aos/std/cavaliers-cruels/10.jpg
+pictures/aos/std/cavaliers-cruels/11.jpg
+pictures/aos/std/cavaliers-cruels/12.jpg
+pictures/aos/std/cavaliers-cruels/13.jpg
+[/gallery]
+
 
 # Peinture
 
@@ -92,9 +130,3 @@ Rehaut	72010
 [/paints]
 
 
-
-peau 
-
-base	72066
-ombre	72044
-light	72107

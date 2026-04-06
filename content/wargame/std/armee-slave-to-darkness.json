@@ -1,0 +1,11 @@
+{
+	"type": "page",
+	"date": "2026/07/16",
+	"title": "Noir Serment",
+	"tags": ["War Game", "Armée", "Noir Serment", "STD", "AoS"],
+	"category": "War Game",
+	"logo": "pictures/titles/std/cavalerie.jpg",
+	"published": true,
+	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
+	"author": "Shionn"
+}
