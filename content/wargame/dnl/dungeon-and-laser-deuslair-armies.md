@@ -105,7 +105,14 @@ todo
 
 ### Yv'anda Armored Warrior (SG)
 
-todo
+- Peinte en Mars 2026
+- En environ 1h20
+
+[gallery w=150 h=200]
+pictures/dungeon-and-laser/deuslair/strech/redoe/yvanda-armored-warrior/01.jpg
+pictures/dungeon-and-laser/deuslair/strech/redoe/yvanda-armored-warrior/02.jpg
+pictures/dungeon-and-laser/deuslair/strech/redoe/yvanda-armored-warrior/03.jpg
+[/gallery]
 
 # Disciple du Chaos
 

@@ -6,6 +6,10 @@ On est loin d'avoir une armée complete il s'agit simplement de la partie naine 
 
 TODO
 
+# Troupes
+
+
+
 # Peinture
 
 [paints title="Acier NMM"]
