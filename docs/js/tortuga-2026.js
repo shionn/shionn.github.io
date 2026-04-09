@@ -474,6 +474,8 @@ q(function() {
 			.progress("31/03/2026", whisp, 1, "Coffre", _BIG_DECOR)
 			.progress("31/03/2026", whisp, 2, "Clef", _MEDIUM_DECOR)
 			.progress("07/04/2026", tony, 1, "Nain", _SMALL)
+			.progress("07/04/2026", whisp, 1, "Tarrasque", _BIG)
+			.progress("07/04/2026", whisp, 1, "Socle Tarrasque", _BIG_DECOR)
 			.render();
 
 
