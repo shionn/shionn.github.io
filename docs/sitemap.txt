@@ -110,6 +110,7 @@ https://shionn.github.io/2026/dungeon-and-laser-deuslair.html
 https://shionn.github.io/2026/gloomspite-louftuaire-mauvaise-lune.html
 https://shionn.github.io/2026/gloomspite-sournifleur.html
 https://shionn.github.io/2026/gloomspite-squig-herd.html
+https://shionn.github.io/2026/nvidia-proxmox-lxc-passthrought-ollama.html
 https://shionn.github.io/2026/proxmox-help-kit.html
 https://shionn.github.io/2026/tortuga-2026.html
 https://shionn.github.io/2026/whisperia-1x13-les-hobgobelins.html
@@ -178,6 +179,8 @@ https://shionn.github.io/tag/nginx.html
 https://shionn.github.io/tag/nightaunt.html
 https://shionn.github.io/tag/nomnom-miniature.html
 https://shionn.github.io/tag/ntp.html
+https://shionn.github.io/tag/nvidia.html
+https://shionn.github.io/tag/ollama.html
 https://shionn.github.io/tag/openrgb.html
 https://shionn.github.io/tag/peinture.html
 https://shionn.github.io/tag/photo.html
