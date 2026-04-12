@@ -476,6 +476,10 @@ q(function() {
 			.progress("07/04/2026", tony, 1, "Nain", _SMALL)
 			.progress("07/04/2026", whisp, 1, "Tarrasque", _BIG)
 			.progress("07/04/2026", whisp, 1, "Socle Tarrasque", _BIG_DECOR)
+			.doChallenge("09/04/2026", whisp)
+			.doChallenge("12/04/2026", jeff)
+			.progress("12/04/2026", jeff, 1, "Boss ki tue", _MEDIUM)
+			.progress("12/04/2026", jeff, 1, "Grunt", _SMALL)
 			.render();
 
 
