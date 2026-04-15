@@ -2,11 +2,11 @@
 Ce tuto s'intérresse surtout à la procédure à suivre pour installer une carte graphique NVIDIA sur votre Proxmox avec un pass-through dans un conteneur.
 Cette solution n'utilise pas les drivers pro qui permettent de découper une carte en plusieurs. En effet, avec la containment LXC, une même carte peut être partagée entre plusieurs conteneurs. 
 
-# Installation des driver Nvidia
+# Installation des drivers Nvidia
 
 ## Nvidia sur proxmox
 
-Il faut commencer par installer les driver nvidia sur votre proxmox. 
+Il faut commencer par installer les drivers nvidia sur votre proxmox. 
 Commencer par le mettre à jour :
 
 ~~~shell
@@ -19,7 +19,7 @@ Ensuite il vous faudrat ces outils :
 apt install pve-nvidia-vgpu-helper nvtop pve-headers build-essential
 ~~~
 
-Ensuite proxmox propose un outil pour préconfigurer votre systeme à l'installation des driver nvidia.
+Ensuite proxmox propose un outil pour préconfigurer votre systeme à l'installation des drivers nvidia.
 Cela passe les drivers nouveau en blacklist et install quelques packet nécéssaire. 
 
 ~~~shell
@@ -72,7 +72,7 @@ Sat Aug 23 10:52:17 2025
 ## Nvidia dans le Container LXC
 
 Votre container n'as pas besoin d'option particulière, il n'as pas besoin d'être privilégié.
-configuration, sur l'hôte faites un ls `/dev/nvi*` et vous devriez avoir quelque chose comme cela : 
+Sur l'hôte faites un ls `/dev/nvi*` et vous devriez avoir quelque chose comme cela : 
 
 ~~~shell
 root@MaxiMox:~# ls -l /dev/nvi*
@@ -88,7 +88,7 @@ cr-------- 1 root root 234, 1 Aug 23 10:52 nvidia-cap1
 cr--r--r-- 1 root root 234, 2 Aug 23 10:52 nvidia-cap2
 ~~~
 
-Il fait passthrought tous ces dossiers au container. Cela se fait dans l'interface de votre proxmox.
+Il faut passthrought tous ces dossiers au container. Cela se fait dans l'interface de votre proxmox.
 
 [gallery]
 /pictures/linux/proxmox-lxc-nvidia/add-devices-menu.jpg

@@ -234,16 +234,16 @@
 	</header>
 	<section><p>Ce tuto s'intérresse surtout à la procédure à suivre pour installer une carte graphique NVIDIA sur votre Proxmox avec un pass-through dans un conteneur.
 Cette solution n'utilise pas les drivers pro qui permettent de découper une carte en plusieurs. En effet, avec la containment LXC, une même carte peut être partagée entre plusieurs conteneurs.</p>
-<h1>Installation des driver Nvidia</h1>
+<h1>Installation des drivers Nvidia</h1>
 <h2>Nvidia sur proxmox</h2>
-<p>Il faut commencer par installer les driver nvidia sur votre proxmox.
+<p>Il faut commencer par installer les drivers nvidia sur votre proxmox.
 Commencer par le mettre à jour :</p>
 <pre class="shell"><code class="shell">apt update &amp;&amp; apt upgrade
 </code></pre>
 <p>Ensuite il vous faudrat ces outils :</p>
 <pre class="shell"><code class="shell">apt install pve-nvidia-vgpu-helper nvtop pve-headers build-essential
 </code></pre>
-<p>Ensuite proxmox propose un outil pour préconfigurer votre systeme à l'installation des driver nvidia.
+<p>Ensuite proxmox propose un outil pour préconfigurer votre systeme à l'installation des drivers nvidia.
 Cela passe les drivers nouveau en blacklist et install quelques packet nécéssaire.</p>
 <pre class="shell"><code class="shell">pve-nvidia-vgpu-helper setup
 </code></pre>
@@ -283,7 +283,7 @@ Sat Aug 23 10:52:17 2025
 </code></pre>
 <h2>Nvidia dans le Container LXC</h2>
 <p>Votre container n'as pas besoin d'option particulière, il n'as pas besoin d'être privilégié.
-configuration, sur l'hôte faites un ls <code>/dev/nvi*</code> et vous devriez avoir quelque chose comme cela :</p>
+Sur l'hôte faites un ls <code>/dev/nvi*</code> et vous devriez avoir quelque chose comme cela :</p>
 <pre class="shell"><code class="shell">root@MaxiMox:~# ls -l /dev/nvi*
 crw-rw-rw- 1 root root 195,   0 Aug 23 10:52 /dev/nvidia0
 crw-rw-rw- 1 root root 195, 255 Aug 23 10:52 /dev/nvidiactl
@@ -296,7 +296,7 @@ total 0
 cr-------- 1 root root 234, 1 Aug 23 10:52 nvidia-cap1
 cr--r--r-- 1 root root 234, 2 Aug 23 10:52 nvidia-cap2
 </code></pre>
-<p>Il fait passthrought tous ces dossiers au container. Cela se fait dans l'interface de votre proxmox.</p>
+<p>Il faut passthrought tous ces dossiers au container. Cela se fait dans l'interface de votre proxmox.</p>
 <div class="gallery"><a href="/pictures/linux/proxmox-lxc-nvidia/add-devices-menu.jpg"><img src="/pictures/linux/proxmox-lxc-nvidia/add-devices-menu.jpg"></a><a href="/pictures/linux/proxmox-lxc-nvidia/add-devices.jpg"><img src="/pictures/linux/proxmox-lxc-nvidia/add-devices.jpg"></a></div>
 <p>Et vous devriez avoiir quelque chose comme ca :</p>
 <div class="gallery"><a href="/pictures/linux/proxmox-lxc-nvidia/devices-list.jpg"><img src="/pictures/linux/proxmox-lxc-nvidia/devices-list.jpg"></a></div>
