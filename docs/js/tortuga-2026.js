@@ -481,6 +481,8 @@ q(function() {
 			.progress("12/04/2026", jeff, 1, "Boss ki tue", _MEDIUM)
 			.progress("12/04/2026", jeff, 1, "Grunt", _SMALL)
 			.progress("14/04/2026", whisp, 1, "Guldan", _MEDIUM)
+			.progress("20/04/2026", transfopaper, 1, "squelette pirate", _SMALL)
+
 			.render();
 
 
