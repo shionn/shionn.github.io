@@ -483,6 +483,7 @@ q(function() {
 			.progress("14/04/2026", whisp, 1, "Guldan", _MEDIUM)
 			.progress("20/04/2026", transfopaper, 1, "squelette pirate", _SMALL)
 			.progress("21/04/2026", phylios, 1, "Lapin", _SMALL)
+			.progress("28/04/2026", whisp, 1, "Bourgeois", _SMALL)
 
 			.render();
 
