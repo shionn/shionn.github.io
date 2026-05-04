@@ -484,12 +484,21 @@ q(function() {
 			.progress("20/04/2026", transfopaper, 1, "squelette pirate", _SMALL)
 			.progress("21/04/2026", phylios, 1, "Lapin", _SMALL)
 			.progress("28/04/2026", whisp, 1, "Bourgeois", _SMALL)
+			.doChallenge("22/04/2026", shionn)
+			.progress("04/05/2026", bnachee, 5, "Gunpla (attente echelle)", _MEDIUM)
+			.progress("04/05/2026", shionn, 1, "Noir Serment sur data", _BIG)
+			.progress("04/05/2026", shionn, 5, "Nains", _SMALL)
+			.render();
 
+	let q5 = new _quest("quest-5", "Rassembler un équipage (x3)", "Peindre 40 figurines", 40)
+			.progress("04/05/2026", shionn, 9, "Nains", _SMALL)
+			.progress("04/05/2026", shionn, 1, "Herlad of Frost", _SMALL)
+			.progress("04/05/2026", shionn, 6, "Nains D&L", _SMALL)
 			.render();
 
 
 //
 	_renderPlayers([angest, bnachee, cuistotfou, faran, jeff, marco, phylios, shionn, tony, transfopaper, tupad, whisp]);
-	_renderQuests([q1,q2,q3,q4]);
+	_renderQuests([q1,q2,q3,q4,q5]);
 
 });
