@@ -74,7 +74,7 @@ C'est généralement liè à un porbleme de caractere special mal affiché qui f
 
 ## Créer un raccourci
 
-Ajouter un fichier `/usr/share/application/eclipse.desktop`.
+Ajouter un fichier `/usr/share/application/eclipse.desktop`. ou dans `~/.local/share/applications`
 
 ~~~shell
 [Desktop Entry]

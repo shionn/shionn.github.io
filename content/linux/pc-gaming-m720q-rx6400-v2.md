@@ -1,5 +1,5 @@
 
-Cette article est la suite de celui sur (Mon mini pc à 250 Brouzouff)[2025/pc-gaming-m720q-rx6400]. 
+Cette article est la suite de celui sur [Mon mini pc à 250 Brouzouff](2025/pc-gaming-m720q-rx6400). 
 
 # Point sur la situation
 
@@ -11,7 +11,7 @@ Et puis j'ai joué avec, surtout des vieux jeux, comme la série des **Batman Ar
 
 # Profile CPU
 
-J'ai pour habitude de lancer mes jeux avec (gamemode de feral interactiv)[https://www.feralinteractive.com/fr/]. 
+J'ai pour habitude de lancer mes jeux avec [gamemode de feral interactiv](https://www.feralinteractive.com/fr/). 
 Bon ben j'ai l'impression que ca marche pas comme ca devrais. Aussi j'ai utilisé cpupower-gui j'ai changé le profil comme suit. 
 Dans *Governor*, j'ai mis **Performance** à la place de **powersave** et dans *Energy preference* j'ai mis **performance** à la place de **balance performance**. 
 
@@ -126,4 +126,4 @@ En jeu je ressent un vrai écart de performance entre le mode **powersave** et *
 Pire les benchmarks semble indiquer le contraire. 
 
 Je n'en ai pas fini avec ce pc, dans un prochain article nous essaierons de lui mettre un plus gros processeur. 
-Et qui sai peut être un jour une plus grosse carte graphique ? 
+Et qui sais peut être un jour une plus grosse carte graphique ? 
