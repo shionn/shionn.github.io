@@ -16,6 +16,7 @@ https://shionn.github.io/index-14.html
 https://shionn.github.io/index-15.html
 https://shionn.github.io/index-16.html
 https://shionn.github.io/index-17.html
+https://shionn.github.io/index-18.html
 https://shionn.github.io/2023/armee-nighthaunt.html
 https://shionn.github.io/2023/armee-skaven.html
 https://shionn.github.io/2023/debian-general-help-kit.html
@@ -113,6 +114,7 @@ https://shionn.github.io/2026/gloomspite-sournifleur.html
 https://shionn.github.io/2026/gloomspite-squig-herd.html
 https://shionn.github.io/2026/mononokee-nomnom.html
 https://shionn.github.io/2026/nvidia-proxmox-lxc-passthrought-ollama.html
+https://shionn.github.io/2026/pc-gaming-m720q-rx6400-v2.html
 https://shionn.github.io/2026/proxmox-help-kit.html
 https://shionn.github.io/2026/tortuga-2026.html
 https://shionn.github.io/2026/whisperia-1x13-les-hobgobelins.html
