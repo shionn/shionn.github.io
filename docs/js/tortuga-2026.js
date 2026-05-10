@@ -485,7 +485,7 @@ q(function() {
 			.progress("21/04/2026", phylios, 1, "Lapin", _SMALL)
 			.progress("28/04/2026", whisp, 1, "Bourgeois", _SMALL)
 			.doChallenge("22/04/2026", shionn)
-			.progress("04/05/2026", bnachee, 5, "Gunpla (attente echelle)", _MEDIUM)
+			.progress("04/05/2026", bnachee, 5, "Gunpla", _SMALL)
 			.progress("04/05/2026", shionn, 1, "Noir Serment sur data", _BIG)
 			.progress("04/05/2026", shionn, 5, "Nains", _SMALL)
 			.render();
@@ -494,6 +494,10 @@ q(function() {
 			.progress("04/05/2026", shionn, 9, "Nains", _SMALL)
 			.progress("04/05/2026", shionn, 1, "Herlad of Frost", _SMALL)
 			.progress("04/05/2026", shionn, 6, "Nains D&L", _SMALL)
+			.progress("07/05/2026", whisp, 1, "Araignée", _BIG)
+			.addBadge("07/05/2026", whisp, _Gargantuesque)
+			.progress("10/05/2026", bnachee, 1, "Gunpla", _SMALL)
+			.progress("11/05/2026", bnachee, 1, "Gunpla", _SMALL)
 			.render();
 
 

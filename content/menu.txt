@@ -6,7 +6,7 @@ category/war-game	War Game
 		2024/armee-naine-cos	Nains (CoS)
 		2023/armee-nighthaunt	Nighthaunt
 		2023/armee-skaven	Skavens
-		2026/armee-slave-to-darkness	Slave to Darkness	2026-07-16
+		2026/armee-slave-to-darkness	Slave to Darkness	2026-07-24
 	2024/mes-armees	Warhammer Battle
 		2024/armee-elfes-noirs	Elfes Noirs
 		2025/armee-gobs	Gobelin de la Nuit
@@ -82,6 +82,9 @@ category/code	Code
 	tag/python	Python
 		2026/bot-twitch-python	Bot Twitch
 		2025/site-web-python-flask	Site web avec Flask
+category/diy	DiY	2026-07-16
+	tag/jeu_vid_o	Jeu Vidéo	2026-07-16
+		2026/3dprint-game-holder	Étagère à jeux video en 3D	2026-07-16
 mailto:shionn@gmail.com	Contact & Lien
 	mailto:shionn@gmail.com	Me contacter
 		mailto:shionn@gmail.com	Shionn@gmail.com
