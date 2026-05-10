@@ -3,7 +3,7 @@
 
 ## Openscad
 
--[Cheatsheet](https://openscad.org/cheatsheet/)
+- [Cheatsheet](https://openscad.org/cheatsheet/)
 
 # Organisation
 
