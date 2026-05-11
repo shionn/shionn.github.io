@@ -496,8 +496,9 @@ q(function() {
 			.progress("04/05/2026", shionn, 6, "Nains D&L", _SMALL)
 			.progress("07/05/2026", whisp, 1, "Araignée", _BIG)
 			.addBadge("07/05/2026", whisp, _Gargantuesque)
+			.progress("09/05/2026", bnachee, 1, "Gunpla", _SMALL)
 			.progress("10/05/2026", bnachee, 1, "Gunpla", _SMALL)
-			.progress("11/05/2026", bnachee, 1, "Gunpla", _SMALL)
+			.progress("11/05/2026", whisp, 1, "Inosuke", _MEDIUM)
 			.render();
 
 

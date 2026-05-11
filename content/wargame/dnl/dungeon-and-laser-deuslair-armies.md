@@ -85,7 +85,13 @@ todo
 
 ### Knights of Ruth (Armies)
 
-todo
+- Peinte en Avril 2026
+- En environ 5 heures
+
+[gallery w=450 h=200]
+pictures/dungeon-and-laser/deuslair/addon/redoe/knights-of-ruth/01.jpg
+pictures/dungeon-and-laser/deuslair/addon/redoe/knights-of-ruth/02.jpg
+[/gallery]
 
 ## Knights of Tidor
 
@@ -146,7 +152,13 @@ todo
 
 ### Queen of Winter (SG)
 
-todo
+- Peinte en Avril 2026
+- En environ 1 heure
+
+[gallery w=200 h=200]
+pictures/dungeon-and-laser/deuslair/strech/chaos/queen-of-winter/01.jpg
+pictures/dungeon-and-laser/deuslair/strech/chaos/queen-of-winter/02.jpg
+[/gallery]
 
 ## Heralds of Plague
 
