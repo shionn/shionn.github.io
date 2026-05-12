@@ -2,12 +2,18 @@ Voici ma petite liste de truc et astuce sur Debian.
 
 # Audio / Vidéo
 
-## audio qui crack
+## Audio qui crack
 Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire resout le probleme. 
 
 ~~~shell
 systemctl --user restart pipewire.service
 ~~~
+
+## Firefox ne lis pas certaine Video (H.264)
+
+Si vous avez des erreurs sur firefox esr avec des choses genre "mime type not supported". C'est probablement que le décodage Firefox H.264 est désactivé sur le build de firefox-esr de debian. 
+
+Dans `about:config` chercher `media.gmp-gmpopenh264.enabled` et passer à `true`.
 
 ## MakeMkv
 
@@ -282,7 +288,9 @@ Pour répondre sur 80 dans le fichier : `/etc/tomcat10/server.xml`
 J'aime pas les tuto youtube mais celui la est bien [MRP](https://youtu.be/I7nfSCNKeck?si=uNb3HVNwdK8xJMQQ)
 
 ## hdparm spindown des disks :
-[source](https://wiki.archlinux.org/title/Hdparm)
+
+- [source](https://wiki.archlinux.org/title/Hdparm)
+- [bonne source](https://www.thelinuxvault.net/blog/linux-hdd-sleep-how-to-enable-and-disable-with-hdparm/)
 
 ~~~shell
 #/etc/udev/rules.d/69-hdparm.rules
