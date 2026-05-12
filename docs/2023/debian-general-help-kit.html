@@ -236,10 +236,13 @@
 	</header>
 	<section><p>Voici ma petite liste de truc et astuce sur Debian.</p>
 <h1>Audio / Vidéo</h1>
-<h2>audio qui crack</h2>
+<h2>Audio qui crack</h2>
 <p>Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire resout le probleme.</p>
 <pre class="shell"><code class="shell">systemctl --user restart pipewire.service
 </code></pre>
+<h2>Firefox ne lis pas certaine Video (H.264)</h2>
+<p>Si vous avez des erreurs sur firefox esr avec des choses genre &quot;mime type not supported&quot;. C'est probablement que le décodage Firefox H.264 est désactivé sur le build de firefox-esr de debian.</p>
+<p>Dans <code>about:config</code> chercher <code>media.gmp-gmpopenh264.enabled</code> et passer à <code>true</code>.</p>
 <h2>MakeMkv</h2>
 <p><a href="https://linuxcapable.com/install-makemkv-on-debian/" target="_blank">Suivre ce tuto</a></p>
 <p><em>C'est la plateforme mt1959 qu'il vous faut</em></p>
@@ -408,7 +411,10 @@ echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.bashrc
 <h2>Tuto file serveur sur promox</h2>
 <p>J'aime pas les tuto youtube mais celui la est bien <a href="https://youtu.be/I7nfSCNKeck?si=uNb3HVNwdK8xJMQQ" target="_blank">MRP</a></p>
 <h2>hdparm spindown des disks :</h2>
-<p><a href="https://wiki.archlinux.org/title/Hdparm" target="_blank">source</a></p>
+<ul>
+<li><a href="https://wiki.archlinux.org/title/Hdparm" target="_blank">source</a></li>
+<li><a href="https://www.thelinuxvault.net/blog/linux-hdd-sleep-how-to-enable-and-disable-with-hdparm/" target="_blank">bonne source</a></li>
+</ul>
 <pre class="shell"><code class="shell">#/etc/udev/rules.d/69-hdparm.rules
 ACTION==&quot;add|change&quot;, KERNEL==&quot;sd[a-z]&quot;, ATTRS{queue/rotational}==&quot;1&quot;, RUN+=&quot;/usr/bin/hdparm -B 127 /dev/%k&quot;
 </code></pre>
@@ -439,7 +445,7 @@ sudo systemctl enable MonService.service
 </code></pre>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 15 octobre 2025</span>.</em>
+		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 12 mai 2026</span>.</em>
 		<h2>Commentaires</h2>
 		<div class="comments"></div>
 		<h2>Ajouter un commentaire</h2>
