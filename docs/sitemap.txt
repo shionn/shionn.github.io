@@ -117,6 +117,7 @@ https://shionn.github.io/2026/nvidia-proxmox-lxc-passthrought-ollama.html
 https://shionn.github.io/2026/pc-gaming-m720q-rx6400-v2.html
 https://shionn.github.io/2026/proxmox-help-kit.html
 https://shionn.github.io/2026/tortuga-2026.html
+https://shionn.github.io/2026/underworld-gloom-mollog.html
 https://shionn.github.io/2026/whisperia-1x13-les-hobgobelins.html
 https://shionn.github.io/2026/whisperia-1x14-le-mausolee.html
 https://shionn.github.io/category/code.html
