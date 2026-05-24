@@ -1,0 +1,10 @@
+{
+	"type": "post",
+	"date": "2026/08/09",
+	"title": "Faire un dépot debian local grâce à apt-mirror",
+	"tags": ["Linux", "Debian", "Apt", "Server", "Dépot"],
+	"category": "Linux",
+	"published": true,
+	"author": "Shionn",
+	"js" : [ "js/hljs/bash.min.js" ]
+}

@@ -108,6 +108,7 @@ https://shionn.github.io/2026/col-du-crane-gobs-lanciers-archers.html
 https://shionn.github.io/2026/decor-mortal-realms.html
 https://shionn.github.io/2026/descent-act-1.html
 https://shionn.github.io/2026/dungeon-and-laser-deuslair-dragsta-core.html
+https://shionn.github.io/2026/dungeon-and-laser-deuslair-redoe-core.html
 https://shionn.github.io/2026/dungeon-and-laser-deuslair.html
 https://shionn.github.io/2026/gloomspite-louftuaire-mauvaise-lune.html
 https://shionn.github.io/2026/gloomspite-sournifleur.html
@@ -117,6 +118,7 @@ https://shionn.github.io/2026/nvidia-proxmox-lxc-passthrought-ollama.html
 https://shionn.github.io/2026/pc-gaming-m720q-rx6400-v2.html
 https://shionn.github.io/2026/proxmox-help-kit.html
 https://shionn.github.io/2026/tortuga-2026.html
+https://shionn.github.io/2026/underworld-gloom-mollog.html
 https://shionn.github.io/2026/whisperia-1x13-les-hobgobelins.html
 https://shionn.github.io/2026/whisperia-1x14-le-mausolee.html
 https://shionn.github.io/category/code.html

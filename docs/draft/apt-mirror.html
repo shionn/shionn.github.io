@@ -221,67 +221,97 @@
 			<article>
 	<header>
 		
-		<h1><a href="draft/mirroir-apt.html">Mirroir apt</a></h1>
+		<h1><a href="draft/apt-mirror.html">Faire un dépot debian local grâce à apt-mirror</a></h1>
 		<div>
-			<span>Publié le 01 janvier 2026</span>
+			<span>Publié le 09 août 2026</span>
 			<span>
 				<span class="fa fa-folder-open"></span>
 				<a href="category/linux.html">Linux</a>
 			</span>
 			<span>
 				<span class="fa fa-flag"></span>
-				<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/apt.html">Apt</a><a href="tag/server.html">Server</a>
+				<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/apt.html">Apt</a><a href="tag/server.html">Server</a><a href="tag/d-pot.html">Dépot</a>
 			</span>
 		</div>
 	</header>
-	<section><h1>Installation</h1>
-<h2>Apt-mirror</h2>
-<p>C'est apt mirror qui permet de cloner le repo officiel</p>
+	<section><p>Apt-Mirror est un projet permettant de cloner un dépôt Debian et de l'heberger localement.
+Ça peut paraître bête, mais j'ai une connexion très mauvaise et parfois j'ai des coupures réseau de plusieurs semaines.</p>
+<h1>Installation</h1>
+<p>C'est apt-mirror qui permet de cloner le dépôt officiel.</p>
 <pre class="shell"><code class="shell">sudo apt install apt-mirror
 </code></pre>
-<p>J'ai choisi de garder le dossier de destination par defaut de apt-mirror : <code>/var/spool/apt-mirror</code>. Il est possible de le changer mais je ne traiterai pas cela dans cet article.</p>
-<p>Puis on dois configurer les repo qu'on va mirroir. Et ou. Il faut editer le fichier <code>/etc/apt/mirror.list</code>. Dans mon cas j'ai besoin :</p>
-<ul>
-<li>des architecture i368 et amd64</li>
-<li>des branch main testing unstable</li>
-</ul>
-<pre class="shell"><code class="shell">set defaultarch i386 amd64
+<h2>Configuration</h2>
+<p>Le fichier de configuration est <code>/etc/apt/mirror.list</code>.
+Il contient généralement la ligne : <code>set defaultarch  amd64</code>. Vous pouvez ignorer cette ligne.
+J'ai choisi de ne pas la prendre en compte et de preciser plus loins les architectures.</p>
+<p>Admettons que vous souhaitiez faire un miroir de ce dépôt :</p>
+<pre class="shell"><code class="shell">Types: deb
+URIs: http://deb.debian.org/debian
+Suites: stable stable-updates
+Components: main contrib
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+</code></pre>
+<p>Alors vous devez ajouter les lignes suivantes au fichier de configuration :</p>
+<pre class="shell"><code class="shell"># La ligne all est necessaire meme si vos client n'ont que l'architecture amd64
+deb-all http://deb.debian.org/debian/ stable main contrib
+deb-amd64 http://deb.debian.org/debian/ stable main contrib
+deb-i386 http://deb.debian.org/debian/ stable main contrib
 
-deb http://deb.debian.org/debian/ stable main contrib non-free non-free-firmware
-deb http://deb.debian.org/debian/ stable-updates main contrib non-free non-free-firmware
-deb http://deb.debian.org/debian/ testing main contrib non-free non-free-firmware
+deb-all http://deb.debian.org/debian/ stable-updates main contrib
+deb-amd64 http://deb.debian.org/debian/ stable-updates main contrib
+deb-i386 http://deb.debian.org/debian/ stable-updates main contrib
 
 clean http://deb.debian.org/debian
 </code></pre>
-<p>Puis pour lancer le clone il faut faire un <code>apt-mirror</code>. Attention cela va prendre environ 200go d'espace disque.</p>
-<p>TODO docker / nvidia</p>
-<h2>Mise à jour automatique</h2>
-<p>Ajouter une crontab qui fait un apt-mirror.
-Dans mon cas j'ai decalé les crontab daily à 1h du mat et j'ai ajouté ce script dans /etc/crontab.daily.
-Il ne faut pas oublier de rendre executable.</p>
-<pre class="shell"><code class="shell">/usr/bin/apt-mirror &gt;&gt; /root/apt-mirror-report.log
-</code></pre>
-<h2>Serveur http</h2>
-<p>Un serveur HTTP est nécessaire pour héberger le répertoire.
-Dans mon cas, j'ai opté pour une solution simple en installant un serveur lighttpd.</p>
+<h2>Lancement</h2>
+<p>Pour lancer un backup, utilisez la commande : <code>/usr/bin/apt-mirror</code>.
+Attention même si vous avez une bonne connexion, le premier backup va prendre du temps, car les serveurs Debian limitent le taux de transfert.</p>
+<p>Mais attention, si comme moi vous gardez la configuration par défaut, il vous faudra lancer régulierement faire un <code>/var/spool/apt-mirror/var/clean.sh</code> sinon votre espace disque va exploser.</p>
+<p>Et bien évidemment vous pouvez utiliser une crontab pour automatiser la chose :)</p>
+<h1>Distribution</h1>
+<p>Un serveur HTTP est nécessaire pour héberger le dépôt.
+Dans mon cas, j'ai opté pour une solution simple en installant un serveur Lighttpd.</p>
+<h2>Installation Lighttpd</h2>
 <pre class="shell"><code class="shell">sudo apt install lighttpd
 </code></pre>
-<p>Ensuite il faut creer un répertoire &quot;debian&quot; dans le dossier <code>/var/www/html/</code>.</p>
-<p>Puis j'active le mode <code>mod_dirlisting</code> en editant le fichier <code>/etc/lighttpd/lighttpd.conf</code>
-en ajoutant le module dans la conf <code>server.modules</code> :</p>
+<h2>Configuration Lighttpd</h2>
+<p>Il vous faut activer le module dir-listing de Lighttpd si vous voulez pouvoir le parcourir manuellement.
+Éditer le fichier <code>/etc/lighttpd/lighttpd.conf</code>.</p>
 <pre class="shell"><code class="shell">server.modules = (
         &quot;mod_indexfile&quot;,
         &quot;mod_access&quot;,
         &quot;mod_alias&quot;,
         &quot;mod_redirect&quot;,
-        &quot;mod_dirlisting&quot;,
+        &quot;mod_dirlisting&quot;, # Ajouter ce module
 )
+#...
+server.username             = &quot;www-data&quot;
+server.groupname            = &quot;www-data&quot;
+server.port                 = 80
+server.dir-listing          = &quot;enable&quot; # Ajouter cette ligne
 </code></pre>
-<p>Et j'ajoute une ligne de configuration <code>server.dir-listing = &quot;enable&quot;</code>.</p>
-<h1>Utilisation</h1>
+<p>Ensuite dans votre dossier <code>/var/www/html</code>, ajoutez un lien symbolique vers le dossier contenant votre clone par défaut <code>/var/spool/apt-mirror/mirror/deb.debian.org/</code>.</p>
+<pre class="shell"><code class="shell">cd /var/ww/html
+ln -s /var/spool/apt-mirror/mirror/deb.debian.org/
+</code></pre>
+<h1>Utilisation cliente.</h1>
+<p>Modifier votre fichier source comme suit :</p>
+<pre class="shell"><code class="shell">Types: deb
+URIs: http://&lt;ip de serveur&gt;/deb.debian.org/debian
+Suites: stable stable-updates
+Components: main contrib
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+</code></pre>
+<h1>Limite et avantange</h1>
+<ul>
+<li>J'ai utilisé ce projet sur pas mal de dépôts. Et je n'ai pas réussi à faire des backups sur certain externes comme celui de Mozilla.</li>
+<li>Il est relativement performant grâce à son exécution multitâche.</li>
+<li>Niveau espace disque, si on prend le dépôt Debian, en i386 et amd64, si on prend les composants <code>main</code>, <code>contrib</code>, <code>non-free</code>, <code>non-free-firmware</code> pour les suites <code>stable</code> et <code>testing</code> comptez au moment où j'écris ces lignes environ 300 Go. Donc je vous conseille de prévoir au moins 500 Go d'espace disque surtout si comme moi vous ajoutez des dépôts externe comme NVIDIA, XanMod, Steam, Docker...</li>
+</ul>
+<p>J'ai également testé une autre solution, DebMirror, je vous en parlerai bientôt.</p>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 01 janvier 2026.</em>
+		<em class="author">par Shionn, le 09 août 2026.</em>
 		<h2>Commentaires</h2>
 		<div class="comments"></div>
 		<h2>Ajouter un commentaire</h2>
@@ -330,7 +360,7 @@ en ajoutant le module dans la conf <code>server.modules</code> :</p>
 						<a href="category/vie-du-blog.html">Vie du Blog&nbsp;(3)</a>
 					</li>
 					<li>
-						<a href="category/war-game.html">War Game&nbsp;(58)</a>
+						<a href="category/war-game.html">War Game&nbsp;(60)</a>
 					</li>
 				</ul>
 			</aside>
@@ -369,7 +399,7 @@ en ajoutant le module dans la conf <code>server.modules</code> :</p>
 				</a><a href="tag/desktop.html" class="tag0">
 					Desktop&nbsp;(3)
 				</a><a href="tag/deuslair.html" class="tag0">
-					Deuslair&nbsp;(2)
+					Deuslair&nbsp;(3)
 				</a><a href="tag/developpement.html" class="tag0">
 					Developpement&nbsp;(3)
 				</a><a href="tag/discord.html" class="tag0">
@@ -385,7 +415,7 @@ en ajoutant le module dans la conf <code>server.modules</code> :</p>
 				</a><a href="tag/dragon-ball.html" class="tag0">
 					Dragon Ball&nbsp;(2)
 				</a><a href="tag/dungeon-and-laser.html" class="tag0">
-					Dungeon and Laser&nbsp;(3)
+					Dungeon and Laser&nbsp;(4)
 				</a><a href="tag/d-cor.html" class="tag0">
 					Décor&nbsp;(1)
 				</a><a href="tag/d-fi.html" class="tag0">
@@ -401,13 +431,13 @@ en ajoutant le module dans la conf <code>server.modules</code> :</p>
 				</a><a href="tag/espressif.html" class="tag0">
 					Espressif&nbsp;(2)
 				</a><a href="tag/figurine.html" class="tag7">
-					Figurine&nbsp;(38)
+					Figurine&nbsp;(39)
 				</a><a href="tag/gaming.html" class="tag0">
 					Gaming&nbsp;(3)
 				</a><a href="tag/geek.html" class="tag0">
 					Geek&nbsp;(3)
 				</a><a href="tag/gloomspite-gitz.html" class="tag2">
-					Gloomspite Gitz&nbsp;(12)
+					Gloomspite Gitz&nbsp;(13)
 				</a><a href="tag/gobelin.html" class="tag2">
 					Gobelin&nbsp;(14)
 				</a><a href="tag/guide.html" class="tag0">
@@ -417,7 +447,7 @@ en ajoutant le module dans la conf <code>server.modules</code> :</p>
 				</a><a href="tag/javafx.html" class="tag0">
 					JavaFX&nbsp;(1)
 				</a><a href="tag/jdr.html" class="tag0">
-					JdR&nbsp;(3)
+					JdR&nbsp;(4)
 				</a><a href="tag/jellyfin.html" class="tag0">
 					Jellyfin&nbsp;(1)
 				</a><a href="tag/jeu-soci-t-.html" class="tag0">
@@ -491,15 +521,15 @@ en ajoutant le module dans la conf <code>server.modules</code> :</p>
 				</a><a href="tag/thinkcenter.html" class="tag0">
 					ThinkCenter&nbsp;(2)
 				</a><a href="tag/troll.html" class="tag1">
-					Troll&nbsp;(5)
+					Troll&nbsp;(6)
 				</a><a href="tag/twitch.html" class="tag0">
 					Twitch&nbsp;(1)
-				</a><a href="tag/underworld.html" class="tag0">
-					Underworld&nbsp;(4)
+				</a><a href="tag/underworld.html" class="tag1">
+					Underworld&nbsp;(5)
 				</a><a href="tag/vscode.html" class="tag0">
 					VSCode&nbsp;(3)
-				</a><a href="tag/war-game.html" class="tag11">
-					War Game&nbsp;(58)
+				</a><a href="tag/war-game.html" class="tag12">
+					War Game&nbsp;(60)
 				</a><a href="tag/warcry.html" class="tag0">
 					Warcry&nbsp;(1)
 				</a><a href="tag/warhammer-battle.html" class="tag5">
@@ -520,11 +550,13 @@ en ajoutant le module dans la conf <code>server.modules</code> :</p>
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2026 (16)</a>
+						<a href="#">2026 (18)</a>
 						<ul>
 							<li>
-								<a href="#">mai (1)</a>
+								<a href="#">mai (3)</a>
 								<ul>
+									<li><a href="2026/dungeon-and-laser-deuslair-redoe-core.html">Dungeon &amp; Laser : Deuslair : Redoe Alliance</a></li>
+									<li><a href="2026/underworld-gloom-mollog.html">La Bande à Mollog</a></li>
 									<li><a href="2026/pc-gaming-m720q-rx6400-v2.html">Mini Pc gaming, la revanche</a></li>
 								</ul>
 							</li>

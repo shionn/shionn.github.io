@@ -61,6 +61,7 @@ category/linux	Linux
 		2025/jellyfin-proxmox-hardware-encode	Jellyfin, Transcodage matériel, Proxmox
 		2026/nvidia-proxmox-lxc-passthrought-ollama	Ollama Nvidia Passthrought LXC	2026-04-11
 		2026/proxmox-help-kit	Kit d'aide sur Proxmox
+		2026/apt-mirror	Dépot local grâce à apt-mirror	2026-08-09
 	tag/desktop	Desktop
 		2023/debian-general-help-kit	Kit d'aide généraliste sur Debian
 		2025/debian-gaming-help-kit	Kit d'aide Gaming sur Debian

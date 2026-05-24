@@ -236,10 +236,13 @@
 	</header>
 	<section><p>Voici ma petite liste de truc et astuce sur Debian.</p>
 <h1>Audio / Vidéo</h1>
-<h2>audio qui crack</h2>
+<h2>Audio qui crack</h2>
 <p>Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire resout le probleme.</p>
 <pre class="shell"><code class="shell">systemctl --user restart pipewire.service
 </code></pre>
+<h2>Firefox ne lis pas certaine Video (H.264)</h2>
+<p>Si vous avez des erreurs sur firefox esr avec des choses genre &quot;mime type not supported&quot;. C'est probablement que le décodage Firefox H.264 est désactivé sur le build de firefox-esr de debian.</p>
+<p>Dans <code>about:config</code> chercher <code>media.gmp-gmpopenh264.enabled</code> et passer à <code>true</code>.</p>
 <h2>MakeMkv</h2>
 <p><a href="https://linuxcapable.com/install-makemkv-on-debian/" target="_blank">Suivre ce tuto</a></p>
 <p><em>C'est la plateforme mt1959 qu'il vous faut</em></p>
@@ -408,7 +411,10 @@ echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.bashrc
 <h2>Tuto file serveur sur promox</h2>
 <p>J'aime pas les tuto youtube mais celui la est bien <a href="https://youtu.be/I7nfSCNKeck?si=uNb3HVNwdK8xJMQQ" target="_blank">MRP</a></p>
 <h2>hdparm spindown des disks :</h2>
-<p><a href="https://wiki.archlinux.org/title/Hdparm" target="_blank">source</a></p>
+<ul>
+<li><a href="https://wiki.archlinux.org/title/Hdparm" target="_blank">source</a></li>
+<li><a href="https://www.thelinuxvault.net/blog/linux-hdd-sleep-how-to-enable-and-disable-with-hdparm/" target="_blank">bonne source</a></li>
+</ul>
 <pre class="shell"><code class="shell">#/etc/udev/rules.d/69-hdparm.rules
 ACTION==&quot;add|change&quot;, KERNEL==&quot;sd[a-z]&quot;, ATTRS{queue/rotational}==&quot;1&quot;, RUN+=&quot;/usr/bin/hdparm -B 127 /dev/%k&quot;
 </code></pre>
@@ -439,7 +445,7 @@ sudo systemctl enable MonService.service
 </code></pre>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 15 octobre 2025</span>.</em>
+		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 12 mai 2026</span>.</em>
 		<h2>Commentaires</h2>
 		<div class="comments"></div>
 		<h2>Ajouter un commentaire</h2>
@@ -488,7 +494,7 @@ sudo systemctl enable MonService.service
 						<a href="category/vie-du-blog.html">Vie du Blog&nbsp;(3)</a>
 					</li>
 					<li>
-						<a href="category/war-game.html">War Game&nbsp;(58)</a>
+						<a href="category/war-game.html">War Game&nbsp;(60)</a>
 					</li>
 				</ul>
 			</aside>
@@ -527,7 +533,7 @@ sudo systemctl enable MonService.service
 				</a><a href="tag/desktop.html" class="tag0">
 					Desktop&nbsp;(3)
 				</a><a href="tag/deuslair.html" class="tag0">
-					Deuslair&nbsp;(2)
+					Deuslair&nbsp;(3)
 				</a><a href="tag/developpement.html" class="tag0">
 					Developpement&nbsp;(3)
 				</a><a href="tag/discord.html" class="tag0">
@@ -543,7 +549,7 @@ sudo systemctl enable MonService.service
 				</a><a href="tag/dragon-ball.html" class="tag0">
 					Dragon Ball&nbsp;(2)
 				</a><a href="tag/dungeon-and-laser.html" class="tag0">
-					Dungeon and Laser&nbsp;(3)
+					Dungeon and Laser&nbsp;(4)
 				</a><a href="tag/d-cor.html" class="tag0">
 					Décor&nbsp;(1)
 				</a><a href="tag/d-fi.html" class="tag0">
@@ -559,13 +565,13 @@ sudo systemctl enable MonService.service
 				</a><a href="tag/espressif.html" class="tag0">
 					Espressif&nbsp;(2)
 				</a><a href="tag/figurine.html" class="tag7">
-					Figurine&nbsp;(38)
+					Figurine&nbsp;(39)
 				</a><a href="tag/gaming.html" class="tag0">
 					Gaming&nbsp;(3)
 				</a><a href="tag/geek.html" class="tag0">
 					Geek&nbsp;(3)
 				</a><a href="tag/gloomspite-gitz.html" class="tag2">
-					Gloomspite Gitz&nbsp;(12)
+					Gloomspite Gitz&nbsp;(13)
 				</a><a href="tag/gobelin.html" class="tag2">
 					Gobelin&nbsp;(14)
 				</a><a href="tag/guide.html" class="tag0">
@@ -575,7 +581,7 @@ sudo systemctl enable MonService.service
 				</a><a href="tag/javafx.html" class="tag0">
 					JavaFX&nbsp;(1)
 				</a><a href="tag/jdr.html" class="tag0">
-					JdR&nbsp;(3)
+					JdR&nbsp;(4)
 				</a><a href="tag/jellyfin.html" class="tag0">
 					Jellyfin&nbsp;(1)
 				</a><a href="tag/jeu-soci-t-.html" class="tag0">
@@ -649,15 +655,15 @@ sudo systemctl enable MonService.service
 				</a><a href="tag/thinkcenter.html" class="tag0">
 					ThinkCenter&nbsp;(2)
 				</a><a href="tag/troll.html" class="tag1">
-					Troll&nbsp;(5)
+					Troll&nbsp;(6)
 				</a><a href="tag/twitch.html" class="tag0">
 					Twitch&nbsp;(1)
-				</a><a href="tag/underworld.html" class="tag0">
-					Underworld&nbsp;(4)
+				</a><a href="tag/underworld.html" class="tag1">
+					Underworld&nbsp;(5)
 				</a><a href="tag/vscode.html" class="tag0">
 					VSCode&nbsp;(3)
-				</a><a href="tag/war-game.html" class="tag11">
-					War Game&nbsp;(58)
+				</a><a href="tag/war-game.html" class="tag12">
+					War Game&nbsp;(60)
 				</a><a href="tag/warcry.html" class="tag0">
 					Warcry&nbsp;(1)
 				</a><a href="tag/warhammer-battle.html" class="tag5">
@@ -678,11 +684,13 @@ sudo systemctl enable MonService.service
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2026 (16)</a>
+						<a href="#">2026 (18)</a>
 						<ul>
 							<li>
-								<a href="#">mai (1)</a>
+								<a href="#">mai (3)</a>
 								<ul>
+									<li><a href="2026/dungeon-and-laser-deuslair-redoe-core.html">Dungeon &amp; Laser : Deuslair : Redoe Alliance</a></li>
+									<li><a href="2026/underworld-gloom-mollog.html">La Bande à Mollog</a></li>
 									<li><a href="2026/pc-gaming-m720q-rx6400-v2.html">Mini Pc gaming, la revanche</a></li>
 								</ul>
 							</li>
