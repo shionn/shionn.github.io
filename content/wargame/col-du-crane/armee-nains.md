@@ -76,7 +76,7 @@ Rehaut	72009
 [paints title="Tunique Bleu/Turquoise"]
 Base	72120
 Éclaircissement	72024
-Éclaircissement	72119
+Éclaircissement	72117
 Rehaut	72096
 [/paints]
 
