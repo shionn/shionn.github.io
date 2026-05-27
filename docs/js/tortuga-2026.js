@@ -381,6 +381,7 @@ q(function() {
 	let tony = new _player("Tony", "pirate14.png", 2);
 	let transfopaper = new _player("Transfopaper", "pirate09.png", 2)
 	let whisp = new _player("Whisp", "pirate00.png", 2);
+	let makushiman = new _player("Makushiman", "pirate07.png")
 	whisp.captain = true;
 
 	// Décoder le Parchemin de Barbe Drue
@@ -500,6 +501,7 @@ q(function() {
 			.progress("10/05/2026", bnachee, 1, "Gunpla", _SMALL)
 			.progress("11/05/2026", whisp, 1, "Inosuke", _MEDIUM)
 			.progress("24/05/2026", jeff, 1, "Decort de faction orc", _MEDIUM_DECOR)
+			.progress("28/05/2026", makushiman, 1, "Jeune Emberling", _SMALL)
 			.render();
 
 
