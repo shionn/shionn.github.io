@@ -501,7 +501,10 @@ q(function() {
 			.progress("10/05/2026", bnachee, 1, "Gunpla", _SMALL)
 			.progress("11/05/2026", whisp, 1, "Inosuke", _MEDIUM)
 			.progress("24/05/2026", jeff, 1, "Decort de faction orc", _MEDIUM_DECOR)
-			.progress("28/05/2026", makushiman, 7, "Dragon eclipse", _SMALL)
+			.progress("28/05/2026", makushiman, 12, "Dragon eclipse", _SMALL)
+			.progress("28/05/2026", makushiman, 5, "Descent 2", _SMALL)
+			.progress("29/05/2026", whisp, 1, "gob sur araignée", _SMALL)
+			.doChallenge("29/05/2026", whisp)
 			.render();
 
 
