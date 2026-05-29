@@ -115,6 +115,7 @@ https://shionn.github.io/2026/gloomspite-sournifleur.html
 https://shionn.github.io/2026/gloomspite-squig-herd.html
 https://shionn.github.io/2026/mononokee-nomnom.html
 https://shionn.github.io/2026/nvidia-proxmox-lxc-passthrought-ollama.html
+https://shionn.github.io/2026/pattern-singleton-java.html
 https://shionn.github.io/2026/pc-gaming-m720q-rx6400-v2.html
 https://shionn.github.io/2026/proxmox-help-kit.html
 https://shionn.github.io/2026/tortuga-2026.html
@@ -188,6 +189,7 @@ https://shionn.github.io/tag/ntp.html
 https://shionn.github.io/tag/nvidia.html
 https://shionn.github.io/tag/ollama.html
 https://shionn.github.io/tag/openrgb.html
+https://shionn.github.io/tag/pattern.html
 https://shionn.github.io/tag/peinture.html
 https://shionn.github.io/tag/photo.html
 https://shionn.github.io/tag/platformio.html
@@ -202,6 +204,7 @@ https://shionn.github.io/tag/script.html
 https://shionn.github.io/tag/seigneurs-ruinem-nes.html
 https://shionn.github.io/tag/server.html
 https://shionn.github.io/tag/shenron.html
+https://shionn.github.io/tag/singleton.html
 https://shionn.github.io/tag/skaven.html
 https://shionn.github.io/tag/skaventide.html
 https://shionn.github.io/tag/sqlite.html

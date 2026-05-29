@@ -176,6 +176,7 @@
 					<a href="tag/java.html">Java</a>
 					<ul>
 						<li><a href="2025/bot-discord-en-java.html">Bot discord</a></li>
+						<li><a href="2026/pattern-singleton-java.html">Pattern Singleton</a></li>
 						<li><a href="2025/webview-avec-javafx-et-screenshot.html">Screenshot avec JavaFX</a></li>
 					</ul>
 				</li>
@@ -217,6 +218,48 @@
 		
 		
 		
+			
+				<article class="short">
+	<header>
+		
+		<h1><a href="2026/pattern-singleton-java.html">Pattern Singleton en Java</a></h1>
+		<div>
+			<span>Publié le 29 mai 2026</span>
+			<span>
+				<span class="fa fa-folder-open"></span>
+				<a href="category/code.html">Code</a>
+			</span>
+			<span>
+				<span class="fa fa-flag"></span>
+				<a href="tag/java.html">Java</a><a href="tag/pattern.html">Pattern</a><a href="tag/singleton.html">Singleton</a>
+			</span>
+		</div>
+	</header>
+	<section><p>J'ai écris cet article il y a une dixaine d'année au travail, mon chef m'as donné l'autorisation de partager cela sur mon blog.</p>
+<h1>Pattern conseillé</h1>
+<p>Généralement lorsque l'on souhait faire un singleton chargé au dernier moment (Lazy Instance) on conseille d’utiliser ce pattern :</p>
+<pre class="java"><code class="java">public class MySignleton {
+    private static class MySingletonHolder {
+        private static final MySingleton instance = new MySingleton();
+    }
+ 
+    private MySingleton() {
+        // initialisation
+    }
+ 
+    public static MySingleton getInstance() {
+        return MySingletonHolder.instance;
+    }
+}
+</code></pre>
+<p>Mais pourquoi utilise t'on ce pattern ? Ce pattern s'appuie sur le mécanisme de chargement de classe de java pour s'assurer à la fois l'instanciation unique et threadsafe de notre unique instance.</p>
+<h1>Pattern déconseillé</h1>
+<h2>synchronized getInstance</h2>
+</section>
+	<footer>
+		<a href="2026/pattern-singleton-java.html"><span class="fa fa-eye"></span> Lire la suite</a>
+	</footer>
+</article>
 			
 				<article class="short">
 	<header>
@@ -530,7 +573,7 @@ Pour les autres systèmes vous pouvez regarder sur la <a href="https://docs.plat
 				<h1><span class="fa fa-folder-open"></span> Catégories</h1>
 				<ul>
 					<li>
-						<a href="category/code.html">Code&nbsp;(8)</a>
+						<a href="category/code.html">Code&nbsp;(9)</a>
 					</li>
 					<li>
 						<a href="category/diy.html">DiY&nbsp;(1)</a>
@@ -634,7 +677,7 @@ Pour les autres systèmes vous pouvez regarder sur la <a href="https://docs.plat
 				</a><a href="tag/guide.html" class="tag0">
 					Guide&nbsp;(1)
 				</a><a href="tag/java.html" class="tag1">
-					Java&nbsp;(5)
+					Java&nbsp;(6)
 				</a><a href="tag/javafx.html" class="tag0">
 					JavaFX&nbsp;(1)
 				</a><a href="tag/jdr.html" class="tag0">
@@ -675,6 +718,8 @@ Pour les autres systèmes vous pouvez regarder sur la <a href="https://docs.plat
 					Ollama&nbsp;(1)
 				</a><a href="tag/openrgb.html" class="tag0">
 					OpenRGB&nbsp;(1)
+				</a><a href="tag/pattern.html" class="tag0">
+					Pattern&nbsp;(1)
 				</a><a href="tag/peinture.html" class="tag0">
 					Peinture&nbsp;(3)
 				</a><a href="tag/photo.html" class="tag0">
@@ -703,6 +748,8 @@ Pour les autres systèmes vous pouvez regarder sur la <a href="https://docs.plat
 					Server&nbsp;(7)
 				</a><a href="tag/shenron.html" class="tag0">
 					Shenron&nbsp;(1)
+				</a><a href="tag/singleton.html" class="tag0">
+					Singleton&nbsp;(1)
 				</a><a href="tag/skaven.html" class="tag0">
 					Skaven&nbsp;(4)
 				</a><a href="tag/skaventide.html" class="tag0">
@@ -741,11 +788,12 @@ Pour les autres systèmes vous pouvez regarder sur la <a href="https://docs.plat
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2026 (18)</a>
+						<a href="#">2026 (19)</a>
 						<ul>
 							<li>
-								<a href="#">mai (3)</a>
+								<a href="#">mai (4)</a>
 								<ul>
+									<li><a href="2026/pattern-singleton-java.html">Pattern Singleton en Java</a></li>
 									<li><a href="2026/dungeon-and-laser-deuslair-redoe-core.html">Dungeon &amp; Laser : Deuslair : Redoe Alliance</a></li>
 									<li><a href="2026/underworld-gloom-mollog.html">La Bande à Mollog</a></li>
 									<li><a href="2026/pc-gaming-m720q-rx6400-v2.html">Mini Pc gaming, la revanche</a></li>
