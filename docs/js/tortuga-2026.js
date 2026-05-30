@@ -505,11 +505,19 @@ q(function() {
 			.progress("28/05/2026", makushiman, 5, "Descent 2", _SMALL)
 			.progress("29/05/2026", whisp, 1, "gob sur araignée", _SMALL)
 			.doChallenge("29/05/2026", whisp)
+			.progress("30/05/2026", shionn, 1, "nains sur nounours", _MEDIUM)
+			.doChallenge("30/05/2026", shionn)
 			.render();
 
+	let q6 = new _quest("quest-6", "Reflexion en attendant la suite", "Peindre 80 figurines", 80)
+			.progress("30/05/2026", shionn, 10, "Guerrier Chaos Warcry", _SMALL)
+			.progress("30/05/2026", shionn, 4, "Nains", _SMALL)
+			.progress("30/05/2026", shionn, 1, "Canon Nains", _SMALL_DECOR)
+			.render();
+;
 
 //
-	_renderPlayers([angest, bnachee, cuistotfou, faran, jeff, marco, phylios, shionn, tony, transfopaper, tupad, whisp]);
-	_renderQuests([q1,q2,q3,q4,q5]);
+	_renderPlayers([angest, bnachee, cuistotfou, faran, jeff, makushiman, marco, phylios, shionn, tony, transfopaper, tupad, whisp]);
+	_renderQuests([q1,q2,q3,q4,q5,q6]);
 
 });
