@@ -507,9 +507,9 @@ q(function() {
 
 
 	let q6 = new _quest("quest-6", "Reflexion en attendant la suite", "Peindre 80 figurines", 80)
-			.progress("28/05/2026", makushiman, 5, "Dragon eclipse", _SMALL)
+			.progress("28/05/2026", makushiman, 4, "Dragon eclipse", _SMALL)
 			.progress("28/05/2026", makushiman, 5, "Descent 2", _SMALL)
-			.progress("28/05/2026", makushiman, 2, "Massive Darkness", _SMALL)
+			.progress("28/05/2026", makushiman, 9, "Massive Darkness", _SMALL)
 			.progress("29/05/2026", whisp, 1, "gob sur araignée", _SMALL)
 			.doChallenge("29/05/2026", whisp)
 			.progress("30/05/2026", shionn, 1, "nains sur nounours", _MEDIUM)
