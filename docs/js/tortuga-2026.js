@@ -501,15 +501,19 @@ q(function() {
 			.progress("10/05/2026", bnachee, 1, "Gunpla", _SMALL)
 			.progress("11/05/2026", whisp, 1, "Inosuke", _MEDIUM)
 			.progress("24/05/2026", jeff, 1, "Decort de faction orc", _MEDIUM_DECOR)
-			.progress("28/05/2026", makushiman, 12, "Dragon eclipse", _SMALL)
+			.progress("28/05/2026", makushiman, 19, "Dragon eclipse", _SMALL)
+			.render();
+
+
+
+	let q6 = new _quest("quest-6", "Reflexion en attendant la suite", "Peindre 80 figurines", 80)
+			.progress("28/05/2026", makushiman, 5, "Dragon eclipse", _SMALL)
 			.progress("28/05/2026", makushiman, 5, "Descent 2", _SMALL)
+			.progress("28/05/2026", makushiman, 2, "Massive Darkness", _SMALL)
 			.progress("29/05/2026", whisp, 1, "gob sur araignée", _SMALL)
 			.doChallenge("29/05/2026", whisp)
 			.progress("30/05/2026", shionn, 1, "nains sur nounours", _MEDIUM)
 			.doChallenge("30/05/2026", shionn)
-			.render();
-
-	let q6 = new _quest("quest-6", "Reflexion en attendant la suite", "Peindre 80 figurines", 80)
 			.progress("30/05/2026", shionn, 10, "Guerrier Chaos Warcry", _SMALL)
 			.progress("30/05/2026", shionn, 4, "Nains", _SMALL)
 			.progress("30/05/2026", shionn, 1, "Canon Nains", _SMALL_DECOR)
