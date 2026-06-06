@@ -15,6 +15,8 @@ Un mec me cassant les c###s régulièrement sur twitch pour que je mette mes pho
 
 - [Elfes Noirs](2024/armee-elfes-noirs.html)
 - [Gobelin de la Nuit](2025/armee-gobs.html)
+- _à venir Nains_
+
 
 # Underworld
 
@@ -23,10 +25,9 @@ Un mec me cassant les c###s régulièrement sur twitch pour que je mette mes pho
 - [Gloomspite Gitz](2025/underworld-gloom-gitz-zarbags.html) _1 bandes_
 
 
-[after date="2025/10/01"]
 # Warcry
 
 - [Filles de Khaine](2025/warcry-dok.html) _Rodeur de l'ombre Khainites_
-[/after]
+- _à venir Noir Serment_
 
 Pas d'insta, pas d'insta, pas d'insta.

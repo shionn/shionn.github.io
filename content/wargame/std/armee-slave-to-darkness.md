@@ -76,6 +76,33 @@ pictures/aos/std/prince-demon/03.jpg
 [/gallery]
 [/after]
 
+[after date="2026/09/10"]
+# Troupes
+
+## Saccageurs
+
+Il provienne de la boite fer de lance. C'est une bande Warcry originellement.
+
+- Peinte en Mai 2026
+- En environ 19 heures
+
+[gallery w=500 h=200]
+pictures/warcry/std/saccageurs/01.jpg
+[/gallery]
+[gallery w=450 h=200]
+pictures/warcry/std/saccageurs/02.jpg
+pictures/warcry/std/saccageurs/03.jpg
+pictures/warcry/std/saccageurs/08.jpg
+pictures/warcry/std/saccageurs/09.jpg
+[/gallery]
+[gallery w=350 h=200]
+pictures/warcry/std/saccageurs/04.jpg
+pictures/warcry/std/saccageurs/05.jpg
+pictures/warcry/std/saccageurs/06.jpg
+pictures/warcry/std/saccageurs/07.jpg
+[/gallery]
+[/after]
+
 
 # Peinture
 
@@ -94,7 +121,6 @@ Base	21-11
 Éclaircissement	72147
 Rehaut	72001
 [/paints]
-
 
 [paints title="Cheveux blond"]
 Base	72042
@@ -124,6 +150,7 @@ Ombrage	72045
 [paints title="Peau Femme"]
 Base	72108
 Ombrage	72044
+Éclaircissement	72107
 [/paints]
 
 [paints title="Peau Homme"]

@@ -97,7 +97,14 @@ pictures/dungeon-and-laser/deuslair/addon/redoe/knights-of-ruth/02.jpg
 
 ### Tidor the Dwarf Chieftan (SG)
 
-todo
+- Peinte en Mai 2026
+- En environ 2h30
+
+[gallery w=150 h=200]
+pictures/dungeon-and-laser/deuslair/strech/redoe/tidor-the-dwarf-chieftan/01.jpg
+pictures/dungeon-and-laser/deuslair/strech/redoe/tidor-the-dwarf-chieftan/02.jpg
+pictures/dungeon-and-laser/deuslair/strech/redoe/tidor-the-dwarf-chieftan/03.jpg
+[/gallery]
 
 ## Yv'anda - Dryad Observers
 

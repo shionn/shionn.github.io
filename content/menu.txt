@@ -14,6 +14,7 @@ category/war-game	War Game
 		2024/underworld-dok	Fille de Khaine
 		2025/underworld-gloom	Gloomspite Gitz
 		2025/warcry-dok	Rodeur de l'ombre Khainites
+		2025/warcry-std	Saccageurs Noir-Serment	2026-09-10
 		2024/underworld-soulblight	Seigneurs Ruinemânes
 	tag/dungeon-and-laser	Dungeon and Laser
 		2026/dungeon-and-laser-deuslair	Deuslair

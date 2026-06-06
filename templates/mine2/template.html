@@ -37,6 +37,7 @@
 		<th:block th:case="'draft'">
 			<p>Un article sur deux de peinture || Cycle visé : gob > autre peinture > Non peinture. || On intercalle whisperia quand il faut tans pis.</p>
 			<h2>Programmation auto :</h2>
+			<th:block th:text="${site.formatedMissingDateDraft}"/>
 			<ul>
 				<li th:each="article : ${site.autoPublishedDrafts}">
 					<a th:text="${article.title}" th:href="${article.url}"></a>

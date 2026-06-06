@@ -1,0 +1,12 @@
+{
+	"type": "post",
+	"date": "2026/08/01",
+	"title": "Artillerie Naine",
+	"logo": "pictures/titles/nains/artillerie.jpg",
+	"tags": ["War Game", "Figurine", "Nains", "Col du Crâne", "Warhammer Battle"],
+	"category": "War Game",
+	"published": true,
+	"js" : [  ],
+	"toCheck": false,
+	"author": "Shionn"
+}

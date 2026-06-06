@@ -1,11 +1,11 @@
 {
 	"type": "page",
-	"date": "2027/01/01",
+	"date": "2026/08/01",
 	"updated": [],
 	"title": "Mes Nains",
 	"tags": ["War Game", "Armée", "Nains", "Col du Crâne", "Warhammer Battle"],
 	"category": "War Game",
-	"published": false,
+	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"
 }
