@@ -45,7 +45,7 @@ pictures/aos/std/cavaliers-cruels/12.jpg
 pictures/aos/std/cavaliers-cruels/13.jpg
 [/gallery]
 
-[after date="2026/08/17"]
+[after date="2026/08/25"]
 # Monstre
 
 ## Gastefauve
@@ -76,7 +76,7 @@ pictures/aos/std/prince-demon/03.jpg
 [/gallery]
 [/after]
 
-[after date="2026/09/10"]
+[after date="2026/09/18"]
 # Troupes
 
 ## Saccageurs

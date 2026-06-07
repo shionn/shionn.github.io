@@ -70,8 +70,8 @@ Inventaire	1 Popo majeur	8D4+8
 	Gourde d’eau	 
 	Torche	2
 Richesse	Or	119po
+	2 rubis de Héla	~40po
 Coffre	Or	100po
-	1 rubis	~20po
 	1 jaspes	~25po
 	5 rubis	~100po
 [/table]

@@ -45,7 +45,7 @@ pictures/battle/bataille-col-crane/gobs/shaman/02.jpg
 pictures/battle/bataille-col-crane/gobs/shaman/03.jpg
 [/gallery]
 
-[after date="2026/06/30"]
+[after date="2026/07/08"]
 ## Chaman en métal
 
 * Peinte en Janvier 2026.
@@ -146,7 +146,7 @@ pictures/battle/bataille-col-crane/gobs/chevaucheur-araignee/03.jpg
 pictures/battle/bataille-col-crane/gobs/chevaucheur-araignee/04.jpg
 [/gallery]
 
-[after date="2026/06/30"]
+[after date="2026/07/08"]
 ## Fanatiques en métal
 
 * Peinte en Janvier 2026.

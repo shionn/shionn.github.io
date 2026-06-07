@@ -1,6 +1,6 @@
 {
 	"type": "post",
-	"date": "2026/06/22",
+	"date": "2026/06/30",
 	"title": "Connecter un ESP à Home Assistant via MQTT",
 	"tags": ["Arduino", "VSCode", "PlatformIO", "CPP", "ESP32", "Espressif", "ESP8266", "WiFi", "HomeAssistant"],
 	"category": "Code",

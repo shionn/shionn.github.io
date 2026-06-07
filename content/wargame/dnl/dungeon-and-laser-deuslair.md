@@ -297,7 +297,7 @@ todo
 
 [/after]
 
-[after date="2026/07/08"]
+[after date="2026/07/16"]
 # Disciple du Chaos
 
 ## Demonic Reinforcements 

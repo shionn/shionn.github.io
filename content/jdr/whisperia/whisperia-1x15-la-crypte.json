@@ -1,11 +1,11 @@
 {
 	"type": "post",
-	"date": "2027/01/01",
+	"date": "2026/06/14",
 	"title": "Whisperia 15 : La Crypte",
 	"tags": ["Whisperia", "DnD"],
-	"logo" : "pictures/titles/whisperia/1x14.jpg",
+	"logo" : "pictures/titles/whisperia/1x15.jpg",
 	"category": "JDR",
-	"published": false,
+	"published": true,
 	"author": "Shionn",
 	"js" : [ ]
 }
