@@ -36,7 +36,7 @@ Toutes nos aventures dans les articles précédent :
 * [Caleche et Loup](2025/whisperia-1x10-caleche-loup.html). 
 * [Retour en Ville](2025/whisperia-1x11-retour-en-ville.html). 
 * [Deux personnages](2025/whisperia-1x12-deux-personnages.html). 
-* [Les hobgobelins](2026/whisperia-1x13-les-hobgobelins.html). 
+* [Les hobgobelins](2026/whisperia-1x14-le-mausolee.html). 
 
 # Et maintenant la suite
 

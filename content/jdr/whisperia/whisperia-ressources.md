@@ -61,6 +61,7 @@ Armure	Broigne(+14)	CA : 14
 Capacitées	Second souffle	1 fois par jour, +1D10+lvl pv.
 	Fougue	1 fois par jour, +1 action
 	Champion	Crit sur 19-20
+Malédiction	Rubis de Héla	Désavantage dès que je suis dans un espace confiné
 Inventaire	1 Popo majeur	8D4+8
 	2 Popo moyenne	4D4+4
 	Couverture & Sac de couchage	 
@@ -70,7 +71,7 @@ Inventaire	1 Popo majeur	8D4+8
 	Torche	2
 Richesse	Or	119po
 Coffre	Or	100po
-	1 rubi	~20po
+	1 rubis	~20po
 	1 jaspes	~25po
 	5 rubis	~100po
 [/table]
