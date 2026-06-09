@@ -25,6 +25,11 @@
 - https://libgdx.com
 - godotengine.org
 
+# Ressources JV 
+
+- [Kaykit](https://kaylousberg.itch.io/)
+- [Kenney](https://www.kenney.nl/)
+
 # Petite astuce sur git
 
 Annuler les changements :
