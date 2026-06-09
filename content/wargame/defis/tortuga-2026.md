@@ -160,4 +160,8 @@ Mais aucune récompense n'est prévu car je sais qu'il y en a de trop !
 
 <div id="tortuga-2026-quest-6"></div>
 
+## Preparation d'une alpha
+
+<div id="tortuga-2026-quest-7"></div>
+
 
