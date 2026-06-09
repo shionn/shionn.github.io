@@ -504,8 +504,6 @@ q(function() {
 			.progress("28/05/2026", makushiman, 19, "Dragon eclipse", _SMALL)
 			.render();
 
-
-
 	let q6 = new _quest("quest-6", "Reflexion en attendant la suite", "Peindre 80 figurines", 80)
 			.progress("28/05/2026", makushiman, 4, "Dragon eclipse", _SMALL)
 			.progress("28/05/2026", makushiman, 5, "Descent 2", _SMALL)
@@ -519,11 +517,17 @@ q(function() {
 			.progress("30/05/2026", shionn, 1, "Canon Nains", _SMALL_DECOR)
 			.progress("07/06/2026", whisp, 1, "Lazarus", _SMALL)
 			.progress("07/06/2026", whisp, 1, "Lazarus", _MEDIUM)
+			.progress("09/06/2026", tupad, 30, "Gaunt", _SMALL)
+			.progress("09/06/2026", tupad, 1, "Cerveau tyranide", _MEDIUM)
+			.progress("09/06/2026", tupad, 12, "Fantasin WW2", _SMALL)
 			.render();
-;
+
+	let q7 = new _quest("quest-7", "Shionn prepare une alpha", "Peindre 80 figurines", 80)
+			.progress("09/06/2026", tupad, 41-12, "Fantasin WW2", _SMALL)
+			.render();
 
 //
 	_renderPlayers([angest, bnachee, cuistotfou, faran, jeff, makushiman, marco, phylios, shionn, tony, transfopaper, tupad, whisp]);
-	_renderQuests([q1,q2,q3,q4,q5,q6]);
+	_renderQuests([q1,q2,q3,q4,q5,q6,q7]);
 
 });
