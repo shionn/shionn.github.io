@@ -524,6 +524,7 @@ q(function() {
 
 	let q7 = new _quest("quest-7", "Shionn prepare une alpha", "Peindre 80 figurines", 80)
 			.progress("09/06/2026", tupad, 41-12, "Fantasin WW2", _SMALL)
+			.progress("09/06/2026", tupad, 9, "Gundam", _MEDIUM)
 			.render();
 
 //
