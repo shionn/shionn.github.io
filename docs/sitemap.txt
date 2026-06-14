@@ -17,6 +17,7 @@ https://shionn.github.io/index-15.html
 https://shionn.github.io/index-16.html
 https://shionn.github.io/index-17.html
 https://shionn.github.io/index-18.html
+https://shionn.github.io/index-19.html
 https://shionn.github.io/2023/armee-nighthaunt.html
 https://shionn.github.io/2023/armee-skaven.html
 https://shionn.github.io/2023/debian-general-help-kit.html
@@ -123,6 +124,7 @@ https://shionn.github.io/2026/tortuga-2026.html
 https://shionn.github.io/2026/underworld-gloom-mollog.html
 https://shionn.github.io/2026/whisperia-1x13-les-hobgobelins.html
 https://shionn.github.io/2026/whisperia-1x14-le-mausolee.html
+https://shionn.github.io/2026/whisperia-1x15-la-crypte.html
 https://shionn.github.io/category/code.html
 https://shionn.github.io/category/diy.html
 https://shionn.github.io/category/jdr.html
