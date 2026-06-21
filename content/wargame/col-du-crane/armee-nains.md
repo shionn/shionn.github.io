@@ -45,10 +45,43 @@ pictures/battle/bataille-col-crane/nains/canon/04.jpg
 pictures/battle/bataille-col-crane/nains/canon/05.jpg
 [/gallery]
 
+[after date="2026/09/02"]
+# Infanterie
 
-# Guerriers
+## Guerriers
 
-TODO
+Normalement dans une boite *col du crâne* il n'y as que 12 guerriers. 
+J'en ai 20 donc j'ai fait deux troupes de 10. 
+
+La premiere à été peinte en Fevrier 2026 en 16 heures environ
+
+[gallery w=350 h=200]
+pictures/battle/bataille-col-crane/nains/guerriers/01.jpg
+pictures/battle/bataille-col-crane/nains/guerriers/02.jpg
+pictures/battle/bataille-col-crane/nains/guerriers/03.jpg
+[/gallery]
+[gallery w=300 h=200]
+pictures/battle/bataille-col-crane/nains/guerriers/04.jpg
+pictures/battle/bataille-col-crane/nains/guerriers/05.jpg
+[/gallery]
+[gallery w=400 h=200]
+pictures/battle/bataille-col-crane/nains/guerriers/06.jpg
+pictures/battle/bataille-col-crane/nains/guerriers/07.jpg
+[/gallery]
+
+La premiere à été peinte en Juin 2026 en 10 heures environ
+
+[gallery w=350 h=200]
+pictures/battle/bataille-col-crane/nains/guerriers/11.jpg
+pictures/battle/bataille-col-crane/nains/guerriers/12.jpg
+pictures/battle/bataille-col-crane/nains/guerriers/13.jpg
+[/gallery]
+[gallery w=450 h=200]
+pictures/battle/bataille-col-crane/nains/guerriers/14.jpg
+pictures/battle/bataille-col-crane/nains/guerriers/15.jpg
+[/gallery]
+
+[/after]
 
 # Peinture
 

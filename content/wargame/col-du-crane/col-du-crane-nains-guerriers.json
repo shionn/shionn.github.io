@@ -1,11 +1,11 @@
 {
 	"type": "post",
-	"date": "2027/01/01",
+	"date": "2026/09/02",
 	"title": "Guerriers Nains",
 	"logo": "pictures/titles/todo.jpg",
 	"tags": ["War Game", "Figurine", "Nains", "Col du Crâne", "Warhammer Battle"],
 	"category": "War Game",
-	"published": false,
+	"published": true,
 	"js" : [  ],
 	"toCheck": false,
 	"author": "Shionn"

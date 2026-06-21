@@ -52,7 +52,8 @@ category/jdr	JdR
 		2025/whisperia-1x11-retour-en-ville	11 : Retour en Ville
 		2025/whisperia-1x12-deux-personnages	12 : Deux personnages
 		2026/whisperia-1x13-les-hobgobelins	13 : Les Hobgobelins
-		2026/whisperia-1x14-le-mausolee	14 : Le Mausolée	2026-03-18
+		2026/whisperia-1x14-le-mausolee	14 : Le Mausolée
+		2026/whisperia-1x15-la-crypte	15 : La Crypte
 	tag/whisperia	Donnée sur Whisperia
 		2025/whisperia-ressources	Ressources
 category/linux	Linux
