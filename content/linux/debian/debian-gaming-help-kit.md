@@ -5,6 +5,21 @@ Pour des astuces plus généraliste merci de [regarder cette page](2023/debian-g
 # Installation
 
 ## Steam
+
+### avec extrepo
+
+~~~shell
+sudo apt install extrepo
+# editer /etc/extrepo/config.yml et activer contrib et non-free
+sudo extrepo enable steam
+sudo apt update
+sudo apt install steam-launcher
+steam-launcher
+# suivre les instructions (cela activera le i386 et installera les paquet necessaire)
+~~~
+
+### Ancienne méthode 
+
 Il faut ajouter les dépôts _non-free_ puis Ajouter des l'architecture i386, mettre à jour les depot puis installer steam :
 
 ~~~shell
