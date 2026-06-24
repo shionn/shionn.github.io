@@ -275,16 +275,17 @@ Cette page se concentre sur l'aspect jeux vidéo.
 Pour des astuces plus généraliste merci de <a href="2023/debian-general-help-kit.html">regarder cette page</a>.</p>
 <h1>Installation</h1>
 <h2>Steam</h2>
-<p>Il faut ajouter les dépôts <em>non-free</em> puis Ajouter des l'architecture i386, mettre à jour les depot puis installer steam :</p>
-<pre class="shell"><code class="shell">sudo dpkg --add-architecture i386
+<h3>avec extrepo</h3>
+<pre class="shell"><code class="shell">sudo apt install extrepo
+# editer /etc/extrepo/config.yml et activer contrib et non-free
+sudo extrepo enable steam
 sudo apt update
-sudo apt install steam
+sudo apt install steam-launcher
+steam-launcher
+# suivre les instructions (cela activera le i386 et installera les paquet necessaire)
 </code></pre>
-<h2>Bottle</h2>
-<pre class="shell"><code class="shell">sudo apt install flatpak
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.usebottles.bottles
-</code></pre>
+<h3>Ancienne méthode</h3>
+<p>Il faut ajouter les dépôts <em>non-free</em> puis Ajouter des l'architecture i386, mettre à jour les depot puis installer steam :</p>
 </section>
 	<footer>
 		<a href="2025/debian-gaming-help-kit.html"><span class="fa fa-eye"></span> Lire la suite</a>
