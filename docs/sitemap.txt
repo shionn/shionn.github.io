@@ -120,6 +120,7 @@ https://shionn.github.io/2026/nvidia-proxmox-lxc-passthrought-ollama.html
 https://shionn.github.io/2026/pattern-singleton-java.html
 https://shionn.github.io/2026/pc-gaming-m720q-rx6400-v2.html
 https://shionn.github.io/2026/proxmox-help-kit.html
+https://shionn.github.io/2026/repaint-genshin-diluc-fischi.html
 https://shionn.github.io/2026/tortuga-2026.html
 https://shionn.github.io/2026/underworld-gloom-mollog.html
 https://shionn.github.io/2026/whisperia-1x13-les-hobgobelins.html
@@ -168,6 +169,7 @@ https://shionn.github.io/tag/espressif.html
 https://shionn.github.io/tag/figurine.html
 https://shionn.github.io/tag/gaming.html
 https://shionn.github.io/tag/geek.html
+https://shionn.github.io/tag/genshin-impact.html
 https://shionn.github.io/tag/gloomspite-gitz.html
 https://shionn.github.io/tag/gobelin.html
 https://shionn.github.io/tag/guide.html
