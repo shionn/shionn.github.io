@@ -527,6 +527,7 @@ q(function() {
 			.progress("09/06/2026", tupad, 9, "Gundam", _MEDIUM)
 			.progress("24/06/2026", tupad, 9, "Gundam", _MEDIUM)
 			.progress("24/06/2026", makushiman, 1, "Ryff", _SMALL)
+			.progress("25/06/2026", makushiman, 1, "Chaman", _MEDIUM)
 			.render();
 
 //
