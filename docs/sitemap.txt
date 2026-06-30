@@ -103,6 +103,7 @@ https://shionn.github.io/2025/whisperia-1x10-caleche-loup.html
 https://shionn.github.io/2025/whisperia-1x11-retour-en-ville.html
 https://shionn.github.io/2025/whisperia-1x12-deux-personnages.html
 https://shionn.github.io/2025/whisperia-ressources.html
+https://shionn.github.io/2026/arduino-home-assistant-mqtt.html
 https://shionn.github.io/2026/bonne-annee-2026.html
 https://shionn.github.io/2026/bot-twitch-python.html
 https://shionn.github.io/2026/col-du-crane-gobs-lanciers-archers.html
@@ -173,6 +174,7 @@ https://shionn.github.io/tag/genshin-impact.html
 https://shionn.github.io/tag/gloomspite-gitz.html
 https://shionn.github.io/tag/gobelin.html
 https://shionn.github.io/tag/guide.html
+https://shionn.github.io/tag/homeassistant.html
 https://shionn.github.io/tag/java.html
 https://shionn.github.io/tag/javafx.html
 https://shionn.github.io/tag/jdr.html
