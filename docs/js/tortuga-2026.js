@@ -530,6 +530,8 @@ q(function() {
 			.progress("25/06/2026", makushiman, 1, "Chaman", _MEDIUM)
 			.progress("27/06/2026", whisp, 1, "Nyrah le silencieux", _BIG)
 			.doChallenge("27/06/2026", whisp)
+			.progress("01/07/2026", makushiman, 1, "Niork le troll", _SMALL)
+			.progress("01/07/2026", makushiman, 1, "Elysia la sorcière", _SMALL)
 			.render();
 
 //
