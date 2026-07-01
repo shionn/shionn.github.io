@@ -528,6 +528,8 @@ q(function() {
 			.progress("24/06/2026", tupad, 9, "Gundam", _MEDIUM)
 			.progress("24/06/2026", makushiman, 1, "Ryff", _SMALL)
 			.progress("25/06/2026", makushiman, 1, "Chaman", _MEDIUM)
+			.progress("27/06/2026", whisp, 1, "Nyrah le silencieux", _BIG)
+			.doChallenge("27/06/2026", whisp)
 			.render();
 
 //
