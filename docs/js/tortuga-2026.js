@@ -535,6 +535,7 @@ q(function() {
 			.progress("02/07/2026", whisp, 1, "Loup Garou", _SMALL)
 			.progress("02/07/2026", shionn, 10, "Guerrier Nains", _SMALL)
 			.progress("02/07/2026", shionn, 10, "Maraudeur STD", _SMALL)
+			.progress("02/07/2026", bnachee, 1, "Gundam", _SMALL)
 			.render();
 
 //
