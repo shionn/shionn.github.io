@@ -364,7 +364,7 @@ q(function() {
 	const _BonPlan = 12;
 
 	let angest = new _player("Angest", "pirate12.png", 2);
-	let anuabi = new _player("Anuabi", "pirate12.png", 2);
+	//let anuabi = new _player("Anuabi", "pirate12.png", 2);
 	//let ben = new _player("Ben illustrateur", "pirate07.png");
 	let bnachee = new _player("Bnachee", "pirate02.png");
 	let cuistotfou = new _player("Cuistotfou", "pirate13.png");
@@ -373,8 +373,9 @@ q(function() {
 	let jeff = new _player("Jeff von Zarovich", "pirate15.png");
 	//let ludovic5799 = new _player("Ludovic5799", "pirate01.png");
 	let phylios = new _player("Phylios", "pirate07.png", 2);
-	let matdeubeul = new _player("Matdeubeul", "TODO");
+	//let matdeubeul = new _player("Matdeubeul", "TODO");
 	let marco = new _player("Marco", "pirate07.png");
+	let melou = new _player("Melou", "pirate04.png");
 	//let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
 	let shionn = new _player("Shionn", "pirate02.png", 2);
 	let tupad = new _player("Tupad_", "pirate07.png", 2);
@@ -539,7 +540,7 @@ q(function() {
 			.render();
 
 //
-	_renderPlayers([angest, bnachee, cuistotfou, faran, jeff, makushiman, marco, phylios, shionn, tony, transfopaper, tupad, whisp]);
+	_renderPlayers([angest, bnachee, cuistotfou, faran, jeff, makushiman, marco, melou, phylios, shionn, tony, transfopaper, tupad, whisp]);
 	_renderQuests([q1,q2,q3,q4,q5,q6,q7]);
 
 });
