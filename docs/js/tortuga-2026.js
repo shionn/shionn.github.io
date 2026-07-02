@@ -532,6 +532,7 @@ q(function() {
 			.doChallenge("27/06/2026", whisp)
 			.progress("01/07/2026", makushiman, 1, "Niork le troll", _SMALL)
 			.progress("01/07/2026", makushiman, 1, "Elysia la sorcière", _SMALL)
+			.progress("02/07/2026", whisp, 1, "Loup Garou", _SMALL)
 			.render();
 
 //
