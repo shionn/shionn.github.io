@@ -513,7 +513,8 @@ q(function() {
 			.doChallenge("29/05/2026", whisp)
 			.progress("30/05/2026", shionn, 1, "nains sur nounours", _MEDIUM)
 			.doChallenge("30/05/2026", shionn)
-			.progress("30/05/2026", shionn, 10, "Guerrier Chaos Warcry", _SMALL)
+			.progress("30/05/2026", shionn, 7, "Guerrier Chaos Warcry", _SMALL)
+			.progress("30/05/2026", shionn, 3, "Guerrier Chaos Warcry", _MEDIUM)
 			.progress("30/05/2026", shionn, 4, "Nains", _SMALL)
 			.progress("30/05/2026", shionn, 1, "Canon Nains", _SMALL_DECOR)
 			.progress("07/06/2026", whisp, 1, "Lazarus", _SMALL)
@@ -537,7 +538,12 @@ q(function() {
 			.progress("02/07/2026", shionn, 10, "Guerrier Nains", _SMALL)
 			.progress("02/07/2026", shionn, 10, "Maraudeur STD", _SMALL)
 			.progress("02/07/2026", bnachee, 1, "Gundam", _SMALL)
+			.progress("02/07/2026", melou, 3, "Terminator Space wolf", _MEDIUM)
+			.progress("02/07/2026", melou, 3, "Griffe Sanglante", _SMALL)
 			.render();
+
+	let q8 = new _quest("quest-8", "Dungeon 2", "Peindre 80 figurines", 80)
+			.progress("02/07/2026", melou, 4, "Griffe Sanglante", _SMALL);
 
 //
 	_renderPlayers([angest, bnachee, cuistotfou, faran, jeff, makushiman, marco, melou, phylios, shionn, tony, transfopaper, tupad, whisp]);
