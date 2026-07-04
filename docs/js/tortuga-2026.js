@@ -375,6 +375,7 @@ q(function() {
 	let phylios = new _player("Phylios", "pirate07.png", 2);
 	//let matdeubeul = new _player("Matdeubeul", "TODO");
 	let marco = new _player("Marco", "pirate07.png");
+	let maud = new _player("Maud", "pirate12.png");
 	let melou = new _player("Melou", "pirate04.png");
 	//let rahanis = new _player("Rahanis Sylvéclat", "pirate09.png");
 	let shionn = new _player("Shionn", "pirate02.png", 2);
@@ -546,10 +547,11 @@ q(function() {
 			.progress("02/07/2026", melou, 4, "Griffe Sanglante", _SMALL)
 			.doVideoGameQuest("04/07/2026", phylios, 15)
 			.doLangCorrection("04/07/2026", phylios)
+			.doVideoGameQuest("04/07/2026", maud, 15)
 			.render();
 
 //
-	_renderPlayers([angest, bnachee, cuistotfou, faran, jeff, makushiman, marco, melou, phylios, shionn, tony, transfopaper, tupad, whisp]);
+	_renderPlayers([angest, bnachee, cuistotfou, faran, jeff, makushiman, marco, maud, melou, phylios, shionn, tony, transfopaper, tupad, whisp]);
 	_renderQuests([q1,q2,q3,q4,q5,q6,q7,q8]);
 
 });
