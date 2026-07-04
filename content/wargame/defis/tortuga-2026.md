@@ -162,6 +162,17 @@ Mais aucune récompense n'est prévu car je sais qu'il y en a de trop !
 
 ## Preparation d'une alpha
 
+- Nouveau jeu de type Dungeon Crawler.
+- Un dungeon demo
+
 <div id="tortuga-2026-quest-7"></div>
 
+## Preparation d'une version plus complete
+
+- Ajout d'un menu d'intro
+	- Choisir sa classe (meme si aucune n'estr disponible pour l'instant)
+	- Choisir son dongeon parmis ceux debloqué
+	- gestion sauvegarde
+
+<div id="tortuga-2026-quest-8"></div>
 

@@ -543,10 +543,11 @@ q(function() {
 			.render();
 
 	let q8 = new _quest("quest-8", "Dungeon 2", "Peindre 80 figurines", 80)
-			.progress("02/07/2026", melou, 4, "Griffe Sanglante", _SMALL);
+			.progress("02/07/2026", melou, 4, "Griffe Sanglante", _SMALL)
+			.render();
 
 //
 	_renderPlayers([angest, bnachee, cuistotfou, faran, jeff, makushiman, marco, melou, phylios, shionn, tony, transfopaper, tupad, whisp]);
-	_renderQuests([q1,q2,q3,q4,q5,q6,q7]);
+	_renderQuests([q1,q2,q3,q4,q5,q6,q7,q8]);
 
 });
