@@ -549,6 +549,7 @@ q(function() {
 			.doLangCorrection("04/07/2026", phylios)
 			.doVideoGameQuest("04/07/2026", maud, 15)
 			.doLangCorrection("04/07/2026", maud)
+			.doVideoGameQuest("05/07/2026", whisp, 7)
 			.render();
 
 //
