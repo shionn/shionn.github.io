@@ -116,6 +116,7 @@ https://shionn.github.io/2026/gloomspite-gob-heroes.html
 https://shionn.github.io/2026/gloomspite-louftuaire-mauvaise-lune.html
 https://shionn.github.io/2026/gloomspite-sournifleur.html
 https://shionn.github.io/2026/gloomspite-squig-herd.html
+https://shionn.github.io/2026/gobs-shaman-et-fanatic-metal.html
 https://shionn.github.io/2026/mononokee-nomnom.html
 https://shionn.github.io/2026/nvidia-proxmox-lxc-passthrought-ollama.html
 https://shionn.github.io/2026/pattern-singleton-java.html
