@@ -109,6 +109,7 @@ https://shionn.github.io/2026/bot-twitch-python.html
 https://shionn.github.io/2026/col-du-crane-gobs-lanciers-archers.html
 https://shionn.github.io/2026/decor-mortal-realms.html
 https://shionn.github.io/2026/descent-act-1.html
+https://shionn.github.io/2026/dungeon-and-laser-deuslair-chaos-core.html
 https://shionn.github.io/2026/dungeon-and-laser-deuslair-dragsta-core.html
 https://shionn.github.io/2026/dungeon-and-laser-deuslair-redoe-core.html
 https://shionn.github.io/2026/dungeon-and-laser-deuslair.html
