@@ -553,6 +553,7 @@ q(function() {
 			.progress("09/07/2026", makushiman, 1, "Firple", _SMALL)
 			.progress("16/07/2026", makushiman, 1, "Azmozeus (Massive Darkness)", _MEDIUM)
 			.doVideoGameQuest("17/07/2026", tupad, 15)
+			.progress("22/07/2026", makushiman, 1, "Buer (Massive Darkness)", _MEDIUM)
 			.render();
 
 //
