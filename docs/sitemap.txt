@@ -18,6 +18,7 @@ https://shionn.github.io/index-16.html
 https://shionn.github.io/index-17.html
 https://shionn.github.io/index-18.html
 https://shionn.github.io/index-19.html
+https://shionn.github.io/index-20.html
 https://shionn.github.io/2023/armee-nighthaunt.html
 https://shionn.github.io/2023/armee-skaven.html
 https://shionn.github.io/2023/debian-general-help-kit.html
@@ -103,6 +104,7 @@ https://shionn.github.io/2025/whisperia-1x10-caleche-loup.html
 https://shionn.github.io/2025/whisperia-1x11-retour-en-ville.html
 https://shionn.github.io/2025/whisperia-1x12-deux-personnages.html
 https://shionn.github.io/2025/whisperia-ressources.html
+https://shionn.github.io/2026/3dprint-game-holder.html
 https://shionn.github.io/2026/arduino-home-assistant-mqtt.html
 https://shionn.github.io/2026/bonne-annee-2026.html
 https://shionn.github.io/2026/bot-twitch-python.html
@@ -130,6 +132,7 @@ https://shionn.github.io/2026/whisperia-1x13-les-hobgobelins.html
 https://shionn.github.io/2026/whisperia-1x14-le-mausolee.html
 https://shionn.github.io/2026/whisperia-1x15-la-crypte.html
 https://shionn.github.io/category/code.html
+https://shionn.github.io/category/diy.html
 https://shionn.github.io/category/diy.html
 https://shionn.github.io/category/jdr.html
 https://shionn.github.io/category/jeu-soci-t-.html
@@ -182,6 +185,7 @@ https://shionn.github.io/tag/javafx.html
 https://shionn.github.io/tag/jdr.html
 https://shionn.github.io/tag/jellyfin.html
 https://shionn.github.io/tag/jeu-soci-t-.html
+https://shionn.github.io/tag/jeu-vid-o.html
 https://shionn.github.io/tag/jeux-vid-o.html
 https://shionn.github.io/tag/kit-bash.html
 https://shionn.github.io/tag/kit-survie.html
@@ -193,6 +197,8 @@ https://shionn.github.io/tag/metal.html
 https://shionn.github.io/tag/nains.html
 https://shionn.github.io/tag/nginx.html
 https://shionn.github.io/tag/nightaunt.html
+https://shionn.github.io/tag/nintendo-3ds.html
+https://shionn.github.io/tag/nintendo-ds.html
 https://shionn.github.io/tag/nomnom-miniature.html
 https://shionn.github.io/tag/ntp.html
 https://shionn.github.io/tag/nvidia.html
@@ -217,6 +223,7 @@ https://shionn.github.io/tag/singleton.html
 https://shionn.github.io/tag/skaven.html
 https://shionn.github.io/tag/skaventide.html
 https://shionn.github.io/tag/sqlite.html
+https://shionn.github.io/tag/super-nintendo.html
 https://shionn.github.io/tag/systemd.html
 https://shionn.github.io/tag/thinkcenter.html
 https://shionn.github.io/tag/troll.html
