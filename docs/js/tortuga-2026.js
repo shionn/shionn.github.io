@@ -560,6 +560,9 @@ q(function() {
 			.progress("27/07/2026", tupad, 1, "Vestale khemiste (kharnages)", _MEDIUM)
 			.progress("27/07/2026", tupad, 2, "Drones panoceania (infinity)", _MEDIUM)
 			.progress("27/07/2026", tupad, 1, "Drones panoceania (infinity)", _SMALL)
+			.progress("27/07/2026", shionn, 10, "Maraudeur STD", _SMALL)
+			.progress("27/07/2026", shionn, 6, "Soulless (deuslair)", _SMALL)
+			.progress("27/07/2026", shionn, 1, "Tueur Nain", _SMALL)
 			.render();
 
 //
