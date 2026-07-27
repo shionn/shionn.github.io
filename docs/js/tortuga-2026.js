@@ -543,7 +543,7 @@ q(function() {
 			.progress("02/07/2026", melou, 3, "Griffe Sanglante", _SMALL)
 			.render();
 
-	let q8 = new _quest("quest-8", "Dungeon 2", "Peindre 80 figurines", 80)
+	let q8 = new _quest("quest-8", "Dungeon 2", "Peindre 40 figurines", 40)
 			.progress("02/07/2026", melou, 4, "Griffe Sanglante", _SMALL)
 			.doVideoGameQuest("04/07/2026", phylios, 15)
 			.doLangCorrection("04/07/2026", phylios)
