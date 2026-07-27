@@ -234,81 +234,38 @@
 		
 			<article>
 	<header>
-		
-		<h1><a href="2025/openrgb-sur-debian.html">Openrgb sur Debian</a></h1>
+		<img src="pictures/titles/jeuvideo/etagere.jpg" title="Étagère à jeux video en 3D" alt="Étagère à jeux video en 3D" />
+		<h1><a href="2026/3dprint-game-holder.html">Étagère à jeux video en 3D</a></h1>
 		<div>
-			<span>Publié le 19 juin 2025</span>
+			<span>Publié le 24 juillet 2026</span>
 			<span>
 				<span class="fa fa-folder-open"></span>
-				<a href="category/linux.html">Linux</a>
+				<a href="category/diy.html">diy</a>
 			</span>
 			<span>
 				<span class="fa fa-flag"></span>
-				<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/openrgb.html">OpenRGB</a><a href="tag/desktop.html">Desktop</a>
+				<a href="tag/diy.html">Diy</a><a href="tag/3dprint.html">3dPrint</a><a href="tag/jeu-vid-o.html">Jeu Vidéo</a><a href="tag/super-nintendo.html">Super Nintendo</a><a href="tag/nintendo-3ds.html">Nintendo 3DS</a><a href="tag/nintendo-ds.html">Nintendo DS</a>
 			</span>
 		</div>
 	</header>
-	<section><p>Vous êtes sous Linux, vous avez des truc en RGB et vous ne savez comment les contrôler ? OpenRGB peu le faire pour vous mais attention il y a parfois des contraintes.</p>
-<p>Vous n'êtes pas sous Linux et vous avez plein de RGB de marque différente ? et vous voudriez tous centraliser ?  C'est aussi possible mais je n'en parlerai pas.</p>
-<h1>Instalation (sous débian)</h1>
-<p>Télé-charger OpenRGB sur le <a href="https://openrgb.org/#downloads" target="_blank">site officiel</a>. Puis installer le :</p>
-<pre class="shell"><code class="shell">sudo apt install openrgb_0.9_amd64_bookworm_b5f46e3.deb
-</code></pre>
-<p>Pour certain périphérique il faut le module i2c :</p>
-<pre class="shell"><code class="shell">sudo apt install i2c-tools 
-sudo modprobe i2c-dev
-</code></pre>
-<h1>Controler vos truc RGB</h1>
-<h2>Par GUI</h2>
-<p>OpenRGB fourni un gui pour contrôler vos RGB. Personnellement je n'aime pas.</p>
-<div class="gallery"><a href="pictures/linux/openrgb/gui.png"><img src="pictures/linux/openrgb/gui.png"></a></div>
-<h2>Par script</h2>
-<p>Bien évidement je vais pas faire un article uniquement pour un simple <code>apt install</code>. Ma méthode préférée pour contrôler mes LED c'est via des scripts.
-Ça semble complexe, mais au final c'est bien plus léger ! (hein corsair !)</p>
-<p>Voici quelques commandes et des exemples de réponse avec mon matériel :</p>
-<h3>Lister les périphériques</h3>
-<p>D'abord il faut lister vos périphérique pour les identifier et savoir ce qu'il peuvent faire.</p>
-<pre class="shell"><code class="shell">$ sudo openrgb -l 
-$ 0: ENE DRAM
-  Type:           DRAM
-  Description:    ENE SMBus Device
-  Version:        AUDA0-E6K5-0101
-  Location:       I2C: /dev/i2c-0, address 0x70
-  Modes: Direct Off Static Breathing Flashing 'Spectrum Cycle' Rainbow 'Chase Fade' Chase ['Random Flicker']
-  Zones: DRAM
-  LEDs: 'DRAM LED 1' 'DRAM LED 2' 'DRAM LED 3' 'DRAM LED 4' 'DRAM LED 5' 'DRAM LED 6' 'DRAM LED 7' 'DRAM LED 8'
-  1: ...
-  5: B550 AORUS ELITE AX V2
-  Type:           Motherboard
-  Description:    IT5702-GIGABYTE V2.0.10.0
-  Version:        0x000A0002
-  Location:       HID: /dev/hidraw7
-  Serial:         0x57020100
-  Modes: [Direct] Static Breathing Blinking 'Color Cycle' Flashing
-  Zones: 'D_LED1 Bottom' 'D_LED2 Top' Motherboard
-  LEDs: 'Name for Led 1' 'Name for Led 2' 'Name for Led 3' 'Name for Led 4' 'Name for Led 5' 'Name for Led 6' 'Name for Led 7' 'Name for Led 8'
-  6: ...
-</code></pre>
-<h3>Quelques exemples</h3>
-<pre class="shell"><code class="shell"># changer mes rams
-$ sudo openrgb -d &quot;ENE DRAM&quot; -m &quot;Breathing&quot; -c FF8000
-# changer juste une zone de ma carte mere
-$ sudo openrgb -d &quot;B550 AORUS ELITE AX V2&quot; -z &quot;Motherboard&quot; -m &quot;Breathing&quot; -c FF8000
-</code></pre>
-<p>Sur ma carte mère Gigabyte le contrôle des zones ne marche pas.</p>
-<h1>Limite</h1>
-<p>Avec pratiquement toutes les cartes mère Gigabyte, pour contrôler les RAMs il vous faut ajouter l'option suivante à votre grub.
-Pour ce faire éditer le fichier <code>/etc/default/grub</code> et modifier l'option <code>GRUB_CMDLINE_LINUX=</code> en ajoutant <code>acpi_enforce_resources=lax</code>. Puis faite un <code>sudo update-grub</code>.</p>
-<p>Conclusion : n'achetez pas de carte mère Gigabyte, n'achetez pas de barrette de ram avec du RGB.</p>
-<p>J'ai d'aileurd changé pour une MSI, plus besoin d'ajouter l'option au noyau et les zones fonctionnent.</p>
-<h1>Pour aller plus loin</h1>
-<p>Si comme moi vous voulez éteindre vos RAMs quand votre pc se met en veille alors il est possible de faire un script comme décris dans <a href="2025/debian-execute-task-before-and-after-suspend.html">cet article</a>.</p>
-<p>Et si vous voulez initialiser votre RGBs au démarrage de votre machine vous pouvez utiliser une crontab :</p>
-<pre class="shell"><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
-</code></pre>
+	<section><p>Je passe par un phase de retro-gaming en ce moment. J'ai recuperer mes jeu et console chez ma maman et j'ai réussi a me procurer mes jeu manquants.</p>
+<p>J'ai dessiné sur Openscad des étagères adapté au rangement de mes jeux.</p>
+<h1>Rendu</h1>
+<h2>Super Nintendo</h2>
+<p>Ma console de coeur. Probablement celle avec laquelle j'ai le plus joué. L'étagère est concu pour stocker 5 jeu dans leur cristal box.</p>
+<div class="gallery"><a href="pictures/jeuvideo/etagere/snes-1.jpg"><img src="pictures/jeuvideo/etagere/snes-1-200-150.jpg" width="200" height="150"></a><a href="pictures/jeuvideo/etagere/snes-2.jpg"><img src="pictures/jeuvideo/etagere/snes-2-200-150.jpg" width="200" height="150"></a><a href="pictures/jeuvideo/etagere/snes-3.jpg"><img src="pictures/jeuvideo/etagere/snes-3-200-150.jpg" width="200" height="150"></a><a href="pictures/jeuvideo/etagere/snes-4.jpg"><img src="pictures/jeuvideo/etagere/snes-4-200-150.jpg" width="200" height="150"></a></div>
+<h2>Nintendo 3DS</h2>
+<p>C'est le premier model que j'ai fais.
+Initialement j'avais trouvé des modeles sur le net, mais ceux-ci ne me satisfaisait pas totalement, donc j'ai refais puis j'ai fait les autres.</p>
+<div class="gallery"><a href="pictures/jeuvideo/etagere/3ds-1.jpg"><img src="pictures/jeuvideo/etagere/3ds-1-200-150.jpg" width="200" height="150"></a><a href="pictures/jeuvideo/etagere/3ds-2.jpg"><img src="pictures/jeuvideo/etagere/3ds-2-200-150.jpg" width="200" height="150"></a><a href="pictures/jeuvideo/etagere/3ds-3.jpg"><img src="pictures/jeuvideo/etagere/3ds-3-200-150.jpg" width="200" height="150"></a></div>
+<h2>Nintendo DS</h2>
+<p>Probablement la Console avec laquel je joue le plus actuellement.</p>
+<div class="gallery"><a href="pictures/jeuvideo/etagere/ds-3ds.jpg"><img src="pictures/jeuvideo/etagere/ds-3ds-200-150.jpg" width="200" height="150"></a><a href="pictures/jeuvideo/etagere/ds-1.jpg"><img src="pictures/jeuvideo/etagere/ds-1-200-150.jpg" width="200" height="150"></a><a href="pictures/jeuvideo/etagere/ds-2.jpg"><img src="pictures/jeuvideo/etagere/ds-2-200-150.jpg" width="200" height="150"></a></div>
+<h1>Fichiers</h1>
+<p>Tout est disponible sur mon <a href="https://github.com/shionn/3D-Print/tree/master/Jeu%20Video/GameHolder" target="_blank">Github</a>.</p>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 19 juin 2025.</em>
+		<em class="author">par Shionn, le 24 juillet 2026.</em>
 		<h2>Commentaires</h2>
 		<div class="comments"></div>
 		<h2>Ajouter un commentaire</h2>
@@ -895,7 +852,6 @@ Pour ce faire éditer le fichier <code>/etc/default/grub</code> et modifier l'op
 	<script type="text/javascript" src="js/comment.js"></script>
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
-	<script type="text/javascript" src="js/hljs/bash.min.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>
