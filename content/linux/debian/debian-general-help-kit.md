@@ -188,6 +188,14 @@ method return time=1728730410.581488 sender=:1.28 -> destination=:1.304 serial=2
    string "firefox"
 ~~~
 
+# Hyprland
+## Lancer synaptic
+
+~~~sheel
+xhost local:root
+synaptic-pkexec
+~~~
+
 # Impression 3D
 ## Creality print
 
