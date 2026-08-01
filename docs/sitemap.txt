@@ -106,6 +106,7 @@ https://shionn.github.io/2025/whisperia-1x12-deux-personnages.html
 https://shionn.github.io/2025/whisperia-ressources.html
 https://shionn.github.io/2026/3dprint-game-holder.html
 https://shionn.github.io/2026/arduino-home-assistant-mqtt.html
+https://shionn.github.io/2026/armee-slave-to-darkness.html
 https://shionn.github.io/2026/bonne-annee-2026.html
 https://shionn.github.io/2026/bot-twitch-python.html
 https://shionn.github.io/2026/col-du-crane-gobs-lanciers-archers.html
@@ -121,6 +122,7 @@ https://shionn.github.io/2026/gloomspite-sournifleur.html
 https://shionn.github.io/2026/gloomspite-squig-herd.html
 https://shionn.github.io/2026/gobs-shaman-et-fanatic-metal.html
 https://shionn.github.io/2026/mononokee-nomnom.html
+https://shionn.github.io/2026/noir-serment-std-cavalerie.html
 https://shionn.github.io/2026/nvidia-proxmox-lxc-passthrought-ollama.html
 https://shionn.github.io/2026/pattern-singleton-java.html
 https://shionn.github.io/2026/pc-gaming-m720q-rx6400-v2.html
@@ -199,6 +201,7 @@ https://shionn.github.io/tag/nginx.html
 https://shionn.github.io/tag/nightaunt.html
 https://shionn.github.io/tag/nintendo-3ds.html
 https://shionn.github.io/tag/nintendo-ds.html
+https://shionn.github.io/tag/noir-serment.html
 https://shionn.github.io/tag/nomnom-miniature.html
 https://shionn.github.io/tag/ntp.html
 https://shionn.github.io/tag/nvidia.html
@@ -223,6 +226,7 @@ https://shionn.github.io/tag/singleton.html
 https://shionn.github.io/tag/skaven.html
 https://shionn.github.io/tag/skaventide.html
 https://shionn.github.io/tag/sqlite.html
+https://shionn.github.io/tag/std.html
 https://shionn.github.io/tag/super-nintendo.html
 https://shionn.github.io/tag/systemd.html
 https://shionn.github.io/tag/thinkcenter.html
