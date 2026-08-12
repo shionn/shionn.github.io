@@ -10,6 +10,7 @@ category/war-game	War Game
 	2024/mes-armees	Warhammer Battle
 		2024/armee-elfes-noirs	Elfes Noirs
 		2025/armee-gobs	Gobelin de la Nuit
+		2026/armee-nains	Nains
 	2024/mes-armees	Underworld / Warcry
 		2024/underworld-dok	Fille de Khaine
 		2025/underworld-gloom	Gloomspite Gitz
@@ -78,6 +79,7 @@ category/code	Code
 		2024/vs-code-arduino-platform-io	PlatformIO sur VsCode
 		2025/connexion-wifi-esp32	Connexion WiFi sur ESP32
 		2025/ntp-esp32	Synchronisation horloge ntp sur ESP32
+		2026/arduino-home-assistant-mqtt	ESP à Home Assistant via MQTT
 	tag/java	Java
 		2025/bot-discord-en-java	Bot discord
 		2026/pattern-singleton-java	Pattern Singleton	2026-05-29
@@ -85,9 +87,9 @@ category/code	Code
 	tag/python	Python
 		2026/bot-twitch-python	Bot Twitch
 		2025/site-web-python-flask	Site web avec Flask
-category/diy	DiY	2026-07-24
-	tag/jeu_vid_o	Jeu Vidéo	2026-07-24
-		2026/3dprint-game-holder	Étagère à jeux video en 3D	2026-07-24
+category/diy	DiY
+	tag/jeu-vid-o	Jeu Vidéo
+		2026/3dprint-game-holder	Étagère à jeux video en 3D
 mailto:shionn@gmail.com	Contact & Lien
 	mailto:shionn@gmail.com	Me contacter
 		mailto:shionn@gmail.com	Shionn@gmail.com

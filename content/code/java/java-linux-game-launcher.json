@@ -1,0 +1,10 @@
+{
+	"type": "post",
+	"date": "2026/09/10",
+	"title": "Un lanceur de jeu en java pour linux",
+	"tags": ["Java", "Game Launcher", "Linux" ],
+	"category": "Code",
+	"published": true,
+	"js" : [ "js/hljs/java.min.js", "js/hljs/bash.min.js", "js/hljs/xml.min.js" ],
+	"author": "Shionn"
+}
