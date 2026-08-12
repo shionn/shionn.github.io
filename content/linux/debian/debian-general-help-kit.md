@@ -120,6 +120,31 @@ Installer le package _cifs-utils_.
 
 Puis recharger la configuration comme suit : `sudo systemctl daemon-reload`
 
+### automount
+
+Le plus simple est de passer par systemd, creer le fichier `/etc/systemd/system/automount.service` :
+
+~~~shell
+[Unit]
+Description=Automount network drive
+After=local-fs.target syslog.target network.target
+
+[Service]
+Type=oneshot
+Restart=on-failure
+ExecStart=/usr/bin/mount -a
+
+[Install]
+WantedBy=multi-user.target
+~~~
+
+Puis : 
+
+~~~shell
+sudo systemctl daemon-reload
+sudo systemctl enable automount.service
+~~~
+
 ## syncthing
 
 ~~~shell
