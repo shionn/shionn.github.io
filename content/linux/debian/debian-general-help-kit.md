@@ -199,10 +199,10 @@ synaptic-pkexec
 # Impression 3D
 ## Creality print
 
-Télécharger la derniere version en flatpack de créalityprint sur leurs [github](https://github.com/CrealityOfficial/CrealityPrint).  
+Télécharger la derniere version en flatpak de créalityprint sur leurs [github](https://github.com/CrealityOfficial/CrealityPrint).  
 
 ~~~shell
-sudo apt install flatpack
+sudo apt install flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install <CrealityPrint-Linux-flatpak_V6.3.0-Release_x86_64>.flatpak
 flatpak run io.github.crealityofficial.CrealityPrint
