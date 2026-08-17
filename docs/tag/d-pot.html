@@ -144,6 +144,7 @@
 						<li><a href="2025/jellyfin-proxmox-hardware-encode.html">Jellyfin, Transcodage matériel, Proxmox</a></li>
 						<li><a href="2026/nvidia-proxmox-lxc-passthrought-ollama.html">Ollama Nvidia Passthrought LXC</a></li>
 						<li><a href="2026/proxmox-help-kit.html">Kit d&#39;aide sur Proxmox</a></li>
+						<li><a href="2026/apt-mirror.html">Dépot local grâce à apt-mirror</a></li>
 					</ul>
 				</li>
 				<li>
@@ -235,6 +236,39 @@
 		
 		
 			
+				<article class="short">
+	<header>
+		
+		<h1><a href="2026/apt-mirror.html">Faire un dépot debian local grâce à apt-mirror</a></h1>
+		<div>
+			<span>Publié le 17 août 2026</span>
+			<span>
+				<span class="fa fa-folder-open"></span>
+				<a href="category/linux.html">Linux</a>
+			</span>
+			<span>
+				<span class="fa fa-flag"></span>
+				<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/apt.html">Apt</a><a href="tag/server.html">Server</a><a href="tag/d-pot.html">Dépot</a>
+			</span>
+		</div>
+	</header>
+	<section><p>Apt-Mirror est un projet permettant de cloner un dépôt Debian et de l'heberger localement.
+Ça peut paraître bête, mais j'ai une connexion très mauvaise et parfois j'ai des coupures réseau de plusieurs semaines.</p>
+<h1>Installation</h1>
+<p>C'est apt-mirror qui permet de cloner le dépôt officiel.</p>
+<pre class="shell"><code class="shell">sudo apt install apt-mirror
+</code></pre>
+<h2>Configuration</h2>
+<p>Le fichier de configuration est <code>/etc/apt/mirror.list</code>.
+Il contient généralement la ligne : <code>set defaultarch  amd64</code>. Vous pouvez ignorer cette ligne.
+J'ai choisi de ne pas la prendre en compte et de preciser plus loins les architectures.</p>
+<p>Admettons que vous souhaitiez faire un miroir de ce dépôt :</p>
+</section>
+	<footer>
+		<a href="2026/apt-mirror.html"><span class="fa fa-eye"></span> Lire la suite</a>
+	</footer>
+</article>
+			
 		
 		
 		
@@ -257,7 +291,7 @@
 						<a href="category/jeu-soci-t-.html">Jeu Société&nbsp;(1)</a>
 					</li>
 					<li>
-						<a href="category/linux.html">Linux&nbsp;(13)</a>
+						<a href="category/linux.html">Linux&nbsp;(14)</a>
 					</li>
 					<li>
 						<a href="category/manga.html">Manga&nbsp;(4)</a>
@@ -281,6 +315,8 @@
 					Annuaire&nbsp;(3)
 				</a><a href="tag/aos.html" class="tag3">
 					AoS&nbsp;(19)
+				</a><a href="tag/apt.html" class="tag0">
+					Apt&nbsp;(1)
 				</a><a href="tag/arduino.html" class="tag1">
 					Arduino&nbsp;(5)
 				</a><a href="tag/arm-e.html" class="tag2">
@@ -300,7 +336,7 @@
 				</a><a href="tag/conversion.html" class="tag0">
 					Conversion&nbsp;(1)
 				</a><a href="tag/debian.html" class="tag1">
-					Debian&nbsp;(8)
+					Debian&nbsp;(9)
 				</a><a href="tag/decors.html" class="tag0">
 					Decors&nbsp;(1)
 				</a><a href="tag/descent.html" class="tag0">
@@ -329,6 +365,8 @@
 					Décor&nbsp;(1)
 				</a><a href="tag/d-fi.html" class="tag0">
 					Défi&nbsp;(3)
+				</a><a href="tag/d-pot.html" class="tag0">
+					Dépot&nbsp;(1)
 				</a><a href="tag/esp32.html" class="tag0">
 					ESP32&nbsp;(3)
 				</a><a href="tag/esp8266.html" class="tag0">
@@ -375,8 +413,8 @@
 					Kit bash&nbsp;(1)
 				</a><a href="tag/kruelboyz.html" class="tag0">
 					Kruelboyz&nbsp;(1)
-				</a><a href="tag/linux.html" class="tag1">
-					Linux&nbsp;(9)
+				</a><a href="tag/linux.html" class="tag2">
+					Linux&nbsp;(10)
 				</a><a href="tag/manga.html" class="tag0">
 					Manga&nbsp;(3)
 				</a><a href="tag/matos.html" class="tag0">
@@ -434,7 +472,7 @@
 				</a><a href="tag/seigneurs-ruinem-nes.html" class="tag0">
 					Seigneurs Ruinemânes&nbsp;(1)
 				</a><a href="tag/server.html" class="tag1">
-					Server&nbsp;(7)
+					Server&nbsp;(8)
 				</a><a href="tag/shenron.html" class="tag0">
 					Shenron&nbsp;(1)
 				</a><a href="tag/singleton.html" class="tag0">
@@ -479,11 +517,12 @@
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2026 (28)</a>
+						<a href="#">2026 (29)</a>
 						<ul>
 							<li>
-								<a href="#">août (2)</a>
+								<a href="#">août (3)</a>
 								<ul>
+									<li><a href="2026/apt-mirror.html">Faire un dépot debian local grâce à apt-mirror</a></li>
 									<li><a href="2026/col-du-crane-nains-artillerie.html">Artillerie Naine</a></li>
 									<li><a href="2026/noir-serment-std-cavalerie.html">Noir Serment : Cavalerie</a></li>
 								</ul>
@@ -815,6 +854,7 @@
 	<script type="text/javascript" src="js/comment.js"></script>
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
+	<script type="text/javascript" src="js/hljs/bash.min.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>

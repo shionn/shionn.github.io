@@ -144,6 +144,7 @@
 						<li><a href="2025/jellyfin-proxmox-hardware-encode.html">Jellyfin, Transcodage matériel, Proxmox</a></li>
 						<li><a href="2026/nvidia-proxmox-lxc-passthrought-ollama.html">Ollama Nvidia Passthrought LXC</a></li>
 						<li><a href="2026/proxmox-help-kit.html">Kit d&#39;aide sur Proxmox</a></li>
+						<li><a href="2026/apt-mirror.html">Dépot local grâce à apt-mirror</a></li>
 					</ul>
 				</li>
 				<li>
@@ -232,6 +233,48 @@
 	</header>
 	<main>
 		
+			
+				<article class="short">
+	<header>
+		
+		<h1><a href="2026/pattern-singleton-java.html">Pattern Singleton en Java</a></h1>
+		<div>
+			<span>Publié le 29 mai 2026</span>
+			<span>
+				<span class="fa fa-folder-open"></span>
+				<a href="category/code.html">Code</a>
+			</span>
+			<span>
+				<span class="fa fa-flag"></span>
+				<a href="tag/java.html">Java</a><a href="tag/pattern.html">Pattern</a><a href="tag/singleton.html">Singleton</a>
+			</span>
+		</div>
+	</header>
+	<section><p>J'ai écris cet article il y a une dixaine d'année au travail, mon chef m'as donné l'autorisation de partager cela sur mon blog.</p>
+<h1>Pattern conseillé</h1>
+<p>Généralement lorsque l'on souhait faire un singleton chargé au dernier moment (Lazy Instance) on conseille d’utiliser ce pattern :</p>
+<pre class="java"><code class="java">public class MySignleton {
+    private static class MySingletonHolder {
+        private static final MySingleton instance = new MySingleton();
+    }
+ 
+    private MySingleton() {
+        // initialisation
+    }
+ 
+    public static MySingleton getInstance() {
+        return MySingletonHolder.instance;
+    }
+}
+</code></pre>
+<p>Mais pourquoi utilise t'on ce pattern ? Ce pattern s'appuie sur le mécanisme de chargement de classe de java pour s'assurer à la fois l'instanciation unique et threadsafe de notre unique instance.</p>
+<h1>Pattern déconseillé</h1>
+<h2>synchronized getInstance</h2>
+</section>
+	<footer>
+		<a href="2026/pattern-singleton-java.html"><span class="fa fa-eye"></span> Lire la suite</a>
+	</footer>
+</article>
 			
 				<article class="short">
 	<header>
@@ -363,42 +406,6 @@ Franchement la qualité de l'impression n'est vraiment pas au rendez vous, Le lo
 	</footer>
 </article>
 			
-				<article class="short">
-	<header>
-		<img src="pictures/titles/gobs-lancier.jpg" title="Lancier et Archers Gobelin de la Nuit" alt="Lancier et Archers Gobelin de la Nuit" />
-		<h1><a href="2026/col-du-crane-gobs-lanciers-archers.html">Lancier et Archers Gobelin de la Nuit</a></h1>
-		<div>
-			<span>Publié le 19 avril 2026</span>
-			<span>
-				<span class="fa fa-folder-open"></span>
-				<a href="category/war-game.html">War Game</a>
-			</span>
-			<span>
-				<span class="fa fa-flag"></span>
-				<a href="tag/war-game.html">War Game</a><a href="tag/figurine.html">Figurine</a><a href="tag/gobelin.html">Gobelin</a><a href="tag/col-du-cr-ne.html">Col du Crâne</a><a href="tag/warhammer-battle.html">Warhammer Battle</a>
-			</span>
-		</div>
-	</header>
-	<section><p>En 2025 j'ai eu envie de peindre des gobelins.
-En plus d'une armée pour AoS j'ai choisi de peindre également la partie gobeline de la veille boite <strong>Bataille du Col du Crâne</strong>.
-Voici aujourd'hui un pack d'archer et un pack de lancier.</p>
-<ul>
-<li>Peinte en Juin 2025</li>
-<li>En environ 18 heures</li>
-<li>Les socles sont très inspiré de ceux fait par <a href="https://www.twitch.tv/ursulegnome" target="_blank">UrsuleGnome</a></li>
-</ul>
-<div class="gallery"><a href="pictures/battle/bataille-col-crane/gobs/archers/01.jpg"><img src="pictures/battle/bataille-col-crane/gobs/archers/01-300-200.jpg" width="300" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/archers/02.jpg"><img src="pictures/battle/bataille-col-crane/gobs/archers/02-300-200.jpg" width="300" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/archers/03.jpg"><img src="pictures/battle/bataille-col-crane/gobs/archers/03-300-200.jpg" width="300" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/archers/04.jpg"><img src="pictures/battle/bataille-col-crane/gobs/archers/04-300-200.jpg" width="300" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/archers/05.jpg"><img src="pictures/battle/bataille-col-crane/gobs/archers/05-300-200.jpg" width="300" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/archers/06.jpg"><img src="pictures/battle/bataille-col-crane/gobs/archers/06-300-200.jpg" width="300" height="200"></a></div><div class="gallery"><a href="pictures/battle/bataille-col-crane/gobs/archers/07.jpg"><img src="pictures/battle/bataille-col-crane/gobs/archers/07-380-200.jpg" width="380" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/archers/08.jpg"><img src="pictures/battle/bataille-col-crane/gobs/archers/08-380-200.jpg" width="380" height="200"></a></div>
-<ul>
-<li>Peinte en Octobre 2025</li>
-<li>En environ 19 heures</li>
-<li>Les socles sont très inspiré de ceux fait par <a href="https://www.twitch.tv/ursulegnome" target="_blank">UrsuleGnome</a></li>
-</ul>
-<div class="gallery"><a href="pictures/battle/bataille-col-crane/gobs/lanciers/20.jpg"><img src="pictures/battle/bataille-col-crane/gobs/lanciers/20-300-200.jpg" width="300" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/lanciers/21.jpg"><img src="pictures/battle/bataille-col-crane/gobs/lanciers/21-300-200.jpg" width="300" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/lanciers/22.jpg"><img src="pictures/battle/bataille-col-crane/gobs/lanciers/22-300-200.jpg" width="300" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/lanciers/23.jpg"><img src="pictures/battle/bataille-col-crane/gobs/lanciers/23-300-200.jpg" width="300" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/lanciers/24.jpg"><img src="pictures/battle/bataille-col-crane/gobs/lanciers/24-300-200.jpg" width="300" height="200"></a></div><div class="gallery"><a href="pictures/battle/bataille-col-crane/gobs/lanciers/25.jpg"><img src="pictures/battle/bataille-col-crane/gobs/lanciers/25-400-200.jpg" width="400" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/lanciers/26.jpg"><img src="pictures/battle/bataille-col-crane/gobs/lanciers/26-400-200.jpg" width="400" height="200"></a></div></section>
-	<footer>
-		<a href="2026/col-du-crane-gobs-lanciers-archers.html"><span class="fa fa-eye"></span> Lire la suite</a>
-	</footer>
-</article>
-			
 			<div>
 				
 				<a href="index-1.html">&lt;</a>
@@ -429,7 +436,7 @@ Voici aujourd'hui un pack d'archer et un pack de lancier.</p>
 						<a href="category/jeu-soci-t-.html">Jeu Société&nbsp;(1)</a>
 					</li>
 					<li>
-						<a href="category/linux.html">Linux&nbsp;(13)</a>
+						<a href="category/linux.html">Linux&nbsp;(14)</a>
 					</li>
 					<li>
 						<a href="category/manga.html">Manga&nbsp;(4)</a>
@@ -453,6 +460,8 @@ Voici aujourd'hui un pack d'archer et un pack de lancier.</p>
 					Annuaire&nbsp;(3)
 				</a><a href="tag/aos.html" class="tag3">
 					AoS&nbsp;(19)
+				</a><a href="tag/apt.html" class="tag0">
+					Apt&nbsp;(1)
 				</a><a href="tag/arduino.html" class="tag1">
 					Arduino&nbsp;(5)
 				</a><a href="tag/arm-e.html" class="tag2">
@@ -472,7 +481,7 @@ Voici aujourd'hui un pack d'archer et un pack de lancier.</p>
 				</a><a href="tag/conversion.html" class="tag0">
 					Conversion&nbsp;(1)
 				</a><a href="tag/debian.html" class="tag1">
-					Debian&nbsp;(8)
+					Debian&nbsp;(9)
 				</a><a href="tag/decors.html" class="tag0">
 					Decors&nbsp;(1)
 				</a><a href="tag/descent.html" class="tag0">
@@ -501,6 +510,8 @@ Voici aujourd'hui un pack d'archer et un pack de lancier.</p>
 					Décor&nbsp;(1)
 				</a><a href="tag/d-fi.html" class="tag0">
 					Défi&nbsp;(3)
+				</a><a href="tag/d-pot.html" class="tag0">
+					Dépot&nbsp;(1)
 				</a><a href="tag/esp32.html" class="tag0">
 					ESP32&nbsp;(3)
 				</a><a href="tag/esp8266.html" class="tag0">
@@ -547,8 +558,8 @@ Voici aujourd'hui un pack d'archer et un pack de lancier.</p>
 					Kit bash&nbsp;(1)
 				</a><a href="tag/kruelboyz.html" class="tag0">
 					Kruelboyz&nbsp;(1)
-				</a><a href="tag/linux.html" class="tag1">
-					Linux&nbsp;(9)
+				</a><a href="tag/linux.html" class="tag2">
+					Linux&nbsp;(10)
 				</a><a href="tag/manga.html" class="tag0">
 					Manga&nbsp;(3)
 				</a><a href="tag/matos.html" class="tag0">
@@ -606,7 +617,7 @@ Voici aujourd'hui un pack d'archer et un pack de lancier.</p>
 				</a><a href="tag/seigneurs-ruinem-nes.html" class="tag0">
 					Seigneurs Ruinemânes&nbsp;(1)
 				</a><a href="tag/server.html" class="tag1">
-					Server&nbsp;(7)
+					Server&nbsp;(8)
 				</a><a href="tag/shenron.html" class="tag0">
 					Shenron&nbsp;(1)
 				</a><a href="tag/singleton.html" class="tag0">
@@ -651,11 +662,12 @@ Voici aujourd'hui un pack d'archer et un pack de lancier.</p>
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2026 (28)</a>
+						<a href="#">2026 (29)</a>
 						<ul>
 							<li>
-								<a href="#">août (2)</a>
+								<a href="#">août (3)</a>
 								<ul>
+									<li><a href="2026/apt-mirror.html">Faire un dépot debian local grâce à apt-mirror</a></li>
 									<li><a href="2026/col-du-crane-nains-artillerie.html">Artillerie Naine</a></li>
 									<li><a href="2026/noir-serment-std-cavalerie.html">Noir Serment : Cavalerie</a></li>
 								</ul>

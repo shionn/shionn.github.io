@@ -105,6 +105,7 @@ https://shionn.github.io/2025/whisperia-1x11-retour-en-ville.html
 https://shionn.github.io/2025/whisperia-1x12-deux-personnages.html
 https://shionn.github.io/2025/whisperia-ressources.html
 https://shionn.github.io/2026/3dprint-game-holder.html
+https://shionn.github.io/2026/apt-mirror.html
 https://shionn.github.io/2026/arduino-home-assistant-mqtt.html
 https://shionn.github.io/2026/armee-nains.html
 https://shionn.github.io/2026/armee-slave-to-darkness.html
@@ -147,6 +148,7 @@ https://shionn.github.io/category/war-game.html
 https://shionn.github.io/tag/3dprint.html
 https://shionn.github.io/tag/annuaire.html
 https://shionn.github.io/tag/aos.html
+https://shionn.github.io/tag/apt.html
 https://shionn.github.io/tag/arduino.html
 https://shionn.github.io/tag/arm-e.html
 https://shionn.github.io/tag/bdd.html
@@ -158,6 +160,7 @@ https://shionn.github.io/tag/conversion.html
 https://shionn.github.io/tag/cpp.html
 https://shionn.github.io/tag/d-cor.html
 https://shionn.github.io/tag/d-fi.html
+https://shionn.github.io/tag/d-pot.html
 https://shionn.github.io/tag/debian.html
 https://shionn.github.io/tag/decors.html
 https://shionn.github.io/tag/descent.html

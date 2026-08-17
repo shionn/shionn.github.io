@@ -144,6 +144,7 @@
 						<li><a href="2025/jellyfin-proxmox-hardware-encode.html">Jellyfin, Transcodage matériel, Proxmox</a></li>
 						<li><a href="2026/nvidia-proxmox-lxc-passthrought-ollama.html">Ollama Nvidia Passthrought LXC</a></li>
 						<li><a href="2026/proxmox-help-kit.html">Kit d&#39;aide sur Proxmox</a></li>
+						<li><a href="2026/apt-mirror.html">Dépot local grâce à apt-mirror</a></li>
 					</ul>
 				</li>
 				<li>
@@ -232,6 +233,39 @@
 	</header>
 	<main>
 		
+			
+				<article class="short">
+	<header>
+		
+		<h1><a href="2026/apt-mirror.html">Faire un dépot debian local grâce à apt-mirror</a></h1>
+		<div>
+			<span>Publié le 17 août 2026</span>
+			<span>
+				<span class="fa fa-folder-open"></span>
+				<a href="category/linux.html">Linux</a>
+			</span>
+			<span>
+				<span class="fa fa-flag"></span>
+				<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/apt.html">Apt</a><a href="tag/server.html">Server</a><a href="tag/d-pot.html">Dépot</a>
+			</span>
+		</div>
+	</header>
+	<section><p>Apt-Mirror est un projet permettant de cloner un dépôt Debian et de l'heberger localement.
+Ça peut paraître bête, mais j'ai une connexion très mauvaise et parfois j'ai des coupures réseau de plusieurs semaines.</p>
+<h1>Installation</h1>
+<p>C'est apt-mirror qui permet de cloner le dépôt officiel.</p>
+<pre class="shell"><code class="shell">sudo apt install apt-mirror
+</code></pre>
+<h2>Configuration</h2>
+<p>Le fichier de configuration est <code>/etc/apt/mirror.list</code>.
+Il contient généralement la ligne : <code>set defaultarch  amd64</code>. Vous pouvez ignorer cette ligne.
+J'ai choisi de ne pas la prendre en compte et de preciser plus loins les architectures.</p>
+<p>Admettons que vous souhaitiez faire un miroir de ce dépôt :</p>
+</section>
+	<footer>
+		<a href="2026/apt-mirror.html"><span class="fa fa-eye"></span> Lire la suite</a>
+	</footer>
+</article>
 			
 				<article class="short">
 	<header>
@@ -361,42 +395,6 @@ Ici je vous proposent les figurines du core set de la faction <strong>Disciple d
 	</footer>
 </article>
 			
-				<article class="short">
-	<header>
-		<img src="pictures/titles/gobs-metals.jpg" title="Shaman et Fanatiques en Métals" alt="Shaman et Fanatiques en Métals" />
-		<h1><a href="2026/gobs-shaman-et-fanatic-metal.html">Shaman et Fanatiques en Métals</a></h1>
-		<div>
-			<span>Publié le 08 juillet 2026</span>
-			<span>
-				<span class="fa fa-folder-open"></span>
-				<a href="category/war-game.html">War Game</a>
-			</span>
-			<span>
-				<span class="fa fa-flag"></span>
-				<a href="tag/war-game.html">War Game</a><a href="tag/figurine.html">Figurine</a><a href="tag/gobelin.html">Gobelin</a><a href="tag/col-du-cr-ne.html">Col du Crâne</a><a href="tag/warhammer-battle.html">Warhammer Battle</a>
-			</span>
-		</div>
-	</header>
-	<section><p>En 2025 j'ai eu envie de peindre des gobelins.
-En plus d'une armée pour AoS j'ai choisi de peindre également la partie gobeline de la veille boite <strong>Bataille du Col du Crâne</strong>.
-Je sais très bien que ces figurines ne proviennent pas de cette boite. Mais que voulez-vous que je fasse ? J'aime les vieilles figurines métal.</p>
-<h1>Chaman</h1>
-<ul>
-<li>Peinte en Janvier 2026.</li>
-<li>En environ 3 heures.</li>
-</ul>
-<div class="gallery"><a href="pictures/battle/bataille-col-crane/gobs/shaman-metal/01.jpg"><img src="pictures/battle/bataille-col-crane/gobs/shaman-metal/01-120-200.jpg" width="120" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/shaman-metal/02.jpg"><img src="pictures/battle/bataille-col-crane/gobs/shaman-metal/02-120-200.jpg" width="120" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/shaman-metal/03.jpg"><img src="pictures/battle/bataille-col-crane/gobs/shaman-metal/03-120-200.jpg" width="120" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/shaman-metal/04.jpg"><img src="pictures/battle/bataille-col-crane/gobs/shaman-metal/04-120-200.jpg" width="120" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/shaman-metal/05.jpg"><img src="pictures/battle/bataille-col-crane/gobs/shaman-metal/05-120-200.jpg" width="120" height="200"></a></div>
-<h1>Fanatiques</h1>
-<ul>
-<li>Peinte en Janvier 2026.</li>
-<li>En environ 5 heure.</li>
-</ul>
-<div class="gallery"><a href="pictures/battle/bataille-col-crane/gobs/fanatic-metal/01.jpg"><img src="pictures/battle/bataille-col-crane/gobs/fanatic-metal/01-400-200.jpg" width="400" height="200"></a><a href="pictures/battle/bataille-col-crane/gobs/fanatic-metal/02.jpg"><img src="pictures/battle/bataille-col-crane/gobs/fanatic-metal/02-400-200.jpg" width="400" height="200"></a></div></section>
-	<footer>
-		<a href="2026/gobs-shaman-et-fanatic-metal.html"><span class="fa fa-eye"></span> Lire la suite</a>
-	</footer>
-</article>
-			
 			<div>
 				
 				
@@ -427,7 +425,7 @@ Je sais très bien que ces figurines ne proviennent pas de cette boite. Mais que
 						<a href="category/jeu-soci-t-.html">Jeu Société&nbsp;(1)</a>
 					</li>
 					<li>
-						<a href="category/linux.html">Linux&nbsp;(13)</a>
+						<a href="category/linux.html">Linux&nbsp;(14)</a>
 					</li>
 					<li>
 						<a href="category/manga.html">Manga&nbsp;(4)</a>
@@ -451,6 +449,8 @@ Je sais très bien que ces figurines ne proviennent pas de cette boite. Mais que
 					Annuaire&nbsp;(3)
 				</a><a href="tag/aos.html" class="tag3">
 					AoS&nbsp;(19)
+				</a><a href="tag/apt.html" class="tag0">
+					Apt&nbsp;(1)
 				</a><a href="tag/arduino.html" class="tag1">
 					Arduino&nbsp;(5)
 				</a><a href="tag/arm-e.html" class="tag2">
@@ -470,7 +470,7 @@ Je sais très bien que ces figurines ne proviennent pas de cette boite. Mais que
 				</a><a href="tag/conversion.html" class="tag0">
 					Conversion&nbsp;(1)
 				</a><a href="tag/debian.html" class="tag1">
-					Debian&nbsp;(8)
+					Debian&nbsp;(9)
 				</a><a href="tag/decors.html" class="tag0">
 					Decors&nbsp;(1)
 				</a><a href="tag/descent.html" class="tag0">
@@ -499,6 +499,8 @@ Je sais très bien que ces figurines ne proviennent pas de cette boite. Mais que
 					Décor&nbsp;(1)
 				</a><a href="tag/d-fi.html" class="tag0">
 					Défi&nbsp;(3)
+				</a><a href="tag/d-pot.html" class="tag0">
+					Dépot&nbsp;(1)
 				</a><a href="tag/esp32.html" class="tag0">
 					ESP32&nbsp;(3)
 				</a><a href="tag/esp8266.html" class="tag0">
@@ -545,8 +547,8 @@ Je sais très bien que ces figurines ne proviennent pas de cette boite. Mais que
 					Kit bash&nbsp;(1)
 				</a><a href="tag/kruelboyz.html" class="tag0">
 					Kruelboyz&nbsp;(1)
-				</a><a href="tag/linux.html" class="tag1">
-					Linux&nbsp;(9)
+				</a><a href="tag/linux.html" class="tag2">
+					Linux&nbsp;(10)
 				</a><a href="tag/manga.html" class="tag0">
 					Manga&nbsp;(3)
 				</a><a href="tag/matos.html" class="tag0">
@@ -604,7 +606,7 @@ Je sais très bien que ces figurines ne proviennent pas de cette boite. Mais que
 				</a><a href="tag/seigneurs-ruinem-nes.html" class="tag0">
 					Seigneurs Ruinemânes&nbsp;(1)
 				</a><a href="tag/server.html" class="tag1">
-					Server&nbsp;(7)
+					Server&nbsp;(8)
 				</a><a href="tag/shenron.html" class="tag0">
 					Shenron&nbsp;(1)
 				</a><a href="tag/singleton.html" class="tag0">
@@ -649,11 +651,12 @@ Je sais très bien que ces figurines ne proviennent pas de cette boite. Mais que
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2026 (28)</a>
+						<a href="#">2026 (29)</a>
 						<ul>
 							<li>
-								<a href="#">août (2)</a>
+								<a href="#">août (3)</a>
 								<ul>
+									<li><a href="2026/apt-mirror.html">Faire un dépot debian local grâce à apt-mirror</a></li>
 									<li><a href="2026/col-du-crane-nains-artillerie.html">Artillerie Naine</a></li>
 									<li><a href="2026/noir-serment-std-cavalerie.html">Noir Serment : Cavalerie</a></li>
 								</ul>
