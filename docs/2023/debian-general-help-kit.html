@@ -323,6 +323,24 @@ domaine=WORKGROUP
 <pre class="shell"><code class="shell">//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
 </code></pre>
 <p>Puis recharger la configuration comme suit : <code>sudo systemctl daemon-reload</code></p>
+<h3>automount</h3>
+<p>Le plus simple est de passer par systemd, creer le fichier <code>/etc/systemd/system/automount.service</code> :</p>
+<pre class="shell"><code class="shell">[Unit]
+Description=Automount network drive
+After=local-fs.target syslog.target network.target
+
+[Service]
+Type=oneshot
+Restart=on-failure
+ExecStart=/usr/bin/mount -a
+
+[Install]
+WantedBy=multi-user.target
+</code></pre>
+<p>Puis :</p>
+<pre class="shell"><code class="shell">sudo systemctl daemon-reload
+sudo systemctl enable automount.service
+</code></pre>
 <h2>syncthing</h2>
 <pre class="shell"><code class="shell">apt install syncthing
 sudo systemctl enable syncthing@shionn.service

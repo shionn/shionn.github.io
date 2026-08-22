@@ -29,7 +29,7 @@ Sous Dedian il vous faut vous ajouter au group __dialout__.
 sudo usermod -a -G dialout $USER
 ~~~
 
-Si cela ne suffit pas il faut aussi ajouter le group tty.
+Si cela ne suffit pas il faut aussi ajouter le group tty. Si vous ne voulez pas relancer votre session faite un `newgrp dialout`.
 
 ## Installation de l'extension PlatformIo
 Dans les extensions de VSCode, recherche et installer "PlatformIO IDE".
