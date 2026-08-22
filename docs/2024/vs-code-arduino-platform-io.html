@@ -271,7 +271,7 @@ Pour les autres systèmes vous pouvez regarder sur la <a href="https://docs.plat
 Sous Dedian il vous faut vous ajouter au group <strong>dialout</strong>.</p>
 <pre class="shell"><code class="shell">sudo usermod -a -G dialout $USER
 </code></pre>
-<p>Si cela ne suffit pas il faut aussi ajouter le group tty.</p>
+<p>Si cela ne suffit pas il faut aussi ajouter le group tty. Si vous ne voulez pas relancer votre session faite un <code>newgrp dialout</code>.</p>
 <h2>Installation de l'extension PlatformIo</h2>
 <p>Dans les extensions de VSCode, recherche et installer &quot;PlatformIO IDE&quot;.</p>
 <div class="gallery"><a href="pictures/code/arduino/platformio/extension-platform-io.png"><img src="pictures/code/arduino/platformio/extension-platform-io.png"></a></div>
