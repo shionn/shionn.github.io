@@ -6,7 +6,7 @@ category/war-game	War Game
 		2024/armee-naine-cos	Nains (CoS)
 		2023/armee-nighthaunt	Nighthaunt
 		2023/armee-skaven	Skavens
-		2026/armee-slave-to-darkness	Slave to Darkness	2026-08-01
+		2026/armee-slave-to-darkness	Slave to Darkness
 	2024/mes-armees	Warhammer Battle
 		2024/armee-elfes-noirs	Elfes Noirs
 		2025/armee-gobs	Gobelin de la Nuit
@@ -22,14 +22,14 @@ category/war-game	War Game
 		2024/dungeon-and-laser-encounters	Encounters
 	tag/d-cor	Décor
 		2025/decor-skaventide	Décor Skaventide
-		2026/decor-mortal-realms	Décor Mortal Realms	2026-04-03
+		2026/decor-mortal-realms	Décor Mortal Realms
 	tag/peinture	Guide
 		2024/vallejo-recettes	Recette Vallejo
 		2023/equivalence-peinture	Équivalence de peinture
 		2023/peindre-de-la-peau-skaven	Peindre de la peau (Skaven)
 	category/manga	Manga / JV
-		2026/repaint-genshin-diluc-fischi	Diluc & Fischi	2026-06-22
-		2026/mononokee-nomnom	Princesse Mononokee	2026-04-27
+		2026/repaint-genshin-diluc-fischi	Diluc & Fischi
+		2026/mononokee-nomnom	Princesse Mononokee
 		2025/repaint-bulma	Repaint d'une Bulma
 		2025/shenron-goku-nomnom	Shenron et Sangoku
 	category/jeu-soci-t-	Jeux Société
@@ -38,6 +38,8 @@ category/war-game	War Game
 		2025/annee-2024-defi-peinture	Résumé défi 2024
 		2025/pour-la-gloire-de-tortuga	La Gloire de Tortuga (2025)
 		2026/tortuga-2026	La Gloire de Tortuga (2026)
+	tag/w40k	Warhammer 40k	2026-09-26
+		2026/armee-dark-angel	Dark Angel	2026-09-26
 category/jdr	JdR
 	tag/whisperia	A tale of Whisperia
 		2024/whisperia-1x01-evasion-d-une-gaule	1: Évasion d'une gaule
