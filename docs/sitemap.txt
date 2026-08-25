@@ -126,6 +126,7 @@ https://shionn.github.io/2026/gloomspite-squig-herd.html
 https://shionn.github.io/2026/gobs-shaman-et-fanatic-metal.html
 https://shionn.github.io/2026/mononokee-nomnom.html
 https://shionn.github.io/2026/noir-serment-std-cavalerie.html
+https://shionn.github.io/2026/noir-serment-std-monstre.html
 https://shionn.github.io/2026/nvidia-proxmox-lxc-passthrought-ollama.html
 https://shionn.github.io/2026/pattern-singleton-java.html
 https://shionn.github.io/2026/pc-gaming-m720q-rx6400-v2.html
