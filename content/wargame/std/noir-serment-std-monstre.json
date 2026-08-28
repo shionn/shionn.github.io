@@ -4,7 +4,7 @@
 	"title": "Noir Serment : Monstres",
 	"tags": ["War Game", "Armée", "Noir Serment", "STD", "AoS"],
 	"category": "War Game",
-
+	"toCheck": false,
 	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"

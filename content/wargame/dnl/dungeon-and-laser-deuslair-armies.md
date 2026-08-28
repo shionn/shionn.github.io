@@ -149,7 +149,13 @@ todo
 
 ### Gorgers (Armies)
 
-todo
+- Peinte en Aout 2026
+- En environ 5 heure
+
+[gallery w=400 h=200]
+pictures/dungeon-and-laser/deuslair/addon/chaos/gorgers/01.jpg
+pictures/dungeon-and-laser/deuslair/addon/chaos/gorgers/02.jpg
+[/gallery]
 
 ### The Gourmet (Armies)
 
@@ -177,7 +183,13 @@ todo
 
 ### Impalers (Armies)
 
-todo
+- Peinte en Aout 2026
+- En environ 5 heure
+
+[gallery w=400 h=200]
+pictures/dungeon-and-laser/deuslair/addon/chaos/impalers/01.jpg
+pictures/dungeon-and-laser/deuslair/addon/chaos/impalers/02.jpg
+[/gallery]
 
 ### Volard (Armies)
 
@@ -193,7 +205,13 @@ todo
 
 ### Soulless (Armies)
 
-todo
+- Peinte en Juin 2026
+- En environ 3 heure
+
+[gallery w=400 h=200]
+pictures/dungeon-and-laser/deuslair/addon/chaos/soulless/01.jpg
+pictures/dungeon-and-laser/deuslair/addon/chaos/soulless/02.jpg
+[/gallery]
 
 ## The Betrayers
 
@@ -232,7 +250,13 @@ pictures/dungeon-and-laser/deuslair/addon/chaos/wraith/04.jpg
 
 ### Wraith (Armies)
 
-todo
+- Peinte en Juillet 2026
+- En environ 4 heure
+
+[gallery w=400 h=200]
+pictures/dungeon-and-laser/deuslair/addon/chaos/wraith/11.jpg
+pictures/dungeon-and-laser/deuslair/addon/chaos/wraith/12.jpg
+[/gallery]
 
 
 
