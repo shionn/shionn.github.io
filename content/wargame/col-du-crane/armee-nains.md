@@ -69,7 +69,7 @@ pictures/battle/bataille-col-crane/nains/guerriers/06.jpg
 pictures/battle/bataille-col-crane/nains/guerriers/07.jpg
 [/gallery]
 
-La premiere à été peinte en Juin 2026 en 10 heures environ
+La seconde à été peinte en Juin 2026 en 10 heures environ
 
 [gallery w=350 h=200]
 pictures/battle/bataille-col-crane/nains/guerriers/11.jpg
@@ -79,6 +79,27 @@ pictures/battle/bataille-col-crane/nains/guerriers/13.jpg
 [gallery w=450 h=200]
 pictures/battle/bataille-col-crane/nains/guerriers/14.jpg
 pictures/battle/bataille-col-crane/nains/guerriers/15.jpg
+[/gallery]
+
+[/after]
+
+[after date="2026/09/26"]
+## Mineurs
+
+Normalement dans une boite *col du crâne* il n'y as que 8 mineurs, ici j'en ai 10.
+
+[gallery w=320 h=200]
+pictures/battle/bataille-col-crane/nains/mineurs/01.jpg
+pictures/battle/bataille-col-crane/nains/mineurs/02.jpg
+pictures/battle/bataille-col-crane/nains/mineurs/03.jpg
+[/gallery]
+[gallery w=300 h=200]
+pictures/battle/bataille-col-crane/nains/mineurs/06.jpg
+pictures/battle/bataille-col-crane/nains/mineurs/07.jpg
+[/gallery]
+[gallery w=300 h=200]
+pictures/battle/bataille-col-crane/nains/mineurs/08.jpg
+pictures/battle/bataille-col-crane/nains/mineurs/09.jpg
 [/gallery]
 
 [/after]

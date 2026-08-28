@@ -20,7 +20,7 @@ pictures/battle/bataille-col-crane/nains/guerriers/06.jpg
 pictures/battle/bataille-col-crane/nains/guerriers/07.jpg
 [/gallery]
 
-La premiere à été peinte en Juin 2026 en 10 heures environ
+La seconde à été peinte en Juin 2026 en 10 heures environ
 
 [gallery w=350 h=200]
 pictures/battle/bataille-col-crane/nains/guerriers/11.jpg
