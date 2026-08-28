@@ -46,6 +46,7 @@ pictures/aos/std/cavaliers-cruels/13.jpg
 [/gallery]
 
 [after date="2026/08/25"]
+
 # Monstre
 
 ## Gastefauve
@@ -78,7 +79,53 @@ pictures/aos/std/prince-demon/03.jpg
 
 [after date="2026/09/18"]
 # Troupes
+[/after]
 
+[after date="2026/10/12"]
+## Maraudeurs avec lance
+
+Je les ai acheté sur le leboncoin. Ils proviennent de la boite d'armée. 
+
+- Peinte en Juin 2026 
+- Environ 20h
+
+[gallery w=400 h=200]
+pictures/aos/std/maraudeurs/01.jpg
+[/gallery]
+[gallery w=300 h=200]
+pictures/aos/std/maraudeurs/02.jpg
+pictures/aos/std/maraudeurs/03.jpg
+[/gallery]
+[gallery w=450 h=200]
+pictures/aos/std/maraudeurs/04.jpg
+pictures/aos/std/maraudeurs/05.jpg
+pictures/aos/std/maraudeurs/06.jpg
+pictures/aos/std/maraudeurs/07.jpg
+[/gallery]
+
+## Maraudeurs avec épée
+
+Proviens d'une boite start collecting.
+
+- Peinte en Aout 2026 
+- Environ 19h
+
+[gallery w=400 h=200]
+pictures/aos/std/maraudeurs/10.jpg
+[/gallery]
+[gallery w=250 h=200]
+pictures/aos/std/maraudeurs/11.jpg
+pictures/aos/std/maraudeurs/12.jpg
+[/gallery]
+[gallery w=400 h=200]
+pictures/aos/std/maraudeurs/13.jpg
+pictures/aos/std/maraudeurs/14.jpg
+pictures/aos/std/maraudeurs/15.jpg
+pictures/aos/std/maraudeurs/16.jpg
+[/gallery]
+[/after]
+
+[after date="2026/09/18"]
 ## Saccageurs
 
 Il provienne de la boite fer de lance. C'est une bande Warcry originellement.
@@ -102,7 +149,6 @@ pictures/warcry/std/saccageurs/06.jpg
 pictures/warcry/std/saccageurs/07.jpg
 [/gallery]
 [/after]
-
 
 # Peinture
 

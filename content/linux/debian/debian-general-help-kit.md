@@ -276,6 +276,23 @@ sudo smartctl -a /dev/nvme0 | grep -i progress
 sudo smartctl -a /dev/nvme0
 ~~~
 
+# Utilitaire
+## Compression multitache
+
+~~~shell
+echo "mktargz() {
+    if [ "$#" -ne 1 ]; then
+        echo "Usage: mkarchive <chemin/vers/dossier>"
+        return 1
+    fi
+
+    local dir="$1"
+    local name=$(basename "$dir")
+    tar -cf - "$dir" | pigz -p $(nproc) > "$name.tar.gz"
+}" >> ~/.bashrc
+~~~
+
+
 # Vim
 
 Configuration de vim, désactiver le mode de séléction à la souris : 

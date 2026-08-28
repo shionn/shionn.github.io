@@ -1,0 +1,12 @@
+{
+	"type": "post",
+	"date": "2026/10/12",
+	"title": "Noir Serment : Maraudeurs",
+	"tags": ["War Game", "Armée", "Noir Serment", "STD", "AoS"],
+	"category": "War Game",
+	"logo": "pictures/titles/std/maraudeurs.jpg",
+	"published": true,
+	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
+	"toCheck": false,
+	"author": "Shionn"
+}

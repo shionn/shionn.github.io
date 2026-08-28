@@ -238,268 +238,43 @@
 		
 			<article>
 	<header>
-		
-		<h1><a href="2023/debian-general-help-kit.html">Kit de Survie sur Debian</a></h1>
+		<img src="pictures/titles/std/maraudeurs.jpg" title="Noir Serment : Maraudeurs" alt="Noir Serment : Maraudeurs" />
+		<h1><a href="draft/noir-serment-std-maraudeurs.html">Noir Serment : Maraudeurs</a></h1>
 		<div>
-			<span>Publié le 22 novembre 2023</span>
+			<span>Publié le 12 octobre 2026</span>
 			<span>
 				<span class="fa fa-folder-open"></span>
-				<a href="category/linux.html">Linux</a>
+				<a href="category/war-game.html">War Game</a>
 			</span>
 			<span>
 				<span class="fa fa-flag"></span>
-				<a href="tag/linux.html">Linux</a><a href="tag/debian.html">Debian</a><a href="tag/desktop.html">Desktop</a><a href="tag/kit-survie.html">Kit Survie</a>
+				<a href="tag/war-game.html">War Game</a><a href="tag/arm-e.html">Armée</a><a href="tag/noir-serment.html">Noir Serment</a><a href="tag/std.html">STD</a><a href="tag/aos.html">AoS</a>
 			</span>
 		</div>
 	</header>
-	<section><p>Voici ma petite liste de truc et astuce sur Debian.</p>
-<h1>Audio / Vidéo</h1>
-<h2>Audio qui crack</h2>
-<p>Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire resout le probleme.</p>
-<pre class="shell"><code class="shell">systemctl --user restart pipewire.service
-</code></pre>
-<h2>Firefox ne lis pas certaine Video (H.264)</h2>
-<p>Si vous avez des erreurs sur firefox esr avec des choses genre &quot;mime type not supported&quot;. C'est probablement que le décodage Firefox H.264 est désactivé sur le build de firefox-esr de debian.</p>
-<p>Dans <code>about:config</code> chercher <code>media.gmp-gmpopenh264.enabled</code> et passer à <code>true</code>.</p>
-<h2>MakeMkv</h2>
-<p><a href="https://linuxcapable.com/install-makemkv-on-debian/" target="_blank">Suivre ce tuto</a></p>
-<p><em>C'est la plateforme mt1959 qu'il vous faut</em></p>
-<h2>Pavucontrol</h2>
-<p>Outil pour mieux contrôler les périphériques audio</p>
-<pre class="shell"><code class="shell">apt install pavucontrol
-</code></pre>
-<h2>OBS pas de Vaapi</h2>
-<pre class="shell"><code class="shell">apt install mesa-va-drivers
-</code></pre>
-<h2>Youtube Downloader une video</h2>
-<p>En discutant en vocale sur le didi de Steve, j'ai decouvert ce petit outil.</p>
-<pre class="shell"><code class="shell">sudo apt install yt-dlp
-yt-dlp -f 'bestvideo[codec^=av01]/bestvideo+bestaudio' --merge-output-format mkv &lt;URL&gt;
-</code></pre>
-<p>On peu aller tres loin, pour telecharger toutes les musiques d'une playlist et en plus découper chaque video selon le chapitrage avec les mignatures  :</p>
-<pre class="shell"><code class="shell">yt-dlp --split-chapters -f 'bestaudio' --output '%(playlist_title)s/sources/%(title)s.%(ext)s' --output chapter:'%(playlist_title)s/%(title)s/%(section_number)02d - %(section_title)s.%(ext)s' --restrict-filenames --write-thumbnail --output thumbnail:'%(playlist_title)s/%(title)s/00 - %(title)s.%(ext)s' &lt;URL en /playlist?list=&gt;
-</code></pre>
-<h1>Cron</h1>
-<h2>Cron au boot</h2>
-<p>Créer un dossier <code>/etc/crton.reboot</code> puis ajouter cela au fichier <code>/etc/crontab</code></p>
-<pre class="shell"><code class="shell">@reboot		root	cd / &amp;&amp; run-parts --report /etc/cron.reboot
-</code></pre>
-<h1>Eclipse</h1>
-<h2>Eclipse erreur ouverture markdown</h2>
-<p>Cannot display wiki markup preview: No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.  No more handles because there is no underlying browser available. Please ensure that WebKit with its GTK 3.x bindings is installed (WebKit2 API level is preferred). Additionally, please note that GTK4 does not currently have Browser support.</p>
-<pre class="shell"><code class="shell">sudo apt install libwebkit2gtk-4.0-37
-</code></pre>
-<h2>Eclipse wayland</h2>
-<pre class="shell"><code class="shell">#/bin/shell
-export WEBKIT_DISABLE_COMPOSITING_MODE=1
-/path/to/eclipse/eclipse
-</code></pre>
-<h2>Les hauteur de ligne qui change au scroll</h2>
-<p>C'est généralement liè à un porbleme de caractere special mal affiché qui flingue les hauteurs de ligne.</p>
-<h2>Créer un raccourci</h2>
-<p>Ajouter un fichier <code>/usr/share/application/eclipse.desktop</code>. ou dans <code>~/.local/share/applications</code></p>
-<pre class="shell"><code class="shell">[Desktop Entry]
-Name=Eclipse
-Comment=Eclipse
-GenericName=Eclipse
-X-GNOME-FullName=Eclipse
-Exec=/home/shionn/.eclipse-jee-2025-09-R-linux-gtk-x86_64/eclipse
-Terminal=false
-X-MultipleArgs=false
-Type=Application
-Icon=/home/shionn/.eclipse-jee-2025-09-R-linux-gtk-x86_64/icon.xpm
-Categories=Development;
-StartupWMClass=Eclipse
-StartupNotify=true
-</code></pre>
-<h1>File system</h1>
-<h2>Samba et fstab</h2>
-<p>Créer un fichier <em>.smbcredentials</em> dans votre /home :</p>
-<pre class="shell"><code class="shell">username=votre user
-password=votre mot de pass
-domaine=WORKGROUP
-</code></pre>
-<p>Installer le package <em>cifs-utils</em>.</p>
-<p>Éditer votre fichier fstab comme suit :</p>
-<pre class="shell"><code class="shell">//IP_DU_SERVEUR/PARTAGE/       /DOSSIER/CIBLE    cifs    rw,user,suid,uid=VOTRE_UID,gid=VOTRE_GID,credentials=/VOTRE_HOME/.smbcredentials    0    0
-</code></pre>
-<p>Puis recharger la configuration comme suit : <code>sudo systemctl daemon-reload</code></p>
-<h3>automount</h3>
-<p>Le plus simple est de passer par systemd, creer le fichier <code>/etc/systemd/system/automount.service</code> :</p>
-<pre class="shell"><code class="shell">[Unit]
-Description=Automount network drive
-After=local-fs.target syslog.target network.target
-
-[Service]
-Type=oneshot
-Restart=on-failure
-ExecStart=/usr/bin/mount -a
-
-[Install]
-WantedBy=multi-user.target
-</code></pre>
-<p>Puis :</p>
-<pre class="shell"><code class="shell">sudo systemctl daemon-reload
-sudo systemctl enable automount.service
-</code></pre>
-<h2>syncthing</h2>
-<pre class="shell"><code class="shell">apt install syncthing
-sudo systemctl enable syncthing@shionn.service
-systemctl start syncthing@shionn.service
-</code></pre>
-<h2>NFS et fstab</h2>
-<p>Installer nfs-common, <code>sudo apt install nfs-common</code>. Puis editer votre fstab :</p>
-<pre class="shell"><code class="shell">&lt;IP_SERVEUR&gt;:/&lt;PARTAGE&gt;/ /&lt;POINT_MONTAGE&gt;    nfs    defaults    0    0  
-</code></pre>
-<p>Il faut que les identifiant utilisateur/group entre client et serveur correspondent.
-Je veux dans mon cas qu'un nouveau fichier appartienent aux group <code>users</code> pour cela je dois faire.</p>
-<pre class="shell"><code class="shell">sudo usermod -g users &lt;USER&gt;
-</code></pre>
-<h1>Gnome</h1>
-<h2>ALT-F5 qui fait nimp</h2>
-<p>Dans dconf-editor modifier la clef <code>unmaximise</code> dans le dossier : <code>org.gnome.desktop.wm.keybindings</code></p>
-<h2>Desactiver pasword apres sleep</h2>
-<p>Installer dconf-editor modifier la clef <code>/org/gnome/desktop/screensaver lock-enable</code> à false</p>
-<h2>Outils de visualisation</h2>
+	<section><p>En 2026 j'ecluse mes <em>petit</em> projets d'armées.
+J'ai ce petit lot de noir serment composer d'un start collecting et de quelques figurine acheté sur le bon coin.</p>
+<p>Aprés avoir eclusé ce que je n'aime pas peindre (les monstres et la cavalerie) j'ai enfin pu prendre du plaisir
+sur la peinture des troupe de base.</p>
+<h1>Maraudeurs avec lance</h1>
+<p>Je les ai acheté sur le leboncoin. Ils proviennent de la boite d'armée.</p>
 <ul>
-<li>evince : viewer de PDF</li>
-<li>f3d : viewer de model 3D</li>
-<li>loupe : viewer d'image</li>
+<li>Peinte en Juin 2026</li>
+<li>Environ 20h</li>
 </ul>
-<pre class="shell"><code class="shell">sudo apt install evince f3d loupe
-</code></pre>
-<h2>Le pc ne se met pas en veille</h2>
-<p>Généralement un processus l'en empêche. J'ai trouvé cette astuce sur Reddit. Pour connaître ce processus vous pouvez entrer cette commande :</p>
-<pre class="shell"><code class="shell">dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager org.gnome.SessionManager.GetInhibitors
-</code></pre>
-<p>Cela vous donnera une réponse comme cela :</p>
-<pre class="shell"><code class="shell">method return time=1728730333.701330 sender=:1.28 -&gt; destination=:1.303 serial=2481 reply_serial=2
-   array [
-      object path &quot;/org/gnome/SessionManager/Inhibitor272&quot;
-   ]
-</code></pre>
-<p>Ensuite on reprend le <strong>/org/gnome/SessionManager/Inhibitor272</strong> qu'on met dans cette commande :</p>
-<pre class="shell"><code class="shell">dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager/Inhibitor272 org.gnome.SessionManager.Inhibitor.GetAppId
-</code></pre>
-<p>Qui nous donnera ce résultat :</p>
-<pre class="shell"><code class="shell">method return time=1728730410.581488 sender=:1.28 -&gt; destination=:1.304 serial=2482 reply_serial=2
-   string &quot;firefox&quot;
-</code></pre>
-<h1>Hyprland</h1>
-<h2>Lancer synaptic</h2>
-<pre class="sheel"><code class="sheel">xhost local:root
-synaptic-pkexec
-</code></pre>
-<h1>Impression 3D</h1>
-<h2>Creality print</h2>
-<p>Télécharger la derniere version en flatpak de créalityprint sur leurs <a href="https://github.com/CrealityOfficial/CrealityPrint" target="_blank">github</a>.</p>
-<pre class="shell"><code class="shell">sudo apt install flatpak
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install &lt;CrealityPrint-Linux-flatpak_V6.3.0-Release_x86_64&gt;.flatpak
-flatpak run io.github.crealityofficial.CrealityPrint
-</code></pre>
-<p>à traiter pour Hyprland :</p>
-<pre class="java"><code class="java">Note that the directories
-
-'/var/lib/flatpak/exports/share'
-'/home/&lt;shionn&gt;/.local/share/flatpak/exports/share'
-
-are not in the search path set by the XDG_DATA_DIRS environment variable, so applications installed by Flatpak may not appear on your desktop until the session is restarted.
-</code></pre>
-<h1>Jeux</h1>
-<p>Voir ma page <a href="2025/debian-gaming-help-kit.html">dédié au jeux</a></p>
-<h1>Journalctl</h1>
-<h2>Log qui spam</h2>
-<p>J'ai un spam de ce log.</p>
-<pre class="shell"><code class="shell">i2c-designware-pci 0000:09:00.3: Refused to change power state from D0 to D3hot
-</code></pre>
-<p>Il semblerai qu'ajouter l'option suivante la grub resolve le probleme :</p>
-<pre class="shell"><code class="shell">GRUB_CMDLINE_LINUX=&quot;pcie_port_pm=off&quot;
-</code></pre>
-<h1>Materiel</h1>
-<h2>Faire un smart profond</h2>
-<pre class="shell"><code class="shell"># lancer le test
-sudo smartctl -t long /dev/nvme0
-# voir la progress
-sudo smartctl -a /dev/nvme0 | grep -i progress
-# voir les résultats
-sudo smartctl -a /dev/nvme0
-</code></pre>
-<h1>Utilitaire</h1>
-<h2>Compression multitache</h2>
-<pre class="shell"><code class="shell">echo &quot;mktargz() {
-    if [ &quot;$#&quot; -ne 1 ]; then
-        echo &quot;Usage: mkarchive &lt;chemin/vers/dossier&gt;&quot;
-        return 1
-    fi
-
-    local dir=&quot;$1&quot;
-    local name=$(basename &quot;$dir&quot;)
-    tar -cf - &quot;$dir&quot; | pigz -p $(nproc) &gt; &quot;$name.tar.gz&quot;
-}&quot; &gt;&gt; ~/.bashrc
-</code></pre>
-<h1>Vim</h1>
-<p>Configuration de vim, désactiver le mode de séléction à la souris :</p>
-<pre class="shell"><code class="shell">echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
-</code></pre>
-<p>Ajouter la coloration syntaxic :</p>
-<pre class="shell"><code class="shell">echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
-</code></pre>
-<h1>Wayland</h1>
-<h2>Executer un truc en XWayland :</h2>
-<pre class="shell"><code class="shell">GDK_BACKEND=x11 &lt;command&gt;
-</code></pre>
-<h1>Seveur</h1>
-<h2>Initialisation</h2>
-<p>Sur chacun de mes serveurs je commence par faire cela :</p>
-<pre class="shell"><code class="shell">apt install bash-completion vim -y
-apt remove nano -y
-echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
-echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
-echo &quot;alias ll=\&quot;ls -l\&quot;&quot; &gt;&gt; ~/.bashrc
-echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.bashrc
-</code></pre>
-<h2>Tomcat</h2>
-<p>Quand je veux déployé dans ROOT je dois changer les droit d'accès dans le dossier ROOT de <code>/var/lib/tomcat10/webapps</code></p>
-<p>Pour répondre sur 80 dans le fichier : <code>/etc/tomcat10/server.xml</code></p>
-<h2>Tuto file serveur sur promox</h2>
-<p>J'aime pas les tuto youtube mais celui la est bien <a href="https://youtu.be/I7nfSCNKeck?si=uNb3HVNwdK8xJMQQ" target="_blank">MRP</a></p>
-<h2>hdparm spindown des disks :</h2>
+<div class="gallery"><a href="pictures/aos/std/maraudeurs/01.jpg"><img src="pictures/aos/std/maraudeurs/01-400-200.jpg" width="400" height="200"></a></div><div class="gallery"><a href="pictures/aos/std/maraudeurs/02.jpg"><img src="pictures/aos/std/maraudeurs/02-300-200.jpg" width="300" height="200"></a><a href="pictures/aos/std/maraudeurs/03.jpg"><img src="pictures/aos/std/maraudeurs/03-300-200.jpg" width="300" height="200"></a></div><div class="gallery"><a href="pictures/aos/std/maraudeurs/04.jpg"><img src="pictures/aos/std/maraudeurs/04-450-200.jpg" width="450" height="200"></a><a href="pictures/aos/std/maraudeurs/05.jpg"><img src="pictures/aos/std/maraudeurs/05-450-200.jpg" width="450" height="200"></a><a href="pictures/aos/std/maraudeurs/06.jpg"><img src="pictures/aos/std/maraudeurs/06-450-200.jpg" width="450" height="200"></a><a href="pictures/aos/std/maraudeurs/07.jpg"><img src="pictures/aos/std/maraudeurs/07-450-200.jpg" width="450" height="200"></a></div>
+<h1>Maraudeurs avec épée</h1>
+<p>Proviens d'une boite start collecting.</p>
 <ul>
-<li><a href="https://wiki.archlinux.org/title/Hdparm" target="_blank">source</a></li>
-<li><a href="https://www.thelinuxvault.net/blog/linux-hdd-sleep-how-to-enable-and-disable-with-hdparm/" target="_blank">bonne source</a></li>
+<li>Peinte en Aout 2026</li>
+<li>Environ 19h</li>
 </ul>
-<pre class="shell"><code class="shell">#/etc/udev/rules.d/69-hdparm.rules
-ACTION==&quot;add|change&quot;, KERNEL==&quot;sd[a-z]&quot;, ATTRS{queue/rotational}==&quot;1&quot;, RUN+=&quot;/usr/bin/hdparm -B 127 /dev/%k&quot;
-</code></pre>
-<h2>Connaitre quel processus ecoute sur quel port</h2>
-<p>on peu utilisé netstat : <code>apt instal</code> netstat puis <code>netstat -ltnp</code></p>
-<h2>Creer un service</h2>
-<p>Par exemple : <strong>/etc/systemd/system/MonService.service</strong></p>
-<pre class="shell"><code class="shell">[Unit]
-Description=NOM DU SERVICE
-After=syslog.target network.target
-
-[Service]
-SuccessExitStatus=143
-User=root
-Group=root
-Type=simple
-Environment=&quot;FOO=BAR&quot;
-WorkingDirectory=/root
-ExecStart=/absolut/path/truc.sh
-ExecStop=/bin/kill $MAINPID
-
-[Install]
-WantedBy=multi-user.target
-</code></pre>
-<p>Puis :</p>
-<pre class="shell"><code class="shell">sudo systemctl daemon-reload
-sudo systemctl enable MonService.service
-</code></pre>
+<div class="gallery"><a href="pictures/aos/std/maraudeurs/10.jpg"><img src="pictures/aos/std/maraudeurs/10-400-200.jpg" width="400" height="200"></a></div><div class="gallery"><a href="pictures/aos/std/maraudeurs/11.jpg"><img src="pictures/aos/std/maraudeurs/11-250-200.jpg" width="250" height="200"></a><a href="pictures/aos/std/maraudeurs/12.jpg"><img src="pictures/aos/std/maraudeurs/12-250-200.jpg" width="250" height="200"></a></div><div class="gallery"><a href="pictures/aos/std/maraudeurs/13.jpg"><img src="pictures/aos/std/maraudeurs/13-400-200.jpg" width="400" height="200"></a><a href="pictures/aos/std/maraudeurs/14.jpg"><img src="pictures/aos/std/maraudeurs/14-400-200.jpg" width="400" height="200"></a><a href="pictures/aos/std/maraudeurs/15.jpg"><img src="pictures/aos/std/maraudeurs/15-400-200.jpg" width="400" height="200"></a><a href="pictures/aos/std/maraudeurs/16.jpg"><img src="pictures/aos/std/maraudeurs/16-400-200.jpg" width="400" height="200"></a></div>
+<p>Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
+sur la page dédiée à <a href="2026/armee-slave-to-darkness.html">Mon armée Noir Serment</a>.</p>
 </section>
 	<footer>
-		<em class="author">par Shionn, le 22 novembre 2023<span>, derniére modification le 12 mai 2026</span>.</em>
+		<em class="author">par Shionn, le 12 octobre 2026.</em>
 		<h2>Commentaires</h2>
 		<div class="comments"></div>
 		<h2>Ajouter un commentaire</h2>
@@ -1103,7 +878,9 @@ sudo systemctl enable MonService.service
 	<script type="text/javascript" src="js/comment.js"></script>
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
-	<script type="text/javascript" src="js/hljs/bash.min.js"></script>
+	<script type="text/javascript" src="js/paint-db.js"></script>
+	<script type="text/javascript" src="js/paint-equivalence-db.js"></script>
+	<script type="text/javascript" src="js/paint-guide.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>
