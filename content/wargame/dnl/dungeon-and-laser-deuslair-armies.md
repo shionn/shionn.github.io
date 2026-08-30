@@ -73,13 +73,28 @@ pictures/dungeon-and-laser/deuslair/addon/redoe/din-huine/02.jpg
 
 ### Vindu Caster (SG)
 
-todo
+- Peinte en aout 2026
+- En environ 1 heure
+
+[gallery w=150 h=200]
+pictures/dungeon-and-laser/deuslair/strech/redoe/vindu-caster/01.jpg
+pictures/dungeon-and-laser/deuslair/strech/redoe/vindu-caster/02.jpg
+pictures/dungeon-and-laser/deuslair/strech/redoe/vindu-caster/03.jpg
+[/gallery]
 
 ## Encura Outcasts
 
 ### Encura Outcast (SG)
 
-todo
+- Peinte en aout 2026
+- En environ 1 heure
+
+[gallery w=180 h=200]
+pictures/dungeon-and-laser/deuslair/strech/redoe/encura-outcast/01.jpg
+pictures/dungeon-and-laser/deuslair/strech/redoe/encura-outcast/02.jpg
+pictures/dungeon-and-laser/deuslair/strech/redoe/encura-outcast/03.jpg
+pictures/dungeon-and-laser/deuslair/strech/redoe/encura-outcast/04.jpg
+[/gallery]
 
 ## Knights of Ruth
 
