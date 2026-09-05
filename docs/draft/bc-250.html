@@ -234,107 +234,206 @@
 	<main>
 		
 		
-			<p>Un article sur deux de peinture || Cycle visé : gob > autre peinture > Non peinture. || On intercalle whisperia quand il faut tans pis.</p>
-			<h2>Programmation auto :</h2>
-			[28 octobre 2026, 05 novembre 2026, 13 novembre 2026, 21 novembre 2026]
-			<ul>
-				<li>
-					<a href="draft/bc-250.html">BC-250 une PS5 sous linux</a>
-					20 octobre 2026
-				</li>
-				<li>
-					<a href="draft/noir-serment-std-maraudeurs.html">Noir Serment : Maraudeurs</a>
-					12 octobre 2026
-				</li>
-				<li>
-					<a href="draft/armee-dark-angel.html">Dark Angel</a>
-					04 octobre 2026
-				</li>
-				<li>
-					<a href="draft/col-du-crane-nains-mineurs.html">Mineurs Nains</a>
-					26 septembre 2026
-				</li>
-				<li>
-					<a href="draft/warcry-std.html">Saccageurs Noir-serment</a>
-					18 septembre 2026
-				</li>
-				<li>
-					<a href="draft/java-linux-game-launcher.html">Un lanceur de jeu en java pour linux</a>
-					10 septembre 2026
-				</li>
-			</ul>
-			<h2>Publié Récemment :</h2>
-			<ul>
-				<li>
-					<a href="2026/col-du-crane-nains-guerriers.html">Guerriers Nains</a>
-					02 septembre 2026
-				</li>
-				<li>
-					<a href="2026/noir-serment-std-monstre.html">Noir Serment : Monstres</a>
-					25 août 2026
-				</li>
-				<li>
-					<a href="2026/apt-mirror.html">Faire un dépot debian local grâce à apt-mirror</a>
-					17 août 2026
-				</li>
-				<li>
-					<a href="2026/col-du-crane-nains-artillerie.html">Artillerie Naine</a>
-					09 août 2026
-				</li>
-				<li>
-					<a href="2026/noir-serment-std-cavalerie.html">Noir Serment : Cavalerie</a>
-					01 août 2026
-				</li>
-			</ul>
-			<h2>Non programmé</h2>
-			<ul>
-				<li>
-					<a href="draft/dungeon-and-laser-mine-props.html">Dungeon &amp; Laser : Mine Props</a>
-					01 janvier 2027
-				</li>
-				<li>
-					<a href="draft/streamdeck-sur-esp32s3.html">Streamdeck sur ESP32S3 (JC3248W535)</a>
-					17 octobre 2026
-				</li>
-				<li>
-					<a href="draft/arcadia-quest.html">Arcadia Quest</a>
-					01 janvier 2026
-				</li>
-				<li>
-					<a href="draft/descent-act-2.html">Descent : Légendes des Ténèbres : Act 2</a>
-					01 janvier 2026
-				</li>
-				<li>
-					<a href="draft/dungeon-and-laser-deuslair-armies.html">Dungeon &amp; Laser : Deuslair : Armies &amp; SG</a>
-					01 janvier 2026
-				</li>
-				<li>
-					<a href="draft/tomcat-10-vers-11.html">Migration Tomcat 10 vers 11</a>
-					01 janvier 2026
-				</li>
-				<li>
-					<a href="draft/annee-2025-defi-peinture.html">Résumé d&#39;un an de défi peinture.</a>
-					01 janvier 2026
-				</li>
-				<li>
-					<a href="draft/whisperia-chronique-de-tortuga-solution.html">Whisperia : Les Chroniques de Tortuga, Solution</a>
-					01 janvier 2026
-				</li>
-				<li>
-					<a href="draft/amd-ryzen.html">Astuce pour Amd Ryzen</a>
-					31 décembre 2025
-				</li>
-				<li>
-					<a href="draft/kit-survie-arduino.html">Kit de Survie Arduino</a>
-					01 janvier 2025
-				</li>
-				<li>
-					<a href="draft/collection.html">Collections</a>
-					01 janvier 2024
-				</li>
-			</ul>
 		
 		
+			<article>
+	<header>
+		
+		<h1><a href="draft/bc-250.html">BC-250 une PS5 sous linux</a></h1>
+		<div>
+			<span>Publié le 20 octobre 2026</span>
+			<span>
+				<span class="fa fa-folder-open"></span>
+				<a href="category/linux.html">Linux</a>
+			</span>
+			<span>
+				<span class="fa fa-flag"></span>
+				<a href="tag/matos.html">Matos</a><a href="tag/gaming.html">Gaming</a><a href="tag/bc-250.html">BC-250</a><a href="tag/ps-5.html">PS-5</a>
+			</span>
+		</div>
+	</header>
+	<section><p>Après le <a href="2025/pc-gaming-m720q-rx6400.html">M720q avec une RX6400</a>, je retente l'aventure du PC à 250 brouzouf sur base d'une AMD BC-250.</p>
+<h1>BC250 ?</h1>
+<p>La carte Asrock BC-250 est une carte commercialisée par AsRock pour le minage de crypto-monnaie.
+Cette carte est architecturée autour d'un SoC AMD sous le nom de code <strong>Oberon</strong> pour la partie CPU et <strong>Cyan Skillfish</strong> pour la partie GPU.
+Il s'agit en fait d'une version bridée du SoC qui équipe la PS5. C'est-à-dire que la partie CPU est limitée à 6 cœurs au lieu de 8 de la PS5 et il en va de même pour la partie GPU qui est limitée à 24 CU au lieu de 36. Mais ces limites sont débloquables comme on va le voir.</p>
+<table class="">
+<thead>
+<tr><th colspan="3"></th></tr>
+<tr><th></th><th>Spec</th><th>Équivalent</th></tr>
+</thead>
+<tbody>
+<tr><td>CPU</td><td>6 Coeur Zen 2 @3.5Ghz (8Mo L3)</td><td>~ Ryzen 4600U</td></tr>
+<tr><td></td><td>Débloquable à 8 Coeur</td></tr>
+<tr><td>GPU</td><td>24 CU (1536 SP) RDNA 2 @1.5Ghz</td><td>~ RX 6600</td></tr>
+<tr><td></td><td>Débloquable à 40CU (2560 SP) @2/2.2Ghz</td><td>~ RX 6700 XT</td></tr>
+<tr><td>Mémoire</td><td>16 Go GDDR6 256 bits 448 Go/s</td><td>-</td></tr>
+<tr><td>Conssomation</td><td>220W</td></tr>
+</tbody>
+</table>
+<p>La carte est équipée d’un port NVMe pour le stockage, qui semble limité à du PCIe 2.0. Un port RJ-45 1Gbe, 4 ports USB. Et un seul port vidéo DisplayPort.</p>
+<div class="gallery"><a href="/pictures/linux/bc-250/construction/01.jpg"><img src="/pictures/linux/bc-250/construction/01-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/construction/02.jpg"><img src="/pictures/linux/bc-250/construction/02-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/construction/03.jpg"><img src="/pictures/linux/bc-250/construction/03-320-240.jpg" width="320" height="240"></a></div>
+<h1>Construction</h1>
+<h2>Le refroidissement</h2>
+<p>J’ai acheté cette carte d’occasion, son précédent propriétaire avait commencé à ouvrir les ailettes. Cependant, non seulement c’était pas beau, mais en plus c’était pas suffisant.
+Il faut aussi découper les ailettes.
+J’ai passé une journée à la pince, mais j’ai réussi à obtenir quelque chose de correct.</p>
+<div class="gallery"><a href="/pictures/linux/bc-250/construction/04.jpg"><img src="/pictures/linux/bc-250/construction/04-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/construction/05.jpg"><img src="/pictures/linux/bc-250/construction/05-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/construction/06.jpg"><img src="/pictures/linux/bc-250/construction/06-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/construction/07.jpg"><img src="/pictures/linux/bc-250/construction/07-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/construction/08.jpg"><img src="/pictures/linux/bc-250/construction/08-320-240.jpg" width="320" height="240"></a></div>
+<h2>Boitier</h2>
+<p>J'ai fais les premiers test dirrectement sur table pour verifier que tous fonctionne. En démarrant l'alimentation avec un simple trombonne.</p>
+<div class="gallery"><a href="/pictures/linux/bc-250/construction/09.jpg"><img src="/pictures/linux/bc-250/construction/09-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/construction/10.jpg"><img src="/pictures/linux/bc-250/construction/10-320-240.jpg" width="320" height="240"></a></div>
+<p>Je suis parti sur le boîtier <a href="https://www.printables.com/model/1649679-nexgen3d-diy-steam-machine-redux-edition" target="_blank">NexGen3D: DIY Steam Machine - REDUX Edition</a>. Il m’a pris presque 4 jours d’impressions.</p>
+<div class="gallery"><a href="/pictures/linux/bc-250/construction/11.jpg"><img src="/pictures/linux/bc-250/construction/11-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/construction/12.jpg"><img src="/pictures/linux/bc-250/construction/12-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/construction/13.jpg"><img src="/pictures/linux/bc-250/construction/13-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/construction/14.jpg"><img src="/pictures/linux/bc-250/construction/14-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/construction/15.jpg"><img src="/pictures/linux/bc-250/construction/15-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/construction/16.jpg"><img src="/pictures/linux/bc-250/construction/16-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/construction/17.jpg"><img src="/pictures/linux/bc-250/construction/17-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/construction/18.jpg"><img src="/pictures/linux/bc-250/construction/18-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/construction/19.jpg"><img src="/pictures/linux/bc-250/construction/19-320-240.jpg" width="320" height="240"></a></div>
+<h2>Cout</h2>
+<p>Je triche totalement pour le calcul du prix.
+Par exemple, les ventilateurs étant vendus par 5, je calcule le coût de revient des deux ventilateurs au prorata des 5, et je fais de même pour le reste.</p>
+<ul>
+<li>BC-250 en occasion sur LBC 140,19 (130+frais LBC)</li>
+<li>Alimentation <a href="https://fr.aliexpress.com/item/1005009609601844.html" target="_blank">METALFISH Flex 500</a> 66,28</li>
+<li><a href="https://fr.aliexpress.com/item/32928312879.html" target="_blank">Adaptateur 24 pin avec bouton</a> 5,93</li>
+<li>Interrupteur <a href="https://www.amazon.fr/dp/B09JZH175N" target="_blank">16mm à vérouillage</a> 15,46 / 2 = 7,73</li>
+<li>Hub USB <a href="https://www.amazon.fr/dp/B07L32B9C2" target="_blank">Anker 4port 60cm</a> 9,16</li>
+<li>Connecteur USB <a href="https://www.amazon.fr/dp/B0GC5RPQ6X" target="_blank">en angle à 180</a> 11,39</li>
+<li>Ventillateur <a href="https://www.amazon.fr/dp/B0FVXTYLX7" target="_blank">P12 Pro</a> 26.99*2/5 = 10,80</li>
+<li>NVME 256Go, recup qui traine. 0</li>
+<li><strong>Total Hors Impression 3D :</strong> 251,48</li>
+</ul>
+<h1>Installation</h1>
+<h2>Bios</h2>
+<p>La carte que j’ai reçue était déjà flashée avec un BIOS modifié.
+Je n’ai rien eu à faire sur ce point.
+Ce flash permet d’avoir un partage dynamique de la RAM entre le CPU et le GPU.
+Son ancien propriétaire m’a dit avoir installé ce <a href="https://gitlab.com/TuxThePenguin0/bc250-bios" target="_blank">BIOS</a>.</p>
+<h2>Une simple Debian Stable</h2>
+<p>« Si vous me lisez, ou me connaissez, je suis un utilisateur de Debian, pas de Bazzite ou de CachyOS ici.
+Bien évidemment, sur le net, on vous dira de ne pas utiliser une distribution LTS pour une telle carte.
+Et pourtant, j’ai fait tous ces tests sur Debian Stable + stable-backports, avec Hyprland comme bureau.
+Un environnement de bureau qui n’est pas réputé pour ces performances en jeu. Je n’ai rien fait de spécial.</p>
+<h2>BC-250 control center</h2>
+<p>Le premier outil que j’ai installé est le <a href="https://github.com/movacx/bc250-control-center" target="_blank">BC-250 Control Center</a> et ça tombe bien : son créateur fournit un packaging en .deb.
+Cet outil simplifie tout. Sinon, il faudrait installer plein d’outils qui, bien souvent, demandent une phase de compilation :</p>
+<ul>
+<li>Le governor GPU.</li>
+<li>L’outil d’unlock des CU et le service pour reappliquer au démarrage.</li>
+<li>L’outil d’unlock des cœurs CPU.</li>
+<li>L’overclocking.</li>
+<li>etc.</li>
+</ul>
+<p>Cet outil est très simple d’utilisation. Une fois installé, pour finaliser l’installation des composants, il suffit de cliquer sur <strong>Prepare Selection</strong>.
+Cela va télécharger et compiler les composants nécessaires au bon fonctionnement de la BC-250.
+La réactivation des CU désactivés se fait aussi très simplement en quelque clic.</p>
+<div class="gallery"><a href="/pictures/linux/bc-250/control-center/bc250-cc-01.png"><img src="/pictures/linux/bc-250/control-center/bc250-cc-01-320-240.png" width="320" height="240"></a><a href="/pictures/linux/bc-250/control-center/bc250-cc-02.png"><img src="/pictures/linux/bc-250/control-center/bc250-cc-02-320-240.png" width="320" height="240"></a></div>
+<h1>Test</h1>
+<p>J’ai testé sur un benchmark et deux jeux intégrant des benchmarks.
+À chaque fois, j’ai fait un test en :</p>
+<ul>
+<li>Stock, c’est-à-dire juste à Debian d’installer et rien d’autre.</li>
+<li>Avec le BC-250 Control Center d’installer.</li>
+<li>32 CU débloqués au lieu de 24.</li>
+<li>38 CU débloqués. Les deux derniers étant défectueux.</li>
+</ul>
+<h2>Unigine Superposition</h2>
+<p>J’ai choisi ce benchmark car il est  simple d’accès sur Linux.
+J’aurais dû faire les tests en  mode extrême, cela aurait été plus simple pour trouver une équivalence.</p>
+<table class="">
+<thead>
+<tr><th colspan="3"></th></tr>
+<tr><th>#</th><th>Score</th><th>Gain</th></tr>
+</thead>
+<tbody>
+<tr><td>Stock</td><td>10835</td><td>-</td></tr>
+<tr><td>Control-center</td><td>12750</td><td>+17%</td></tr>
+<tr><td>32 CU</td><td>13977</td><td>+10%</td></tr>
+<tr><td>38 CU</td><td>14000</td><td>~</td></tr>
+</tbody>
+</table>
+<p>On remarque que simplement installer le Control Center fait beaucoup.
+C’est grâce au gouverneur du GPU qui permet d’avoir une plus grande consommation.
+On voit aussi que le passage à 32 CU permet également un bon gain.</p>
+<p>En revanche, passer à 38 CU n’apporte pratiquement aucun gain.
+J’ai refait le benchmark plusieurs fois, et au mieux, j’atteignais environ 14 400, soit +3 %, ce qui est négligeable.
+On est plus dans l’erreur de mesure.
+Donc, si votre carte ne permet pas le déblocage des 40 CU, n’en faites pas un drame : je ne pense pas que l’ajout des derniers CU change grand-chose.</p>
+<div class="gallery"><a href="/pictures/linux/bc-250/stock/superposition.jpg"><img src="/pictures/linux/bc-250/stock/superposition-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/control-center/superposition.jpg"><img src="/pictures/linux/bc-250/control-center/superposition-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/32cu/superposition.jpg"><img src="/pictures/linux/bc-250/32cu/superposition-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/38cu/superposition.jpg"><img src="/pictures/linux/bc-250/38cu/superposition-320-240.jpg" width="320" height="240"></a></div>
+<h2>Shadow of the Tomb Raider (Tomb raider 12)</h2>
+<p>Tester en 1080p avec le Preset élevé.</p>
+<table class="">
+<thead>
+<tr><th colspan="3"></th></tr>
+<tr><th>#</th><th>Score</th><th>Gain</th></tr>
+</thead>
+<tbody>
+<tr><td>Stock</td><td>10242</td><td>-</td></tr>
+<tr><td>Control-center</td><td>11189</td><td>+9%</td></tr>
+<tr><td>32 CU</td><td>11327</td><td>~</td></tr>
+<tr><td>38 CU</td><td>11176</td><td>~</td></tr>
+</tbody>
+</table>
+<p>Bizarrement, on remarque que l’activation des CU n’apporte aucun gain.
+Je pense donc qu’on est limité par le CPU.
+J’ai donc fait un test avec les Preset moyen et bas, et j’ai eu les mêmes résultats. Ce qui confirme la limitation due au CPU.</p>
+<div class="gallery"><a href="/pictures/linux/bc-250/stock/sottr.jpg"><img src="/pictures/linux/bc-250/stock/sottr-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/control-center/sottr.jpg"><img src="/pictures/linux/bc-250/control-center/sottr-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/32cu/sottr.jpg"><img src="/pictures/linux/bc-250/32cu/sottr-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/38cu/sottr.jpg"><img src="/pictures/linux/bc-250/38cu/sottr-320-240.jpg" width="320" height="240"></a></div>
+<h2>Cyberpunk 2077</h2>
+<p>Tester en 1080p avec le Preset moyen, mais avec le FSR désactivé.</p>
+<table class="">
+<thead>
+<tr><th colspan="3"></th></tr>
+<tr><th>#</th><th>Fps</th><th>Gain</th></tr>
+</thead>
+<tbody>
+<tr><td>Stock</td><td>46.20</td><td>-</td></tr>
+<tr><td>Control-center</td><td>53.69</td><td>+16%</td></tr>
+<tr><td>32 CU</td><td>62.80</td><td>+16%</td></tr>
+<tr><td>38 CU</td><td>68.05</td><td>+8%</td></tr>
+</tbody>
+</table>
+<p>Au contraire de SotTR, on constate que ce jeu profite de l’ajout de CU.</p>
+<div class="gallery"><a href="/pictures/linux/bc-250/stock/cyberpunk.jpg"><img src="/pictures/linux/bc-250/stock/cyberpunk-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/control-center/cyberpunk.jpg"><img src="/pictures/linux/bc-250/control-center/cyberpunk-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/32cu/cyberpunk.jpg"><img src="/pictures/linux/bc-250/32cu/cyberpunk-320-240.jpg" width="320" height="240"></a><a href="/pictures/linux/bc-250/38cu/cyberpunk.jpg"><img src="/pictures/linux/bc-250/38cu/cyberpunk-320-240.jpg" width="320" height="240"></a></div>
+<h1>Conclusion</h1>
+<p>J’ai vraiment aimé bricoler cette machine, et je suis vraiment surpris par les performances.
+Honnêtement, si vous arrivez à la construire pour le même prix que moi, c’est incroyable.</p>
+<p>Mais dans les faits, c’est  très difficile.
+Trouver une carte graphique à ce prix est très rare. Je vous conseillerai de ne pas y mettre plus de 150 € dans la carte.</p>
+<p>De plus, je n’ai pas pris en compte  le NVMe dans le build.
+Ce NVMe provient d’un M920Q que j’ai acheté pour 100 €, puis revendu  sans le NVMe pour  85 €. Donc, on peut  ajouter 15 € au budget initial de 250 €.
+L’alimentation fait un tel bruit qu’il faut  changer le ventilateur de l’alimentation, ce qui ajoute 15 € supplémentaires.
+J’ai également oublié l’imprimante 3D : il faut  ajouter environ 20 €.
+Le Wi-Fi n’est pas non plus pris en compte, ce qui  pousse le total bien au-delà des 250 €.
+Enfin, je n’ai  pas encore exploré le débridage du CPU.</p>
+<table class="">
+<thead>
+<tr><th colspan="2"></th></tr>
+<tr><th>Pour</th><th>Contre</th></tr>
+</thead>
+<tbody>
+<tr><td>Presque 250 EUR.</td><td>Plutot 300 en vrai.</td></tr>
+<tr><td>Performance solide pour le prix.</td><td>Mais pas incroyable non plus.</td></tr>
+<tr><td></td><td>Alimentation super bruyante.</td></tr>
+<tr><td></td><td>Une seule sortie Vidéo !</td></tr>
+<tr><td>Faut être bricoleur</td><td> </td></tr>
+</tbody>
+</table>
+</section>
+	<footer>
+		<em class="author">par Shionn, le 20 octobre 2026.</em>
+		<h2>Commentaires</h2>
+		<div class="comments"></div>
+		<h2>Ajouter un commentaire</h2>
+		<form method="post" class="comments">
+			<div>
+				<label for="author">Votre pseudo</label>
+				<input type="text" name="author" required>
+			</div>
+			<div>
+				<label for="author">Votre message</label>
+				<textarea name="content" required></textarea>
+			</div>
+			<div>
+				<input type="submit" value="Commenter">
+			</div>
+		</form>
+	</footer>
+</article>
 		
 		
 	</main>
@@ -926,18 +1025,6 @@
 	<script type="text/javascript" src="js/comment.js"></script>
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
-	<script type="text/javascript" src="js/hljs/bash.min.js"></script>
-	<script type="text/javascript" src="js/hljs/cpp.min.js"></script>
-	<script type="text/javascript" src="js/hljs/java.min.js"></script>
-	<script type="text/javascript" src="js/hljs/python.min.js"></script>
-	<script type="text/javascript" src="js/hljs/sql.min.js"></script>
-	<script type="text/javascript" src="js/hljs/xml.min.js"></script>
-	<script type="text/javascript" src="js/paint-db.js"></script>
-	<script type="text/javascript" src="js/paint-equivalence-db.js"></script>
-	<script type="text/javascript" src="js/paint-equivalence.js"></script>
-	<script type="text/javascript" src="js/paint-guide.js"></script>
-	<script type="text/javascript" src="js/pour-la-gloire-de-tortuga.js"></script>
-	<script type="text/javascript" src="js/tortuga-2026.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>
