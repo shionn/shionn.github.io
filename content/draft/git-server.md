@@ -36,6 +36,10 @@ scp ~.ssh/<partie privé> <votre user>@<votre serveur>:~/.ssh
 scp ~.ssh/<partie public> <votre user>@<votre serveur>:~/.ssh
 ~~~
 
+# creation d'un repo : 
+
+git init --bare ShionnSecret.git
+
 
 # cloner un repo github
 
