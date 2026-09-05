@@ -1,6 +1,7 @@
 {
 	"type": "post",
 	"date": "2026/08/17",
+	"updated": ["2026/09/05"],
 	"title": "Faire un dépot debian local grâce à apt-mirror",
 	"tags": ["Linux", "Debian", "Apt", "Server", "Dépot"],
 	"category": "Linux",

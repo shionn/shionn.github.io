@@ -99,6 +99,16 @@ Components: main contrib
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 ~~~
 
+## Apt update error icons-48x48.tar.gz
+
+Il peut vous arriver d'avoir une erreur lors de la mise à jour sur un fichier en icons-48x48.tar.gz.
+C'est un problème avec le script apt-mirror qui ne conserve pas toutes les versions de fichier.
+La seule solution que j'ai trouvé, est sur le client de supprimer le paquet AppStream.
+
+~~~shell
+apt remove --purge appstream
+~~~
+
 # Limite et avantange
 
 - J'ai utilisé ce projet sur pas mal de dépôts. Et je n'ai pas réussi à faire des backups sur certain externes comme celui de Mozilla.
