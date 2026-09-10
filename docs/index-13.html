@@ -236,6 +236,39 @@
 			
 				<article class="short">
 	<header>
+		
+		<h1><a href="2025/debian-execute-task-before-and-after-suspend.html">Exécuter un script avant et après la mise en veille</a></h1>
+		<div>
+			<span>Publié le 08 avril 2025</span>
+			<span>
+				<span class="fa fa-folder-open"></span>
+				<a href="category/linux.html">Linux</a>
+			</span>
+			<span>
+				<span class="fa fa-flag"></span>
+				<a href="tag/debian.html">Debian</a><a href="tag/script.html">Script</a><a href="tag/systemd.html">Systemd</a><a href="tag/desktop.html">Desktop</a>
+			</span>
+		</div>
+	</header>
+	<section><p>Pendant longtemps j'ai cherché à exécuter des scripts avant et/ou après la mise en veille de mon pc.</p>
+<p>Actuellement je m'en sers sur mon pc principal pour éteindre le RGB quand il rentre en veille, et le rallumer quand il sort de cette veille.</p>
+<h1>Comment qu'on fait</h1>
+<p>Si on fait un <code>man systemd-suspend.service</code> on y apprend que tous les exécutables
+dans <strong>/usr/lib/systemd/system-sleep/</strong> sont exécuté avant et après une mise en veille avec deux argument :</p>
+<ul>
+<li>'pre' ou 'post' suivant si il rentre en veille ou si il en sort.</li>
+<li>les types de mise en veille 'suspend' ou 'hibernate' ...</li>
+</ul>
+<p>Donc on craies le dossier <strong>/usr/lib/systemd/system-sleep/</strong> si il n'existe pas.</p>
+<p>Et maintenant on peu y faire notre script :</p>
+</section>
+	<footer>
+		<a href="2025/debian-execute-task-before-and-after-suspend.html"><span class="fa fa-eye"></span> Lire la suite</a>
+	</footer>
+</article>
+			
+				<article class="short">
+	<header>
 		<img src="pictures/titles/whisperia/1x07.png" title="Whisperia 7 : Repos" alt="Whisperia 7 : Repos" />
 		<h1><a href="2025/whisperia-1x07-repos.html">Whisperia 7 : Repos</a></h1>
 		<div>
@@ -454,47 +487,6 @@ Voici mes trolls de pierre. Ils proviennent de la boite Dawnbringers qui contien
 	</footer>
 </article>
 			
-				<article class="short">
-	<header>
-		
-		<h1><a href="2025/jellyfin-proxmox-hardware-encode.html">Installation de Jellyfin avec accélération matériel sur Proxmox</a></h1>
-		<div>
-			<span>Publié le 27 février 2025</span>
-			<span>
-				<span class="fa fa-folder-open"></span>
-				<a href="category/linux.html">Linux</a>
-			</span>
-			<span>
-				<span class="fa fa-flag"></span>
-				<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/jellyfin.html">Jellyfin</a>
-			</span>
-		</div>
-	</header>
-	<section><h1>Installation de Jellyfin</h1>
-<p>Sur votre proxmox créer un container à partir d'une Debian.
-Puis connectez vous à ce container.
-Je ne vais pas détailler en profondeur la creation de ce container.
-Mais prévoir :</p>
-<ul>
-<li>100 go d'espace disque (pour le transcodcage)</li>
-<li>4 coeurs</li>
-<li>2 go de ram</li>
-<li>non privilégié</li>
-</ul>
-<h2>Ajout du dépo et installation</h2>
-<p>En root :</p>
-<pre class="shell"><code class="shell">apt install extrepo
-extrepo enable jellyfin
-apt update
-apt install jellyfin
-</code></pre>
-<p>Je ne sais plus pour quelle raison mais j'ai installé :</p>
-</section>
-	<footer>
-		<a href="2025/jellyfin-proxmox-hardware-encode.html"><span class="fa fa-eye"></span> Lire la suite</a>
-	</footer>
-</article>
-			
 			<div>
 				
 				<a href="index-12.html">&lt;</a>
@@ -513,7 +505,7 @@ apt install jellyfin
 				<h1><span class="fa fa-folder-open"></span> Catégories</h1>
 				<ul>
 					<li>
-						<a href="category/code.html">Code&nbsp;(10)</a>
+						<a href="category/code.html">Code&nbsp;(11)</a>
 					</li>
 					<li>
 						<a href="category/diy.html">DiY&nbsp;(1)</a>
@@ -613,6 +605,8 @@ apt install jellyfin
 					Espressif&nbsp;(3)
 				</a><a href="tag/figurine.html" class="tag8">
 					Figurine&nbsp;(43)
+				</a><a href="tag/game-launcher.html" class="tag0">
+					Game Launcher&nbsp;(1)
 				</a><a href="tag/gaming.html" class="tag0">
 					Gaming&nbsp;(3)
 				</a><a href="tag/geek.html" class="tag0">
@@ -628,7 +622,7 @@ apt install jellyfin
 				</a><a href="tag/homeassistant.html" class="tag0">
 					HomeAssistant&nbsp;(1)
 				</a><a href="tag/java.html" class="tag1">
-					Java&nbsp;(6)
+					Java&nbsp;(7)
 				</a><a href="tag/javafx.html" class="tag0">
 					JavaFX&nbsp;(1)
 				</a><a href="tag/jdr.html" class="tag1">
@@ -648,7 +642,7 @@ apt install jellyfin
 				</a><a href="tag/kruelboyz.html" class="tag0">
 					Kruelboyz&nbsp;(1)
 				</a><a href="tag/linux.html" class="tag2">
-					Linux&nbsp;(10)
+					Linux&nbsp;(11)
 				</a><a href="tag/manga.html" class="tag0">
 					Manga&nbsp;(3)
 				</a><a href="tag/matos.html" class="tag0">
@@ -751,11 +745,12 @@ apt install jellyfin
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2026 (31)</a>
+						<a href="#">2026 (32)</a>
 						<ul>
 							<li>
-								<a href="#">septembre (1)</a>
+								<a href="#">septembre (2)</a>
 								<ul>
+									<li><a href="2026/java-linux-game-launcher.html">Un lanceur de jeu en java pour linux</a></li>
 									<li><a href="2026/col-du-crane-nains-guerriers.html">Guerriers Nains</a></li>
 								</ul>
 							</li>

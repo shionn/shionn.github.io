@@ -126,6 +126,7 @@ https://shionn.github.io/2026/gloomspite-louftuaire-mauvaise-lune.html
 https://shionn.github.io/2026/gloomspite-sournifleur.html
 https://shionn.github.io/2026/gloomspite-squig-herd.html
 https://shionn.github.io/2026/gobs-shaman-et-fanatic-metal.html
+https://shionn.github.io/2026/java-linux-game-launcher.html
 https://shionn.github.io/2026/mononokee-nomnom.html
 https://shionn.github.io/2026/noir-serment-std-cavalerie.html
 https://shionn.github.io/2026/noir-serment-std-monstre.html
@@ -183,6 +184,7 @@ https://shionn.github.io/tag/esp32.html
 https://shionn.github.io/tag/esp8266.html
 https://shionn.github.io/tag/espressif.html
 https://shionn.github.io/tag/figurine.html
+https://shionn.github.io/tag/game-launcher.html
 https://shionn.github.io/tag/gaming.html
 https://shionn.github.io/tag/geek.html
 https://shionn.github.io/tag/genshin-impact.html
