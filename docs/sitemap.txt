@@ -137,6 +137,7 @@ https://shionn.github.io/2026/proxmox-help-kit.html
 https://shionn.github.io/2026/repaint-genshin-diluc-fischi.html
 https://shionn.github.io/2026/tortuga-2026.html
 https://shionn.github.io/2026/underworld-gloom-mollog.html
+https://shionn.github.io/2026/warcry-std.html
 https://shionn.github.io/2026/whisperia-1x13-les-hobgobelins.html
 https://shionn.github.io/2026/whisperia-1x14-le-mausolee.html
 https://shionn.github.io/2026/whisperia-1x15-la-crypte.html
