@@ -1,11 +1,11 @@
 {
 	"type": "post",
 	"date": "2023/07/01",
-	"updated": ["2024/10/12", "2024/11/24", "2025/08/31"],
+	"updated": ["2024/10/12", "2024/11/24", "2025/08/31", "2026/11/13"],
 	"title": "Mes Skavens",
 	"tags": ["War Game", "Armée", "Skaven", "AoS"],
 	"category": "War Game",
-	"logo": "pictures/titles/armee-skaven.jpg",
+	"logo": "pictures/titles/skaven/armee-skaven.jpg",
 	"published": true,
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"author": "Shionn"

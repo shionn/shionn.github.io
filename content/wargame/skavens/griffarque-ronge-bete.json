@@ -1,12 +1,11 @@
 {
 	"type": "post",
-	"date": "2024/03/10",
-	"updated": ["2025/08/31"],
-	"title": "Monica, mon abomination de Malefausse",
+	"date": "2026/11/13",
+	"title": "Griffarque sur Ronge-bête",
 	"tags": ["War Game", "Figurine", "Skaven", "AoS"],
 	"category": "War Game",
 	"published": true,
-	"logo": "pictures/titles/skaven/monica-abomination-malefausse.jpg",
+	"logo": "pictures/titles/skaven/griffarque-ronge-bete.jpg",
 	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
 	"toCheck": false,
 	"author": "Shionn"
