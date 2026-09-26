@@ -125,11 +125,27 @@ pictures/dungeon-and-laser/deuslair/strech/redoe/tidor-the-dwarf-chieftan/03.jpg
 
 ### Displaced Rider (SG)
 
-todo
+- Peinte en Aout 2026
+- En environ 2 heures
+
+[gallery w=180 h=200]
+pictures/dungeon-and-laser/deuslair/strech/redoe/yvanda-displaced-rider/01.jpg
+pictures/dungeon-and-laser/deuslair/strech/redoe/yvanda-displaced-rider/02.jpg
+pictures/dungeon-and-laser/deuslair/strech/redoe/yvanda-displaced-rider/03.jpg
+pictures/dungeon-and-laser/deuslair/strech/redoe/yvanda-displaced-rider/04.jpg
+[/gallery]
 
 ### Malicious ancient dryad (SG)
 
-todo
+
+- Peinte en Septembre 2026
+- En environ 2 heures 30 minutes
+
+[gallery w=150 h=200]
+pictures/dungeon-and-laser/deuslair/strech/redoe/yvanda-malicious-dryad/01.jpg
+pictures/dungeon-and-laser/deuslair/strech/redoe/yvanda-malicious-dryad/02.jpg
+pictures/dungeon-and-laser/deuslair/strech/redoe/yvanda-malicious-dryad/03.jpg
+[/gallery]
 
 ### Yv'anda Armored Warrior (SG)
 
@@ -148,11 +164,26 @@ pictures/dungeon-and-laser/deuslair/strech/redoe/yvanda-armored-warrior/03.jpg
 
 ### Augmented Demon (SG)
 
-todo
+- Peinte en Septembre 2026
+- En environ 2 heures 30 minutes
+
+[gallery w=150 h=200]
+pictures/dungeon-and-laser/deuslair/strech/chaos/augmented-demon/01.jpg
+pictures/dungeon-and-laser/deuslair/strech/chaos/augmented-demon/02.jpg
+pictures/dungeon-and-laser/deuslair/strech/chaos/augmented-demon/03.jpg
+pictures/dungeon-and-laser/deuslair/strech/chaos/augmented-demon/04.jpg
+[/gallery]
 
 ### Devourer of Sanity (SG)
 
-todo
+- Peinte en Septembre 2026
+- En environ 1 heure 30 minutes
+
+[gallery w=150 h=200]
+pictures/dungeon-and-laser/deuslair/strech/chaos/devourer-of-sanity/01.jpg
+pictures/dungeon-and-laser/deuslair/strech/chaos/devourer-of-sanity/02.jpg
+pictures/dungeon-and-laser/deuslair/strech/chaos/devourer-of-sanity/03.jpg
+[/gallery]
 
 ### Possessed Mass of Flesh (SG)
 
@@ -192,7 +223,13 @@ pictures/dungeon-and-laser/deuslair/strech/chaos/queen-of-winter/02.jpg
 
 ### Swarm Warrior (SG)
 
-todo
+- Peinte en Septembre 2026
+- En environ 2 heures 30 minutes
+
+[gallery w=240 h=200]
+pictures/dungeon-and-laser/deuslair/strech/chaos/swarm-warrior/01.jpg
+pictures/dungeon-and-laser/deuslair/strech/chaos/swarm-warrior/02.jpg
+[/gallery]
 
 ## Impalers
 
@@ -232,7 +269,14 @@ pictures/dungeon-and-laser/deuslair/addon/chaos/soulless/02.jpg
 
 ### Kala, the Fallen Queen (SG)
 
-todo
+- Peinte en Septembre 2026
+- En environ 2 heures
+
+[gallery w=150 h=200]
+pictures/dungeon-and-laser/deuslair/strech/chaos/kala-the-fallen-queen/01.jpg
+pictures/dungeon-and-laser/deuslair/strech/chaos/kala-the-fallen-queen/02.jpg
+pictures/dungeon-and-laser/deuslair/strech/chaos/kala-the-fallen-queen/03.jpg
+[/gallery]
 
 ## The Tainted
 
