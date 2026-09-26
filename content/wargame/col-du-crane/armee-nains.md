@@ -2,9 +2,32 @@
 Voici mon armée de nains. 
 On est loin d'avoir une armée complete il s'agit simplement de la partie naine de la boite **baille du col du crâne**.
 
+[after date="2026/11/05"]
 # Heros
 
-TODO
+## Roi 
+
+- peint en Mars 2026 
+- en envirion 2h30
+
+[gallery w=150 h=200]
+pictures/battle/bataille-col-crane/nains/king/01.jpg
+pictures/battle/bataille-col-crane/nains/king/02.jpg
+pictures/battle/bataille-col-crane/nains/king/03.jpg
+pictures/battle/bataille-col-crane/nains/king/04.jpg
+[/gallery]
+
+## Tueur
+
+- peint en Juillet 2026 
+- en envirion 2 heures
+
+[gallery w=150 h=200]
+pictures/battle/bataille-col-crane/nains/tueur/01.jpg
+pictures/battle/bataille-col-crane/nains/tueur/02.jpg
+pictures/battle/bataille-col-crane/nains/tueur/03.jpg
+[/gallery]
+[/after]
 
 # Artilleries
 
@@ -45,7 +68,6 @@ pictures/battle/bataille-col-crane/nains/canon/04.jpg
 pictures/battle/bataille-col-crane/nains/canon/05.jpg
 [/gallery]
 
-[after date="2026/09/02"]
 # Infanterie
 
 ## Guerriers
@@ -81,9 +103,6 @@ pictures/battle/bataille-col-crane/nains/guerriers/14.jpg
 pictures/battle/bataille-col-crane/nains/guerriers/15.jpg
 [/gallery]
 
-[/after]
-
-[after date="2026/09/26"]
 ## Mineurs
 
 Normalement dans une boite *col du crâne* il n'y as que 8 mineurs, ici j'en ai 10.
@@ -100,6 +119,21 @@ pictures/battle/bataille-col-crane/nains/mineurs/07.jpg
 [gallery w=300 h=200]
 pictures/battle/bataille-col-crane/nains/mineurs/08.jpg
 pictures/battle/bataille-col-crane/nains/mineurs/09.jpg
+[/gallery]
+
+[after date="2026/11/05"]
+# Décorts
+
+## Poney 
+
+- peint en Septembre 2026 
+- en envirion 4 heures
+
+[gallery w=300 h=200]
+pictures/battle/bataille-col-crane/nains/poney/01.jpg
+pictures/battle/bataille-col-crane/nains/poney/02.jpg
+pictures/battle/bataille-col-crane/nains/poney/03.jpg
+pictures/battle/bataille-col-crane/nains/poney/04.jpg
 [/gallery]
 
 [/after]
