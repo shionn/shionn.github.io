@@ -15,7 +15,7 @@ category/war-game	War Game
 		2024/underworld-dok	Fille de Khaine
 		2025/underworld-gloom	Gloomspite Gitz
 		2025/warcry-dok	Rodeur de l'ombre Khainites
-		2025/warcry-std	Saccageurs Noir-Serment	2026-09-18
+		2026/warcry-std	Saccageurs Noir-Serment	2026-09-18
 		2024/underworld-soulblight	Seigneurs Ruinemânes
 	tag/dungeon-and-laser	Dungeon and Laser
 		2026/dungeon-and-laser-deuslair	Deuslair
@@ -85,6 +85,7 @@ category/code	Code
 		2026/arduino-home-assistant-mqtt	ESP à Home Assistant via MQTT
 	tag/java	Java
 		2025/bot-discord-en-java	Bot discord
+		2026/java-linux-game-launcher	Lanceur de jeu pour linux
 		2026/pattern-singleton-java	Pattern Singleton	2026-05-29
 		2025/webview-avec-javafx-et-screenshot	Screenshot avec JavaFX
 	tag/python	Python

@@ -6,7 +6,7 @@ Un mec me cassant les c###s régulièrement sur twitch pour que je mette mes pho
 - _à venir Fille de Khaine_
 - [Kruelboys](2024/kruelboyz-dominion.html)
 - [Nains (Citée de Simar)](2024/armee-naine-cos.html)
-- _à venir Noir Serment_
+- [Noir Serment (Esclave des Ténebre)](2026/armee-slave-to-darkness.html)
 - [Nighthaunt](2023/armee-nighthaunt.html)
 - [Skaven](2023/armee-skaven.html)
 - [Gloomspite Gitz](2025/armee-gloomspite-gitz.html)
@@ -28,6 +28,6 @@ Un mec me cassant les c###s régulièrement sur twitch pour que je mette mes pho
 # Warcry
 
 - [Filles de Khaine](2025/warcry-dok.html) _Rodeur de l'ombre Khainites_
-- _à venir Noir Serment_
+- [Noir Serment](2026/warcry-std) _Saccageurs Noir-serment_
 
 Pas d'insta, pas d'insta, pas d'insta.
