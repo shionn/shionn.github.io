@@ -138,6 +138,26 @@ Ombrage 2	72051
 Rehaut	72052
 [/paints]
 
+[after date="2026/11/13"]
+## Griffarque sur Ronge-bête
+
+Provient d'une boite Sakventide.
+
+* Peinte en Septembre 2026
+* En environ 6 heures 30 minutes
+
+[gallery w=200 h=250]
+pictures/aos/skaven/verminarque-sur-ronge-bete/01.jpg
+pictures/aos/skaven/verminarque-sur-ronge-bete/02.jpg
+pictures/aos/skaven/verminarque-sur-ronge-bete/03.jpg
+[/gallery]
+[gallery w=250 h=250]
+pictures/aos/skaven/verminarque-sur-ronge-bete/04.jpg
+pictures/aos/skaven/verminarque-sur-ronge-bete/05.jpg
+pictures/aos/skaven/verminarque-sur-ronge-bete/06.jpg
+[/gallery]
+
+[/after]
 ## Vermines de Choc
 Ces figurines proviennent de ma boite **Échos de la ruine**. Il n'y en as que 10 dans cette boite,
 ce qui est surprenant car ces figurines sont vendu par 20, mais se joue bien par 10.
