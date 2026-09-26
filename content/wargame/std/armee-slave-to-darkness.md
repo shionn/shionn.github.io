@@ -45,6 +45,25 @@ pictures/aos/std/cavaliers-cruels/12.jpg
 pictures/aos/std/cavaliers-cruels/13.jpg
 [/gallery]
 
+[after date="2026/10/28"]
+# Héro
+
+## Noir Serment : Tzarketh Fléau de la Loi
+
+Je l'ai acheté sur le boncoin, il était neuf.
+
+- Peinte en Septembre 2026 
+- Environ 6h30
+
+[gallery w=150 h=200]
+pictures/aos/std/tzarketh-bane-of-law/01.jpg
+pictures/aos/std/tzarketh-bane-of-law/02.jpg
+pictures/aos/std/tzarketh-bane-of-law/03.jpg
+pictures/aos/std/tzarketh-bane-of-law/04.jpg
+pictures/aos/std/tzarketh-bane-of-law/05.jpg
+[/gallery]
+[/after]
+
 [after date="2026/08/25"]
 
 # Monstre
