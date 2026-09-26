@@ -115,6 +115,7 @@ https://shionn.github.io/2026/bot-twitch-python.html
 https://shionn.github.io/2026/col-du-crane-gobs-lanciers-archers.html
 https://shionn.github.io/2026/col-du-crane-nains-artillerie.html
 https://shionn.github.io/2026/col-du-crane-nains-guerriers.html
+https://shionn.github.io/2026/col-du-crane-nains-mineurs.html
 https://shionn.github.io/2026/decor-mortal-realms.html
 https://shionn.github.io/2026/descent-act-1.html
 https://shionn.github.io/2026/dungeon-and-laser-deuslair-chaos-core.html
