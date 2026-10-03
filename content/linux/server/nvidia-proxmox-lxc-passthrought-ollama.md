@@ -95,7 +95,7 @@ Il faut passthrought tous ces dossiers au container. Cela se fait dans l'interfa
 /pictures/linux/proxmox-lxc-nvidia/add-devices.jpg
 [/gallery]
 
-Et vous devriez avoiir quelque chose comme ca :
+Et vous devriez avoir quelque chose comme ca :
 
 [gallery]
 /pictures/linux/proxmox-lxc-nvidia/devices-list.jpg
@@ -154,13 +154,14 @@ Ajoutons une interface graphique à notre IA.
 Pour installer openweb ui, sur votre machine vous avez besoin : 
 
 ~~~shell
-apt install python3-pip python3-venv
+apt install python3-pip python3-venv pyenv
 ~~~
 
 Dans mon cas je l'ai installer dans /root. Puis rentrer les commandes suivante : 
 
 ~~~shell
-python3 -m venv open-webui
+pyenv install 3.11.11
+.pyenv/shims/python3.11 -m venv open-webui
 source open-webui/bin/activate
 pip install open-webui
 open-webui serve
@@ -184,4 +185,5 @@ J'ai réussi à faire cela en m'appuyant sur ces documentations :
 - [CUDA Installation Guide for Linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#network-repo-installation-for-debian)
 - [NVIDIA vGPU on Proxmox VE](https://pve.proxmox.com/wiki/NVIDIA_vGPU_on_Proxmox_VE)
 - [Port and nick on ollama](https://atlassc.net/2024/10/24/how-to-share-ollama-server-through-ip-address-and-port)
+- [downgrade python](https://tutorpython.com/downgrade-python-version)
 
