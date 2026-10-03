@@ -1,32 +1,31 @@
+Dans un [précédent article](2026/nvidia-proxmox-lxc-passthrought-ollama.html) j'expliquais comment j'avais installé Ollama et Open Webui dans un conteneur LXC sur Proxmox en faisant un passthrough de ma 2080Ti. Aujourd'hui cet article est très proche du précédent, je recommence avec [llama.cpp](https://llama.cpp/) mais cette fois-ci avec ma nouvelle 2080Ti 22 Go.
 
-Dans un [précedent article](2026/nvidia-proxmox-lxc-passthrought-ollama.html) j'éxpliquais comment j'avais installer Ollama et Open Webui dans un container LXC sur proxmox en faisant un passthrought de ma 2080Ti. Aujourd'hui cette article est tres proche du précédent je recommance avec [llama.cpp](https://llama.app/) mais cette fois ci avec ma nouvelle 2080Ti 22Gb. 
+# Un conteneur Proxmox LXC avec NVIDIA.
 
-# Un container proxmox LXC avec nvidia.
+## Installation des drivers NVIDIA.
 
-## Installation des drivers nvidia.
-
-Dans Il faut installer les drivers nvidia sur votre serveur proxmox. 
-La procedure que je présente ici utilise la methode extrepo que je trouve plus simple. 
-Pour cela commencer par mettre à jour votre serveur : 
+Il faut installer les drivers NVIDIA sur votre serveur Proxmox.
+La procédure que je présente ici utilise la méthode extrepo que je trouve plus simple.
+Pour cela, commencez par mettre à jour votre serveur :
 
 ~~~shell
 apt update && apt upgrade
 ~~~
 
-Ensuite installons les prérequis sur proxmox :
+Ensuite installons les prérequis sur Proxmox :
 
 ~~~shell
 apt install pve-nvidia-vgpu-helper nvtop pve-headers build-essential
 ~~~
 
-Ensuite proxmox propose un outil pour préconfigurer votre systeme à l'installation des drivers nvidia.
-Cela passe les drivers nouveau en blacklist et install quelques packet nécéssaire. 
+Ensuite Proxmox propose un outil pour préconfigurer votre système à l'installation des drivers NVIDIA.
+Cela passe les drivers nouveaux en blacklist et installe quelques paquets nécessaires.
 
 ~~~shell
 pve-nvidia-vgpu-helper setup
 ~~~
 
-Ensuite il ne vous reste plus qu'à installer les paquets du driver nvidia en suite la methode extrepo : 
+Ensuite il ne vous reste plus qu'à installer les paquets du driver NVIDIA ensuite la méthode extrepo :
 
 ~~~shell
 apt install extrepo
@@ -35,14 +34,14 @@ apt update
 apt install nvidia-open
 ~~~
 
-## Création du container
+## Création du conteneur
 
-Je crais ici un container debian 13 avec 4 coeur 16go de ram et 64go de disque. 
-J'ajouterai par la suite si j'ai besoin de plus. 
-Il n'est pas nécéssaire d'avoir un container priviligié. 
+Je crée ici un conteneur Debian 13 avec 4 cœurs, 16 Go de RAM et 64 Go de disque.
+J'ajouterai par la suite si j'ai besoin d'en plus.
+Il n'est pas nécessaire d'avoir un conteneur non privilégié.
 
-Une fois votre container créer, il faut partagé votre carte à votre container. 
-Commencons par identifier les péripheriques nvidia : 
+Une fois votre conteneur créé, il faut partager votre carte à votre conteneur.
+Commençons par identifier les périphériques NVIDIA :
 
 ~~~shell
 root@MaxiMox:~# ls -l /dev/nvi*
@@ -58,22 +57,22 @@ cr-------- 1 root root 234, 1 Aug 23 10:52 nvidia-cap1
 cr--r--r-- 1 root root 234, 2 Aug 23 10:52 nvidia-cap2
 ~~~
 
-Il faut passthrought tous ces dossiers au container. Cela se fait dans l'interface de votre proxmox.
+Il faut passthrough tous ces dossiers au conteneur. Cela se fait dans l'interface de votre Proxmox.
 
 [gallery]
 /pictures/linux/proxmox-lxc-nvidia/add-devices-menu.jpg
 /pictures/linux/proxmox-lxc-nvidia/add-devices.jpg
 [/gallery]
 
-Et vous devriez avoir quelque chose comme ca :
+Et vous devriez avoir quelque chose comme ça :
 
 [gallery]
 /pictures/linux/proxmox-lxc-nvidia/devices-list.jpg
 [/gallery]
 
-## Driver nvidia dans le Container
+## Driver NVIDIA dans le conteneur
 
-Il faut ensuite installer les driver nvidia dans le container en suivant la même procedure : 
+Il faut ensuite installer les drivers NVIDIA dans le conteneur en suivant la même procédure :
 
 ~~~shell
 apt install extrepo
@@ -82,10 +81,10 @@ apt update
 apt install nvidia-open
 ~~~
 
-Puis faite un nvidia-smi et constater la présence de votre carte :
+Puis faites un nvidia-smi et constatez la présence de votre carte :
 
 ~~~shell
-$ nvidia-smi 
+$ nvidia-smi
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 615.71.09              Driver Version: 615.71.09      CUDA Version: 13.4     |
 +-----------------------------------------+------------------------+----------------------+
@@ -111,13 +110,13 @@ $ nvidia-smi
 
 ## Installation
 
-Ici c'est assez simple, il suffit de suivre la procedure officiel :
+Ici c'est assez simple, il suffit de suivre la procédure officielle :
 
 ~~~shell
 curl -LsSf https://llama.app/install.sh | sh
 ~~~
 
-Comme llama s'install dans votre home (ici je m'embete pas je le fait en root) il faut ensuite l'ajouter à votre path. Ajouter cette ligne à votre .profile : 
+Comme llama s'installe dans votre home (ici je m'embête pas je le fais en root) il faut ensuite l'ajouter à votre PATH. Ajoutez cette ligne à votre .profile :
 
 ~~~shell
 export PATH="$HOME/.local/bin:$PATH"
@@ -143,14 +142,14 @@ ExecStop=/bin/kill $MAINPID
 WantedBy=multi-user.target
 ~~~
 
-Puis créons le fichier `/root/start-llama-serv.sh` avec : 
+Puis créons le fichier `/root/start-llama-serv.sh` avec :
 
 ~~~shell
 #!/bin/bash
 export PATH="$HOME/.local/bin:$PATH"
 
-# à adapter en fonction de votre modele et la vram que vous avez. 
-# Attention ici j'ai un gros cache mais n'oubliez pas que j'ai 22go de VRam.
+# à adapter en fonction de votre modèle et la VRAM que vous avez.
+# Attention ici j'ai un gros cache mais n'oubliez pas que j'ai 22 Go de VRAM.
 export LLAMA_ARG_CTX_SIZE="400000"
 
 llama serve --host 0.0.0.0 \
@@ -160,13 +159,13 @@ llama serve --host 0.0.0.0 \
   --api-key-file api-key
 ~~~
 
-Explication 
-- --host 0.0.0.0 : Ecoute sur toute les interfaces
+Explications
+- --host 0.0.0.0 : Écoute sur toutes les interfaces
 - --n-gpu-layers all : Utiliser au maximum les GPUs
-- --flash-attn on : necessaire à la quantisation du cache
-- -ctk q8_0 : Quantifier le cache K en 8bits au lieux de fp16
-- -ctv q8_0 : Quantifier le cache K en 8bits au lieux de fp16
-- --api-key-file api-key : fichier des clef d'authentification, une clef par ligne
+- --flash-attn on : nécessaire à la quantisation du cache
+- -ctk q8_0 : Quantifier le cache K en 8 bits au lieu de fp16
+- -ctv q8_0 : Quantifier le cache V en 8 bits au lieu de fp16
+- --api-key-file api-key : fichier des clés d'authentification, une clé par ligne
 
 Puis finalisons l'installation du service
 
@@ -175,15 +174,15 @@ systemctl daemon-reload
 systemctl enable llama-serve.service
 ~~~
 
-## Télécharger un premier model
+## Télécharger un premier modèle
 
-J'aime beaucoup le modèle Ornith, il est vraiment adapté à la génération de code en agentique et n'est pas tres lourd. Je prend ici la version quantisé en 8bit mais vous pouvez prendre la version Q6_K qui est aussi tres performante. 
+J'aime beaucoup le modèle Ornith, il est vraiment adapté à la génération de code en agentique et n'est pas très lourd. Je prends ici la version quantisée en 8 bit mais vous pouvez prendre la version Q6_K qui est aussi très performante.
 
 ~~~shell
 llama download -hf ornith-ai/Ornith-1.5-9B-GGUF:Q8_0
 ~~~
 
-Puis relancer le service : 
+Puis relancez le service :
 
 ~~~shell
 systemctl enable llama-serve.service
@@ -191,26 +190,30 @@ systemctl enable llama-serve.service
 
 ## Test
 
-Vous pouvez vous connecté au port 8080 de votre serveur à l'aide de votre navigateur et commencer à l'utiliser
+Vous pouvez vous connecter au port 8080 de votre serveur à l'aide de votre navigateur et commencer à l'utiliser
 
-[gallery]
+[gallery w=500 h=400]
+/pictures/linux/proxmox-lxc-llama/llama-interface-web.png
 [/gallery]
 
 # Utilisation en agentique dans Eclipse
 
-## Installation de Peon AI 
+## Installation de Peon AI
 
-J'utilise l'extention PeonAi pour faire de l'agentique. Il peu s'installer via le marketplace d'eclipse :
+J'utilise l'extension PeonAI pour faire de l'agentique. Il peut s'installer via le marketplace d'Eclipse :
 
 [gallery]
+/pictures/linux/proxmox-lxc-llama/peon-ai-eclipse-marketplace.png
 [/gallery]
 
-Puis le configurer :
+Puis configurez-le :
 
 [gallery]
+/pictures/linux/proxmox-lxc-llama/peon-ai-eclipse-configuration.png
 [/gallery]
 
-Puis vous pouver l'utiliser en ouvrant la vue `AI Peon` dans `Window > Show View > Other > AI`. Ici je lui demande de corriger ce présent article. 
+Puis vous pouvez l'utiliser en ouvrant la vue `AI Peon` dans `Window > Show View > Other > AI`. Ici je lui demande de corriger cet article.
 
 [gallery]
+/pictures/linux/proxmox-lxc-llama/peon-ai-eclipse-utilisation.png
 [/gallery]
