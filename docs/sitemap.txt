@@ -108,6 +108,7 @@ https://shionn.github.io/2025/whisperia-ressources.html
 https://shionn.github.io/2026/3dprint-game-holder.html
 https://shionn.github.io/2026/apt-mirror.html
 https://shionn.github.io/2026/arduino-home-assistant-mqtt.html
+https://shionn.github.io/2026/armee-dark-angel.html
 https://shionn.github.io/2026/armee-nains.html
 https://shionn.github.io/2026/armee-slave-to-darkness.html
 https://shionn.github.io/2026/bonne-annee-2026.html
@@ -167,6 +168,7 @@ https://shionn.github.io/tag/cpp.html
 https://shionn.github.io/tag/d-cor.html
 https://shionn.github.io/tag/d-fi.html
 https://shionn.github.io/tag/d-pot.html
+https://shionn.github.io/tag/dark-angel.html
 https://shionn.github.io/tag/debian.html
 https://shionn.github.io/tag/decors.html
 https://shionn.github.io/tag/descent.html
@@ -237,6 +239,7 @@ https://shionn.github.io/tag/shenron.html
 https://shionn.github.io/tag/singleton.html
 https://shionn.github.io/tag/skaven.html
 https://shionn.github.io/tag/skaventide.html
+https://shionn.github.io/tag/space-marine.html
 https://shionn.github.io/tag/sqlite.html
 https://shionn.github.io/tag/std.html
 https://shionn.github.io/tag/super-nintendo.html
@@ -246,6 +249,7 @@ https://shionn.github.io/tag/troll.html
 https://shionn.github.io/tag/twitch.html
 https://shionn.github.io/tag/underworld.html
 https://shionn.github.io/tag/vscode.html
+https://shionn.github.io/tag/w40k.html
 https://shionn.github.io/tag/war-game.html
 https://shionn.github.io/tag/warcry.html
 https://shionn.github.io/tag/warhammer-battle.html
