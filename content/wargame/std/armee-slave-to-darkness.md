@@ -3,7 +3,7 @@ Voici ma petite armée de Noir Serment.
 
 # Cavalerie
 
-Je déteste la cavalerie.
+Je déteste peindre de la cavalerie.
 
 ## Chef de Guerre sur Destrier
 
@@ -48,7 +48,7 @@ pictures/aos/std/cavaliers-cruels/13.jpg
 [after date="2026/10/28"]
 # Héro
 
-## Noir Serment : Tzarketh Fléau de la Loi
+## Tzarketh Fléau de la Loi
 
 Je l'ai acheté sur le boncoin, il était neuf.
 
@@ -64,7 +64,21 @@ pictures/aos/std/tzarketh-bane-of-law/05.jpg
 [/gallery]
 [/after]
 
-[after date="2026/08/25"]
+[after date="2026/11/29"]
+## Chef de Guerre
+
+Je l'ai acheté à ma boutique locale.
+
+- Peinte en Août 2026
+- En environ 4 heures
+
+[gallery w=150 h=200]
+pictures/aos/std/chef-de-guerre/01.jpg
+pictures/aos/std/chef-de-guerre/02.jpg
+pictures/aos/std/chef-de-guerre/03.jpg
+pictures/aos/std/chef-de-guerre/04.jpg
+[/gallery]
+[/after]
 
 # Monstre
 
@@ -94,11 +108,8 @@ pictures/aos/std/prince-demon/01.jpg
 pictures/aos/std/prince-demon/02.jpg
 pictures/aos/std/prince-demon/03.jpg
 [/gallery]
-[/after]
 
-[after date="2026/09/18"]
 # Troupes
-[/after]
 
 [after date="2026/10/12"]
 ## Maraudeurs avec lance
@@ -144,7 +155,6 @@ pictures/aos/std/maraudeurs/16.jpg
 [/gallery]
 [/after]
 
-[after date="2026/09/18"]
 ## Saccageurs
 
 Il provienne de la boite fer de lance. C'est une bande Warcry originellement.
@@ -167,7 +177,6 @@ pictures/warcry/std/saccageurs/05.jpg
 pictures/warcry/std/saccageurs/06.jpg
 pictures/warcry/std/saccageurs/07.jpg
 [/gallery]
-[/after]
 
 # Peinture
 

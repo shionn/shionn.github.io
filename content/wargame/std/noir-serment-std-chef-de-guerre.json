@@ -1,0 +1,11 @@
+{
+	"type": "post",
+	"date": "2026/11/29",
+	"title": "Noir Serment : Chef de Guerre",
+	"tags": ["War Game", "Armée", "Noir Serment", "STD", "AoS"],
+	"category": "War Game",
+	"published": true,
+	"js" : [ "js/paint-db.js", "js/paint-equivalence-db.js", "js/paint-guide.js" ],
+	"toCheck": false,
+	"author": "Shionn"
+}
