@@ -191,8 +191,6 @@ todo
 
 ## Gorgers 
 
-todo
-
 ### Gorgers (Armies)
 
 - Peinte en Aout 2026
@@ -245,7 +243,14 @@ pictures/dungeon-and-laser/deuslair/addon/chaos/impalers/02.jpg
 
 ### Volard (Armies)
 
-todo
+- Peinte en Septembre 2026
+- En environ 3 heures 30 minutes
+
+[gallery w=150 h=200]
+pictures/dungeon-and-laser/deuslair/addon/chaos/volard/01.jpg
+pictures/dungeon-and-laser/deuslair/addon/chaos/volard/02.jpg
+pictures/dungeon-and-laser/deuslair/addon/chaos/volard/03.jpg
+[/gallery]
 
 ## Pandemonium
 
@@ -316,6 +321,3 @@ pictures/dungeon-and-laser/deuslair/addon/chaos/wraith/04.jpg
 pictures/dungeon-and-laser/deuslair/addon/chaos/wraith/11.jpg
 pictures/dungeon-and-laser/deuslair/addon/chaos/wraith/12.jpg
 [/gallery]
-
-
-

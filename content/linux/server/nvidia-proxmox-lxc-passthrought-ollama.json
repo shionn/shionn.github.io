@@ -1,6 +1,7 @@
 {
 	"type": "post",
 	"date": "2026/04/11",
+	"updated": "2026/10/04",
 	"title": "Proxmox Passthrought Nvidia dans LXC",
 	"tags": ["Linux", "Proxmox", "Debian", "Server", "Nvidia", "Ollama"],
 	"category": "Linux",
