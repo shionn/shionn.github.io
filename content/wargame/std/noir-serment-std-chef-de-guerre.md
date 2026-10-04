@@ -2,7 +2,7 @@
 En 2026 j'écluse mes _petits_ projets d'armées.
 J'ai ce petit lot de Noir Serment composé d'un Starter Collection et de quelques figurines achetées sur le Bon Coin.
 
-Voici aujourd'hui mon _Chef de guerre_. Je l'ai acheté sur le Bon Coin, il était neuf.
+Voici aujourd'hui mon _Chef de guerre_. Je l'ai acheté à ma boutique locale.
 
 - Peinte en Août 2026
 - En environ 4 heures
