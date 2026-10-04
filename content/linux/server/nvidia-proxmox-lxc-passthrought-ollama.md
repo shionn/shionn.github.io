@@ -1,34 +1,33 @@
-
-Ce tuto s'intérresse surtout à la procédure à suivre pour installer une carte graphique NVIDIA sur votre Proxmox avec un pass-through dans un conteneur.
-Cette solution n'utilise pas les drivers pro qui permettent de découper une carte en plusieurs. En effet, avec la containment LXC, une même carte peut être partagée entre plusieurs conteneurs. 
+Ce tuto s'intéresse surtout à la procédure à suivre pour installer une carte graphique NVIDIA sur votre Proxmox avec un pass-through dans un conteneur.
+Cette solution n'utilise pas les drivers pro qui permettent de découper une carte en plusieurs. En effet, avec la containership LXC, une même carte peut être partagée entre plusieurs conteneurs.
 
 # Installation des drivers Nvidia
 
 ## Nvidia sur proxmox
 
-Il faut commencer par installer les drivers nvidia sur votre proxmox. 
-Commencer par le mettre à jour :
+Il faut commencer par installer les drivers nvidia sur votre proxmox.
+Commencez par le mettre à jour :
 
 ~~~shell
 apt update && apt upgrade
 ~~~
 
-Ensuite il vous faudrat ces outils :
+Ensuite il vous faudra ces outils :
 
 ~~~shell
 apt install pve-nvidia-vgpu-helper nvtop pve-headers build-essential
 ~~~
 
-Ensuite proxmox propose un outil pour préconfigurer votre systeme à l'installation des drivers nvidia.
-Cela passe les drivers nouveau en blacklist et install quelques packet nécéssaire. 
+Ensuite proxmox propose un outil pour préconfigurer votre système à l'installation des drivers nvidia.
+Cela met les drivers nouveaux en blacklist et installe quelques paquets nécessaires.
 
 ~~~shell
 pve-nvidia-vgpu-helper setup
 ~~~
 
-Ensuite il ne vous reste plus qu'à installer les paquets du driver nvidia. 
+Ensuite il ne vous reste plus qu'à installer les paquets du driver nvidia.
 
-~~~shell 
+~~~shell
 wget https://developer.download.nvidia.com/compute/cuda/repos/debian12/x86_64/cuda-keyring_1.1-1_all.deb
 apt install ./cuda-keyring_1.1-1_all.deb
 apt update
@@ -36,18 +35,18 @@ apt upgrade
 apt install nvidia-driver-cuda
 ~~~
 
-Vérifiez que vous n'avez aucune erreur. Si vous avez la moindre erreur faite cela pour annuler l'installation des drivers.
+Vérifiez que vous n'avez aucune erreur. Si vous avez la moindre erreur, faites cela pour annuler l'installation des drivers.
 Et malheureusement je ne pourrai pas vous aider à la corriger :[
 
 ~~~shell
 apt remove nvidia-driver-cuda && apt autoremove
 ~~~
 
-Si vous n'avez aucune erreur, vous pouvez reboot, après le reboot faite un nvidia-smi et normalement vous avez quelques chose comme cela : 
+Si vous n'avez aucune erreur, vous pouvez reboot, après le reboot faites un nvidia-smi et normalement vous aurez quelques choses comme cela :
 
 ~~~shell
-$ nvidia-smi 
-Sat Aug 23 10:52:17 2025       
+$ nvidia-smi
+Sat Aug 23 10:52:17 2025
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 580.65.06              Driver Version: 580.65.06      CUDA Version: 13.0     |
 +-----------------------------------------+------------------------+----------------------+
@@ -71,8 +70,8 @@ Sat Aug 23 10:52:17 2025
 
 ## Nvidia dans le Container LXC
 
-Votre container n'as pas besoin d'option particulière, il n'as pas besoin d'être privilégié.
-Sur l'hôte faites un ls `/dev/nvi*` et vous devriez avoir quelque chose comme cela : 
+Votre conteneur n'a pas besoin d'option particulière, il n'a pas besoin d'être privilégié.
+Sur l'hôte faites un ls `/dev/nvi*` et vous devriez avoir quelque chose comme cela :
 
 ~~~shell
 root@MaxiMox:~# ls -l /dev/nvi*
@@ -88,22 +87,22 @@ cr-------- 1 root root 234, 1 Aug 23 10:52 nvidia-cap1
 cr--r--r-- 1 root root 234, 2 Aug 23 10:52 nvidia-cap2
 ~~~
 
-Il faut passthrought tous ces dossiers au container. Cela se fait dans l'interface de votre proxmox.
+Il faut passer tous ces dossiers au conteneur. Cela se fait dans l'interface de votre proxmox.
 
 [gallery]
 /pictures/linux/proxmox-lxc-nvidia/add-devices-menu.jpg
 /pictures/linux/proxmox-lxc-nvidia/add-devices.jpg
 [/gallery]
 
-Et vous devriez avoir quelque chose comme ca :
+Et vous devriez avoir quelque chose comme ça :
 
 [gallery]
 /pictures/linux/proxmox-lxc-nvidia/devices-list.jpg
 [/gallery]
 
-Ensuite il ne vous reste plus qu'a installer les drivers nvidia et la suite l'ogiciel cuda sur votre container, la procédure est semblable à celle de l'hote. 
+Ensuite il ne vous reste plus qu'à installer les drivers nvidia et ensuite le logiciel CUDA sur votre conteneur, la procédure est semblable à celle de l'hôte.
 
-~~~shell 
+~~~shell
 wget https://developer.download.nvidia.com/compute/cuda/repos/debian12/x86_64/cuda-keyring_1.1-1_all.deb
 apt install ./cuda-keyring_1.1-1_all.deb
 apt update
@@ -111,16 +110,16 @@ apt install cuda-toolkit
 apt install nvidia-driver-cuda
 ~~~
 
-Vous pouver faire un nvdia-smi pour confirmer que la carte est disponible et fonctionnel sur votre container. 
+Vous pouvez faire un nvidia-smi pour confirmer que la carte est disponible et fonctionnelle sur votre conteneur.
 
 # Exemple une IA avec Ollama
 
 ## Ollama
 
-Pour tester cette nouvelle carte, je vous propose d'installer ollama qui est un group d'IA opensource.
+Pour tester cette nouvelle carte, je vous propose d'installer ollama qui est un groupe d'IA open source.
 
 ~~~shell
-# L'installateur à besoin de lspci
+# L'installateur a besoin de lspci
 apt install pciutils
 wget https://ollama.com/install.sh
 ./install.sh
@@ -129,7 +128,7 @@ wget https://ollama.com/install.sh
 Et normalement vous devriez avoir une sortie console ressemblant à :
 
 ~~~shell
-./install.sh 
+./install.sh
 >>> Cleaning up old version at /usr/local/lib/ollama
 >>> Installing ollama to /usr/local
 >>> Downloading Linux amd64 bundle
@@ -142,7 +141,7 @@ Et normalement vous devriez avoir une sortie console ressemblant à :
 >>> NVIDIA GPU installed.
 ~~~
 
-Puis faire un essaie en console. 
+Puis faites un essai en console.
 
 ~~~shell
 ollama run qwen2.5-coder:7b
@@ -150,14 +149,14 @@ ollama run qwen2.5-coder:7b
 
 ## Open web UI
 
-Ajoutons une interface graphique à notre IA. 
-Pour installer openweb ui, sur votre machine vous avez besoin : 
+Ajoutons une interface graphique à notre IA.
+Pour installer open-webui, sur votre conteneur vous avez besoin :
 
 ~~~shell
 apt install python3-pip python3-venv pyenv
 ~~~
 
-Dans mon cas je l'ai installer dans /root. Puis rentrer les commandes suivante : 
+Dans mon cas je l'ai installé dans /root. Puis entrez les commandes suivantes :
 
 ~~~shell
 pyenv install 3.11.11
@@ -167,23 +166,21 @@ pip install open-webui
 open-webui serve
 ~~~
 
-Render vous sur le port 5000 de votre container :)
+Rendez-vous sur le port 5000 de votre conteneur :)
 
-## Changer le port d'écoute de ollama : 
+## Changer le port d'écoute d'ollama :
 
 ~~~shell
 systemctl edit ollama.service
-# ajouter dans la serction    [Service]
+# ajouter dans la section    [Service]
 Environment="OLLAMA_HOST=0.0.0.0:11434"
 ~~~
 
-
 # Ressource
 
-J'ai réussi à faire cela en m'appuyant sur ces documentations :
+J'ai réussi à faire cela en m'appuyant sur ces documentation :
 - [How to set up a NVIDIA GPU with Open WebUI and Ollama on Proxmox](https://www.nasmaster.com/how-to-set-up-a-nvidia-gpu-with-open-webui-and-ollama-on-proxmox)
 - [CUDA Installation Guide for Linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#network-repo-installation-for-debian)
 - [NVIDIA vGPU on Proxmox VE](https://pve.proxmox.com/wiki/NVIDIA_vGPU_on_Proxmox_VE)
 - [Port and nick on ollama](https://atlassc.net/2024/10/24/how-to-share-ollama-server-through-ip-address-and-port)
 - [downgrade python](https://tutorpython.com/downgrade-python-version)
-
