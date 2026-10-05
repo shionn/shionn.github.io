@@ -1,9 +1,7 @@
-
-
 J'aime bien faire des bouts de code sur les Arduinos, il y a l'aspect des technologies récentes, 
 mais surtout j'ai parfois l'agréable impression de coder sur de vieux ordinateur 8bit. 
 Mais je n'aime pas utiliser l'éditeur officiel Arduino. 
-Surtout qu'au final je travail rarement sur un Arduino mais bien souvent sur d'autre carte notamment les ESP.
+Surtout qu'au final je travaille rarement sur un Arduino, mais bien souvent sur d'autres cartes, notamment les ESP.
 
 Dans ce petit tuto on va installer VSCode et ce qu'il faut pour coder avec le framework arduino.
 Puis nous verrons le classique tuto du clignotage de led.
@@ -23,16 +21,16 @@ sudo apt install python3-venv
 
 ## Communication série
 Il vous faut la possibilité d'utiliser les ports séries. 
-Sous Dedian il vous faut vous ajouter au group __dialout__.
+Sous Debian, il vous faut vous ajouter au groupe __dialout__.
 
 ~~~shell
 sudo usermod -a -G dialout $USER
 ~~~
 
-Si cela ne suffit pas il faut aussi ajouter le group tty. Si vous ne voulez pas relancer votre session faite un `newgrp dialout`.
+Si cela ne suffit pas, il faut aussi ajouter le groupe tty. Si vous ne voulez pas relancer votre session faite un `newgrp dialout`.
 
 ## Installation de l'extension PlatformIo
-Dans les extensions de VSCode, recherche et installer "PlatformIO IDE".
+Dans les extensions de VSCode, recherchez et installez "PlatformIO IDE".
 
 [gallery]
 pictures/code/arduino/platformio/extension-platform-io.png
@@ -56,7 +54,7 @@ pictures/code/arduino/platformio/creation-projet-2.png
 
 ## Structure
 
-La Structure d'un projet sous PlatformIO est un peu différent de celui d'un projet avec l'ide Arduino. 
+La structure d'un projet sous PlatformIO est un peu différente de celle d'un projet avec l'IDE Arduino.
 
 ~~~
 Répertoire Racine 
@@ -100,7 +98,7 @@ Cliquer sur ce bouton et normalement la diode de votre carte clignotera :
 pictures/code/arduino/platformio/upload-code.png
 [/gallery]
 
-Et normalement ca devrais clignoter comme dans cette magnifique vidéo flou : 
+Et normalement ça devrait clignoter comme dans cette magnifique vidéo floue :
 
 [youtube video="WaYvFZpZX_s?si=EBSovUOH9H-FfL9e"/]
 
