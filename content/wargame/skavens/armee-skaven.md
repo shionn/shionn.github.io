@@ -42,19 +42,19 @@ Rehaut	72013
 [after date="2024/11/24"]
 ## Thanquol and Boneripper à l'ancienne
 Cela fait un moment que je voulais ma propre version de Thanquol and Boneripper. 
-Mais pas la version moderne, je voulais la veille version. C'est à dire celle la : 
+Mais pas la version moderne, je voulais l'ancienne version. C'est à dire celle-là : 
 [gallery w=400 h=300]
 pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/thanquol-boneripper-classic.jpg
 [/gallery]
 
-Avec la V4 de AOS, les rat ogres sont devenue jouable par 3 et non plus par 2. 
-Hors je n'avais que 2 rat-ogre provenant d'une boite île de sang. 
-Il me fallait donc que le ra-ogre soit jouable sans le prophète gris. 
+Avec la V4 de AOS, les rat ogres sont devenus jouables par 3 et non plus par 2. 
+Hors je n'avais que 2 rat-ogre provenant d'une boite Île de Sang. 
+Il me fallait donc que le rat-ogre soit jouable sans le prophète gris. 
 Il fallait aussi que le design du nouveau rat-ogre colle au design d'un rat-ogre de cette boite. 
-Je voulais également utilisé des pièces officielle provenant de GW, pas d'impression 3D.
+Je voulais également utiliser des pièces officielles provenant de GW, pas d'impression 3D.
 
 Je possède un creuset de la peste, qui est le même kit que la cloche hurlante. 
-J'ai donc récupère les pièces du rat ogre et prophète gris que je n'avais pas utilisé, 
+J'ai donc récupéré les pièces du rat ogre et prophète gris que je n'avais pas utilisées, 
 j'ai ajouter un canon à malfoudre provenant des colosses de chocs. 
 
 [gallery w=300 h=300]
@@ -119,7 +119,7 @@ Glacis détail	72112
 
 # Clans Verminus
 ## Griffarque
-Cette figurine proviens de ma boite **Île de Sang**.
+Cette figurine provient de ma boite **Île de Sang**.
 * Peinte en janvier 2023
 * ~ 6h30 de peinture
 [gallery h=300 w=250]
@@ -159,8 +159,8 @@ pictures/aos/skaven/verminarque-sur-ronge-bete/06.jpg
 
 [/after]
 ## Vermines de Choc
-Ces figurines proviennent de ma boite **Échos de la ruine**. Il n'y en as que 10 dans cette boite,
-ce qui est surprenant car ces figurines sont vendu par 20, mais se joue bien par 10.
+Ces figurines proviennent de ma boite **Échos de la ruine**. Il n'y en a que 10 dans cette boite,
+ce qui est surprenant car ces figurines sont vendues par 20, mais se jouent bien par 10.
 * Peinte en avril 2023
 * ~ 19 heures de peinture
 [gallery h=250 w=400]
@@ -197,7 +197,7 @@ Rehaut 2	72106
 
 # Clans Skryre
 ## Ingénieur Technomage
-Cette figurine proviens de ma boite **Île de Sang**.
+Cette figurine provient de ma boite **Île de Sang**.
 * Peinte en mars 2023
 * ~ 6h30 de peinture
 [gallery h=300 w=250]
@@ -219,7 +219,7 @@ pictures/aos/skaven/ingenieur-2/4.jpg
 [/gallery]
 
 ## Saboteur Techomage
-J'ai acheté cette figurine avant la précédente, si j'avais su je pense que je ne l'aurai pas prise, bien que la figurine fus agréable à peindre.
+J'ai acheté cette figurine avant la précédente, si j'avais su je pense que je ne l'aurais pas prise, bien que la figurine fût agréable à peindre.
 * Peinte en août 2023
 * ~ 4h30 de peinture
 [gallery h=300 w=250]
@@ -229,7 +229,7 @@ pictures/aos/skaven/saboteur/3.jpg
 [/gallery]
 
 ## Canon à malefoudre
-Cette figurine proviens de ma boite **Vanguard**.
+Cette figurine provient de ma boite **Vanguard**.
 * Peinte en avril 2023
 * ~ 9 heures de peinture
 [gallery h=300 w=250]
@@ -247,7 +247,7 @@ Rehaut	72042
 [/paints]
 
 ## Roue infernale
-Je ne comptais pas avoir de roue infernale, et puis il faut reconnaître que c'est une figurine iconique, je ne pouvais pas passer à coter.
+Je ne comptais pas avoir de roue infernale, et puis il faut reconnaître que c'est une figurine iconique, je ne pouvais pas passer à côté.
 * Peinte en août 2023
 * ~ 10 heures de peinture
 [gallery h=300 w=400]
@@ -259,7 +259,7 @@ pictures/aos/skaven/roue-infernale/5.jpg
 [/gallery]
 
 ## Lance-feu
-Cette figurine proviens de ma boite **Îlede Sang**.
+Cette figurine provient de ma boite **Île de Sang**.
 * Peinte en avril 2023
 * ~ 4 heures de peinture
 [gallery h=250 w=400]
@@ -268,7 +268,7 @@ pictures/aos/skaven/lance-feu/2.jpg
 [/gallery]
 
 ## Mortier à Globe toxique
-Cette figurine proviens de ma boite **Îlede Sang**. Normalement les 2 Skavens sont l'un derrière l'autre.
+Cette figurine provient de ma boite **Île de Sang**. Normalement les 2 Skavens sont l'un derrière l'autre.
 Malheureusement cette figurine n'est pas jouable à AoS :[
 * Peinte en avril 2023
 * ~ 4 heures de peinture
@@ -304,7 +304,7 @@ Rehaut	72095
 
 # Clans Moulder
 ## Maître Moulder
-Cette figurine proviens de ma boite **Île de Sang**.
+Cette figurine provient de ma boite **Île de Sang**.
 * Peinte en mai 2023
 * ~ 2h30 de peinture
 [gallery h=250 w=400]
@@ -321,7 +321,7 @@ Rehaut	72122
 
 ## Rats ogre
 Ces figurines proviennent de ma boite **Île de Sang**. 
-Au début je ne pensais pas les joué, et finalement c'est une de mes unités préférées.
+Au début je ne pensais pas les jouer, et finalement c'est une de mes unités préférées.
 * Peinte en mai 2023
 * ~ 7 heures de peinture
 [gallery h=300 w=250]
@@ -337,13 +337,13 @@ Rehaut	72039
 [/paints]
 
 ## Abomination de Malefausse : Monica
-Je voulais pas spécialement avoir une abomination de malefausse, mais en jouant mes rats-ogre j'ai voulu avoir plus de figurine de ce clans.
+Je voulais pas spécialement avoir une abomination de malefausse, mais en jouant mes rats-ogres j'ai voulu avoir plus de figurines de ce clan.
 Et comme j'ai très peu de monstre dans mes armées, avoir un petit monstre à jouer c'est pas si pire. 
 Donc je suis passé outre la peinture de GW et je l'ai achetée.
-Et finalement je ne regrette absolument pas la fig est vraiment belle.
+Et finalement je ne regrette absolument pas. La fig est vraiment belle.
 
 * Peinte en février 2024
-* Je n'ai pas compté mon nombre d'heure sur cette fig. Cependant on dois bien être à 15~20h.
+* Je n'ai pas compté mon nombre d'heure sur cette fig. Cependant on doit bien être à 15~20h.
 
 [gallery w=300 h=250]
 pictures/aos/skaven/monica/1.jpg
@@ -369,7 +369,7 @@ Rehaut	72100
 Originellement je ne prévoyais pas d'avoir de clan Pestilens. Et puis un certain *GuillaumeAlendil* m'as fait une proposition que je n'ai pas pu refuser.
 
 ## Prêtre de la peste
-Cette figurine proviens de ma boite **Start Collecting**. 
+Cette figurine provient de ma boite **Start Collecting**. 
 Normalement il se monte sur un creuset, mais je l'ai aimanté pour le mettre directement sur un socle ou sur un creuset aux choix.
 * Peinte en Juin 2023
 * ~ 2h30 de peinture
@@ -386,7 +386,7 @@ Ombrage 2	72067
 [/paints]
 
 ## Prêtre de la peste sur creuset de la peste
-Cette figurine proviens d'un vieux **Start Collecting**. Je profite que le prêtre de la peste soit aimanté pour ne pas avoir à le repeindre.
+Cette figurine provient d'un vieux **Start Collecting**. Je profite que le prêtre de la peste soit aimanté pour ne pas avoir à le repeindre.
 * Peinte en Juillet 2023
 * ~ 10 heures de peinture
 [gallery h=300 w=250]
@@ -396,7 +396,7 @@ pictures/aos/skaven/creuset/3.jpg
 [/gallery]
 
 ## Catapulte de la peste
-Cette figurine proviens d'un vieux **Start Collecting**.
+Cette figurine provient d'un vieux **Start Collecting**.
 * Peinte en Juillet 2023
 * ~ 7h30 de peinture
 [gallery h=300 w=250]
@@ -426,7 +426,7 @@ pictures/aos/skaven/moine/5.jpg
 
 # Clans Eshin
 ## Maîtremort
-Cette figurine proviens de la boite **Échos de la ruine**.
+Cette figurine provient de la boite **Échos de la ruine**.
 * Peinte en juillet 2023
 * ~ 5 heures de peinture
 [gallery h=300 w=250]
