@@ -80,6 +80,23 @@ pictures/aos/std/chef-de-guerre/04.jpg
 [/gallery]
 [/after]
 
+[after date="2026/12/07"]
+## Reine de guerre
+
+Voici aujourd'hui ma _Reine de guerre_. Je vais pas mentir, c'est la figurine qui m'a donné envie de peindre ces figurines. 
+C'est également la dernière figurine de cette troupe.
+
+- Peinte en Octobre 2026
+- En environ 4 heures
+
+[gallery w=150 h=200]
+pictures/aos/std/warqueen/01.jpg
+pictures/aos/std/warqueen/02.jpg
+pictures/aos/std/warqueen/03.jpg
+pictures/aos/std/warqueen/04.jpg
+[/gallery]
+[/after]
+
 # Monstre
 
 ## Gastefauve
