@@ -5,14 +5,14 @@ compléter et peindre mon armée elfes noirs telle que je la voulais étant enfa
 Voici ma sorcière suprême en métal sur sang-froid.
 Elle provient d'un lot que j'ai acheté, David si tu passes par là, encore merci.
 Je l'ai décapée et repeinte.
-Parmi toute les versions de sang froid qui existe c'est clairement celle que j'aime le moins.
-Quoique j'aime encore moins les sang froid actuelle des Séraphons.
+Parmi toutes les versions de sang froid qui existent, c'est clairement celle que j'aime le moins.
+Quoique j'aime encore moins les sang froid actuelles des Séraphons.
 
-Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
+Ce projet n'a strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 
 * Peinte en Mai 2024.
 * Environ 5h.
-* Soumise au défis __FDC - case héro ou personnage - de Whisp__.
+* Soumise au défi __FDC - case héro ou personnage - de Whisp__.
 
 [gallery w=200 h=250]
 pictures/battle/dark-elves/sorciere-sg-froid/1.jpg
@@ -30,7 +30,7 @@ Rehaut	72121
 
 [paints title="Corp Sang Froid"]
 Base	72120
-Zénithal aero	72024
+Zénithal aéro	72024
 Éclaircissement	72024
 Éclaircissement	72119
 Rehaut	72096
@@ -38,4 +38,3 @@ Rehaut	72096
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
 sur la page dédiée à [Mon armée elfes noirs](2024/armee-elfes-noirs.html).
-

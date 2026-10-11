@@ -1,14 +1,14 @@
 
-Cette année j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant gosse.
+Cette année j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant gamin.
 
-Voici mes corsaires elfe noir en métal.
+Voici mes corsaires elfes noirs en métal.
 J'ai acheté ces figurines étant gamin, cela fait donc plus de 20 ans que ces figurines sont dans ma pile de la honte.
 
-Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
+Ce projet n'a strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 
 * Peinte en Mars 2024.
 * Environ 28h.
-* Soumise au défis __FDC - case unité - de Whisp__.
+* Soumise au défi __FDC - case unité - de Whisp__.
 
 [gallery w=250 h=200]
 pictures/battle/dark-elves/corsair/01.jpg
@@ -38,6 +38,3 @@ Rehaut (dorsale)	72121
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
 sur la page dédiée à [Mon armée elfes noirs](2024/armee-elfes-noirs.html).
-
-
-

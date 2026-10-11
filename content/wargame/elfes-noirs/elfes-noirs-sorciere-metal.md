@@ -7,11 +7,11 @@ Elle provient d'un lot que j'ai acheté, David si tu passes par là, encore merc
 Je l'ai décapée et repeinte.
 Je possède toujours celle que j'avais ado mais j'ai préféré ne pas la décaper.
 
-Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
+Ce projet n'a strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 
 * Peinte en Mai 2024.
 * Environ 5h.
-* Soumise au défis __FDC - case seigneur ou général - de Whisp__.
+* Soumise au défi __FDC - case seigneur ou général - de Whisp__.
 
 [gallery w=150 h=250]
 pictures/battle/dark-elves/sorciere-supreme/1.jpg
@@ -40,4 +40,3 @@ Glacis	72112
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
 sur la page dédiée à [Mon armée elfes noirs](2024/armee-elfes-noirs.html).
-

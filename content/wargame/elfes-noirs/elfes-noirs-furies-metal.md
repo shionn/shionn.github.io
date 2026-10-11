@@ -1,11 +1,11 @@
 
-Cette année j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant gosse.
+Cette année j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant gamin.
 
-Voici mes furies elfe noir en métal.
-J'ai acheté le QG étant gamin. Le reste proviens de l'achat d'un lot, que j'ai décapé. 
-David si tu passes par la encore merci.
+Voici mes furies elfes noires en métal.
+J'ai acheté le QG étant gamin. Le reste provient de l'achat d'un lot, que j'ai décapé. 
+David si tu passes par là encore merci.
 
-Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
+Ce projet n'a strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
 
 * Peinte en Avril 2024.
 * Environ 43h.

@@ -1,14 +1,14 @@
 
-Ce projet n'as strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
-Accomplir enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs tel que je la voulais étant gosse.
+Ce projet n'a strictement rien à voir avec la sortie de Old World, c'est un projet que j'ai depuis un moment.
+Accomplir enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant gosse.
 
-J'ai choisi d'organiser les figurines celons la V6 qui celle que je jouais ado.
+J'ai choisi d'organiser les figurines selon la V6, celle que je jouais ado.
 
 # Seigneurs & Héros
 
-Il devrais y avoir à terme :
+Il devrait y avoir à terme :
 - Hellebron
-- Lokhir Fellheart (Maitre d'arche noire)
+- Lokhir Fellheart (Maître de l'Arche Noire)
 - Morathi
 
 [after date="2025/07/05"]
@@ -18,7 +18,7 @@ Voici mon assassin en métal. J'ai acheté cette figurine il y a presque 25 ans.
 
 * Peinte en Novembre 2024
 * Environ 3h00
-* Soumise au défis __FDC - case héros ou personnage - de Whisp__.
+* Soumise au défi __FDC - case héros ou personnage - de Whisp__.
 
 [gallery w=200 h=200]
 pictures/battle/dark-elves/assassin/01.jpg
@@ -31,12 +31,12 @@ pictures/battle/dark-elves/assassin/03.jpg
 ## Malus Dark Blade
 
 Voici mon malus dark blade en métal.
-Proviens d'un lot d'une armée que j'ai racheté (merci David). 
+Proviens d'un lot d'une armée que j'ai rachetée (merci David). 
 Le corps du sang froid est en plastique mais la tête est en métal.
 
 * Peinte en Octobre 2024
 * Environ 6h30
-* Soumise au défis __FDC - case personnage légendaire - de Whisp__.
+* Soumise au défi __FDC - case personnage légendaire - de Whisp__.
 
 [gallery w=200 h=200]
 pictures/battle/dark-elves/malus-dark-blade/01.jpg
@@ -54,11 +54,11 @@ pictures/battle/dark-elves/malus-dark-blade/07.jpg
 [after date="2025/11/26"]
 ## Morathi sur Pégase Noir
 
-Je l'ai acheté autour des années 2000, et elle est resté dans ma piule de la honte pendant presque 25 ans. 
+Je l'ai acheté autour des années 2000, et elle est restée dans ma piule de la honte pendant presque 25 ans. 
 
 * Peinte en Janvier 2025
 * Environ 9h00
-* Soumise au défis __Janvier 2025 - Rio de Janvier de [CFM](https://taverne.colorfulminis.com/t/defi-janvier-2025-rio-de-janvier/5826)__ et à mon défis discord __début et fin__
+* Soumise au défi __Janvier 2025 - Rio de Janvier de [CFM](https://taverne.colorfulminis.com/t/defi-janvier-2025-rio-de-janvier/5826)__ et à mon défi Discord __début et fin__
 * Je voulais volontairement un aspect léger _mon petit poney_.
 
 [gallery w=200 h=200]
@@ -69,14 +69,14 @@ pictures/battle/dark-elves/morathi-pegase/04.jpg
 [/gallery]
 [/after]
 
-## Porteur de la grand bannière Elfes Noirs
+## Porteur de la grande bannière Elfes Noirs
 
 Il provient d'un lot que j'ai acheté, David si tu passes par là, encore merci. Je n'ai pas eu à le décaper.
 
-- Peinte en Aout 2024.
+- Peinte en Août 2024.
 - Figurine exclusive à une boite d'armée de 2000.
-- Environ 3h30 environ.
-- Soumise au défis __FDC - case seigneur - de Whisp__.
+- Environ 3h30.
+- Soumise au défi __FDC - case seigneur - de Whisp__.
 - Le glyphe sur l'étendard représente la grande bannière de Naggarith.
 
 [gallery w=150 h=250]
@@ -94,7 +94,7 @@ Je possède toujours celle que j'avais ado mais j'ai préféré ne pas la décap
 
 * Peinte en Mai 2024.
 * Environ 5h.
-* Soumise au défis __FDC - case héro ou personnage - de Whisp__.
+* Soumise au défi __FDC - case héro ou personnage - de Whisp__.
 
 [gallery w=150 h=250]
 pictures/battle/dark-elves/sorciere-supreme/1.jpg
@@ -125,8 +125,8 @@ Glacis	72112
 
 Elle provient d'un lot que j'ai acheté, David si tu passes par là, encore merci.
 Je l'ai décapée et repeinte.
-Parmi toute les versions de sang froid qui existe c'est clairement celle que j'aime le moins.
-Quoique j'aime encore moins les sang froid actuelle des Séraphons.
+Parmi toutes les versions de sang froid qui existent, c'est clairement celle que j'aime le moins.
+Quoique j'aime encore moins les sang froid actuelles des Séraphons.
 
 [gallery w=200 h=250]
 pictures/battle/dark-elves/sorciere-sg-froid/1.jpg
@@ -137,7 +137,7 @@ pictures/battle/dark-elves/sorciere-sg-froid/4.jpg
 
 * Peinte en Mai 2024.
 * Environ 5h.
-* Soumise au défis __FDC - case héros ou personnage - de Whisp__.
+* Soumise au défi __FDC - case héros ou personnage - de Whisp__.
 
 [paints title="Ecaille Sang Froid"]
 Base	72027
@@ -157,17 +157,17 @@ Rehaut	72096
 # Unités de Base
 
 Reste à faire :
-- Cavalier Noire
+- Cavalier Noir
 
 [after date="2025/08/30"]
 ## Arbaletriers
 
-Voici mon premier pack de 12 arbaletriers elfe noir en plastique. 
-Ils proviennent d'un lot d'une armée que j'ai racheté (merci David). 
-Je les ai décapé, décollé et recollé. Il y a eu de la perte :p
+Voici mon premier pack de 12 arbaletriers elfes noirs en plastique. 
+Ils proviennent d'un lot d'une armée que j'ai rachetée (merci David). 
+Je les ai décapée, décollée et recollée. Il y a eu de la perte :p
 
 * Peinte en Novembre 2024
-* Environ 8h30h
+* Environ 8h30.
 
 [gallery w=250 h=200]
 pictures/battle/dark-elves/arbaletriers/01.jpg
@@ -185,7 +185,7 @@ J'ai acheté ces figurines étant gamin, cela fait donc plus de 20 ans que ces f
 - Figurines en métal de 99.
 - Peinte en Mars 2024.
 - Environ 28h.
-- Soumise au défis __FDC - case unité - de Whisp__.
+- Soumise au défi __FDC - case unité - de Whisp__.
 
 [gallery w=250 h=200]
 pictures/battle/dark-elves/corsair/01.jpg
@@ -215,9 +215,9 @@ Rehaut	72039
 
 ## Lanciers
 
-Voici mon premier pack de 20 guerrier elfe noir en plastique. 
-Proviens d'un lot d'une armée que j'ai racheté (merci David). 
-Je les ai décapé, décollé et recollé. Il y a eu de la perte :p
+Voici mon premier pack de 20 guerriers elfes noirs en plastique. 
+Proviens d'un lot d'une armée que j'ai rachetée (merci David). 
+Je les ai décapée, décollée et recollée. Il y a eu de la perte :p
 
 * Peinte en Octobre 2024
 * Environ 20h
@@ -244,7 +244,7 @@ Je les ai décapées et repeintes.
 
 * Peinte en Décembre 2024
 * Environ 28h00
-* Soumis au défis __Décembre 2024 - Chevalier de [CFM](https://taverne.colorfulminis.com/t/defi-decembre-2024-chevalier/5777)__.
+* Soumise au défi __Décembre 2024 - Chevalier de [CFM](https://taverne.colorfulminis.com/t/defi-decembre-2024-chevalier/5777)__.
 
 [gallery w=250 h=200]
 pictures/battle/dark-elves/cavalier-sg-froid/01.jpg
@@ -257,9 +257,8 @@ pictures/battle/dark-elves/cavalier-sg-froid/05.jpg
 pictures/battle/dark-elves/cavalier-sg-froid/06.jpg
 [/gallery]
 
-Le plateau de mouvement est volontairement pour 10 figurines si je souhaite y ajouté 
-ma [sorciere](2024/elfes-noirs-sorciere-metal-sang-froid.html) 
-et mon [malus darkblade](2025/elfes-noirs-malus-dark-blade.html).
+Le plateau de mouvement est volontairement pour 10 figurines si je souhaite y ajouter ma [sorciere] 
+et mon [malus darkblade].
 
 [gallery w=250 h=200]
 pictures/battle/dark-elves/cavalier-sg-froid/07.jpg
@@ -269,11 +268,11 @@ pictures/battle/dark-elves/cavalier-sg-froid/08.jpg
 ## Char à Sang Froid
 
 Voici mon char à sang froid en métal et plastique, en effet les roues et sang froid sont en plastique.
-Je l'ai acheter sur Vinted, décapé, contre percé et repeint.
+Je l'ai acheté sur Vinted, décapé, contre percé et repeint.
 
 * Peinte en Septembre 2024.
 * Environ 5h30 pour le char et 2h30 pour les monteurs.
-* Soumise au défis __FDC - case unité lourde - de Whisp__.
+* Soumise au défi __FDC - case unité lourde - de Whisp__.
 
 [gallery w=300 h=200]
 pictures/battle/dark-elves/char-sg-froid/1.jpg
@@ -285,12 +284,12 @@ pictures/battle/dark-elves/char-sg-froid/5.jpg
 
 ## Exécuteurs de Har Ganeth
 
-Certains m'ont été offerts (merci Ardien si tu passe par la) quand aux autres je les ai acheté sur facebook le bon coin ou vinted.
+Certains m'ont été offerts (merci Ardien si tu passes par là) ; quant aux autres, je les ai achetées sur Facebook, Le Bon Coin ou Vinted.
 
 * Peinte en Juillet 2024.
-* Environ 18h environ.
-* Soumise au défis __FDC - case choix libre - de Whisp__.
-* Le glyphe sur le port étendard représente la cité de Har Ganeth
+* Environ 18h.
+* Soumise au défi __FDC - case choix libre - de Whisp__.
+* Le glyphe sur le porte-étendard représente la cité de Har Ganeth.
 
 [gallery w=250 h=200]
 pictures/battle/dark-elves/executeurs/01.jpg
@@ -306,8 +305,8 @@ pictures/battle/dark-elves/executeurs/09.jpg
 
 ## Furies de Khaine
 
-J'ai acheté le QG étant gamin. Le reste proviens de l'achat d'un lot, que j'ai décapé. David si tu passes par la encore merci.
-J'**adore** les furies, j'ai versé une larme quand j'ai commencé leur peinture.
+J'ai acheté le QG étant gamin. Le reste provient de l'achat d'un lot, que j'ai décapé. David si tu passes par là encore merci.
+J'**adore** les furies, j'ai versé une larme quand j'ai commencé leurs peintures.
 
 - Figurines en métal de 2000.
 - Peinte en Avril 2024.
@@ -356,10 +355,10 @@ Rehaut	72052
 [after date="2025/12/20"]
 ## Ombres
 
-Voici mes ombres elfes noir en métal. Certaines de ces figurines proviennent de mon ancienne armée et d'autre de celle que j'ai racheté. 
-J'ai décapé et gardé seulement 10 figurines pour en avoir deux de chaque modele.
+Voici mes ombres elfes noirs en métal. Certaines de ces figurines proviennent de mon ancienne armée et d'autres de celles que j'ai rachetées. 
+J'ai décapé et gardé seulement 10 figurines pour en avoir deux de chaque modèle.
 
-* Peinte en Fevrier 2025
+* Peinte en Février 2025
 * Environ 14h00 de peinture
 
 [gallery w=500 h=200]
@@ -382,13 +381,13 @@ pictures/battle/dark-elves/ombres/08.jpg
 
 ## Baliste à répétition
 
-Je les ai acheté étant gamin. 
-Je les ai décaper pour les repeindre avec mon schéma et niveau actuel.
+Je les ai achetées étant gamin. 
+Je les ai décapées pour les repeindre avec mon schéma et niveau actuels.
 
 * Peinte en Avril 2024.
 * Environ 11h pour les deux.
-* Soumise au défis __FDC - case machine de guerre - de Whisp__.
-* Peinte pour le défis __Avril 2024 - Ne te découvre pas d'un fil - de Karv__.
+* Soumise au défi __FDC - case machine de guerre - de Whisp__.
+* Peinte pour le défi __Avril 2024 - Ne te découvre pas d'un fil - de Karv__.
 
 [gallery w=500 h=200]
 pictures/battle/dark-elves/balistes/1.jpg
@@ -414,13 +413,13 @@ Shade	24-11
 ## Chaudron de Sang et Reine Matriarche
 
 Proviens de l'achat d'un lot, que j'ai décapé. 
-David si tu passes par la encore merci. 
-Qu'est ce que je voulais cet fig étant petit.
+David si tu passes par là encore merci. 
+Qu'est-ce que je voulais ce fig étant petit.
 
 * Figurine en métal de 1999/2001.
 * Peinte en Mai 2024.
 * Environ 16h.
-* Peinte pour le défis __Mai 2024 - Fait ce qu'il te plaît - de Karv__.
+* Peinte pour le défi __Mai 2024 - Fait ce qu'il te plaît - de Karv__.
 
 [gallery w=180 h=200]
 pictures/battle/dark-elves/chaudron-de-sang/1.jpg
@@ -443,10 +442,10 @@ Rehaut	72121
 
 ## Gardes Noirs de Naggarond
 
-Voici mes Gardes Noir de Naggarond en métal. J'ai peiné à les regrouper, je les ai acheté par petit lot sur Vinted, Facebook et LeBonCoin.
+Voici mes Gardes Noirs de Naggarond en métal. J'ai peiné à les regrouper, je les ai achetées par petit lot sur Vinted, Facebook et Le Bon Coin.
 
 * Peinte en Août 2024.
-* Environ 20h environ.
+* Environ 20h.
 * Figurine de 2000.
 
 [gallery w=250 h=200]
@@ -463,12 +462,12 @@ pictures/battle/dark-elves/garde-noir/08.jpg
 ## Hydre de Guerre
 
 Voici mon hydre de guerre en métal.
-Cette figurine m'as été offerte par un certain David que je remercie si il passe par la.
-Je me suis inspiré de la peinture du sang froid de l'a sorcière suprême.
+Cette figurine m'a été offerte par un certain David que je remercie s'il passe par là.
+Je me suis inspiré de la peinture du sang froid de la sorcière suprême.
 
 * Peinte en Juin 2024.
-* Environ 11h pour l'hydre et 6h pour les suivant.
-* Soumise au défis __FDC - case choix libre - de Whisp__.
+* Environ 11h pour l'hydre et 6h pour les suivantes.
+* Soumise au défi __FDC - case choix libre - de Whisp__.
 * Figurine de 2000.
 
 [gallery w=250 h=200]

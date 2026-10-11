@@ -1,10 +1,10 @@
 En 2024, j'ai choisi de réaliser enfin mon rêve de gosse, compléter et peindre mon armée elfes noirs telle que je la voulais étant enfant. 
 Bon spoiler alerte, je n'ai pas réussi et en 2025 il m'en reste à peindre !
 
-Voici mes ombres elfes noir en métal. Certaines de ces figurines proviennent de mon ancienne armée et d'autre de celle que j'ai racheté. 
-J'ai décapé et gardé seulement 10 figurines pour en avoir deux de chaque modele.
+Voici mes ombres elfes noirs en métal. Certaines de ces figurines proviennent de mon ancienne armée et d'autres de celles que j'ai rachetées. 
+J'ai décapé et gardé seulement 10 figurines pour en avoir deux de chaque modèle.
 
-* Peinte en Fevrier 2025
+* Peinte en Février 2025
 * Environ 14h00 de peinture
 
 [gallery w=500 h=200]
@@ -24,4 +24,3 @@ pictures/battle/dark-elves/ombres/08.jpg
 
 Vous trouverez toutes mes unités ainsi que toutes les recettes de peinture que j'ai utilisées
 sur la page dédiée à [Mon armée elfes noirs](2024/armee-elfes-noirs.html).
-
