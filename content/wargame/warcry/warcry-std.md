@@ -1,10 +1,10 @@
 
 Voici ma bande Warcry de Saccageurs Noir-serment. 
-Affilié au Esclaves des Ténèbres.
+Affiliée aux Esclaves des Ténèbres.
 J'ai cette bande mais je ne joue pas à WarCry.
-Il provienne de la boite fer de lance. 
+Il provient de la boîte Fer de Lance. 
 
-- Peinte en Mai 2026
+- Peinte en mai 2026
 - En environ 19 heures
 
 [gallery w=500 h=200]
