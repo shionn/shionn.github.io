@@ -3,7 +3,7 @@ J'ai ce petit lot de Noir Serment composé d'un Starter Collection et de quelque
 
 Voici aujourd'hui mon _Tzarketh Fléau de la Loi_. Je l'ai acheté sur le Bon Coin, il était neuf.
 
-Peintes en Septembre 2026
+Peintes en septembre 2026
 - Environ 6h30
 
 [gallery w=150 h=200]

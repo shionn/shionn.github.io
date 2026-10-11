@@ -4,7 +4,7 @@ J'ai ce petit lot de Noir Serment composé d'un Starter Collection et de quelque
 
 Voici aujourd'hui mon _Chef de guerre_. Je l'ai acheté à ma boutique locale.
 
-- Peinte en Août 2026
+- Peinte en août 2026
 - En environ 4 heures
 
 [gallery w=150 h=200]

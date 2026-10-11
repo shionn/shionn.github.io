@@ -1,15 +1,15 @@
 
-En 2026 j'ecluse mes _petit_ projets d'armées. 
-J'ai ce petit lot de noir serment composer d'un start collecting et de quelques figurine acheté sur le bon coin.
+En 2026 j'écluse mes _petits_ projets d'armées. 
+J'ai ce petit lot de Noir Serment composé d'un Starter Collection et de quelques figurines achetées sur le Bon Coin.
 
-Comme souvent je commence par ce que j'ai pas envie de peindre, et je déteste peindre de la cavalerie. 
-Voici donc ma cavalerie noir serment.
+Comme souvent je commence par ce que je n'ai pas envie de peindre, et je déteste peindre de la cavalerie. 
+Voici donc ma cavalerie Noir Serment.
 
 # Chef de Guerre sur Destrier
 
-Je l'ai acheté sur le leboncoin. Il proviens de la boite d'armée. 
+Je l'ai acheté sur Leboncoin. Il provient de la boîte d'armée. 
 
-- Peinte en Avril 2026 
+- Peinte en avril 2026 
 - Environ 5h30
 
 [gallery w=150 h=200]
@@ -21,10 +21,10 @@ pictures/aos/std/chef-de-guerre-destrier/04.jpg
 
 # Cavaliers Cruel
 
-Proviens d'une boite start collecting. J'ai détésté peindre ces figurines. 
+Proviennent d'une boîte Starter Collection. J'ai détesté peindre ces figurines. 
 Aucune inspiration. 
 
-- Peinte en Mars 2026 
+- Peinte en mars 2026 
 - Environ 20h
 
 [gallery w=500 h=200]

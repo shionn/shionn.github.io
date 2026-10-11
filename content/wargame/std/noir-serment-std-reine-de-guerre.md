@@ -5,7 +5,7 @@ J'ai ce petit lot de Noir Serment composé d'un Starter Collection et de quelque
 Voici aujourd'hui ma _Reine de guerre_. Je vais pas mentir, c'est la figurine qui m'a donné envie de peindre ces figurines. 
 C'est également la dernière figurine de cette troupe.
 
-- Peinte en Octobre 2026
+- Peinte en octobre 2026
 - En environ 4 heures
 
 [gallery w=150 h=200]

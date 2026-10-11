@@ -1,15 +1,15 @@
 
-En 2026 j'ecluse mes _petit_ projets d'armées. 
-J'ai ce petit lot de noir serment composer d'un start collecting et de quelques figurine acheté sur le bon coin.
+En 2026 j'écluse mes _petits_ projets d'armées. 
+J'ai ce petit lot de Noir Serment composé d'un Starter Collection et de quelques figurines achetées sur le Bon Coin.
 
 Aprés avoir eclusé ce que je n'aime pas peindre (les monstres et la cavalerie) j'ai enfin pu prendre du plaisir 
-sur la peinture des troupe de base. 
+sur la peinture des troupes de base. 
 
 # Maraudeurs avec lance
 
-Je les ai acheté sur le leboncoin. Ils proviennent de la boite d'armée. 
+Je les ai achetés sur Leboncoin. Ils proviennent de la boîte d'armée. 
 
-- Peinte en Juin 2026 
+- Peinte en juin 2026 
 - Environ 20h
 
 [gallery w=400 h=200]
@@ -28,9 +28,9 @@ pictures/aos/std/maraudeurs/07.jpg
 
 # Maraudeurs avec épée
 
-Proviens d'une boite start collecting.
+Proviennent d'une boîte Starter Collection.
 
-- Peinte en Aout 2026 
+- Peinte en août 2026 
 - Environ 19h
 
 [gallery w=400 h=200]

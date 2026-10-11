@@ -7,9 +7,9 @@ Je déteste peindre de la cavalerie.
 
 ## Chef de Guerre sur Destrier
 
-Je l'ai acheté sur le leboncoin. Il proviens de la boite d'armée. 
+Je l'ai acheté sur Leboncoin. Il proviens de la boîte d'armée. 
 
-- Peinte en Avril 2026 
+- Peinte en avril 2026 
 - Environ 5h30
 
 [gallery w=150 h=200]
@@ -21,9 +21,9 @@ pictures/aos/std/chef-de-guerre-destrier/04.jpg
 
 ## Cavaliers Cruel
 
-Proviens d'une boite start collecting. J'ai détésté peindre ces figurines. 
+Proviens d'une boîte Starter Collection. J'ai détesté peindre ces figurines. 
 
-- Peinte en Mars 2026 
+- Peinte en mars 2026 
 - Environ 20h
 - Aucune inspiration. 
 
@@ -52,7 +52,7 @@ pictures/aos/std/cavaliers-cruels/13.jpg
 
 Je l'ai acheté sur le boncoin, il était neuf.
 
-- Peinte en Septembre 2026 
+- Peinte en septembre 2026 
 - Environ 6h30
 
 [gallery w=150 h=200]
@@ -69,7 +69,7 @@ pictures/aos/std/tzarketh-bane-of-law/05.jpg
 
 Je l'ai acheté à ma boutique locale.
 
-- Peinte en Août 2026
+- Peinte en août 2026
 - En environ 4 heures
 
 [gallery w=150 h=200]
@@ -86,7 +86,7 @@ pictures/aos/std/chef-de-guerre/04.jpg
 Voici aujourd'hui ma _Reine de guerre_. Je vais pas mentir, c'est la figurine qui m'a donné envie de peindre ces figurines. 
 C'est également la dernière figurine de cette troupe.
 
-- Peinte en Octobre 2026
+- Peinte en octobre 2026
 - En environ 4 heures
 
 [gallery w=150 h=200]
@@ -101,9 +101,9 @@ pictures/aos/std/warqueen/04.jpg
 
 ## Gastefauve
 
-Je l'ai acheté sur le leboncoin. Il proviens de la boite d'armée. 
+Je l'ai acheté sur Leboncoin. Il proviens de la boîte d'armée. 
 
-- Peinte en Fevrier 2026 
+- Peinte en février 2026 
 - En environ 6
 
 [gallery w=150 h=200]
@@ -115,8 +115,8 @@ pictures/aos/std/gastefauve/04.jpg
 
 ## Prince démon
 
-Proviens d'une boite de decouverte en magasin qu'on m'as donnée. 
-J'ai commencé cette figurine autour des années 2010, puis elle est restée sur une étagere et je l'ai fini en 2025.
+Proviens d'une boîte de découverte en magasin qu'on m'a donnée. 
+J'ai commencé cette figurine autour des années 2010, puis elle est restée sur une étagère et je l'ai fini en 2025.
 
 - Peinte en 2010/2025. 
 
@@ -131,9 +131,9 @@ pictures/aos/std/prince-demon/03.jpg
 [after date="2026/10/12"]
 ## Maraudeurs avec lance
 
-Je les ai acheté sur le leboncoin. Ils proviennent de la boite d'armée. 
+Je les ai acheté sur Leboncoin. Ils proviennent de la boîte d'armée. 
 
-- Peinte en Juin 2026 
+- Peinte en juin 2026 
 - Environ 20h
 
 [gallery w=400 h=200]
@@ -152,9 +152,9 @@ pictures/aos/std/maraudeurs/07.jpg
 
 ## Maraudeurs avec épée
 
-Proviens d'une boite start collecting.
+Proviens d'une boîte Starter Collection.
 
-- Peinte en Aout 2026 
+- Peinte en août 2026 
 - Environ 19h
 
 [gallery w=400 h=200]

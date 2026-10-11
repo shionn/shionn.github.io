@@ -1,12 +1,12 @@
 
-En 2026 j'ecluse mes _petit_ projets d'armées. 
-J'ai ce petit lot de noir serment composer d'un start collecting et de quelques figurine acheté sur le bon coin.
+En 2026 j'écluse mes _petits_ projets d'armées. 
+J'ai ce petit lot de Noir Serment composé d'un Starter Collection et de quelques figurines achetées sur le Bon Coin.
 
 # Gastefauve
 
-Je l'ai acheté sur le leboncoin. Il proviens de la boite d'armée. 
+Je l'ai acheté sur Leboncoin. Il provient de la boîte d'armée. 
 
-- Peinte en Fevrier 2026 
+- Peinte en février 2026 
 - En environ 6
 
 [gallery w=150 h=200]
@@ -18,8 +18,8 @@ pictures/aos/std/gastefauve/04.jpg
 
 # Prince démon
 
-Proviens d'une boite de decouverte en magasin qu'on m'as donnée. 
-J'ai commencé cette figurine autour des années 2010, puis elle est restée sur une étagere et je l'ai fini en 2025.
+Provient d'une boîte de découverte en magasin qu'on m'a donnée. 
+J'ai commencé cette figurine autour des années 2010, puis elle est restée sur une étagère et je l'ai fini en 2025.
 
 - Peinte en 2010/2025. 
 
