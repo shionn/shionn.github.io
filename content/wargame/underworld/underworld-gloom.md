@@ -1,11 +1,11 @@
 
 Voici mes bandes Underworld affiliées aux Gloomspite Gitz. 
 J'ai des bandes mais je n'y joue pas.
-Les bande underworld des glooms sont agréable à peindre.
+Les bandes underworld des glooms sont agréables à peindre.
 
 # Les Gitz de Zarbag's
 
-Premier bande underworld, provenant de l'abonnement Stormbringer.
+Première bande underworld, provenant de l'abonnement Stormbringer.
 
 - Peinte en Avril 2025
 - 15h de peinture
@@ -30,7 +30,7 @@ pictures/underworld/gobs/gitz-de-zarbags/7.jpg
 
 # La Bande à Mollog
 
-Seconde bande underworld affilié aux Gloomspite Gitz provenant aussi de l'abonnement Stormbringer
+Seconde bande underworld affiliée aux Gloomspite Gitz provenant aussi de l'abonnement Stormbringer
 
 - Peinte en Novembre 2025
 - 7h de peinture pour Mollog
@@ -57,7 +57,7 @@ pictures/underworld/gobs/bande-a-mollog/05.jpg
 pictures/underworld/gobs/bande-a-mollog/06.jpg
 [/gallery]
 
-Je n'avais pas d'étendart d'orc, j'ai donc du le crafter avec des bits d'elfe noir.
+Je n'avais pas d'étendart d'orc, j'ai donc dû le crafter avec des bits d'elfe noir.
 
 [gallery w=200 h=200]
 pictures/underworld/gobs/bande-a-mollog/11.jpg

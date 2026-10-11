@@ -4,8 +4,8 @@ J'ai des bandes mais je n'y joue pas.
 
 # La Cour Écarlate
 
-Ces figurines proviennent d'une boite de démarrage Warcry. J'ai absolument détesté les peindre.
-Ces figurines me semble être à mi chemin entre un héros et une troupe, donc je n'ai eu ni le plaisir de peindre une troupe ni celui de peindre un héros.
+Ces figurines proviennent d'une boîte de démarrage Warcry. J'ai absolument détesté les peindre.
+Ces figurines me semblent être à mi-chemin entre un héros et une troupe, donc je n'ai eu ni le plaisir de peindre une troupe ni celui de peindre un héros.
 Et en plus j'aime pas les vampires.
 
 * Peinte en Mars 2024
@@ -19,11 +19,11 @@ pictures/underworld/death/cours-ecrlate/2.jpg
 # Les Morts en Exil
 
 Très plaisante à peindre et simple. 
-On vois bien le héros qui se détache de sa petite bande. 
+On voit bien le héros qui se détache de sa petite bande. 
 
 * Peinte en Septembre 2024
-* 4 heures en tous dont un speedrun de 2 heures pour les 6 zombart.
-* Peinte pour le défis __Septembre 2024 - Rentrée des classes - de Karv__.
+* 4 heures en tout dont un speedrun de 2 heures pour les 6 zombart.
+* Peinte pour le défi __Septembre 2024 - Rentrée des classes - de Karv__.
 
 [gallery w=550 h=200]
 pictures/underworld/death/les-morts-en-exil/01.jpg

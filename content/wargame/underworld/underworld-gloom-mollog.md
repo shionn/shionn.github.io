@@ -1,7 +1,7 @@
 
-Voici ma seconde bande underworld affilié aux Gloomspite Gitz. 
+Voici ma seconde bande underworld affiliée aux Gloomspite Gitz. 
 Ils proviennent de l'abonnement Stormbringer. 
-Franchement les bande underworld des glooms sont agréable à peindre.
+Franchement les bandes underworld des glooms sont agréables à peindre.
 
 - Peinte en Novembre 2025
 - 7h de peinture pour Mollog
@@ -28,7 +28,7 @@ pictures/underworld/gobs/bande-a-mollog/05.jpg
 pictures/underworld/gobs/bande-a-mollog/06.jpg
 [/gallery]
 
-Je n'avais pas d'étendart d'orc, j'ai donc du le crafter avec des bits d'elfe noir.
+Je n'avais pas d'étendart d'orc, j'ai donc dû le crafter avec des bits d'elfe noir.
 
 [gallery w=200 h=200]
 pictures/underworld/gobs/bande-a-mollog/11.jpg

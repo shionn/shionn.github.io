@@ -1,5 +1,5 @@
 
-Voici ma premiere bande underworld affilié aux Gloomspite Gitz. Ils proviennent de l'abonnement Stormbringer.
+Voici ma première bande underworld affiliée aux Gloomspite Gitz. Ils proviennent de l'abonnement Stormbringer.
 
 - Peinte en Avril 2025
 - 15h de peinture
