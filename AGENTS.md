@@ -16,3 +16,8 @@ Quand on corrige une faute (orthographe, grammaire, ponctuation, style), ne pas 
 
 Après avoir corrigé les fautes de français dans les fichiers `.md`, ajouter la date du jour dans le champ `updated` du `.json` qui l'accompagne (format tableau de dates, ex. `["2026/10/11"]`). Opération automatique, mais **uniquement** si l'article est publié : le champ `date` du `.json` est renseigné ET le champ `published` vaut `true`. Ne jamais modifier le `.json` d'un article non publié.
 
+## Taille du contexte
+
+Sois attentif à la taille maximale de ton contexte (150k tokens). Privilégier les lectures ciblées (sections de fichiers, `grep`) aux lectures entières, et éviter les allers-retours redondants qui alourdissent inutilement l'historique.
+
+
