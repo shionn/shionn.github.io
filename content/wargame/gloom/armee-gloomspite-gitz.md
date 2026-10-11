@@ -352,11 +352,11 @@ J'ai utilisé des éléments de décort provenant de diverses sources :
 - Et d'autres bits qui traînaient. 
 
 [gallery w=250 h=200]
-pictures/aos/gloomspite/décort-faction/01.jpg
-pictures/aos/gloomspite/décort-faction/02.jpg
+pictures/aos/gloomspite/decort-faction/01.jpg
+pictures/aos/gloomspite/decort-faction/02.jpg
 [/gallery]
 [gallery w=400 h=200]
-pictures/aos/gloomspite/décort-faction/03.jpg
+pictures/aos/gloomspite/decort-faction/03.jpg
 [/gallery]
 
 [/after]
