@@ -1,10 +1,10 @@
 
 En 2025 j'ai eu envie de peindre des gobelins. 
-En plus d'une armée pour AoS j'ai choisi de peindre également la partie gobeline de la veille boite **Bataille du Col du Crâne**.
+En plus d'une armée pour AoS j'ai choisi de peindre également la partie gobeline de la veille boîte **Bataille du Col du Crâne**.
 
 * Peinte en Juillet 2025
 * En environ 14 heures
-* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Les socles sont très inspirés de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=300 h=200]
 pictures/battle/bataille-col-crane/gobs/chevaucheur-araignee/01.jpg

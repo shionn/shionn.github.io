@@ -1,10 +1,10 @@
 
 En 2026 j'ai eu envie de peindre les nains pour accompagner les gobelins de l'année dernière.
 
-Voici aujourd'hui mes mineurs, une troupes de 10 mineurs provenant d'une boite bataille du col du crâne. 
-Normalement dans une boite il n'y a que 8 mineurs.
+Voici aujourd'hui mes mineurs, une troupe de 10 mineurs provenant d'une boîte Bataille du col du crâne. 
+Normalement dans une boîte il n'y a que 8 mineurs.
 
-Peinte en Aout 2026 en 12 heures environ
+Peinte en août 2026 en 12 heures environ
 
 [gallery w=320 h=200]
 pictures/battle/bataille-col-crane/nains/mineurs/01.jpg

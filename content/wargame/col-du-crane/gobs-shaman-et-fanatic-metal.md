@@ -1,11 +1,11 @@
 
 En 2025 j'ai eu envie de peindre des gobelins. 
-En plus d'une armée pour AoS j'ai choisi de peindre également la partie gobeline de la veille boite **Bataille du Col du Crâne**.
-Je sais très bien que ces figurines ne proviennent pas de cette boite. Mais que voulez-vous que je fasse ? J'aime les vieilles figurines métal. 
+En plus d'une armée pour AoS j'ai choisi de peindre également la partie gobeline de la veille boîte **Bataille du Col du Crâne**.
+Je sais très bien que ces figurines ne proviennent pas de cette boîte. Mais que voulez-vous que je fasse ? J'aime les vieilles figurines métal. 
 
 # Chaman
 
-* Peinte en Janvier 2026.
+* Peinte en janvier 2026.
 * En environ 3 heures.
 
 [gallery w=120 h=200]
@@ -18,8 +18,8 @@ pictures/battle/bataille-col-crane/gobs/shaman-metal/05.jpg
 
 # Fanatiques 
 
-* Peinte en Janvier 2026.
-* En environ 5 heure.
+* Peinte en janvier 2026.
+* En environ 5 heures.
 
 [gallery w=400 h=200]
 pictures/battle/bataille-col-crane/gobs/fanatic-metal/01.jpg

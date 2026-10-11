@@ -1,11 +1,11 @@
 
 En 2025 j'ai eu envie de peindre des gobelins. 
-En plus d'une armée pour AoS j'ai choisi de peindre également la partie gobeline de la veille boite **Bataille du Col du Crâne**.
+En plus d'une armée pour AoS j'ai choisi de peindre également la partie gobeline de la veille boîte **Bataille du Col du Crâne**.
 
-* Peinte en Janvier 2025
+* Peinte en janvier 2025
 * En environ 45 heures
-* Toute premiere tentative de NMM, totalement à l'instinct
-* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Toute première tentative de NMM, totalement à l'instinct
+* Les socles sont très inspirés de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=300 h=200]
 pictures/battle/bataille-col-crane/gobs/lanciers/01.jpg

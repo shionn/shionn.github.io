@@ -8,3 +8,7 @@ Quand on me demande de corriger les fautes de français, ignorer les lignes situ
 
 Quand on corrige les fautes de français dans un fichier Markdown, ne pas supprimer les cibles des liens internes de type `[texte](chemin.html)` : le texte affiché peut être corrigé (accents, accord), mais la cible `](chemin.html)` doit être conservée telle quelle. Vérifier que le chemin du lien pointe bien vers une page HTML existante avant de le remettre.
 
+## Sens des corrections
+
+Quand on corrige une faute (orthographe, grammaire, ponctuation, style), ne pas modifier le sens du texte : se limiter à la correction demandée, sans réécrire, résumer, reformuler ou ajouter du contenu.
+

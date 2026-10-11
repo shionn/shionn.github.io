@@ -1,14 +1,14 @@
 
 En 2026 j'ai eu envie de peindre les nains pour accompagner les gobelins de l'année dernière.
 
-Voici aujourd'hui mon artillerie, ces figurine provienne d'une boite de bataille du col du crâne que j'ai trouvé sur le net.
+Voici aujourd'hui mon artillerie, ces figurines proviennent d'une boîte de Bataille du col du crâne que j'ai trouvé sur le net.
 
 # Arquebusiers
 
-Normalement dans une boite *col du crâne* il n'y as que 10 arquebusiers. J'en ai 14 dont 2 musisiens. 
-Peut être que j'en acheterai d'autres pour faire 2 unitées de 10.
-- peintes en Avril 2026 
-- en envirion 16h
+Normalement dans une boîte *col du crâne* il n'y a que 10 arquebusiers. J'en ai 14 dont 2 musisiens. 
+Peut-être que j'en achèterai d'autres pour faire 2 unités de 10.
+- peintes en avril 2026 
+- en environ 16h
 
 [gallery w=350 h=200]
 pictures/battle/bataille-col-crane/nains/arquebusiers/01.jpg
@@ -23,10 +23,10 @@ pictures/battle/bataille-col-crane/nains/arquebusiers/05.jpg
 # Canon
 
 J'ai 4 servants alors que normalement il n'y en a que 3 dans les servants. 
-Je ne pense pas que j'arriverai à en trouver d'autre pour faire 2 canons.
+Je ne pense pas que j'arriverai à en trouver d'autres pour faire 2 canons.
 
 - peintes en mai 2026 
-- en envirion 6h
+- en environ 6h
 
 [gallery w=500 h=200]
 pictures/battle/bataille-col-crane/nains/canon/01.jpg

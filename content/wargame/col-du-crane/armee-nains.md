@@ -1,14 +1,14 @@
 
 Voici mon armée de nains. 
-On est loin d'avoir une armée complete il s'agit simplement de la partie naine de la boite **baille du col du crâne**.
+On est loin d'avoir une armée complète, il s'agit simplement de la partie naine de la boîte **Bataille du col du crâne**.
 
 [after date="2026/11/05"]
 # Heros
 
 ## Roi 
 
-- peint en Mars 2026 
-- en envirion 2h30
+- peint en mars 2026 
+- en environ 2h30
 
 [gallery w=150 h=200]
 pictures/battle/bataille-col-crane/nains/king/01.jpg
@@ -20,7 +20,7 @@ pictures/battle/bataille-col-crane/nains/king/04.jpg
 ## Tueur
 
 - peint en Juillet 2026 
-- en envirion 2 heures
+- en environ 2 heures
 
 [gallery w=150 h=200]
 pictures/battle/bataille-col-crane/nains/tueur/01.jpg
@@ -33,10 +33,10 @@ pictures/battle/bataille-col-crane/nains/tueur/03.jpg
 
 ## Arquebusiers
 
-Normalement dans une boite *col du crâne* il n'y as que 10 arquebusiers. J'en ai 14 dont 2 musisiens. 
-Peut être que j'en acheterai d'autres pour faire 2 unitées de 10.
-- peintes en Avril 2026 
-- en envirion 16h
+Normalement dans une boîte *col du crâne* il n'y a que 10 arquebusiers. J'en ai 14 dont 2 musisiens. 
+Peut-être que j'en achèterai d'autres pour faire 2 unités de 10.
+- peintes en avril 2026 
+- en environ 16h
 
 [gallery w=350 h=200]
 pictures/battle/bataille-col-crane/nains/arquebusiers/01.jpg
@@ -51,10 +51,10 @@ pictures/battle/bataille-col-crane/nains/arquebusiers/05.jpg
 ## Canon
 
 J'ai 4 servants alors que normalement il n'y en a que 3 dans les servants. 
-Je ne pense pas que j'arriverai à en trouver d'autre pour faire 2 canons.
+Je ne pense pas que j'arriverai à en trouver d'autres pour faire 2 canons.
 
 - peintes en mai 2026 
-- en envirion 6h
+- en environ 6h
 
 [gallery w=500 h=200]
 pictures/battle/bataille-col-crane/nains/canon/01.jpg
@@ -72,10 +72,10 @@ pictures/battle/bataille-col-crane/nains/canon/05.jpg
 
 ## Guerriers
 
-Normalement dans une boite *col du crâne* il n'y as que 12 guerriers. 
+Normalement dans une boîte *col du crâne* il n'y a que 12 guerriers. 
 J'en ai 20 donc j'ai fait deux troupes de 10. 
 
-La premiere à été peinte en Fevrier 2026 en 16 heures environ
+La première a été peinte en février 2026 en 16 heures environ
 
 [gallery w=350 h=200]
 pictures/battle/bataille-col-crane/nains/guerriers/01.jpg
@@ -91,7 +91,7 @@ pictures/battle/bataille-col-crane/nains/guerriers/06.jpg
 pictures/battle/bataille-col-crane/nains/guerriers/07.jpg
 [/gallery]
 
-La seconde à été peinte en Juin 2026 en 10 heures environ
+La seconde a été peinte en Juin 2026 en 10 heures environ
 
 [gallery w=350 h=200]
 pictures/battle/bataille-col-crane/nains/guerriers/11.jpg
@@ -105,7 +105,7 @@ pictures/battle/bataille-col-crane/nains/guerriers/15.jpg
 
 ## Mineurs
 
-Normalement dans une boite *col du crâne* il n'y as que 8 mineurs, ici j'en ai 10.
+Normalement dans une boîte *col du crâne* il n'y a que 8 mineurs, ici j'en ai 10.
 
 [gallery w=320 h=200]
 pictures/battle/bataille-col-crane/nains/mineurs/01.jpg
@@ -126,8 +126,8 @@ pictures/battle/bataille-col-crane/nains/mineurs/09.jpg
 
 ## Poney 
 
-- peint en Septembre 2026 
-- en envirion 4 heures
+- peint en septembre 2026 
+- en environ 4 heures
 
 [gallery w=300 h=200]
 pictures/battle/bataille-col-crane/nains/poney/01.jpg
