@@ -1,14 +1,14 @@
 
 En 2025 j'ai eu envie de peindre des gobelins. Et ça tombe bien l'abonnement Stormbringer en possède.
-Il m'a suffit de doubler quelques numéros stratégique pour compléter l'armée à ma guise.
+Il m'a suffit de doubler quelques numéros stratégiques pour compléter l'armée à ma guise.
 
-Je vous présente aujourd'hui les petits héros gobelin.
+Je vous présente aujourd'hui les petits héros gobelins.
 
 # Loofboss
 
-* Peinte en Aout 2025
-* En environ 4h heures
-* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Peinte en Août 2025
+* En environ 4 heures
+* Les socles sont très inspirés de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=140 h=200]
 pictures/aos/gloomspite/loufboss/01.jpg
@@ -18,11 +18,11 @@ pictures/aos/gloomspite/loufboss/04.jpg
 pictures/aos/gloomspite/loufboss/05.jpg
 [/gallery]
 
-# Chamane Fongoide 
+# Chamane Fongoid 
 
 * Peinte en Novembre 2025
-* En environ 4h heures
-* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* En environ 4 heures
+* Les socles sont très inspirés de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=140 h=200]
 pictures/aos/gloomspite/fungoid-cave-shaman/01.jpg
@@ -34,9 +34,9 @@ pictures/aos/gloomspite/fungoid-cave-shaman/05.jpg
 
 # Skragrott
 
-* Peinte en Decembre 2025
-* En environ 6h heures
-* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Peinte en Décembre 2025
+* En environ 6 heures
+* Les socles sont très inspirés de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=200 h=200]
 pictures/aos/gloomspite/skragrott/01.jpg

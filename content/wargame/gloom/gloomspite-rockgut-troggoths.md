@@ -1,12 +1,12 @@
 
 En 2025 j'ai eu envie de peindre des gobelins. Et avec les gobelins y a des trolls. 
-Voici mes trolls de pierre. Ils proviennent de la boite Dawnbringers qui contiens également le Roi des Troll Trugg's. 
+Voici mes trolls de pierre. Ils proviennent de la boîte Dawnbringers qui contient également le Roi des Trolls Trugg's. 
 
 L'idée que j'ai c'est de pouvoir jouer full troll en petit format. 
 
 * Peinte en Janvier 2025
 * En environ 35 heures
-* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Les socles sont très inspirés de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=400 h=200]
 pictures/aos/gloomspite/rockgut-troggoths/01.jpg

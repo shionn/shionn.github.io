@@ -1,13 +1,13 @@
 
 En 2025 j'ai eu envie de peindre des gobelins. Et ça tombe bien l'abonnement Stormbringer en possède.
-Il m'a suffit de doubler quelques numéros stratégique pour compléter l'armée à ma guise.
+Il m'a suffit de doubler quelques numéros stratégiques pour compléter l'armée à ma guise.
 
-Voici une unitée de 20 Shootas et 20 Stabbas.
+Voici une unité de 20 Shootas et 20 Stabbas.
 
 * Peinte en Mars 2025
 * En environ 48 heures
-* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
-* Le QG à été présenté au défi **L'Art de la Guerre** sur [OMM](https://onemoremini.fr/topic/667/d%C3%A9fi-mars-2025-l-art-de-la-guerre).
+* Les socles sont très inspirés de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Le QG a été présenté au défi **L'Art de la Guerre** sur [OMM](https://onemoremini.fr/topic/667/d%C3%A9fi-mars-2025-l-art-de-la-guerre).
 
 [gallery w=400 h=200]
 pictures/aos/gloomspite/stabbas/01.jpg
@@ -25,7 +25,7 @@ pictures/aos/gloomspite/shootas/05.jpg
 Dans un second temps j'ai peint encore 20 lanciers. 
 
 * Peinte en Juin 2025
-* En environ 17h30 heures
+* En environ 17h30
 
 [gallery w=450 h=200]
 pictures/aos/gloomspite/stabbas/10.jpg

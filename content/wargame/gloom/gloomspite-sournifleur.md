@@ -1,12 +1,12 @@
 
 En 2025 j'ai eu envie de peindre des gobelins. Et ça tombe bien l'abonnement Stormbringer en possède.
-Il m'a suffit de doubler quelques numéros stratégique pour compléter l'armée à ma guise.
+Il m'a suffit de doubler quelques numéros stratégiques pour compléter l'armée à ma guise.
 
-Voici une unitée de 6 sournifleur.
+Voici une unité de 6 sournifleurs.
 
 * Peinte en Septembre 2025
 * En environ 12 heures
-* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Les socles sont très inspirés de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=400 h=200]
 pictures/aos/gloomspite/sournifleur/01.jpg

@@ -1,17 +1,17 @@
 
 En 2025 j'ai eu envie de peindre des gobelins. Et ça tombe bien l'abonnement Stormbringer en possède.
-Il m'a suffit de doubler quelques numéros stratégique pour compléter l'armée à ma guise. 
-Bon j'avoue cette Arachnarock à été acheté neuve chez mon [dealer local](https://www.mondes-fantastiques.com/).
+Il m'a suffit de doubler quelques numéros stratégiques pour compléter l'armée à ma guise. 
+Bon j'avoue cette Arachnarok a été acheté neuve chez mon [dealer local](https://www.mondes-fantastiques.com/).
 
-Cette figurine peu paraitre veille mais pourtant elle as beaucoup de charme et n'as pas à rougir face aux nouvelles figurines. 
-L'équipage est entierment magnétisé pour me permetre de jouer avec la configuration que je souhaite. 
-Le chaman-tisseur peu être joué à pied. 
+Cette figurine peut paraître veille mais pourtant elle a beaucoup de charme et n'a pas à rougir face aux nouvelles figurines. 
+L'équipage est entièrement magnétisé pour me permettre de jouer avec la configuration que je souhaite. 
+Le chaman-tisseur peut être joué à pied. 
 
 * Peinte en Mai 2025
-* En environ 10h30 heures pour l'araigné et son socle
+* En environ 10h30 pour l'araignée et son socle
 * En environ 13 heures pour le reste
-* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
-* Soumise à mon défis discord __Maia : Nature / Croissance__
+* Les socles sont très inspirés de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Soumise à mes défis discord __Maia : Nature / Croissance__
 
 [gallery w=300 h=200]
 pictures/aos/gloomspite/arachnarock/01.jpg

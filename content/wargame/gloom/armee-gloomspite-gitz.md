@@ -1,28 +1,28 @@
 
-Voici mon armée gloomspite gitz. C'est une armée qui me fait de l'oeil depuis longtemps. 
-Fin 2023, c'est la sortie de Trugg avec la boite eophore qui m'a lancé dessus. 
-Puis avec l'abonnement **Stormbringer** et quelque numéro que j'ai acheter en double j'ai eu de quoi faire une armée.Glacie
+Voici mon armée gloomspite gitz. C'est une armée qui me fait de l'œil depuis longtemps. 
+Fin 2023, c'est la sortie de Trugg avec la boîte éphore qui m'a lancé dessus. 
+Puis avec l'abonnement **Stormbringer** et quelques numéros que j'ai achetés en double j'ai eu de quoi faire une armée.
 
-Cette armée a été proposé au CDA organisé sur le Discord **Les Duelistes**.
+Cette armée a été proposée au CDA organisé sur le Discord **Les Duelistes**.
 
-Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+Les socles sont très inspirés de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
->Les **Gobashionns** vivent au plus profond d'un marrais au fond d'une vieille forêt. 
+>Les **Gobashionns** vivent au plus profond d'un marais au fond d'une vieille forêt. 
 >On ne sait pas vraiment dans quel royaume ils sont, et ça n'a pas d’importance pour eux. 
->Pour des gobelins, ils sont relativement pacifique, enfin cela reste tous relatif. 
->Comme tous les gobelins ils vouent un culte à la lune sinistre mais ce culte n'est pas aussi fort que la passion qu'il ont pour leurs champignons.
+>Pour des gobelins, ils sont relativement pacifiques, enfin cela reste tout relatif. 
+>Comme tous les gobelins ils vouent un culte à la lune sinistre mais ce culte n'est pas aussi fort que la passion qu'ils ont pour leurs champignons.
 >
->Cultiver leurs champignons, se shooter avec, en faire des squigs voilà ce que veulent les Gobashionns. 
+>Cultiver leurs champignons, se shooter avec, en faire des squigs : voilà ce que veulent les Gobashionns. 
 >Parfois ils se tapent dessus, mais jamais sans s’être shooté avant. 
 >
 >Mais la culture des champignons n'est pas si simple. 
 >Les meilleurs champignons poussent sur les corps de leurs ennemis et si ceux-ci sont encore vivants c'est encore mieux.
->Parfois ces champignons deviennent des squigs et plus les corps des victimes eéaient forts plus le squig sera fort.
+>Parfois ces champignons deviennent des squigs et plus les corps des victimes étaient forts plus le squig sera fort.
 >
 >Les **Gobashionns** ne vivent donc que pour des choses simples :
->- se shooter au champignons.
->- taper sur tous ce qui passe, pour se marrer et nourrir les champignons, toujours en étant shouté au champignons.
->- se taper dessus pour se marrer, mais en étant shouté au champignons.
+>- se shooter aux champignons.
+>- taper sur tout ce qui passe, pour se marrer et nourrir les champignons, toujours en étant shooté aux champignons.
+>- se taper dessus pour se marrer, mais en étant shooté aux champignons.
 
 # Troggoths
 
@@ -31,7 +31,7 @@ C'est clairement rendu possible grâce à Trugg.
 
 ## Rockgut Troggoths
 
-Voici mes trolls de pierre. Ils proviennent de la boite Dawnbringers qui contient également le Roi des trolls Trugg's. 
+Voici mes trolls de pierre. Ils proviennent de la boîte Dawnbringers qui contient également le Roi des trolls Trugg's. 
 
 * Peinte en Janvier 2025
 * En environ 35 heures
@@ -77,25 +77,25 @@ pictures/aos/gloomspite/rockgut-troggoths/32.jpg
 
 ## Trugg roi des troll
 
->**Trugg**, depuis plusieurs générations n'as pas bougé, il réfléchit. 
->Et un troll comme vous le savez ça réfléchit rarement, et trés trés trés trés lentement.
+>**Trugg**, depuis plusieurs générations n'a pas bougé, il réfléchit. 
+>Et un troll comme vous le savez ça réfléchit rarement, et très très très très lentement.
 >
->A tel point que les **Gobashionns** ont installé leurs campement à côté, pensant qu'il s'agit d'une simple statue, probablement d'origine magique au vue de la lumière qui en émane.
+>A tel point que les **Gobashionns** ont installé leurs campement à côté, pensant qu'il s'agit d'une simple statue, probablement d'origine magique au vu de la lumière qui en émane.
 >Ce qui est bien pratique pour la culture des champignons !
 >
 >Bizarrement d'autres troll viennent souvent dans le camp, regardent la statue un moment, des fois plusieurs jours, voire des semaines ou des mois et repartent comme ils sont venus.
 >
->Un jour, sans explication, **Trugg** est sortit de sa torpeur, il avait fini de réfléchir. 
+>Un jour, sans explication, **Trugg** est sorti de sa torpeur, il avait fini de réfléchir. 
 >Mais réfléchir à quoi ? Nous ne le saurons jamais et il a probablement déjà oublié.
 >
->Les trolls sont revenu, l'ont suivi, les Gobashionns, ne pouvant pas vraiment se passer de lumière qui donne un goût si particulier au champignon ont fait de même.
->Vers ou ? Je prie pour ne pas l'apprendre à mes dépens.
+>Les trolls sont revenus, l'ont suivi, les Gobashionns, ne pouvant pas vraiment se passer de lumière qui donne un goût si particulier au champignon ont fait de même.
+>Vers où ? Je prie pour ne pas l'apprendre à mes dépens.
 >
->Quelque soit la destination, leurs victime vivante ou morte servirons à la culture des champignons ou des Squigs.
+>Quel que soit la destination, leur victime vivante ou morte serviront à la culture des champignons ou des Squigs.
 
 * Peinte en Fevrier 2025
 * En environ 25 heures
-* Le socle est très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Le socle est très inspiré de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=150 h=200]
 pictures/aos/gloomspite/trugg/01.jpg
@@ -114,9 +114,9 @@ pictures/aos/gloomspite/trugg/10.jpg
 
 ## Troggboss des Moit'gîtes
 
-* Peinte en Aout 2025
+* Peinte en Août 2025
 * En environ 9 heures
-* Le socle est très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Le socle est très inspiré de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=180 h=200]
 pictures/aos/gloomspite/troggboss/01.jpg
@@ -134,11 +134,11 @@ pictures/aos/gloomspite/troggboss/06.jpg
 
 [after date="2026/06/06"]
 
-## Chamane Fongoide 
+## Chamane Fongoid 
 
 * Peinte en Novembre 2025
-* En environ 4h heures
-* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* En environ 4 heures
+* Les socles sont très inspirés de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=140 h=200]
 pictures/aos/gloomspite/fungoid-cave-shaman/01.jpg
@@ -150,9 +150,9 @@ pictures/aos/gloomspite/fungoid-cave-shaman/05.jpg
 
 ## Loofboss
 
-* Peinte en Aout 2025
-* En environ 4h heures
-* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Peinte en Août 2025
+* En environ 4 heures
+* Les socles sont très inspirés de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=140 h=200]
 pictures/aos/gloomspite/loufboss/01.jpg
@@ -164,9 +164,9 @@ pictures/aos/gloomspite/loufboss/05.jpg
 
 ## Skragrott
 
-* Peinte en Decembre 2025
-* En environ 6h heures
-* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Peinte en Décembre 2025
+* En environ 6 heures
+* Les socles sont très inspirés de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=200 h=200]
 pictures/aos/gloomspite/skragrott/01.jpg
@@ -184,7 +184,7 @@ pictures/aos/gloomspite/skragrott/06.jpg
 Proviennent de l'abonnement Stormbringer.
 
 * Peinte en Avril 2025
-* En environ 8h30 heures
+* En environ 8h30
 
 [gallery w=400 h=200]
 pictures/aos/gloomspite/fanatiques/01.jpg
@@ -214,7 +214,7 @@ Proviennent de l'abonnement Stormbringer.
 
 * Peinte en Septembre 2025
 * En environ 12 heures
-* Les socles sont très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Les socles sont très inspirés de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=400 h=200]
 pictures/aos/gloomspite/sournifleur/01.jpg
@@ -230,7 +230,7 @@ Proviennent de l'abonnement Stormbringer.
 
 * Peinte en Mars 2025
 * En environ 24 heures
-* Le QG à été présenté au défi **L'Art de la Guerre** sur [OMM](https://onemoremini.fr/topic/667/d%C3%A9fi-mars-2025-l-art-de-la-guerre).
+* Le QG a été présenté au défi **L'Art de la Guerre** sur [OMM](https://onemoremini.fr/topic/667/d%C3%A9fi-mars-2025-l-art-de-la-guerre).
 
 [gallery w=400 h=200]
 pictures/aos/gloomspite/stabbas/01.jpg
@@ -245,7 +245,7 @@ pictures/aos/gloomspite/stabbas/05.jpg
 Proviennent de l'abonnement Stormbringer.
 
 * Peinte en Juin 2025
-* En environ 17h30 heures
+* En environ 17h30
 
 [gallery w=450 h=200]
 pictures/aos/gloomspite/stabbas/10.jpg
@@ -295,15 +295,15 @@ pictures/aos/gloomspite/squig-herd/05.jpg
 
 # Araignée
 
-## Arachnarock
+## Arachnarok
 
-Cette Arachnarock à été acheté neuve chez mon [dealer local](https://www.mondes-fantastiques.com/).
+Cette Arachnarok a été acheté neuve chez mon [dealer local](https://www.mondes-fantastiques.com/).
 
-Cette figurine peu paraitre veille mais pourtant elle as beaucoup de charme et n'as pas à rougir face aux nouvelles figurines. 
-L'équipage est entierment magnétisé pour me permetre de jouer avec la configuration que je souhaite. 
+Cette figurine peut paraître veille mais pourtant elle a beaucoup de charme et n'a pas à rougir face aux nouvelles figurines. 
+L'équipage est entièrement magnétisé pour me permettre de jouer avec la configuration que je souhaite. 
 
 * Peinte en Mai 2025
-* En environ 10h30 heures pour l'araigné et son socle
+* En environ 10h30 pour l'araignée et son socle
 * En environ 13 heures pour le reste
 
 [gallery w=300 h=200]
@@ -321,7 +321,7 @@ pictures/aos/gloomspite/arachnarock/08.jpg
 
 ## Chaman tisseur
 
-Le chaman-tisseur est magnétisé et peu être joué à pied ou sur l'Arachnarock.
+Le chaman-tisseur est magnétisé et peut être joué à pied ou sur l'Arachnarok.
 
 * Peinte en Mai 2025
 * En même temps que l'équipage de l'arachnarock
@@ -337,26 +337,26 @@ pictures/aos/gloomspite/shaman-tisseur/02.jpg
 
 ## Louftuaire de la Mauvaise Lune
 
-Je ne voulais pas acheté le decort de faction officiel, 
-j'ai pris l'empreinte au sol du decord d'un ami et 
-j'ai fabriquer mon propre décort dessus cette empeinte.
+Je ne voulais pas acheter le décort de faction officiel, 
+j'ai pris l'empreinte au sol du décort d'un ami et 
+j'ai fabriqué mon propre décort dessus cette empreinte.
 
 * Peinte en Septembre 2025
 * En environ 6 heures
-* Les éléments sont détachable pour marquer des objectifs.
+* Les éléments sont détachables pour marquer des objectifs.
 
-J'ai utilisé des éléments de décort provenant de divers source : 
+J'ai utilisé des éléments de décort provenant de diverses sources : 
 
-- Le tipee provient de la boite col du crane
-- Les champinions proviennent de la boite de props mini d'archon studio
-- Et d'autre bits qui trainais. 
+- Le tipee provient de la boîte col du crane
+- Les champignons proviennent de la boîte de props mini d'archon studio
+- Et d'autres bits qui traînaient. 
 
 [gallery w=250 h=200]
-pictures/aos/gloomspite/decort-faction/01.jpg
-pictures/aos/gloomspite/decort-faction/02.jpg
+pictures/aos/gloomspite/décort-faction/01.jpg
+pictures/aos/gloomspite/décort-faction/02.jpg
 [/gallery]
 [gallery w=400 h=200]
-pictures/aos/gloomspite/decort-faction/03.jpg
+pictures/aos/gloomspite/décort-faction/03.jpg
 [/gallery]
 
 [/after]

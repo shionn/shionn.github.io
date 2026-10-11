@@ -1,10 +1,10 @@
 
 En 2025 j'ai eu envie de peindre des gobelins. Et avec les gobelins y a des trolls. 
-Voici mon Troggboss des Moit'gîtes, Il proviens de l'abonnement hachette Stormbringer.
+Voici mon Troggboss des Moit'gîtes, Il provient de l'abonnement hachette Stormbringer.
 
-* Peinte en Aout 2025
+* Peinte en Août 2025
 * En environ 9 heures
-* Le socle est très inspiré de ceux fait par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
+* Le socle est très inspiré de ceux faits par [UrsuleGnome](https://www.twitch.tv/ursulegnome)
 
 [gallery w=180 h=200]
 pictures/aos/gloomspite/troggboss/01.jpg
