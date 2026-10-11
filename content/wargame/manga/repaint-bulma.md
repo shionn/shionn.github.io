@@ -1,14 +1,14 @@
 
 Cette année au travail nous avons organisé un secret santa. 
 Notre budget maximum était de 15EUR. J'ai voulu y mettre un peu du mien dans ce cadeau. 
-J'ai acheté une bulma dégueulasse sur ali express et je l'ai repeinte. 
+J'ai acheté une bulma dégoûtante sur Ali Express et je l'ai repeinte.
 
 Ainsi je reste dans le budget en offrant quelque chose de personnalisé.
 
 * Peinte en décembre 2024
 * Environ 9h de peinture
 * Soumise au défi __Décembre 2024 - Noyeux Joël de Karv__
-* Offerte à un collegue
+* Offerte à un collègue
 
 [gallery w=100 h=250]
 pictures/manga/bulma/01.jpg

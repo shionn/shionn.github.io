@@ -1,12 +1,12 @@
 
-Cette figurine est un model de [Nomnom Figurines](https://www.patreon.com/NomnomFigures) que j'ai acheté sur [Le sourir des Dragons](https://lesouriredesdragons.fr). 
-Tous cela dans le but de l'offrir à un collegue dont sa mission s'arretais.
-Franchement la qualité de l'impression n'est vraiment pas au rendez vous, le visage de goku est rayé, les pieces ne sont pas bien ajusté, y a du wrapping et des déformations. 
+Cette figurine est un modèle de [Nomnom Figurines](https://www.patreon.com/NomnomFigures) que j'ai acheté sur [Le sourir des Dragons](https://lesouriredesdragons.fr).
+Tout cela dans le but de l'offrir à un collègue dont la mission s'arrêtait.
+Franchement la qualité de l'impression n'est vraiment pas au rendez-vous, le visage de Goku est rayé, les pièces ne sont pas bien ajustées, il y a du wrapping et des déformations.
 
 * Peinte en Juin 2025.
 * Environ 8h30 de peinture.
-* Soumise à mon défis discord __Junon : Mariage / Fécondité__.
-* Offerte à un collegue, coucou si tu passses par la :) 
+* Soumise à mon défi Discord __Junon : Mariage / Fécondité__.
+* Offerte à un collègue, coucou si tu passes par là :)
 
 [gallery w=250 h=250]
 pictures/manga/goku-shenron/01.jpg
