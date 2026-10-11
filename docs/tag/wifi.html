@@ -291,27 +291,26 @@ Entrez MQTT dans la barre de recherche et sélectionnez <code>Mosquitto Broker</
 			</span>
 		</div>
 	</header>
-	<section><p>Bonjour.
-Voici un petit tuto simple sur la gestion de la connexion wifi avec le framework arduino sur un ESP32 mais cela fonctionne aussi avec un ESP8266 et probablement d'autre carte.</p>
+	<section><p>Bonjour.</p>
+<p>Voici un petit tuto simple sur la gestion de la connexion wifi avec le framework arduino sur un ESP32 mais cela fonctionne aussi avec un ESP8266 et probablement d'autres cartes.</p>
 <h1>Connexion</h1>
 <p>La connexion se fait avec la bibliothèque Wifi qui est incluse dès qu'on configure notre projet pour utiliser une carte ESP32.</p>
 <pre class="cpp"><code class="cpp">#include &lt;Arduino.h&gt;
-// pour un esp32
-#include &lt;WiFi.h&gt; 
-// pour un esp8266
+// pour un ESP32
+#include &lt;WiFi.h&gt;
+// pour un ESP8266
 #include &lt;ESP8266WiFi.h&gt;
 
 
 #define SSID_NAME &quot;MonSSID&quot;
 #define SSID_PASS &quot;mot de pass wifi&quot;
-#define HOST_NAME &quot;nom d'hote de l'esp32&quot;
+#define HOST_NAME &quot;nom d'hôte de l'ESP32&quot;
 
 void setup() {
 	Serial.begin(9600);
 	WiFi.disconnect(true);
-	// il faut faire le setHostName avant le mode sinon ce n'est pas pris en compte. 
+	// il faut faire le setHostName avant le mode, sinon ce n'est pas pris en compte.
 	WiFi.setHostname(HOST_NAME);
-	// 
 	WiFi.mode(WIFI_STA);
 	WiFi.setAutoConnect(true);
 	WiFi.setAutoReconnect(true);
@@ -330,10 +329,10 @@ void loop() {
 
 }
 </code></pre>
-<h2>Probleme avec certain router et l'ESP8266</h2>
+<h2>Problème avec certains routeurs et l'ESP8266</h2>
 <p>J'ai souvent eu le souci que mes ESP8266 avaient beaucoup de mal à se connecter à mon réseau wifi.
-Il faut fouiller dans votre routeur, sur la configuration du réseau 2.4Ghz, et trouver une option s'appellant <strong>mode sans fil</strong> qui est peut être regler sur &quot;N Only&quot; et passer cette option à &quot;legacy&quot;.</p>
-<div class="gallery"><a href="pictures/code/arduino/asus/rooter-asus-legacy.png"><img src="pictures/code/arduino/asus/rooter-asus-legacy.png"></a></div></section>
+Il faut fouiller dans votre routeur, dans la configuration du réseau 2,4 GHz, et trouver une option s'appelant <strong>mode sans fil</strong> qui est peut-être réglée sur &quot;N Only&quot;, puis passer cette option à &quot;legacy&quot;.</p>
+</section>
 	<footer>
 		<a href="2025/connexion-wifi-esp32.html"><span class="fa fa-eye"></span> Lire la suite</a>
 	</footer>

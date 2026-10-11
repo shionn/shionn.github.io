@@ -263,7 +263,7 @@
 	<section><p>J'aime bien faire des bouts de code sur les Arduinos, il y a l'aspect des technologies récentes,
 mais surtout j'ai parfois l'agréable impression de coder sur de vieux ordinateur 8bit.
 Mais je n'aime pas utiliser l'éditeur officiel Arduino.
-Surtout qu'au final je travail rarement sur un Arduino mais bien souvent sur d'autre carte notamment les ESP.</p>
+Surtout qu'au final je travaille rarement sur un Arduino, mais bien souvent sur d'autres cartes, notamment les ESP.</p>
 <p>Dans ce petit tuto on va installer VSCode et ce qu'il faut pour coder avec le framework arduino.
 Puis nous verrons le classique tuto du clignotage de led.</p>
 <h1>Installation de PlatformIO</h1>
@@ -276,12 +276,12 @@ Pour les autres systèmes vous pouvez regarder sur la <a href="https://docs.plat
 </code></pre>
 <h2>Communication série</h2>
 <p>Il vous faut la possibilité d'utiliser les ports séries.
-Sous Dedian il vous faut vous ajouter au group <strong>dialout</strong>.</p>
+Sous Debian, il vous faut vous ajouter au groupe <strong>dialout</strong>.</p>
 <pre class="shell"><code class="shell">sudo usermod -a -G dialout $USER
 </code></pre>
-<p>Si cela ne suffit pas il faut aussi ajouter le group tty. Si vous ne voulez pas relancer votre session faite un <code>newgrp dialout</code>.</p>
+<p>Si cela ne suffit pas, il faut aussi ajouter le groupe tty. Si vous ne voulez pas relancer votre session faite un <code>newgrp dialout</code>.</p>
 <h2>Installation de l'extension PlatformIo</h2>
-<p>Dans les extensions de VSCode, recherche et installer &quot;PlatformIO IDE&quot;.</p>
+<p>Dans les extensions de VSCode, recherchez et installez &quot;PlatformIO IDE&quot;.</p>
 <div class="gallery"><a href="pictures/code/arduino/platformio/extension-platform-io.png"><img src="pictures/code/arduino/platformio/extension-platform-io.png"></a></div>
 <h2>Autre extension</h2>
 <p>Venant d'éclipse j'aime bien l'extension : Eclipse Keymap</p>
@@ -291,7 +291,7 @@ Sous Dedian il vous faut vous ajouter au group <strong>dialout</strong>.</p>
 Il y a un nombre impressionnant de carte disponible.</p>
 <div class="gallery"><a href="pictures/code/arduino/platformio/creation-projet-1.png"><img src="pictures/code/arduino/platformio/creation-projet-1.png"></a><a href="pictures/code/arduino/platformio/creation-projet-2.png"><img src="pictures/code/arduino/platformio/creation-projet-2.png"></a></div>
 <h2>Structure</h2>
-<p>La Structure d'un projet sous PlatformIO est un peu différent de celui d'un projet avec l'ide Arduino.</p>
+<p>La structure d'un projet sous PlatformIO est un peu différente de celle d'un projet avec l'IDE Arduino.</p>
 <pre class="java"><code class="java">Répertoire Racine 
 |- plateformio.txt # un peu l'équivalent d'un pom.xml
 |--src
@@ -323,7 +323,7 @@ void loop() {
 <h2>Upload du code</h2>
 <p>Cliquer sur ce bouton et normalement la diode de votre carte clignotera :</p>
 <div class="gallery"><a href="pictures/code/arduino/platformio/upload-code.png"><img src="pictures/code/arduino/platformio/upload-code.png"></a></div>
-<p>Et normalement ca devrais clignoter comme dans cette magnifique vidéo flou :</p>
+<p>Et normalement ça devrait clignoter comme dans cette magnifique vidéo floue :</p>
 <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true" src="https://www.youtube-nocookie.com/embed/WaYvFZpZX_s?si=EBSovUOH9H-FfL9e" width="560" style="margin: 0 auto; display: block" frameborder="0" title="YouTube video player" height="315"></iframe>
 <p>Vous trouverez le code sur mon <a href="https://github.com/shionn/ArduinoBlogTuto/tree/master/LedBlink" target="_blank">github</a></p>
 <p>La prochaine fois nous verrons comment faire clignoter un ruban de diode WS2811 ou équivalent.</p>

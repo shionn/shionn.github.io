@@ -260,23 +260,23 @@
 			</span>
 		</div>
 	</header>
-	<section><p>Bonjour.
-Voici un petit tuto simple sur la synchronisation d'une horloge sur un ESP32 via NTP. Cela marche également sur un ESP8266.</p>
+	<section><p>Bonjour.</p>
+<p>Voici un petit tuto simple sur la synchronisation d'une horloge sur un ESP32 via NTP. Cela marche également sur un ESP8266.</p>
 <h1>Préparation</h1>
-<h2>Connexion reseau</h2>
+<h2>Connexion réseau</h2>
 <p>Je ne détaillerai pas dans ce tuto comment faire, mais vous pouvez regarder <a href="/2025/connexion-wifi-esp32">ce tuto</a></p>
 <h2>Ajout lib</h2>
 <p>Pour la synchronisation NTP il vous faut la lib <a href="https://github.com/arduino-libraries/NTPClient" target="_blank">NTPClient</a>.
-Avec plateformio vous pouvez l'ajouter comme cela dans le fichier platformio.ini.</p>
+Avec PlatformIO, vous pouvez l'ajouter comme suit dans le fichier platformio.ini :</p>
 <pre class="java"><code class="java">lib_deps = 
 	arduino-libraries/NTPClient@^3.2.1
 </code></pre>
 <h1>Code</h1>
 <p>L'utilisation de la lib est assez simple, comme le montre ce code.</p>
 <pre class="cpp"><code class="cpp">#include &lt;Arduino.h&gt;
-// pour un esp32
-#include &lt;WiFi.h&gt; 
-// pour un esp8266
+// pour un ESP32
+#include &lt;WiFi.h&gt;
+// pour un ESP8266
 #include &lt;ESP8266WiFi.h&gt;
 
 // gestion du temps
@@ -294,12 +294,12 @@ WiFiUDP udp;
 NTPClient timeClient(udp, NTP_SERVER, TIME_ZONE_IN_SECOND, REFRESH_INTERVAL_IN_MS);
 
 void setup() {
-	// connexion au reseau (non détaillé ici)
+	// connexion au réseau (non détaillé ici)
 	timeClient.begin();
 }
 
 void loop() {
-	// mettre à jour si le delai de rafraichissement est dépassé.
+	// mettre à jour si le délai de rafraîchissement est dépassé.
 	timeClient.update();
 
 	Serial.print(&quot;Heure : &quot;);
@@ -314,15 +314,15 @@ void loop() {
 	arduino-libraries/NTPClient@^3.2.1
 	jchristensen/Timezone@^1.2.5
 </code></pre>
-<p>Ensuite il faut initialisé NtpClient sur la timezone UTC. Puis definir notre time zone. Voici un exemple avec mon cas personnel c'est dire CET/CEST.</p>
+<p>Ensuite il faut initialiser NTPClient sur la timezone UTC, puis définir notre fuseau horaire. Voici un exemple avec mon cas personnel, c'est-à-dire CET/CEST.</p>
 <pre class="java"><code class="java">// autre import
 #include &lt;Timezone.h&gt;
 
 // declaration du client ntp en UTC
 NTPClient ntpClient(udp, NTP_SERVER, 0, REFRESH_INTERVAL_IN_MS);
-// CEST : commence le dernier dimanche de mars à 2 heure du matin avec un décalage de 120 minutes
+// CEST : commence le dernier dimanche de mars à 2 heures du matin avec un décalage de 120 minutes
 TimeChangeRule cest = { &quot;CEST&quot;, Last, Sun, Mar, 2, 120 };
-// CET : commence le dernier dimanche d'octobre à 3 heure du matin avec un décalage de 60 minutes
+// CET : commence le dernier dimanche d'octobre à 3 heures du matin avec un décalage de 60 minutes
 TimeChangeRule cet = { &quot;CET&quot;, Last, Sun, Oct, 3, 60 };
 // construction de notre timezone.
 Timezone timezone(cest, cet);
@@ -335,7 +335,7 @@ void loop() {
 	ntpClient.update();
 	// récupération de l'heure en UTC
 	time_t utcTime = ntpClient.getEpochTime();
-	// convertion en locale
+	// conversion en locale
 	time_t localTime = timezone.toLocal(utcTime);
 
 	Serial.print(&quot;Heure : &quot;);
