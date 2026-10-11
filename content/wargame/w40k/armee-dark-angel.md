@@ -25,7 +25,7 @@ J’ai totalement oublié comment ça s’appelle. En gros, c’est ni la Ravenw
 /pictures/w40k/dark-angel/06.jpg
 [/gallery]
 
-## Maitre de Compagnie
+## Maître de Compagnie
 
 [gallery w=120 h=200]
 /pictures/w40k/dark-angel/07.jpg
@@ -37,16 +37,16 @@ J’ai totalement oublié comment ça s’appelle. En gros, c’est ni la Ravenw
 
 ## Vétéran
 
-J’ai acheté la boîte en 2014, mais je l’ai peinte bien plus tard en 2021..
+J’ai acheté la boîte en 2014, mais je l’ai peinte bien plus tard en 2021.
 
 [gallery w=350 h=200]
 /pictures/w40k/dark-angel/12.jpg
 /pictures/w40k/dark-angel/13.jpg
 [/gallery]
 
-## Priamris d'assaut 
+## Primaris d'assaut
 
-Proviens d'une boite de depart de la V9.
+Proviens d'une boîte de départ de la V9.
 
 [gallery w=350 h=200]
 /pictures/w40k/dark-angel/33.jpg
@@ -66,7 +66,7 @@ Proviens d'une boite de depart de la V9.
 
 ## Moto d'assaut
 
-C’est une moto d’assaut que j’avais acheté à la fin des années 90. Je la jouais avec mes blood angels, je l’ai décapé, j’ai ajouté des bits de la Raven Wing puis je l’ai repeinte.
+C’est une moto d’assaut que j’avais acheté à la fin des années 90. Je la jouais avec mes blood angels, je l’ai décapité, j’ai ajouté des bits de la Raven Wing puis je l’ai repeinte.
 
 [gallery w=300 h=200]
 /pictures/w40k/dark-angel/18.jpg
@@ -87,7 +87,7 @@ Provient d’une boîte de départ de la V9.
 
 ## Land Speeder
 
-Proviens de l'abonnement hachette collection. J'ai ajouter des bits pour le rendre plus ravenwing. Je l'ai peint en 2022.
+Proviens de l'abonnement hachette collection. J'ai ajouté des bits pour le rendre plus ravenwing. Je l'ai peint en 2022.
 
 [gallery w=200 h=200]
 /pictures/w40k/dark-angel/25.jpg
@@ -105,7 +105,7 @@ Proviens de l'abonnement hachette collection. J'ai ajouter des bits pour le rend
 /pictures/w40k/dark-angel/32.jpg
 [/gallery]
 
-# Deathnwing
+# Deathwing
 
 ## Terminator
 
