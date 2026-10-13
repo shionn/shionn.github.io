@@ -20,6 +20,7 @@ https://shionn.github.io/index-18.html
 https://shionn.github.io/index-19.html
 https://shionn.github.io/index-20.html
 https://shionn.github.io/index-21.html
+https://shionn.github.io/index-22.html
 https://shionn.github.io/2023/armee-nighthaunt.html
 https://shionn.github.io/2023/armee-skaven.html
 https://shionn.github.io/2023/debian-general-help-kit.html
@@ -131,6 +132,7 @@ https://shionn.github.io/2026/gobs-shaman-et-fanatic-metal.html
 https://shionn.github.io/2026/java-linux-game-launcher.html
 https://shionn.github.io/2026/mononokee-nomnom.html
 https://shionn.github.io/2026/noir-serment-std-cavalerie.html
+https://shionn.github.io/2026/noir-serment-std-maraudeurs.html
 https://shionn.github.io/2026/noir-serment-std-monstre.html
 https://shionn.github.io/2026/nvidia-proxmox-lxc-passthrought-ollama.html
 https://shionn.github.io/2026/pattern-singleton-java.html
