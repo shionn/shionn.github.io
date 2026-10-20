@@ -112,6 +112,7 @@ https://shionn.github.io/2026/arduino-home-assistant-mqtt.html
 https://shionn.github.io/2026/armee-dark-angel.html
 https://shionn.github.io/2026/armee-nains.html
 https://shionn.github.io/2026/armee-slave-to-darkness.html
+https://shionn.github.io/2026/bc-250.html
 https://shionn.github.io/2026/bonne-annee-2026.html
 https://shionn.github.io/2026/bot-twitch-python.html
 https://shionn.github.io/2026/col-du-crane-gobs-lanciers-archers.html
@@ -160,6 +161,7 @@ https://shionn.github.io/tag/aos.html
 https://shionn.github.io/tag/apt.html
 https://shionn.github.io/tag/arduino.html
 https://shionn.github.io/tag/arm-e.html
+https://shionn.github.io/tag/bc-250.html
 https://shionn.github.io/tag/bdd.html
 https://shionn.github.io/tag/blog.html
 https://shionn.github.io/tag/bulma.html
@@ -229,6 +231,7 @@ https://shionn.github.io/tag/photo.html
 https://shionn.github.io/tag/platformio.html
 https://shionn.github.io/tag/princesse-mononokee.html
 https://shionn.github.io/tag/proxmox.html
+https://shionn.github.io/tag/ps-5.html
 https://shionn.github.io/tag/python.html
 https://shionn.github.io/tag/repaint.html
 https://shionn.github.io/tag/ressources.html
