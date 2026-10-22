@@ -150,7 +150,7 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # à adapter en fonction de votre modèle et la VRAM que vous avez.
 # Attention ici j'ai un gros cache mais n'oubliez pas que j'ai 22 Go de VRAM.
-export LLAMA_ARG_CTX_SIZE="400000"
+export LLAMA_ARG_CTX_SIZE="262144"
 
 llama serve --host 0.0.0.0 \
   --n-gpu-layers all \
@@ -176,7 +176,8 @@ systemctl enable llama-serve.service
 
 ## Télécharger un premier modèle
 
-J'aime beaucoup le modèle Ornith, il est vraiment adapté à la génération de code en agentique et n'est pas très lourd. Je prends ici la version quantisée en 8 bit mais vous pouvez prendre la version Q6_K qui est aussi très performante.
+J'aime beaucoup le modèle Ornith, il est vraiment adapté à la génération de code en agentique et n'est pas très lourd. 
+Je prends ici la version quantisée en 8 bit mais vous pouvez prendre la version Q6_K qui est aussi très performante.
 
 ~~~shell
 llama download -hf ornith-ai/Ornith-1.5-9B-GGUF:Q8_0
@@ -195,6 +196,18 @@ Vous pouvez vous connecter au port 8080 de votre serveur à l'aide de votre navi
 [gallery w=500 h=400]
 /pictures/linux/proxmox-lxc-llama/llama-interface-web.png
 [/gallery]
+
+## Ajout d'un model DFlash
+
+Un model Dflash permet d'accelerer le décodage spéculatif en generant des brouillon en amont de la deduction. 
+
+~~~shell
+# téléchargement
+llama download -hf abenzerps/Ornith-1.5-9B-DFlash-GGUF:Q8_0
+# option à ajouter 
+--spec-draft-model Ornith-1.5-9B-DFlash-Q8_0.gguf 
+--spec-type draft-dflash 
+~~~
 
 # Utilisation en agentique dans Eclipse
 
