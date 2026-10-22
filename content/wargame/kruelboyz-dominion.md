@@ -1,10 +1,10 @@
 
-Cette armée de Morruck Kruelboyz est composé de figurine de la boite Dominion, et de l'abonnement Stormbringer.
+Cette armée de Morruck Kruelboyz est composée de figurines de la boîte Dominion, et de l'abonnement Stormbringer.
 
-J'ai eu deux boites dominion, pas de ma volonté. 
-De la seconde boite je n'ai gardé que les 10 éventreurs et les 3 Embrocheurs.
-Tous le reste à été donné ou vendu.
-Pourquoi en Violet ? je ne sais pas.
+J'ai eu deux boîtes dominion, pas de ma volonté. 
+De la seconde boîte je n'ai gardé que les 10 éventreurs et les 3 Embrocheurs.
+Tout le reste a été donné ou vendu.
+Pourquoi en violet ? Je ne sais pas.
 
 # Bosskitue avec Grot Surineur
 
@@ -55,7 +55,7 @@ pictures/aos/kruelboyz/nobskur-rotetendard/3.jpg
 
 # Eventreurs
 
-Pourquoi j'ai fait les 10 de la seconde boite en rouge ? Je ne sais pas.
+Pourquoi j'ai fait les 10 de la seconde boîte en rouge ? Je ne sais pas.
 
 - Peinte en Mars 2022 pour les violets.
 - Peinte en Avril 2022 pour les rouges.
@@ -85,7 +85,7 @@ pictures/aos/kruelboyz/embrocheurs/4.jpg
 
 # Egorgeur Hobgrot
 
-J'ai pas peint ceux de la seconde boite (faut pas déconner).
+J'ai pas peint ceux de la seconde boîte (faut pas déconner).
 
 - Peinte en Mars 2022.
 
