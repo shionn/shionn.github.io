@@ -286,7 +286,7 @@ apt install nvidia-open
 <p>Je crée ici un conteneur Debian 13 avec 4 cœurs, 16 Go de RAM et 64 Go de disque.
 J'ajouterai par la suite si j'ai besoin d'en ajouter.
 Il n'est pas nécessaire d'avoir un conteneur non privilégié.</p>
-<p>Une fois votre conteneur créé, il faut partager votre carte à votre conteneur.
+<p>Une fois votre conteneur créé, il faut partager votre carte avec votre conteneur.
 Commençons par identifier les périphériques NVIDIA :</p>
 <pre class="shell"><code class="shell">root@MaxiMox:~# ls -l /dev/nvi*
 crw-rw-rw- 1 root root 195,   0 Aug 23 10:52 /dev/nvidia0
@@ -381,7 +381,7 @@ llama serve --host 0.0.0.0 \
 <li>-ctk q8_0 : Quantifier le cache K en 8 bits au lieu de fp16</li>
 <li>-ctv q8_0 : Quantifier le cache V en 8 bits au lieu de fp16</li>
 <li>--api-key-file api-key : fichier des clés d'authentification, une clé par ligne</li>
-<li>--spec-type draft-dflash : c'est pour les models draft (voir plus bas)</li>
+<li>--spec-type draft-dflash : c'est pour les modèles draft (voir plus bas)</li>
 <li>--models-preset models.ini : fichier de parametrage de models (voir plus bas)</li>
 </ul>
 <p>Puis finalisons l'installation du service</p>
