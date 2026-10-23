@@ -1,4 +1,4 @@
-Dans un [précédent article](2026/nvidia-proxmox-lxc-passthrought-ollama.html) j'expliquais comment j'avais installé Ollama et Open Webui dans un conteneur LXC sur Proxmox en faisant un passthrough de ma 2080Ti. Aujourd'hui cet article est très proche du précédent, je recommence avec [llama.cpp](https://llama.cpp/) mais cette fois-ci avec ma nouvelle 2080Ti 22 Go.
+Dans un [précédent article](2026/nvidia-proxmox-lxc-passthrought-ollama.html) j'expliquais comment j'avais installé Ollama et Open Webui dans un conteneur LXC sur Proxmox en faisant un passthrough de ma 2080Ti. Aujourd'hui, cet article est très proche du précédent, je recommence avec [llama.cpp](https://llama.cpp/) mais cette fois-ci avec ma nouvelle RTX 2080 Ti de 22 Go.
 
 # Un conteneur Proxmox LXC avec NVIDIA.
 
@@ -25,7 +25,7 @@ Cela passe les drivers nouveaux en blacklist et installe quelques paquets néces
 pve-nvidia-vgpu-helper setup
 ~~~
 
-Ensuite il ne vous reste plus qu'à installer les paquets du driver NVIDIA ensuite la méthode extrepo :
+Ensuite il ne vous reste plus qu'à installer les paquets du driver NVIDIA, puis la méthode extrepo :
 
 ~~~shell
 apt install extrepo
@@ -37,10 +37,10 @@ apt install nvidia-open
 ## Création du conteneur
 
 Je crée ici un conteneur Debian 13 avec 4 cœurs, 16 Go de RAM et 64 Go de disque.
-J'ajouterai par la suite si j'ai besoin d'en plus.
+J'ajouterai par la suite si j'ai besoin d'en ajouter.
 Il n'est pas nécessaire d'avoir un conteneur non privilégié.
 
-Une fois votre conteneur créé, il faut partager votre carte à votre conteneur.
+Une fois votre conteneur créé, il faut partager votre carte avec votre conteneur.
 Commençons par identifier les périphériques NVIDIA :
 
 ~~~shell
@@ -116,7 +116,7 @@ Ici c'est assez simple, il suffit de suivre la procédure officielle :
 curl -LsSf https://llama.app/install.sh | sh
 ~~~
 
-Comme llama s'installe dans votre home (ici je m'embête pas je le fais en root) il faut ensuite l'ajouter à votre PATH. Ajoutez cette ligne à votre .profile :
+Comme llama s'installe dans votre home (ici je m'embête pas, je le fais en root), il faut ensuite l'ajouter à votre PATH. Ajoutez cette ligne à votre .profile :
 
 ~~~shell
 export PATH="$HOME/.local/bin:$PATH"
@@ -156,6 +156,8 @@ llama serve --host 0.0.0.0 \
   --n-gpu-layers all \
   --flash-attn on \
   -ctk q8_0 -ctv q8_0 \
+  --spec-type draft-dflash \
+  --models-preset models.ini \
   --api-key-file api-key
 ~~~
 
@@ -166,6 +168,8 @@ Explications
 - -ctk q8_0 : Quantifier le cache K en 8 bits au lieu de fp16
 - -ctv q8_0 : Quantifier le cache V en 8 bits au lieu de fp16
 - --api-key-file api-key : fichier des clés d'authentification, une clé par ligne
+- --spec-type draft-dflash : c'est pour les modèles draft (voir plus bas)
+- --models-preset models.ini : fichier de parametrage de models (voir plus bas) 
 
 Puis finalisons l'installation du service
 
@@ -176,11 +180,32 @@ systemctl enable llama-serve.service
 
 ## Télécharger un premier modèle
 
-J'aime beaucoup le modèle Ornith, il est vraiment adapté à la génération de code en agentique et n'est pas très lourd. 
-Je prends ici la version quantisée en 8 bit mais vous pouvez prendre la version Q6_K qui est aussi très performante.
+J'aime beaucoup le modèle Ornith, il est vraiment adapté à la génération de code de façon agentique et n'est pas très lourd. 
+Je prends ici la version quantisée à 8 bits mais vous pouvez prendre la version Q6_K qui est aussi très performante.
 
 ~~~shell
 llama download -hf ornith-ai/Ornith-1.5-9B-GGUF:Q8_0
+~~~
+
+Pui télécharger son model draft. 
+Un modèle DFlash permet d'accélérer le décodage spéculatif en générant un brouillon en amont de la déduction. 
+Sur ce model, sans le DFlash j'ai une génération d'environ 50 tok/seconde et avec environ 70.
+
+~~~shell
+llama download -hf abenzerps/Ornith-1.5-9B-DFlash-GGUF:Q8_0
+~~~
+
+## Paramétrer les models 
+
+Chaque model peu avoir des parametres différents. C'est a cela que sert le fichiers models.ini qu'on a paramétré plus tot. En autre ca permet de definir le model draft adapté à chaque model et la taille du cache.
+
+~~~shell
+[*]
+
+[Ornith-1.5-9B-Q8_0]
+ctx-size=262144
+hf=ornith-ai/Ornith-1.5-9B-GGUF:Q8_0
+hf-repo-draft=abenzerps/Ornith-1.5-9B-DFlash-GGUF:Q8_0
 ~~~
 
 Puis relancez le service :
@@ -191,25 +216,13 @@ systemctl enable llama-serve.service
 
 ## Test
 
-Vous pouvez vous connecter au port 8080 de votre serveur à l'aide de votre navigateur et commencer à l'utiliser
+Vous pouvez vous connecter au port 8080 de votre serveur à l'aide de votre navigateur et commencer à l'utiliser.
 
 [gallery w=500 h=400]
 /pictures/linux/proxmox-lxc-llama/llama-interface-web.png
 [/gallery]
 
-## Ajout d'un model DFlash
-
-Un model Dflash permet d'accelerer le décodage spéculatif en generant des brouillon en amont de la deduction. 
-
-~~~shell
-# téléchargement
-llama download -hf abenzerps/Ornith-1.5-9B-DFlash-GGUF:Q8_0
-# option à ajouter 
---spec-draft-model Ornith-1.5-9B-DFlash-Q8_0.gguf 
---spec-type draft-dflash 
-~~~
-
-# Utilisation en agentique dans Eclipse
+# Utilisation de façon agentique dans Eclipse
 
 ## Installation de Peon AI
 

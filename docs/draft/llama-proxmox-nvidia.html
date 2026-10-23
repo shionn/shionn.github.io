@@ -248,7 +248,7 @@
 			<article>
 	<header>
 		
-		<h1><a href="draft/llama-proxmox-nvidia.html">LLama dans Proxmox avec Nvidia</a></h1>
+		<h1><a href="draft/llama-proxmox-nvidia.html">Llama dans Proxmox avec Nvidia</a></h1>
 		<div>
 			<span>Publié le 21 novembre 2026</span>
 			<span>
@@ -261,7 +261,7 @@
 			</span>
 		</div>
 	</header>
-	<section><p>Dans un <a href="2026/nvidia-proxmox-lxc-passthrought-ollama.html">précédent article</a> j'expliquais comment j'avais installé Ollama et Open Webui dans un conteneur LXC sur Proxmox en faisant un passthrough de ma 2080Ti. Aujourd'hui cet article est très proche du précédent, je recommence avec <a href="https://llama.cpp/" target="_blank">llama.cpp</a> mais cette fois-ci avec ma nouvelle 2080Ti 22 Go.</p>
+	<section><p>Dans un <a href="2026/nvidia-proxmox-lxc-passthrought-ollama.html">précédent article</a> j'expliquais comment j'avais installé Ollama et Open Webui dans un conteneur LXC sur Proxmox en faisant un passthrough de ma 2080Ti. Aujourd'hui, cet article est très proche du précédent, je recommence avec <a href="https://llama.cpp/" target="_blank">llama.cpp</a> mais cette fois-ci avec ma nouvelle RTX 2080 Ti de 22 Go.</p>
 <h1>Un conteneur Proxmox LXC avec NVIDIA.</h1>
 <h2>Installation des drivers NVIDIA.</h2>
 <p>Il faut installer les drivers NVIDIA sur votre serveur Proxmox.
@@ -276,7 +276,7 @@ Pour cela, commencez par mettre à jour votre serveur :</p>
 Cela passe les drivers nouveaux en blacklist et installe quelques paquets nécessaires.</p>
 <pre class="shell"><code class="shell">pve-nvidia-vgpu-helper setup
 </code></pre>
-<p>Ensuite il ne vous reste plus qu'à installer les paquets du driver NVIDIA ensuite la méthode extrepo :</p>
+<p>Ensuite il ne vous reste plus qu'à installer les paquets du driver NVIDIA, puis la méthode extrepo :</p>
 <pre class="shell"><code class="shell">apt install extrepo
 extrepo enable nvidia-cuda
 apt update
@@ -284,7 +284,7 @@ apt install nvidia-open
 </code></pre>
 <h2>Création du conteneur</h2>
 <p>Je crée ici un conteneur Debian 13 avec 4 cœurs, 16 Go de RAM et 64 Go de disque.
-J'ajouterai par la suite si j'ai besoin d'en plus.
+J'ajouterai par la suite si j'ai besoin d'en ajouter.
 Il n'est pas nécessaire d'avoir un conteneur non privilégié.</p>
 <p>Une fois votre conteneur créé, il faut partager votre carte à votre conteneur.
 Commençons par identifier les périphériques NVIDIA :</p>
@@ -338,7 +338,7 @@ apt install nvidia-open
 <p>Ici c'est assez simple, il suffit de suivre la procédure officielle :</p>
 <pre class="shell"><code class="shell">curl -LsSf https://llama.app/install.sh | sh
 </code></pre>
-<p>Comme llama s'installe dans votre home (ici je m'embête pas je le fais en root) il faut ensuite l'ajouter à votre PATH. Ajoutez cette ligne à votre .profile :</p>
+<p>Comme llama s'installe dans votre home (ici je m'embête pas, je le fais en root), il faut ensuite l'ajouter à votre PATH. Ajoutez cette ligne à votre .profile :</p>
 <pre class="shell"><code class="shell">export PATH=&quot;$HOME/.local/bin:$PATH&quot;
 </code></pre>
 <h2>Installation en service</h2>
@@ -363,12 +363,14 @@ export PATH=&quot;$HOME/.local/bin:$PATH&quot;
 
 # à adapter en fonction de votre modèle et la VRAM que vous avez.
 # Attention ici j'ai un gros cache mais n'oubliez pas que j'ai 22 Go de VRAM.
-export LLAMA_ARG_CTX_SIZE=&quot;400000&quot;
+export LLAMA_ARG_CTX_SIZE=&quot;262144&quot;
 
 llama serve --host 0.0.0.0 \
   --n-gpu-layers all \
   --flash-attn on \
   -ctk q8_0 -ctv q8_0 \
+  --spec-type draft-dflash \
+  --models-preset models.ini \
   --api-key-file api-key
 </code></pre>
 <p>Explications</p>
@@ -379,22 +381,39 @@ llama serve --host 0.0.0.0 \
 <li>-ctk q8_0 : Quantifier le cache K en 8 bits au lieu de fp16</li>
 <li>-ctv q8_0 : Quantifier le cache V en 8 bits au lieu de fp16</li>
 <li>--api-key-file api-key : fichier des clés d'authentification, une clé par ligne</li>
+<li>--spec-type draft-dflash : c'est pour les models draft (voir plus bas)</li>
+<li>--models-preset models.ini : fichier de parametrage de models (voir plus bas)</li>
 </ul>
 <p>Puis finalisons l'installation du service</p>
 <pre class="shell"><code class="shell">systemctl daemon-reload
 systemctl enable llama-serve.service
 </code></pre>
 <h2>Télécharger un premier modèle</h2>
-<p>J'aime beaucoup le modèle Ornith, il est vraiment adapté à la génération de code en agentique et n'est pas très lourd. Je prends ici la version quantisée en 8 bit mais vous pouvez prendre la version Q6_K qui est aussi très performante.</p>
+<p>J'aime beaucoup le modèle Ornith, il est vraiment adapté à la génération de code de façon agentique et n'est pas très lourd.
+Je prends ici la version quantisée à 8 bits mais vous pouvez prendre la version Q6_K qui est aussi très performante.</p>
 <pre class="shell"><code class="shell">llama download -hf ornith-ai/Ornith-1.5-9B-GGUF:Q8_0
+</code></pre>
+<p>Pui télécharger son model draft.
+Un modèle DFlash permet d'accélérer le décodage spéculatif en générant un brouillon en amont de la déduction.
+Sur ce model, sans le DFlash j'ai une génération d'environ 50 tok/seconde et avec environ 70.</p>
+<pre class="shell"><code class="shell">llama download -hf abenzerps/Ornith-1.5-9B-DFlash-GGUF:Q8_0
+</code></pre>
+<h2>Paramétrer les models</h2>
+<p>Chaque model peu avoir des parametres différents. C'est a cela que sert le fichiers models.ini qu'on a paramétré plus tot. En autre ca permet de definir le model draft adapté à chaque model et la taille du cache.</p>
+<pre class="shell"><code class="shell">[*]
+
+[Ornith-1.5-9B-Q8_0]
+ctx-size=262144
+hf=ornith-ai/Ornith-1.5-9B-GGUF:Q8_0
+hf-repo-draft=abenzerps/Ornith-1.5-9B-DFlash-GGUF:Q8_0
 </code></pre>
 <p>Puis relancez le service :</p>
 <pre class="shell"><code class="shell">systemctl enable llama-serve.service
 </code></pre>
 <h2>Test</h2>
-<p>Vous pouvez vous connecter au port 8080 de votre serveur à l'aide de votre navigateur et commencer à l'utiliser</p>
+<p>Vous pouvez vous connecter au port 8080 de votre serveur à l'aide de votre navigateur et commencer à l'utiliser.</p>
 <div class="gallery"><a href="/pictures/linux/proxmox-lxc-llama/llama-interface-web.png"><img src="/pictures/linux/proxmox-lxc-llama/llama-interface-web-500-400.png" width="500" height="400"></a></div>
-<h1>Utilisation en agentique dans Eclipse</h1>
+<h1>Utilisation de façon agentique dans Eclipse</h1>
 <h2>Installation de Peon AI</h2>
 <p>J'utilise l'extension PeonAI pour faire de l'agentique. Il peut s'installer via le marketplace d'Eclipse :</p>
 <div class="gallery"><a href="/pictures/linux/proxmox-lxc-llama/peon-ai-eclipse-marketplace.png"><img src="/pictures/linux/proxmox-lxc-llama/peon-ai-eclipse-marketplace.png"></a></div>
@@ -403,7 +422,7 @@ systemctl enable llama-serve.service
 <p>Puis vous pouvez l'utiliser en ouvrant la vue <code>AI Peon</code> dans <code>Window &gt; Show View &gt; Other &gt; AI</code>. Ici je lui demande de corriger cet article.</p>
 <div class="gallery"><a href="/pictures/linux/proxmox-lxc-llama/peon-ai-eclipse-utilisation.png"><img src="/pictures/linux/proxmox-lxc-llama/peon-ai-eclipse-utilisation.png"></a></div></section>
 	<footer>
-		<em class="author">par Shionn, le 21 novembre 2026.</em>
+		<em class="author">par Shionn, le 21 novembre 2026<span>, derniére modification le 23 octobre 2026</span>.</em>
 		<h2>Commentaires</h2>
 		<div class="comments"></div>
 		<h2>Ajouter un commentaire</h2>
