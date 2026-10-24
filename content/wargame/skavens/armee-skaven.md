@@ -168,6 +168,24 @@ pictures/aos/skaven/vermines-de-choc/1.jpg
 pictures/aos/skaven/vermines-de-choc/2.jpg
 [/gallery]
 
+[after date="2026/12/15"]
+Un peu plus tard j'ai également acheté 10 vermines de choc à un ami. 
+Ils étaient neuf sur grappe mais sous-couchés.
+
+Peintes en octobre 2026
+* En environ 15 heures
+
+[gallery w=400 h=200]
+pictures/aos/skaven/vermines-de-choc/10.jpg
+[/gallery]
+[gallery w=300 h=200]
+pictures/aos/skaven/vermines-de-choc/11.jpg
+pictures/aos/skaven/vermines-de-choc/12.jpg
+pictures/aos/skaven/vermines-de-choc/13.jpg
+pictures/aos/skaven/vermines-de-choc/14.jpg
+[/gallery]
+[/after]
+
 ## Rats des Clans
 Ces figurines proviennent de diverse boites.
 40 de **Île de Sang**, 20 de **Échos de la ruine** et 20 de la **Vanguard**.
