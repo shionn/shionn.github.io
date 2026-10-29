@@ -148,16 +148,12 @@ Puis créons le fichier `/root/start-llama-serv.sh` avec :
 #!/bin/bash
 export PATH="$HOME/.local/bin:$PATH"
 
-# à adapter en fonction de votre modèle et la VRAM que vous avez.
-# Attention ici j'ai un gros cache mais n'oubliez pas que j'ai 22 Go de VRAM.
-export LLAMA_ARG_CTX_SIZE="262144"
-
 llama serve --host 0.0.0.0 \
   --n-gpu-layers all \
   --flash-attn on \
   -ctk q8_0 -ctv q8_0 \
-  --spec-type draft-dflash \
   --models-preset models.ini \
+  --models-max 1 \
   --api-key-file api-key
 ~~~
 
@@ -167,45 +163,93 @@ Explications
 - --flash-attn on : nécessaire à la quantisation du cache
 - -ctk q8_0 : Quantifier le cache K en 8 bits au lieu de fp16
 - -ctv q8_0 : Quantifier le cache V en 8 bits au lieu de fp16
+- --models-max 1 : permet de limiter au maximum a 1 model charger en vram, pour que ca decharge le model courant quand on change le model
 - --api-key-file api-key : fichier des clés d'authentification, une clé par ligne
-- --spec-type draft-dflash : c'est pour les modèles draft (voir plus bas)
-- --models-preset models.ini : fichier de parametrage de models (voir plus bas) 
 
 Puis finalisons l'installation du service
+
 
 ~~~shell
 systemctl daemon-reload
 systemctl enable llama-serve.service
 ~~~
 
-## Télécharger un premier modèle
+A deplace
+- --spec-type draft-dflash : c'est pour les modèles draft (voir plus bas)
+- --models-preset models.ini : fichier de parametrage de models (voir plus bas) 
+
+# Installation des models
+
+J'ai choisi d'installer 3 modeles avec leur model de draft.
+
+- [Ornith-1.5-9B](https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF)
+- [Ornith-1.5-9B-DFlash](https://huggingface.co/abenzerps/Ornith-1.5-9B-DFlash-GGUF)
+- [Gemma-4-12B & MTP](https://huggingface.co/unsloth/gemma-4-12b-it-GGUF)
+- [NVIDIA-Nemotron-3.5-Bolt-E4B-4GB & Dflash](https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF)
 
 J'aime beaucoup le modèle Ornith, il est vraiment adapté à la génération de code de façon agentique et n'est pas très lourd. 
-Je prends ici la version quantisée à 8 bits mais vous pouvez prendre la version Q6_K qui est aussi très performante.
+
+## Téléchargement des modeles
+
+Je prends ici des models quantisé la version quantisée à 8 bits c'est a adapté en fonction de quantité de VRAM. Cependant en dessous de 4B ca halucine beaucoup. Je prend les lien download present sur les page listé précédement.
 
 ~~~shell
-llama download -hf ornith-ai/Ornith-1.5-9B-GGUF:Q8_0
+wget https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF/resolve/main/Ornith-1.5-9B-Q8_0.gguf?download=true
+wget https://huggingface.co/abenzerps/Ornith-1.5-9B-DFlash-GGUF/resolve/main/Ornith-1.5-9B-DFlash-Q8_0.gguf?download=true
+wget https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/main/gemma-4-12b-it-Q8_0.gguf?download=true
+wget https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/main/MTP/mtp-gemma-4-12b-it-Q8_0.gguf?download=true
+wget https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF/resolve/main/NVIDIA-Nemotron-3.5-Bolt-E4B-UD-Q8_K_XL.gguf?download=true
+wget https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF/resolve/main/dflash-NVIDIA-Nemotron-3.5-Bolt-E4B-Q8_0.gguf?download=true
 ~~~
 
-Pui télécharger son model draft. 
-Un modèle DFlash permet d'accélérer le décodage spéculatif en générant un brouillon en amont de la déduction. 
-Sur ce model, sans le DFlash j'ai une génération d'environ 50 tok/seconde et avec environ 70.
-
-~~~shell
-llama download -hf abenzerps/Ornith-1.5-9B-DFlash-GGUF:Q8_0
-~~~
+Puis je place chaque model dans le dossier models
 
 ## Paramétrer les models 
 
-Chaque model peu avoir des parametres différents. C'est a cela que sert le fichiers models.ini qu'on a paramétré plus tot. En autre ca permet de definir le model draft adapté à chaque model et la taille du cache.
+Chaque model peu avoir des parametres différents. C'est a cela que sert le fichiers models.ini qu'on a paramétré plus tot. En autre ca permet de definir le model draft adapté à chaque model et la taille du cache. Pour chaque model j'ai utilisé les options conseillé sur la page du model.
 
 ~~~shell
 [*]
+n-gpu-layers = 99
 
 [Ornith-1.5-9B-Q8_0]
 ctx-size=262144
-hf=ornith-ai/Ornith-1.5-9B-GGUF:Q8_0
-hf-repo-draft=abenzerps/Ornith-1.5-9B-DFlash-GGUF:Q8_0
+model=models/Ornith-1.5-9B-Q8_0.gguf
+model-draft=models/Ornith-1.5-9B-DFlash-Q8_0.gguf
+spec-type=draft-dflash
+spec-draft-n-max=8
+temp=0.6
+top-p=0.95
+top-k=20
+min-p=0.0
+presence-penalty=0.0
+repeat-penalty=1.0
+
+[Nemotron-3.5-Bolt-E4B-Q8]
+model = models/NVIDIA-Nemotron-3.5-Bolt-E4B-UD-Q8_K_XL.gguf
+model-draft = models/dflash-NVIDIA-Nemotron-3.5-Bolt-E4B-Q8_0.gguf
+spec-type = draft-dflash
+spec-draft-n-max = 7
+ctx-size = 65536
+jinja = true
+temp = 1.0
+top-p = 0.95
+top-k = 64
+min-p = 0.0
+presence-penalty = 0.0
+repeat-penalty = 1.0
+
+[Gemmai-4-12B-Q8]
+ctx-size=262144
+model = models/gemma-4-12b-it-Q8_0.gguf
+model-draft = models/mtp-gemma-4-12b-it-Q8_0.gguf
+spec-type = draft-mtp
+# par defaut 2
+spec-draft-n-max = 3
+jinja = true
+temp = 1.0
+top-p = 0.95
+top-k = 64
 ~~~
 
 Puis relancez le service :
