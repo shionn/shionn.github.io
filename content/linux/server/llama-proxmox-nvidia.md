@@ -19,7 +19,7 @@ apt install pve-nvidia-vgpu-helper nvtop pve-headers build-essential
 ~~~
 
 Ensuite Proxmox propose un outil pour préconfigurer votre système à l'installation des drivers NVIDIA.
-Cela passe les drivers nouveaux en blacklist et installe quelques paquets nécessaires.
+Cela met les drivers nouveaux en blacklist et installe quelques paquets nécessaires.
 
 ~~~shell
 pve-nvidia-vgpu-helper setup
@@ -37,7 +37,7 @@ apt install nvidia-open
 ## Création du conteneur
 
 Je crée ici un conteneur Debian 13 avec 4 cœurs, 16 Go de RAM et 64 Go de disque.
-J'ajouterai par la suite si j'ai besoin d'en ajouter.
+J'ajouterai plus tard si nécessaire.
 Il n'est pas nécessaire d'avoir un conteneur non privilégié.
 
 Une fois votre conteneur créé, il faut partager votre carte avec votre conteneur.
@@ -57,7 +57,7 @@ cr-------- 1 root root 234, 1 Aug 23 10:52 nvidia-cap1
 cr--r--r-- 1 root root 234, 2 Aug 23 10:52 nvidia-cap2
 ~~~
 
-Il faut passthrough tous ces dossiers au conteneur. Cela se fait dans l'interface de votre Proxmox.
+Il faut partager tous ces dossiers au conteneur. Cela se fait dans l'interface de votre Proxmox.
 
 [gallery]
 /pictures/linux/proxmox-lxc-nvidia/add-devices-menu.jpg
@@ -81,7 +81,7 @@ apt update
 apt install nvidia-open
 ~~~
 
-Puis faites un nvidia-smi et constatez la présence de votre carte :
+Puis, faites un `nvidia-smi` et constatez la présence de votre carte :
 
 ~~~shell
 $ nvidia-smi
@@ -116,7 +116,7 @@ Ici c'est assez simple, il suffit de suivre la procédure officielle :
 curl -LsSf https://llama.app/install.sh | sh
 ~~~
 
-Comme llama s'installe dans votre home (ici je m'embête pas, je le fais en root), il faut ensuite l'ajouter à votre PATH. Ajoutez cette ligne à votre .profile :
+Comme llama s'installe dans votre répertoire personnel (ici, je l'installe en root), il faut ensuite l'ajouter à votre PATH. Ajoutez cette ligne à votre .profile :
 
 ~~~shell
 export PATH="$HOME/.local/bin:$PATH"
@@ -163,7 +163,7 @@ Explications
 - --flash-attn on : nécessaire à la quantisation du cache
 - -ctk q8_0 : Quantifier le cache K en 8 bits au lieu de fp16
 - -ctv q8_0 : Quantifier le cache V en 8 bits au lieu de fp16
-- --models-max 1 : permet de limiter au maximum a 1 model charger en vram, pour que ca decharge le model courant quand on change le model
+permet de limiter à un maximum de 1 modèle chargé en VRAM, afin que le modèle courant soit déchargé lors d'un changement de modèle.
 - --api-key-file api-key : fichier des clés d'authentification, une clé par ligne
 
 Puis finalisons l'installation du service
@@ -174,13 +174,13 @@ systemctl daemon-reload
 systemctl enable llama-serve.service
 ~~~
 
-A deplace
+À déplacer
 - --spec-type draft-dflash : c'est pour les modèles draft (voir plus bas)
-- --models-preset models.ini : fichier de parametrage de models (voir plus bas) 
+- --models-preset models.ini : fichier de paramétrage de modèles (voir plus bas)
 
-# Installation des models
+# Installation des modèles
 
-J'ai choisi d'installer 3 modeles avec leur model de draft.
+J'ai choisi d'installer 3 modèles avec leurs modèles de draft.
 
 - [Ornith-1.5-9B](https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF)
 - [Ornith-1.5-9B-DFlash](https://huggingface.co/abenzerps/Ornith-1.5-9B-DFlash-GGUF)
@@ -189,9 +189,9 @@ J'ai choisi d'installer 3 modeles avec leur model de draft.
 
 J'aime beaucoup le modèle Ornith, il est vraiment adapté à la génération de code de façon agentique et n'est pas très lourd. 
 
-## Téléchargement des modeles
+## Téléchargement des modèles
 
-Je prends ici des models quantisé la version quantisée à 8 bits c'est a adapté en fonction de quantité de VRAM. Cependant en dessous de 4B ca halucine beaucoup. Je prend les lien download present sur les page listé précédement.
+Je prends ici des modèles quantifiés. La version quantifiée à 8 bits est adaptée en fonction de la quantité de VRAM. Cependant, en dessous de 4B, cela hallucine beaucoup. Je prends les liens de téléchargement présents sur les pages listées précédemment.
 
 ~~~shell
 wget https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF/resolve/main/Ornith-1.5-9B-Q8_0.gguf?download=true
@@ -202,11 +202,11 @@ wget https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF/resolve/ma
 wget https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF/resolve/main/dflash-NVIDIA-Nemotron-3.5-Bolt-E4B-Q8_0.gguf?download=true
 ~~~
 
-Puis je place chaque model dans le dossier models
+Puis je place chaque modèle dans le dossier models
 
-## Paramétrer les models 
+## Paramétrer les modèles
 
-Chaque model peu avoir des parametres différents. C'est a cela que sert le fichiers models.ini qu'on a paramétré plus tot. En autre ca permet de definir le model draft adapté à chaque model et la taille du cache. Pour chaque model j'ai utilisé les options conseillé sur la page du model.
+Chaque modèle peut avoir des paramètres différents. C'est à cela que sert le fichier models.ini que nous avons paramétré plus tôt. En outre, cela permet de définir le modèle draft adapté à chaque modèle et la taille du cache. Pour chaque modèle, j'ai utilisé les options conseillées sur la page du modèle.
 
 ~~~shell
 [*]

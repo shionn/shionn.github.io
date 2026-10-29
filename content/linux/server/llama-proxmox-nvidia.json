@@ -1,7 +1,7 @@
 {
 	"type": "post",
 	"date": "2026/11/21",
-	"title": "Llama dans Proxmox avec Nvidia",
+	"title": "Llama dans Proxmox avec NVIDIA",
 	"tags": ["Linux", "Proxmox", "Debian", "Server", "Nvidia", "Llama"],
 	"category": "Linux",
 	"published": true,

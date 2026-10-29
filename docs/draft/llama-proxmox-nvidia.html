@@ -248,7 +248,7 @@
 			<article>
 	<header>
 		
-		<h1><a href="draft/llama-proxmox-nvidia.html">Llama dans Proxmox avec Nvidia</a></h1>
+		<h1><a href="draft/llama-proxmox-nvidia.html">Llama dans Proxmox avec NVIDIA</a></h1>
 		<div>
 			<span>Publié le 21 novembre 2026</span>
 			<span>
@@ -273,7 +273,7 @@ Pour cela, commencez par mettre à jour votre serveur :</p>
 <pre class="shell"><code class="shell">apt install pve-nvidia-vgpu-helper nvtop pve-headers build-essential
 </code></pre>
 <p>Ensuite Proxmox propose un outil pour préconfigurer votre système à l'installation des drivers NVIDIA.
-Cela passe les drivers nouveaux en blacklist et installe quelques paquets nécessaires.</p>
+Cela met les drivers nouveaux en blacklist et installe quelques paquets nécessaires.</p>
 <pre class="shell"><code class="shell">pve-nvidia-vgpu-helper setup
 </code></pre>
 <p>Ensuite il ne vous reste plus qu'à installer les paquets du driver NVIDIA, puis la méthode extrepo :</p>
@@ -284,7 +284,7 @@ apt install nvidia-open
 </code></pre>
 <h2>Création du conteneur</h2>
 <p>Je crée ici un conteneur Debian 13 avec 4 cœurs, 16 Go de RAM et 64 Go de disque.
-J'ajouterai par la suite si j'ai besoin d'en ajouter.
+J'ajouterai plus tard si nécessaire.
 Il n'est pas nécessaire d'avoir un conteneur non privilégié.</p>
 <p>Une fois votre conteneur créé, il faut partager votre carte avec votre conteneur.
 Commençons par identifier les périphériques NVIDIA :</p>
@@ -300,7 +300,7 @@ total 0
 cr-------- 1 root root 234, 1 Aug 23 10:52 nvidia-cap1
 cr--r--r-- 1 root root 234, 2 Aug 23 10:52 nvidia-cap2
 </code></pre>
-<p>Il faut passthrough tous ces dossiers au conteneur. Cela se fait dans l'interface de votre Proxmox.</p>
+<p>Il faut partager tous ces dossiers au conteneur. Cela se fait dans l'interface de votre Proxmox.</p>
 <div class="gallery"><a href="/pictures/linux/proxmox-lxc-nvidia/add-devices-menu.jpg"><img src="/pictures/linux/proxmox-lxc-nvidia/add-devices-menu.jpg"></a><a href="/pictures/linux/proxmox-lxc-nvidia/add-devices.jpg"><img src="/pictures/linux/proxmox-lxc-nvidia/add-devices.jpg"></a></div>
 <p>Et vous devriez avoir quelque chose comme ça :</p>
 <div class="gallery"><a href="/pictures/linux/proxmox-lxc-nvidia/devices-list.jpg"><img src="/pictures/linux/proxmox-lxc-nvidia/devices-list.jpg"></a></div>
@@ -311,7 +311,7 @@ extrepo enable nvidia-cuda
 apt update
 apt install nvidia-open
 </code></pre>
-<p>Puis faites un nvidia-smi et constatez la présence de votre carte :</p>
+<p>Puis, faites un <code>nvidia-smi</code> et constatez la présence de votre carte :</p>
 <pre class="shell"><code class="shell">$ nvidia-smi
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 615.71.09              Driver Version: 615.71.09      CUDA Version: 13.4     |
@@ -338,7 +338,7 @@ apt install nvidia-open
 <p>Ici c'est assez simple, il suffit de suivre la procédure officielle :</p>
 <pre class="shell"><code class="shell">curl -LsSf https://llama.app/install.sh | sh
 </code></pre>
-<p>Comme llama s'installe dans votre home (ici je m'embête pas, je le fais en root), il faut ensuite l'ajouter à votre PATH. Ajoutez cette ligne à votre .profile :</p>
+<p>Comme llama s'installe dans votre répertoire personnel (ici, je l'installe en root), il faut ensuite l'ajouter à votre PATH. Ajoutez cette ligne à votre .profile :</p>
 <pre class="shell"><code class="shell">export PATH=&quot;$HOME/.local/bin:$PATH&quot;
 </code></pre>
 <h2>Installation en service</h2>
@@ -361,16 +361,12 @@ WantedBy=multi-user.target
 <pre class="shell"><code class="shell">#!/bin/bash
 export PATH=&quot;$HOME/.local/bin:$PATH&quot;
 
-# à adapter en fonction de votre modèle et la VRAM que vous avez.
-# Attention ici j'ai un gros cache mais n'oubliez pas que j'ai 22 Go de VRAM.
-export LLAMA_ARG_CTX_SIZE=&quot;262144&quot;
-
 llama serve --host 0.0.0.0 \
   --n-gpu-layers all \
   --flash-attn on \
   -ctk q8_0 -ctv q8_0 \
-  --spec-type draft-dflash \
   --models-preset models.ini \
+  --models-max 1 \
   --api-key-file api-key
 </code></pre>
 <p>Explications</p>
@@ -379,33 +375,81 @@ llama serve --host 0.0.0.0 \
 <li>--n-gpu-layers all : Utiliser au maximum les GPUs</li>
 <li>--flash-attn on : nécessaire à la quantisation du cache</li>
 <li>-ctk q8_0 : Quantifier le cache K en 8 bits au lieu de fp16</li>
-<li>-ctv q8_0 : Quantifier le cache V en 8 bits au lieu de fp16</li>
+<li>-ctv q8_0 : Quantifier le cache V en 8 bits au lieu de fp16
+permet de limiter à un maximum de 1 modèle chargé en VRAM, afin que le modèle courant soit déchargé lors d'un changement de modèle.</li>
 <li>--api-key-file api-key : fichier des clés d'authentification, une clé par ligne</li>
-<li>--spec-type draft-dflash : c'est pour les modèles draft (voir plus bas)</li>
-<li>--models-preset models.ini : fichier de parametrage de models (voir plus bas)</li>
 </ul>
 <p>Puis finalisons l'installation du service</p>
 <pre class="shell"><code class="shell">systemctl daemon-reload
 systemctl enable llama-serve.service
 </code></pre>
-<h2>Télécharger un premier modèle</h2>
-<p>J'aime beaucoup le modèle Ornith, il est vraiment adapté à la génération de code de façon agentique et n'est pas très lourd.
-Je prends ici la version quantisée à 8 bits mais vous pouvez prendre la version Q6_K qui est aussi très performante.</p>
-<pre class="shell"><code class="shell">llama download -hf ornith-ai/Ornith-1.5-9B-GGUF:Q8_0
+<p>À déplacer</p>
+<ul>
+<li>--spec-type draft-dflash : c'est pour les modèles draft (voir plus bas)</li>
+<li>--models-preset models.ini : fichier de paramétrage de modèles (voir plus bas)</li>
+</ul>
+<h1>Installation des modèles</h1>
+<p>J'ai choisi d'installer 3 modèles avec leurs modèles de draft.</p>
+<ul>
+<li><a href="https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF" target="_blank">Ornith-1.5-9B</a></li>
+<li><a href="https://huggingface.co/abenzerps/Ornith-1.5-9B-DFlash-GGUF" target="_blank">Ornith-1.5-9B-DFlash</a></li>
+<li><a href="https://huggingface.co/unsloth/gemma-4-12b-it-GGUF" target="_blank">Gemma-4-12B &amp; MTP</a></li>
+<li><a href="https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF" target="_blank">NVIDIA-Nemotron-3.5-Bolt-E4B-4GB &amp; Dflash</a></li>
+</ul>
+<p>J'aime beaucoup le modèle Ornith, il est vraiment adapté à la génération de code de façon agentique et n'est pas très lourd.</p>
+<h2>Téléchargement des modèles</h2>
+<p>Je prends ici des modèles quantifiés. La version quantifiée à 8 bits est adaptée en fonction de la quantité de VRAM. Cependant, en dessous de 4B, cela hallucine beaucoup. Je prends les liens de téléchargement présents sur les pages listées précédemment.</p>
+<pre class="shell"><code class="shell">wget https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF/resolve/main/Ornith-1.5-9B-Q8_0.gguf?download=true
+wget https://huggingface.co/abenzerps/Ornith-1.5-9B-DFlash-GGUF/resolve/main/Ornith-1.5-9B-DFlash-Q8_0.gguf?download=true
+wget https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/main/gemma-4-12b-it-Q8_0.gguf?download=true
+wget https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/main/MTP/mtp-gemma-4-12b-it-Q8_0.gguf?download=true
+wget https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF/resolve/main/NVIDIA-Nemotron-3.5-Bolt-E4B-UD-Q8_K_XL.gguf?download=true
+wget https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF/resolve/main/dflash-NVIDIA-Nemotron-3.5-Bolt-E4B-Q8_0.gguf?download=true
 </code></pre>
-<p>Pui télécharger son model draft.
-Un modèle DFlash permet d'accélérer le décodage spéculatif en générant un brouillon en amont de la déduction.
-Sur ce model, sans le DFlash j'ai une génération d'environ 50 tok/seconde et avec environ 70.</p>
-<pre class="shell"><code class="shell">llama download -hf abenzerps/Ornith-1.5-9B-DFlash-GGUF:Q8_0
-</code></pre>
-<h2>Paramétrer les models</h2>
-<p>Chaque model peu avoir des parametres différents. C'est a cela que sert le fichiers models.ini qu'on a paramétré plus tot. En autre ca permet de definir le model draft adapté à chaque model et la taille du cache.</p>
+<p>Puis je place chaque modèle dans le dossier models</p>
+<h2>Paramétrer les modèles</h2>
+<p>Chaque modèle peut avoir des paramètres différents. C'est à cela que sert le fichier models.ini que nous avons paramétré plus tôt. En outre, cela permet de définir le modèle draft adapté à chaque modèle et la taille du cache. Pour chaque modèle, j'ai utilisé les options conseillées sur la page du modèle.</p>
 <pre class="shell"><code class="shell">[*]
+n-gpu-layers = 99
 
 [Ornith-1.5-9B-Q8_0]
 ctx-size=262144
-hf=ornith-ai/Ornith-1.5-9B-GGUF:Q8_0
-hf-repo-draft=abenzerps/Ornith-1.5-9B-DFlash-GGUF:Q8_0
+model=models/Ornith-1.5-9B-Q8_0.gguf
+model-draft=models/Ornith-1.5-9B-DFlash-Q8_0.gguf
+spec-type=draft-dflash
+spec-draft-n-max=8
+temp=0.6
+top-p=0.95
+top-k=20
+min-p=0.0
+presence-penalty=0.0
+repeat-penalty=1.0
+
+[Nemotron-3.5-Bolt-E4B-Q8]
+model = models/NVIDIA-Nemotron-3.5-Bolt-E4B-UD-Q8_K_XL.gguf
+model-draft = models/dflash-NVIDIA-Nemotron-3.5-Bolt-E4B-Q8_0.gguf
+spec-type = draft-dflash
+spec-draft-n-max = 7
+ctx-size = 65536
+jinja = true
+temp = 1.0
+top-p = 0.95
+top-k = 64
+min-p = 0.0
+presence-penalty = 0.0
+repeat-penalty = 1.0
+
+[Gemmai-4-12B-Q8]
+ctx-size=262144
+model = models/gemma-4-12b-it-Q8_0.gguf
+model-draft = models/mtp-gemma-4-12b-it-Q8_0.gguf
+spec-type = draft-mtp
+# par defaut 2
+spec-draft-n-max = 3
+jinja = true
+temp = 1.0
+top-p = 0.95
+top-k = 64
 </code></pre>
 <p>Puis relancez le service :</p>
 <pre class="shell"><code class="shell">systemctl enable llama-serve.service

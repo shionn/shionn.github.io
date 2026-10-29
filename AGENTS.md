@@ -33,5 +33,9 @@ Conséquences :
 - Ne **pas** vérifier qu'une cible de lien `[texte](chemin.html)` pointe vers un fichier `.html` présent sur le disque : c'est le compilateur qui le crée. Un lien vers `content/<année>/...html` qui n'existe pas encore à la recherche est **normal et correct** — ne pas le modifier ni le signaler.
 - Se limiter aux corrections demandées (fautes de français, titre dans le `.json`, date dans `updated`). Ne pas explorer le site pour « trouver » des pages manquantes.
 
+## Génération du blog
+
+Après avoir corrigé les fautes de français d'un article, générer le blog avec la commande `mvn exec:java` (dans le projet `shionn.github.io`). Cette commande compile les `.md` en `.html` dans `content/<année de l'article>/` et met à jour les fichiers associés (`.json`, etc.). Vérifier que la génération se termine sans erreur.
+
 
 
