@@ -1,19 +1,19 @@
-Voici ma petite liste de truc et astuce sur Debian.
+Voici ma petite liste de trucs et astuces sur Debian.
 
 # Audio / Vidéo
 
 ## Audio qui crack
-Je n'ai pas trouver de meileurs solution. Mais relancer le serveur pipewire resout le probleme. 
+Je n'ai pas trouvé de meilleures solutions. Mais relancer le serveur pipewire résout le problème.
 
 ~~~shell
 systemctl --user restart pipewire.service
 ~~~
 
-## Firefox ne lis pas certaine Video (H.264)
+## Firefox ne lit pas certaines vidéos (H.264)
 
-Si vous avez des erreurs sur firefox esr avec des choses genre "mime type not supported". C'est probablement que le décodage Firefox H.264 est désactivé sur le build de firefox-esr de debian. 
+Si vous avez des erreurs sur Firefox ESR avec des choses genre "mime type not supported". C'est probablement que le décodage Firefox H.264 est désactivé sur le build de firefox-esr de Debian.
 
-Dans `about:config` chercher `media.gmp-gmpopenh264.enabled` et passer à `true`.
+Dans `about:config` cherchez `media.gmp-gmpopenh264.enabled` et passez à `true`.
 
 ## MakeMkv
 
@@ -34,16 +34,16 @@ apt install mesa-va-drivers
 ~~~
 
 
-## Youtube Downloader une video
+## Youtube Downloader, une vidéo
 
-En discutant en vocale sur le didi de Steve, j'ai decouvert ce petit outil.
+En discutant en vocal sur le didi de Steve, j'ai découvert ce petit outil.
 
 ~~~shell
 sudo apt install yt-dlp
 yt-dlp -f 'bestvideo[codec^=av01]/bestvideo+bestaudio' --merge-output-format mkv <URL>
 ~~~
 
-On peu aller tres loin, pour telecharger toutes les musiques d'une playlist et en plus découper chaque video selon le chapitrage avec les mignatures  : 
+On peut aller très loin, pour télécharger toutes les musiques d'une playlist et en plus découper chaque vidéo selon le chapitrage avec les miniatures :
 
 ~~~shell
 yt-dlp --split-chapters -f 'bestaudio' --output '%(playlist_title)s/sources/%(title)s.%(ext)s' --output chapter:'%(playlist_title)s/%(title)s/%(section_number)02d - %(section_title)s.%(ext)s' --restrict-filenames --write-thumbnail --output thumbnail:'%(playlist_title)s/%(title)s/00 - %(title)s.%(ext)s' <URL en /playlist?list=>
@@ -53,7 +53,7 @@ yt-dlp --split-chapters -f 'bestaudio' --output '%(playlist_title)s/sources/%(ti
 # Cron
 ## Cron au boot
 
-Créer un dossier `/etc/crton.reboot` puis ajouter cela au fichier `/etc/crontab`
+Créer un dossier `/etc/cron.reboot` puis ajouter cela au fichier `/etc/crontab`
 
 ~~~shell
 @reboot		root	cd / && run-parts --report /etc/cron.reboot
@@ -76,11 +76,11 @@ export WEBKIT_DISABLE_COMPOSITING_MODE=1
 
 ## Les hauteur de ligne qui change au scroll
 
-C'est généralement liè à un porbleme de caractere special mal affiché qui flingue les hauteurs de ligne.
+C'est généralement lié à un problème de caractère spécial mal affiché qui gâche les hauteurs de ligne.
 
 ## Créer un raccourci
 
-Ajouter un fichier `/usr/share/application/eclipse.desktop`. ou dans `~/.local/share/applications`
+Ajouter un fichier `/usr/share/applications/eclipse.desktop` ou dans `~/.local/share/applications`
 
 ~~~shell
 [Desktop Entry]
@@ -99,6 +99,21 @@ StartupNotify=true
 ~~~
 
 # File system
+
+## NFS
+
+~~~shell
+<IP_SERVEUR>:<PATH_SERVEUR>	<PATH_MONTAGE>		nfs	defaults,user,x-systemd.automount,_netdev,noauto	0	0
+~~~
+### Changer le group du user
+
+Dans mon cas je veux que quand je crée un fichier je le crée avec le group user (100) et non le group identique à mon login.
+Ca me permet d'être à la parité du fonctionnement de mon serveur.
+Pour cela il me suffit de lancer cette commande :
+
+~~~shell
+sudo usermod -g 100 shionn
+~~~
 
 ## Samba et fstab
 
@@ -155,14 +170,14 @@ systemctl start syncthing@shionn.service
 
 ## NFS et fstab
 
-Installer nfs-common, `sudo apt install nfs-common`. Puis editer votre fstab :
+Installer nfs-common, `sudo apt install nfs-common`. Puis éditer votre fstab :
 
 ~~~shell
 <IP_SERVEUR>:/<PARTAGE>/ /<POINT_MONTAGE>    nfs    defaults    0    0  
 ~~~
 
-Il faut que les identifiant utilisateur/group entre client et serveur correspondent. 
-Je veux dans mon cas qu'un nouveau fichier appartienent aux group `users` pour cela je dois faire. 
+Il faut que les identifiants utilisateur/group correspondent entre client et serveur.
+Je veux dans mon cas qu'un nouveau fichier appartienne au group `users` ; pour cela je dois faire :
 
 ~~~shell
 sudo usermod -g users <USER>
@@ -172,8 +187,8 @@ sudo usermod -g users <USER>
 ## ALT-F5 qui fait nimp
 Dans dconf-editor modifier la clef `unmaximise` dans le dossier : `org.gnome.desktop.wm.keybindings`
 
-## Desactiver pasword apres sleep
-Installer dconf-editor modifier la clef `/org/gnome/desktop/screensaver lock-enable` à false
+## Désactiver le mot de passe après sleep
+Installer dconf-editor, modifier la clef `/org/gnome/desktop/screensaver lock-enable` à false
 
 ## Outils de visualisation
 - evince : viewer de PDF
@@ -184,14 +199,14 @@ Installer dconf-editor modifier la clef `/org/gnome/desktop/screensaver lock-ena
 sudo apt install evince f3d loupe
 ~~~
 
-## Le pc ne se met pas en veille
-Généralement un processus l'en empêche. J'ai trouvé cette astuce sur Reddit. Pour connaître ce processus vous pouvez entrer cette commande : 
+## Le PC ne se met pas en veille
+Généralement un processus l'en empêche. J'ai trouvé cette astuce sur Reddit. Pour connaître ce processus, vous pouvez entrer cette commande :
 
 ~~~shell
 dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager org.gnome.SessionManager.GetInhibitors
 ~~~
 
-Cela vous donnera une réponse comme cela : 
+Cela vous donnera une réponse comme celle-ci :
 
 ~~~shell
 method return time=1728730333.701330 sender=:1.28 -> destination=:1.303 serial=2481 reply_serial=2
@@ -200,7 +215,7 @@ method return time=1728730333.701330 sender=:1.28 -> destination=:1.303 serial=2
    ]
 ~~~
 
-Ensuite on reprend le __/org/gnome/SessionManager/Inhibitor272__ qu'on met dans cette commande :
+Ensuite on reprend le `_/org/gnome/SessionManager/Inhibitor272_` qu'on met dans cette commande :
 
 ~~~shell
 dbus-send --print-reply --dest=org.gnome.SessionManager /org/gnome/SessionManager/Inhibitor272 org.gnome.SessionManager.Inhibitor.GetAppId
@@ -216,15 +231,15 @@ method return time=1728730410.581488 sender=:1.28 -> destination=:1.304 serial=2
 # Hyprland
 ## Lancer synaptic
 
-~~~sheel
+~~~shell
 xhost local:root
 synaptic-pkexec
 ~~~
 
 # Impression 3D
-## Creality print
+## Creality Print
 
-Télécharger la derniere version en flatpak de créalityprint sur leurs [github](https://github.com/CrealityOfficial/CrealityPrint).  
+Télécharger la dernière version en flatpak de Creality Print sur leurs [github](https://github.com/CrealityOfficial/CrealityPrint).
 
 ~~~shell
 sudo apt install flatpak
@@ -233,7 +248,7 @@ flatpak install <CrealityPrint-Linux-flatpak_V6.3.0-Release_x86_64>.flatpak
 flatpak run io.github.crealityofficial.CrealityPrint
 ~~~
 
-à traiter pour Hyprland : 
+à traiter pour Hyprland :
 
 ~~~
 Note that the directories
@@ -244,9 +259,9 @@ Note that the directories
 are not in the search path set by the XDG_DATA_DIRS environment variable, so applications installed by Flatpak may not appear on your desktop until the session is restarted.
 ~~~
 
-# Jeux
+## Jeux
 
-Voir ma page [dédié au jeux](2025/debian-gaming-help-kit.html)
+Voir ma page [dédiée aux jeux](2025/debian-gaming-help-kit.html)
 
 
 # Journalctl
@@ -258,7 +273,7 @@ J'ai un spam de ce log.
 i2c-designware-pci 0000:09:00.3: Refused to change power state from D0 to D3hot
 ~~~
 
-Il semblerai qu'ajouter l'option suivante la grub resolve le probleme : 
+Il semblerait qu'ajouter l'option suivante dans grub résolve le problème :
 
 ~~~shell
 GRUB_CMDLINE_LINUX="pcie_port_pm=off"
@@ -276,8 +291,8 @@ sudo smartctl -a /dev/nvme0 | grep -i progress
 sudo smartctl -a /dev/nvme0
 ~~~
 
-# Utilitaire
-## Compression multitache
+# Utilitaires
+## Compression multithread
 
 ~~~shell
 echo "mktargz() {
@@ -295,13 +310,13 @@ echo "mktargz() {
 
 # Vim
 
-Configuration de vim, désactiver le mode de séléction à la souris : 
+Configuration de vim, désactiver le mode de sélection à la souris :
 
 ~~~shell
 echo "set mouse-=a" >> ~/.vimrc
 ~~~
 
-Ajouter la coloration syntaxic : 
+Ajouter la coloration syntaxique :
 
 ~~~shell
 echo "syntax on" >> ~/.vimrc
@@ -309,13 +324,13 @@ echo "syntax on" >> ~/.vimrc
 
 
 # Wayland
-## Executer un truc en XWayland : 
+## Exécuter un truc en XWayland :
 
-~~~shell 
+~~~shell
 GDK_BACKEND=x11 <command>
 ~~~
 
-# Seveur
+# Serveur
 ## Initialisation
 
 Sur chacun de mes serveurs je commence par faire cela :
@@ -330,14 +345,14 @@ echo "alias la=\"ls -al\"" >> ~/.bashrc
 ~~~
 
 ## Tomcat
-Quand je veux déployé dans ROOT je dois changer les droit d'accès dans le dossier ROOT de `/var/lib/tomcat10/webapps`
+Quand je veux déployer dans ROOT je dois changer les droits d'accès dans le dossier ROOT de `/var/lib/tomcat10/webapps`
 
 Pour répondre sur 80 dans le fichier : `/etc/tomcat10/server.xml`
 
-## Tuto file serveur sur promox
-J'aime pas les tuto youtube mais celui la est bien [MRP](https://youtu.be/I7nfSCNKeck?si=uNb3HVNwdK8xJMQQ)
+## Tuto serveur sur Proxmox
+J'aime pas les tutos YouTube mais celui-là est bien [MRP](https://youtu.be/I7nfSCNKeck?si=uNb3HVNwdK8xJMQQ)
 
-## hdparm spindown des disks :
+## hdparm spindown des disques :
 
 - [source](https://wiki.archlinux.org/title/Hdparm)
 - [bonne source](https://www.thelinuxvault.net/blog/linux-hdd-sleep-how-to-enable-and-disable-with-hdparm/)
@@ -347,11 +362,11 @@ J'aime pas les tuto youtube mais celui la est bien [MRP](https://youtu.be/I7nfSC
 ACTION=="add|change", KERNEL=="sd[a-z]", ATTRS{queue/rotational}=="1", RUN+="/usr/bin/hdparm -B 127 /dev/%k"
 ~~~
 
-## Connaitre quel processus ecoute sur quel port
+## Connaitre quel processus écoute sur quel port
 
-on peu utilisé netstat : `apt instal` netstat puis `netstat -ltnp`
+on peut utiliser netstat : `apt install` netstat puis `netstat -ltnp`
 
-## Creer un service
+## Créer un service
 
 Par exemple : **/etc/systemd/system/MonService.service**
 
