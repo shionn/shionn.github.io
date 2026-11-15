@@ -118,6 +118,7 @@ https://shionn.github.io/2026/bot-twitch-python.html
 https://shionn.github.io/2026/col-du-crane-gobs-lanciers-archers.html
 https://shionn.github.io/2026/col-du-crane-nains-artillerie.html
 https://shionn.github.io/2026/col-du-crane-nains-guerriers.html
+https://shionn.github.io/2026/col-du-crane-nains-heros.html
 https://shionn.github.io/2026/col-du-crane-nains-mineurs.html
 https://shionn.github.io/2026/decor-mortal-realms.html
 https://shionn.github.io/2026/descent-act-1.html
@@ -130,6 +131,7 @@ https://shionn.github.io/2026/gloomspite-louftuaire-mauvaise-lune.html
 https://shionn.github.io/2026/gloomspite-sournifleur.html
 https://shionn.github.io/2026/gloomspite-squig-herd.html
 https://shionn.github.io/2026/gobs-shaman-et-fanatic-metal.html
+https://shionn.github.io/2026/griffarque-ronge-bete.html
 https://shionn.github.io/2026/java-linux-game-launcher.html
 https://shionn.github.io/2026/mononokee-nomnom.html
 https://shionn.github.io/2026/noir-serment-std-cavalerie.html
