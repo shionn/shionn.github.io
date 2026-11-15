@@ -1,11 +1,11 @@
 
-Je vous présente aujourd'hui comment faire un paquet pour debian. C'est ainci que je m'y prend pour le projet [Debian Orphanage](2026/orphanage.html) qu'on a vu précédement. 
+Je vous présente aujourd'hui comment faire un paquet pour Debian. C'est ainsi que je m'y prends pour le projet [Debian Orphanage](2026/orphanage.html) qu'on a vu précédemment. 
 
 # Préparer la structure de dossier
 
-Il faut creer un dossier, ce dossier correspondra au `/` quand le paquet sera installer sur le pc. A ce dossier il faut ajouter un fichier DEBIAN/control qu'on verra plus tard. On peu aussi adjoindre un fichier copyright. Prenons en exemple le cas de de mon paquet pour godot 4. 
+Il faut créer un dossier, ce dossier correspondra au `/` quand le paquet sera installé sur l'PC. À ce dossier il faut ajouter un fichier DEBIAN/control qu'on verra plus tard. On peut aussi adjoindre un fichier copyright. Prenons en exemple le cas de mon paquet pour Godot 4. 
 
-~~~bash
+~~~shell
 godot4-4.7.2/
 ├── DEBIAN/
 │   ├── control        # les métadonnées du paquet
@@ -28,7 +28,7 @@ godot4-4.7.2/
 Le fichier `control` est le cœur du paquet : il décrit ce que le paquet est et ce dont il a besoin. Chaque champ est important. 
 Voici comment je le remplis pour Godot4.
 
-~~~bash
+~~~shell
 Source: godot4
 Section: devel
 Priority: optional
@@ -38,7 +38,7 @@ Package: godot4
 Version: 4.7.2
 Architecture: amd64
 Depends: 
-Description: Développez vos jeux en 2D et 3D, des projets cross-plateformes ou même des applications XR !"
+Description: Développez vos jeux en 2D et 3D, des projets cross-plateformes...
 ~~~
 
 Voici le détail de chaque champ :
@@ -48,7 +48,7 @@ Voici le détail de chaque champ :
 - **`Section`** : catégorie du paquet dans les dépôts (`utils`, `devel`, `games`, `graphics`, `misc`, ...).
 - **`Priority`** : importance relative (`essential`, `important`, `optional`).
 - **`Architecture`** : architecture ciblée (`amd64`, `all` pour les paquets indépendants de l'architecture).
-- **`Maintainer`** : email du maintainer. c'est l'auteur du paquet, pas l'auteur du programme.
+- **`Maintainer`** : email du maintainer. C'est l'auteur du paquet, pas l'auteur du programme.
 - **`Depends`** : liste des paquets requis pour fonctionner. Plusieurs valeurs sont séparées par des virgules. Un champ vide (`Depends: `) signifie « n'a besoin de rien ».
 - **`Description`** : description du paquet.
 - **`Homepage`** : site officiel du projet.
@@ -57,7 +57,7 @@ Voici le détail de chaque champ :
 
 La plupart des paquets Debian doivent inclure un fichier `copyright` décrivant les licences. Voici comment je le remplis pour Godot4.
 
-~~~bash
+~~~shell
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: godot4
 Source: https://github.com/godotengine/godot/tree/4.7.2-stable
@@ -69,7 +69,7 @@ Licence: MIT License
 - **`Format`** : référence le format officiel Debian.
 - **`Upstream-Name`** : nom du projet en amont.
 - **`Source`** : lien vers le dépôt source et le tag correspondant au build.
-- **`Files`** : quelles sections de copyright s'appliquent aux quels fichiers (`*` pour tous).
+- **`Files`** : quelles sections de copyright s'appliquent auxquels fichiers (`*` pour tous).
 - **`Copyright`** : qui détient les droits.
 - **`Licence`** : le texte de la licence (MIT, GNU GPL v3, ...).
 
@@ -85,4 +85,4 @@ Le résultat, `godot4-4.7.2.deb`, peut alors être installé avec `sudo apt inst
 
 # Conclusion
 
-Ce n'est pas si difficile de construire un paquet. Nous verrons dans un prochain article comme creer et herbergé un dépot avec reprepro.
+Ce n'est pas si difficile de construire un paquet. Nous verrons dans un prochain article comme créer et hébergé un dépôt avec Reprepro.

@@ -261,10 +261,10 @@
 			</span>
 		</div>
 	</header>
-	<section><p>Je vous présente aujourd'hui comment faire un paquet pour debian. C'est ainci que je m'y prend pour le projet <a href="2026/orphanage.html">Debian Orphanage</a> qu'on a vu précédement.</p>
+	<section><p>Je vous présente aujourd'hui comment faire un paquet pour Debian. C'est ainsi que je m'y prends pour le projet <a href="2026/orphanage.html">Debian Orphanage</a> qu'on a vu précédemment.</p>
 <h1>Préparer la structure de dossier</h1>
-<p>Il faut creer un dossier, ce dossier correspondra au <code>/</code> quand le paquet sera installer sur le pc. A ce dossier il faut ajouter un fichier DEBIAN/control qu'on verra plus tard. On peu aussi adjoindre un fichier copyright. Prenons en exemple le cas de de mon paquet pour godot 4.</p>
-<pre class="bash"><code class="bash">godot4-4.7.2/
+<p>Il faut créer un dossier, ce dossier correspondra au <code>/</code> quand le paquet sera installé sur l'PC. À ce dossier il faut ajouter un fichier DEBIAN/control qu'on verra plus tard. On peut aussi adjoindre un fichier copyright. Prenons en exemple le cas de mon paquet pour Godot 4.</p>
+<pre class="shell"><code class="shell">godot4-4.7.2/
 ├── DEBIAN/
 │   ├── control        # les métadonnées du paquet
 │   ├── copyright      # les licences
@@ -282,7 +282,7 @@
 <h2><code>DEBIAN/control</code></h2>
 <p>Le fichier <code>control</code> est le cœur du paquet : il décrit ce que le paquet est et ce dont il a besoin. Chaque champ est important.
 Voici comment je le remplis pour Godot4.</p>
-<pre class="bash"><code class="bash">Source: godot4
+<pre class="shell"><code class="shell">Source: godot4
 Section: devel
 Priority: optional
 Maintainer: Shionn&lt;shionn@gmail.com&gt;
@@ -291,7 +291,7 @@ Package: godot4
 Version: 4.7.2
 Architecture: amd64
 Depends: 
-Description: Développez vos jeux en 2D et 3D, des projets cross-plateformes ou même des applications XR !&quot;
+Description: Développez vos jeux en 2D et 3D, des projets cross-plateformes...
 </code></pre>
 <p>Voici le détail de chaque champ :</p>
 <ul>
@@ -300,14 +300,14 @@ Description: Développez vos jeux en 2D et 3D, des projets cross-plateformes ou 
 <li><strong><code>Section</code></strong> : catégorie du paquet dans les dépôts (<code>utils</code>, <code>devel</code>, <code>games</code>, <code>graphics</code>, <code>misc</code>, ...).</li>
 <li><strong><code>Priority</code></strong> : importance relative (<code>essential</code>, <code>important</code>, <code>optional</code>).</li>
 <li><strong><code>Architecture</code></strong> : architecture ciblée (<code>amd64</code>, <code>all</code> pour les paquets indépendants de l'architecture).</li>
-<li><strong><code>Maintainer</code></strong> : email du maintainer. c'est l'auteur du paquet, pas l'auteur du programme.</li>
+<li><strong><code>Maintainer</code></strong> : email du maintainer. C'est l'auteur du paquet, pas l'auteur du programme.</li>
 <li><strong><code>Depends</code></strong> : liste des paquets requis pour fonctionner. Plusieurs valeurs sont séparées par des virgules. Un champ vide (<code>Depends: </code>) signifie « n'a besoin de rien ».</li>
 <li><strong><code>Description</code></strong> : description du paquet.</li>
 <li><strong><code>Homepage</code></strong> : site officiel du projet.</li>
 </ul>
 <h2><code>DEBIAN/copyright</code></h2>
 <p>La plupart des paquets Debian doivent inclure un fichier <code>copyright</code> décrivant les licences. Voici comment je le remplis pour Godot4.</p>
-<pre class="bash"><code class="bash">Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+<pre class="shell"><code class="shell">Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: godot4
 Source: https://github.com/godotengine/godot/tree/4.7.2-stable
 Files: *
@@ -318,7 +318,7 @@ Licence: MIT License
 <li><strong><code>Format</code></strong> : référence le format officiel Debian.</li>
 <li><strong><code>Upstream-Name</code></strong> : nom du projet en amont.</li>
 <li><strong><code>Source</code></strong> : lien vers le dépôt source et le tag correspondant au build.</li>
-<li><strong><code>Files</code></strong> : quelles sections de copyright s'appliquent aux quels fichiers (<code>*</code> pour tous).</li>
+<li><strong><code>Files</code></strong> : quelles sections de copyright s'appliquent auxquels fichiers (<code>*</code> pour tous).</li>
 <li><strong><code>Copyright</code></strong> : qui détient les droits.</li>
 <li><strong><code>Licence</code></strong> : le texte de la licence (MIT, GNU GPL v3, ...).</li>
 </ul>
@@ -328,7 +328,7 @@ Licence: MIT License
 </code></pre>
 <p>Le résultat, <code>godot4-4.7.2.deb</code>, peut alors être installé avec <code>sudo apt install ./godot4-4.7.2.deb</code> ou déposé dans un dépôt.</p>
 <h1>Conclusion</h1>
-<p>Ce n'est pas si difficile de construire un paquet. Nous verrons dans un prochain article comme creer et herbergé un dépot avec reprepro.</p>
+<p>Ce n'est pas si difficile de construire un paquet. Nous verrons dans un prochain article comme créer et hébergé un dépôt avec Reprepro.</p>
 </section>
 	<footer>
 		<em class="author">par shionn, le 23 décembre 2026.</em>

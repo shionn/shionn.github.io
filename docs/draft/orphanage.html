@@ -262,11 +262,11 @@
 		</div>
 	</header>
 	<section><h1>Qu'est-ce qu'Orphanage ?</h1>
-<p>Orphanage est un <strong>dépôt Debian personnalisé</strong>. Ce Depo a pour but d'hebergé des paquets debian qui n'ont pas de dépot dedié.
-C'est comme un orphelinat pour ces paquets. Certain de ces paquets sont hebergé tel quel, comme debian, et d'autre sont packagé par moi-même, comme Godo4.</p>
-<p>Le dépôt est hébergé sur github. <a href="https://shionn.github.io/Debian-Orphanage/" target="_blank"><code>https://shionn.github.io/Debian-Orphanage/</code></a>.</p>
+<p>Orphanage est un <strong>dépôt Debian personnalisé</strong>. Ce Dépôt a pour but d'héberger des paquets Debian qui n'ont pas de dépôt dédié. C'est comme un orphelinat pour ces paquets.
+Certains de ces paquets sont hébergés tels quels, comme Debian, et d'autres sont packagés par moi-même, comme Godot4.</p>
+<p>Le dépôt est hébergé sur GitHub. <a href="https://shionn.github.io/Debian-Orphanage/" target="_blank"><code>https://shionn.github.io/Debian-Orphanage/</code></a>.</p>
 <h1>Ce que contient le dépôt</h1>
-<p>Le dépôt contient une quinzaine de paquets, pour l'instant mais d'autre viendrons.</p>
+<p>Le dépôt contient une quinzaine de paquets, pour l'instant mais d'autres viendront.</p>
 <ul>
 <li><code>orphanage-keyring</code>	<a href="https://github.com/shionn/Debian-Orphanage" target="_blank">Debian-Orphanage</a></li>
 <li><code>bc250-control-center</code>	<a href="https://github.com/movacx/bc250-control-center" target="_blank">movacx/bc250-control-center</a></li>
@@ -288,18 +288,18 @@ C'est comme un orphelinat pour ces paquets. Certain de ces paquets sont hebergé
 <h1>L'utiliser chez soi via la version publique GitHub</h1>
 <p>Les prérequis sont une distribution Debian ou Ubuntu (architecture amd64).</p>
 <h2>Ajouter le dépôt et la clé de signature.</h2>
-<p>Le dépôt public est signé en GPG. La clé de signature ainci que les sources sont fournie dans le paquet <code>orphanage-keyring</code>.</p>
-<pre class="bash"><code class="bash"># Ajouter le dépôt (remplace `trixie` par ta release Debian/Ubuntu)
+<p>Le dépôt public est signé en GPG. La clé de signature ainsi que les sources sont fournies dans le paquet <code>orphanage-keyring</code>.</p>
+<pre class="shell"><code class="shell"># Ajouter le dépôt (remplacer `trixie` par ta release Debian/Ubuntu)
 wget https://shionn.github.io/Debian-Orphanage/pool/main/o/orphanage-keyring/orphanage-keyring_1.0.4_all.deb
 sudo apt install ./orphanage-keyring_1.0.4_all.deb
 sudo apt update
 </code></pre>
 <h2>Installer les paquets souhaités</h2>
 <p>Une fois le dépôt ajouté, les paquets sont disponibles comme n'importe quel autre :</p>
-<pre class="bash"><code class="bash">sudo apt install godot4
+<pre class="shell"><code class="shell">sudo apt install godot4
 </code></pre>
 <h1>Pour conclure</h1>
-<p>J'ai pris beaucoup de plaisir à faire ce dépot. Nous verrons dans des article futur comment creer un paquet debian et hebergé un dépot acvec reprepro.</p>
+<p>J'ai pris beaucoup de plaisir à faire ce dépôt. Nous verrons dans un article futur comment créer un paquet Debian et héberger un dépôt avec Reprepro.</p>
 </section>
 	<footer>
 		<em class="author">par shionn, le 23 décembre 2026.</em>
