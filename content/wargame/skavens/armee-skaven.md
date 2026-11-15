@@ -39,7 +39,6 @@ Ombrage	72112
 Rehaut	72013
 [/paints]
 
-[after date="2024/11/24"]
 ## Thanquol and Boneripper à l'ancienne
 Cela fait un moment que je voulais ma propre version de Thanquol and Boneripper. 
 Mais pas la version moderne, je voulais l'ancienne version. C'est à dire celle-là : 
@@ -89,8 +88,6 @@ pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/12.jpg
 pictures/aos/skaven/rat-ogre-prophete-gris-kit-bash/13.jpg
 [/gallery]
 
-[/after]
-
 ## Verminarque Maleprophete
 J'ai détesté peindre cette figurine. Je ne voulais pas avoir de Verminarque. 
 Mais, en lisant les règles de la cloche, je me suis senti obligé d'en avoir un. 
@@ -138,7 +135,6 @@ Ombrage 2	72051
 Rehaut	72052
 [/paints]
 
-[after date="2026/11/13"]
 ## Griffarque sur Ronge-bête
 
 Provient d'une boite Sakventide.
@@ -157,7 +153,6 @@ pictures/aos/skaven/verminarque-sur-ronge-bete/05.jpg
 pictures/aos/skaven/verminarque-sur-ronge-bete/06.jpg
 [/gallery]
 
-[/after]
 ## Vermines de Choc
 Ces figurines proviennent de ma boite **Échos de la ruine**. Il n'y en a que 10 dans cette boite,
 ce qui est surprenant car ces figurines sont vendues par 20, mais se jouent bien par 10.
@@ -300,6 +295,20 @@ Aplat	72034
 Ombrage	72071
 Éclaircissement	72101
 [/paints]
+
+[after date="2027/01/10"]
+## Ratling
+Après mes skavens peints majoritairement en 2023. Lors de la sortie de la V4, j'ai acheté la boite de base qui vient donc compléter mon armée.
+
+* Peinte en novembre 2026
+* En environ 6 heures
+
+[gallery w=250 h=250]
+pictures/aos/skaven/ratling/01.jpg
+pictures/aos/skaven/ratling/02.jpg
+pictures/aos/skaven/ratling/03.jpg
+[/gallery]
+[/after]
 
 # Clans Skryre & Moulder
 ## Colosses de choc

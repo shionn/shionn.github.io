@@ -187,7 +187,14 @@ pictures/dungeon-and-laser/deuslair/strech/chaos/devourer-of-sanity/03.jpg
 
 ### Possessed Mass of Flesh (SG)
 
-todo
+- Peinte en Novembre 2026
+- En environ 1 heure 30 minutes
+
+[gallery w=150 h=200]
+pictures/dungeon-and-laser/deuslair/strech/chaos/possessed-mass-of-flesh/01.jpg
+pictures/dungeon-and-laser/deuslair/strech/chaos/possessed-mass-of-flesh/02.jpg
+pictures/dungeon-and-laser/deuslair/strech/chaos/possessed-mass-of-flesh/03.jpg
+[/gallery]
 
 ## Gorgers 
 
@@ -256,7 +263,14 @@ pictures/dungeon-and-laser/deuslair/addon/chaos/volard/03.jpg
 
 ### Prophet of Chaos (SG)
 
-todo
+- Peinte en Octobre 2026
+- En environ 4 heures
+
+[gallery w=150 h=200]
+pictures/dungeon-and-laser/deuslair/strech/chaos/prophet-of-chaos/01.jpg
+pictures/dungeon-and-laser/deuslair/strech/chaos/prophet-of-chaos/02.jpg
+pictures/dungeon-and-laser/deuslair/strech/chaos/prophet-of-chaos/03.jpg
+[/gallery]
 
 ## Soulless
 
