@@ -474,8 +474,8 @@ sudo smartctl -a /dev/nvme0
 apt remove nano -y
 echo &quot;set mouse-=a&quot; &gt;&gt; ~/.vimrc
 echo &quot;syntax on&quot; &gt;&gt; ~/.vimrc
-echo &quot;alias ll=\&quot;ls -l\&quot;&quot; &gt;&gt; ~/.bashrc
-echo &quot;alias la=\&quot;ls -al\&quot;&quot; &gt;&gt; ~/.bashrc
+echo &quot;alias ll=\&quot;ls -l --color=always\&quot;&quot; &gt;&gt; ~/.bashrc
+echo &quot;alias la=\&quot;ls -al --color=always\&quot;&quot; &gt;&gt; ~/.bashrc
 </code></pre>
 <h2>Tomcat</h2>
 <p>Quand je veux déployer dans ROOT je dois changer les droits d'accès dans le dossier ROOT de <code>/var/lib/tomcat10/webapps</code></p>

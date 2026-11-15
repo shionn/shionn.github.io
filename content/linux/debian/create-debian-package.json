@@ -1,0 +1,10 @@
+{
+	"type": "post",
+	"date": "2026/12/23",
+	"title": "Créer un paquet debian",
+	"tags": ["debian", "packaging", "deb", "control", "copyright"],
+	"category": "debian",
+	"published": false,
+	"author": "shionn",
+	"js" : [ "js/hljs/bash.min.js" ]
+}

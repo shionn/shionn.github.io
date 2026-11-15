@@ -1,0 +1,10 @@
+{
+	"type": "post",
+	"date": "2026/12/23",
+	"title": "Orphanage : mon dépôt Debian de paquets orphelins",
+	"tags": ["orphanage", "debian", "reprepro", "packaging", "apt"],
+	"category": "debian",
+	"published": true,
+	"author": "shionn",
+	"js" : [ "js/hljs/bash.min.js" ]
+}

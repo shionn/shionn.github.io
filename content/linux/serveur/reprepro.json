@@ -1,0 +1,10 @@
+{
+	"type": "post",
+	"date": "2026/12/23",
+	"title": "Servir son propre dépôt Debian avec reprepro et lighttpd",
+	"tags": ["debian", "reprepro", "gpg", "lighttpd", "repo"],
+	"category": "serveur",
+	"published": false,
+	"author": "shionn",
+	"js" : [ "js/hljs/bash.min.js" ]
+}
