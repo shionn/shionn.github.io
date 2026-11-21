@@ -152,6 +152,7 @@
 						<li><a href="2026/nvidia-proxmox-lxc-passthrought-ollama.html">Ollama Nvidia Passthrought LXC</a></li>
 						<li><a href="2026/proxmox-help-kit.html">Kit d&#39;aide sur Proxmox</a></li>
 						<li><a href="2026/apt-mirror.html">Dépot local grâce à apt-mirror</a></li>
+						<li><a href="2026/llama-proxmox-nvidia.html">LLama Nvidia LXC</a></li>
 					</ul>
 				</li>
 				<li>
@@ -242,6 +243,39 @@
 	</header>
 	<main>
 		
+			
+				<article class="short">
+	<header>
+		
+		<h1><a href="2026/llama-proxmox-nvidia.html">Llama dans Proxmox avec NVIDIA</a></h1>
+		<div>
+			<span>Publié le 21 novembre 2026</span>
+			<span>
+				<span class="fa fa-folder-open"></span>
+				<a href="category/linux.html">Linux</a>
+			</span>
+			<span>
+				<span class="fa fa-flag"></span>
+				<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/nvidia.html">Nvidia</a><a href="tag/llama.html">Llama</a>
+			</span>
+		</div>
+	</header>
+	<section><p>Dans un <a href="2026/nvidia-proxmox-lxc-passthrought-ollama.html">précédent article</a> j'expliquais comment j'avais installé Ollama et Open Webui dans un conteneur LXC sur Proxmox en faisant un passthrough de ma 2080Ti. Aujourd'hui, cet article est très proche du précédent, je recommence avec <a href="https://llama.cpp/" target="_blank">llama.cpp</a> mais cette fois-ci avec ma nouvelle RTX 2080 Ti de 22 Go.</p>
+<h1>Un conteneur Proxmox LXC avec NVIDIA.</h1>
+<h2>Installation des drivers NVIDIA.</h2>
+<p>Il faut installer les drivers NVIDIA sur votre serveur Proxmox.
+La procédure que je présente ici utilise la méthode extrepo que je trouve plus simple.
+Pour cela, commencez par mettre à jour votre serveur :</p>
+<pre class="shell"><code class="shell">apt update &amp;&amp; apt upgrade
+</code></pre>
+<p>Ensuite installons les prérequis sur Proxmox :</p>
+<pre class="shell"><code class="shell">apt install pve-nvidia-vgpu-helper nvtop pve-headers build-essential
+</code></pre>
+</section>
+	<footer>
+		<a href="2026/llama-proxmox-nvidia.html"><span class="fa fa-eye"></span> Lire la suite</a>
+	</footer>
+</article>
 			
 				<article class="short">
 	<header>
@@ -383,42 +417,10 @@ Il s'agit en fait d'une version bridée du SoC qui équipe la PS5. C'est-à-dire
 	</footer>
 </article>
 			
-				<article class="short">
-	<header>
-		<img src="pictures/titles/std/maraudeurs.jpg" title="Noir Serment : Maraudeurs" alt="Noir Serment : Maraudeurs" />
-		<h1><a href="2026/noir-serment-std-maraudeurs.html">Noir Serment : Maraudeurs</a></h1>
-		<div>
-			<span>Publié le 12 octobre 2026</span>
-			<span>
-				<span class="fa fa-folder-open"></span>
-				<a href="category/war-game.html">War Game</a>
-			</span>
-			<span>
-				<span class="fa fa-flag"></span>
-				<a href="tag/war-game.html">War Game</a><a href="tag/arm-e.html">Armée</a><a href="tag/noir-serment.html">Noir Serment</a><a href="tag/std.html">STD</a><a href="tag/aos.html">AoS</a>
-			</span>
-		</div>
-	</header>
-	<section><p>En 2026 j'écluse mes <em>petits</em> projets d'armées.
-J'ai ce petit lot de Noir Serment composé d'un Starter Collection et de quelques figurines achetées sur le Bon Coin.</p>
-<p>Aprés avoir eclusé ce que je n'aime pas peindre (les monstres et la cavalerie) j'ai enfin pu prendre du plaisir
-sur la peinture des troupes de base.</p>
-<h1>Maraudeurs avec lance</h1>
-<p>Je les ai achetés sur Leboncoin. Ils proviennent de la boîte d'armée.</p>
-<ul>
-<li>Peinte en juin 2026</li>
-<li>Environ 20h</li>
-</ul>
-<div class="gallery"><a href="pictures/aos/std/maraudeurs/01.jpg"><img src="pictures/aos/std/maraudeurs/01-400-200.jpg" width="400" height="200"></a></div><div class="gallery"><a href="pictures/aos/std/maraudeurs/02.jpg"><img src="pictures/aos/std/maraudeurs/02-300-200.jpg" width="300" height="200"></a><a href="pictures/aos/std/maraudeurs/03.jpg"><img src="pictures/aos/std/maraudeurs/03-300-200.jpg" width="300" height="200"></a></div></section>
-	<footer>
-		<a href="2026/noir-serment-std-maraudeurs.html"><span class="fa fa-eye"></span> Lire la suite</a>
-	</footer>
-</article>
-			
 			<div>
 				
 				
-				Page : 1/23
+				Page : 1/24
 				<a href="index-1.html">&gt;</a>
 			</div>
 		
@@ -445,7 +447,7 @@ sur la peinture des troupes de base.</p>
 						<a href="category/jeu-soci-t-.html">Jeu Société&nbsp;(1)</a>
 					</li>
 					<li>
-						<a href="category/linux.html">Linux&nbsp;(15)</a>
+						<a href="category/linux.html">Linux&nbsp;(16)</a>
 					</li>
 					<li>
 						<a href="category/manga.html">Manga&nbsp;(4)</a>
@@ -493,8 +495,8 @@ sur la peinture des troupes de base.</p>
 					Conversion&nbsp;(1)
 				</a><a href="tag/dark-angel.html" class="tag0">
 					Dark Angel&nbsp;(1)
-				</a><a href="tag/debian.html" class="tag1">
-					Debian&nbsp;(9)
+				</a><a href="tag/debian.html" class="tag2">
+					Debian&nbsp;(10)
 				</a><a href="tag/decors.html" class="tag0">
 					Decors&nbsp;(1)
 				</a><a href="tag/descent.html" class="tag0">
@@ -574,7 +576,9 @@ sur la peinture des troupes de base.</p>
 				</a><a href="tag/kruelboyz.html" class="tag0">
 					Kruelboyz&nbsp;(1)
 				</a><a href="tag/linux.html" class="tag2">
-					Linux&nbsp;(11)
+					Linux&nbsp;(12)
+				</a><a href="tag/llama.html" class="tag0">
+					Llama&nbsp;(1)
 				</a><a href="tag/manga.html" class="tag0">
 					Manga&nbsp;(3)
 				</a><a href="tag/matos.html" class="tag0">
@@ -598,7 +602,7 @@ sur la peinture des troupes de base.</p>
 				</a><a href="tag/nomnom-miniature.html" class="tag0">
 					NomNom Miniature&nbsp;(2)
 				</a><a href="tag/nvidia.html" class="tag0">
-					Nvidia&nbsp;(1)
+					Nvidia&nbsp;(2)
 				</a><a href="tag/ollama.html" class="tag0">
 					Ollama&nbsp;(1)
 				</a><a href="tag/openrgb.html" class="tag0">
@@ -615,8 +619,8 @@ sur la peinture des troupes de base.</p>
 					PlatformIO&nbsp;(4)
 				</a><a href="tag/princesse-mononokee.html" class="tag0">
 					Princesse Mononokee&nbsp;(1)
-				</a><a href="tag/proxmox.html" class="tag0">
-					Proxmox&nbsp;(4)
+				</a><a href="tag/proxmox.html" class="tag1">
+					Proxmox&nbsp;(5)
 				</a><a href="tag/python.html" class="tag0">
 					Python&nbsp;(2)
 				</a><a href="tag/repaint.html" class="tag0">
@@ -634,7 +638,7 @@ sur la peinture des troupes de base.</p>
 				</a><a href="tag/seigneurs-ruinem-nes.html" class="tag0">
 					Seigneurs Ruinemânes&nbsp;(1)
 				</a><a href="tag/server.html" class="tag1">
-					Server&nbsp;(8)
+					Server&nbsp;(9)
 				</a><a href="tag/shenron.html" class="tag0">
 					Shenron&nbsp;(1)
 				</a><a href="tag/singleton.html" class="tag0">
@@ -683,11 +687,12 @@ sur la peinture des troupes de base.</p>
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2026 (40)</a>
+						<a href="#">2026 (41)</a>
 						<ul>
 							<li>
-								<a href="#">novembre (2)</a>
+								<a href="#">novembre (3)</a>
 								<ul>
+									<li><a href="2026/llama-proxmox-nvidia.html">Llama dans Proxmox avec NVIDIA</a></li>
 									<li><a href="2026/griffarque-ronge-bete.html">Griffarque sur Ronge-bête</a></li>
 									<li><a href="2026/col-du-crane-nains-heros.html">Heros Nains</a></li>
 								</ul>

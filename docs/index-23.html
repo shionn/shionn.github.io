@@ -152,6 +152,7 @@
 						<li><a href="2026/nvidia-proxmox-lxc-passthrought-ollama.html">Ollama Nvidia Passthrought LXC</a></li>
 						<li><a href="2026/proxmox-help-kit.html">Kit d&#39;aide sur Proxmox</a></li>
 						<li><a href="2026/apt-mirror.html">Dépot local grâce à apt-mirror</a></li>
+						<li><a href="2026/llama-proxmox-nvidia.html">LLama Nvidia LXC</a></li>
 					</ul>
 				</li>
 				<li>
@@ -242,249 +243,57 @@
 	</header>
 	<main>
 		
-		
-		
-		
-			<article>
+			
+				<article class="short">
 	<header>
 		
-		<h1><a href="draft/llama-proxmox-nvidia.html">Llama dans Proxmox avec NVIDIA</a></h1>
+		<h1><a href="2023/reouverture.html">Réouverture sur Github.io. Apprendre de nos erreurs.</a></h1>
 		<div>
-			<span>Publié le 21 novembre 2026</span>
+			<span>Publié le 30 mai 2023</span>
 			<span>
 				<span class="fa fa-folder-open"></span>
-				<a href="category/linux.html">Linux</a>
+				<a href="category/vie-du-blog.html">Vie du Blog</a>
 			</span>
 			<span>
 				<span class="fa fa-flag"></span>
-				<a href="tag/linux.html">Linux</a><a href="tag/proxmox.html">Proxmox</a><a href="tag/debian.html">Debian</a><a href="tag/server.html">Server</a><a href="tag/nvidia.html">Nvidia</a><a href="tag/llama.html">Llama</a>
+				<a href="tag/blog.html">Blog</a><a href="tag/developpement.html">Developpement</a><a href="tag/geek.html">Geek</a><a href="tag/java.html">Java</a>
 			</span>
 		</div>
 	</header>
-	<section><p>Dans un <a href="2026/nvidia-proxmox-lxc-passthrought-ollama.html">précédent article</a> j'expliquais comment j'avais installé Ollama et Open Webui dans un conteneur LXC sur Proxmox en faisant un passthrough de ma 2080Ti. Aujourd'hui, cet article est très proche du précédent, je recommence avec <a href="https://llama.cpp/" target="_blank">llama.cpp</a> mais cette fois-ci avec ma nouvelle RTX 2080 Ti de 22 Go.</p>
-<h1>Un conteneur Proxmox LXC avec NVIDIA.</h1>
-<h2>Installation des drivers NVIDIA.</h2>
-<p>Il faut installer les drivers NVIDIA sur votre serveur Proxmox.
-La procédure que je présente ici utilise la méthode extrepo que je trouve plus simple.
-Pour cela, commencez par mettre à jour votre serveur :</p>
-<pre class="shell"><code class="shell">apt update &amp;&amp; apt upgrade
-</code></pre>
-<p>Ensuite installons les prérequis sur Proxmox :</p>
-<pre class="shell"><code class="shell">apt install pve-nvidia-vgpu-helper nvtop pve-headers build-essential
-</code></pre>
-<p>Ensuite Proxmox propose un outil pour préconfigurer votre système à l'installation des drivers NVIDIA.
-Cela met les drivers nouveaux en blacklist et installe quelques paquets nécessaires.</p>
-<pre class="shell"><code class="shell">pve-nvidia-vgpu-helper setup
-</code></pre>
-<p>Ensuite il ne vous reste plus qu'à installer les paquets du driver NVIDIA, puis la méthode extrepo :</p>
-<pre class="shell"><code class="shell">apt install extrepo
-extrepo enable nvidia-cuda
-apt update
-apt install nvidia-open
-</code></pre>
-<h2>Création du conteneur</h2>
-<p>Je crée ici un conteneur Debian 13 avec 4 cœurs, 16 Go de RAM et 64 Go de disque.
-J'ajouterai plus tard si nécessaire.
-Il n'est pas nécessaire d'avoir un conteneur non privilégié.</p>
-<p>Une fois votre conteneur créé, il faut partager votre carte avec votre conteneur.
-Commençons par identifier les périphériques NVIDIA :</p>
-<pre class="shell"><code class="shell">root@MaxiMox:~# ls -l /dev/nvi*
-crw-rw-rw- 1 root root 195,   0 Aug 23 10:52 /dev/nvidia0
-crw-rw-rw- 1 root root 195, 255 Aug 23 10:52 /dev/nvidiactl
-crw-rw-rw- 1 root root 195, 254 Aug 23 10:52 /dev/nvidia-modeset
-crw-rw-rw- 1 root root 508,   0 Aug 23 10:52 /dev/nvidia-uvm
-crw-rw-rw- 1 root root 508,   1 Aug 23 10:52 /dev/nvidia-uvm-tools
-
-/dev/nvidia-caps:
-total 0
-cr-------- 1 root root 234, 1 Aug 23 10:52 nvidia-cap1
-cr--r--r-- 1 root root 234, 2 Aug 23 10:52 nvidia-cap2
-</code></pre>
-<p>Il faut partager tous ces dossiers au conteneur. Cela se fait dans l'interface de votre Proxmox.</p>
-<div class="gallery"><a href="/pictures/linux/proxmox-lxc-nvidia/add-devices-menu.jpg"><img src="/pictures/linux/proxmox-lxc-nvidia/add-devices-menu.jpg"></a><a href="/pictures/linux/proxmox-lxc-nvidia/add-devices.jpg"><img src="/pictures/linux/proxmox-lxc-nvidia/add-devices.jpg"></a></div>
-<p>Et vous devriez avoir quelque chose comme ça :</p>
-<div class="gallery"><a href="/pictures/linux/proxmox-lxc-nvidia/devices-list.jpg"><img src="/pictures/linux/proxmox-lxc-nvidia/devices-list.jpg"></a></div>
-<h2>Driver NVIDIA dans le conteneur</h2>
-<p>Il faut ensuite installer les drivers NVIDIA dans le conteneur en suivant la même procédure :</p>
-<pre class="shell"><code class="shell">apt install extrepo
-extrepo enable nvidia-cuda
-apt update
-apt install nvidia-open
-</code></pre>
-<p>Puis, faites un <code>nvidia-smi</code> et constatez la présence de votre carte :</p>
-<pre class="shell"><code class="shell">$ nvidia-smi
-+-----------------------------------------------------------------------------------------+
-| NVIDIA-SMI 615.71.09              Driver Version: 615.71.09      CUDA Version: 13.4     |
-+-----------------------------------------+------------------------+----------------------+
-| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
-| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
-|                                         |                        |               MIG M. |
-|=========================================+========================+======================|
-|   0  NVIDIA GeForce RTX 2080 Ti     On  |   00000000:06:00.0 Off |                  N/A |
-| 41%   40C    P8              1W /  260W |       4MiB /  22528MiB |      0%      Default |
-|                                         |                        |                  N/A |
-+-----------------------------------------+------------------------+----------------------+
-
-+-----------------------------------------------------------------------------------------+
-| Processes:                                                                              |
-|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
-|        ID   ID                                                               Usage      |
-|=========================================================================================|
-|  No running processes found                                                             |
-+-----------------------------------------------------------------------------------------+
-</code></pre>
-<h1>Llama</h1>
-<h2>Installation</h2>
-<p>Ici c'est assez simple, il suffit de suivre la procédure officielle :</p>
-<pre class="shell"><code class="shell">curl -LsSf https://llama.app/install.sh | sh
-</code></pre>
-<p>Comme llama s'installe dans votre répertoire personnel (ici, je l'installe en root), il faut ensuite l'ajouter à votre PATH. Ajoutez cette ligne à votre .profile :</p>
-<pre class="shell"><code class="shell">export PATH=&quot;$HOME/.local/bin:$PATH&quot;
-</code></pre>
-<h2>Installation en service</h2>
-<p>Créer un fichier <code>/etc/systemd/system/llama-serve.service</code> avec :</p>
-<pre class="shell"><code class="shell">[Unit]
-Description=Llama Server
-After=network.target
-
-[Service]
-User=root
-Type=simple
-WorkingDirectory=/root
-ExecStart=/root/start-llama-serv.sh
-ExecStop=/bin/kill $MAINPID
-
-[Install]
-WantedBy=multi-user.target
-</code></pre>
-<p>Puis créons le fichier <code>/root/start-llama-serv.sh</code> avec :</p>
-<pre class="shell"><code class="shell">#!/bin/bash
-export PATH=&quot;$HOME/.local/bin:$PATH&quot;
-
-llama serve --host 0.0.0.0 \
-  --n-gpu-layers all \
-  --flash-attn on \
-  -ctk q8_0 -ctv q8_0 \
-  --models-preset models.ini \
-  --models-max 1 \
-  --api-key-file api-key
-</code></pre>
-<p>Explications</p>
+	<section><p>Bonjour,</p>
+<p>Un jour j'ai choisi de redémarrer mon serveur sur OVH. Il n'as pas redémarrer.
+J'ai perdu ma BDD.
+Et bien sur mon serveur de backup personnel n'était plus en ligne depuis longtemps.
+Du coup plus d'OVH, j'ai choisi de refaire le blog mais en statique sur github.io.
+Donc plus de commentaire, désoler.</p>
+<p>Bien évidement je pourrai prendre un millier de générateur de site statique existant,
+mais pourquoi pas le faire soit même.
+Mais il semblerait que je préfère redécouvrir la roue.
+Donc j'ai fait mon propre générateur de site statique que vous retrouverez dans mon github (section contact).
+Ce moteur utilise les technologie suivante :</p>
 <ul>
-<li>--host 0.0.0.0 : Écoute sur toutes les interfaces</li>
-<li>--n-gpu-layers all : Utiliser au maximum les GPUs</li>
-<li>--flash-attn on : nécessaire à la quantisation du cache</li>
-<li>-ctk q8_0 : Quantifier le cache K en 8 bits au lieu de fp16</li>
-<li>-ctv q8_0 : Quantifier le cache V en 8 bits au lieu de fp16
-permet de limiter à un maximum de 1 modèle chargé en VRAM, afin que le modèle courant soit déchargé lors d'un changement de modèle.</li>
-<li>--api-key-file api-key : fichier des clés d'authentification, une clé par ligne</li>
+<li>Java</li>
+<li>Template en Thymeleaf</li>
+<li>Lib JS maison qui remplace rapidement Jquery</li>
+<li>FontAwesome</li>
 </ul>
-<p>Puis finalisons l'installation du service</p>
-<pre class="shell"><code class="shell">systemctl daemon-reload
-systemctl enable llama-serve.service
-</code></pre>
-<p>À déplacer</p>
-<ul>
-<li>--spec-type draft-dflash : c'est pour les modèles draft (voir plus bas)</li>
-<li>--models-preset models.ini : fichier de paramétrage de modèles (voir plus bas)</li>
-</ul>
-<h1>Installation des modèles</h1>
-<p>J'ai choisi d'installer 3 modèles avec leurs modèles de draft.</p>
-<ul>
-<li><a href="https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF" target="_blank">Ornith-1.5-9B</a></li>
-<li><a href="https://huggingface.co/abenzerps/Ornith-1.5-9B-DFlash-GGUF" target="_blank">Ornith-1.5-9B-DFlash</a></li>
-<li><a href="https://huggingface.co/unsloth/gemma-4-12b-it-GGUF" target="_blank">Gemma-4-12B &amp; MTP</a></li>
-<li><a href="https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF" target="_blank">NVIDIA-Nemotron-3.5-Bolt-E4B-4GB &amp; Dflash</a></li>
-</ul>
-<p>J'aime beaucoup le modèle Ornith, il est vraiment adapté à la génération de code de façon agentique et n'est pas très lourd.</p>
-<h2>Téléchargement des modèles</h2>
-<p>Je prends ici des modèles quantifiés. La version quantifiée à 8 bits est adaptée en fonction de la quantité de VRAM. Cependant, en dessous de 4B, cela hallucine beaucoup. Je prends les liens de téléchargement présents sur les pages listées précédemment.</p>
-<pre class="shell"><code class="shell">wget https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF/resolve/main/Ornith-1.5-9B-Q8_0.gguf?download=true
-wget https://huggingface.co/abenzerps/Ornith-1.5-9B-DFlash-GGUF/resolve/main/Ornith-1.5-9B-DFlash-Q8_0.gguf?download=true
-wget https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/main/gemma-4-12b-it-Q8_0.gguf?download=true
-wget https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/main/MTP/mtp-gemma-4-12b-it-Q8_0.gguf?download=true
-wget https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF/resolve/main/NVIDIA-Nemotron-3.5-Bolt-E4B-UD-Q8_K_XL.gguf?download=true
-wget https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF/resolve/main/dflash-NVIDIA-Nemotron-3.5-Bolt-E4B-Q8_0.gguf?download=true
-</code></pre>
-<p>Puis je place chaque modèle dans le dossier models</p>
-<h2>Paramétrer les modèles</h2>
-<p>Chaque modèle peut avoir des paramètres différents. C'est à cela que sert le fichier models.ini que nous avons paramétré plus tôt. En outre, cela permet de définir le modèle draft adapté à chaque modèle et la taille du cache. Pour chaque modèle, j'ai utilisé les options conseillées sur la page du modèle.</p>
-<pre class="shell"><code class="shell">[*]
-n-gpu-layers = 99
-
-[Ornith-1.5-9B-Q8_0]
-ctx-size=262144
-model=models/Ornith-1.5-9B-Q8_0.gguf
-model-draft=models/Ornith-1.5-9B-DFlash-Q8_0.gguf
-spec-type=draft-dflash
-spec-draft-n-max=8
-temp=0.6
-top-p=0.95
-top-k=20
-min-p=0.0
-presence-penalty=0.0
-repeat-penalty=1.0
-
-[Nemotron-3.5-Bolt-E4B-Q8]
-model = models/NVIDIA-Nemotron-3.5-Bolt-E4B-UD-Q8_K_XL.gguf
-model-draft = models/dflash-NVIDIA-Nemotron-3.5-Bolt-E4B-Q8_0.gguf
-spec-type = draft-dflash
-spec-draft-n-max = 7
-ctx-size = 65536
-jinja = true
-temp = 1.0
-top-p = 0.95
-top-k = 64
-min-p = 0.0
-presence-penalty = 0.0
-repeat-penalty = 1.0
-
-[Gemmai-4-12B-Q8]
-ctx-size=262144
-model = models/gemma-4-12b-it-Q8_0.gguf
-model-draft = models/mtp-gemma-4-12b-it-Q8_0.gguf
-spec-type = draft-mtp
-# par defaut 2
-spec-draft-n-max = 3
-jinja = true
-temp = 1.0
-top-p = 0.95
-top-k = 64
-</code></pre>
-<p>Puis relancez le service :</p>
-<pre class="shell"><code class="shell">systemctl enable llama-serve.service
-</code></pre>
-<h2>Test</h2>
-<p>Vous pouvez vous connecter au port 8080 de votre serveur à l'aide de votre navigateur et commencer à l'utiliser.</p>
-<div class="gallery"><a href="/pictures/linux/proxmox-lxc-llama/llama-interface-web.png"><img src="/pictures/linux/proxmox-lxc-llama/llama-interface-web-500-400.png" width="500" height="400"></a></div>
-<h1>Utilisation de façon agentique dans Eclipse</h1>
-<h2>Installation de Peon AI</h2>
-<p>J'utilise l'extension PeonAI pour faire de l'agentique. Il peut s'installer via le marketplace d'Eclipse :</p>
-<div class="gallery"><a href="/pictures/linux/proxmox-lxc-llama/peon-ai-eclipse-marketplace.png"><img src="/pictures/linux/proxmox-lxc-llama/peon-ai-eclipse-marketplace.png"></a></div>
-<p>Puis configurez-le :</p>
-<div class="gallery"><a href="/pictures/linux/proxmox-lxc-llama/peon-ai-eclipse-configuration.png"><img src="/pictures/linux/proxmox-lxc-llama/peon-ai-eclipse-configuration.png"></a></div>
-<p>Puis vous pouvez l'utiliser en ouvrant la vue <code>AI Peon</code> dans <code>Window &gt; Show View &gt; Other &gt; AI</code>. Ici je lui demande de corriger cet article.</p>
-<div class="gallery"><a href="/pictures/linux/proxmox-lxc-llama/peon-ai-eclipse-utilisation.png"><img src="/pictures/linux/proxmox-lxc-llama/peon-ai-eclipse-utilisation.png"></a></div></section>
+<p>Il va me falloir beaucoup de temps pour reprendre tous le contenu depuis web archive.
+Surtout que j'ai perdu beaucoup d'image dans l'opération.</p>
+</section>
 	<footer>
-		<em class="author">par Shionn, le 21 novembre 2026.</em>
-		<h2>Commentaires</h2>
-		<div class="comments"></div>
-		<h2>Ajouter un commentaire</h2>
-		<form method="post" class="comments">
-			<div>
-				<label for="author">Votre pseudo</label>
-				<input type="text" name="author" required>
-			</div>
-			<div>
-				<label for="author">Votre message</label>
-				<textarea name="content" required></textarea>
-			</div>
-			<div>
-				<input type="submit" value="Commenter">
-			</div>
-		</form>
+		<a href="2023/reouverture.html"><span class="fa fa-eye"></span> Lire la suite</a>
 	</footer>
 </article>
+			
+			<div>
+				
+				<a href="index-22.html">&lt;</a>
+				Page : 24/24
+				
+			</div>
+		
+		
+		
 		
 		
 	</main>
@@ -506,7 +315,7 @@ top-k = 64
 						<a href="category/jeu-soci-t-.html">Jeu Société&nbsp;(1)</a>
 					</li>
 					<li>
-						<a href="category/linux.html">Linux&nbsp;(15)</a>
+						<a href="category/linux.html">Linux&nbsp;(16)</a>
 					</li>
 					<li>
 						<a href="category/manga.html">Manga&nbsp;(4)</a>
@@ -554,8 +363,8 @@ top-k = 64
 					Conversion&nbsp;(1)
 				</a><a href="tag/dark-angel.html" class="tag0">
 					Dark Angel&nbsp;(1)
-				</a><a href="tag/debian.html" class="tag1">
-					Debian&nbsp;(9)
+				</a><a href="tag/debian.html" class="tag2">
+					Debian&nbsp;(10)
 				</a><a href="tag/decors.html" class="tag0">
 					Decors&nbsp;(1)
 				</a><a href="tag/descent.html" class="tag0">
@@ -635,7 +444,9 @@ top-k = 64
 				</a><a href="tag/kruelboyz.html" class="tag0">
 					Kruelboyz&nbsp;(1)
 				</a><a href="tag/linux.html" class="tag2">
-					Linux&nbsp;(11)
+					Linux&nbsp;(12)
+				</a><a href="tag/llama.html" class="tag0">
+					Llama&nbsp;(1)
 				</a><a href="tag/manga.html" class="tag0">
 					Manga&nbsp;(3)
 				</a><a href="tag/matos.html" class="tag0">
@@ -659,7 +470,7 @@ top-k = 64
 				</a><a href="tag/nomnom-miniature.html" class="tag0">
 					NomNom Miniature&nbsp;(2)
 				</a><a href="tag/nvidia.html" class="tag0">
-					Nvidia&nbsp;(1)
+					Nvidia&nbsp;(2)
 				</a><a href="tag/ollama.html" class="tag0">
 					Ollama&nbsp;(1)
 				</a><a href="tag/openrgb.html" class="tag0">
@@ -676,8 +487,8 @@ top-k = 64
 					PlatformIO&nbsp;(4)
 				</a><a href="tag/princesse-mononokee.html" class="tag0">
 					Princesse Mononokee&nbsp;(1)
-				</a><a href="tag/proxmox.html" class="tag0">
-					Proxmox&nbsp;(4)
+				</a><a href="tag/proxmox.html" class="tag1">
+					Proxmox&nbsp;(5)
 				</a><a href="tag/python.html" class="tag0">
 					Python&nbsp;(2)
 				</a><a href="tag/repaint.html" class="tag0">
@@ -695,7 +506,7 @@ top-k = 64
 				</a><a href="tag/seigneurs-ruinem-nes.html" class="tag0">
 					Seigneurs Ruinemânes&nbsp;(1)
 				</a><a href="tag/server.html" class="tag1">
-					Server&nbsp;(8)
+					Server&nbsp;(9)
 				</a><a href="tag/shenron.html" class="tag0">
 					Shenron&nbsp;(1)
 				</a><a href="tag/singleton.html" class="tag0">
@@ -744,11 +555,12 @@ top-k = 64
 				<h1><span class="fa fa-calendar"></span> Calendrier</h1>
 					<ul class="tree">
 					<li>
-						<a href="#">2026 (40)</a>
+						<a href="#">2026 (41)</a>
 						<ul>
 							<li>
-								<a href="#">novembre (2)</a>
+								<a href="#">novembre (3)</a>
 								<ul>
+									<li><a href="2026/llama-proxmox-nvidia.html">Llama dans Proxmox avec NVIDIA</a></li>
 									<li><a href="2026/griffarque-ronge-bete.html">Griffarque sur Ronge-bête</a></li>
 									<li><a href="2026/col-du-crane-nains-heros.html">Heros Nains</a></li>
 								</ul>
@@ -1108,6 +920,17 @@ top-k = 64
 	<script type="text/javascript" src="js/table.js"></script>
 	<script type="text/javascript" src="js/hljs/highlight.min.js"></script>
 	<script type="text/javascript" src="js/hljs/bash.min.js"></script>
+	<script type="text/javascript" src="js/hljs/cpp.min.js"></script>
+	<script type="text/javascript" src="js/hljs/java.min.js"></script>
+	<script type="text/javascript" src="js/hljs/python.min.js"></script>
+	<script type="text/javascript" src="js/hljs/sql.min.js"></script>
+	<script type="text/javascript" src="js/hljs/xml.min.js"></script>
+	<script type="text/javascript" src="js/paint-db.js"></script>
+	<script type="text/javascript" src="js/paint-equivalence-db.js"></script>
+	<script type="text/javascript" src="js/paint-equivalence.js"></script>
+	<script type="text/javascript" src="js/paint-guide.js"></script>
+	<script type="text/javascript" src="js/pour-la-gloire-de-tortuga.js"></script>
+	<script type="text/javascript" src="js/tortuga-2026.js"></script>
 	<script type="text/javascript">if(hljs) {hljs.highlightAll();}</script>
 </body>
 </html>
